@@ -1,1 +1,1 @@
-# JuliaKudryavtseva-NLP-DL-Project-hypo-to-hyper
+# NLP-DL-Project-hypo-to-hyper
