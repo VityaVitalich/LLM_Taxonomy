@@ -96,7 +96,7 @@ class evaluate_model:
     def SemEval2018_metrics(self, path_data, path_prediciton, param_inx, general_param):
         # redirect stdout
         _std_out = subprocess.check_output(['python', os.path.join(os.getcwd(), 'evaluation/custom_scorer.py'), 
-                                            path_data, path_prediciton])
+                                            path_data, os.path.join(os.getcwd(), path_prediciton)])
         _std_out = _std_out.decode('UTF-8')
         _std_out = _std_out  + param_inx
 
@@ -124,7 +124,7 @@ class evaluate_model:
     
     def custom_metrics(self, path_data, path_prediciton, answer, param, general_param):
         _std_out = subprocess.check_output(['python', os.path.join(os.getcwd(), 'evaluation/custom_scorer.py'), 
-                                            path_data, path_prediciton])
+                                            path_data, os.path.join(os.getcwd(), path_prediciton)])
         _std_out = _std_out.decode('UTF-8')
         table = answer(_std_out, param, general_param)
         return table
