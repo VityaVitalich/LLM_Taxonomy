@@ -2,3 +2,4 @@ Data/
 __pycache__
 dataload_env
 .ruff_cache
+experiment.txt
