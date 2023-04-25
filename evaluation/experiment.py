@@ -24,7 +24,7 @@ import subprocess
 
 import itertools
 from evaluation.std_answers2table import answers
-from evalution.scorer import get_all_metrics
+from evaluation.scorer import get_all_metrics
 
 
 # ------ evaluate single model ------
