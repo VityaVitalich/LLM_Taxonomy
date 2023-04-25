@@ -24,6 +24,7 @@ import subprocess
 
 import itertools
 from evaluation.std_answers2table import answers
+from evalution.scorer import get_all_metrics
 
 
 # ------ evaluate single model ------
@@ -79,8 +80,10 @@ class evaluate_model:
 
             decoded_list = []
             for output in outputs:
-                decoded = self.tokenizer.decode(output, skip_special_tokens=True).split(
-                    ", "
+                decoded = (
+                    self.tokenizer.decode(output, skip_special_tokens=True)
+                    .replace("\n", "")
+                    .split(", ")
                 )
                 decoded_list.extend(decoded)
 
@@ -136,17 +139,11 @@ class evaluate_model:
         return table
 
     def custom_metrics(self, path_data, path_prediciton, answer, param, general_param):
-        _std_out = subprocess.check_output(
-            [
-                "python",
-                os.path.join(os.getcwd(), "evaluation/custom_scorer.py"),
-                path_data,
-                os.path.join(os.getcwd(), path_prediciton),
-            ]
-        )
-        _std_out = _std_out.decode("UTF-8")
-        table = answer(_std_out, param, general_param)
-        return table
+        res = get_all_metrics(os.path.join(os.getcwd(), path_prediciton), path_data)
+        res = pd.DataFrame.from_dict(res, orient="columns")
+        res.index = [str(param)]
+
+        return res
 
 
 # ------ Pairs Dataset ------
