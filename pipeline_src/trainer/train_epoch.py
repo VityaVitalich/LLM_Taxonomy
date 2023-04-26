@@ -9,11 +9,11 @@ from utils.plotters import visualize_predictions
 import wandb
 from utils.tools import freeze, unfreeze
 import json
-from metrics.metrics import mean_average_precision
+from metrics.metrics import get_all_metrics
 
 
 def train_iter_LM(
-    model, train_loader, val_loader, scheduler, logger, config, epoch, device
+    model, tokenizer, train_loader, val_loader, scheduler, logger, config, epoch
 ):
     unfreeze(model)
 
@@ -23,7 +23,9 @@ def train_iter_LM(
 
         terms, targets, input_seqs, labels = batch
 
-        output = model.forward(input_seqs, labels=labels)
+        output = model.forward(
+            input_seqs.to(config.device), labels=labels.to(config.device)
+        )
 
         scheduler.zero_grad()
         loss = output["loss"]
@@ -40,8 +42,8 @@ def train_iter_LM(
         # gc.collect()
         # torch.cuda.empty_cache()
 
-        if (i + 1) % config.validation == 0:
-            validate(model, val_loader)
+        if (batch_idx + 1) % config.validation == 0:
+            validate(model, val_loader, logger, config)
 
         if (batch_idx + 1) % config.save_every == 0:
             torch.save(
@@ -53,41 +55,59 @@ def train_iter_LM(
                 f"best_model_{st}_{epoch}.pth",
             )
 
-        if (i + 1) % config.show_every == 0:
+        if (batch_idx + 1) % config.show_every == 0:
             # show some examples TODO
             # visualize_predictions()
             # и это тоже пихнуть в валидацию
             pass
 
-        if (i + 1) % config.compute_metrics_every == 0:
+        if (batch_idx + 1) % config.compute_metrics_every == 0:
             # кмк это можно пихнуть в валидацию чтобы снизить
             # вычисления и метрики смотреть
-            predict(model, val_loader)
+            all_preds, all_labels = predict(model, val_loader, tokenizer, config)
+            metrics = get_all_metrics(all_labels, all_preds)
+
+            for key in metrics:
+                logger.add_scalar(key, metrics[key])
 
     return None
     # return loss ...
 
 
-def validate(model, val_loader, logger):
+def validate(model, val_loader, logger, config):
     freeze(model)
 
     for batch_idx, batch in tqdm(enumerate(val_loader)):
         terms, targets, input_seqs, labels = batch
 
         with torch.no_grad():
-            output = model.foward(input_seqs, labels=labels)
+            output = model.foward(
+                input_seqs.to(config.device), labels=labels.to(config.device)
+            )
             loss = output["loss"]
             logger.add_scalar("Val_loss", loss.item())
 
             # del y, batch, output, loss
 
 
-def predict():
-    # TODO
-    batch, y = sampler.sample(config.batch_size)
+def predict(model, val_loader, tokenizer, config):
+    freeze(model)
 
-    with torch.no_grad():
-        output = model(batch)
-        map_ = mean_average_precision(output, y)
-        logger.add_scalar("MAP", map_)
-        del y, batch, output, map_
+    all_preds = []
+    all_labels = []
+
+    for batch_idx, batch in tqdm(enumerate(val_loader)):
+        terms, targets, input_seqs, labels = batch
+
+        with torch.no_grad():
+            output_tokens = model.generate(terms.to(config.device), **config.gen_args)
+            pred_tokens = output_tokens[:, terms.size()[1] :]
+            pred_str = tokenizer.batch_decode(
+                pred_tokens.cpu(), skip_special_token=True
+            )
+            gold_str = tokenizer.batch_decode(labels, skip_special_token=True)
+
+            all_preds.extend(pred_str)
+            all_labels.extend(gold_str)
+
+    return all_preds, all_labels

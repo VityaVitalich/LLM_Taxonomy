@@ -1,16 +1,19 @@
 from dataclasses import dataclass
 import torch
+from typing import Dict, Any
 
 
 @dataclass
 class TaskConfig:
-    device: torch.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device: torch.device = torch.device(
+        "cuda:0" if torch.cuda.is_available() else "cpu"
+    )
     batch_size: int = 64
     dict_size: int = 51
-    
+
     n_epochs: int = 20
     lr: float = 1e-4
-    project_name: str = 'taxonomy'
+    project_name: str = "taxonomy"
     show_every: int = 5
     save_every: int = 100
     validation: int = 0
@@ -24,3 +27,8 @@ class TaskConfig:
     max_length: int = 100
     block_size: int = 64
     mode: str = "train"
+    gen_args: Dict[str, Any] = {
+        "num_beams": 3,
+        "early_stopping": True,
+        "max_new_tokens": 5,
+    }
