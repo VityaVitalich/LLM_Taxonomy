@@ -61,3 +61,69 @@ def mean_average_precision(r, n):
         Mean average precision
     """
     return average_precision(r, n)
+
+
+def get_hypernyms(line, is_gold=True, limit=15):
+    if is_gold == True:
+        valid_hyps = line.strip().split("\t")
+        return valid_hyps
+    else:
+        linesplit = line.strip().split("\t")
+        cand_hyps = []
+        for hyp in linesplit[:limit]:
+            hyp_lower = hyp.lower()
+            if hyp_lower not in cand_hyps:
+                cand_hyps.append(hyp_lower)
+        return cand_hyps
+
+
+def get_all_metrics(golds, preds, limit=15):
+    all_scores = []
+    scores_names = ["MRR", "MAP", "P@1", "P@3", "P@5", "P@15"]
+    for i in range(len(golds)):
+        goldline = golds[i]
+        predline = preds[i]
+
+        avg_pat1 = []
+        avg_pat2 = []
+        avg_pat3 = []
+        avg_pat4 = []
+
+        gold_hyps = get_hypernyms(goldline, is_gold=True, limit=limit)
+        pred_hyps = get_hypernyms(predline, is_gold=False, limit=limit)
+        gold_hyps_n = len(gold_hyps)
+        r = [0 for i in range(limit)]
+
+        for j in range(len(pred_hyps)):
+            pred_hyp = pred_hyps[j]
+            if pred_hyp in gold_hyps:
+                r[j] = 1
+
+        avg_pat1.append(precision_at_k(r, 1, gold_hyps_n))
+        avg_pat2.append(precision_at_k(r, 3, gold_hyps_n))
+        avg_pat3.append(precision_at_k(r, 5, gold_hyps_n))
+        avg_pat4.append(precision_at_k(r, 15, gold_hyps_n))
+
+        mrr_score_numb = mean_reciprocal_rank(r)
+        map_score_numb = mean_average_precision(r, gold_hyps_n)
+        avg_pat1_numb = sum(avg_pat1) / len(avg_pat1)
+        avg_pat2_numb = sum(avg_pat2) / len(avg_pat2)
+        avg_pat3_numb = sum(avg_pat3) / len(avg_pat3)
+        avg_pat4_numb = sum(avg_pat4) / len(avg_pat4)
+
+        scores_results = [
+            mrr_score_numb,
+            map_score_numb,
+            avg_pat1_numb,
+            avg_pat2_numb,
+            avg_pat3_numb,
+            avg_pat4_numb,
+        ]
+        all_scores.append(scores_results)
+
+    res = {}
+    for k in range(len(scores_names)):
+        res[scores_names[k]] = [
+            sum([score_list[k] for score_list in all_scores]) / len(all_scores)
+        ]
+    return res
