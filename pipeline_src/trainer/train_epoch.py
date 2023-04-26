@@ -72,7 +72,9 @@ def train_iter_LM(
         if (batch_idx + 1) % config.compute_metrics_every == 0:
             # кмк это можно пихнуть в валидацию чтобы снизить
             # вычисления и метрики смотреть
-            all_preds, all_labels = predict(model, val_loader, tokenizer, config)
+            all_preds, all_labels = predict(
+                model, val_loader, tokenizer, config, gen_args
+            )
             metrics = get_all_metrics(all_labels, all_preds)
 
             for key in metrics:
