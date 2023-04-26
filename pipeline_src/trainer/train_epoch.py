@@ -13,7 +13,15 @@ from metrics.metrics import get_all_metrics
 
 
 def train_iter_LM(
-    model, tokenizer, train_loader, val_loader, scheduler, logger, config, epoch
+    model,
+    tokenizer,
+    train_loader,
+    val_loader,
+    scheduler,
+    logger,
+    config,
+    epoch,
+    gen_args,
 ):
     unfreeze(model)
 
@@ -64,7 +72,9 @@ def train_iter_LM(
         if (batch_idx + 1) % config.compute_metrics_every == 0:
             # кмк это можно пихнуть в валидацию чтобы снизить
             # вычисления и метрики смотреть
-            all_preds, all_labels = predict(model, val_loader, tokenizer, config)
+            all_preds, all_labels = predict(
+                model, val_loader, tokenizer, config, gen_args
+            )
             metrics = get_all_metrics(all_labels, all_preds)
 
             for key in metrics:
@@ -90,24 +100,24 @@ def validate(model, val_loader, logger, config):
             # del y, batch, output, loss
 
 
-def predict(model, val_loader, tokenizer, config):
+def predict(model, val_loader, tokenizer, config, gen_args):
     freeze(model)
 
     all_preds = []
     all_labels = []
 
-    for batch_idx, batch in tqdm(enumerate(val_loader)):
+    pbar = tqdm(enumerate(val_loader), total=len(val_loader))
+    for batch_idx, batch in pbar:
         terms, targets, input_seqs, labels = batch
 
-        with torch.no_grad():
-            output_tokens = model.generate(terms.to(config.device), **config.gen_args)
-            pred_tokens = output_tokens[:, terms.size()[1] :]
-            pred_str = tokenizer.batch_decode(
-                pred_tokens.cpu(), skip_special_token=True
-            )
-            gold_str = tokenizer.batch_decode(labels, skip_special_token=True)
+        output_tokens = model.generate(
+            terms.to(config.device), pad_token_id=tokenizer.eos_token_id, **gen_args
+        )
+        pred_tokens = output_tokens[:, terms.size()[1] :]
+        pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
+        gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
 
-            all_preds.extend(pred_str)
-            all_labels.extend(gold_str)
+        all_preds.extend(pred_str)
+        all_labels.extend(gold_str)
 
     return all_preds, all_labels

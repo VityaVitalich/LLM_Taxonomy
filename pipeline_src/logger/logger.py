@@ -9,10 +9,7 @@ class WanDBWriter:
 
         wandb.login()
 
-        wandb.init(
-            project=config.project_name,
-            config=config
-        )
+        wandb.init(project=config.project_name, config=config)
         self.wandb = wandb
 
         self.step = 0
@@ -33,30 +30,44 @@ class WanDBWriter:
         return f"{self.mode}-{scalar_name}"
 
     def add_scalar(self, scalar_name, scalar):
-        self.wandb.log({
-            self.scalar_name(scalar_name): scalar,
-        }, step=self.step)
+        self.wandb.log(
+            {
+                self.scalar_name(scalar_name): scalar,
+            },
+            step=self.step,
+        )
 
     def add_scalars(self, tag, scalars):
-        self.wandb.log({
-            **{f"{scalar_name}_{tag}_{self.mode}": scalar for scalar_name, scalar in scalars.items()}
-        }, step=self.step)
+        self.wandb.log(
+            {
+                **{
+                    f"{scalar_name}_{tag}_{self.mode}": scalar
+                    for scalar_name, scalar in scalars.items()
+                }
+            },
+            step=self.step,
+        )
 
     def add_image(self, scalar_name, image):
-        self.wandb.log({
-            self.scalar_name(scalar_name): self.wandb.Image(image)
-        }, step=self.step)
+        self.wandb.log(
+            {self.scalar_name(scalar_name): self.wandb.Image(image)}, step=self.step
+        )
 
     def add_audio(self, scalar_name, audio, sample_rate=None):
         audio = audio.detach().cpu().numpy().T
-        self.wandb.log({
-            self.scalar_name(scalar_name): self.wandb.Audio(audio, sample_rate=sample_rate)
-        }, step=self.step)
+        self.wandb.log(
+            {
+                self.scalar_name(scalar_name): self.wandb.Audio(
+                    audio, sample_rate=sample_rate
+                )
+            },
+            step=self.step,
+        )
 
     def add_text(self, scalar_name, text):
-        self.wandb.log({
-            self.scalar_name(scalar_name): self.wandb.Html(text)
-        }, step=self.step)
+        self.wandb.log(
+            {self.scalar_name(scalar_name): self.wandb.Html(text)}, step=self.step
+        )
 
     def add_histogram(self, scalar_name, hist, bins=None):
         hist = hist.detach().cpu().numpy()
@@ -64,10 +75,6 @@ class WanDBWriter:
         if np_hist[0].shape[0] > 512:
             np_hist = np.histogram(hist, bins=512)
 
-        hist = self.wandb.Histogram(
-            np_histogram=np_hist
-        )
+        hist = self.wandb.Histogram(np_histogram=np_hist)
 
-        self.wandb.log({
-            self.scalar_name(scalar_name): hist
-        }, step=self.step)
+        self.wandb.log({self.scalar_name(scalar_name): hist}, step=self.step)

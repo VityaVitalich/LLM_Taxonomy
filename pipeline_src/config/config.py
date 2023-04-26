@@ -27,8 +27,10 @@ class TaskConfig:
     max_length: int = 100
     block_size: int = 64
     mode: str = "train"
-    gen_args: Dict[str, Any] = {
-        "num_beams": 3,
-        "early_stopping": True,
-        "max_new_tokens": 5,
-    }
+
+
+gen_args: Dict[str, Any] = {
+    "num_beams": 3,
+    "early_stopping": True,
+    "max_new_tokens": 5,
+}
