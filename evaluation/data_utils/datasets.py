@@ -59,7 +59,7 @@ class HypernymDataset(Dataset):
 
         return {
             "encoded_term": encoded_term.squeeze(),  # думаю потребуется при генерации, или для сек 2 сек
-            "encoded_target": encoded_target.squeeze(),  # отдельно токены для таргета
+            "encoded_target": encoded_target.squeeze(0),  # отдельно токены для таргета
             "input_seq": input_seq.squeeze(),  # полное предложение без масок
             "labels": labels.squeeze(),  # маскированный контекст
         }
@@ -76,12 +76,16 @@ class HypernymDataset(Dataset):
         labels = []
 
         for elem in batch:
-            terms.append(elem["encoded_term"])
+            terms.append(
+                elem["encoded_term"].flip(dims=[0])
+            )  # делаем это для того чтобы паддинг был слева
             targets.append(elem["encoded_target"])
             inputs.append(elem["input_seq"])
             labels.append(elem["labels"])
 
-        terms = torch.nn.utils.rnn.pad_sequence(terms, batch_first=True)
+        terms = torch.nn.utils.rnn.pad_sequence(terms, batch_first=True).flip(
+            dims=[1]
+        )  # reverse/flip the padded tensor in first dimension
         targets = torch.nn.utils.rnn.pad_sequence(targets, batch_first=True)
         inputs = torch.nn.utils.rnn.pad_sequence(inputs, batch_first=True)
         labels = torch.nn.utils.rnn.pad_sequence(labels, batch_first=True)
