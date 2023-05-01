@@ -1,10 +1,17 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 import torch
 from typing import Dict, Any
 
 
 @dataclass
 class TaskConfig:
+    gen_args: Dict[str, Any] = field(
+        default_factory=lambda: {
+            "num_beams": 3,
+            "early_stopping": True,
+            "max_new_tokens": 5,
+        }
+    )
     device: torch.device = torch.device(
         "cuda:0" if torch.cuda.is_available() else "cpu"
     )
@@ -27,10 +34,7 @@ class TaskConfig:
     max_length: int = 100
     block_size: int = 64
     mode: str = "train"
-
-
-gen_args: Dict[str, Any] = {
-    "num_beams": 3,
-    "early_stopping": True,
-    "max_new_tokens": 5,
-}
+    data_path: str = "./"
+    gold_path: str = "./"
+    test_data_path: str = "./"
+    test_gold_path: str = "./"

@@ -12,16 +12,16 @@ import json
 from metrics.metrics import get_all_metrics
 
 
-def train_iter_LM(
+def train_iter(
     model,
     tokenizer,
+    scheduler,
     train_loader,
     val_loader,
-    scheduler,
+    crit,
     logger,
     config,
     epoch,
-    gen_args,
 ):
     unfreeze(model)
 
@@ -72,9 +72,7 @@ def train_iter_LM(
         if (batch_idx + 1) % config.compute_metrics_every == 0:
             # кмк это можно пихнуть в валидацию чтобы снизить
             # вычисления и метрики смотреть
-            all_preds, all_labels = predict(
-                model, val_loader, tokenizer, config, gen_args
-            )
+            all_preds, all_labels = predict(model, val_loader, tokenizer, config)
             metrics = get_all_metrics(all_labels, all_preds)
 
             for key in metrics:
@@ -84,9 +82,8 @@ def train_iter_LM(
     # return loss ...
 
 
+@torch.no_grad()
 def validate(model, val_loader, logger, config):
-    freeze(model)
-
     for batch_idx, batch in tqdm(enumerate(val_loader)):
         terms, targets, input_seqs, labels = batch
 
@@ -100,9 +97,8 @@ def validate(model, val_loader, logger, config):
             # del y, batch, output, loss
 
 
+@torch.no_grad()
 def predict(model, val_loader, tokenizer, config, gen_args):
-    freeze(model)
-
     all_preds = []
     all_labels = []
 
@@ -111,7 +107,9 @@ def predict(model, val_loader, tokenizer, config, gen_args):
         terms, targets, input_seqs, labels = batch
 
         output_tokens = model.generate(
-            terms.to(config.device), pad_token_id=tokenizer.eos_token_id, **gen_args
+            terms.to(config.device),
+            pad_token_id=tokenizer.eos_token_id,
+            **config.gen_args,
         )
         pred_tokens = output_tokens[:, terms.size()[1] :]
         pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
