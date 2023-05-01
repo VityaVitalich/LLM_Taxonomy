@@ -12,7 +12,7 @@ import json
 from metrics.metrics import get_all_metrics
 
 
-def train_iter(
+def train_epoch(
     model,
     tokenizer,
     scheduler,
@@ -88,7 +88,7 @@ def validate(model, val_loader, logger, config):
         terms, targets, input_seqs, labels = batch
 
         with torch.no_grad():
-            output = model.foward(
+            output = model.forward(
                 input_seqs.to(config.device), labels=labels.to(config.device)
             )
             loss = output["loss"]
@@ -98,7 +98,7 @@ def validate(model, val_loader, logger, config):
 
 
 @torch.no_grad()
-def predict(model, val_loader, tokenizer, config, gen_args):
+def predict(model, tokenizer, val_loader, config):
     all_preds = []
     all_labels = []
 

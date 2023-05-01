@@ -23,7 +23,8 @@ class TaskConfig:
     project_name: str = "taxonomy"
     show_every: int = 5
     save_every: int = 100
-    validation: int = 0
+    validation: int = 2
+    loss_tol: float = 0
     weight_decay: float = 1e-4
     base_factor: int = 48
     exp_name: str = "small_t5_debug"

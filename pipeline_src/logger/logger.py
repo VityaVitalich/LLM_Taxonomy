@@ -9,7 +9,7 @@ class WanDBWriter:
 
         wandb.login()
 
-        wandb.init(project=config.project_name, config=config)
+        wandb.init(name=config.exp_name, project=config.project_name, config=config)
         self.wandb = wandb
 
         self.step = 0
@@ -25,6 +25,9 @@ class WanDBWriter:
             duration = datetime.now() - self.timer
             self.add_scalar("steps_per_sec", 1 / duration.total_seconds())
             self.timer = datetime.now()
+
+    def get_step(self):
+        return self.step
 
     def scalar_name(self, scalar_name):
         return f"{self.mode}-{scalar_name}"
