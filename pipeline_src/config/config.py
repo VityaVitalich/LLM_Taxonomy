@@ -22,7 +22,8 @@ class TaskConfig:
     lr: float = 1e-4
     project_name: str = "taxonomy"
     show_every: int = 5
-    save_every: int = 100
+    embedding_dim: int = 1024
+    save_every: int = 1
     validation: int = 2
     loss_tol: float = 0
     weight_decay: float = 1e-4
