@@ -25,7 +25,8 @@ def train_epoch(
 ):
     unfreeze(model)
 
-    for batch_idx, batch in tqdm(enumerate(train_loader)):
+    pbar = tqdm(enumerate(train_loader), total=len(train_loader))
+    for batch_idx, batch in pbar:
         st = logger.get_step() + 1
         logger.set_step(step=st, mode="train")
 
@@ -41,6 +42,7 @@ def train_epoch(
         scheduler.step()
 
         logger.add_scalar("loss", loss.item())
+        pbar.set_postfix({"Loss": loss.item()})
 
         if config.loss_tol != 0 and loss.item() <= config.loss_tol:
             break
@@ -84,7 +86,9 @@ def train_epoch(
 
 @torch.no_grad()
 def validate(model, val_loader, logger, config):
-    for batch_idx, batch in tqdm(enumerate(val_loader)):
+    freeze(model)
+
+    for batch_idx, batch in enumerate(val_loader):
         terms, targets, input_seqs, labels = batch
 
         with torch.no_grad():
@@ -99,6 +103,8 @@ def validate(model, val_loader, logger, config):
 
 @torch.no_grad()
 def predict(model, tokenizer, val_loader, config):
+    freeze(model)
+
     all_preds = []
     all_labels = []
 
