@@ -123,7 +123,8 @@ def get_all_metrics(golds, preds, limit=15):
 
     res = {}
     for k in range(len(scores_names)):
-        res[scores_names[k]] = [
-            sum([score_list[k] for score_list in all_scores]) / len(all_scores)
-        ]
+        res[scores_names[k]] = sum([score_list[k] for score_list in all_scores]) / len(
+            all_scores
+        )
+
     return res

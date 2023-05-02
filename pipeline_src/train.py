@@ -9,8 +9,10 @@ from transformers import (
 )
 from config.config import TaskConfig
 import numpy as np
-from trainer.train_epoch import train_epoch
+from trainer.train_epoch import train_epoch, predict
+from metrics.metrics import get_all_metrics
 from torch.utils.data import DataLoader
+from dataset.dataset import HypernymDataset, Collator
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
 from logger.logger import WanDBWriter
@@ -54,10 +56,37 @@ class CustomScheduler:
         self.optimizer.step()
 
 
-def train(model, tknz, sampler, scheduler, criterion, logger, config):
+def train(
+    model, tokenizer, train_loader, val_loader, scheduler, criterion, logger, config
+):
     for epoch in range(config.n_epochs):
         print(f"Start of the epoch {epoch}")
-        train_epoch(model, tknz, scheduler, sampler, criterion, logger, config, epoch)
+        train_epoch(
+            model,
+            tokenizer,
+            scheduler,
+            train_loader,
+            val_loader,
+            criterion,
+            logger,
+            config,
+            epoch,
+        )
+
+        all_preds, all_labels = predict(model, tokenizer, val_loader, config)
+        metrics = get_all_metrics(all_labels, all_preds)
+        for key in metrics:
+            logger.add_scalar(key, float(metrics[key]))
+
+        if (epoch + 1) % config.save_every == 0:
+            torch.save(
+                {
+                    "model": model.state_dict(),
+                    # 'opt': optimizer.state_dict(),
+                    # "sch": scheduler.state_dict(),
+                },
+                f"{config.model_checkpoint}_epoch={epoch}_MAP={metrics['MAP']}.pth",
+            )
 
 
 if __name__ == "__main__":
@@ -65,15 +94,46 @@ if __name__ == "__main__":
     config = TaskConfig()
 
     # model
-    model = AutoModelForSeq2SeqLM.from_pretrained(config.model_checkpoint).to(
+    model = AutoModelForCausalLM.from_pretrained(config.model_checkpoint).to(
         config.device
     )
     tokenizer = AutoTokenizer.from_pretrained(
         config.model_checkpoint,
-        max_length=config.max_length,
-        block_size=config.block_size,
+        padding_side="left",
     )
 
+    # data
+    train_dataset = HypernymDataset(
+        data_path=config.data_path,
+        tokenizer=tokenizer,
+        gold_path=config.gold_path,
+        semeval_format=True,
+    )
+    test_dataset = HypernymDataset(
+        data_path=config.test_data_path,
+        tokenizer=tokenizer,
+        gold_path=config.test_gold_path,
+        semeval_format=True,
+    )
+
+    collator = Collator(tokenizer.eos_token_id, tokenizer.eos_token_id)
+
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=config.batch_size,
+        collate_fn=collator,
+        shuffle=True,
+        num_workers=8,
+        drop_last=True,
+    )
+    val_loader = DataLoader(
+        test_dataset,
+        batch_size=config.batch_size,
+        collate_fn=collator,
+        shuffle=False,
+        num_workers=8,
+        drop_last=True,
+    )
     # optmizations
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.AdamW(
@@ -86,6 +146,15 @@ if __name__ == "__main__":
 
     # training
     if config.mode == "train":
-        train(model, tokenizer, sampler, scheduler, criterion, logger, config)
+        train(
+            model,
+            tokenizer,
+            train_loader,
+            val_loader,
+            scheduler,
+            criterion,
+            logger,
+            config,
+        )
     else:
         print("Unknown mode")

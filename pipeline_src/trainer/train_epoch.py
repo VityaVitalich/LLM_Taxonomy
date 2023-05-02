@@ -54,16 +54,17 @@ def train_epoch(
 
         if (batch_idx + 1) % config.validation == 0:
             validate(model, val_loader, logger, config)
+            unfreeze(model)
 
-        if (batch_idx + 1) % config.save_every == 0:
-            torch.save(
-                {
-                    "model": model.state_dict(),
-                    # 'opt': optimizer.state_dict(),
-                    "sch": scheduler.state_dict(),
-                },
-                f"best_model_{st}_{epoch}.pth",
-            )
+        # if (batch_idx + 1) % config.save_every == 0:
+        #     torch.save(
+        #         {
+        #             "model": model.state_dict(),
+        #             # 'opt': optimizer.state_dict(),
+        #             # "sch": scheduler.state_dict(),
+        #         },
+        #         f"{config.model_checkpoint}_{st}_{epoch}.pth",
+        #     )
 
         if (batch_idx + 1) % config.show_every == 0:
             # show some examples TODO
@@ -71,15 +72,16 @@ def train_epoch(
             # и это тоже пихнуть в валидацию
             pass
 
-        if (batch_idx + 1) % config.compute_metrics_every == 0:
-            # кмк это можно пихнуть в валидацию чтобы снизить
-            # вычисления и метрики смотреть
-            all_preds, all_labels = predict(model, val_loader, tokenizer, config)
-            metrics = get_all_metrics(all_labels, all_preds)
+        # if (batch_idx + 1) % config.compute_metrics_every == 0:
+        #     # кмк это можно пихнуть в валидацию чтобы снизить
+        #     # вычисления и метрики смотреть
+        #     all_preds, all_labels = predict(model, tokenizer, val_loader, config)
+        #     metrics = get_all_metrics(all_labels, all_preds)
 
-            for key in metrics:
-                logger.add_scalar(key, metrics[key])
+        #     for key in metrics:
+        #         logger.add_scalar(key, metrics[key][0])
 
+        #     unfreeze(model)
     return None
     # return loss ...
 
@@ -108,8 +110,8 @@ def predict(model, tokenizer, val_loader, config):
     all_preds = []
     all_labels = []
 
-    pbar = tqdm(enumerate(val_loader), total=len(val_loader))
-    for batch_idx, batch in pbar:
+    evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
+    for batch_idx, batch in evalbar:
         terms, targets, input_seqs, labels = batch
 
         output_tokens = model.generate(
