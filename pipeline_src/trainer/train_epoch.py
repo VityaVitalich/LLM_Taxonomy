@@ -23,7 +23,8 @@ def train_epoch(
     config,
     epoch,
 ):
-    unfreeze(model)
+    #unfreeze(model)
+    model.train()
 
     pbar = tqdm(enumerate(train_loader), total=len(train_loader))
     for batch_idx, batch in pbar:
@@ -54,7 +55,7 @@ def train_epoch(
 
         if (batch_idx + 1) % config.validation == 0:
             validate(model, val_loader, logger, config)
-            unfreeze(model)
+            model.train()
 
         # if (batch_idx + 1) % config.save_every == 0:
         #     torch.save(
@@ -88,7 +89,7 @@ def train_epoch(
 
 @torch.no_grad()
 def validate(model, val_loader, logger, config):
-    freeze(model)
+    model.eval()
 
     for batch_idx, batch in enumerate(val_loader):
         terms, targets, input_seqs, labels = batch
@@ -105,7 +106,7 @@ def validate(model, val_loader, logger, config):
 
 @torch.no_grad()
 def predict(model, tokenizer, val_loader, config):
-    freeze(model)
+    model.eval()
 
     all_preds = []
     all_labels = []

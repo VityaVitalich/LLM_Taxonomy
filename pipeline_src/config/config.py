@@ -40,3 +40,5 @@ class TaskConfig:
     gold_path: str = "./"
     test_data_path: str = "./"
     test_gold_path: str = "./"
+    saving_path: str = '/raid/rabikov/model_checkpoint/'
+    using_peft: bool = False

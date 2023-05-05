@@ -65,10 +65,10 @@ def mean_average_precision(r, n):
 
 def get_hypernyms(line, is_gold=True, limit=15):
     if is_gold == True:
-        valid_hyps = line.strip().split("\t")
+        valid_hyps = line.strip().split(",")
         return valid_hyps
     else:
-        linesplit = line.strip().split("\t")
+        linesplit = line.strip().split(",")
         cand_hyps = []
         for hyp in linesplit[:limit]:
             hyp_lower = hyp.lower()

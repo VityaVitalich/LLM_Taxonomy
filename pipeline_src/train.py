@@ -72,8 +72,10 @@ def train(
             config,
             epoch,
         )
-
-        all_preds, all_labels = predict(model, tokenizer, val_loader, config)
+        if config.using_peft:
+             all_preds, all_labels = predict(model.model, tokenizer, val_loader, config)
+        else:
+            all_preds, all_labels = predict(model, tokenizer, val_loader, config)
         metrics = get_all_metrics(all_labels, all_preds)
         for key in metrics:
             logger.add_scalar(key, float(metrics[key]))
@@ -85,7 +87,7 @@ def train(
                     # 'opt': optimizer.state_dict(),
                     # "sch": scheduler.state_dict(),
                 },
-                f"{config.model_checkpoint}_epoch={epoch}_MAP={metrics['MAP']}.pth",
+                f"{config.saving_path}_epoch={epoch}_MAP={metrics['MAP']}.pth",
             )
 
 
