@@ -1,7 +1,7 @@
 def hypo_term_hyper(term):
     """
-    hyponym: {term} | hyperonym:
+    hyponym: {term} | hypernyms:
     """
-    transormed_term = "hyponym: " + term + " | hyperonym:"
+    transormed_term = "hyponym: " + term + " | hypernyms:"
 
     return transormed_term

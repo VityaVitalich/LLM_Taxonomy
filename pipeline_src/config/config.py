@@ -42,3 +42,4 @@ class TaskConfig:
     test_gold_path: str = "./"
     saving_path: str = '/raid/rabikov/model_checkpoint/'
     using_peft: bool = False
+    wandb_log_dir: str = './'
