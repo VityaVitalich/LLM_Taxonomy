@@ -57,13 +57,15 @@ class CustomScheduler:
 
 
 def train(
-    model, tokenizer, train_loader, val_loader, scheduler, criterion, logger, config
+    model, tokenizer, train_loader, val_loader,
+    optimizer, scheduler, criterion, logger, config
 ):
     for epoch in range(config.n_epochs):
         print(f"Start of the epoch {epoch}")
         train_epoch(
             model,
             tokenizer,
+            optimizer,
             scheduler,
             train_loader,
             val_loader,

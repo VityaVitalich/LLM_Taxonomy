@@ -78,9 +78,10 @@ class HypernymDataset(Dataset):
 
 
 class Collator:
-    def __init__(self, pad_token_id, eos_token_id):
+    def __init__(self, pad_token_id, eos_token_id, mask_token_id):
         self.pad_token_id = pad_token_id
         self.eos_token_id = eos_token_id
+        self.mask_token_id = mask_token_id
 
     def __call__(self, batch):
         terms = []
@@ -101,10 +102,16 @@ class Collator:
             targets, batch_first=True, padding_value=self.eos_token_id
         )
         inputs = torch.nn.utils.rnn.pad_sequence(
-            inputs, batch_first=True, padding_value=self.eos_token_id
+            inputs, batch_first=True, padding_value=self.pad_token_id
         )
         labels = torch.nn.utils.rnn.pad_sequence(
-            labels, batch_first=True, padding_value=self.eos_token_id
+            labels, batch_first=True, padding_value=self.mask_token_id
         )
 
-        return (terms, targets, inputs, labels)
+        att_mask_inputs = torch.zeros_like(inputs)
+        att_mask_inputs[inputs != self.pad_token_id] = 1
+
+        att_mask_terms = torch.zeros_like(terms)
+        att_mask_terms[terms != self.pad_token_id] = 1
+
+        return (terms, att_mask_terms, targets, inputs, att_mask_inputs, labels)

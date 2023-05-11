@@ -19,7 +19,8 @@ class TaskConfig:
     dict_size: int = 51
 
     n_epochs: int = 20
-    lr: float = 1e-4
+    lr: float = 3e-4
+    min_lr: float = 3e-5
     project_name: str = "taxonomy"
     show_every: int = 5
     embedding_dim: int = 1024
@@ -40,6 +41,6 @@ class TaskConfig:
     gold_path: str = "./"
     test_data_path: str = "./"
     test_gold_path: str = "./"
-    saving_path: str = '/raid/rabikov/model_checkpoint/'
+    saving_path: str = "/raid/rabikov/model_checkpoint/"
     using_peft: bool = False
-    wandb_log_dir: str = './'
+    wandb_log_dir: str = "./"

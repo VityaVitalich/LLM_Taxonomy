@@ -15,6 +15,7 @@ from metrics.metrics import get_all_metrics
 def train_epoch(
     model,
     tokenizer,
+    optimizer,
     scheduler,
     train_loader,
     val_loader,
@@ -31,15 +32,18 @@ def train_epoch(
         st = logger.get_step() + 1
         logger.set_step(step=st, mode="train")
 
-        terms, targets, input_seqs, labels = batch
+        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
 
         output = model.forward(
-            input_seqs.to(config.device), labels=labels.to(config.device)
+            input_seqs.to(config.device),
+            attention_mask=att_mask_input.to(config.device),
+            labels=labels.to(config.device)
         )
 
-        scheduler.zero_grad()
+        optimizer.zero_grad()
         loss = output["loss"]
         loss.backward()
+        optimizer.step()
         scheduler.step()
 
         logger.add_scalar("loss", loss.item())
@@ -92,11 +96,13 @@ def validate(model, val_loader, logger, config):
     model.eval()
 
     for batch_idx, batch in enumerate(val_loader):
-        terms, targets, input_seqs, labels = batch
+        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
 
         with torch.no_grad():
             output = model.forward(
-                input_seqs.to(config.device), labels=labels.to(config.device)
+                input_seqs.to(config.device),
+                attention_mask=att_mask_input.to(config.device),
+                labels=labels.to(config.device)
             )
             loss = output["loss"]
             logger.add_scalar("Val_loss", loss.item())
@@ -113,10 +119,11 @@ def predict(model, tokenizer, val_loader, config):
 
     evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
     for batch_idx, batch in evalbar:
-        terms, targets, input_seqs, labels = batch
+        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
 
         output_tokens = model.generate(
             terms.to(config.device),
+            attention_mask=att_mask_terms.to(config.device),
             pad_token_id=tokenizer.eos_token_id,
             **config.gen_args,
         )
