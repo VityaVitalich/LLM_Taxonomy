@@ -25,7 +25,7 @@ class TaskConfig:
     show_every: int = 5
     embedding_dim: int = 1024
     save_every: int = 1
-    validation: int = 2
+    validation: int = 1
     loss_tol: float = 0
     weight_decay: float = 1e-4
     base_factor: int = 48
@@ -44,3 +44,5 @@ class TaskConfig:
     saving_path: str = "/raid/rabikov/model_checkpoint/"
     using_peft: bool = False
     wandb_log_dir: str = "./"
+    model_type: str = "Auto"  # Auto or Llama
+    saving_predictions_path: str = "/raid/rabikov/model_outputs/"

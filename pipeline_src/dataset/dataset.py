@@ -9,6 +9,8 @@ from torch.utils.data import Dataset
 
 from dataset.prompt_schemas import hypo_term_hyper
 import pandas as pd
+from multiprocessing import cpu_count
+from torch.utils.data import DataLoader
 
 
 class HypernymDataset(Dataset):
@@ -115,3 +117,46 @@ class Collator:
         att_mask_terms[terms != self.pad_token_id] = 1
 
         return (terms, att_mask_terms, targets, inputs, att_mask_inputs, labels)
+
+
+def init_data(tokenizer, config, mask_label_token=-100, semeval_format=True):
+    # data
+    train_dataset = HypernymDataset(
+        data_path=config.data_path,
+        tokenizer=tokenizer,
+        gold_path=config.gold_path,
+        semeval_format=semeval_format,
+    )
+    test_dataset = HypernymDataset(
+        data_path=config.test_data_path,
+        tokenizer=tokenizer,
+        gold_path=config.test_gold_path,
+        semeval_format=semeval_format,
+    )
+
+    num_workers = cpu_count()
+
+    collator = Collator(
+        tokenizer.eos_token_id, tokenizer.eos_token_id, mask_label_token
+    )
+
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=config.batch_size,
+        collate_fn=collator,
+        shuffle=True,
+        num_workers=num_workers,
+        drop_last=True,
+        pin_memory=True,
+    )
+    val_loader = DataLoader(
+        test_dataset,
+        batch_size=config.batch_size,
+        collate_fn=collator,
+        shuffle=False,
+        num_workers=num_workers,
+        drop_last=True,
+        pin_memory=True,
+    )
+
+    return train_dataset, test_dataset, train_loader, val_loader

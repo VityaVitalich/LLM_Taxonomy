@@ -10,6 +10,9 @@ import wandb
 from utils.tools import freeze, unfreeze
 import json
 from metrics.metrics import get_all_metrics
+import itertools
+from collections import Counter
+import pickle
 
 
 def train_epoch(
@@ -24,7 +27,7 @@ def train_epoch(
     config,
     epoch,
 ):
-    #unfreeze(model)
+    # unfreeze(model)
     model.train()
 
     pbar = tqdm(enumerate(train_loader), total=len(train_loader))
@@ -37,7 +40,7 @@ def train_epoch(
         output = model.forward(
             input_seqs.to(config.device),
             attention_mask=att_mask_input.to(config.device),
-            labels=labels.to(config.device)
+            labels=labels.to(config.device),
         )
 
         optimizer.zero_grad()
@@ -52,41 +55,6 @@ def train_epoch(
         if config.loss_tol != 0 and loss.item() <= config.loss_tol:
             break
 
-        # кажется пересылки и удаления очень очень едят время
-        # del y, batch, output, loss
-        # gc.collect()
-        # torch.cuda.empty_cache()
-
-        if (batch_idx + 1) % config.validation == 0:
-            validate(model, val_loader, logger, config)
-            model.train()
-
-        # if (batch_idx + 1) % config.save_every == 0:
-        #     torch.save(
-        #         {
-        #             "model": model.state_dict(),
-        #             # 'opt': optimizer.state_dict(),
-        #             # "sch": scheduler.state_dict(),
-        #         },
-        #         f"{config.model_checkpoint}_{st}_{epoch}.pth",
-        #     )
-
-        if (batch_idx + 1) % config.show_every == 0:
-            # show some examples TODO
-            # visualize_predictions()
-            # и это тоже пихнуть в валидацию
-            pass
-
-        # if (batch_idx + 1) % config.compute_metrics_every == 0:
-        #     # кмк это можно пихнуть в валидацию чтобы снизить
-        #     # вычисления и метрики смотреть
-        #     all_preds, all_labels = predict(model, tokenizer, val_loader, config)
-        #     metrics = get_all_metrics(all_labels, all_preds)
-
-        #     for key in metrics:
-        #         logger.add_scalar(key, metrics[key][0])
-
-        #     unfreeze(model)
     return None
     # return loss ...
 
@@ -102,7 +70,7 @@ def validate(model, val_loader, logger, config):
             output = model.forward(
                 input_seqs.to(config.device),
                 attention_mask=att_mask_input.to(config.device),
-                labels=labels.to(config.device)
+                labels=labels.to(config.device),
             )
             loss = output["loss"]
             logger.add_scalar("Val_loss", loss.item())
@@ -111,7 +79,44 @@ def validate(model, val_loader, logger, config):
 
 
 @torch.no_grad()
-def predict(model, tokenizer, val_loader, config):
+def predict(model, tokenizer, val_loader, config, epoch=""):
+    model.eval()
+
+    all_preds = []
+    all_labels = []
+
+    saving_path = config.saving_predictions_path + config.exp_name + "_" + str(epoch)
+
+    evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
+    for batch_idx, batch in evalbar:
+        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+
+        output_tokens = model.generate(
+            terms.to(config.device),
+            attention_mask=att_mask_terms.to(config.device),
+            pad_token_id=tokenizer.eos_token_id,
+            **config.gen_args,
+        )
+        pred_tokens = output_tokens[:, terms.size()[1] :]
+        pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
+        gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
+
+        all_preds.extend(pred_str)
+        all_labels.extend(gold_str)
+
+        if batch_idx % 10 == 0:
+            with open(saving_path, "wb") as fp:
+                pickle.dump(all_preds, fp)
+
+    return all_preds, all_labels
+
+
+@torch.no_grad()
+def predict_multiple(model, tokenizer, val_loader, config):
+    """
+    !!! ONLY WORKS WITH BATCH SIZE 1 !!!
+    NEED TO FIX!
+    """
     model.eval()
 
     all_preds = []
@@ -131,7 +136,21 @@ def predict(model, tokenizer, val_loader, config):
         pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
         gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
 
-        all_preds.extend(pred_str)
+        del output_tokens
+        torch.cuda.empty_cache()
+
+        merged_iter = itertools.chain.from_iterable(
+            list(map(lambda x: x.split(","), pred_str))
+        )
+        sorted_predicted_answer = [
+            i[0].strip().replace("\n", "") for i in Counter(merged_iter).most_common()
+        ]
+
+        all_preds.append(sorted_predicted_answer)
         all_labels.extend(gold_str)
+
+        if batch_idx % 5 == 0:
+            with open("/raid/rabikov/model_outputs/predictions_dolly_2", "wb") as fp:
+                pickle.dump(all_preds, fp)
 
     return all_preds, all_labels
