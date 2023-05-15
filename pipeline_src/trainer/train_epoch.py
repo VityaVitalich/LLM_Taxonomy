@@ -108,6 +108,8 @@ def predict(model, tokenizer, val_loader, config, epoch=""):
             with open(saving_path, "wb") as fp:
                 pickle.dump(all_preds, fp)
 
+    with open(saving_path, "wb") as fp:
+        pickle.dump(all_preds, fp)
     return all_preds, all_labels
 
 
