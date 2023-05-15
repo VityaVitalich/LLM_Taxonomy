@@ -8,10 +8,11 @@ from transformers import (
     AutoModelForCausalLM,
 )
 from config.config import TaskConfig
-from dataset.dataset import LoaderSampler, load_dataset
 import numpy as np
-from trainer.train_epoch import train_iter_LM
+from trainer.train_epoch import train_epoch, predict, validate
+from metrics.metrics import get_all_metrics
 from torch.utils.data import DataLoader
+from dataset.dataset import HypernymDataset, Collator
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
 from logger.logger import WanDBWriter
@@ -55,30 +56,105 @@ class CustomScheduler:
         self.optimizer.step()
 
 
-def train(model, tknz, sampler, scheduler, criterion, logger, config):
+def train(
+    model,
+    tokenizer,
+    train_loader,
+    val_loader,
+    optimizer,
+    scheduler,
+    criterion,
+    logger,
+    config,
+):
     for epoch in range(config.n_epochs):
         print(f"Start of the epoch {epoch}")
-        train_iter_LM(model, tknz, scheduler, sampler, criterion, logger, config, epoch)
+        train_epoch(
+            model,
+            tokenizer,
+            optimizer,
+            scheduler,
+            train_loader,
+            val_loader,
+            criterion,
+            logger,
+            config,
+            epoch,
+        )
+
+        if (epoch + 1) % config.validation == 0:
+            validate(model, val_loader, logger, config)
+
+        if (epoch + 1) % config.compute_metrics_every == 0:
+            if config.using_peft:
+                all_preds, all_labels = predict(
+                    model.model, tokenizer, val_loader, config
+                )
+            else:
+                all_preds, all_labels = predict(
+                    model, tokenizer, val_loader, config, epoch=epoch
+                )
+
+            metrics = get_all_metrics(all_labels, all_preds)
+            for key in metrics:
+                logger.add_scalar(key, float(metrics[key]))
+
+        if (epoch + 1) % config.save_every == 0:
+            torch.save(
+                {
+                    "model": model.state_dict(),
+                    # 'opt': optimizer.state_dict(),
+                    # "sch": scheduler.state_dict(),
+                },
+                f"{config.saving_path}_epoch={epoch}_MAP={metrics['MAP']}.pth",
+            )
 
 
 if __name__ == "__main__":
     # create config
     config = TaskConfig()
 
-    # data
-    dataset = load_dataset(path="./", batch_size=config.batch_size)
-    sampler = LoaderSampler(dataset, device=config.device)
-
     # model
-    model = AutoModelForSeq2SeqLM.from_pretrained(config.model_checkpoint).to(
+    model = AutoModelForCausalLM.from_pretrained(config.model_checkpoint).to(
         config.device
     )
     tokenizer = AutoTokenizer.from_pretrained(
         config.model_checkpoint,
-        max_length=config.max_length,
-        block_size=config.block_size,
+        padding_side="left",
     )
 
+    # data
+    train_dataset = HypernymDataset(
+        data_path=config.data_path,
+        tokenizer=tokenizer,
+        gold_path=config.gold_path,
+        semeval_format=True,
+    )
+    test_dataset = HypernymDataset(
+        data_path=config.test_data_path,
+        tokenizer=tokenizer,
+        gold_path=config.test_gold_path,
+        semeval_format=True,
+    )
+
+    collator = Collator(tokenizer.eos_token_id, tokenizer.eos_token_id)
+
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=config.batch_size,
+        collate_fn=collator,
+        shuffle=True,
+        num_workers=8,
+        drop_last=True,
+    )
+    val_loader = DataLoader(
+        test_dataset,
+        batch_size=config.batch_size,
+        collate_fn=collator,
+        shuffle=False,
+        num_workers=8,
+        drop_last=True,
+    )
     # optmizations
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.AdamW(
@@ -91,6 +167,15 @@ if __name__ == "__main__":
 
     # training
     if config.mode == "train":
-        train(model, tokenizer, sampler, scheduler, criterion, logger, config)
+        train(
+            model,
+            tokenizer,
+            train_loader,
+            val_loader,
+            scheduler,
+            criterion,
+            logger,
+            config,
+        )
     else:
         print("Unknown mode")

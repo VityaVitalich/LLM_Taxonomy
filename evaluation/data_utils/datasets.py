@@ -68,26 +68,36 @@ class HypernymDataset(Dataset):
         return len(self.df)
 
     # ничего необычного, складываем, паддим
-    @staticmethod
-    def collate_fn(batch):
+
+
+class Collator:
+    def __init__(self, pad_token_id, eos_token_id):
+        self.pad_token_id = pad_token_id
+        self.eos_token_id = eos_token_id
+
+    def __call__(self, batch):
         terms = []
         targets = []
         inputs = []
         labels = []
 
         for elem in batch:
-            terms.append(
-                elem["encoded_term"].flip(dims=[0])
-            )  # делаем это для того чтобы паддинг был слева
+            terms.append(elem["encoded_term"].flip(dims=[0]))
             targets.append(elem["encoded_target"])
             inputs.append(elem["input_seq"])
             labels.append(elem["labels"])
 
-        terms = torch.nn.utils.rnn.pad_sequence(terms, batch_first=True).flip(
-            dims=[1]
-        )  # reverse/flip the padded tensor in first dimension
-        targets = torch.nn.utils.rnn.pad_sequence(targets, batch_first=True)
-        inputs = torch.nn.utils.rnn.pad_sequence(inputs, batch_first=True)
-        labels = torch.nn.utils.rnn.pad_sequence(labels, batch_first=True)
+        terms = torch.nn.utils.rnn.pad_sequence(
+            terms, batch_first=True, padding_value=self.pad_token_id
+        ).flip(dims=[1])
+        targets = torch.nn.utils.rnn.pad_sequence(
+            targets, batch_first=True, padding_value=self.eos_token_id
+        )
+        inputs = torch.nn.utils.rnn.pad_sequence(
+            inputs, batch_first=True, padding_value=self.eos_token_id
+        )
+        labels = torch.nn.utils.rnn.pad_sequence(
+            labels, batch_first=True, padding_value=self.eos_token_id
+        )
 
         return (terms, targets, inputs, labels)
