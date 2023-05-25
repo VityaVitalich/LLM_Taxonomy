@@ -95,7 +95,7 @@ class GeneratorMixin:
             ):
                 for child in self.G.successors(node):
                     if self.G.out_degree(child) == 1:
-                        yield (node, child, list(self.G.successors(child)))
+                        yield (node, child, list(self.G.successors(child))[0])
 
 
 class Collector(GeneratorMixin):
@@ -237,7 +237,7 @@ class Collector(GeneratorMixin):
         simple_triplets = self.simple_triplets_generator()
         for grandparent, parent, child in simple_triplets:
             elem = {}
-            elem["children"] = child[0]
+            elem["children"] = child
             elem["parents"] = parent
             elem["grandparents"] = grandparent
             elem["case"] = "simple_triplet"
@@ -355,5 +355,7 @@ class Leafer:
         self.collector.collect_only_child()
         self.collector.collect_only_leafs()
         self.collector.collect_not_only_leafs()
+        # if triplets needed
+        self.collector.collect_simple_triplets()
 
         return self.collector.train, self.collector.test
