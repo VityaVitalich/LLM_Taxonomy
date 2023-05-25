@@ -85,7 +85,7 @@ class GeneratorMixin:
                 
     def simple_triplets_generator(self):
         """
-        Generator function that return triplets with condition: middle node has only one child
+        Generator function that returns triplets with condition: middle node has only one child
         """
         for node, degree in self.G.out_degree():
             if (
@@ -96,6 +96,21 @@ class GeneratorMixin:
                 for child in self.G.successors(node):
                     if self.G.out_degree(child) == 1:
                         yield (node, child, list(self.G.successors(child))[0])
+
+    def mixes_generator(self):
+        """
+        Generator function that returns triplets with 2 parents with their common child
+        """
+        for node, degree in self.G.out_degree():
+            if (
+                    self.generations[node] > self.generation_depth
+                    and len(node) > 1
+                ):
+                    parents = list(self.G.predecessors(node))
+                    if len(parents) > 1:
+                        for i in range(len(parents)):
+                            for j in range(i+1,len(parents)):
+                                yield (node, parents[i], parents[j])
 
 
 class Collector(GeneratorMixin):
@@ -255,6 +270,28 @@ class Collector(GeneratorMixin):
                         self.train.append(elem)
                         self.train_verteces.add(child)
 
+    def collect_mixes_triplets(self):
+        mixes_triplets = self.mixes_generator()
+        for child, parent1, parent2 in mixes_triplets:
+            elem = {}
+            elem["children"] = child
+            elem["parents"] = [parent1, parent2]
+            elem["grandparents"] = None
+            elem["case"] = "simple_triplet"
+
+            if child in self.train_verteces:
+                self.train.append(elem)
+            else:
+                if child in self.test_verteces:
+                    self.test.append(elem)
+                else:
+                    if self.goes_to_test():
+                        self.test.append(elem)
+                        self.test_verteces.add(child)
+                    else:
+                        self.train.append(elem)
+                        self.train_verteces.add(child)
+
     def get_possible_train(self, children):
         """
         Returns two lists that could possibly go to test
@@ -357,5 +394,6 @@ class Leafer:
         self.collector.collect_not_only_leafs()
         # if triplets needed
         self.collector.collect_simple_triplets()
+        self.collector.collect_mixes_triplets()
 
         return self.collector.train, self.collector.test
