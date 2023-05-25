@@ -242,10 +242,18 @@ class Collector(GeneratorMixin):
             elem["grandparents"] = grandparent
             elem["case"] = "simple_triplet"
 
-            if self.goes_to_test():
-                #add to test
+            if child in self.train_verteces:
+                self.train.append(elem)
             else:
-                #add to train
+                if child in self.test_verteces:
+                    self.test.append(elem)
+                else:
+                    if self.goes_to_test():
+                        self.test.append(elem)
+                        self.test_verteces.add(child)
+                    else:
+                        self.train.append(elem)
+                        self.train_verteces.add(child)
 
     def get_possible_train(self, children):
         """
