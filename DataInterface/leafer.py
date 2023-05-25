@@ -82,6 +82,20 @@ class GeneratorMixin:
                         else:
                             non_leafs.append(child)
                     yield (leafs, non_leafs, node)
+                
+    def simple_triplets_generator(self):
+        """
+        Generator function that return triplets with condition: middle node has only one child
+        """
+        for node, degree in self.G.out_degree():
+            if (
+                degree == 1
+                and self.generations[node] > self.generation_depth
+                and len(node) > 1
+            ):
+                for child in self.G.successors(node):
+                    if self.G.out_degree(child) == 1:
+                        yield (node, child, list(self.G.successors(child)))
 
 
 class Collector(GeneratorMixin):
