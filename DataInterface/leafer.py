@@ -89,7 +89,7 @@ class GeneratorMixin:
         """
         for node, degree in self.G.out_degree():
             if (
-                degree == 1
+                degree >= 1
                 and self.generations[node] > self.generation_depth
                 and len(node) > 1
             ):
@@ -232,6 +232,20 @@ class Collector(GeneratorMixin):
 
             else:
                 self.write_to_train(elem, children_leafs + children_no_leafs)
+
+    def collect_simple_triplets(self):
+        simple_triplets = self.simple_triplets_generator()
+        for grandparent, parent, child in simple_triplets:
+            elem = {}
+            elem["children"] = child[0]
+            elem["parents"] = parent
+            elem["grandparents"] = grandparent
+            elem["case"] = "simple_triplet"
+
+            if self.goes_to_test():
+                #add to test
+            else:
+                #add to train
 
     def get_possible_train(self, children):
         """
