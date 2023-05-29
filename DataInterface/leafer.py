@@ -46,6 +46,7 @@ class Leafer:
         p=0.1,
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
+        weights=[0.2, 0.2, 0.2, 0.2, 0.2],
     ):
         """
         Interface for train test splitting
@@ -57,7 +58,7 @@ class Leafer:
             p,
             p_divide_leafs,
             min_to_test_rate,
-            weights=[0.2, 0.2, 0.2, 0.2, 0.2],
+            weights=weights,
         )
         # self.collector.collect_only_child()
         # self.collector.collect_only_leafs()
