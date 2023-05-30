@@ -71,7 +71,7 @@ class HypernymDataset(Dataset):
         # заранее пишу более общо, чтобы мы могли разне процессинги пробовать, а в будущем рандомно выбирать и тд
         # это типа мы подаем список трансформаций затравок
         # processed_term = self.transforms[0](term)
-        processed_term = self.case2transform[case](elem)
+        processed_term, target = self.case2transform[case](elem)
 
         # токенизируем
         encoded_term = self.tokenizer.encode(
