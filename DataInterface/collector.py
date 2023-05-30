@@ -3,6 +3,7 @@ from typing import Dict, Generator, Optional, Set, Tuple
 import networkx as nx
 
 import numpy as np
+from copy import deepcopy
 
 
 """
@@ -223,28 +224,66 @@ class Collector(GeneratorMixin):
                     to_test_subset = children[: len(children) // 2]
                     to_train_subset = children[len(children) // 2 :]
 
+                    # в тест еще кладем братьев чтобы использовать в промпте
+                    elem["brothers"] = to_train_subset
                     self.write_to_test(elem, to_test_subset)
-                    self.write_to_train(elem, to_train_subset)
+
+                    elem["case"] = "only_leafs_all"
+                    self.write_to_train(
+                        elem, to_train_subset
+                    )  # в трейне предсказываем детей по родителю
 
                 else:
                     self.write_to_test(elem, children)
 
             else:
-                self.write_to_train(elem, children)
+                if self.divide_on_half():
+                    # пример когда делаем братьев для предсказания внутри трейна
+                    # модель должна в трейне видеть такие примеры
+                    elem["case"] = "only_leafs_divided"
+                    # делим пополам
+                    to_test_subset = children[: len(children) // 2]
+                    to_train_subset = children[len(children) // 2 :]
+
+                    # просто представили что тест это то что мы должны предсказать
+                    elem["brothers"] = to_train_subset
+                    self.write_to_train(
+                        elem, to_test_subset
+                    )  # в трейне предсказываем детей по родителю
+                else:
+                    self.write_to_train(elem, children)
 
         elif to_test_rate >= self.min_to_test_rate:
             if self.goes_to_test():
                 elem["case"] = "only_leafs_divided"
+
                 # эвристически пихнем больше вершин в трейн
                 to_obtain_half = (len(children) // 2) - len(possible_train)
                 possible_train = possible_train + possible_test[:to_obtain_half]
                 possible_test = possible_test[to_obtain_half:]
 
+                elem["brothers"] = possible_train
                 self.write_to_test(elem, possible_test)
+
+                elem["case"] = "only_leafs_all"
                 self.write_to_train(elem, possible_train)
 
             else:
-                self.write_to_train(elem, children)
+                if self.divide_on_half():
+                    # пример когда делаем братьев для предсказания внутри трейна
+                    # модель должна в трейне видеть такие примеры
+                    elem["case"] = "only_leafs_divided"
+                    # делим пополам
+                    to_test_subset = children[: len(children) // 2]
+                    to_train_subset = children[len(children) // 2 :]
+
+                    # просто представили что тест это то что мы должны предсказать
+                    elem["brothers"] = to_train_subset
+                    self.write_to_train(
+                        elem, to_test_subset
+                    )  # в трейне предсказываем детей по родителю
+                else:
+                    self.write_to_train(elem, children)
         else:
             self.write_to_train(elem, children)
 
@@ -328,6 +367,7 @@ class Collector(GeneratorMixin):
         """
         writes to test a subset
         """
+        elem = deepcopy(elem)
         elem["children"] = to_test_subset
         for vertex in to_test_subset:
             self.test_verteces.add(vertex)
@@ -337,6 +377,7 @@ class Collector(GeneratorMixin):
         """'
         writes to train verteces that are not in test
         """
+        elem = deepcopy(elem)
         # прежде чем кладем проверяем что нет в тесте
         valid_verteces = []
         for vertex in to_train_subset:
