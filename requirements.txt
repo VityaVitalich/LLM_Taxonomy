@@ -1,0 +1,16 @@
+torch==2.0.0+cu117
+transformers==4.28.1
+numpy
+typing
+tqdm
+gc
+pandas
+collections
+sklearn
+contextlib
+io
+IPython
+os
+wandb
+peft
+yaml
