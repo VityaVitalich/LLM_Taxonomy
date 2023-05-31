@@ -2,6 +2,7 @@
 # %autoreload 2
 
 import os
+import yaml
 
 with open(r'params.yml') as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
@@ -15,7 +16,6 @@ from torch import nn
 import numpy as np
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
-import yaml
 
 sys.path.append("../NLP-DL-Project-hypo-to-hyper/pipeline_src/")
 
