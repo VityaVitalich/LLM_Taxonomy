@@ -36,7 +36,7 @@ def predict_child_with_parent_and_grandparent(elem):
         + elem["parents"]
         + "'. Answer:"
     )
-    return transformed_term
+    return transformed_term, ", ".join(elem['children'])
 
 
 def predict_child_from_parent(elem):
@@ -51,7 +51,7 @@ def predict_child_from_parent(elem):
     transformed_term = (
         "Predict hyponyms for the word '" + elem["parents"] + "'.  Answer:"
     )
-    return transformed_term
+    return transformed_term, ", ".join(elem["children"])
 
 
 def predict_children_with_parent_and_brothers(elem):
@@ -79,7 +79,7 @@ def predict_children_with_parent_and_brothers(elem):
         + elem["parents"]
         + "'. Answer:"
     )
-    return transformed_term
+    return transformed_term, ", ".join(elem["children"])
 
 
 def predict_child_from_2_parents(elem):
@@ -94,7 +94,7 @@ def predict_child_from_2_parents(elem):
         + elem["parents"][1]
         + "'. Answer:"
     )
-    return transformed_term
+    return transformed_term, elem["children"]
 
 
 def predict_parent_from_child_granparent(elem):
@@ -109,4 +109,4 @@ def predict_parent_from_child_granparent(elem):
         + elem["grandparents"]
         + "' at the same time. Answer:"
     )
-    return transformed_term
+    return transformed_term, elem["parents"]

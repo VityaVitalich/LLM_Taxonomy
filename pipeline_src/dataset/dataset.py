@@ -7,7 +7,7 @@ from tqdm import tqdm_notebook as tqdm
 
 from torch.utils.data import Dataset
 
-from dataset.prompt_schemas import (hypo_term_hyper, predict_child_from_2_parents,
+from .prompt_schemas import (hypo_term_hyper, predict_child_from_2_parents,
                                     predict_child_from_parent, predict_child_with_parent_and_grandparent,
                                     predict_children_with_parent_and_brothers,
                                     predict_parent_from_child_granparent)
@@ -24,10 +24,17 @@ class HypernymDataset(Dataset):
         tokenizer_encode_args={"return_tensors": "pt"},
         semeval_format=False,
         gold_path=None,
-        transforms=[hypo_term_hyper],
+        transforms={
+            "only_child_leaf": predict_parent_from_child_granparent,
+            "only_leafs_all": predict_child_from_parent,
+            "only_leafs_divided": predict_children_with_parent_and_brothers,
+            "leafs_and_no_leafs": predict_child_from_parent,
+            "simple_triplet_grandparent": predict_parent_from_child_granparent,
+            "simple_triplet_2parent": predict_child_from_2_parents
+        },
     ):
         self.tokenizer = tokenizer
-        self.transforms = transforms
+        # self.transforms = transforms
         # сюда могут идти немного другие аргументы если допустим я использую Dolly а не T5
         self.tokenizer_encode_args = tokenizer_encode_args
         # в формате SemEval дебильные датасеты, мы их тут соединим
@@ -51,14 +58,7 @@ class HypernymDataset(Dataset):
 
         # self.df.index = list(range(len(self.df)))
 
-        self.case2transform = {
-            "only_child_leaf": predict_parent_from_child_granparent,
-            "only_leafs_all": predict_child_from_parent,
-            "only_leafs_divided": predict_children_with_parent_and_brothers,
-            "leafs_and_no_leafs": predict_child_from_parent,
-            "simple_triplet_grandparent": predict_parent_from_child_granparent,
-            "simple_triplet_2parent": predict_child_from_2_parents
-        }
+        self.case2transform = transforms
 
     # в данном случае выход под LM модельку с маск токеном -100
     def __getitem__(self, index):
@@ -72,12 +72,12 @@ class HypernymDataset(Dataset):
         # это типа мы подаем список трансформаций затравок
         # processed_term = self.transforms[0](term)
         processed_term, target = self.case2transform[case](elem)
-
+        
         # токенизируем
         encoded_term = self.tokenizer.encode(
             processed_term, **self.tokenizer_encode_args
         )
-        encoded_target = self.tokenizer.encode(target, **self.tokenizer_encode_args)
+        encoded_target = self.tokenizer.encode(" " + target, **self.tokenizer_encode_args)
 
         input_seq = torch.concat([encoded_term, encoded_target], dim=1)
         labels = input_seq.clone()
