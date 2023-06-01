@@ -46,7 +46,8 @@ class GeneratorMixin:
             ):
                 for child in self.G.successors(node):
                     if self.G.out_degree(child) == 0:
-                        yield (child, node, list(self.G.predecessors(node)))
+                        for grandparent in self.G.predecessors(node):
+                            yield (child, node, grandparent)
 
     def all_children_leafs_generator(self):
         """
@@ -213,6 +214,8 @@ class Collector(GeneratorMixin):
         elem["grandparents"] = None
         elem["case"] = "only_leafs_all"
 
+        if len(elem["children"]) > 50:
+            return
         possible_test, possible_train = self.get_possible_train(children)
         to_test_rate = len(possible_test) / len(children)
 
@@ -294,6 +297,9 @@ class Collector(GeneratorMixin):
         elem["parents"] = parent
         elem["grandparents"] = None
         elem["case"] = "leafs_and_no_leafs"
+
+        if len(elem["children"]) > 50:
+            return
 
         possible_test, possible_train = self.get_possible_train(children_leafs)
         to_test_rate = len(possible_test) / len(children_leafs)
