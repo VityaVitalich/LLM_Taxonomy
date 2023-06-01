@@ -1,0 +1,26 @@
+SEED:
+  - 0
+CUDA_VISIBLE_DEVICES:
+  - 0
+  - 2
+  - 3
+  - 4
+EPOCHS:
+  - 4
+BATCH_SIZE:
+  - 2
+LR:
+  - 3e-4
+MIN_LR:
+  - 3e-6
+DATA_PATH:
+  - "babel_datasets/train_en_babel.pickle"
+TEST_DATA_PATH:
+  - "babel_datasets/test_en_babel.pickle"
+USING_PEFT:
+  - True
+MODEL_TYPE:
+  - Llama
+MODEL_CHECKPOINT:
+  - "eachadea/vicuna-13b-1.1"
+  

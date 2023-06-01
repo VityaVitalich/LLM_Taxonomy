@@ -30,7 +30,7 @@ class TaskConfig:
     weight_decay: float = 1e-4
     base_factor: int = 48
     exp_name: str = "small_t5_debug"
-    compute_metrics_every: int = 100
+    compute_metrics_every: int = 1
     full_log: int = 50
     warmup: int = 4000
     model_checkpoint: str = "google/flan-t5-small"
