@@ -108,6 +108,8 @@ class HypernymDataset(Dataset):
         if isinstance(elem, str):
             if ".n." in elem:
                 return elem.split(".")[0].replace("_", " ")
+            else:
+                return elem.replace("_", " ")
 
         elif isinstance(elem, list):
             new_words = []
