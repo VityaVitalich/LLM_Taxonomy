@@ -2,13 +2,15 @@ SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
   - 0
+  - 1
   - 2
   - 3
   - 4
+  - 5
 EPOCHS:
   - 4
 BATCH_SIZE:
-  - 2
+  - 4
 LR:
   - 3e-4
 MIN_LR:
@@ -20,7 +22,9 @@ TEST_DATA_PATH:
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - Llama
+  - Auto
 MODEL_CHECKPOINT:
-  - "eachadea/vicuna-13b-1.1"
+  - "databricks/dolly-v2-3b"
+DTYPE:
+- "half"
   

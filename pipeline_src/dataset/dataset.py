@@ -7,10 +7,14 @@ from tqdm import tqdm_notebook as tqdm
 
 from torch.utils.data import Dataset
 
-from .prompt_schemas import (hypo_term_hyper, predict_child_from_2_parents,
-                                    predict_child_from_parent, predict_child_with_parent_and_grandparent,
-                                    predict_children_with_parent_and_brothers,
-                                    predict_parent_from_child_granparent)
+from .prompt_schemas import (
+    hypo_term_hyper,
+    predict_child_from_2_parents,
+    predict_child_from_parent,
+    predict_child_with_parent_and_grandparent,
+    predict_children_with_parent_and_brothers,
+    predict_parent_from_child_granparent,
+)
 import pandas as pd
 from multiprocessing import cpu_count
 from torch.utils.data import DataLoader
@@ -30,7 +34,7 @@ class HypernymDataset(Dataset):
             "only_leafs_divided": predict_children_with_parent_and_brothers,
             "leafs_and_no_leafs": predict_child_from_parent,
             "simple_triplet_grandparent": predict_parent_from_child_granparent,
-            "simple_triplet_2parent": predict_child_from_2_parents
+            "simple_triplet_2parent": predict_child_from_2_parents,
         },
     ):
         self.tokenizer = tokenizer
@@ -53,7 +57,7 @@ class HypernymDataset(Dataset):
             # self.df = pd.read_csv(
             #     data_path, header=None, sep="\t", names=["term", "hypernym"]
             # )
-            
+
             self.data = pd.read_pickle(data_path)
 
         # self.df.index = list(range(len(self.df)))
@@ -68,11 +72,17 @@ class HypernymDataset(Dataset):
         elem = self.data[index]
         case = elem["case"]
 
+        if not "changed" in elem.keys():
+            for field in ["children", "parents", "grandparents", "brothers"]:
+                if field in elem.keys():
+                    elem[field] = HypernymDataset.delete_techniqal(elem[field])
+                    elem["changed"] = True
+
         # заранее пишу более общо, чтобы мы могли разне процессинги пробовать, а в будущем рандомно выбирать и тд
         # это типа мы подаем список трансформаций затравок
         # processed_term = self.transforms[0](term)
         processed_term, target = self.case2transform[case](elem)
-        
+
         # токенизируем
         encoded_term = self.tokenizer.encode(
             processed_term, **self.tokenizer_encode_args
@@ -92,6 +102,18 @@ class HypernymDataset(Dataset):
 
     def __len__(self):
         return len(self.data)
+
+    @staticmethod
+    def delete_techniqal(elem):
+        if isinstance(elem, str):
+            if ".n." in elem:
+                return elem.split(".")[0].replace("_", " ")
+
+        elif isinstance(elem, list):
+            new_words = []
+            for word in elem:
+                new_words.append(HypernymDataset.delete_techniqal(word))
+            return new_words
 
     # ничего необычного, складываем, паддим
 
@@ -136,7 +158,7 @@ class Collator:
         return (terms, att_mask_terms, targets, inputs, att_mask_inputs, labels)
 
 
-def init_data(tokenizer, config, mask_label_token=-100, semeval_format=True):
+def init_data(tokenizer, config, mask_label_token=-100, semeval_format=False):
     # data
     train_dataset = HypernymDataset(
         data_path=config.data_path,

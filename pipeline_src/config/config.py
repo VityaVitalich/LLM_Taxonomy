@@ -21,7 +21,7 @@ class TaskConfig:
     n_epochs: int = 20
     lr: float = 3e-4
     min_lr: float = 3e-5
-    project_name: str = "taxonomy"
+    project_name: str = "taxonomy_babelnet"
     show_every: int = 5
     embedding_dim: int = 1024
     save_every: int = 1

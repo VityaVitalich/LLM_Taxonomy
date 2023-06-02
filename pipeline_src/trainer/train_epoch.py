@@ -32,6 +32,8 @@ def train_epoch(
 
     pbar = tqdm(enumerate(train_loader), total=len(train_loader))
     for batch_idx, batch in pbar:
+        torch.cuda.empty_cache()
+
         st = logger.get_step() + 1
         logger.set_step(step=st, mode="train")
 
@@ -75,7 +77,9 @@ def validate(model, val_loader, logger, config):
             loss = output["loss"]
             logger.add_scalar("Val_loss", loss.item())
 
-            # del y, batch, output, loss
+        torch.cuda.empty_cache()
+
+        # del y, batch, output, loss
 
 
 @torch.no_grad()
