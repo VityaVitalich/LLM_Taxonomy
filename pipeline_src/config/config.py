@@ -9,7 +9,7 @@ class TaskConfig:
         default_factory=lambda: {
             "num_beams": 3,
             "early_stopping": True,
-            "max_new_tokens": 5,
+            "max_new_tokens": 8,
         }
     )
     device: torch.device = torch.device(
@@ -46,3 +46,4 @@ class TaskConfig:
     wandb_log_dir: str = "./"
     model_type: str = "Auto"  # Auto or Llama
     saving_predictions_path: str = "/raid/rabikov/model_outputs/"
+    log_pred_every: int = 200

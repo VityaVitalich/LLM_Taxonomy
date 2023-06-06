@@ -36,7 +36,7 @@ def predict_child_with_parent_and_grandparent(elem):
         + elem["parents"]
         + "'. Answer:"
     )
-    return transformed_term, ", ".join(elem['children'])
+    return transformed_term, ", ".join(elem["children"])
 
 
 def predict_child_from_parent(elem):

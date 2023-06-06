@@ -79,8 +79,9 @@ if __name__ == "__main__":
     config.model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     config.exp_name = config.model_checkpoint.replace("/", "-")
     config.saving_path = (
-        "/raid/rabikov/model_checkpoints/" + config.exp_name + "_custom"
+        "/raid/rabikov/model_checkpoints/" + config.exp_name + "_custom_multilang"
     )
+    config.log_pred_every = params_list["LOG_PRED_EVERY"][0]
 
     if config.model_type == "Auto":
         model_type = AutoModelForCausalLM

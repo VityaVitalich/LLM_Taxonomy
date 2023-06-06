@@ -13,6 +13,7 @@ from metrics.metrics import get_all_metrics
 import itertools
 from collections import Counter
 import pickle
+import pandas as pd
 
 
 def train_epoch(
@@ -21,7 +22,7 @@ def train_epoch(
     optimizer,
     scheduler,
     train_loader,
-    val_loader,
+    val_batch,
     crit,
     logger,
     config,
@@ -40,9 +41,9 @@ def train_epoch(
         terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
 
         output = model.forward(
-            input_seqs.to(config.device),
-            attention_mask=att_mask_input.to(config.device),
-            labels=labels.to(config.device),
+            input_seqs.to(config.device).long(),
+            attention_mask=att_mask_input.to(config.device).long(),
+            labels=labels.to(config.device).long(),
         )
 
         optimizer.zero_grad()
@@ -56,6 +57,39 @@ def train_epoch(
 
         if config.loss_tol != 0 and loss.item() <= config.loss_tol:
             break
+
+        if (batch_idx + 1) % config.log_pred_every == 0:
+            model.eval()
+            with torch.no_grad():
+                (
+                    terms,
+                    att_mask_terms,
+                    targets,
+                    input_seqs,
+                    att_mask_input,
+                    labels,
+                ) = val_batch
+
+                output_tokens = model.generate(
+                    input_ids=terms.to(config.device),
+                    attention_mask=att_mask_terms.to(config.device),
+                    pad_token_id=tokenizer.eos_token_id,
+                    **config.gen_args,
+                )
+                pred_tokens = output_tokens[:, terms.size()[1] :]
+                pred_str = tokenizer.batch_decode(
+                    pred_tokens.cpu(), skip_special_tokens=True
+                )
+                gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
+                question = tokenizer.batch_decode(terms.cpu(), skip_special_tokens=True)
+
+                df = pd.DataFrame(
+                    {"question": question, "predict": pred_str, "gold": gold_str}
+                )
+                # print(df)
+                logger.wandb.log({"Examples": wandb.Table(dataframe=df)})
+
+            model.train()
 
     return None
     # return loss ...
