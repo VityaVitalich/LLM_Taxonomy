@@ -72,11 +72,11 @@ class HypernymDataset(Dataset):
         elem = self.data[index]
         case = elem["case"]
 
-        if not "changed" in elem.keys():
-            for field in ["children", "parents", "grandparents", "brothers"]:
-                if field in elem.keys():
-                    elem[field] = HypernymDataset.delete_techniqal(elem[field])
-                    elem["changed"] = True
+        # if not "changed" in elem.keys():
+        #     for field in ["children", "parents", "grandparents", "brothers"]:
+        #         if field in elem.keys():
+        #             elem[field] = HypernymDataset.delete_techniqal(elem[field])
+        #             elem["changed"] = True
 
         # заранее пишу более общо, чтобы мы могли разне процессинги пробовать, а в будущем рандомно выбирать и тд
         # это типа мы подаем список трансформаций затравок

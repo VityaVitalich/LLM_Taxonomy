@@ -1,3 +1,29 @@
+def clean_elem(elem, keys_to_remove_digits=["children"]):
+    removes = set(keys_to_remove_digits)
+    if not "changed" in elem.keys():
+        for field in ["children", "parents", "grandparents", "brothers"]:
+            if field in elem.keys():
+                elem[field] = delete_techniqal(
+                    elem[field], remove_digits=field in removes
+                )
+                elem["changed"] = True
+    return elem
+
+
+def delete_techniqal(elem, remove):
+    if isinstance(elem, str):
+        if ".n." in elem and remove:
+            return elem.split(".")[0].replace("_", " ")
+        else:
+            return elem.replace("_", " ")
+
+    elif isinstance(elem, list):
+        new_words = []
+        for word in elem:
+            new_words.append(delete_techniqal(word, remove))
+        return new_words
+
+
 def hypo_term_hyper(term):
     """
     hyponym: {term} | hypernyms:
@@ -28,15 +54,16 @@ def predict_child_with_parent_and_grandparent(elem):
     #     + elem["parents"]
     #     + ", hyponyms:"
     # )
+    clean = clean_elem(elem, keys_to_remove_digits=["children"])
     transformed_term = (
-        ", ".join(elem["grandparents"])
+        ", ".join(clean["grandparents"])
         + " are hyponyms for the word '"
-        + elem["parents"]
+        + clean["parents"]
         + "'. Predict hyponyms for the word '"
-        + elem["parents"]
+        + clean["parents"]
         + "'. Answer:"
     )
-    return transformed_term, ", ".join(elem["children"])
+    return transformed_term, ", ".join(clean["children"])
 
 
 def predict_child_from_parent(elem):
@@ -48,10 +75,11 @@ def predict_child_from_parent(elem):
     """
 
     # transformed_term = "hypernym: " + elem["parents"] + ", hyponyms:"
+    clean = clean_elem(elem, keys_to_remove_digits=["children"])
     transformed_term = (
-        "Predict hyponyms for the word '" + elem["parents"] + "'.  Answer:"
+        "Predict hyponyms for the word '" + clean["parents"] + "'.  Answer:"
     )
-    return transformed_term, ", ".join(elem["children"])
+    return transformed_term, ", ".join(clean["children"])
 
 
 def predict_children_with_parent_and_brothers(elem):
@@ -70,16 +98,16 @@ def predict_children_with_parent_and_brothers(elem):
     #     + ", ".join(elem["brothers"])
     #     + ", other hyponyms:"
     # )
-
+    clean = clean_elem(elem, keys_to_remove_digits=["children"])
     transformed_term = (
-        ", ".join(elem["brothers"])
+        ", ".join(clean["brothers"])
         + "are hyponyms for the word '"
-        + elem["parents"]
+        + clean["parents"]
         + "'. Predict other hyponyms for the word '"
-        + elem["parents"]
+        + clean["parents"]
         + "'. Answer:"
     )
-    return transformed_term, ", ".join(elem["children"])
+    return transformed_term, ", ".join(clean["children"])
 
 
 def predict_child_from_2_parents(elem):
@@ -87,11 +115,12 @@ def predict_child_from_2_parents(elem):
     Predict common hyponyms for the words "cocker spaniel" and “poodle”.
     Answer:
     """
+    clean = clean_elem(elem, keys_to_remove_digits=["children"])
     transformed_term = (
         "Predict common hyponyms for the words '"
-        + elem["parents"][0]
+        + clean["parents"][0]
         + "' and '"
-        + elem["parents"][1]
+        + clean["parents"][1]
         + "'. Answer:"
     )
     return transformed_term, elem["children"]
@@ -102,11 +131,12 @@ def predict_parent_from_child_granparent(elem):
     Predict the hypernym for the word “spaniel” which is hyponyms for the
     word “hunting dog” at the same time. Answer: (sporting dog)
     """
+    clean = clean_elem(elem, keys_to_remove_digits=["parents"])
     transformed_term = (
         "Predict the hypernym for the word '"
-        + elem["children"]
+        + clean["children"]
         + "' which is hyponyms for the word '"
-        + elem["grandparents"]
+        + clean["grandparents"]
         + "' at the same time. Answer:"
     )
-    return transformed_term, elem["parents"]
+    return transformed_term, clean["parents"]
