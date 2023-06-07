@@ -4,7 +4,7 @@ def clean_elem(elem, keys_to_remove_digits=["children"]):
         for field in ["children", "parents", "grandparents", "brothers"]:
             if field in elem.keys():
                 elem[field] = delete_techniqal(
-                    elem[field], remove_digits=field in removes
+                    elem[field], field in removes
                 )
                 elem["changed"] = True
     return elem
