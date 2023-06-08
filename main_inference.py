@@ -4,7 +4,7 @@
 import os
 import yaml
 
-with open(r"params.yml") as file:
+with open(r"params_inference.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 
@@ -83,7 +83,19 @@ if __name__ == "__main__":
     config.saving_path = (
         "/raid/rabikov/model_checkpoints/" + config.exp_name + "_custom_multilang"
     )
-    config.log_pred_every = params_list["LOG_PRED_EVERY"][0]
+
+    config.gen_args = {
+        "no_repeat_ngram_size": 2,
+        "num_beams": params_list["NUM_BEAMS"][0],
+        "early_stopping": True,
+        "max_new_tokens": params_list["MAX_NEW_TOKENS"][0],
+        "temperature": params_list["TEMPERATURE"][0],
+    }
+    if params_list["PREV_PREDICT"][0]:
+        prev_predict = "/raid/rabikov/model_outputs/" + params_list["PREV_PREDICT"][0]
+    else:
+        prev_predict = None
+    load_path = "/raid/rabikov/model_checkpoints/" + params_list["LOAD_PATH"][0]
 
     if config.model_type == "Auto":
         model_type = AutoModelForCausalLM
@@ -132,27 +144,11 @@ if __name__ == "__main__":
 
     train_dataset, test_dataset, train_loader, val_loader = init_data(tokenizer, config)
 
-    criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.AdamW(
-        model.parameters(), lr=config.lr, betas=(0.9, 0.98), eps=1e-9
-    )
-    # scheduler = torch.optim.lr_scheduler.OneCycleLR(
-    #     optimizer, max_lr=config.lr, steps_per_epoch=len(train_loader), epochs=config.n_epochs)
+    checkpoint = torch.load(load_path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    del checkpoint
+    torch.cuda.empty_cache()
 
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
-        optimizer, T_max=len(train_loader) * config.n_epochs, eta_min=config.min_lr
-    )
-
-    logger = WanDBWriter(config)
-
-    train(
-        model,
-        tokenizer,
-        train_loader,
-        val_loader,
-        optimizer,
-        scheduler,
-        criterion,
-        logger,
-        config,
+    all_preds, all_labels = predict(
+        model, tokenizer, val_loader, config, ans_load_path=prev_predict
     )

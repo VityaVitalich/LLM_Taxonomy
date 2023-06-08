@@ -9,7 +9,7 @@ class TaskConfig:
         default_factory=lambda: {
             "num_beams": 3,
             "early_stopping": True,
-            "max_new_tokens": 5,
+            "max_new_tokens": 8,
         }
     )
     device: torch.device = torch.device(
@@ -21,7 +21,7 @@ class TaskConfig:
     n_epochs: int = 20
     lr: float = 3e-4
     min_lr: float = 3e-5
-    project_name: str = "taxonomy"
+    project_name: str = "taxonomy_babelnet"
     show_every: int = 5
     embedding_dim: int = 1024
     save_every: int = 1
@@ -46,3 +46,4 @@ class TaskConfig:
     wandb_log_dir: str = "./"
     model_type: str = "Auto"  # Auto or Llama
     saving_predictions_path: str = "/raid/rabikov/model_outputs/"
+    log_pred_every: int = 200

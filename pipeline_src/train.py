@@ -67,15 +67,17 @@ def train(
     logger,
     config,
 ):
+    val_batch = next(iter(val_loader))
     for epoch in range(config.n_epochs):
         print(f"Start of the epoch {epoch}")
+
         train_epoch(
             model,
             tokenizer,
             optimizer,
             scheduler,
             train_loader,
-            val_loader,
+            val_batch,
             criterion,
             logger,
             config,
@@ -88,7 +90,7 @@ def train(
         if (epoch + 1) % config.compute_metrics_every == 0:
             if config.using_peft:
                 all_preds, all_labels = predict(
-                    model.model, tokenizer, val_loader, config
+                    model.model, tokenizer, val_loader, config, epoch=epoch
                 )
             else:
                 all_preds, all_labels = predict(
