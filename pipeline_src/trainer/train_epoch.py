@@ -117,20 +117,32 @@ def validate(model, val_loader, logger, config):
 
 
 @torch.no_grad()
-def predict(model, tokenizer, val_loader, config, epoch=""):
+def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
     model.eval()
 
-    all_preds = []
+    if ans_load_path:
+        with open(ans_load_path, "rb") as fp:
+            all_preds = pickle.load(fp)
+
+        assert (
+            len(all_preds) % config.batch_size == 0
+        ), "preds len and batch does not fit to {}".format(config.batch_size)
+    else:
+        all_preds = []
     all_labels = []
 
     saving_path = config.saving_predictions_path + config.exp_name + "_" + str(epoch)
 
     evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
     for batch_idx, batch in evalbar:
+        if ans_load_path:
+            if batch_idx <= (len(all_preds) // config.batch_size):
+                continue
+
         terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
 
         output_tokens = model.generate(
-            terms.to(config.device),
+            inputs=terms.to(config.device),
             attention_mask=att_mask_terms.to(config.device),
             pad_token_id=tokenizer.eos_token_id,
             **config.gen_args,
@@ -145,6 +157,8 @@ def predict(model, tokenizer, val_loader, config, epoch=""):
         if batch_idx % 10 == 0:
             with open(saving_path, "wb") as fp:
                 pickle.dump(all_preds, fp)
+
+            # print(all_preds)
 
     with open(saving_path, "wb") as fp:
         pickle.dump(all_preds, fp)

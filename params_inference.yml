@@ -9,7 +9,7 @@ CUDA_VISIBLE_DEVICES:
 EPOCHS:
   - 4
 BATCH_SIZE:
-  - 4
+  - 2
 LR:
   - 3e-4
 MIN_LR:
@@ -23,11 +23,20 @@ USING_PEFT:
 MODEL_TYPE:
   - Auto
 MODEL_CHECKPOINT:
-  - "bigscience/bloomz-7b1"
+  - "ai-forever/mGPT"
 DTYPE:
-- "half"
+- "full"
 LOG_PRED_EVERY:
-- 800
+- 400
 DATA_PREPROC_STYLE:
 - "remove_all_from_labels"
-  
+LOAD_PATH:
+- "ai-forever-mGPTremove_all_from_labels_custom_multilang_epoch=3_MAP=0.002920189392744744.pth"
+PREV_PREDICT:
+- "ai-forever-mGPTremove_all_from_labels_"
+NUM_BEAMS:
+- 8
+MAX_NEW_TOKENS:
+- 36
+TEMPERATURE:
+- 0.9
