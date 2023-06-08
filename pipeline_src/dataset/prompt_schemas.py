@@ -3,9 +3,7 @@ def clean_elem(elem, keys_to_remove_digits=["children"]):
     if not "changed" in elem.keys():
         for field in ["children", "parents", "grandparents", "brothers"]:
             if field in elem.keys():
-                elem[field] = delete_techniqal(
-                    elem[field], field in removes
-                )
+                elem[field] = delete_techniqal(elem[field], remove=(field in removes))
                 elem["changed"] = True
     return elem
 
@@ -78,11 +76,7 @@ def predict_child_from_parent(elem):
     # transformed_term = (
     #     "Predict hyponyms for the word '" + clean["parents"] + "'.  Answer:"
     # )
-    transformed_term = (
-        "hypernym: " 
-        + clean["parents"] 
-        + " | hyponyms:"
-    )
+    transformed_term = "hypernym: " + clean["parents"] + " | hyponyms:"
     return transformed_term, ", ".join(clean["children"])
 
 
@@ -130,8 +124,8 @@ def predict_child_from_2_parents(elem):
     transformed_term = (
         "first hypernym: "
         + clean["parents"][0]
-        + ", second hypernym: " 
-        + clean['parents'][1] 
+        + ", second hypernym: "
+        + clean["parents"][1]
         + " | hyponyms:"
     )
     return transformed_term, clean["children"]
