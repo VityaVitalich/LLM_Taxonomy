@@ -196,7 +196,7 @@ def init_data(tokenizer, config, mask_label_token=-100, semeval_format=False):
         collate_fn=collator,
         shuffle=False,
         num_workers=num_workers,
-        drop_last=True,
+        drop_last=False,
         pin_memory=True,
     )
 

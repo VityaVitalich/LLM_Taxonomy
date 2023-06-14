@@ -78,23 +78,42 @@ if __name__ == "__main__":
     config.wandb_log_dir = "/raid/rabikov/wandb/"
     config.model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     config.exp_name = (
-        config.model_checkpoint.replace("/", "-") + params_list["DATA_PREPROC_STYLE"][0]
-    )
-    config.saving_path = (
-        "/raid/rabikov/model_checkpoints/" + config.exp_name + "_custom_multilang"
+        config.model_checkpoint.replace("/", "-")
+        + params_list["DATA_PREPROC_STYLE"][0]
+        + params_list["STRATEGY"][0]
     )
 
-    config.gen_args = {
-        "no_repeat_ngram_size": 2,
-        "num_beams": params_list["NUM_BEAMS"][0],
-        "early_stopping": True,
-        "max_new_tokens": params_list["MAX_NEW_TOKENS"][0],
-        "temperature": params_list["TEMPERATURE"][0],
-    }
+    config.saving_path = (
+        "/raid/rabikov/model_checkpoints/"
+        + config.exp_name
+        + "_custom_multilang"
+        + params_list["STRATEGY"][0]
+    )
+
+    if params_list["STRATEGY"][0] == "stohastic":
+        config.gen_args = {
+            "no_repeat_ngram_size": 3,
+            "do_sample": True,
+            "min_new_tokens": params_list["MAX_NEW_TOKENS"][0] - 1,
+            "max_new_tokens": params_list["MAX_NEW_TOKENS"][0],
+            "temperature": params_list["TEMPERATURE"][0],
+            "top_k": params_list["TOP_K"][0],
+            "num_return_sequences": params_list["NUM_RETURN_SEQUENCES"][0],
+        }
+    elif params_list["STRATEGY"][0] == "beam_search":
+        config.gen_args = {
+            "no_repeat_ngram_size": 2,
+            "num_beams": params_list["NUM_BEAMS"][0],
+            "early_stopping": True,
+            "max_new_tokens": params_list["MAX_NEW_TOKENS"][0],
+            "temperature": params_list["TEMPERATURE"][0],
+        }
+
     if params_list["PREV_PREDICT"][0]:
         prev_predict = "/raid/rabikov/model_outputs/" + params_list["PREV_PREDICT"][0]
     else:
         prev_predict = None
+
     load_path = "/raid/rabikov/model_checkpoints/" + params_list["LOAD_PATH"][0]
 
     if config.model_type == "Auto":

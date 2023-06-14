@@ -136,23 +136,13 @@ def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
     evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
     for batch_idx, batch in evalbar:
         if ans_load_path:
-            if batch_idx <= (len(all_preds) // config.batch_size):
+            if batch_idx < (len(all_preds) // config.batch_size):
                 continue
 
-        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+        pred, gold = get_one_sample(model, tokenizer, batch, config)
 
-        output_tokens = model.generate(
-            inputs=terms.to(config.device),
-            attention_mask=att_mask_terms.to(config.device),
-            pad_token_id=tokenizer.eos_token_id,
-            **config.gen_args,
-        )
-        pred_tokens = output_tokens[:, terms.size()[1] :]
-        pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
-        gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
-
-        all_preds.extend(pred_str)
-        all_labels.extend(gold_str)
+        all_preds.extend(pred)
+        all_labels.extend(gold)
 
         if batch_idx % 10 == 0:
             with open(saving_path, "wb") as fp:
@@ -165,46 +155,27 @@ def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
     return all_preds, all_labels
 
 
-@torch.no_grad()
-def predict_multiple(model, tokenizer, val_loader, config):
-    """
-    !!! ONLY WORKS WITH BATCH SIZE 1 !!!
-    NEED TO FIX!
-    """
-    model.eval()
+def get_one_sample(model, tokenizer, batch, config):
+    terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+    output_tokens = model.generate(
+        inputs=terms.to(config.device),
+        attention_mask=att_mask_terms.to(config.device),
+        pad_token_id=tokenizer.eos_token_id,
+        **config.gen_args,
+    )
+    pred_tokens = output_tokens[:, terms.size()[1] :]
+    pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
+    gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
 
-    all_preds = []
-    all_labels = []
+    if len(pred_str) > len(gold_str):
+        pred_str = split(pred_str, config.gen_args["num_return_sequences"])
 
-    evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
-    for batch_idx, batch in evalbar:
-        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+    return pred_str, gold_str
 
-        output_tokens = model.generate(
-            terms.to(config.device),
-            attention_mask=att_mask_terms.to(config.device),
-            pad_token_id=tokenizer.eos_token_id,
-            **config.gen_args,
-        )
-        pred_tokens = output_tokens[:, terms.size()[1] :]
-        pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
-        gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
 
-        del output_tokens
-        torch.cuda.empty_cache()
+def split(ls, size):
+    res = []
 
-        merged_iter = itertools.chain.from_iterable(
-            list(map(lambda x: x.split(","), pred_str))
-        )
-        sorted_predicted_answer = [
-            i[0].strip().replace("\n", "") for i in Counter(merged_iter).most_common()
-        ]
-
-        all_preds.append(sorted_predicted_answer)
-        all_labels.extend(gold_str)
-
-        if batch_idx % 5 == 0:
-            with open("/raid/rabikov/model_outputs/predictions_dolly_2", "wb") as fp:
-                pickle.dump(all_preds, fp)
-
-    return all_preds, all_labels
+    for i in range(0, len(ls) - 1, size):
+        res.append(ls[i : i + size])
+    return res
