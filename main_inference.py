@@ -26,7 +26,6 @@ from config.config import TaskConfig
 from train import CustomScheduler, train
 from logger.logger import WanDBWriter
 from trainer.train_epoch import train_epoch, predict
-from metrics.metrics import get_all_metrics
 from dataset.dataset import init_data
 from logger.logger import WanDBWriter
 
@@ -80,13 +79,14 @@ if __name__ == "__main__":
     config.exp_name = (
         config.model_checkpoint.replace("/", "-")
         + params_list["DATA_PREPROC_STYLE"][0]
+        + "_"
         + params_list["STRATEGY"][0]
     )
 
     config.saving_path = (
         "/raid/rabikov/model_checkpoints/"
         + config.exp_name
-        + "_custom_multilang"
+        + "_custom_multilang_"
         + params_list["STRATEGY"][0]
     )
 

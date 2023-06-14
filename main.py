@@ -26,7 +26,6 @@ from config.config import TaskConfig
 from train import CustomScheduler, train
 from logger.logger import WanDBWriter
 from trainer.train_epoch import train_epoch, predict
-from metrics.metrics import get_all_metrics
 from dataset.dataset import init_data
 from logger.logger import WanDBWriter
 

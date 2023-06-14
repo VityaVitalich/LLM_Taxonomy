@@ -7,9 +7,7 @@ import torch
 import gc
 from utils.plotters import visualize_predictions
 import wandb
-from utils.tools import freeze, unfreeze
 import json
-from metrics.metrics import get_all_metrics
 import itertools
 from collections import Counter
 import pickle
@@ -131,7 +129,9 @@ def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
         all_preds = []
     all_labels = []
 
-    saving_path = config.saving_predictions_path + config.exp_name + "_" + str(epoch)
+    saving_path = (
+        config.saving_predictions_path + "_" + config.exp_name + "_" + str(epoch)
+    )
 
     evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
     for batch_idx, batch in evalbar:

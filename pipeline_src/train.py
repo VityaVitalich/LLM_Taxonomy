@@ -10,7 +10,7 @@ from transformers import (
 from config.config import TaskConfig
 import numpy as np
 from trainer.train_epoch import train_epoch, predict, validate
-from metrics.metrics import get_all_metrics
+from metrics.metrics import Metric
 from torch.utils.data import DataLoader
 from dataset.dataset import HypernymDataset, Collator
 from torch.optim.lr_scheduler import ExponentialLR
@@ -88,16 +88,12 @@ def train(
             validate(model, val_loader, logger, config)
 
         if (epoch + 1) % config.compute_metrics_every == 0:
-            if config.using_peft:
-                all_preds, all_labels = predict(
-                    model.model, tokenizer, val_loader, config, epoch=epoch
-                )
-            else:
-                all_preds, all_labels = predict(
-                    model, tokenizer, val_loader, config, epoch=epoch
-                )
+            all_preds, all_labels = predict(
+                model, tokenizer, val_loader, config, epoch=epoch
+            )
 
-            metrics = get_all_metrics(all_labels, all_preds)
+            metric_calculator = Metric(all_labels, all_preds)
+            metrics = metric_calculator.get_metrics()
             for key in metrics:
                 logger.add_scalar(key, float(metrics[key]))
 

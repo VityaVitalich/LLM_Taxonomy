@@ -2,13 +2,13 @@ SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
   - 1
-  - 2
+  - 7
   - 3
   - 4
 EPOCHS:
   - 4
 BATCH_SIZE:
-  - 8
+  - 2
 LR:
   - 3e-4
 MIN_LR:
@@ -20,17 +20,17 @@ TEST_DATA_PATH:
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - Auto
+  - Llama
 MODEL_CHECKPOINT:
-  - "EleutherAI/gpt-neo-1.3B"
+  - "eachadea/vicuna-13b-1.1"
 DTYPE:
-- "full"
+- "half"
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
 - "remove_all_from_labels"
 LOAD_PATH:
-- "EleutherAI-gpt-neo-1.3Breweighted_wnet_remove_all_from_labels_custom_multilang_epoch=0_MAP=0.09087864718127875.pth"
+- "eachadea-vicuna-13b-1.1_wordnet_remove_all_from_labels_custom_multilang_epoch=1_MAP=0.08940246311477464.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
