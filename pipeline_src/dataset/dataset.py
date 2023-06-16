@@ -87,7 +87,9 @@ class HypernymDataset(Dataset):
         encoded_term = self.tokenizer.encode(
             processed_term, **self.tokenizer_encode_args
         )
-        encoded_target = self.tokenizer.encode(target, **self.tokenizer_encode_args)
+        encoded_target = self.tokenizer.encode(
+            target, add_special_tokens=False, **self.tokenizer_encode_args
+        )
 
         input_seq = torch.concat([encoded_term, encoded_target], dim=1)
         labels = input_seq.clone()

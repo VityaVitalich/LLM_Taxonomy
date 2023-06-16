@@ -56,6 +56,16 @@ def train_epoch(
         if config.loss_tol != 0 and loss.item() <= config.loss_tol:
             break
 
+        if (batch_idx + 1) % config.save_every_batch == 0:
+            torch.save(
+                {
+                    "model": model.state_dict(),
+                    # 'opt': optimizer.state_dict(),
+                    # "sch": scheduler.state_dict(),
+                },
+                f"{config.saving_path}_epoch={epoch}_batch_idx={batch_idx}.pth",
+            )
+
         if (batch_idx + 1) % config.log_pred_every == 0:
             model.eval()
             with torch.no_grad():
@@ -68,21 +78,13 @@ def train_epoch(
                     labels,
                 ) = val_batch
 
-                output_tokens = model.generate(
-                    input_ids=terms.to(config.device),
-                    attention_mask=att_mask_terms.to(config.device),
-                    pad_token_id=tokenizer.eos_token_id,
-                    **config.gen_args,
-                )
-                pred_tokens = output_tokens[:, terms.size()[1] :]
-                pred_str = tokenizer.batch_decode(
-                    pred_tokens.cpu(), skip_special_tokens=True
-                )
-                gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
-                question = tokenizer.batch_decode(terms.cpu(), skip_special_tokens=True)
+                pred, gold = get_one_sample(model, tokenizer, val_batch, config)
+                pred_str = [elem[0] for elem in pred]
+
+                question = tokenizer.batch_decode(terms, skip_special_tokens=True)
 
                 df = pd.DataFrame(
-                    {"question": question, "predict": pred_str, "gold": gold_str}
+                    {"question": question, "predict": pred_str, "gold": gold}
                 )
                 # print(df)
                 logger.wandb.log({"Examples": wandb.Table(dataframe=df)})
@@ -97,7 +99,8 @@ def train_epoch(
 def validate(model, val_loader, logger, config):
     model.eval()
 
-    for batch_idx, batch in enumerate(val_loader):
+    mean_loss = 0
+    for batch_idx, batch in tqdm(enumerate(val_loader)):
         terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
 
         with torch.no_grad():
@@ -107,11 +110,15 @@ def validate(model, val_loader, logger, config):
                 labels=labels.to(config.device),
             )
             loss = output["loss"]
-            logger.add_scalar("Val_loss", loss.item())
-
+            mean_loss += loss.item()
         torch.cuda.empty_cache()
 
-        # del y, batch, output, loss
+    mean_loss = mean_loss / (batch_idx + 1)
+    logger.add_scalar("Val_loss", mean_loss)
+
+    # del y, batch, output, loss
+
+    return mean_loss
 
 
 @torch.no_grad()
@@ -155,7 +162,10 @@ def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
     return all_preds, all_labels
 
 
+@torch.no_grad()
 def get_one_sample(model, tokenizer, batch, config):
+    model.eval()
+
     terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
     output_tokens = model.generate(
         inputs=terms.to(config.device),

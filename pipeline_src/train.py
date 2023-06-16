@@ -86,7 +86,7 @@ def train(
 
         if (epoch + 1) % config.validation == 0:
             validate(model, val_loader, logger, config)
-
+            print("validated")
         if (epoch + 1) % config.compute_metrics_every == 0:
             all_preds, all_labels = predict(
                 model, tokenizer, val_loader, config, epoch=epoch
@@ -94,6 +94,7 @@ def train(
 
             metric_calculator = Metric(all_labels, all_preds)
             metrics = metric_calculator.get_metrics()
+            print(metrics)
             for key in metrics:
                 logger.add_scalar(key, float(metrics[key]))
 
@@ -106,6 +107,7 @@ def train(
                 },
                 f"{config.saving_path}_epoch={epoch}_MAP={metrics['MAP']}.pth",
             )
+            print("saved")
 
 
 if __name__ == "__main__":

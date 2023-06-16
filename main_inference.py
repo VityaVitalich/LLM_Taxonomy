@@ -11,6 +11,8 @@ with open(r"params_inference.yml") as file:
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
+os.environ["TRANSFORMERS_CACHE"] = "/raid/rabikov/hf_cache/"
+os.environ["HF_HOME"] = "/raid/rabikov/hf_cache/"
 import sys
 import torch
 import pandas as pd

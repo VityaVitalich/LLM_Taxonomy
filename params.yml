@@ -2,14 +2,12 @@ SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
   - 1
-  - 2
   - 3
   - 4
-  - 5
 EPOCHS:
-  - 4
+  - 2
 BATCH_SIZE:
-  - 6
+  - 2
 LR:
   - 3e-4
 MIN_LR:
@@ -21,13 +19,15 @@ TEST_DATA_PATH:
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - Auto
+  - "Llama"
 MODEL_CHECKPOINT:
-  - "EleutherAI/gpt-neo-1.3B"
+  - "decapoda-research/llama-30b-hf"
 DTYPE:
 - "full"
 LOG_PRED_EVERY:
-- 800
+- 100
 DATA_PREPROC_STYLE:
 - "reweighted_wnet_remove_all_from_labels"
+QLORA:
+- true
   
