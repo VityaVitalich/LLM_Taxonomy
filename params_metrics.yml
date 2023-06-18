@@ -1,0 +1,4 @@
+TEST_DATA_PATH:
+  - "babel_datasets/wnet_test_en_babel.pickle"
+OUTPUT_NAME:
+  - "_eachadea-vicuna-13b-1.1remove_all_from_labels_stohastic_"

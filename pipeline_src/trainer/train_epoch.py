@@ -1,15 +1,14 @@
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 from torch import nn
 import torch.nn.functional as F
 import torch
 import gc
 from utils.plotters import visualize_predictions
 import wandb
-from utils.tools import freeze, unfreeze
 import json
-from metrics.metrics import get_all_metrics
 import itertools
 from collections import Counter
 import pickle
@@ -27,12 +26,15 @@ def train_epoch(
     logger,
     config,
     epoch,
+    loaded_batch=None,
 ):
     # unfreeze(model)
     model.train()
 
     pbar = tqdm(enumerate(train_loader), total=len(train_loader))
     for batch_idx, batch in pbar:
+        if loaded_batch and batch_idx < loaded_batch:
+            continue
         torch.cuda.empty_cache()
 
         st = logger.get_step() + 1
@@ -58,6 +60,21 @@ def train_epoch(
         if config.loss_tol != 0 and loss.item() <= config.loss_tol:
             break
 
+        if (batch_idx + 1) % config.save_every_batch == 0:
+            torch.save(
+                {
+                    "model": model.state_dict(),
+                    # 'opt': optimizer.state_dict(),
+                    # "sch": scheduler.state_dict(),
+                },
+                f"{config.saving_path}_epoch={epoch}_batch_idx={batch_idx}.pth",
+            )
+            previous_checkpoint = (
+                f"{config.saving_path}_epoch={epoch}_batch_idx={batch_idx-100}.pth"
+            )
+            if os.path.isfile(previous_checkpoint):
+                os.remove(previous_checkpoint)
+
         if (batch_idx + 1) % config.log_pred_every == 0:
             model.eval()
             with torch.no_grad():
@@ -70,21 +87,13 @@ def train_epoch(
                     labels,
                 ) = val_batch
 
-                output_tokens = model.generate(
-                    input_ids=terms.to(config.device),
-                    attention_mask=att_mask_terms.to(config.device),
-                    pad_token_id=tokenizer.eos_token_id,
-                    **config.gen_args,
-                )
-                pred_tokens = output_tokens[:, terms.size()[1] :]
-                pred_str = tokenizer.batch_decode(
-                    pred_tokens.cpu(), skip_special_tokens=True
-                )
-                gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
-                question = tokenizer.batch_decode(terms.cpu(), skip_special_tokens=True)
+                pred, gold = get_one_sample(model, tokenizer, val_batch, config)
+                pred_str = [elem[0] for elem in pred]
+
+                question = tokenizer.batch_decode(terms, skip_special_tokens=True)
 
                 df = pd.DataFrame(
-                    {"question": question, "predict": pred_str, "gold": gold_str}
+                    {"question": question, "predict": pred_str, "gold": gold}
                 )
                 # print(df)
                 logger.wandb.log({"Examples": wandb.Table(dataframe=df)})
@@ -99,7 +108,8 @@ def train_epoch(
 def validate(model, val_loader, logger, config):
     model.eval()
 
-    for batch_idx, batch in enumerate(val_loader):
+    mean_loss = 0
+    for batch_idx, batch in tqdm(enumerate(val_loader)):
         terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
 
         with torch.no_grad():
@@ -109,11 +119,15 @@ def validate(model, val_loader, logger, config):
                 labels=labels.to(config.device),
             )
             loss = output["loss"]
-            logger.add_scalar("Val_loss", loss.item())
-
+            mean_loss += loss.item()
         torch.cuda.empty_cache()
 
-        # del y, batch, output, loss
+    mean_loss = mean_loss / (batch_idx + 1)
+    logger.add_scalar("Val_loss", mean_loss)
+
+    # del y, batch, output, loss
+
+    return mean_loss
 
 
 @torch.no_grad()
@@ -131,28 +145,20 @@ def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
         all_preds = []
     all_labels = []
 
-    saving_path = config.saving_predictions_path + config.exp_name + "_" + str(epoch)
+    saving_path = (
+        config.saving_predictions_path + "_" + config.exp_name + "_" + str(epoch)
+    )
 
     evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
     for batch_idx, batch in evalbar:
         if ans_load_path:
-            if batch_idx <= (len(all_preds) // config.batch_size):
+            if batch_idx < (len(all_preds) // config.batch_size):
                 continue
 
-        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+        pred, gold = get_one_sample(model, tokenizer, batch, config)
 
-        output_tokens = model.generate(
-            inputs=terms.to(config.device),
-            attention_mask=att_mask_terms.to(config.device),
-            pad_token_id=tokenizer.eos_token_id,
-            **config.gen_args,
-        )
-        pred_tokens = output_tokens[:, terms.size()[1] :]
-        pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
-        gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
-
-        all_preds.extend(pred_str)
-        all_labels.extend(gold_str)
+        all_preds.extend(pred)
+        all_labels.extend(gold)
 
         if batch_idx % 10 == 0:
             with open(saving_path, "wb") as fp:
@@ -166,45 +172,29 @@ def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
 
 
 @torch.no_grad()
-def predict_multiple(model, tokenizer, val_loader, config):
-    """
-    !!! ONLY WORKS WITH BATCH SIZE 1 !!!
-    NEED TO FIX!
-    """
+def get_one_sample(model, tokenizer, batch, config):
     model.eval()
 
-    all_preds = []
-    all_labels = []
+    terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+    output_tokens = model.generate(
+        inputs=terms.to(config.device),
+        attention_mask=att_mask_terms.to(config.device),
+        pad_token_id=tokenizer.eos_token_id,
+        **config.gen_args,
+    )
+    pred_tokens = output_tokens[:, terms.size()[1] :]
+    pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
+    gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
 
-    evalbar = tqdm(enumerate(val_loader), total=len(val_loader), desc="eval going")
-    for batch_idx, batch in evalbar:
-        terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+    if len(pred_str) > len(gold_str):
+        pred_str = split(pred_str, config.gen_args["num_return_sequences"])
 
-        output_tokens = model.generate(
-            terms.to(config.device),
-            attention_mask=att_mask_terms.to(config.device),
-            pad_token_id=tokenizer.eos_token_id,
-            **config.gen_args,
-        )
-        pred_tokens = output_tokens[:, terms.size()[1] :]
-        pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
-        gold_str = tokenizer.batch_decode(targets, skip_special_tokens=True)
+    return pred_str, gold_str
 
-        del output_tokens
-        torch.cuda.empty_cache()
 
-        merged_iter = itertools.chain.from_iterable(
-            list(map(lambda x: x.split(","), pred_str))
-        )
-        sorted_predicted_answer = [
-            i[0].strip().replace("\n", "") for i in Counter(merged_iter).most_common()
-        ]
+def split(ls, size):
+    res = []
 
-        all_preds.append(sorted_predicted_answer)
-        all_labels.extend(gold_str)
-
-        if batch_idx % 5 == 0:
-            with open("/raid/rabikov/model_outputs/predictions_dolly_2", "wb") as fp:
-                pickle.dump(all_preds, fp)
-
-    return all_preds, all_labels
+    for i in range(0, len(ls) - 1, size):
+        res.append(ls[i : i + size])
+    return res

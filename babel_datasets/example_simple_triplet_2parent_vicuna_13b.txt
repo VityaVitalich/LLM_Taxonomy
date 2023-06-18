@@ -1,0 +1,792 @@
+first hypernym: show.n.3, second hypernym: product.n.2 | hyponyms:
+
+predicted: trade show, exposition, exhibition, fair, circus, carnival, concert, demonstration, exhibit, pageant, performance, presentation
+ 
+true: movie
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: plastic surgery.n.1, second hypernym: transplant.n.2 | hyponyms:
+
+predicted: skin grafting, replantation, face lift, nose job, breast implant, tissue engineering, transplanted organ, liposu
+ 
+true: keratoplasty
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: physical condition.n.1, second hypernym: waking.n.1 | hyponyms:
+
+predicted: wakefulness, sleep, awakening, state of mind, condition of health, feeling, mood, physical state, psychological condition,
+ 
+true: wakefulness
+ 
+intersection: wakefulness
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: doctrine.n.1, second hypernym: acceptance.n.3 | hyponyms:
+
+predicted: dogma, creed, tenet, belief, faith, dogmatism, doctrine of predestination, heresy, infallibility
+ 
+true: acquiescence
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: disciple.n.1, second hypernym: Christian.n.1 | hyponyms:
+
+predicted: follower of Jesus Christ, believer, convert, neophyte, zealot, saint, monk, nun, pilgrim
+ 
+true: Apostle
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: absorbent material.n.1, second hypernym: cotton.n.1 | hyponyms:
+
+predicted: paper pulp, rayon, wool, wood fiber, cellulose, sponge, linters, sawdust, s
+ 
+true: absorbent cotton
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: natural process.n.1, second hypernym: spread.n.1 | hyponyms:
+
+predicted: diffusion, dissemination, propagation, radiation, dispersion, movement, flow, transport, diffusion of innovations, circulation of the blood,
+ 
+true: radiation
+ 
+intersection: radiation
+
+metrics:  MRR 0.25 MAP 0.94 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: chemical element.n.1, second hypernym: noble gas.n.1 | hyponyms:
+
+predicted: radon gas, radium, xenon, krypton-85, helium-4, neon tetrafluoride,
+ 
+true: helium
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: measuring instrument.n.1, second hypernym: centrifuge.n.1 | hyponyms:
+
+predicted: spinneret, centifuge, cyclone separator, whirlwind, vortex chamber, spinning disc, spray dryer, ultrac
+ 
+true: hematocrit
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: inheritance.n.2, second hypernym: gift.n.1 | hyponyms:
+
+predicted: legacy, bequest, devise, donation, dowry, endowment, gift, heirloom, patrimony, present,
+ 
+true: bequest
+ 
+intersection: bequest
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: analgesic.n.1, second hypernym: salicylate.n.1 | hyponyms:
+
+predicted: aspirin, acetylsalicylic acid, diflunisal, choline magnesium trisilicate, meclofen
+ 
+true: aspirin
+ 
+intersection: aspirin
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: solvent.n.1, second hypernym: hydrocarbon.n.1 | hyponyms:
+
+predicted: petroleum ether, benzene, naphtha, toluol, ethylene dichloride, chloroform, gas
+ 
+true: chlorobenzene
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: infectious disease.n.1, second hypernym: liver disease.n.1 | hyponyms:
+
+predicted: yellow fever, hepatitis, jaundice, yellow atrophy, cirrhosis, splenomegaly, malaria
+ 
+true: hepatitis
+ 
+intersection: hepatitis
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: athlete.n.1, second hypernym: player.n.1 | hyponyms:
+
+predicted: soccer player, basketball player-coach, baseballplayer, bowler, boxer, cricketer, golfer, gymnast, hockey
+ 
+true: ballplayer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: paint.n.1, second hypernym: coating.n.1 | hyponyms:
+
+predicted: enamel paint, varnish, lacquer, paint finish, watercolor, wallpaper paste, encaustic, emulsion, oil
+ 
+true: coat of paint
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: sin.n.2, second hypernym: religious doctrine.n.1 | hyponyms:
+
+predicted: mortal sin, venial sin nn, mortification, sin against the Holy Ghost, slander, blasphemy, heresy
+ 
+true: original sin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: transparent gem.n.1, second hypernym: mineral.n.1 | hyponyms:
+
+predicted: topaz, chrysoberyl, quartz, tourmaline, zircon, beryl, corundum, diamond,
+ 
+true: tourmaline
+ 
+intersection: tourmaline
+
+metrics:  MRR 0.25 MAP 0.94 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: writing.n.2, second hypernym: address.n.3 | hyponyms:
+
+predicted: letter writing, letter, memo, message, note, postscript, telegram, text, writing paper, epistle, memorandum,
+ 
+true: dithyramb
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: vasoconstrictor.n.1, second hypernym: alkaloid.n.1 | hyponyms:
+
+predicted: epinephrine, ephedrine hydrochloride, norepinephrin, adrenaline analogue, amphet
+ 
+true: nicotine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: vasoconstrictor.n.1, second hypernym: plant toxin.n.1 | hyponyms:
+
+predicted: atropine, hyoscine hydrobromide, scopolamine hyclate, physostigmine, pilocarpine nitrate
+ 
+true: nicotine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: alkaloid.n.1, second hypernym: plant toxin.n.1 | hyponyms:
+
+predicted: atropine, scopolamine hydrobromide, strophanthin, quinuclidine diethylamide hydrochlor
+ 
+true: nicotine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: lover.n.1, second hypernym: man.n.1 | hyponyms:
+
+predicted: beau, sweetheart, boyfriend, suitor, swain, paramour, seducer, gallant, lovers' knot,
+ 
+true: boyfriend
+ 
+intersection: boyfriend
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: lover.n.1, second hypernym: woman.n.1 | hyponyms:
+
+predicted: mistress, paramour, sweetheart, girlfriend, wife, concubine, courtesan, love interest, lovers' lane,
+ 
+true: girlfriend
+ 
+intersection: girlfriend
+
+metrics:  MRR 0.25 MAP 0.94 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: lover.n.1, second hypernym: woman.n.1 | hyponyms:
+
+predicted: mistress, paramour, sweetheart, girlfriend, wife, concubine, courtesan, love interest, lovers' lane,
+ 
+true: inamorata
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: lover.n.1, second hypernym: man.n.1 | hyponyms:
+
+predicted: beau, sweetheart, boyfriend, suitor, swain, paramour, seducer, gallant, lovers' knot,
+ 
+true: inamorato
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: defender.n.1, second hypernym: saint.n.1 | hyponyms:
+
+predicted: martyr, patron saint, guardian angel, saintly person, warrior, defenseman, goalkeeper, bodyguard, fighter,
+ 
+true: patron saint
+ 
+intersection: patron saint
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: house.n.1, second hypernym: refuge.n.3 | hyponyms:
+
+predicted: safe house, shelter, sanctuary, asylum, house of correction, hospital, orphanage, nursing home, prison, rest
+ 
+true: safe house
+ 
+intersection: safe house
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: Christianity.n.1, second hypernym: heresy.n.2 | hyponyms:
+
+predicted: Nestorianism, Monophysitism and Monothelitisme, Arianism et alia, Gnosticism heret
+ 
+true: Albigensianism
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: Asian.n.1, second hypernym: European.n.1 | hyponyms:
+
+predicted: Southeast Asian, Oriental, Caucasian, Middle Easterner, Far Eastern European, Near Eastern, South Asian Asian American, East Asian European
+ 
+true: Eurasian
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bioweapon.n.1, second hypernym: staphylococcal enterotoxin.n.1 | hyponyms:
+
+predicted: aflatoxin, Bacillus anthracis, botulinum toxins, cholera, diphtheria, ric
+ 
+true: staphylococcal enterotoxin B
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: stimulant.n.2, second hypernym: drug of abuse.n.1 | hyponyms:
+
+predicted: cocaine, amphetamine sulphate, methylphenidate hydrochloride, pseudoephedrine hydro
+ 
+true: amphetamine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: gas.n.2, second hypernym: dioxide.n.1 | hyponyms:
+
+predicted: nitrogen oxide, carbon monoxide gas, hydrogen sulfide poisoning, chlorine, nitrous, sulfur dio
+ 
+true: nitrogen dioxide
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: animal material.n.1, second hypernym: body covering.n.1 | hyponyms:
+
+predicted: fur, feather, wool, hair, skin, shell, scale, beard, bristle, furbearer, pelt,
+ 
+true: feather
+ 
+intersection: feather
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: title.n.6, second hypernym: priest.n.1 | hyponyms:
+
+predicted: archimandrite, archpriest, rector, vicar, dean, abbot, bishop, cardinal, pope, priest,
+ 
+true: Father
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bronchodilator.n.1, second hypernym: alkaloid.n.1 | hyponyms:
+
+predicted: ephedrine, epinephrine hydrochloride, aminophylline methacholine, isoproterenol,
+ 
+true: ephedrine
+ 
+intersection: ephedrine
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: fortress.n.1, second hypernym: palace.n.4 | hyponyms:
+
+predicted: palace-fortress, citadel, castle, keep, stronghold, fortified palace, palace of the Caesars, redoubt, for
+ 
+true: alcazar
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: fortress.n.1, second hypernym: earthwork.n.1 | hyponyms:
+
+predicted: motte-and-bailey castle, mound, redoubt, rampart, trenchwork, citadel, fortified town,
+ 
+true: sconce
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: drug of abuse.n.1, second hypernym: narcotic.n.1 | hyponyms:
+
+predicted: heroin, opium, cocaine, methadone, hashish, marijuana, barbiturate, amphetam
+ 
+true: soft drug
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: antacid.n.1, second hypernym: histamine blocker.n.1 | hyponyms:
+
+predicted: diphenhydramine, cimetidine hydrochloride, metoclopramide diphtheria toxin, ran
+ 
+true: ranitidine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: alkaloid.n.1, second hypernym: plant toxin.n.1 | hyponyms:
+
+predicted: atropine, scopolamine hydrobromide, strophanthin, quinuclidine diethylamide hydrochlor
+ 
+true: brucine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: alkaloid.n.1, second hypernym: plant toxin.n.1 | hyponyms:
+
+predicted: atropine, scopolamine hydrobromide, strophanthin, quinuclidine diethylamide hydrochlor
+ 
+true: tubocurarine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: alkaloid.n.1, second hypernym: neuromuscular blocking agent.n.1 | hyponyms:
+
+predicted: tubocurarine chloride, atracurium, succinylcholine, pancuronium bromide: vecuron
+ 
+true: tubocurarine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: plant toxin.n.1, second hypernym: neuromuscular blocking agent.n.1 | hyponyms:
+
+predicted: atracurium, succinylcholine chloride, tubocurarine, neostigmine, pancuronium brom
+ 
+true: tubocurarine
+ 
+intersection: tubocurarine
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: alkaloid.n.1, second hypernym: poison.n.1 | hyponyms:
+
+predicted: atropine, scopolamine nitrate, quinuclidine hydrochloride, strychnine sulphate, nicot
+ 
+true: hyoscyamine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: alkaloid.n.1, second hypernym: plant toxin.n.1 | hyponyms:
+
+predicted: atropine, scopolamine hydrobromide, strophanthin, quinuclidine diethylamide hydrochlor
+ 
+true: strychnine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: avitaminosis.n.1, second hypernym: visual impairment.n.1 | hyponyms:
+
+predicted: night blindness, vitamin A deficiency, xerophtalmia, keratomalacia, beriberi, scurvy,
+ 
+true: nyctalopia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: singer.n.1, second hypernym: rocker.n.2 | hyponyms:
+
+predicted: rock singer, crooner, bluesman, country singer-songwriter, pop singer/musician, rapper, vocalist, folk singer
+ 
+true: rock star
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: good humor.n.1, second hypernym: gaiety.n.1 | hyponyms:
+
+predicted: high spirits, jollity, merriment, lightheartedness, mirth, whimsicalism, wit, humor, playfulness
+ 
+true: jollity
+ 
+intersection: jollity
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: diversion.n.1, second hypernym: vice.n.2 | hyponyms:
+
+predicted: gambling, drinking, smoking, drug use, fornication, adultery, sexual vice, gluttony, idleness
+ 
+true: gambling
+ 
+intersection: gambling
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: song.n.1, second hypernym: religious music.n.1 | hyponyms:
+
+predicted: hymn, canticle, psalmody, liturgical music, chant, anthem, motet, dirge, ballad, carol
+ 
+true: religious song
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: protective garment.n.1, second hypernym: man's clothing.n.1 | hyponyms:
+
+predicted: coat and trousers, suit, overcoat, jacket, vest, robe, underwear, pajama, shirt,
+ 
+true: athletic supporter
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: paper.n.1, second hypernym: roofing material.n.1 | hyponyms:
+
+predicted: hijabee woman of Islamic law of personal appearance and dress codes for Muslim women and girls in the presence of non-mahram men and boys
+ 
+true: roofing paper
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: receptacle.n.1, second hypernym: enclosure.n.1 | hyponyms:
+
+predicted: monumental stone, headstone, marker, monument, memoria, obelisk, stele, stelae, tomb, cairn,
+ 
+true: catchall
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: stone.n.2, second hypernym: memorial.n.3 | hyponyms:
+
+predicted: doubles, lawn tennis, tennis tournament, Wimbledon, professional tennis tour, racketball, squash, volleyball tennis game,
+ 
+true: gravestone
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: athletic facility.n.1, second hypernym: pool.n.1 | hyponyms:
+
+predicted: discoverer"n observer" n witnesser of an event, observer of a phenomenon, witness, beholder, seer, spectator
+ 
+true: swimming pool
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: hearer.n.1, second hypernym: snoop.n.1 | hyponyms:
+
+predicted: abracadabra, alchemy, conjuring, divination, enchantment, sorcery, witchcraft, white magic,
+ 
+true: eavesdropper
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: strip.n.2, second hypernym: loop.n.2 | hyponyms:
+
+predicted: picador, banderillero, matador de toros, picadore, mozo, espada, torero de rejones
+ 
+true: band
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bullfighter.n.1, second hypernym: horseman.n.1 | hyponyms:
+
+predicted: impostor, swindler, trickster, burglar, pickpocket, shoplifter, sneak, embezzler
+ 
+true: picador
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: thief.n.1, second hypernym: deceiver.n.1 | hyponyms:
+
+predicted: backstabbing, perfidy, double-dealing, disloyalty, treason, betrayal, fraud, deception,
+ 
+true: embezzler
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: muscle relaxant.n.1, second hypernym: neuromuscular blocking agent.n.1 | hyponyms:
+
+predicted: particle beam beam of charged particles, such as ions, electrons, neutrons, protons, and alpha particles beams of uncharged particles such
+ 
+true: gallamine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: life science.n.1, second hypernym: statistics.n.1 | hyponyms:
+
+predicted: commission house, securities firm, stock exchange, insurance agency, investment banking, commodity trading company, real estate ag
+ 
+true: biometrics
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bite.n.8, second hypernym: clip.n.5 | hyponyms:
+
+predicted: shirker, loafer, malingerer, straggler, truant, laggard, shirk, slouch,
+ 
+true: nip
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: workwear.n.1, second hypernym: shirt.n.1 | hyponyms:
+
+predicted: dinette set, drop-leaf table, pedestal-table, round table with chairs, square table and chair, trestle, d
+ 
+true: work-shirt
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: dining table.n.1, second hypernym: dining-room furniture.n.1 | hyponyms:
+
+predicted: workbench
+ 
+true: dining-room table
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: dynasty.n.1, second hypernym: royalty.n.2 | hyponyms:
+
+predicted: adder's-tongue, whisk-fern, cinnamon-fern, hard-shooting-ferns,
+ 
+true: Stuart
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: spy.n.1, second hypernym: terrorist.n.1 | hyponyms:
+
+predicted: telecasting of religious services and sermons on television and radio stations, cable television, and satellite television networks and systems, televised religious service and
+ 
+true: sleeper
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: spy.n.1, second hypernym: saboteur.n.1 | hyponyms:
+
+predicted: arsonist, bomber, guerrilla, hijacker, kidnapper, murderer, pirate, sabotager, suicide bom
+ 
+true: sleeper
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: terrorist.n.1, second hypernym: saboteur.n.1 | hyponyms:
+
+predicted: petaurid marsupialian mammalian carnivore of Australia and New Guinea, related to the possums and gliders
+ 
+true: sleeper
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: High Holy Day.n.1, second hypernym: major fast day.n.1 | hyponyms:
+
+predicted: safeguard, guardianship, patronage, preservation, security, superintendence, watchfulness, custody, defense, saf
+ 
+true: Yom Kippur
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: priest.n.2, second hypernym: voodoo.n.3 | hyponyms:
+
+predicted: ultramafic rock rock massif rock pyroxenite rock dike rock sill rock lava rock magma rock volcanic
+ 
+true: hoodoo
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: wrestling.n.2, second hypernym: sport.n.2 | hyponyms:
+
+predicted: Greco-Roman wresting, freestyle, judo, sambo, sumo, amateur wrestler, professional wrestle, grapp
+ 
+true: professional wrestling
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: wrestling.n.2, second hypernym: sport.n.2 | hyponyms:
+
+predicted: conference call"n telephone call with more than two parties on the line at the same time, each party being able to hear and speak to all
+ 
+true: sumo
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========

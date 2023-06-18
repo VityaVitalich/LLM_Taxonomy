@@ -1,0 +1,2345 @@
+hyperhypenym: team.n.1, hyponym: farm team.n.1 | hypernym:
+
+predicted: minor-league team”n farm club team" n baseball team minor league team nbowl team football team hockey team soccer team basketball
+ 
+true: minor-league team
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: unfortunate.n.1, hyponym: goner.n.1 | hypernym:
+
+predicted: loser in life's race of life-and-death struggle for existence in a hostile environment in which only the fittest survive and
+ 
+true: desperate
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: disability of walking.n.1, hyponym: intermittent claudication.n.1 | hypernym:
+
+predicted: arteriosclerosis obliterans of the limbs and abdomen of aorta and its major branches, atherosclerotic
+ 
+true: lameness
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: person.n.1, hyponym: free-liver.n.1 | hypernym:
+
+predicted: individualist
+ 
+true: free agent
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: shrub.n.1, hyponym: milkweed.n.2 | hypernym:
+
+predicted: asclepiadaceous plant of the family Apocynaceae sensu lato (the dogbane family) of order Gentianales sens
+ 
+true: sow thistle
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: abnormality.n.1, hyponym: organic brain syndrome.n.1 | hypernym:
+
+predicted: mental disorder incurred by brain damage or disease of the brain, spinal cord, or peripheral nerve pathways leading to a disturb
+ 
+true: mental abnormality
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: vowel.n.1, hyponym: murmur vowel.n.1 | hypernym:
+
+predicted: nasal vokalic vibration of the vocal cords in articulation of speech sounds in many languages, including English, French, and German,
+ 
+true: schwa
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: misbehavior.n.1, hyponym: deviation.n.4 | hypernym:
+
+predicted: deviance from norms of conduct or morals of a particular group or society culture, civilization, or subculture that is sanctioned by
+ 
+true: abnormality
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: discourtesy.n.2, hyponym: chutzpa.n.1 | hypernym:
+
+predicted: audacity, impudence, presumption, cheek, effrontery, insouciance, impertinency, forwardness, gall
+ 
+true: crust
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: symptom.n.1, hyponym: systolic murmur.n.1 | hypernym:
+
+predicted: murmer audible to the examiner's stethoscope in a physical examination of the heart and blood vessels, caused by increased blood flow
+ 
+true: heart murmur
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: absorption indicator.n.1, hyponym: eosin.n.1 | hypernym:
+
+predicted: methylene blue chloride solution 1% in water emulsion of gelatin-sodium lauryl sulphate mixture,
+ 
+true: fluorescein
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: dye.n.1, hyponym: eosin.n.1 | hypernym:
+
+predicted: methylene blue chloride orange G solution mixture of dyes and stains for histological use in staining tissues and cells of the
+ 
+true: fluorescein
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: domestic cat.n.1, hyponym: gib.n.2 | hypernym:
+
+predicted: cat-of-the-forest, wildcat domesticated into a tame cat breed of Siamese or Abyssinian type
+ 
+true: tom
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: position.n.6, hyponym: President of the United States.n.2 | hypernym:
+
+predicted: executive position in government administration of a nation or state government headed by a president or governor-general appointed by the head of state and confirmed by parliament or
+ 
+true: presidency
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: valve.n.3, hyponym: automatic choke.n.1 | hypernym:
+
+predicted: carburetor venturi tube opening mechanism of an internal-combustion engine cylinder head, float chamber, or fuel-injection system
+ 
+true: choke
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: measuring instrument.n.1, hyponym: time-delay measuring instrument.n.1 | hypernym:
+
+predicted: stroboscope light metering instrumentation for photography and cinematography, and for other applications where a flash of light is used to make a measurement
+ 
+true: chronoscope
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: measuring instrument.n.1, hyponym: tachograph.n.1 | hypernym:
+
+predicted: speedometer'' n odometer '' n odograph n.2 vibrometer n, stroboscope, chronometer, altimeter,
+ 
+true: tachometer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: blessing.n.1, hyponym: embrace.n.3 | hypernym:
+
+predicted: benediction(noun) etymologically speaking, benedicere is to praise and bless, and benison is the act of best
+ 
+true: adoption
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: compound.n.2, hyponym: urobilinogen.n.1 | hypernym:
+
+predicted: bile pigment yellowish brownish greenish yellow green yellow orange yellow-brownish red brown green green-yellowish orange orange-red
+ 
+true: chromogen
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: musical notation.n.1, hyponym: tonic solfa.n.1 | hypernym:
+
+predicted: solfeggio system of notation [[noun](http://wwwers.com/dictionary/search?q=solfege)] [[nn](
+ 
+true: solmization
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: alteration.n.2, hyponym: take-up.n.2 | hypernym:
+
+predicted: shortening of a garment's hemline or sleeve cuffs, or adjustment of the fit in other respects to make it
+ 
+true: tightening
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: protection.n.1, hyponym: convoy.n.3 | hypernym:
+
+predicted: escorting protection of ships at sea by naval vessels, aircraft, or other means of protection against enemy attack or piracy attack on the high seas
+ 
+true: escort
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: musician.n.1, hyponym: rock star.n.1 | hypernym:
+
+predicted: pop star, pop idol, rock groupie, music-maker, performer, singer, songwriter, composer, conductor, instrumentalist
+ 
+true: rocker
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: expert.n.1, hyponym: cartographer.n.1 | hypernym:
+
+predicted: mapmaker
+ 
+true: geographer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: organic compound.n.1, hyponym: propenonitrile.n.1 | hypernym:
+
+predicted: nitrile alkene copolymerization product of ethylene and propylene oxide with a low molecular weight and a high degree
+ 
+true: nitrile
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: pain.n.1, hyponym: lead colic.n.1 | hypernym:
+
+predicted: abdominal pain of infantile paralysis disease of infants and young children, abortive form of enteritis, acute abdomen
+ 
+true: colic
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: flower.n.1, hyponym: common valerian.n.1 | hypernym:
+
+predicted: Valeriana officinalis L. ex Loudon hybrida {Valeranthemum officinale (L.) Medik.} hybrid
+ 
+true: valerian
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: legal document.n.1, hyponym: verification.n.2 | hypernym:
+
+predicted: affidavit or affirmation of lawyers and notaries public attesting to the authenticity of a document or signature, or to
+ 
+true: affidavit
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: testimony.n.1, hyponym: verification.n.2 | hypernym:
+
+predicted: corroboration
+ 
+true: affidavit
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: plant.n.2, hyponym: bedder.n.1 | hypernym:
+
+predicted: bedding plant nursery crop planting and culture of plants plant propagation plant breeding plant cultivation of ornamental plants greenhouse operation green
+ 
+true: garden plant
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: process.n.5, hyponym: vegetation.n.3 | hypernym:
+
+predicted: growth process in plants and animals cells and microorganisms in culture, including the growth of crystals in vitro and in vivo, and the
+ 
+true: excrescence
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: growth.n.6, hyponym: vegetation.n.3 | hypernym:
+
+predicted: sprouting forth of new growths and leaves after a period of dormancy or quiescence, as in bulbs, tubers,
+ 
+true: excrescence
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: fern.n.1, hyponym: Alpine lady fern.n.1 | hypernym:
+
+predicted: adder's-tongue, whisk-fern, cinnamon-fern, hard-shooting-ferns,
+ 
+true: lady fern
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: vine.n.1, hyponym: scammony.n.3 | hypernym:
+
+predicted: stramonium plant family of plants and vines of North America, Europe, Asia, and North Africa, including the grape, tomato,
+ 
+true: convolvulus
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: beginning.n.5, hyponym: tip-off.n.2 | hypernym:
+
+predicted: initiation of an event or procession of events initiated by an external agent or force acting on an object in motion or at rest in a specified direction
+ 
+true: jump ball
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: actor.n.2, hyponym: self-starter.n.1 | hypernym:
+
+predicted: initiator
+ 
+true: powerhouse
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: enzyme.n.1, hyponym: ptyalin.n.1 | hypernym:
+
+predicted: amylase" id="omw-oa-amyloglucoside hydrolase">hydrase</a> hydrolyzing
+ 
+true: amylase
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: enzyme.n.1, hyponym: trypsinogen.n.1 | hypernym:
+
+predicted: zymogenetically active proteinase inhibitor protein (ZAP) zinc-binding endopeptidase-kunitz-type
+ 
+true: trypsin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: orchid.n.1, hyponym: bog rose.n.1 | hypernym:
+
+predicted: cypripedium calceolus var. reginum Reichenbach f. ex Regel, yellow lady's-slipper
+ 
+true: arethusa
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: participant.n.1, hyponym: adducer.n.1 | hypernym:
+
+predicted: asserter of something as true or false, witness, testifier, affirmer, denier, replier, speaker, stutterer,
+ 
+true: discussant
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: igneous rock.n.1, hyponym: kimberlite.n.1 | hypernym:
+
+predicted: ultramafic rock rock massif rock pyroxenite rock dike rock sill rock lava rock magma rock volcanic
+ 
+true: peridotite
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: house.n.1, hyponym: lodge.n.3 | hypernym:
+
+predicted: cottage householder's dwelling place and workplace in a village or small town in the countryside of England, Wales, and
+ 
+true: gatehouse
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: dish.n.2, hyponym: lamb curry.n.1 | hypernym:
+
+predicted: curried dishes of meat or fish cooked in a sauce of yogurt or coconut milk and spices, and served with rice
+ 
+true: curry
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: dish.n.2, hyponym: bean tostada.n.1 | hypernym:
+
+predicted: tostada shells with bean filling and toppings of cheese, lettuce, tomato, and sour cream, salsa,
+ 
+true: tostada
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: love.n.1, hyponym: beneficence.n.1 | hypernym:
+
+predicted: kindness of heart toward others, generosity of spirit, loving-kindness, charity, good will, philanthropy, benevol
+ 
+true: benevolence
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: respiratory disease.n.1, hyponym: status asthmaticus.n.1 | hypernym:
+
+predicted: asthma attack, bronchitis, emphysema, pneumonia, pleurisy, tuberculosis, pulmonary edema
+ 
+true: asthma
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: change of location.n.1, hyponym: invasion.n.2 | hypernym:
+
+predicted: incursion into a place of residence or business of another person or group of people with the intention of taking possession of the place or space occupied by the
+ 
+true: entrance
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: electrical device.n.1, hyponym: surge suppressor.n.1 | hypernym:
+
+predicted: protector circuit breaker { suppression device } [[noun]] hyphenated: suppressor pad, fuse, spark plug, switch,
+ 
+true: suppressor
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ladder.n.1, hyponym: aerial ladder.n.1 | hypernym:
+
+predicted: fire escape Ladder company trucks are equipped with these ladders, which can be extended to great heights to rescue people from burning buildings
+ 
+true: extension ladder
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: dispenser.n.1, hyponym: airbrush.n.1 | hypernym:
+
+predicted: spray gun or gun-dispenser of paint, ink, or other liquid substance to be sprayed through a nozzle with a
+ 
+true: atomizer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: relative.n.1, hyponym: affine.n.1 | hypernym:
+
+predicted: relative by marriage
+ 
+true: kin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: discourtesy.n.3, hyponym: mock.n.1 | hypernym:
+
+predicted: disrespectful behavior toward another person's feelings, beliefs, or opinions; irreverence; contemptuous behavior; disregard;
+ 
+true: derision
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: Asian.n.1, hyponym: Farsi.n.1 | hypernym:
+
+predicted: Iranian Persian speaking person from Iran, Afghanistan, or Tajikistan speaks a language of the Perso-Iranian branch of
+ 
+true: Irani
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: country.n.2, hyponym: Central American country.n.1 | hypernym:
+
+predicted: republic of Central America
+ 
+true: North American country
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: gas.n.2, hyponym: marsh gas.n.1 | hypernym:
+
+predicted: swamp gas, ethyl mercaptan, dimethyl sulfide, methane, hydrogen sulfur compound, nitrogen
+ 
+true: methane
+ 
+intersection: methane
+
+metrics:  MRR 0.25 MAP 0.94 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: methane series.n.1, hyponym: marsh gas.n.1 | hypernym:
+
+predicted: ethane gasoline mixture mixture of hydrocarbons with the molecular formula C2H6, C3H8, and C4H1
+ 
+true: methane
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: meal.n.1, hyponym: business lunch.n.1 | hypernym:
+
+predicted: working meals(noun) luncheon, dinner, supper, breakfast, snack, mealtime, noontide, l
+ 
+true: lunch
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: gum.n.3, hyponym: Senegal gum.n.1 | hypernym:
+
+predicted: thorny guma resinous plant seeds of the genus Sterculiaceae, and the related genus Cassia pearcei, of
+ 
+true: gum arabic
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: fungus.n.1, hyponym: Gyromitra fastigiata.n.1 | hypernym:
+
+predicted: gyromyces fungi, jelly mushroom, false morel, Jamaica vomit cup, mollisia, Morch
+ 
+true: lorchel
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: flavorer.n.1, hyponym: clove.n.3 | hypernym:
+
+predicted: nutmeg butter flavoring agent for foods and beverages, such as eggnog and cake mixes, ice cream, and
+ 
+true: garlic
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: wind.n.1, hyponym: prevailing westerly.n.1 | hypernym:
+
+predicted: trade winds wind blowing from the west in the tropical regions of the world ocean; east wind, easterly wind; northeaster,
+ 
+true: west wind
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: transportation.n.5, hyponym: cartage.n.1 | hypernym:
+
+predicted: haulage-in-kindness of the carrier's own goods and chattels to a place of shipment, and thence to
+ 
+true: hauling
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: transportation system.n.1, hyponym: rapid transit.n.1 | hypernym:
+
+predicted: rail system"n subway system” n bus system nn tramsystemn n road systemn road networkn airport systemnn air
+ 
+true: public transit
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: delivery.n.1, hyponym: relay.n.1 | hypernym:
+
+predicted: forwarding of mail or packages to a destination beyond the reach of a single carrier's route or range of delivery service, usually by relaying the
+ 
+true: passage
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: Semitic.n.1, hyponym: Assyrian Akkadian.n.1 | hypernym:
+
+predicted: Babylonian language(s) of the Chaldean group of languages of Mesopotamia and the Near East, including Assurian and
+ 
+true: Akkadian
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: European.n.1, hyponym: Philippian.n.1 | hypernym:
+
+predicted: Spaniard, Iberian, Hispanic, Portuguese, Galician, Dane, Norwegian, Swede, Finn, German, Netherland
+ 
+true: Macedonian
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: soft-finned fish.n.1, hyponym: mediterranean anchovy.n.1 | hypernym:
+
+predicted: sardine-like fishes of the family Engraulidae, order Clupeiformes, suborder Anchovylike Fishes, super
+ 
+true: anchovy
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: book.n.2, hyponym: coloring book.n.1 | hypernym:
+
+predicted: activity booklet for children's amusement and instruction in drawing, painting, and the like, with blank spaces to be filled in with colors, lines
+ 
+true: picture book
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: residence.n.2, hyponym: alcazar.n.1 | hypernym:
+
+predicted: palace of the king or queen regnant of England and Scotland until 1649, when it was destroyed by fire during the English Civil War,
+ 
+true: palace
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: blight.n.2, hyponym: celery blight.n.1 | hypernym:
+
+predicted: pox disease of cereals and grasses, caused by the fungus Rhizoctinia solani f. sp. graminis-
+ 
+true: late blight
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: algebra.n.1, hyponym: decomposition.n.1 | hypernym:
+
+predicted: factorization method of algebraic equations of degree higher than four, including quadratic equations and polynomial equations in more than one unknown quantity, solved by factoring,
+ 
+true: vector algebra
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: duct.n.1, hyponym: enteron.n.1 | hypernym:
+
+predicted: intestine tubule wall layer of the small bowel wall, enterocyte, goblet cell, Paneth's cells, absorpt
+ 
+true: alimentary canal
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: gene.n.1, hyponym: tumor suppressor gene.n.1 | hypernym:
+
+predicted: cancer gene mutant allele of a gene with a mutation in it that predisposes the carrier to cancer, but not necessarily cancer itself,
+ 
+true: suppressor
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: decrease.n.4, hyponym: service cutback.n.1 | hypernym:
+
+predicted: curtailment of service(noun) retrenchment, reduction, decrease in size, cut, diminution, shrinkage, short
+ 
+true: cutback
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: decrease.n.4, hyponym: tapering.n.1 | hypernym:
+
+predicted: narrowing downward of a space or opening to a point of narrowness or closure, as a neck, funnel, or tube narrows toward
+ 
+true: lowering
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: leather.n.1, hyponym: Levant.n.1 | hypernym:
+
+predicted: morocco skin of goats and sheep skins tanned with sumach and chestnut tanbark, used for bookbinding and uph
+ 
+true: morocco
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: wildflower.n.1, hyponym: blanket flower.n.1 | hypernym:
+
+predicted: gaillardia scaposa hybrid group of plants in the daisy family, native to North America, Mexico, and the West Indies,
+ 
+true: gaillardia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: reserve account.n.1, hyponym: cookie jar reserve.n.1 | hypernym:
+
+predicted: petty-cash funds accounting system reserve fund balance account balance reserve funds balance balance in the bank balance on deposit balance to the credit balance
+ 
+true: hidden reserve
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: license.n.4, hyponym: variance.n.6 | hypernym:
+
+predicted: waiver of a right of action against a licensee for breach of warranty of fitness for a particular purpose in the sale of goods
+ 
+true: dispensation
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: car.n.1, hyponym: shooting brake.n.1 | hypernym:
+
+predicted: station wagon
+ 
+true: beach wagon
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cheese.n.1, hyponym: rat cheese.n.1 | hypernym:
+
+predicted: cottage-cheese curdle cellular casein curds of the same type as cheesecloth, ricotta, farmer
+ 
+true: cheddar
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cress.n.1, hyponym: Belle Isle cress.n.1 | hypernym:
+
+predicted: watercress botanical name is Nasturtium officinale of the genus Nostocaceae) of family Brassicaceae, also known as
+ 
+true: winter cress
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: corvine bird.n.1, hyponym: American crow.n.1 | hypernym:
+
+predicted: crow corvid bird species of the genus Corvus in the New World, including the common raven, black-billed magpie, jay
+ 
+true: crow
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: transferase.n.1, hyponym: glutamic oxalacetic transaminase.n.1 | hypernym:
+
+predicted: aminotransferase [[n](http://www.sciencedirect.com/topics/medicine-and-dentistry/
+ 
+true: transaminase
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: angle.n.1, hyponym: hip.n.4 | hypernym:
+
+predicted: oblique angle angle of inclination of a line segment to a horizontal line passing through the vertex of the angle, in radians or degrees, where the
+ 
+true: exterior angle
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: deity.n.1, hyponym: Wyrd.n.1 | hypernym:
+
+predicted: fate goddess of the Nordic pantheon, Fate, Norn, Moira, Parcae, Rhadamanthus,
+ 
+true: Anglo-Saxon deity
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: deity.n.1, hyponym: patron saint.n.1 | hypernym:
+
+predicted: sainted one, venerated personage, idol, icon, saint, deified person, god, hero, martyr, sacred being,
+ 
+true: saint
+ 
+intersection: saint
+
+metrics:  MRR 0.2 MAP 0.92 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: biologist.n.1, hyponym: virologist.n.1 | hypernym:
+
+predicted: microbiologist
+ 
+true: microbiologist
+ 
+intersection: microbiologist
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: filming.n.1, hyponym: retake.n.1 | hypernym:
+
+predicted: shooting schedule of shots for a scene in a film or television program, including setups and cutaways, crosscuts, inserts, and
+ 
+true: take
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: destroyer.n.2, hyponym: sleeper.n.2 | hypernym:
+
+predicted: submarine chaser or frigate escort ship or destroy-escort vessel or torpedo-boatdestroyer or corvette esc
+ 
+true: saboteur
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: echinoderm family.n.1, hyponym: Comatulidae.n.1 | hypernym:
+
+predicted: Antedonidae sensu lato (sensu stricto, Anemonia antedens) {n}{n} basket star family
+ 
+true: Antedonidae
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: anthropologist.n.1, hyponym: ritualist.n.2 | hypernym:
+
+predicted: ethnographer
+ 
+true: social anthropologist
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: rock.n.2, hyponym: verd antique.n.1 | hypernym:
+
+predicted: limestone rock stone rock rock shale rock sandstone rock sedimentary rock volcanic rock igneous rock granite rock gneiss rock
+ 
+true: marble
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: maxim.n.1, hyponym: Murphy's Law.n.1 | hypernym:
+
+predicted: axiomatic truth of the world we live in" idiomatically called aphorism {n} adage, proverb, saw,
+ 
+true: gnome
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: stable gear.n.1, hyponym: apishamore.n.1 | hypernym:
+
+predicted: manger (noun) feedbox for horses or cattle in a stable or stallion stationery feeding trough for cattle or horses feed
+ 
+true: saddle blanket
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: book.n.1, hyponym: hymnal.n.1 | hypernym:
+
+predicted: prayer booklet for laymen or laywomen to use in public worship of the Roman Catholic Church in the vernacular language, with or without music
+ 
+true: songbook
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: placement.n.3, hyponym: tessellation.n.1 | hypernym:
+
+predicted: tiling of a plane surface with congruent figures, such as squares or hexagons arranged in a checkerboard pattern, triangles, or
+ 
+true: juxtaposition
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: bishop.n.1, hyponym: dean.n.4 | hypernym:
+
+predicted: prelate of a cathedral chapter or chapter of canons regular of the Congregation of Canons Regular of St. Augustine, or of
+ 
+true: cardinal
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: photograph.n.1, hyponym: outtake.n.1 | hypernym:
+
+predicted: snapshooter's photograph of a person or thing outside the frame of the picture he intended to take, or of an object inadvertently
+ 
+true: scene
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: army unit.n.1, hyponym: battery.n.1 | hypernym:
+
+predicted: kangaroo rat, pocket mouse, jerboa, jumping mouse and its allies, packrat, New World porcupine, Old
+ 
+true: artillery
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: teacher.n.1, hyponym: geometry teacher.n.1 | hypernym:
+
+predicted: table with leaves for extension or contraction of its length or width or both length and width, and chairs to match the table, for use in a
+ 
+true: math teacher
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: furniture.n.1, hyponym: dining-room table.n.1 | hypernym:
+
+predicted: lacrimation, lachrymosity, weeping, wailing, blubber, snivel, sob, sigh, sobb
+ 
+true: dining-room furniture
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: Muslim.n.1, hyponym: niqaabi.n.1 | hypernym:
+
+predicted: bankruptcy, damage, default, depreciation, deficit, expense, forfeiture, impairment, insolvency
+ 
+true: Muslimah
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: perceiver.n.1, hyponym: co-discoverer.n.1 | hypernym:
+
+predicted: singular point of a dynamical system in chaos theory and fractal geometry theory of self-similarity and complexity science and mathematics and physics and computer
+ 
+true: finder
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: point.n.1, hyponym: strange attractor.n.1 | hypernym:
+
+predicted: bidder, bridge partner, contractor, declarer, defender, dummy, player, pass-out, trick-taker, trump,
+ 
+true: attractor
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: sound recording.n.1, hyponym: digital audiotape.n.1 | hypernym:
+
+predicted: audio-tape" id="omwKj" align=" middle" /> audiocassette, audiotext, videotaped
+ 
+true: audiotape
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: tape.n.2, hyponym: digital audiotape.n.1 | hypernym:
+
+predicted: banister, balustrade, handrail, picket fence, stair rail, fencing, guard, parapet, porch
+ 
+true: audiotape
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: oppressor.n.1, hyponym: flogger.n.1 | hypernym:
+
+predicted: white knight company business_noun conglomerate corporate raider hostile takeover investor investment banker leveraged buyout
+ 
+true: torturer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: company.n.1, hyponym: white squire.n.1 | hypernym:
+
+predicted: subcontractor, builder, carpenter, contracting firm, mason, plumber, roofer, sub, supplier, trades
+ 
+true: white knight
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: racing.n.1, hyponym: hydroplane racing.n.1 | hypernym:
+
+predicted: bobwhite, partridge, prairie chicken, bachman's warbler, chukar, covey, Old World
+ 
+true: boat racing
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: compartment.n.2, hyponym: stateroom.n.1 | hypernym:
+
+predicted: palmetto, sago, coconut, date, dwarf fan, sugar, palmaceous plant, fan-palm,
+ 
+true: cabin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: compartment.n.2, hyponym: glory hole.n.1 | hypernym:
+
+predicted: pestilence, Black Death, Justinian's plague, bubonic, pneumonic plaque, septicemic pl
+ 
+true: cabinet
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: verb.n.1, hyponym: doubly transitive verb.n.1 | hypernym:
+
+predicted: crevice, fissure, hairline, seam, split, cleft, fault, joint, crack in the earth's crust,
+ 
+true: transitive verb
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: sermon.n.1, hyponym: televangelism.n.1 | hypernym:
+
+predicted: ethane gasoline mixture mixture of hydrocarbons with the molecular formula C2H6, C3H8, and C4H1
+ 
+true: evangelism
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: side.n.4, hyponym: forefront.n.1 | hypernym:
+
+predicted: veranda or gallery | portico, stoop, gallery, peristyle, loggia, portchetto, porche, verandah
+ 
+true: front
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: porch.n.1, hyponym: sun deck.n.1 | hypernym:
+
+predicted: Japanese chessboard game of the go family of games of strategy and tactics for two players on a square board with black and white pieces on opposite sides
+ 
+true: deck
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: board game.n.1, hyponym: shogi.n.1 | hypernym:
+
+predicted: handgear for a sporting contestant to wear on his hand or foot or head or body or in his mouth or eye or ear or nose or
+ 
+true: chess
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: sports equipment.n.1, hyponym: boxing glove.n.1 | hypernym:
+
+predicted: beat, close-hauled, jibe, reefing, running, sail trimming, spinnaker, windward, yachting
+ 
+true: boxing equipment
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: container.n.1, hyponym: trophy case.n.1 | hypernym:
+
+predicted: crown, tiara, diadem, coronet, headpiece, crown of gold, queen's crown or crown imperial, sceptre,
+ 
+true: case
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: pipe.n.4, hyponym: musette.n.1 | hypernym:
+
+predicted: bouillabaisse, cassoulet, fish chowder, fumet, marmitako, paella de pescado,
+ 
+true: bagpipe
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: rampart.n.1, hyponym: sconce.n.2 | hypernym:
+
+predicted: complementary DNA, double helix, messenger RNA, mitochondria, ribosome, single-stranded DNA strand,
+ 
+true: earthwork
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cooking.n.1, hyponym: shirring.n.1 | hypernym:
+
+predicted: martinet, slave driver, taskmistress, drill sergeant, tutor, overseer, schoolmaster, superintendent,
+ 
+true: baking
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ballet dancer.n.1, hyponym: prima ballerina.n.1 | hypernym:
+
+predicted: loop strip, ribbon, tape loop, loop of wire, strip of paper, band, belt, chain, string, strap, wire
+ 
+true: ballerina
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: good weather.n.1, hyponym: balminess.n.1 | hypernym:
+
+predicted: blender, coffee maker, crockpot, electric skillet, food processor, grill, hot plate, ice cream machine, microw
+ 
+true: mildness
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: belt.n.1, hyponym: half track.n.2 | hypernym:
+
+predicted: big sister, full sister sister-in-law, half sister half-sister, older sister younger sister daughter, foster sister nymph,
+ 
+true: track
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: domestic fowl.n.1, hyponym: guinea hen.n.2 | hypernym:
+
+predicted: New Mexico pinion, pinyon, Utah juniper, piñon pines, Texas red-bud, Mexican pinón, Arizona pin
+ 
+true: guinea fowl
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: sailing vessel.n.1, hyponym: sharpshooter.n.3 | hypernym:
+
+predicted: heart rot, black rot of oats, dry-rot, wet-rotting of apples, mushroom disease, scab of apple,
+ 
+true: schooner
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: coach.n.1, hyponym: line coach.n.1 | hypernym:
+
+predicted: oyster stew, omelette aux oeufs d'huître, raw bar, fritter, salad, soup,
+ 
+true: football coach
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: gunsight.n.1, hyponym: zero.n.4 | hypernym:
+
+predicted: brazier [[noun](http://wwwers.com/dictionary/search?q=brasier&search_id=mah_n
+ 
+true: sight setting
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: recreational vehicle.n.1, hyponym: van.n.4 | hypernym:
+
+predicted: tubocurarine, pancuronium, atracurium besylate, succinylcholine chloride, vecuron
+ 
+true: camper
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: beam.n.3, hyponym: ion beam.n.1 | hypernym:
+
+predicted: brew house, brewhouse, lager brewing plant, malthouses, alehouse, beer garden, distillery, vat-
+ 
+true: particle beam
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: stratum.n.1, hyponym: ore bed.n.1 | hypernym:
+
+predicted: sheeting material for bedding purposes only, made up of a top sheet and a bottom sheet fitted together with elastic around the edges to fit a standard
+ 
+true: bed
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: bed linen.n.1, hyponym: fitted sheet.n.1 | hypernym:
+
+predicted: biostatistics, medical statistics, ecology, epidemiology, genetics, mathematics, physics, physiological chemistry,
+ 
+true: sheet
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: worktable.n.1, hyponym: lab bench.n.1 | hypernym:
+
+predicted: lounge suit, pinstripe, three-piece, double-breasted, sack, skirt-suit, blazer,
+ 
+true: workbench
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: rite.n.1, hyponym: Berith.n.1 | hypernym:
+
+predicted: corral, kraal, penitentiary, sheepfold, stockade, coop, enclosure, fold, jail, kenn
+ 
+true: circumcision
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: hand.n.8, hyponym: sweep hand.n.1 | hypernym:
+
+predicted: canter, rack, fox-trot, jog, tolt, walk, gallop, pace, steeplechase gait
+ 
+true: second hand
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: saw.n.2, hyponym: pitsaw.n.1 | hypernym:
+
+predicted: Plantagenet, Tudor, Stuart, Hanover, Hohenzollern, Romanov, Saxe-Coburg-Goth
+ 
+true: two-handed saw
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: blennioid fish.n.1, hyponym: rock gunnel.n.1 | hypernym:
+
+predicted: corner intersection of roads or streets running at right angles to each other, controlled by traffic signals or stop signs in the United States and Canada; controlled intersection in
+ 
+true: gunnel
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: intersection.n.2, hyponym: blind corner.n.1 | hypernym:
+
+predicted: colander, winnowing basket, wire-mesh sift, strainer, sieves and strainers, shaker, sif
+ 
+true: corner
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cocktail.n.1, hyponym: Rob Roy.n.2 | hypernym:
+
+predicted: Ethernet, Internet, intranet, WAN, wireless local-area network, LAN-to-LAN link, metropolitan area
+ 
+true: manhattan
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: jay.n.2, hyponym: blue jay.n.1 | hypernym:
+
+predicted: gurnard, scorpaeniform fish, pinfish, grunts, snappers, sea robin, croakers, drum
+ 
+true: New World jay
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: detachment.n.4, hyponym: Praetorian Guard.n.2 | hypernym:
+
+predicted: bodyguard of the emperor of Rome, imperial guard, personal guard of a sovereign, police force, watch, warder, palace guard
+ 
+true: bodyguard
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: guard.n.6, hyponym: Praetorian Guard.n.2 | hypernym:
+
+predicted: coxsackievirus, echoviruses, encephalomyocarditis virus, enteric cytopathic human orphan
+ 
+true: bodyguard
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: emission.n.1, hyponym: bombardment.n.3 | hypernym:
+
+predicted: pudendum, vulva, vagina, clitoris, labia, uterus, ovaries, Bartholin's
+ 
+true: radiation
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: wire.n.2, hyponym: clip lead.n.1 | hypernym:
+
+predicted: dog leash cable jumpers cable connector lead set of wires with connectors on both ends of the cable, one end is connected to the computer
+ 
+true: jumper cable
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: jumper.n.5, hyponym: clip lead.n.1 | hypernym:
+
+predicted: triumphal march, dirge, hymn, marching song, quickstep, recessional, tune, waltz, funeral
+ 
+true: jumper cable
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: follower.n.2, hyponym: bounty hunter.n.1 | hypernym:
+
+predicted: cesium, cobalt-60, strontium-89, technetium 99m, tritum, prom
+ 
+true: pursuer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: variety meat.n.1, hyponym: honeycomb tripe.n.1 | hypernym:
+
+predicted: brazier [[noun](http://wwwers.com/dictionary/search?q=brasier&search_id=mah_n
+ 
+true: tripe
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: heater.n.1, hyponym: hibachi.n.1 | hypernym:
+
+predicted: tranquilizer, hypnotic, sleeping pill, anesthetic, antianxiety agent, barbiturate, nonbar
+ 
+true: brazier
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: burglary.n.1, hyponym: home invasion.n.1 | hypernym:
+
+predicted: electric circuit | series circuit is a circuit in which the current is led through a single path, the elements of the circuit being connected in series, one
+ 
+true: housebreaking
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: circuit.n.1, hyponym: parallel circuit.n.1 | hypernym:
+
+predicted: aminotransferase [[n](http://www.sciencedirect.com/topics/medicine-and-dentistry/
+ 
+true: closed circuit
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: declamation.n.1, hyponym: screed.n.1 | hypernym:
+
+predicted: sleeper agent, agent provocateur, saboteur, assassin, guerrilla, mercenary, spymaster, traitor, terror
+ 
+true: harangue
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: phalanger.n.1, hyponym: flying mouse.n.1 | hypernym:
+
+predicted: Yom Kippur, Tishah b'Av, Rosh Hashanah, fast of Gedaliah, Day of Atonement,
+ 
+true: flying phalanger
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: convexity.n.1, hyponym: oblateness.n.1 | hypernym:
+
+predicted: burn damage to property and personality damages resulting from the use of heat, hot water, or steam; scorching; singeing; blister
+ 
+true: roundedness
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: damage.n.3, hyponym: scald.n.2 | hypernym:
+
+predicted: houngan priestess of Voodooism in Haiti and the Dominican Republic, vodoun priest in West Africa, bok
+ 
+true: burn
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: scorpaenoid.n.1, hyponym: lumpsucker.n.1 | hypernym:
+
+predicted: coronaroplasty (coronary artery by-pass grafting) nnv, coronotomy, heart transplantation,
+ 
+true: lumpfish
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: heart surgery.n.1, hyponym: coronary bypass.n.1 | hypernym:
+
+predicted: ministerial post in government service in the United Kingdom and other countries with parliamentary systems of government in which the head of the government is a prime minister or
+ 
+true: open-heart surgery
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: public service.n.2, hyponym: cabinet minister.n.2 | hypernym:
+
+predicted: cadet officer training program participant cadette cadete cadett cadets cadidatee cadide cadit cadlet cadpoole cadwoman
+ 
+true: minister
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: trainee.n.1, hyponym: midshipman.n.1 | hypernym:
+
+predicted: Greco-Roman wresting, freestyle, judo, sambo, sumo, amateur wrestler, professional wrestle, grapp
+ 
+true: cadet
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: call.n.1, hyponym: three-way calling.n.1 | hypernym:
+
+predicted: Lycoperdon species of fungus, such as Calvatia gigantea and Calbavaria gigantiacalcariaeformis
+ 
+true: conference call
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: gasteromycete.n.1, hyponym: stalked puffball.n.2 | hypernym:
+
+predicted: Calvinist | n predication: Presbyterianism and Congregationalism prevailing in the Reformation period in England and
+ 
+true: Podaxaceae
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: necessitarian.n.1, hyponym: Huguenot.n.1 | hypernym:
+
+predicted: chorion {nucleus pulposus} of the eyeball, amnion, allantois, placenta,
+ 
+true: Calvinist
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: jay.n.2, hyponym: common European jay.n.1 | hypernym:
+
+predicted: pry bar or crowbar with a hooked end, used for prying open doors, drawers, and the like, or for lifting heavy
+ 
+true: Old World jay
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: lever.n.1, hyponym: cant hook.n.1 | hypernym:
+
+predicted: poll taxes imposed by local governments in England and Wales before 1990 and in some other countries, e.g., South Africa
+ 
+true: peavey
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: capital levy.n.1, hyponym: council tax.n.1 | hypernym:
+
+predicted: action verb
+ 
+true: property tax
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cult.n.5, hyponym: hoodoo.n.2 | hypernym:
+
+predicted: radio frequency wavelet of frequency below 300 megahertz (MHz) and wavelength above 15 kilometers and below
+ 
+true: voodoo
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: radio wave.n.1, hyponym: ionospheric wave.n.1 | hypernym:
+
+predicted: tracklessness of footprints in the snow or sand, footpath, trace, spoor, trail, path, track, way, road,
+ 
+true: sky wave
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: trail.n.2, hyponym: piste.n.2 | hypernym:
+
+predicted: Port Orford-cedar pine tree, Lawson's cypress, incense cedars, giant sequoia, big-cone
+ 
+true: ski run
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cedar.n.2, hyponym: pencil cedar.n.2 | hypernym:
+
+predicted: scabrousness of the skin surface of mammals and birds, feathers, fur, hair, horn, wool, beard,
+ 
+true: red cedar
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: solid body substance.n.1, hyponym: eschar.n.1 | hypernym:
+
+predicted: harvesting of crops in the field or garden, mowing, reaping, gathering in, picking up, plucking off
+ 
+true: scab
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: gather.n.2, hyponym: haying.n.1 | hypernym:
+
+predicted: republic of Central America
+ 
+true: harvest
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: rival.n.1, hyponym: mortal enemy.n.1 | hypernym:
+
+predicted: float drinking mixture of carbonated water and syrup flavored with vanilla, cherry, or other flavorings and topped with whipped
+ 
+true: foe
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: drink.n.1, hyponym: root beer float.n.1 | hypernym:
+
+predicted: foreign office of a nation-state government headed by a foreign minister or secretary of state for foreign affairs headquartered in the capital city of the
+ 
+true: ice-cream soda
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: service.n.2, hyponym: daycare.n.1 | hypernym:
+
+predicted: ice lolly or popsicle, ice-cream stick, lollipop, bar, cone, cup, sandwich, sundae
+ 
+true: childcare
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ice cream.n.1, hyponym: choc-ice.n.1 | hypernym:
+
+predicted: gloominess, glumness, pessimism, dejection, melancholy, dysphoria, disgust, irrit
+ 
+true: chocolate ice cream
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ill humor.n.1, hyponym: moroseness.n.1 | hypernym:
+
+predicted: palace of the king or queen regnant of England and Scotland until 1649, when it was destroyed by fire during the English Civil War,
+ 
+true: moodiness
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: film.n.3, hyponym: sound film.n.1 | hypernym:
+
+predicted: notching cutter cuts notches in the edge of a piece of material to be cut to a certain length, a slit, incision
+ 
+true: motion-picture film
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cut.n.18, hyponym: nip.n.6 | hypernym:
+
+predicted: narrowing of an opening or passageway in the body or in a structure, as a blood vessel or a ductus arteriosus, con
+ 
+true: clip
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: shrinking.n.1, hyponym: constriction.n.2 | hypernym:
+
+predicted: daughter of a woman alive at the time of speaking or writing, half-sister, stepdaughter, stepson, niece, grandd
+ 
+true: compression
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: summer squash.n.2, hyponym: crookneck.n.1 | hypernym:
+
+predicted: asthma attack, bronchitis, emphysema, pneumonia, pleurisy, tuberculosis, pulmonary edema
+ 
+true: yellow squash
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: color-blind person.n.1, hyponym: uniocular dichromat.n.1 | hypernym:
+
+predicted: gcd(a, b) = d such that a = bq and b = dr for some positive integers q and r with no common factors other
+ 
+true: dichromat
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: divisor.n.1, hyponym: greatest common divisor.n.1 | hypernym:
+
+predicted: snapshooter's photograph of a person or thing outside the frame of the picture he intended to take, or of an object inadvertently
+ 
+true: common divisor
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: condition.n.5, hyponym: fettle.n.1 | hypernym:
+
+predicted: stroke of a swimmer's arms or legs in water or air or on land or ice or snow or in a fluid medium other than air, water
+ 
+true: fitness
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: fireplace.n.1, hyponym: cookfire.n.1 | hypernym:
+
+predicted: crown prince's crown of England and Scotland and Ireland and Britain and Denmark and Norway and Sweden and Prussia and Saxony and Hanover and
+ 
+true: fire
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: crown jewels.n.1, hyponym: coronet.n.1 | hypernym:
+
+predicted: tiara-like crown headgear for a woman's head, with a circlet of diamonds or other precious stones set in gold or
+ 
+true: crown
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: jewelled headdress.n.1, hyponym: coronet.n.1 | hypernym:
+
+predicted: garter belt and suspenders combination, pannier, brassiere, corset, long johns, body stocking, g-
+ 
+true: crown
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: foundation garment.n.1, hyponym: panty girdle.n.1 | hypernym:
+
+predicted: haulage-in-kindness of the carrier's own goods and chattels to a place of shipment, and thence to
+ 
+true: corset
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: juncture.n.2, hyponym: flash point.n.1 | hypernym:
+
+predicted: profile of a section of the earth's surface or subsurface strata cross-sectional view of an object or a part of it cut by
+ 
+true: criticality
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cross section.n.1, hyponym: soil profile.n.1 | hypernym:
+
+predicted: subheading
+ 
+true: profile
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: heading.n.1, hyponym: running title.n.1 | hypernym:
+
+predicted: cutback cutaway shot transition technique in filmmaking and video production, where the camera cuts away from one scene to another, then returns to the first
+ 
+true: running head
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: transition.n.5, hyponym: jump cut.n.1 | hypernym:
+
+predicted: globin protein | hemoglobins, plasma globulin, cytochromes, myogoblin, transferrin, ferrin
+ 
+true: cut
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: hemoprotein.n.1, hyponym: oxyhemoglobin.n.1 | hypernym:
+
+predicted: daughter of a woman alive at the time of speaking or writing, half-sister, stepdaughter, stepson, niece, grandd
+ 
+true: hemoglobin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: female offspring.n.1, hyponym: mother's daughter.n.1 | hypernym:
+
+predicted: pyrethrum extracts of flowers of the chrysanthemum plant (Chrysantheum cinerariaefolium) used as
+ 
+true: daughter
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: insecticide.n.1, hyponym: Kwell.n.1 | hypernym:
+
+predicted: recitation of a piece of writing or poetry or prose or song lyrics or storytelling or reading aloud or lecturing or sermonizing
+ 
+true: lindane
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: public speaking.n.1, hyponym: declamation.n.2 | hypernym:
+
+predicted: wastepaper pulp mixture of fibers and other materials mixed with water and formed into sheets of paperboard or cardboard | neologism; card
+ 
+true: recitation
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: rubbish.n.1, hyponym: slack.n.1 | hypernym:
+
+predicted: fate goddess of the Nordic pantheon, Fate, Norn, Moira, Parcae, Rhadamanthus,
+ 
+true: debris
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: periodical.n.1, hyponym: literary review.n.1 | hypernym:
+
+predicted: electric circuit | series circuit is a circuit in which the current is led through a single path, the elements of the circuit being connected in series, one
+ 
+true: review
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: oligosaccharide.n.1, hyponym: raffinose.n.1 | hypernym:
+
+predicted: refugee
+ 
+true: trisaccharide
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: exile.n.1, hyponym: displaced person.n.1 | hypernym:
+
+predicted: reverse run of plays in football, basketball, or hockey, in which a player runs in one direction and then reverses direction before scoring a point or goal
+ 
+true: refugee
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: run.n.5, hyponym: double reverse.n.1 | hypernym:
+
+predicted: india-ink-marker pen-and-inkexceptionalism noun: indelink marker pen inkhypothetical in
+ 
+true: reverse
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ink.n.1, hyponym: marking ink.n.1 | hypernym:
+
+predicted: sprouting forth of new growths and leaves after a period of dormancy or quiescence, as in bulbs, tubers,
+ 
+true: indelible ink
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: power.n.2, hyponym: load.n.5 | hypernym:
+
+predicted: heat-labile toxin A of Escherichia coli strain 0157:H7 enterohemorrhagic
+ 
+true: electrical power
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: enterotoxin.n.1, hyponym: staphylococcal enterotoxin B.n.1 | hypernym:
+
+predicted: ermine raton, polecat, marten, stone martin, sable, otter, ferret, fisher, American mink,
+ 
+true: staphylococcal enterotoxin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: weasel.n.2, hyponym: stoat.n.1 | hypernym:
+
+predicted: unreliability, untrustworthiness, capriciousness, inconsistency, irresponsibility, inconstancy, fickleness
+ 
+true: ermine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: undependability.n.1, hyponym: errancy.n.2 | hypernym:
+
+predicted: hypotension portalopathy syndrome of liver cirrhosis and portal vein thrombosis and splenomegaly and
+ 
+true: fallibility
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: high blood pressure.n.1, hyponym: portal hypertension.n.1 | hypernym:
+
+predicted: spray gun or gun-dispenser of paint, ink, or other liquid substance to be sprayed through a nozzle with a
+ 
+true: malignant hypertension
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ministry.n.3, hyponym: French Foreign Office.n.1 | hypernym:
+
+predicted: full moon
+ 
+true: Foreign Office
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: phase of the moon.n.1, hyponym: harvest moon.n.1 | hypernym:
+
+predicted: sonar generator
+
+ spark generator, spark plug, Tesla coil, alternator, dynamo, turbine, generator of electric
+ 
+true: full moon
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: generator.n.4, hyponym: pinger.n.1 | hypernym:
+
+predicted: prenatal testing"n genotyping" n blood testing, blood typing, bioassay, biomarker, diagnostic
+ 
+true: pulse generator
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: testing.n.2, hyponym: genetic screening.n.1 | hypernym:
+
+predicted: strategy of the cold war era of international politics and diplomacy, international relations, foreign policy, national security, military strategy, politics of a particular country,
+ 
+true: screening
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: politics.n.2, hyponym: geostrategy.n.1 | hypernym:
+
+predicted: disrespectful behavior toward another person's feelings, beliefs, or opinions; irreverence; contemptuous behavior; disregard;
+ 
+true: geopolitics
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: vapor.n.1, hyponym: live steam.n.1 | hypernym:
+
+predicted: resinous substance obtained from certain plants, used as a fixative in perfumery and as an embalming agent in the preparation of
+ 
+true: steam
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: preservative.n.1, hyponym: stacte.n.1 | hypernym:
+
+predicted: covenant-making ritualism in Judaism and Christianity, circumcision, baptism, Eucharist, ordination, coron
+ 
+true: spice
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========

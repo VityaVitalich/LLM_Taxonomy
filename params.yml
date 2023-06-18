@@ -2,32 +2,34 @@ SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
   - 1
-  - 2
   - 3
   - 4
-  - 5
+  - 6
 EPOCHS:
-  - 4
+  - 2
 BATCH_SIZE:
-  - 4
+  - 2
 LR:
   - 3e-4
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/global_train_ru_babel.pickle"
+  - "babel_datasets/reweighted_wnet_train_en_babel.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/global_test_ru_babel.pickle"
+  - "babel_datasets/reweighted_wnet_test_en_babel.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - Auto
+  - "Llama"
 MODEL_CHECKPOINT:
-  - "bigscience/bloomz-7b1"
+  - "decapoda-research/llama-30b-hf"
 DTYPE:
-- "half"
+- "full"
 LOG_PRED_EVERY:
-- 800
+- 100
 DATA_PREPROC_STYLE:
-- "remove_all_from_labels"
-  
+- "reweighted_wnet_remove_all_from_labels"
+QLORA:
+- true
+LOAD_PATH:
+- "decapoda-research-llama-30b-hfreweighted_wnet_remove_all_from_labels_custom_multilang_epoch=0_batch_idx=7399.pth"  

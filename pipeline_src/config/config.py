@@ -7,9 +7,11 @@ from typing import Dict, Any
 class TaskConfig:
     gen_args: Dict[str, Any] = field(
         default_factory=lambda: {
-            "num_beams": 3,
-            "early_stopping": True,
+            "do_sample": True,
+            "num_beams": 1,
+            "num_return_sequences": 2,
             "max_new_tokens": 8,
+            "top_k": 20,
         }
     )
     device: torch.device = torch.device(
@@ -47,3 +49,4 @@ class TaskConfig:
     model_type: str = "Auto"  # Auto or Llama
     saving_predictions_path: str = "/raid/rabikov/model_outputs/"
     log_pred_every: int = 200
+    save_every_batch: int = 100

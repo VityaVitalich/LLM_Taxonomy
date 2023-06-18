@@ -55,7 +55,7 @@ def predict_child_with_parent_and_grandparent(elem):
     #     + "'. Answer:"
     # )
     transformed_term = (
-        "hyperhypenyms: "
+        "hyperhypernyms: "
         + ", ".join(clean["grandparents"])
         + ", hypernym: "
         + clean["parents"]

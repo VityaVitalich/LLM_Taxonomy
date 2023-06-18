@@ -1,130 +1,75 @@
 import numpy as np
+from .calculator import MeanReciprocalRank, PrecisionAtK, MeanAveragePrecision
+from typing import List
 
 
-def mean_reciprocal_rank(r):
-    """Score is reciprocal of the rank of the first relevant item
-    First element is 'rank 1'.  Relevance is binary (nonzero is relevant).
-    Example from http://en.wikipedia.org/wiki/Mean_reciprocal_rank
-    Args:
-        r: Relevance scores (list or numpy) in rank order
-            (first element is the first item)
-    Returns:
-        Mean reciprocal rank
-    """
-    r = np.asarray(r).nonzero()[0]
-    return 1.0 / (r[0] + 1) if r.size else 0.0
+class Metric:
+    def __init__(self, golds: List[str], preds: List[List[str]]):
+        self.golds = golds
+        self.preds = preds
 
+    @staticmethod
+    def get_hypernyms(line):
+        clean_line = line.strip().replace("\n", ",").replace("-", " ").split(",")
 
-def precision_at_k(r, k, n):
-    """Score is precision @ k
-    Relevance is binary (nonzero is relevant).
-    Args:
-        r: Relevance scores (list or numpy) in rank order
-            (first element is the first item)
-    Returns:
-        Precision @ k
-    Raises:
-        ValueError: len(r) must be >= k
-    """
-    assert k >= 1
-    r = np.asarray(r)[:k] != 0
-    if r.size != k:
-        raise ValueError("Relevance score length < k")
-    return (np.mean(r) * k) / min(k, n)
-    # Modified from the first version. Now the gold elements are taken into account
+        res = []
+        for hyp in clean_line:
+            res.append(hyp.lower().strip())
 
+        return res
 
-def average_precision(r, n):
-    """Score is average precision (area under PR curve)
-    Relevance is binary (nonzero is relevant).
-    Args:
-        r: Relevance scores (list or numpy) in rank order
-            (first element is the first item)
-    Returns:
-        Average precision
-    """
-    r = np.asarray(r) != 0
-    out = [precision_at_k(r, k + 1, n) for k in range(r.size)]
-    # Modified from the first version (removed "if r[k]"). All elements (zero and nonzero) are taken into account
-    if not out:
-        return 0.0
-    return np.mean(out)
+    def get_metrics(self, scores=None, limit=15, return_raw=False):
+        if not scores:
+            scores = self.default_metrics()
 
+        all_scores = {str(score): [] for score in scores}
 
-def mean_average_precision(r, n):
-    """Score is mean average precision
-    Relevance is binary (nonzero is relevant).
-    Args:
-        r: Relevance scores (list or numpy) in rank order
-            (first element is the first item)
-    Returns:
-        Mean average precision
-    """
-    return average_precision(r, n)
+        for goldline, pred_options in zip(self.golds, self.preds):
+            one_line_metrics = {str(score): [] for score in scores}
 
+            for predline in pred_options:
+                one_option_metrics = self.get_one_prediction(
+                    goldline, predline, scores, limit
+                )
 
-def get_hypernyms(line, is_gold=True, limit=15):
-    if is_gold == True:
-        valid_hyps = line.strip().split(",")
-        return list(map(lambda x: x.strip().lower(), valid_hyps))
-    else:
-        linesplit = line.strip().replace("\n", ",").split(",")
-        cand_hyps = []
-        for hyp in linesplit[:limit]:
-            hyp_lower = hyp.lower()
-            if hyp_lower not in cand_hyps:
-                cand_hyps.append(hyp_lower.strip())
-        return cand_hyps
+                for score in scores:
+                    one_line_metrics[str(score)].append(one_option_metrics[str(score)])
 
+            for key in all_scores:
+                mean_line_value = np.mean(one_line_metrics[key])
+                all_scores[key].append(mean_line_value)
 
-def get_all_metrics(golds, preds, limit=15):
-    all_scores = []
-    scores_names = ["MRR", "MAP", "P@1", "P@3", "P@5", "P@15"]
-    for i in range(len(golds)):
-        goldline = golds[i]
-        predline = preds[i]
+        res = {}
+        for key in all_scores:
+            mean_value = np.mean(all_scores[key])
+            res[key] = mean_value
 
-        avg_pat1 = []
-        avg_pat2 = []
-        avg_pat3 = []
-        avg_pat4 = []
+        return all_scores if return_raw else res
 
-        gold_hyps = get_hypernyms(goldline, is_gold=True, limit=limit)
-        pred_hyps = get_hypernyms(predline, is_gold=False, limit=limit)
+    def default_metrics(self):
+        scores = [
+            MeanReciprocalRank(),
+            MeanAveragePrecision(),
+            PrecisionAtK(1),
+            PrecisionAtK(3),
+            PrecisionAtK(5),
+            PrecisionAtK(15),
+        ]
+        return scores
+
+    def get_one_prediction(self, goldline, predline, scores, limit):
+        gold_hyps = self.get_hypernyms(goldline)
+        pred_hyps = self.get_hypernyms(predline)
         gold_hyps_n = len(gold_hyps)
         r = [0 for i in range(limit)]
 
-        for j in range(len(pred_hyps)):
+        for j in range(min(len(pred_hyps), limit)):
             pred_hyp = pred_hyps[j]
             if pred_hyp in gold_hyps:
                 r[j] = 1
 
-        avg_pat1.append(precision_at_k(r, 1, gold_hyps_n))
-        avg_pat2.append(precision_at_k(r, 3, gold_hyps_n))
-        avg_pat3.append(precision_at_k(r, 5, gold_hyps_n))
-        avg_pat4.append(precision_at_k(r, 15, gold_hyps_n))
+        res = {}
+        for score in scores:
+            res[str(score)] = score(r, gold_hyps_n)
 
-        mrr_score_numb = mean_reciprocal_rank(r)
-        map_score_numb = mean_average_precision(r, gold_hyps_n)
-        avg_pat1_numb = sum(avg_pat1) / len(avg_pat1)
-        avg_pat2_numb = sum(avg_pat2) / len(avg_pat2)
-        avg_pat3_numb = sum(avg_pat3) / len(avg_pat3)
-        avg_pat4_numb = sum(avg_pat4) / len(avg_pat4)
-
-        scores_results = [
-            mrr_score_numb,
-            map_score_numb,
-            avg_pat1_numb,
-            avg_pat2_numb,
-            avg_pat3_numb,
-            avg_pat4_numb,
-        ]
-        all_scores.append(scores_results)
-
-    res = {}
-    for k in range(len(scores_names)):
-        res[scores_names[k]] = sum([score_list[k] for score_list in all_scores]) / len(
-            all_scores
-        )
-
-    return res
+        return res
