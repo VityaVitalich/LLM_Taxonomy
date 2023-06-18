@@ -66,6 +66,7 @@ def train(
     criterion,
     logger,
     config,
+    loaded_batch=None,
 ):
     val_batch = next(iter(val_loader))
     for epoch in range(config.n_epochs):
@@ -82,6 +83,7 @@ def train(
             logger,
             config,
             epoch,
+            loaded_batch,
         )
 
         if (epoch + 1) % config.validation == 0:

@@ -116,7 +116,7 @@ if __name__ == "__main__":
     )
 
     if params_list["QLORA"][0] == True:
-        model.gradient_checkpointing_enable()
+        # model.gradient_checkpointing_enable()
         model = prepare_model_for_kbit_training(model)
 
     if config.using_peft:
@@ -139,6 +139,18 @@ if __name__ == "__main__":
         )
         model = get_peft_model(model, config_lora)
         model.print_trainable_parameters()
+
+    load_name = params_list["LOAD_PATH"][0]
+    loaded_batch = None
+    if load_name != "None":
+        load_path = "/raid/rabikov/model_checkpoints/" + load_name
+        print("loading model from path " + load_name)
+        checkpoint = torch.load(load_path, map_location="cpu")
+        model.load_state_dict(checkpoint["model"])
+        del checkpoint
+        torch.cuda.empty_cache()
+
+        loaded_batch = int(load_name.split("=")[-1].replace(".pth", ""))
 
     train_dataset, test_dataset, train_loader, val_loader = init_data(tokenizer, config)
 
@@ -165,4 +177,5 @@ if __name__ == "__main__":
         criterion,
         logger,
         config,
+        loaded_batch,
     )

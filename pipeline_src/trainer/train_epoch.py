@@ -1,6 +1,7 @@
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 from torch import nn
 import torch.nn.functional as F
 import torch
@@ -25,12 +26,15 @@ def train_epoch(
     logger,
     config,
     epoch,
+    loaded_batch=None,
 ):
     # unfreeze(model)
     model.train()
 
     pbar = tqdm(enumerate(train_loader), total=len(train_loader))
     for batch_idx, batch in pbar:
+        if loaded_batch and batch_idx < loaded_batch:
+            continue
         torch.cuda.empty_cache()
 
         st = logger.get_step() + 1
@@ -65,6 +69,11 @@ def train_epoch(
                 },
                 f"{config.saving_path}_epoch={epoch}_batch_idx={batch_idx}.pth",
             )
+            previous_checkpoint = (
+                f"{config.saving_path}_epoch={epoch}_batch_idx={batch_idx-100}.pth"
+            )
+            if os.path.isfile(previous_checkpoint):
+                os.remove(previous_checkpoint)
 
         if (batch_idx + 1) % config.log_pred_every == 0:
             model.eval()

@@ -4,6 +4,7 @@ CUDA_VISIBLE_DEVICES:
   - 1
   - 3
   - 4
+  - 6
 EPOCHS:
   - 2
 BATCH_SIZE:
@@ -30,4 +31,5 @@ DATA_PREPROC_STYLE:
 - "reweighted_wnet_remove_all_from_labels"
 QLORA:
 - true
-  
+LOAD_PATH:
+- "decapoda-research-llama-30b-hfreweighted_wnet_remove_all_from_labels_custom_multilang_epoch=0_batch_idx=7399.pth"  
