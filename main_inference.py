@@ -54,7 +54,13 @@ from transformers import (
     LlamaForCausalLM,
 )
 
-from peft import LoraConfig, get_peft_model, get_peft_model_state_dict
+from peft import (
+    LoraConfig,
+    get_peft_model,
+    get_peft_model_state_dict,
+    prepare_model_for_kbit_training,
+)
+
 
 if __name__ == "__main__":
     config = TaskConfig()
@@ -125,22 +131,25 @@ if __name__ == "__main__":
         model_type = LlamaForCausalLM
         tokenizer_type = LlamaTokenizer
 
+    extra_model_params = {}
     if params_list["DTYPE"][0] == "half":
-        dtype = torch.float16
-    else:
-        dtype = torch.float32
+        extra_model_params["torch_dtype"] = torch.float16
+
+    if params_list["QLORA"][0] == True:
+        extra_model_params["load_in_4bit"] = True
 
     model = model_type.from_pretrained(
-        config.model_checkpoint,
-        # load_in_8bit=True,
-        device_map="auto",
-        torch_dtype=dtype,
+        config.model_checkpoint, device_map="auto", **extra_model_params
     )
 
     tokenizer = tokenizer_type.from_pretrained(
         config.model_checkpoint,
         padding_side="left",
     )
+
+    if params_list["QLORA"][0] == True:
+        # model.gradient_checkpointing_enable()
+        model = prepare_model_for_kbit_training(model)
 
     if config.using_peft:
         LORA_R = 8

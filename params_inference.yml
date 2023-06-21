@@ -2,7 +2,7 @@ SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
   - 1
-  - 7
+  - 6
   - 3
   - 4
 EPOCHS:
@@ -22,17 +22,17 @@ USING_PEFT:
 MODEL_TYPE:
   - Llama
 MODEL_CHECKPOINT:
-  - "eachadea/vicuna-13b-1.1"
+  - "decapoda-research/llama-30b-hf"
 DTYPE:
-- "half"
+- "full"
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
 - "remove_all_from_labels"
 LOAD_PATH:
-- "eachadea-vicuna-13b-1.1_wordnet_remove_all_from_labels_custom_multilang_epoch=1_MAP=0.08940246311477464.pth"
+- "decapoda-research-llama-30b-hfreweighted_wnet_remove_all_from_labels_custom_multilang_epoch=0_MAP=0.15165570588873462.pth"
 PREV_PREDICT:
-- null
+- _decapoda-research-llama-30b-hfremove_all_from_labels_stohastic_
 STRATEGY:
 - "stohastic"
 NUM_BEAMS:
@@ -40,8 +40,10 @@ NUM_BEAMS:
 MAX_NEW_TOKENS:
 - 36
 TEMPERATURE:
-- 0.9
+- 0.95
 TOP_K:
 - 20
 NUM_RETURN_SEQUENCES:
 - 5
+QLORA:
+- true

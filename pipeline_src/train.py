@@ -85,6 +85,7 @@ def train(
             epoch,
             loaded_batch,
         )
+        loaded_batch = None
 
         if (epoch + 1) % config.validation == 0:
             validate(model, val_loader, logger, config)
