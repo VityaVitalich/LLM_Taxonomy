@@ -1,4 +1,8 @@
 TEST_DATA_PATH:
   - "babel_datasets/wnet_only/global_test_babel.pickle"
 OUTPUT_NAME:
-  - "_bigscience-bloomz-7b1remove_all_from_labels_stohastic_"
+  - "Data/_bigscience-bloomz-7b1remove_all_from_labels_stohastic_"
+SAVE_EXAMPLES:
+  - true
+SAVE_EXAMPLES_PATH:
+  - "babel_datasets/model_examples/bloomz7b"

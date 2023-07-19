@@ -3,5 +3,6 @@ __pycache__
 dataload_env
 .ruff_cache
 experiment.txt
+taxonomy_exm.drawio
 
 wandb/
