@@ -1,4 +1,4 @@
 TEST_DATA_PATH:
-  - "babel_datasets/wnet_test_en_babel.pickle"
+  - "babel_datasets/wnet_only/global_test_babel.pickle"
 OUTPUT_NAME:
-  - "_decapoda-research-llama-30b-hfremove_all_from_labels_stohastic_"
+  - "_bigscience-bloomz-7b1remove_all_from_labels_stohastic_"
