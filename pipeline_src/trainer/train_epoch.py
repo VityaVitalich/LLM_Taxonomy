@@ -13,6 +13,23 @@ import itertools
 from collections import Counter
 import pickle
 import pandas as pd
+from contextlib import contextmanager
+import signal
+
+
+@contextmanager
+def timeout(duration):
+    def timeout_handler(signum, frame):
+        raise TimeoutError(f"block timedout after {duration} seconds")
+
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.alarm(duration)
+    try:
+        yield
+    except TimeoutError:
+        pass
+    finally:
+        pass
 
 
 def train_epoch(
@@ -36,10 +53,8 @@ def train_epoch(
         if loaded_batch and batch_idx < loaded_batch:
             continue
 
-        if (batch_idx + 1) % 5 == 0:
-            print("cleaning cuda")
+        with timeout(10):
             torch.cuda.empty_cache()
-            print("cuda empty")
 
         st = logger.get_step() + 1
         logger.set_step(step=st, mode="train")
