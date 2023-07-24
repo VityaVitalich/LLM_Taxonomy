@@ -83,6 +83,9 @@ class HypernymDataset(Dataset):
         # processed_term = self.transforms[0](term)
         processed_term, target = self.case2transform[case](elem)
 
+        system_prompt = """System prompt: You are a helpfull assistant. List all the possible words divided with a coma. Your answer should not include anything except the words divided by a coma"""
+        processed_term = system_prompt + "\n" + "Prompt: " + processed_term
+
         # токенизируем
         encoded_term = self.tokenizer.encode(
             processed_term, **self.tokenizer_encode_args
@@ -190,7 +193,7 @@ def init_data(tokenizer, config, mask_label_token=-100, semeval_format=False):
         shuffle=True,
         num_workers=num_workers,
         drop_last=True,
-        pin_memory=True,
+        pin_memory=False,
     )
     val_loader = DataLoader(
         test_dataset,
@@ -199,7 +202,7 @@ def init_data(tokenizer, config, mask_label_token=-100, semeval_format=False):
         shuffle=False,
         num_workers=num_workers,
         drop_last=False,
-        pin_memory=True,
+        pin_memory=False,
     )
 
     return train_dataset, test_dataset, train_loader, val_loader

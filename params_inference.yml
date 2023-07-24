@@ -2,14 +2,14 @@ SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
   - 1
-  - 2
   - 3
   - 4
   - 5
+  - 6
 EPOCHS:
   - 4
 BATCH_SIZE:
-  - 2
+  - 6
 LR:
   - 3e-4
 MIN_LR:
@@ -21,17 +21,17 @@ TEST_DATA_PATH:
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - Auto
+  - Llama
 MODEL_CHECKPOINT:
-  - "bigscience/bloomz-7b1"
+  - "meta-llama/Llama-2-13b-hf"
 DTYPE:
-- "full"
+- "half"
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
 - "remove_all_from_labels"
 LOAD_PATH:
-- "bigscience-bloomz-7b1wnet_mulilang_custom_multilang_epoch=1_MAP=0.015015118388343006.pth"
+- "meta-llama-Llama-2-13b-hfwnet_mulilang_custom_multilang_epoch=0_MAP=0.03713403386996233.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
@@ -47,4 +47,4 @@ TOP_K:
 NUM_RETURN_SEQUENCES:
 - 5
 QLORA:
-- false
+- true
