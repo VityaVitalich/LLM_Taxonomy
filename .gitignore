@@ -6,3 +6,4 @@ experiment.txt
 taxonomy_exm.drawio
 tax_env/
 wandb/
+DataInterface/test_ru_filter.edgelist
