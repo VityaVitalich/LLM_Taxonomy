@@ -139,12 +139,16 @@ if __name__ == "__main__":
         extra_model_params["load_in_4bit"] = True
 
     model = model_type.from_pretrained(
-        config.model_checkpoint, device_map="auto", **extra_model_params
+        config.model_checkpoint,
+        device_map="auto",
+        use_auth_token="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",
+        **extra_model_params
     )
 
     tokenizer = tokenizer_type.from_pretrained(
         config.model_checkpoint,
         padding_side="left",
+        use_auth_token="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",
     )
 
     if params_list["QLORA"][0] == True:

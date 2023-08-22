@@ -25,9 +25,16 @@ from dataset.prompt_schemas import (
     predict_parent_from_child_granparent,
 )
 
+
+def get_intersect(gold, pred):
+    return list(set(pred).intersection(set(gold)))
+
+
 if __name__ == "__main__":
     test_path = params_list["TEST_DATA_PATH"][0]
-    saving_path = "/raid/rabikov/model_outputs/" + params_list["OUTPUT_NAME"][0]
+    saving_path = params_list["OUTPUT_NAME"][0]
+    save_examples = params_list["SAVE_EXAMPLES"][0]
+    save_examples_path = params_list["SAVE_EXAMPLES_PATH"][0]
 
     df = pd.read_pickle(test_path)
 
@@ -80,7 +87,7 @@ if __name__ == "__main__":
         res = metric_counter.get_metrics()
         cased_metrics[key] = res
 
-    write_log_path = "/raid/rabikov/metrics/" + params_list["OUTPUT_NAME"][0] + ".txt"
+    write_log_path = params_list["OUTPUT_NAME"][0] + ".txt"
 
     with open(write_log_path, "w") as f:
         df = pd.concat(
@@ -88,4 +95,58 @@ if __name__ == "__main__":
             axis=1,
         )
         f.write(df.to_string())
-        print("written in file")
+        print("metrics written in file")
+
+    if save_examples:
+        if not os.path.exists(save_examples_path):
+            print("path {} do not exist".format(save_examples_path))
+            os.mkdir(save_examples_path)
+
+        metric_counter = Metric(all_labels, all_preds)
+
+        for key in cased.keys():
+            n = len(cased[key]["pred"])
+
+            total_str = ""
+            for i in range(n):
+                preds = cased[key]["pred"][i]
+                m = len(preds)
+                for j in range(m):
+                    pred = preds[j]
+                    gold = cased[key]["label"][i]
+                    term = cased[key]["term"][i]
+
+                    res = metric_counter.get_one_prediction(
+                        gold, pred, metric_counter.default_metrics(), limit=50
+                    )
+                    intersect = get_intersect(
+                        metric_counter.get_hypernyms(gold),
+                        metric_counter.get_hypernyms(pred),
+                    )
+
+                    res_str = ""
+                    for metric_key in res.keys():
+                        res_str += " " + str(metric_key) + " " + str(res[metric_key])
+
+                    total_str += (
+                        term
+                        + "\n\n"
+                        + "predicted: "
+                        + pred
+                        + "\n \n"
+                        + "true: "
+                        + gold
+                        + "\n \n"
+                        + "intersection: "
+                        + ",".join(intersect)
+                        + "\n\n"
+                        + "metrics: "
+                        + res_str
+                        + " \n\n"
+                        + "=" * 10
+                        + "\n"
+                    )
+
+            file_name = save_examples_path + "/" + str(key) + ".txt"
+            with open(file_name, "w") as f:
+                f.write(total_str)

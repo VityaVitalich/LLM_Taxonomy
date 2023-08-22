@@ -2,37 +2,38 @@ SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
   - 1
-  - 6
   - 3
   - 4
+  - 5
+  - 6
 EPOCHS:
   - 4
 BATCH_SIZE:
-  - 2
+  - 6
 LR:
   - 3e-4
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/wnet_train_en_babel.pickle"
+  - "babel_datasets/wnet_only/global_train_babel.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/wnet_test_en_babel.pickle"
+  - "babel_datasets/wnet_only/global_test_babel.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
   - Llama
 MODEL_CHECKPOINT:
-  - "decapoda-research/llama-30b-hf"
+  - "meta-llama/Llama-2-13b-hf"
 DTYPE:
-- "full"
+- "half"
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
 - "remove_all_from_labels"
 LOAD_PATH:
-- "decapoda-research-llama-30b-hfreweighted_wnet_remove_all_from_labels_custom_multilang_epoch=0_MAP=0.15165570588873462.pth"
+- "meta-llama-Llama-2-13b-hfwnet_mulilang_custom_multilang_epoch=0_MAP=0.03713403386996233.pth"
 PREV_PREDICT:
-- _decapoda-research-llama-30b-hfremove_all_from_labels_stohastic_
+- null
 STRATEGY:
 - "stohastic"
 NUM_BEAMS:

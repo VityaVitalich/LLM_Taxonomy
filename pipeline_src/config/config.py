@@ -48,5 +48,5 @@ class TaskConfig:
     wandb_log_dir: str = "./"
     model_type: str = "Auto"  # Auto or Llama
     saving_predictions_path: str = "/raid/rabikov/model_outputs/"
-    log_pred_every: int = 200
-    save_every_batch: int = 100
+    log_pred_every: int = 500
+    save_every_batch: int = 10000

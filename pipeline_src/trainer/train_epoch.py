@@ -13,6 +13,23 @@ import itertools
 from collections import Counter
 import pickle
 import pandas as pd
+from contextlib import contextmanager
+import signal
+
+
+@contextmanager
+def timeout(duration):
+    def timeout_handler(signum, frame):
+        raise TimeoutError(f"block timedout after {duration} seconds")
+
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.alarm(duration)
+    try:
+        yield
+    except TimeoutError:
+        pass
+    finally:
+        pass
 
 
 def train_epoch(
@@ -35,13 +52,14 @@ def train_epoch(
     for batch_idx, batch in pbar:
         if loaded_batch and batch_idx < loaded_batch:
             continue
-        torch.cuda.empty_cache()
+
+        with timeout(10):
+            torch.cuda.empty_cache()
 
         st = logger.get_step() + 1
         logger.set_step(step=st, mode="train")
 
         terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
-
         output = model.forward(
             input_seqs.to(config.device).long(),
             attention_mask=att_mask_input.to(config.device).long(),
@@ -57,9 +75,6 @@ def train_epoch(
         logger.add_scalar("loss", loss.item())
         pbar.set_postfix({"Loss": loss.item()})
 
-        if config.loss_tol != 0 and loss.item() <= config.loss_tol:
-            break
-
         if (batch_idx + 1) % config.save_every_batch == 0:
             torch.save(
                 {
@@ -74,7 +89,6 @@ def train_epoch(
             )
             if os.path.isfile(previous_checkpoint):
                 os.remove(previous_checkpoint)
-
         if (batch_idx + 1) % config.log_pred_every == 0:
             model.eval()
             with torch.no_grad():
@@ -99,7 +113,6 @@ def train_epoch(
                 logger.wandb.log({"Examples": wandb.Table(dataframe=df)})
 
             model.train()
-
     return None
     # return loss ...
 

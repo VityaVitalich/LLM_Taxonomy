@@ -3,5 +3,7 @@ __pycache__
 dataload_env
 .ruff_cache
 experiment.txt
-
+taxonomy_exm.drawio
+tax_env/
 wandb/
+DataInterface/test_ru_filter.edgelist
