@@ -13,23 +13,30 @@ import itertools
 from collections import Counter
 import pickle
 import pandas as pd
-from contextlib import contextmanager
-import signal
+import multiprocessing
+import time
 
 
-@contextmanager
-def timeout(duration):
-    def timeout_handler(signum, frame):
-        raise TimeoutError(f"block timedout after {duration} seconds")
+class EmptyCacheTimeoutError(Exception):
+    pass
 
-    signal.signal(signal.SIGALRM, timeout_handler)
-    signal.alarm(duration)
+
+def empty_cache_with_timeout(timeout):
+    def empty_cache():
+        torch.cuda.empty_cache()
+
+    process = multiprocessing.Process(target=empty_cache)
+
     try:
-        yield
-    except TimeoutError:
-        pass
-    finally:
-        pass
+        process.start()
+        process.join(timeout)
+    except multiprocessing.TimeoutError:
+        process.terminate()
+        raise EmptyCacheTimeoutError(
+            "torch.cuda.empty_cache() took too long to execute."
+        )
+    else:
+        process.terminate()
 
 
 def train_epoch(
@@ -53,8 +60,10 @@ def train_epoch(
         if loaded_batch and batch_idx < loaded_batch:
             continue
 
-        with timeout(10):
-            torch.cuda.empty_cache()
+        try:
+            empty_cache_with_timeout(5)  # Set the timeout (in seconds) as needed
+        except EmptyCacheTimeoutError:
+            print("Skipping torch.cuda.empty_cache() due to timeout.")
 
         st = logger.get_step() + 1
         logger.set_step(step=st, mode="train")

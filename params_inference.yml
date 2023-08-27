@@ -1,37 +1,36 @@
 SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
-  - 1
-  - 3
+  - 2
   - 4
   - 5
-  - 6
+  - 7
 EPOCHS:
   - 4
 BATCH_SIZE:
-  - 6
+  - 4
 LR:
   - 3e-4
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/wnet_only/global_train_babel.pickle"
+  - "babel_datasets/filtered_wnet/global_train_babel.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/wnet_only/global_test_babel.pickle"
+  - "babel_datasets/filtered_wnet/global_test_babel.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - Llama
+  - "Llama"
 MODEL_CHECKPOINT:
-  - "meta-llama/Llama-2-13b-hf"
+  - "meta-llama/Llama-2-7b-hf"
 DTYPE:
 - "half"
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "remove_all_from_labels"
+- "wet_filtered_instruct"
 LOAD_PATH:
-- "meta-llama-Llama-2-13b-hfwnet_mulilang_custom_multilang_epoch=0_MAP=0.03713403386996233.pth"
+- "meta-llama-Llama-2-7b-hfwnet_filtered_instruct_custom_multilang_epoch=0_MAP=0.03570869194108631.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
@@ -47,4 +46,4 @@ TOP_K:
 NUM_RETURN_SEQUENCES:
 - 5
 QLORA:
-- true
+- false 
