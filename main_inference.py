@@ -133,7 +133,7 @@ if __name__ == "__main__":
 
     extra_model_params = {}
     if params_list["DTYPE"][0] == "half":
-        extra_model_params["torch_dtype"] = torch.float16
+        extra_model_params["torch_dtype"] = torch.bfloat16
 
     if params_list["QLORA"][0] == True:
         extra_model_params["load_in_4bit"] = True

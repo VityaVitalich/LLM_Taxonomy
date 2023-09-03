@@ -83,8 +83,8 @@ class HypernymDataset(Dataset):
         # processed_term = self.transforms[0](term)
         processed_term, target = self.case2transform[case](elem)
 
-        system_prompt = """System prompt: You are a helpfull assistant. List all the possible words divided with a coma. Your answer should not include anything except the words divided by a coma"""
-        processed_term = system_prompt + "\n" + "Prompt: " + processed_term
+        system_prompt = """<s>[INST] <<SYS>> You are a helpfull assistant. List all the possible words divided with a coma. Your answer should not include anything except the words divided by a coma<</SYS>>"""
+        processed_term = system_prompt + '\n' + processed_term + '[/INST]'
 
         # токенизируем
         encoded_term = self.tokenizer.encode(

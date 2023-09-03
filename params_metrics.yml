@@ -1,8 +1,8 @@
 TEST_DATA_PATH:
-  - "babel_datasets/wnet_only/global_test_babel.pickle"
+  - "babel_datasets/filtered_wnet/global_test_babel.pickle"
 OUTPUT_NAME:
-  - "/raid/rabikov/model_outputs/_meta-llama-Llama-2-13b-hfremove_all_from_labels_stohastic_"
+  - "/raid/rabikov/model_outputs/_meta-llama-Llama-2-7b-hfwet_filtered_instruct_stohastic_"
 SAVE_EXAMPLES:
   - true
 SAVE_EXAMPLES_PATH:
-  - "babel_datasets/model_examples/llama2-13b"
+  - "babel_datasets/model_examples/llama2-7b-filtered-instruct"
