@@ -1,0 +1,1340 @@
+0	zoetstof	smaakmaker
+1	macedoine	gerecht
+2	druivensap	fruitsap
+3	hysop	kruid
+4	ananassap	fruitsap
+5	scheepsbeschuit	koekje
+6	tjaptjoi	gerecht
+7	K rantsoen	noodrantsoen
+8	ale	bier
+9	bederfelijk	voedingsmiddel
+10	kummel	likeur
+11	cheshire	kaas
+12	aardbeienconfituur	jam
+13	haversoep	pap
+14	ratafia	likeur
+15	haggis	gerecht
+16	biest	melk
+17	rauwkost	borrelhapje
+18	slumgullion	stoofpotje
+19	gierst	graan
+20	tonijnsalade	salade
+21	soave	witte wijn
+22	mascarpone	roomkaas
+23	havercake	quick bread
+24	tafelwijn	wijn
+25	witte wijn	wijn
+26	p'tcha	gelatine
+27	pannenkoekenbeslag	deeg
+28	niacine	vitamine-B-complex
+29	zakenlunch	lunch
+30	bruin brood	brood
+31	chilipoeder	smaakmaker
+32	kruid	smaakmaker
+33	paté	maal
+34	suet pudding	pudding
+35	mozzarella	kaas
+36	kruidenzout	smaakmaker
+37	kippensoep	soep
+38	dadelbrood	quick bread
+39	limonade	frisdrank
+40	lutefisk	gerecht
+41	tomatenpuree	ingrediënt
+42	hoesttablet	lozenge
+43	chow mein	gerecht
+44	gehomogeniseerde melk	melk
+45	blush wine	wijn
+46	kreeft thermidore	gerecht
+47	bruine rijst	rijst
+48	paasei	snoep
+49	ramekin	gerecht
+50	fishstick	gerecht
+51	montrachet	witte wijn
+52	sandwich met kip	sandwich
+53	bouillon	soep
+54	coprofagie	maaltijd
+55	gevuld ei	gerecht
+56	sinaasappellikeur	likeur
+57	dressing	saus
+58	biotine	vitamine-B-complex
+59	most	druivensap
+60	blanc-manger	dessert
+61	maïspudding	pudding
+62	neutraal dieet	dieet
+63	Schotse bouillon	soep
+64	wort	mout
+65	chocoladebonbon	fudge
+66	beschuit	toast
+67	geraspte kaas	kaas
+68	thousand island dressing	dressing
+69	kamillethee	kruidenthee
+70	vodka	likeur
+71	crab louis	salade
+72	kippenvoer	brij
+73	honing	zoetstof
+74	suikerbrood	suiker
+75	stro	voer
+76	vismaaltijd	voer
+77	fondant	snoep
+78	dressing met blauwe kaas	dressing
+79	choline	vitamine-B-complex
+80	popover	muffin
+81	magere melk	melkpoeder
+82	fudge	snoep
+83	lamscurry	curry
+84	papayasap	sap
+85	bluswater	likeur
+86	salsa	specerij
+87	kappertjessaus	saus
+88	amandelextract	smaakmaker
+89	chymus	voedsel
+90	smeltkaas	kaas
+91	scotch woodcock	gerecht
+92	wijn	alcohol
+93	maraschino	likeur
+94	muffin	quick bread
+95	roquefort	bleu
+96	cafeïnevrije koffie	koffie
+97	voedingsmiddel	voedsel
+98	winterbonenkruid	hartig
+99	gevulde paprika's	gerecht
+100	medoc	bordeaux
+101	hartig	favorietje
+102	koffie	drankje
+103	bagel met ui	bagel
+104	koffiesurrogaat	koffie
+105	harvey wallbanger	cocktail
+106	sojascheuten	bloem
+107	brood	zetmeel
+108	tijm	kruid
+109	vulling	brouwsel
+110	mede	brouwsel
+111	rozemarijn	kruid
+112	maaltijd	voedingsstof
+113	linzensoep	soep
+114	piment	kruid
+115	hapjes	voedingsstof
+116	Beierse blauwschimmelkaas	bleu
+117	adobo	gerecht
+118	slagroom	dessert
+119	handkäse	kaas
+120	garnalenboter	maal
+121	vispasta	maal
+122	ansjovissaus	saus
+123	congou	zwarte thee
+124	Zwitserse kaas	kaas
+125	champignonsaus	saus
+126	lolly	snoep
+127	toast met kaneel	toast
+128	tabasco	pikante saus
+129	eigeel	ingrediënt
+130	zachte pretzel	pretzel
+131	riesling	Rijnwijn
+132	donker brood	brood
+133	brittle met pindanoten	brittle
+134	appelcider	cider
+135	hasty pudding	pap
+136	timothee	hooi
+137	snoepgoed	zoet
+138	veenbessensap	fruitsap
+139	guinness	stout
+140	drop	snoep
+141	reuben sandwich	sandwich
+142	bitter	ale
+143	vloeibaar dieet	dieet
+144	Genève	gin
+145	western sandwich	sandwich
+146	praline	snoep
+147	aquavit	likeur
+148	frietjes	aardappel
+149	citroenolie	smaakmaker
+150	frisdrank	drankje
+151	rode wijn	wijn
+152	bier van München	pils
+153	fastfood	voedingsstof
+154	gember	smaakmaker
+155	citroensap	sap
+156	dragee	snoep
+157	spuitwater	mineraalwater
+158	groenemuntolie	smaakmaker
+159	munt	kruid
+160	miswijn	wijn
+161	karnemelkkoekje	koekje
+162	conserven	voedingsmiddel
+163	gepocheerd ei	gerecht
+164	hollandaise	saus
+165	frozen custard	bevroren dessert
+166	barbecue	picknick
+167	consommé	soep
+168	jus	sap
+169	pepersteak	gerecht
+170	grenadine	siroop
+171	stringcheese	kaas
+172	gemoute melk	ingrediënt
+173	tomatensap	sap
+174	scotch	whiskey
+175	jug wine	wijn
+176	armagnac	brandewijn
+177	dillezaad	smaakmaker
+178	tequila	likeur
+179	salie	kruid
+180	gerst	graan
+181	venkel	kruid
+182	madeira	versterkte wijn
+183	suikerwater	kraantjeswater
+184	pernod	likeur
+185	sauce mornay	kaassaus
+186	toast	brood
+187	vitamine BC	vitamine-B-complex
+188	divinity	fudge
+189	chocoladepudding	pudding
+190	menu	kost
+191	verfrissing	hap
+192	suiker	zoetstof
+193	gefilte fisj	gerecht
+194	rijst	graan
+195	bord	voorgerecht
+196	cappuccino	koffie
+197	borrelhapje	gerecht
+198	applejack	brandewijn
+199	relish	specerij
+200	rissole	gerecht
+201	bulgur pilav	pilav
+202	kadetje	brood
+203	pretzel	beschuit
+204	vitamine B2	vitamine-B-complex
+205	soepstengel	brood
+206	vitamine B1	vitamine-B-complex
+207	vitamine B6	vitamine-B-complex
+208	stinger	cocktail
+209	bleu	kaas
+210	bord met sandwiches	gerecht
+211	likeur	alcohol
+212	bathtub gin	gin
+213	club sandwich	sandwich
+214	goulash	stoofpotje
+215	duff	pudding
+216	yoghurt	zuivelproduct
+217	ansjovispasta	smaakmaker
+218	bitter lemon	frisdrank
+219	sederavond	avondmaal
+220	vitamine	voedingsstof
+221	barbecuesaus	saus
+222	eierpunch	punch
+223	gelei	conserven
+224	hummus	maal
+225	pitta	Turks brood
+226	jell-o	dessert met gelatine
+227	zemelen	ruwvoer
+228	alcoholische proof	alcohol
+229	raita	bijgerecht
+230	marmite	soep
+231	zoet broodje	gebakje
+232	bevroren voedsel	voedingsmiddel
+233	galantine	gerecht
+234	karwijzaad	smaakmaker
+235	sauterne	witte wijn
+236	peterselie	kruid
+237	Rijnwijn	witte wijn
+238	bier	brouwsel
+239	kauwsel	voer
+240	basilicum	kruid
+241	gelatinesalade	salade
+242	chili	gerecht
+243	ansjovisdressing	dressing
+244	pink lady	cocktail
+245	light bier	pils
+246	perzikkensaus	saus
+247	beschuit	brood
+248	pikante saus	saus
+249	ribbetjes op de barbecue	gerecht
+250	boterolie	boter
+251	smorgasbord	buffer
+252	canapé	borrelhapje
+253	kervel	kruid
+254	sushi	gerecht
+255	ijscoupe	bevroren dessert
+256	sour mash	whiskey
+257	kippevleugel	gerecht
+258	maïssoep	zeevruchtensoep
+259	split	bevroren dessert
+260	criollo	cacao
+261	moussaka	gerecht
+262	beef wellington	gerecht
+263	proefmaaltijd	dieet
+264	look	smaakmaker
+265	avondmaal	maaltijd
+266	boter	zuivelproduct
+267	waldorfsalade	fruitsalade
+268	foezelolie	alcohol
+269	loblolly	pap
+270	limburger	kaas
+271	wortelsap	sap
+272	theezakje	thee
+273	maïschip	snacks
+274	mosterdzaad	smaakmaker
+275	manzanilla	sherry
+276	hooi	voer
+277	chartreuse	likeur
+278	cognac	brandewijn
+279	plank	kost
+280	evenwichtig dieet	dieet
+281	enchilada	gerecht
+282	kip met paprika	gerecht
+283	bieslook	kruid
+284	cold duck	schuimwijn
+285	citroenschil	gekonfijte schillen van citrusvruchten
+286	snoepvoeder	voer
+287	gebakken bonen	gerecht
+288	strowijn	dessertwijn
+289	maïspap	maïs
+290	koelbox	drankje
+291	diabetisch dieet	dieet
+292	slechte wijn	wijn
+293	mescal	likeur
+294	kaneelbrood	brood
+295	piña colada	gemixt drankje
+296	heldere vloeistof dieet	vloeibaar dieet
+297	gepofte aardappel	aardappel
+298	waterijs	ijs
+299	tacosaus	specerij
+300	shepherd's pie	gerecht
+301	uienboter	maal
+302	ijs	bevroren dessert
+303	limonademix	bereid
+304	root beer	frisdrank
+305	boeuf stroganoff	gerecht
+306	jujube	gombal
+307	demi-glace	saus
+308	maïswhiskey	whiskey
+309	bisque	soep
+310	saint-émilion	claret
+311	maïs	graan
+312	melkijs	bevroren dessert
+313	manhattan clam chowder	clam chowder
+314	bernagie	kruid
+315	tarwekiem	voedingsstof
+316	ingesta	voedingsstof
+317	borsjtsj	soep
+318	fruitsap	drankje
+319	cambric tea	thee
+320	avondeten	maaltijd
+321	voedselbergplaats	voedselvoorziening
+322	curry	gerecht
+323	Turks brood	brood
+324	hors d'oeuvre	borrelhapje
+325	mokka	smaakmaker
+326	taffy	snoep
+327	bruine suiker	suiker
+328	oolong	thee
+329	wrap	sandwich
+330	ingelegde komkommer	augurk
+331	eau-de-vie	brandewijn
+332	gin	likeur
+333	home fries	aardappel
+334	fizz	drankje
+335	warme cider	appelcider
+336	salmagundi	salade
+337	farina	maaltijd
+338	moezel	witte wijn
+339	marinara	spahettisaus
+340	piccalilli	relish
+341	kattenvoer	voer voor huisdieren
+342	steak tartare	gerecht
+343	zachte voeding	dieet
+344	paprika	smaakmaker
+345	whiskey	likeur
+346	fosfaat	frisdrank
+347	zacht broodje	gebakje
+348	cobbler	highball
+349	schimmel	gerecht
+350	mole	saus
+351	wei	zuivelproduct
+352	tamal	gerecht
+353	sling	highball
+354	dieet	kost
+355	vouvray	witte wijn
+356	brandy butter	saus
+357	bereid	mix
+358	karwij	kruid
+359	spotted dick	suet pudding
+360	aardappel	zetmeel
+361	bronwater	water
+362	zemelenmuffin	muffin
+363	ijskoffie	koffie
+364	claret	bordeaux
+365	candy corn	snoep
+366	duikboot	sandwich
+367	melk	voedingsmiddel
+368	simnel	brood
+369	zure melk	melk
+370	taco met kip	taco
+371	crashdieet	dieet
+372	purloo	stoofpotje
+373	couscous	gerecht
+374	zelfrijzend bakmeel	mix
+375	demerara	bruine suiker
+376	knoflookzout	smaakmaker
+377	margarita	cocktail
+378	nectar	fruitsap
+379	edam	kaas
+380	chardonnay	witte wijn
+381	ijslolly	bevroren dessert
+382	dubonnet	wijn
+383	dip	specerij
+384	notenreep	snoep
+385	bloody mary zonder alcohol	bloody mary
+386	white russian	cocktail
+387	sloe gin	gin
+388	vruchtenpudding	pudding
+389	neutrale alcohol	alcohol
+390	porto	versterkte wijn
+391	lookbrood	brood
+392	tapioca	voedingsmiddel
+393	hondenvoer	voer voor huisdieren
+394	jambalaya	gerecht
+395	oenomel	drankje
+396	koolhydraten opslaan	dieet
+397	pinole	maaltijd
+398	water	voedsel
+399	potage	soep
+400	gebroeide melk	melk
+401	bonbon	snoep
+402	rauwe melk	melk
+403	muenster	kaas
+404	wentelteefje	gerecht
+405	kaneel	kruid
+406	strawberry daiquiri	daiquiri
+407	zelfgestookte drank	alcohol
+408	pale ale	ale
+409	broodje met ui	gebakje
+410	inositol	vitamine-B-complex
+411	saltine	beschuit
+412	sake	alcohol
+413	gin rickey	rickey
+414	appelsap	fruitsap
+415	Amerikaans krentenboompje	snoep
+416	boeuf bourguignon	gerecht
+417	olijf	relish
+418	coquille	gerecht
+419	filterkoffie	koffie
+420	lobscouse	stoofpotje
+421	gevulde kool	gerecht
+422	kikkerbilletjes	gerecht
+423	soep	gerecht
+424	zuur	cocktail
+425	gehaktbal	gerecht
+426	augurk	relish
+427	melkpoeder	melk
+428	sandwich met ham	sandwich
+429	frietje	snacks
+430	matze	brood
+431	rolmops	hors d'oeuvre
+432	vispastei	frikadel
+433	bigos	stoofpotje
+434	smaakmaker	ingrediënt
+435	near beer	drankje
+436	cocktail	borrelhapje
+437	tapiocapudding	pudding
+438	zuurstok	snoep
+439	grog	rum
+440	gelatine	favorietje
+441	planter's punch	cocktail
+442	slivovitsj	brandewijn
+443	rickey	gemixt drankje
+444	sorghum	siroop
+445	graham cracker	beschuit
+446	rogge	whiskey
+447	gerecht	voedingsstof
+448	pompelmoesschil	gekonfijte schillen van citrusvruchten
+449	aardappelschil	snacks
+450	erwtenbloem	maaltijd
+451	trifle	pudding
+452	smoothie	drankje
+453	orangeade	fruitsap
+454	koffielikeur	likeur
+455	suikersiroop	siroop
+456	tonic	frisdrank
+457	rietsuiker	suiker
+458	lunch	maaltijd
+459	pièce de résistance	gerecht
+460	ciderazijn	azijn
+461	kaasfondue	fondue
+462	caffè latte	espresso
+463	pizza	gerecht
+464	foe yong hai	omelet
+465	mosterdpoeder	mosterd
+466	bouillonblokje	bouillon
+467	amaretto	likeur
+468	ijsje	bevroren dessert
+469	aarbeienijs	ijsje
+470	bijgerecht	gerecht
+471	high tea	avondeten
+472	gerecht	maaltijd
+473	Italiaanse dressing	dressing
+474	flesvoeding	melk
+475	pantotheenzuur	vitamine-B-complex
+476	sinaasappelconfituur	confituur
+477	syllabub	dessert
+478	danablu	bleu
+479	cross bun	zoet broodje
+480	tempura	gerecht
+481	kedgeree	gerecht
+482	koffiepauze	hap
+483	limpa	roggebrood
+484	alioli	saus
+485	oktoberfest	pils
+486	schrootsel	graan
+487	schnapps	likeur
+488	tapbier	bier
+489	Iers sodabrood	quick bread
+490	drank	alcohol
+491	mâcon	wijn
+492	kaas	zuivelproduct
+493	ice tea	thee
+494	hard snoepgoed	snoep
+495	erwtensoep	soep
+496	balsemwordkruid	kruid
+497	egg cream	frisdrank
+498	scharlei	salie
+499	dom pedro	gemixt drankje
+500	gecontroleerde melk	melk
+501	hap	maaltijd
+502	melkpunch	punch
+503	opslagruimte	voedselvoorziening
+504	coquilles saint jacques	gerecht
+505	pinot noir	rode wijn
+506	appeltaart	meelbal
+507	kabeljauwbal	vispastei
+508	kabob	gerecht
+509	vodka martini	martini
+510	kreeftenstoofpotje	stoofpotje
+511	rioja	rode wijn
+512	kaneelbroodje	zoet broodje
+513	ruwvoer	voedingsmiddel
+514	bread sauce	saus
+515	sauteren	gerecht
+516	whiskey sour	zuur
+517	Duitse saus	saus
+518	gebakje	deeg
+519	ontbijt	maaltijd
+520	sherbert	bevroren dessert
+521	liederkranz	kaas
+522	vin ordinaire	tafelwijn
+523	warme wijn	wijn
+524	remouladesaus	saus
+525	gekruide drank	punch
+526	forcemeat	vulling
+527	kruidentee	thee
+528	sacharine	zoetstof
+529	buffer	maaltijd
+530	voedselvoorziening	voedsel
+531	tipsy cake	trifle
+532	gyros	sandwich
+533	flummery	pudding
+534	sauce ravigote	saus
+535	flap	gerecht
+536	zout	smaakmaker
+537	gehakt	voedingsstof
+538	lozenge	snoep
+539	Turks fruit	snoep
+540	krabbencocktail	cocktail
+541	loempia	gerecht
+542	arak	likeur
+543	restjes voor de dieren	voer
+544	bénédictine	likeur
+545	anadamabrood	brood
+546	cheeseburger	hamburger
+547	julep	highball
+548	kwark	kaas
+549	sojamelk	melk
+550	gruyère	Zwitserse kaas
+551	omelette sibérienne	dessert
+552	eendensaus	specerij
+553	bitters	likeur
+554	visvlees in blik	gehaktbrood
+555	tahoe	wrongel
+556	gemixt drankje	alcohol
+557	darjeeling	zwarte thee
+558	picknick	maaltijd
+559	hoorntje	bevroren dessert
+560	c-rantsoen	noodrantsoen
+561	boterham	sandwich
+562	verfrisser	drankje
+563	popcorn	snoep
+564	geplette erwten	bijgerecht
+565	bruine saus	saus
+566	calvados	brandewijn
+567	citroenmelisse	kruid
+568	concentraat	voedingsmiddel
+569	gebakken ei	gerecht
+570	sinaasappelsap	fruitsap
+571	borrel	eetbaar
+572	chocolade-ijs	ijsje
+573	ijswater	kraantjeswater
+574	clam chowder	zeevruchtensoep
+575	sareptamosterd	mosterd
+576	pop	frisdrank
+577	souvlaki	kabob
+578	yquem	witte wijn
+579	poi	gerecht
+580	sabayon	dessert
+581	roerei	gerecht
+582	draf	brandewijn
+583	slagroom	roomkaas
+584	cakemix	bereid
+585	wilde rijst	graan
+586	weizenbier	ale
+587	maryland chicken	gerecht
+588	eiwitrijk dieet	dieet
+589	jam roly-poly	pudding
+590	snacks	gerecht
+591	scrapple	gerecht
+592	krachtontbijt	ontbijt
+593	koosjer	voedingsstof
+594	sazerac	cocktail
+595	nonpareil	zoet
+596	poitín	Iers
+597	Spaanse paprika	paprika
+598	ontwaterd voedsel	voedingsmiddel
+599	daiquiri	cocktail
+600	ragout	stoofpotje
+601	burrito	gerecht
+602	roulade	gerecht
+603	cordon bleu	gerecht
+604	kip tetrazzini	tetrazzini
+605	stoofpotje van kip	fricassee
+606	tapenade	maal
+607	puree	voedingsstof
+608	grappa	brandewijn
+609	luzerne	voer
+610	bercysaus	saus
+611	liefdesdrankje	toverdrank
+612	drambuie	scotch
+613	cayennepeper	smaakmaker
+614	huttenkaas	kaas
+615	ashcake	maïsbrood
+616	vichy water	mineraalwater
+617	tartaar	saus
+618	kaakje	beschuit
+619	fines herbes	kruid
+620	macrobiotiek	vegetarisme
+621	clambake	barbecue
+622	crème brûlée	pudding
+623	moo goo gai pan	gerecht
+624	malrovekruid	snoep
+625	sauce allemande	saus
+626	vanillepudding	pudding
+627	fondue	gerecht
+628	porter	ale
+629	versterkte wijn	wijn
+630	tarwe	graan
+631	crouton	brood
+632	uienpoeder	smaakmaker
+633	bullshot	cocktail
+634	tomatenconcentraat	concentraat
+635	camembert	kaas
+636	vissoep	zeevruchtensoep
+637	maïsbrood	quick bread
+638		kost
+639	bourguignon	saus
+640	voer voor huisdieren	voer
+641	marshmallow	snoep
+642	noodrantsoen	rantsoen
+643	ambrosia	favorietje
+644	tortilla	maïschip
+645	hicannoot	ale
+646	confituur	zoet
+647	anijs	smaakmaker
+648	vitamine-B-complex	vitamine oplosbaar in water
+649	highball	gemixt drankje
+650	pepermuntolie	smaakmaker
+651	omelet	gerecht
+652	kruid	smaakmaker
+653	maïsmeel	maaltijd
+654	pinot blanc	witte wijn
+655	clotted cream	room
+656	sloppy joe	sandwich
+657	glühwein	warme wijn
+658	room	zuivelproduct
+659	engelwortel	kruid
+660	magere melk	melk
+661	brunswick stoofpotje	stoofpotje
+662	vlees in blik	conserven
+663	currypoeder	smaakmaker
+664	ongepelde rijst	rijst
+665	macaronisalade	pastasalade
+666	bear claw	zoet broodje
+667	brandewijn	likeur
+668	alcohol	drankje
+669	peperbus	soep
+670	brij	voer
+671	mastjaar	voer
+672	hardgekookt ei	gekookt ei
+673	brown betty	pudding
+674	Malvezij	madeira
+675	parmezaanse kaas	kaas
+676	gerecht	voedingsstof
+677	pot pie	gerecht
+678	Zweeds roggebrood	roggebrood
+679	vanilleboon	smaakmaker
+680	kookdeeg	gebakje
+681	ei benedict	gerecht
+682	meelbal	dessert
+683	sashimi	gerecht
+684	kroket	gerecht
+685	wit brood	brood
+686	citroenzuur	smaakmaker
+687	gemberbier	frisdrank
+688	screwdriver	cocktail
+689	bietsuiker	suiker
+690	zwarte olijf	olijf
+691	parker house roll	gebakje
+692	bloedmeel	voer
+693	thee	kruid
+694	sprinkhaan	cocktail
+695	voedergraan	voer
+696	wintergroenolie	smaakmaker
+697	continentaal ontbijt	ontbijt
+698	kipsalade	salade
+699	notenbrood	quick bread
+700	bourgogne	wijn
+701	hash	gerecht
+702	pepersteak	gerecht
+703	magere melk	melk
+704	aperitief	alcohol
+705	lasagne	pasta
+706	koffiemelk	melk
+707	chenin blanc	witte wijn
+708	guacamole	dip
+709	beekwater	water
+710	chocoladefondue	fondue
+711	maanzaad	smaakmaker
+712	lettersoep	soep
+713	spoonbread	maïsbrood
+714	amontillado	sherry
+715	mierikswortelsaus	saus
+716	sprossenbier	brouwsel
+717	vetoplosbare vitamine	vitamine
+718	reep	margarine
+719	flan	dessert
+720	veekoek	voer
+721	kristalsuiker	suiker
+722	mout	pils
+723	vetarm dieet	dieet
+724	bloody mary	cocktail
+725	hamburger	sandwich
+726	chocolademelk	melk
+727	dagsoep	soep
+728	aangezuurde melk	dessert
+729	gebraden fazant	gerecht
+730	runderstoofpotje	stoofpotje
+731	vlees	gerecht
+732	bloedagar	agar
+733	quesadilla	burrito
+734	cannelloni	pasta
+735	mineraalwater	kraantjeswater
+736	sandwich	snacks
+737	thee-achtig drankje	drankje
+738	bonen op toast	tostada
+739	absint	likeur
+740	parmigiana	gerecht
+741	mosterdsaus	saus
+742	bananenbrood	quick bread
+743	gekonfijt fruit	confituur
+744	clabber	zuivelproduct
+745	retsina	wijn
+746	multivitamine	vitaminepil
+747	ei	voedingsmiddel
+748	kurkuma	smaakmaker
+749	miso	maal
+750	bitok	gerecht
+751	pousse-café	likeur
+752	appelstroop	conserven
+753	mousse	gerecht
+754	deeg	brouwsel
+755	brokken	maaltijd
+756	brie	kaas
+757	pesto	saus
+758	saus	specerij
+759	anisette	likeur
+760	wasabi	specerij
+761	schaafijs	bevroren dessert
+762	vruchtenpunch	punch
+763	haringsalade	salade
+764	metheglin	mede
+765	venkelzaad	smaakmaker
+766	sarsaparilla	frisdrank
+767	pizza met ansjovis	pizza
+768	New England clam chowder	clam chowder
+769	kropbrood	donker brood
+770	kahlua	koffielikeur
+771	perenwijn	alcohol
+772	curaçao	sinaasappellikeur
+773	gecondenseerde melk	melk
+774	maïsbrood	quick bread
+775	tiramisu	dessert
+776	gebakken rijst	gerecht
+777	veenbessensaus	specerij
+778	kip marengo	gerecht
+779	chiliazijn	azijn
+780	dadelbrood	quick bread
+781	vanille-ijs	ijsje
+782	mierikswortel	specerij
+783	voer	voedsel
+784	dolmas	gerecht
+785	zinfandel	rode wijn
+786	appelflap	flap
+787	blanke botersaus	witte saus
+788	eendenpaté	paté
+789	bieslook	smaakmaker
+790	bokbier	pils
+791	schabziger	Zwitserse kaas
+792	siroop	zoetstof
+793	aqua vitae	likeur
+794	kanariezaad	vogelvoer
+795	cocktailsaus	saus
+796	micronutriënt	voedsel
+797	sauce lyonnaise	saus
+798	postum	koffiesurrogaat
+799	selderijzout	smaakmaker
+800	kweekmedium	voedsel
+801	kaasdip	dip
+802	martini	cocktail
+803	bevroren dessert	dessert
+804	charlotte	dessert
+805	koolsla	salade
+806	jakboter	boter
+807	marinade	specerij
+808	sap	voedingsmiddel
+809	swiss steak	gerecht
+810	vismousse	mousse
+811	Californische wijn	wijn
+812	slaatje	salade
+813	sherry	versterkte wijn
+814	gebotteld water	kraantjeswater
+815	matzemaaltijd	maaltijd
+816	hodge-podge	stoofpotje
+817	sinaasappelschil	gekonfijte schillen van citrusvruchten
+818	coca-cola	cola
+819	brioche	gebakje
+820	foelie	kruid
+821	jeneverbessen	smaakmaker
+822	zelfgemaakte sterkedrank	maïswhiskey
+823	zwarte koffie	koffie
+824	soul food	voedsel
+825	gekonfijte schillen van citrusvruchten	gekonfijt fruit
+826	gin sling	sling
+827	zeevruchtensoep	soep
+828	groene thee	thee
+829	erwtensoep	soep
+830	frozen yoghurt	bevroren dessert
+831	manna	voedsel
+832	cafe royale	koffie
+833	suikereitje	paasei
+834	french dressing	dressing
+835	glühwein	punch
+836	chapatti	Turks brood
+837	vitamine K3	vitamine K
+838	deeg	brouwsel
+839	julienne	soep
+840	banket	maaltijd
+841	bouillonblokje	smaakmaker
+842	chocolademousse	mousse
+843	brandyball	snoep
+844	karamel	suiker
+845	paella	gerecht
+846	bearnaisesaus	saus
+847	bouillabaisse	vispotje
+848	relish van piccalilli	relish
+849	gouda	kaas
+850	zuivelproduct	voedingsmiddel
+851	tutti frutti	ijsje
+852	pavlova	dessert
+853	selderij	rauwkost
+854	champagne	schuimwijn
+855	Oostindische kers	smaakmaker
+856	bulgur	tarwe
+857	wortelpudding	pudding
+858	kraantjeswater	drankje
+859	pepsi	cola
+860	soubise	saus
+861	aspic	gelatine
+862	schildpadsoep	soep
+863	koffie verkeerd	koffie
+864	shortcake	bakpoederkoekje
+865	zuurvlees	gerecht
+866	tamaltaart	gerecht
+867	frikadel	snoep
+868	kirsch	brandewijn
+869	daun salam	kruid
+870	zoet	favorietje
+871	vispotje	stoofpotje
+872	kippenbouillon	bouillon
+873	côtes-du-rhônewijn	wijn
+874	diëtisch	kost
+875	hyson	groene thee
+876	champagnecoupe	kop
+877	soufflé	gerecht
+878	drop scone	scone
+879	ijstaart	bevroren dessert
+880	velveeta	kaas
+881	karnemelk	melk
+882	mulligatawny	soep
+883	mononatriumglutamaat	smaakmaker
+884	mock turtle soup	soep
+885	chowchow	relish
+886	roomkaas	kaas
+887	crème caramal	pudding
+888	lemon drop	hard snoepgoed
+889	vogelnestje	gerecht
+890	honey bun	zoet broodje
+891	plumpudding	pudding
+892	old fashioned	cocktail
+893	smeerwortel	kruid
+894	beurre noisette	boter
+895	fanny adams	vlees in blik
+896	chilisaus	specerij
+897	toverbal	hard snoepgoed
+898	brouwsel	voedingsmiddel
+899	moedermelk	melk
+900	witloof	koffiesurrogaat
+901	browniemix	bereid
+902	koffiekoek	zoet broodje
+903	chocolade-ei	paasei
+904	pot-au-feu	stoofpotje
+905	zoete vermouth	vermouth
+906	parfait	bevroren dessert
+907	New England boiled dinner	gerecht
+908	maïsmuffin	muffin
+909	Irish stew	stoofpotje
+910	pastasalade	salade
+911	olla podrida	stoofpotje
+912	pulque	alcohol
+913	hotdog	sandwich
+914	bloemsuiker	poedersuiker
+915	cheddar	kaas
+916	suikermaïs	maïs
+917	margarine	maal
+918	taboulé	salade
+919	kop	punch
+920	suikerstroop	siroop
+921	kishke	gerecht
+922	suikerspin	snoep
+923	gries	graan
+924	mulligan stew	stoofpotje
+925	visstooefschotel	vispotje
+926	griesmeel	bloem
+927	ahornsuikerstroop	siroop
+928	côtes de Provence	wijn
+929	lekvar	vulling
+930	caesarsalade	slaatje
+931	double gloucester	kaas
+932	gombal	snoep
+933	eigeel	voedsel
+934	confituur	conserven
+935	falafel	gerecht
+936	boterbabbelaar	snoep
+937	dessertwijn	wijn
+938	brick cheese	kaas
+939	pizza met salami	pizza
+940	muscat	versterkte wijn
+941	Italiaans brood	wit brood
+942	pap	gerecht
+943	zuurdesembrood	brood
+944	rum	likeur
+945	wijnruit	kruid
+946	zombie	highball
+947	snack	hap
+948	perzikkenijs	ijsje
+949	johannesbrood	voedingsmiddel
+950	stoofpotje	gerecht
+951	elixir	toverdrank
+952	grand marnier	sinaasappellikeur
+953	stoofpotje van kip	ovenschotel
+954	havermout	maaltijd
+955	panucci	fudge
+956	salt-rising bread	brood
+957	maitrank	punch
+958	Turkse koffie	koffie
+959	roggebrood	brood
+960	ploughman's lunch	maaltijd
+961	kauwgom	zoet
+962	citroenboter	conserven
+963	ossenstaartsoep	soep
+964	pompelmoessap	fruitsap
+965	spam	vlees in blik
+966	kandijsuiker	snoep
+967	volkorenmeel	tarwebloem
+968	nougat	snoep
+969	maïssiroop	siroop
+970	gepasteurizeerde melk	melk
+971	hapje	favorietje
+972	gemberbier	drankje
+973	roomsaus	witte saus
+974	rob roy	manhattan
+975	gestoomde pudding	pudding
+976	citroenextract	smaakmaker
+977	pepermunt	munt
+978	lookboter	maal
+979	currysaus	saus
+980	dille	kruid
+981	Napolitaans ijs	ijsje
+982	wrongel	zuivelproduct
+983	kookdeeg	deeg
+984	triple-crèmekaas	kaas
+985	naan	brood
+986	safraan	smaakmaker
+987	tomatensaus	spahettisaus
+988	osso bucco	gerecht
+989	mayonnaise	dressing
+990	manhattan	cocktail
+991	kip kiev	gerecht
+992	limoensap	sap
+993	toverdrank	drankje
+994	mosterd	specerij
+995	fish house punch	punch
+996	gekonfijt	zoet
+997	muntsaus	specerij
+998	wafel	brood
+999	sojasaus	specerij
+1000	kip cacciatore	stoofpotje van kip
+1001	drankje	voedsel
+1002	rijstpap	pap
+1003	cordon bleu van kip	gerecht
+1004	zuurstok	hard snoepgoed
+1005	favorietje	voedingsstof
+1006	kruidenthee	kruidentee
+1007	triple sec	sinaasappellikeur
+1008	kop	thee
+1009	ingrediënt	voedingsmiddel
+1010	dessert	gerecht
+1011	gebroken tarwe	tarwe
+1012	yoghurt van bosbessen	yoghurt
+1013	schuimwijn	wijn
+1014	ouzo	likeur
+1015	challe	brood
+1016	boston baked beans	gerecht
+1017	eetbaar	voedsel
+1018	chili dog	hotdog
+1019	kreeftboter	maal
+1020	kandij	snoep
+1021	zware kost	voedingsstof
+1022	Irish coffee	koffie
+1023	tuinboon	voer
+1024	dressing met blauwe kaas	dressing
+1025	hamburgerbroodje	gebakje
+1026	negus	warme wijn
+1027	spaghetti	pasta
+1028	hydromel	drankje
+1029	oploskoffie	koffie
+1030	zuurkool	gerecht
+1031	dragon	kruid
+1032	troostvoedsel	voedsel
+1033	espresso	koffie
+1034	appelmoes	gerecht
+1035	halfvolle melk	melk
+1036	collins	highball
+1037	carbonara	spahettisaus
+1038	nacho	tortilla
+1039	kappertje	augurk
+1040	rantsoen	kost
+1041	bakpoederkoekje	koekje
+1042	punch	gemixt drankje
+1043	zwarte thee	thee
+1044	witte saus	saus
+1045	griessuiker	poedersuiker
+1046	pierogi	flap
+1047	vegetarisme	dieet
+1048	nesselrode	pudding
+1049	azijn	specerij
+1050	banana split	split
+1051	pêche melba	dessert
+1052	bonendip	dip
+1053	boekweit	graan
+1054	popcorn	maïs
+1055	Rusissche dressing	dressing
+1056	yorkshire pudding	quick bread
+1057	likeur	alcohol
+1058	brooddeeg	deeg
+1059	maïssuiker	suiker
+1060	tetrazzini	gerecht
+1061	stevige maaltijd	maaltijd
+1062	bonenkruid	hartig
+1063	jelly bean	snoep
+1064	crème de menthe	likeur
+1065	hot pot	stoofpotje
+1066	Canarische wijn	witte wijn
+1067	cream soda	frisdrank
+1068	eiwit	ingrediënt
+1069	brood	voedingsmiddel
+1070	reep	snoep
+1071	ovenschotel	gerecht
+1072	sauce espagnole	saus
+1073	salade	gerecht
+1074	chianti	rode wijn
+1075	hot fudge saus	chocoladesaus
+1076	appelgelei	gelei
+1077	mixer	drankje
+1078	bavarois	pudding
+1079	druivengelei	gelei
+1080	nipa palm	alcohol
+1081	merlot	rode wijn
+1082	liebfraumilch	Rijnwijn
+1083	vitamine K1	vitamine K
+1084	biryani	gerecht
+1085	coq au vin	gerecht
+1086	erwtensoep	soep
+1087	nantua	saus
+1088	kost	voedsel
+1089	kaneelstokje	kaneel
+1090	berkenbier	frisdrank
+1091	kardemom	smaakmaker
+1092	glutenbrood	brood
+1093	toast	sandwich
+1094	zwarte peper	peper
+1095	taco	gerecht
+1096	beenmerg	favorietje
+1097	Roomse kervel	kruid
+1098	sambuca	likeur
+1099	quick bread	brood
+1100	oyster cracker	beschuit
+1101	vitamine P	vitamine oplosbaar in water
+1102	kalkoenvulling	vulling
+1103	vitamine C	vitamine oplosbaar in water
+1104	melba toast	toast
+1105	vitamine E	vetoplosbare vitamine
+1106	spahettisaus	saus
+1107	vitamine K	vetoplosbare vitamine
+1108	brittle	snoep
+1109	chutney	specerij
+1110	ricotta	kaas
+1111	bevroren sinaasappelsap	concentraat
+1112	bloem	voedingsmiddel
+1113	verdicchio	witte wijn
+1114	Spaanse rijst	gerecht
+1115	poedersuiker	kristalsuiker
+1116	kiss	snoep
+1117	maïsglutenvoer	voer
+1118	koriander	kruid
+1119	kauwgombal	kauwgom
+1120	ratatouille	stoofpotje
+1121	gekrystaliseerde gember	gekonfijt fruit
+1122	cider	drankje
+1123	theecake	gebakje
+1124	timballo	gerecht
+1125	frittata	gerecht
+1126	light room	room
+1127	peppermint patty	frikadel
+1128	blended whiskey	whiskey
+1129	aardappelsalade	salade
+1130	gehakt	brouwsel
+1131	voorgerecht	gerecht
+1132	dagschotel	gerecht
+1133	jagerssaus	saus
+1134	life saver	snoep
+1135	mate	drankje
+1136	slagroom	room
+1137	welsh rarebit	gerecht
+1138	scampi	gerecht
+1139	fricassee	stoofpotje
+1140	wijnazijn	azijn
+1141	mosseldip	dip
+1142	laatste avondmaal	sederavond
+1143	koemis	alcohol
+1144	jakmelk	melk
+1145	zoutarm dieet	dieet
+1146	zure room	room
+1147	bialy	broodje met ui
+1148	compote	dessert
+1149	chocoladesaus	saus
+1150	pudding	dessert
+1151	bordelaise	saus
+1152	eiersalade	dressing
+1153	versterkte wijn	witte wijn
+1154	pepersaus	saus
+1155	tostada	gerecht
+1156	stokbrood	wit brood
+1157	schnitzel	gerecht
+1158	lacing	likeur
+1159	volle melk	melk
+1160	limonade	fruitsap
+1161	oranje pecco	zwarte thee
+1162	vijfkruidenpoeder	kruid
+1163	tokaj	wijn
+1164	kuilvoer	voer
+1165	pruno	drank
+1166	zuurbal	hard snoepgoed
+1167	kaaspizza	pizza
+1168	Engelse muffin	brood
+1169	nougatreep	snoep
+1170	terrine	gerecht
+1171	sidecar	cocktail
+1172	kruidnagel	kruid
+1173	roux	brouwsel
+1174	scone	quick bread
+1175	tarwebloem	bloem
+1176	bagel	gebakje
+1177	mix	brouwsel
+1178	stoofpot met oesters	stoofpotje
+1179	kokosnootmelk	melk
+1180	cornedbeef	hash
+1181	zetmeel	voedingsmiddel
+1182	pastis	likeur
+1183	mimosa	gemixt drankje
+1184	tahin	maal
+1185	chablis	witte wijn
+1186	brouwsel	alcohol
+1187	bordeaux	wijn
+1188	gezouten cracker	beschuit
+1189	swizzle	gemixt drankje
+1190	voedingssuplement	dieet
+1191	samosa	flap
+1192	kleuring	voedingsmiddel
+1193	sun tea	thee
+1194	colbert	saus
+1195	jam	conserven
+1196	bourbon whisky	whiskey
+1197	steaksaus	specerij
+1198	reep met nootjes	snoep
+1199	melasse	siroop
+1200	lijnkoek	voer
+1201	won ton	soep
+1202	voedingsstof	voedsel
+1203	bannock	Turks brood
+1204	nootmuskaat	kruid
+1205	glutenvrij dieet	dieet
+1206	vitamine D	vetoplosbare vitamine
+1207	aardappelpuree	aardappel
+1208	hot toddy	gemixt drankje
+1209	lightdieet	dieet
+1210	groene salade	slaatje
+1211	cola	frisdrank
+1212	aspartaam	zoetstof
+1213	salisbury steak	gerecht
+1214	potluck	maaltijd
+1215	sassafras	smaakmaker
+1216	gimlet	cocktail
+1217	spritzer	gemixt drankje
+1218	succotash	gerecht
+1219	smeerkaas	maal
+1220	graan	voedingsmiddel
+1221	pindakaas	maal
+1222	pizza met worst	pizza
+1223	marjolein	kruid
+1224	pottage	stoofpotje
+1225	gumbo	soep
+1226	witte peper	peper
+1227	Jamaicaanse rum	rum
+1228	fruitsap	drankje
+1229	witte rijst	rijst
+1230	suikerklontje	suiker
+1231	cépage	wijn
+1232	brunch	maaltijd
+1233	stilton	bleu
+1234	vitamine oplosbaar in water	vitamine
+1235	beaujolais	bourgogne
+1236	vruchtencocktail	cocktail
+1237	kawa	alcohol
+1238	vanille	smaakmaker
+1239	uienbrood	brood
+1240	hushpuppy	maïsbrood
+1241	agar	kweekmedium
+1242	garnalencocktail	cocktail
+1243	johnnycake	maïsbrood
+1244	acidofiele melk	melk
+1245	vulling	brouwsel
+1246	gort	gerst
+1247	salmi	ragout
+1248	vitamine B12	vitamine-B-complex
+1249	pease pudding	pudding
+1250	conserven	confituur
+1251	droge vermouth	vermouth
+1252	wine	generische wijn
+1253	vintage	wijn
+1254	vogelvoer	voer
+1255	filodeeg	kookdeeg
+1256	pashofa	maïspap
+1257	fenegriek	smaakmaker
+1258	gerstwater	bouillon
+1259	pizza siciliana	pizza
+1260	vitaminepil	voedingssuplement
+1261	antipasto	borrelhapje
+1262	snoepgoed	zoet
+1263	runderbouillon	bouillon
+1264	limoenlimonade	fruitsap
+1265	marshmallow fluff	maal
+1266	stout	ale
+1267	lapsang souchong	zwarte thee
+1268	kwass	brouwsel
+1269	caloriearm dieet	proefmaaltijd
+1270	burgoo	barbecue
+1271	barmbrack	brood
+1272	lithiawater	mineraalwater
+1273	scrumpy	cider
+1274	ghee	boterolie
+1275	teriyaki	gerecht
+1276	marsepein	snoep
+1277	crème de cacao	likeur
+1278	lavas	kruid
+1279	galliano	likeur
+1280	risotto	gerecht
+1281	pruimensaus	saus
+1282	snoep	zoet
+1283	worcestersaus	saus
+1284	Zweedse balletjes	gehaktbal
+1285	pils	bier
+1286	madrilene	consommé
+1287	choc ice	chocolade-ijs
+1288	muscadet	witte wijn
+1289	groene olijf	olijf
+1290	gekonfijte appel	zoet
+1291	sukiyaki	gerecht
+1292	dessert met gelatine	gelatine
+1293	truffel	snoep
+1294	cachoudrop	lozenge
+1295	peper	smaakmaker
+1296	notenboter	maal
+1297	rozijnenbrood	brood
+1298	sesamzaad	smaakmaker
+1299	gastheer	brood
+1300	pasta	gerecht
+1301	slak	alcohol
+1302	koekje	quick bread
+1303	kaassaus	witte saus
+1304	emmenthal	Zwitserse kaas
+1305	selderijzaad	smaakmaker
+1306	foie gras	paté
+1307	cacao	drankje
+1308	pudding	gerecht
+1309	marsala	versterkte wijn
+1310	maal	specerij
+1311	cider	alcohol
+1312	gazpacho	soep
+1313	gebakken vis	barbecue
+1314	ketchup	specerij
+1315	vichysoisse	soep
+1316	gebakje	brood
+1317	maïscake	maïsbrood
+1318	lievevrouwebedstro	kruid
+1319	flip	gemixt drankje
+1320	specerij	smaakmaker
+1321	Iers	whiskey
+1322	barbecue met frankfurterworstjes	barbecue
+1323	sauvignon blanc	witte wijn
+1324	spuitwater	kraantjeswater
+1325	knish	flap
+1326	wijnglas voor rode wijn	kop
+1327	geitenkaas	kaas
+1328	kaiserbroodje	gebakje
+1329	haver	graan
+1330	kaiserbroodje	gebakje
+1331	slagroom	room
+1332	vermouth	wijn
+1333	wijnsaus	saus
+1334	gorgonzola	bleu
+1335	cabernet	rode wijn
+1336	fruitsalade	salade
+1337	gekookt ei	gerecht
+1338	cassareep	smaakmaker
+1339	pilav	gerecht

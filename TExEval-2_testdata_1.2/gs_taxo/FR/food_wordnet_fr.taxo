@@ -1,0 +1,1358 @@
+0	édulcorant	aromaticien
+1	macédoine	plat
+2	jus de raisin	jus de fruit
+3	hysope	herbe
+4	jus d'ananas	jus de fruit
+5	biscuit de mer	biscuit
+6	chop suey	plat
+7	ration K	ration du combat
+8	ale	bière
+9	Périssable	denrée alimentaire
+10	Kümmel	liqueur
+11	fromage Cheshire	fromage
+12	confiture de fraises	confiture
+13	skilly	gruau
+14	ratafia	liqueur
+15	haggis	plat
+16	colostrum	lait
+17	crudités	hors-d’œuvre
+18	slumgullion	ragoût
+19	millet	grain
+20	salade de thon	salade
+21	pomme de terre en chemise	pomme de terre au four
+22	soave	vin blanc
+23	mascarpone	fromage à la crème
+24	oatcake	pain éclair
+25	vin de table	vin
+26	vin blanc	vin
+27	aspic	gélatine
+28	pâte à crêpes	pâte
+29	niacine	complexe B
+30	déjeuner d’affaires	déjeuner
+31	pain complet	pain
+32	chili	aromaticien
+33	herbe	aromaticien
+34	pâté	pâte à tartiner
+35	suet pudding	pudding
+36	mozzarella	fromage
+37	sel assaisonné	aromaticien
+38	soupe au poulet	soupe
+39	pain aux dattes	pain éclair
+40	soda à l’orange	boisson gazeuse
+41	lutefisk	plat
+42	pâte de tomate	ingrédient
+43	pastille contre la toux	losange
+44	chow mein	plat
+45	lait homogénéisé	lait
+46	vin rosé	vin
+47	homard Thermidor	plat
+48	riz cargo	riz
+49	œuf de Pâques	sucrerie
+50	ramequin	plat
+51	bâtonnet de poisson	plat
+52	Montrachet	vin blanc
+53	sandwich au poulet	sandwich
+54	bouillon	soupe
+55	réfection	repas
+56	œuf mimosa	plat
+57	liqueur d'orange	liqueur
+58	vinaigrette	sauce
+59	biotine	complexe B
+60	moût	jus de raisin
+61	blanc-manger	dessert
+62	pudding au maïs	pudding
+63	régime non-irritant	régime
+64	bouillon écossais	soupe
+65	moût	malt
+66	fondant au chocolat	caramel mou
+67	biscotte	toast
+68	fromage râpé	fromage
+69	Mille-îles	vinaigrette
+70	tisane de la camomille	tisane
+71	vodka	alcool
+72	crabe louie	salade
+73	aliments pour poulets	purée
+74	miel	édulcorant
+75	pain de sucre	sucre
+76	cannes	fourrage
+77	farine de poisson	aliments
+78	fondant	sucrerie
+79	vinaigrette aux fromage bleu	vinaigrette
+80	choline	complexe B
+81	popover	muffin
+82	poudre de lait écrémé	lait en poudre
+83	caramel mou	sucrerie
+84	curry d'agneau	curry
+85	jus de papaye	jus
+86	alcool fort	alcool
+87	salsa	condiment
+88	sauce aux câpres	sauce
+89	extrait d’amande	aromaticien
+90	chyme	alimentation
+91	fromage fondu	fromage
+92	scotch woodcock	plat
+93	vin	alcool
+94	marasquin	liqueur
+95	muffin	pain éclair
+96	roquefort	bleu
+97	café décaféiné	café
+98	denrée alimentaire	alimentation
+99	sarriette des montagnes	sarriette
+100	poivrons farcis	plat
+101	médoc	bordeaux
+102	sarriette	dainty
+103	café	boisson
+104	bagel aux oignons	bagel
+105	succédanés de café	café
+106	Harvey Wallbanger	cocktail
+107	farine de soja	farine
+108	pain	amidon
+109	thym	herbe
+110	farce	concoction
+111	hydromel	café
+112	romarin	herbe
+113	repas	nutriment
+114	soupe aux lentilles	soupe
+115	piment de la Jamaïque	herbe
+116	finger food	nutriment
+117	bleu bavarois	bleu
+118	adobo	plat
+119	fouet	dessert
+120	Handkäse	fromage
+121	beurre de crevette	pâte à tartiner
+122	pâte de poisson	pâte à tartiner
+123	sauce aux anchois	sauce
+124	congou	thé noir
+125	fromage suisse	fromage
+126	sauce aux champignons	sauce
+127	sucette	sucrerie
+128	pain grillé à la canelle	toast
+129	Tabasco	sauce piquante
+130	jaune d’œuf	ingrédient
+131	bretzel mou	bretzel
+132	riesling	vin du Rhin
+133	pain brun	pain
+134	vitamine A1	vitamine a
+135	nougatine aux cacahuètes	nougatine
+136	cidre doux	cidre
+137	hasty pudding	bouillie
+138	Timothy	foin
+139	confiserie	sucré
+140	jus de canneberge	jus de fruit
+141	Guinness	stout
+142	réglisse	sucrerie
+143	Reuben	sandwich
+144	amer	ale
+145	régime liquide	régime
+146	Genève	gin
+147	Western	sandwich
+148	praline	sucrerie
+149	aquavit	alcool
+150	frites	pomme de terre
+151	huilde de citron	aromaticien
+152	boisson gazeuse	boisson
+153	vin rouge	vin
+154	bière de Munich	lager
+155	restauration rapide	nutriment
+156	gingembre	aromaticien
+157	jus de citron	jus
+158	dragée	sucrerie
+159	eau gazeuse	eau minérale
+160	huile de menthe verte	aromaticien
+161	menthe	herbe
+162	vin liturgique	vin
+163	biscuit au babeurre	biscuit
+164	aliments en conserve	denrée alimentaire
+165	œuf poché	plat
+166	hollandaise	sauce
+167	crème anglaise congelée	dessert congelée
+168	barbecue	pique-nique
+169	consommé	soupe
+170	sauce d’un rôti	jus
+171	steak au poivre	plat
+172	grenadine	sirop
+173	fromage à effilocher	fromage
+174	lait malté	ingrédient
+175	jus de tomate	jus
+176	scotch	whiskey
+177	vin de carafe	vin
+178	armagnac	eau-de-vie
+179	graine d’aneth	aromaticien
+180	tequila	alcool
+181	sauge	herbe
+182	orge	grain
+183	fenouil	herbe
+184	madère	vin muté
+185	eau sucrée	eau potable
+186	Pernod	liqueur
+187	sauce Mornay	sauce au fromage
+188	toast	pain
+189	vitamine BC	complexe B
+190	Divinity	caramel mou
+191	pouding au chocolat	pudding
+192	menu	nourriture
+193	rafraîchissement	bouchée
+194	sucre	édulcorant
+195	carpe farcie	plat
+196	riz	grain
+197	assiette	entrée
+198	cappuccino	café
+199	hors-d’œuvre	plat
+200	Applejack	eau-de-vie
+201	relish	condiment
+202	badianier de Chine	herbe
+203	risolle	plat
+204	boulghour pilaf	pilaf
+205	bap	pain
+206	bretzel	cracker
+207	vitamine B2	complexe B
+208	gressin	pain
+209	vitamine B1	complexe B
+210	vitamine B6	complexe B
+211	Stinger	cocktail
+212	bleu	fromage
+213	plaque intermédiaire	plat
+214	sauce bolognaise	sauce à spaghetti
+215	bathtub gin	gin
+216	club sandwich	sandwich
+217	Johnnycake	johnnycake
+218	goulasch	ragoût
+219	Duff	pudding
+220	yaourt	produit laitier
+221	pâte d’anchois	aromaticien
+222	Bitter Lemon	boisson gazeuse
+223	séder	souper
+224	vitamine	nutriment
+225	sauce barbecue	sauce
+226	lait de poule	punch
+227	gelée	conserver
+228	houmous	pâte à tartiner
+229	pita	pain plat
+230	Jello	jelly
+231	son	fourrage
+232	proof spirit	alcool
+233	raïta	plat d’accompagnement
+234	marmite	soupe
+235	rouleau sucré	brioche
+236	aliments surgelés	denrée alimentaire
+237	galantine	plat
+238	graine de carvi	aromaticien
+239	Sauternes	vin blanc
+240	persil	herbe
+241	vin du Rhin	vin blanc
+242	bière	café
+243	mâchonnement	aliments
+244	basilic	herbe
+245	salade en gelée	salade
+246	chili	plat
+247	vinaigrette aux anchois	vinaigrette
+248	Pink Lady	cocktail
+249	bière légère	lager
+250	sauce aux pêches	sauce
+251	cracker	pain
+252	sauce piquante	sauce
+253	côtes levées grillées	plat
+254	beurre clarifié	beurre
+255	smörgåsbord	buffet
+256	canapé	hors-d’œuvre
+257	cerfeuil	herbe
+258	sushi	plat
+259	crème glacée	dessert congelée
+260	sour mash	whiskey
+261	aile de poulet à la mode de Buffalo	plat
+262	chaudrée de maïs	chaudrée
+263	split	dessert congelée
+264	fève de cacao criollo	cacao
+265	moussaka	plat
+266	bœuf Wellington	plat
+267	ail	aromaticien
+268	souper	repas
+269	beurre	produit laitier
+270	salade Waldorf	salade de fruits
+271	Rotgut	alcool
+272	pin à encens	gruau
+273	Limburger	fromage
+274	jus de carotte	jus
+275	sachet de thé	thé
+276	croustille de maïs	aliment à grignoter
+277	graine de moutarde	aromaticien
+278	manzanilla	xérès
+279	foin	fourrage
+280	chartreuse	liqueur
+281	cognac	eau-de-vie
+282	planche	nourriture
+283	alimentation équilibrée	régime
+284	enchilada	plat
+285	poulet au paprika	plat
+286	ciboulette	herbe
+287	Cold Duck	vin mousseux
+288	zeste de citron	zeste d’agrumes confits
+289	alimentation de démarrage	aliments
+290	haricots frits	plat
+291	vin de paille	vin liquoreux
+292	hominy	maïs
+293	refroidisseur	boisson
+294	régime pour diabétique	régime
+295	vin ordinaire	vin
+296	mezcal	alcool
+297	pain à la canelle	pain
+298	Pina Colada	boisson mélangée
+299	régime liquide strict	régime liquide
+300	pomme de terre au four	pomme de terre
+301	sauce taco	condiment
+302	cottage pie	plat
+303	beurre aux oignons	pâte à tartiner
+304	glace	dessert congelée
+305	mélange à limonade	prémélangé
+306	racinette	boisson gazeuse
+307	bœuf stroganov	plat
+308	demi-glace	sauce
+309	whiskey de maïs	whiskey
+310	bisque	soupe
+311	Saint-Émilion	bordeaux
+312	maïs	grain
+313	lait glacé	dessert congelée
+314	chaudrée de palourdes Manhattan	chaudrée de palourdes
+315	bourrache	herbe
+316	germe de blé	nutriment
+317	aliments ingérés	nutriment
+318	bortsch	soupe
+319	jus de fruit	boisson
+320	thé de batiste	thé
+321	dîner	repas
+322	cache de nourriture	commissariat
+323	curry	plat
+324	pain plat	pain
+325	hors d’œuvre	hors-d’œuvre
+326	moka	aromaticien
+327	tire	sucrerie
+328	cassonade	sucre
+329	oolong	thé
+330	wrap	sandwich
+331	cornichon à l’aneth	saumure
+332	pils	lager
+333	soufflé au fromage	soufflé
+334	gin	alcool
+335	frites maison	pomme de terre
+336	pétillement	boisson
+337	cidre chaud	cidre doux
+338	salmigondi	salade
+339	farina	repas
+340	Moselle	vin blanc
+341	marinara	sauce à spaghetti
+342	piccalilli	relish
+343	aliments pour chats	aliment pour animaux
+344	steak tartare	plat
+345	régime sémi-liquide	régime
+346	paprika	aromaticien
+347	whiskey	alcool
+348	phosphate	boisson gazeuse
+349	rouleau mou	brioche
+350	cobbler	highball
+351	moisissure	plat
+352	mole	sauce
+353	lactosérum	produit laitier
+354	tamal	plat
+355	Sling	highball
+356	régime	nourriture
+357	Vouvray	vin blanc
+358	brandy butter	sauce
+359	prémélangé	mélange
+360	carvi	herbe
+361	spotted dick	suet pudding
+362	pomme de terre	amidon
+363	eau de source	eau
+364	muffin au son	muffin
+365	café glacé	café
+366	candy dorn	sucrerie
+367	bomber	sandwich
+368	lait	denrée alimentaire
+369	Simnel	pain
+370	lait acidifié	lait
+371	taco au poulet	taco
+372	régime à la mode	régime
+373	purloo	ragoût
+374	couscous	plat
+375	farine fermentante	mélange
+376	fromage rat	cheddar
+377	sucre démérara	cassonade
+378	sel d'ail	aromaticien
+379	margarita	cocktail
+380	nectar	jus de fruit
+381	Edam	fromage
+382	chardonnay	vin blanc
+383	sucette glacée	dessert congelée
+384	dubonnet	vin
+385	sauce	condiment
+386	barre aux noisettes	sucrerie
+387	Virgin Mary	Bloody Mary
+388	White Russion	cocktail
+389	prunelle	gin
+390	crème pâtissière aux fruits	crème anglaise
+391	alcool rectifié	alcool
+392	porto	vin muté
+393	pain à l’ail	pain
+394	tapioca	denrée alimentaire
+395	aliment pour chiens	aliment pour animaux
+396	jambalaya	plat
+397	oenomel	boisson
+398	surcharge glucidique	régime
+399	pain noir	pain de seigle
+400	sauce bordelaise	sauce
+401	Pinole	repas
+402	eau	alimentation
+403	potage	soupe
+404	lait frémi	lait
+405	bonbon	sucrerie
+406	lait cru	lait
+407	muenster	fromage
+408	pain perdu	plat
+409	cannelle	herbe
+410	daïquiri aux fraises	daiquiri
+411	bière artisanale	alcool
+412	bière blonde	ale
+413	petit pain à l’oignon	brioche
+414	inositol	complexe B
+415	biscotin salé	cracker
+416	saké	alcool
+417	gin Rickey	Rickey
+418	jus de pommes	jus de fruit
+419	amélanchier du Canada	sucrerie
+420	bœuf bourguignon	plat
+421	olive	relish
+422	coquille	plat
+423	café filtré	café
+424	labskaus	ragoût
+425	chou farci	plat
+426	cuisses de grenouilles	plat
+427	soupe	plat
+428	aigre	cocktail
+429	boulette	plat
+430	saumure	relish
+431	lait en poudre	lait
+432	sandwich au jambon	sandwich
+433	chip	aliment à grignoter
+434	matza	pain
+435	rollmops	hors d’œuvre
+436	croquette de poisson	steak haché
+437	bigos	ragoût
+438	aromaticien	ingrédient
+439	bière sans alcool	boisson
+440	cocktail	hors-d’œuvre
+441	pudding tapioco	pudding
+442	sucre d’orge	sucrerie
+443	grog	rhum
+444	gélatine	dainty
+445	Planter’s Punch	cocktail
+446	slivovitz	eau-de-vie
+447	Rickey	boisson mélangée
+448	sorgho	sirop
+449	biscuit Graham	cracker
+450	seigle	whiskey
+451	plat	nutriment
+452	zestes de pamplemousse	zeste d’agrumes confits
+453	peau de pomme de terre	aliment à grignoter
+454	farine de pois	repas
+455	trifle	pudding
+456	smoothie	boisson
+457	orangeade	jus de fruits
+458	liqueur de café	liqueur
+459	sirop de sucre	sirop
+460	tonique	boisson gazeuse
+461	sucre de canne	sucre
+462	déjeuner	repas
+463	pièce de résistance	plat
+464	vinaigre de cidre	vinaigre
+465	fondue au fromage	fondue
+466	café latte	expresso
+467	pizza	plat
+468	omelette foo-yung	omelette
+469	crème anglaise en poudre	moutarde
+470	bouillon cube	bouillon
+471	amaretto	liqueur
+472	glace	dessert congelée
+473	glace à la fraise	glace
+474	plat d’accompagnement	plat
+475	High Tea	dîner
+476	mess	repas
+477	vinaigrette à l’italienne	vinaigrette
+478	lait artificiel	lait
+479	acide pantothénique	complexe B
+480	marmelade d’orange	marmelade
+481	syllabub	dessert
+482	danablu	bleu
+483	brioche du carème	rouleau sucré
+484	tempura	plat
+485	kedgeree	plat
+486	pause café	bouchée
+487	Limpa	pain de seigle
+488	aioli	sauce
+489	oktoberfest	lager
+490	mouture	grain
+491	schnaps	alcool
+492	bière à la pression	bière
+493	soda bread irlandais	pain éclair
+494	gnôle	alcool
+495	macon	vin
+496	fromage	produit laitier
+497	thé glacé	thé
+498	bonbon dur	sucrerie
+499	soupe de petits pois	soupe
+500	balsamite	herbe
+501	egg cream	boisson gazeuse
+502	sauge sclarée	sauge
+503	Dom Pedro	boisson mélangée
+504	lait certifié	lait
+505	vitamine A2	vitamine a
+506	bouchée	repas
+507	punch au lait	punch
+508	garde-manger	commissariat
+509	coquilles Saint-Jacques	plat
+510	pinot noir	vin rouge
+511	boulette de pommes	boulette
+512	morue en croquettes	croquette de poisson
+513	kebab	plat
+514	vodka-martini	Martini
+515	ragoût de homard	ragoût
+516	Rioja	vin rouge
+517	weizenbier	Weissbier
+518	kanelbulle	rouleau sucré
+519	fourrage	denrée alimentaire
+520	sauce au pain	sauce
+521	sauté	plat
+522	Whiskey Sour	aigre
+523	allemande	sauce
+524	petit-déjeuner	repas
+525	sorbet	dessert congelée
+526	liederkranz	fromage
+527	vin ordinaire	vin de table
+528	vin chaud	vin
+529	sauce remoulade	sauce
+530	wassail	punch
+531	chair à saucisse	farce
+532	tisane	thé
+533	saccharine	édulcorant
+534	buffet	repas
+535	commissariat	alimentation
+536	tipsy cake	trifle
+537	gyros	sandwich
+538	flummery	pudding
+539	ravigote	sauce
+540	chausson	plat
+541	sel	aromaticien
+542	viande hâchée	nutriment
+543	losange	sucrerie
+544	loukoum	sucrerie
+545	cocktail de crabe	cocktail
+546	pâté impérial	plat
+547	arrack	alcool
+548	drèche	aliments
+549	benedictine	liqueur
+550	pain anadama	pain
+551	cheeseburger	hamburger
+552	julep	highball
+553	fromage blanc	fromage
+554	lait de soja	lait
+555	gruyère	fromage suisse
+556	omelette norvégienne	dessert
+557	sauce duck	condiment
+558	amer	alcool
+559	pain de poisson	pain de viande
+560	tofu	caillé
+561	boisson mélangée	alcool
+562	darjeeling	thé noir
+563	pique-nique	repas
+564	goulash de bœuf	goulasch
+565	cornet à glace	dessert congelée
+566	ration C	ration du combat
+567	grissino	gressin
+568	rafraîchissement	boisson
+569	graine de pop-corn	sucrerie
+570	purée de petits pois	plat d’accompagnement
+571	sauce brune	sauce
+572	calvados	eau-de-vie
+573	mélisse officinale	herbe
+574	concentré	denrée alimentaire
+575	œuf au plat	plat
+576	jus d'orange	jus de fruit
+577	tuck	comestible
+578	glace au chocolat	glace
+579	eau glacée	eau potable
+580	chaudrée de palourdes	chaudrée
+581	moutarde chinoise	moutarde
+582	soda	boisson gazeuse
+583	souvláki	kebab
+584	Yquem	vin blanc
+585	poï	plat
+586	sabayon	dessert
+587	œufs brouillés	plat
+588	marc	eau-de-vie
+589	crème double	fromage à la crème
+590	mélange à gâteau	prémélangé
+591	riz sauvage	grain
+592	Weissbier	ale
+593	maryland chicken	plat
+594	régime hyperprotéiné	régime
+595	Roly Poly	pudding
+596	aliment à grignoter	plat
+597	scrapple	plat
+598	power breakfast	petit-déjeuner
+599	cacher	nutriment
+600	sazerac	cocktail
+601	nonpareille	sucré
+602	poteen	irlandais
+603	paprika espagnol	paprika
+604	aliments déshydraté	denrée alimentaire
+605	daiquiri	cocktail
+606	burrito	plat
+607	roulade	plat
+608	cordon bleu de veau	plat
+609	poulet Tetrazzini	tetrazzini
+610	ragoût de poulet	fricassée
+611	tapenade	pâte à tartiner
+612	purée	nutriment
+613	grappa	eau-de-vie
+614	luzerne	fourrage
+615	Bercy	sauce
+616	philtre	potion
+617	drambuie	scotch
+618	poivre de Cayenne	aromaticien
+619	cottage cheese	fromage
+620	ashcake	pain de maïs
+621	baiser chocolaté	Kiss
+622	eau Vichy	eau minérale
+623	sauce tartare	sauce
+624	water biscuit	cracker
+625	fines herbes	herbe
+626	régime macrobiotique	végétarisme
+627	palourdes de la nouvelle-Angeleterre	barbecue
+628	crème brûlée	crème anglaise
+629	moo goo gai pan	plat
+630	ballote	sucrerie
+631	gomme à mâcher	chewing-gum
+632	poulette	sauce
+633	pudding à la vanille	pudding
+634	fondue	plat
+635	porter	ale
+636	vin muté	vin
+637	blé	grain
+638	crouton	pain
+639	sel aux oignons	aromaticien
+640	BUllshot	cocktail
+641	concentré de tomates	concentré
+642	camembert	fromage
+643	chaudrée de poisson	chaudrée
+644	pain de maïs	pain éclair
+645	bouffe	nourriture
+646	bourguignon	sauce
+647	aliment pour animaux	aliments
+648	guimauve	sucrerie
+649	ration du combat	ration
+650	ambroisie	dainty
+651	noix de coco de Burton	ale
+652	confiture	sucré
+653	anis	aromaticien
+654	complexe B	vitamine hydrosoluble
+655	highball	boisson mélangée
+656	huile essentielle de menthe	aromaticien
+657	omelette	plat
+658	herbe	aromaticien
+659	farine de maïs	repas
+660	pinot blanc	vin blanc
+661	crème caillée	crème
+662	sloppy joe	sandwich
+663	Bishop	vin chaud
+664	crème	produit laitier
+665	angelica	herbe
+666	lait faible en gras	lait
+667	brunswick stew	ragoût
+668	viande en conserve	aliments en conserve
+669	poudre de cari	aromaticien
+670	paddy	riz
+671	salade de macaroni	salade de pâtes
+672	bear claw	rouleau sucré
+673	crème de fraise	liqueur
+674	eau-de-vie	alcool
+675	alcool	boisson
+676	moulin à poivre	soupe
+677	purée	aliments
+678	mast	aliments
+679	œuf dur	œuf à la coque
+680	brown betty	pudding
+681	malvoisie	madère
+682	parmesan	fromage
+683	plat	nutriment
+684	plat en casserole	plat
+685	pain de seigle suédois	pain de seigle
+686	gousse de vanille	aromaticien
+687	pâte feuilletée	pâte
+688	œufs Bénédictine	plat
+689	boulette	dessert
+690	sashimi	plat
+691	croquette	plat
+692	pain blanc	pain
+693	acide citrique	aromaticien
+694	soda gingembre	boisson gazeuse
+695	screwdriver	cocktail
+696	sucre de betterave	sucre
+697	olive noire	olive
+698	parker house roll	brioche
+699	farine de sang	aliments
+700	thé	herbe
+701	grasshopper	cocktail
+702	céréales fourragères	aliments
+703	huile Wintergreen	aromaticien
+704	petit-déjeuner continental	petit-déjeuner
+705	salade de poulet	salade
+706	pain aux noix	pain éclair
+707	vin de Bourgogne	vin
+708	hachis	plat
+709	bifteck au poivre	plat
+710	lait écrémé	lait
+711	apéritif	alcool
+712	lasagne	pâtes
+713	lait concentré non sucré	lait
+714	chenin blanc	vin blanc
+715	guacamole	sauce
+716	branch water	eau
+717	fondue au chocolat	fondue
+718	graine de pavot	aromaticien
+719	pâte alimentaire alphabet	soupe
+720	pain à la cuillère	pain de maïs
+721	amontillado	xérès
+722	sauce au raifort	sauce
+723	bière d'épinette	café
+724	vitamine liposoluble	vitamine
+725	stick	margarine
+726	flan	dessert
+727	tourteau pour bétail	aliments
+728	sucre cristallisé	sucre
+729	malt	lager
+730	régime faible en gras	régime
+731	petite marmite	soupe
+732	Bloody Mary	cocktail
+733	hamburger	sandwich
+734	lait au chocolat	lait
+735	soupe du jour	soupe
+736	junket	dessert
+737	faisan sous cloche	plat
+738	ragoût de bœuf	ragoût
+739	viand	plat
+740	gélose pour dénombrement	agar-agar
+741	quesadilla	burrito
+742	cannelloni	pâtes
+743	eau minérale	eau potable
+744	sandwich	aliment à grignoter
+745	sorte de thé	boisson
+746	tostada aux haricots	tostada
+747	absinthe	liqueur
+748	veau parmesan	plat
+749	sauce moutarde	sauce
+750	pain aux bananes	pain éclair
+751	fruit confit	confiture
+752	lait caillé	produit laitier
+753	retsina	vin
+754	multivitamine	pilule vitamine
+755	œuf	denrée alimentaire
+756	curcuma	aromaticien
+757	miso	pâte à tartiner
+758	bitok	plat
+759	pousse-café	liqueur
+760	vin cuit	conserver
+761	mousse	plat
+762	pâte	concoction
+763	baguette	pain français
+764	croquettes	repas
+765	Brie	fromage
+766	pesto	sauce
+767	sauce	condiment
+768	anisette	liqueur
+769	wasabi	condiment
+770	Snowball	dessert congelée
+771	crème fraîche	crème
+772	punch au fruits	punch
+773	farine ordinaire	farine
+774	salade d'harengs	salade
+775	metheglin	hydromel
+776	graine de fenouil	aromaticien
+777	salsepareille	boisson gazeuse
+778	pizza aux anchois	pizza
+779	chaudrée de palourdes du Maine	chaudrée de palourdes
+780	pain Graham	pain brun
+781	kahlúa	liqueur de café
+782	poiré	alcool
+783	curaçao	liqueur d'orange
+784	lait concentré sucré	lait
+785	pain skillet	pain éclair
+786	tiramisu	dessert
+787	riz frit	plat
+788	sauce aux canneberges	condiment
+789	poulet Marengo	plat
+790	vinaigre chili	vinaigre
+791	pain aux dattes et aux noix	pain éclair
+792	glace à la vanille	glace
+793	raifort	condiment
+794	aliments	alimentation
+795	dolmas	plat
+796	zinfandel	vin rouge
+797	chausson aux pommes	chausson
+798	blanc	sauce blanche
+799	pâté de canard	pâté
+800	ciboule de chine	aromaticien
+801	bock	lager
+802	schabziger	fromage suisse
+803	sirop	édulcorant
+804	aqua vitae	alcool
+805	graine à canari	alimentation des oiseaux
+806	sauce cocktail	sauce
+807	micronutriment	alimentation
+808	sauce lyonnaise	sauce
+809	postum	succédanés de café
+810	sel de céleri	aromaticien
+811	milieu de culture	alimentation
+812	trempette au fromage	sauce
+813	Martini	cocktail
+814	dessert congelée	dessert
+815	charlotte	dessert
+816	salade de chou	salade
+817	beurre de yak	beurre
+818	marinade	condiment
+819	jus	denrée alimentaire
+820	bifteck à la suisse	plat
+821	mousse de poisson	mousse
+822	vin de Californie	vin
+823	saumure sucré	saumure
+824	salade niçoise	salade
+825	xérès	vin muté
+826	eau embouteillée	eau potable
+827	farine de matza	repas
+828	hotchpotch	ragoût
+829	peau d’orange	zeste d’agrumes confits
+830	Coca-Cola	coca
+831	macis	herbe
+832	baies de genièvre	aromaticien
+833	alcool de contrebande	whiskey de maïs
+834	café noir	café
+835	soul food	alimentation
+836	zeste d’agrumes confits	fruit confit
+837	Gin Sling	Sling
+838	chaudrée	soupe
+839	thé vert	thé
+840	soupe aux pois	soupe
+841	yaourt glacé	dessert congelée
+842	nourriture miraculeuse	alimentation
+843	café royale	café
+844	œuf en sucre	œuf de Pâques
+845	vinaigrette française	vinaigrette
+846	glögg	punch
+847	chapati	pain plat
+848	vitamine K3	vitamine K
+849	pâte	concoction
+850	julienne	soupe
+851	banquet	repas
+852	cube de bouillon	aromaticien
+853	mousse au chocolat	mousse
+854	brandyball	sucrerie
+855	caramel	sucre
+856	paella	plat
+857	béarnaise	sauce
+858	bouillabaisse	ragoût de poisson
+859	gouda	fromage
+860	produit laitier	denrée alimentaire
+861	Tutti Frutti	glace
+862	pavlova	dessert
+863	branche de céleri	crudités
+864	champagne	vin mousseux
+865	capucine	aromaticien
+866	boulghour	blé
+867	pudding aux carottes	pudding
+868	eau potable	boisson
+869	Pepsi	coca
+870	soubise	sauce
+871	aspic	gélatine
+872	soupe de tortue	soupe
+873	café au lait	café
+874	shortcake	biscuit
+875	sauerbraten	plat
+876	gâteau tamal	plat
+877	steak haché	sucrerie
+878	Kirsch	eau-de-vie
+879	laurier	herbe
+880	sucré	dainty
+881	ragoût de poisson	ragoût
+882	bouillon de poulet	bouillon
+883	vin de la vallée du rhône	vin
+884	alimentaire	nourriture
+885	hyson	thé vert
+886	coupe de champagne	tasse
+887	soufflé	plat
+888	drop scone	scone
+889	gâteau glacé	dessert congelée
+890	Velveeta	fromage
+891	babeurre	lait
+892	mulligatawny	soupe
+893	glutamate monosodique	aromaticien
+894	fausse soupe de tortue	soupe
+895	chowchow	relish
+896	fromage à la crème	fromage
+897	crème caramel	crème anglaise
+898	lemon drop	bonbon dur
+899	scotch egg	plat
+900	honey bun	rouleau sucré
+901	christmas pudding	pudding
+902	vieux jeu	cocktail
+903	consoude	herbe
+904	beurre noisette	beurre
+905	Fanny Adams	viande en conserve
+906	sauce chili	condiment
+907	Jawbreaker	bonbon dur
+908	concoction	denrée alimentaire
+909	lait maternel	lait
+910	chicorée	succédanés de café
+911	mélange à brownies	prémélangé
+912	pâtisserie danoise	rouleau sucré
+913	œuf en chocolat	œuf de Pâques
+914	pot-au-feu	ragoût
+915	vermouth sucré	vermouth
+916	parfait	dessert congelée
+917	repas cuit	plat
+918	muffin au maïs	muffin
+919	ragoût irlandais	ragoût
+920	salade de pâtes	salade
+921	olla podrida	ragoût
+922	pulque	alcool
+923	hot-dog	sandwich
+924	sucre glace	sucre en poudre
+925	cheddar	fromage
+926	maïs sucré	maïs
+927	margarine	pâte à tartiner
+928	taboulé	salade
+929	tasse	punch
+930	mélasse	sirop
+931	kischk	plat
+932	barbe à papa	sucrerie
+933	gruaux	grain
+934	chuadrée Mulligan	ragoût
+935	matelote	ragoût de poisson
+936	semoule	farine
+937	sirop d'érable	sirop
+938	vins de Provence	vin
+939	lekvár	farce
+940	salade César	salade
+941	Double Gloucester	fromage
+942	jujube	sucrerie
+943	jaune d'œuf	alimentation
+944	marmelade	conserver
+945	falafel	plat
+946	caramel écossais	sucrerie
+947	vin liquoreux	vin
+948	fromage brick	fromage
+949	gruau	bouillie
+950	pizza au pepperoni	pizza
+951	muscat	vin muté
+952	pain italien	pain blanc
+953	bouillie	plat
+954	apin aigre	pain
+955	rhum	alcool
+956	rue des jardins	herbe
+957	Zombie	highball
+958	nosh	bouchée
+959	crème glacée à la pêche	glace
+960	caroube	denrée alimentaire
+961	ragoût	plat
+962	élixir	potion
+963	grand marnier	liqueur d'orange
+964	casserole de poulet	casserole
+965	gruau	repas
+966	panucci	caramel mou
+967	pain de sel à la hausse	pain
+968	Maitrank	punch
+969	café turc	café
+970	pain de seigle	pain
+971	ploughman's lunch	repas
+972	chewing-gum	sucré
+973	crème de citron	conserver
+974	soupe de queue de bœuf	soupe
+975	jus de pamplemousse	jus de fruit
+976	SPAM	viande en conserve
+977	sucre candi	sucrerie
+978	farine de blé entier	farine de blé
+979	charlotte russe	charlotte
+980	nougat	sucrerie
+981	sirop de maïs	sirop
+982	lait pasteurisé	lait
+983	morceau de choix	dainty
+984	bière de gingembre	boisson
+985	sauce à la crème	sauce blanche
+986	Rob Roy	Manhattan
+987	pouding à la vapeur	pudding
+988	extrait de citron	aromaticien
+989	menthe poivrée	menthe
+990	beurre à l’ail	pâte à tartiner
+991	sauce curry	sauce
+992	aneth	herbe
+993	tranche napolitaine	glace
+994	caillé	produit laitier
+995	pâte à choux	pâte
+996	triple crème	fromage
+997	naan	pain
+998	safran	aromaticien
+999	sauce tomate	sauce à spaghetti
+1000	osso buco	plat
+1001	mayonnaise	vinaigrette
+1002	Manhattan	cocktail
+1003	poulet à la Kiev	plat
+1004	jus de lime	jus
+1005	potion	boisson
+1006	moutarde	condiment
+1007	fish house punch	punch
+1008	confit	sucré
+1009	sauce à la menthe	condiment
+1010	gaufrette	pain
+1011	sauce soja	condiment
+1012	poulet cacciatore	casserole de poulet
+1013	boisson	alimentation
+1014	congee	gruau
+1015	cordon bleu de poulet	plat
+1016	sucre d'orge	bonbon dur
+1017	dainty	nutriment
+1018	triple sec	liqueur d'orange
+1019	cornichon	saumure
+1020	tasse	thé
+1021	ingrédient	denrée alimentaire
+1022	dessert	plat
+1023	blé concassé	blé
+1024	yaourt aux bleuets	yaourt
+1025	vin mousseux	vin
+1026	ouzo	alcool
+1027	halla	pain
+1028	Boston Baked Beans	plat
+1029	comestible	alimentation
+1030	chili-dog	hot-dog
+1031	beurre de homard	pâte à tartiner
+1032	sucre candi	sucrerie
+1033	stodge	nutriment
+1034	Irish coffee	café
+1035	fève	fourrage
+1036	vinaigrette aux fromage bleu	vinaigrette
+1037	pain hamburger	brioche
+1038	negus	vin chaud
+1039	spaghetti	pâtes
+1040	hydromel	boisson
+1041	café instentané	café
+1042	choucroute	plat
+1043	estragon	herbe
+1044	aliment-réconfort	alimentation
+1045	expresso	café
+1046	compote de pommes	plat
+1047	lait demi-écrémé	lait
+1048	Collins	highball
+1049	carbonara	sauce à spaghetti
+1050	nacho	croustille de maïs
+1051	câpre	saumure
+1052	ration	nourriture
+1053	punch	boisson mélangée
+1054	thé noir	thé
+1055	sauce blanche	sauce
+1056	sucre semoule	sucre en poudre
+1057	pierogie	chausson
+1058	végétarisme	régime
+1059	nesselrode	pudding
+1060	vinaigre	condiment
+1061	weizenbock	Weissbier
+1062	banana split	split
+1063	pêche Melbe	dessert
+1064	trempette aux haricots	sauce
+1065	sarrasin	grain
+1066	pop-corn	maïs
+1067	sauce russe	vinaigrette
+1068	yorkshire pudding	pain éclair
+1069	liqueur	alcool
+1070	pâte à pain	pâte
+1071	sucre de maïs	sucre
+1072	tetrazzini	plat
+1073	repas substantiel	repas
+1074	bonbon haricot	sucrerie
+1075	crème de menthe	liqueur
+1076	hot pot	ragoût
+1077	vin des canaries	vin blanc
+1078	crème soda	boisson gazeuse
+1079	blanc d’œuf	ingrédient
+1080	matières panifiables	denrée alimentaire
+1081	friandise	sucrerie
+1082	casserole	plat
+1083	espagnole	sauce
+1084	salade	plat
+1085	chianti	vin rouge
+1086	sauce chocolat fondant	sauce au chocolat
+1087	gelée de pomme	gelée
+1088	fouet électrique	boisson
+1089	bavarois	crème anglaise
+1090	gelée de raisin	gelée
+1091	nypa	alcool
+1092	Merlot	vin rouge
+1093	liebfraumilch	vin du Rhin
+1094	vitamine K1	vitamine K
+1095	biryani	plat
+1096	coq au vin	plat
+1097	soupe aux pois cassés	soupe
+1098	Nantua	sauce
+1099	nourriture	alimentation
+1100	bâton de cannelle	cannelle
+1101	bière de bouleau	boisson gazeuse
+1102	cardamome	aromaticien
+1103	pain avec gluten	pain
+1104	sandwich à une tranche	sandwich
+1105	poivre noir	poivre
+1106	taco	plat
+1107	moelle	dainty
+1108	cerfeuil musqué	herbe
+1109	sambuca	liqueur
+1110	pain éclair	pain
+1111	biscuits d’huîtres	cracker
+1112	vitamine P	vitamine hydrosoluble
+1113	dinde farci	farce
+1114	vitamine C	vitamine hydrosoluble
+1115	vitamine a	vitamine liposoluble
+1116	toast Melba	toast
+1117	vitamine E	vitamine liposoluble
+1118	sauce à spaghetti	sauce
+1119	vitamine K	vitamine liposoluble
+1120	nougatine	sucrerie
+1121	chutney	condiment
+1122	ricotta	fromage
+1123	jus d’orange surgelé	concentré
+1124	farine	denrée alimentaire
+1125	verdicchio	vin blanc
+1126	riz espagnol	plat
+1127	sucre en poudre	sucre cristallisé
+1128	Kiss	sucrerie
+1129	gluten de maïs	aliments
+1130	coriandre	herbe
+1131	gomme	chewing-gum
+1132	ratatouille	ragoût
+1133	gingembre confit	fruit confit
+1134	cidre	boisson
+1135	pain de thé	brioche
+1136	timbale	plat
+1137	frittata	plat
+1138	crème légère	crème
+1139	York peppermint patty	steak haché
+1140	blended whiskey	whiskey
+1141	salade de pommes de terre	salade
+1142	viande hâchée	concoction
+1143	entrée	plat
+1144	spécial	plat
+1145	sauce chasseur	sauce
+1146	Life Savers	sucrerie
+1147	maté	boisson
+1148	crème épaisse	crème
+1149	Welsh	plat
+1150	langoustine	plat
+1151	fricassée	ragoût
+1152	vinaigre de vin	vinaigre
+1153	cornpone	pain de maïs
+1154	trempette aux paourdes	sauce
+1155	Cène	séder
+1156	koumis	alcool
+1157	lait de yak	lait
+1158	régime pauvre en sodium	régime
+1159	crème sure	crème
+1160	bialy	petit pain à l’oignon
+1161	compote	dessert
+1162	sauce au chocolat	sauce
+1163	pudding	dessert
+1164	bordelaise	sauce
+1165	crème pour salades	vinaigrette
+1166	sack	vin blanc
+1167	sauce au piment	sauce
+1168	tostada	plat
+1169	pain français	pain blanc
+1170	schnitzel	plat
+1171	tressage	alcool
+1172	lait entier	lait
+1173	limonade	jus de fruits
+1174	orange pekoe	thé noir
+1175	mélange cinq épices	herbe
+1176	tokay	vin
+1177	ensilage	aliments
+1178	pruno	gnôle
+1179	balle aigre	bonbon dur
+1180	pizza aux fromages	pizza
+1181	muffin anglais	pain
+1182	barre de nougat	sucrerie
+1183	terrine	plat
+1184	Sidecar	cocktail
+1185	girofle	herbe
+1186	roux	concoction
+1187	scone	pain éclair
+1188	farine de blé	farine
+1189	bagel	brioche
+1190	mélange	concoction
+1191	ragoût d’huîtres	ragoût
+1192	lait de coco	lait
+1193	hachis de bœuf et pâtes	hachis
+1194	amidon	denrée alimentaire
+1195	pastis	liqueur
+1196	mimosa	boisson mélangée
+1197	tahini	pâte à tartiner
+1198	chablis	vin blanc
+1199	café	alcool
+1200	bordeaux	vin
+1201	craquelin	cracker
+1202	Swizzle	boisson mélangée
+1203	complément allimentaire	régime
+1204	samoussa	chausson
+1205	colorant	denrée alimentaire
+1206	The Training Table	planche
+1207	thé soleil	thé
+1208	Colbert	sauce
+1209	confiture	conserver
+1210	bourbon	whiskey
+1211	sauce à bifteck	condiment
+1212	barre d'arachide	sucrerie
+1213	mélasse	sirop
+1214	tourteau	aliments
+1215	won ton	soupe
+1216	nutriment	alimentation
+1217	bannique	pain plat
+1218	noix muscade	herbe
+1219	régime sans gluten	régime
+1220	vitamine D	vitamine liposoluble
+1221	purée de pommes de terre	pomme de terre
+1222	grog chaud	boisson mélangée
+1223	alimentation légère	régime
+1224	salade verte	salade
+1225	coca	boisson gazeuse
+1226	aspartame	édulcorant
+1227	steak Salisbury	plat
+1228	potluck	repas
+1229	sassafras	aromaticien
+1230	vrille	cocktail
+1231	Jacqueline	boisson mélangée
+1232	succotash	plat
+1233	fromage à tartiner	pâte à tartiner
+1234	grain	denrée alimentaire
+1235	beurre d'arachides	pâte à tartiner
+1236	pizza au pepperoni	pizza
+1237	marjolaine	herbe
+1238	potage	ragoût
+1239	gombo	soupe
+1240	poivre blanc	poivre
+1241	rhum jamaïcain	rhum
+1242	jus de fruits	boisson
+1243	riz blanc	riz
+1244	sucre en morceaux	sucre
+1245	cépage	vin
+1246	brunch	repas
+1247	stilton	bleu
+1248	vitamine hydrosoluble	vitamine
+1249	beaujolais	vin de Bourgogne
+1250	salade de fruits	cocktail
+1251	kava	alcool
+1252	vanille	aromaticien
+1253	pain aux oignons	pain
+1254	hushpuppy	pain de maïs
+1255	agar-agar	milieu de culture
+1256	cocktail de crevettes	cocktail
+1257	johnnycake	pain de maïs
+1258	lait acidophilus	lait
+1259	farce	concoction
+1260	orge perlée	orge
+1261	salmis	ragoût
+1262	vitamine B12	complexe B
+1263	pease pudding	pudding
+1264	conserver	confiture
+1265	vermouth sec	vermouth
+1266	générique	vin
+1267	millésime	vin
+1268	alimentation des oiseaux	aliments
+1269	pâte phyllo	pâte feuilletée
+1270	hominy perlée	hominy
+1271	fenugrec	aromaticien
+1272	sirop d’orgeat	bouillon
+1273	pizza sicilienne	pizza
+1274	pilule vitamine	complément allimentaire
+1275	centre	sucré
+1276	antipasto	hors-d’œuvre
+1277	sucrerie	sucré
+1278	bouillon de bœuf	bouillon
+1279	limeade	jus de fruits
+1280	poussière de guimauve	pâte à tartiner
+1281	carbonade flamande	plat
+1282	stout	ale
+1283	souchong	thé noir
+1284	kvas	café
+1285	régime hypocalorique	régime
+1286	burgoo	barbecue
+1287	barmbrack	pain
+1288	eau Lithia	eau minérale
+1289	scrumpy	cidre
+1290	ghi	beurre clarifié
+1291	teriyaki	plat
+1292	massepain	sucrerie
+1293	crème de cacao	liqueur
+1294	livèche	herbe
+1295	Galliano	liqueur
+1296	risotto	plat
+1297	sauce aux prunes	sauce
+1298	sucrerie	sucré
+1299	sauce Worcester	sauce
+1300	boulettes suédoises	boulette
+1301	lager	bière
+1302	madrilène	consommé
+1303	choc ice	glace au chocolat
+1304	muscadet	vin blanc
+1305	olive verte	olive
+1306	pomme d'amour	sucré
+1307	sukiyaki	plat
+1308	jelly	gélatine
+1309	truffe	sucrerie
+1310	cachou	losange
+1311	poivre	aromaticien
+1312	beurre de noix	pâte à tartiner
+1313	pain aux raisins	pain
+1314	graine de sésame	aromaticien
+1315	hôte	pain
+1316	pâtes	plat
+1317	escargot	alcool
+1318	biscuit	pain éclair
+1319	sauce au fromage	sauce blanche
+1320	emmenthal	fromage suisse
+1321	graine de céleri	aromaticien
+1322	foie gras	pâté
+1323	cacao	boisson
+1324	crème anglaise	plat
+1325	marsala	vin muté
+1326	pâte à tartiner	condiment
+1327	cidre brut	alcool
+1328	gaspacho	soupe
+1329	alevin	barbecue
+1330	ketchup	condiment
+1331	vichyssoise	soupe
+1332	brioche	pain
+1333	gâteau de maïs	pain de maïs
+1334	aspérule odorante	herbe
+1335	flip	boisson mélangée
+1336	condiment	aromaticien
+1337	irlandais	whiskey
+1338	rôti Wiener	barbecue
+1339	sauvignon blanc	vin blanc
+1340	eau gazeuse	eau potable
+1341	knish	chausson
+1342	verre de bordeaux	tasse
+1343	fromage de chèvre	fromage
+1344	pain kaiser	brioche
+1345	avoine	grain
+1346	pain kaiser	brioche
+1347	Johnnycake	johnnycake
+1348	crème chantilly	crème
+1349	vermouth	vin
+1350	fourrage	aliments
+1351	sauce au vin	sauce
+1352	gorgonzola	bleu
+1353	cabernet	vin rouge
+1354	salade de fruits	salade
+1355	œuf à la coque	plat
+1356	cassareep	aromaticien
+1357	pilaf	plat

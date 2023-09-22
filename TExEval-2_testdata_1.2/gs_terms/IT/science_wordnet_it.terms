@@ -1,0 +1,396 @@
+0	psicologia anormale
+1	acustica
+2	aerologia
+3	aeromeccanica
+4	aeronautica
+5	agrobiologia
+6	agrologia
+7	agronomia
+8	algebra
+9	allergologia
+10	analisi
+11	geometria analitica
+12	anatomia
+13	anestesiologia
+14	angiologia
+15	antropologia
+16	matematica applicata
+17	psicologia applicata
+18	archeologia
+19	architettura
+20	aritmetica
+21	assiriologia
+22	astrodinamica
+23	astrometria
+24	astronomia
+25	astrofisica
+26	audiologia
+27	avionica
+28	batteriologia
+29	comportamentismo
+30	biochimica
+31	bioclimatologia
+32	biogeografia
+33	biologia
+34	scienze biomediche
+35	biomedicina
+36	biometria
+37	 biofisica
+38	biosistematica
+39	biotecnologia
+40	botanica
+41	 scienze cognitive
+42	calcolo infinitesimale
+43	cardiologia
+44	catottrica
+45	meccanica celeste
+46	chimica
+47	educazione civica
+48	meccanica classica
+49	climatologia
+50	anatomia clinica
+51	psicologia clinica
+52	neuroscienza cognitiva
+53	psicologia cognitiva
+54	scienze cognitive
+55	anatomia comparata
+56	psicologia comparata
+57	morfologia composizionale
+58	linguistica computazionale
+59	correlazione
+60	odontoiatria cosmetica
+61	cosmografia
+62	cosmologia
+63	craniologia
+64	craniometria
+65	criminologia
+66	criobiologia
+67	criogenia
+68	crionica
+69	crittoanalisi
+70	cristallografia
+71	correlazione curvilinea
+72	cibernetica
+73	citogenetica
+74	citologia
+75	deissi
+76	demografia
+77	anatomia dentale
+78	chirurgia dentale
+79	odontoiatria
+80	derivazione
+81	dermatoglifia
+82	grammatica descrittiva
+83	 linguistica descrittiva
+84	anatomia dello sviluppo
+85	psicologia dello sviluppo
+86	geografia dialettale
+87	dietetica
+88	calcolo differenziale
+89	dinamica
+90	disgenesia
+91	scienze della Terra
+92	ecologia
+93	econometria
+94	geografia economica
+95	geologia economica
+96	economia
+97	egittologia
+98	elettrochimica
+99	elettromagnetismo
+100	ottica elettronica
+101	elettronica
+102	elettrostatica
+103	geometria elementare
+104	embriologia
+105	medicina di emergenza- urgenza
+106	endocrinologia
+107	Endodonzia
+108	entomologia
+109	enzimologia
+110	epidemiologia
+111	etnografia
+112	etnologia
+113	etologia
+114	etimologia
+115	eugenetica
+116	eutenica
+117	esobiologia
+118	estrazione dentaria
+119	psicologia sperimentale
+120	femtochimica
+121	fetologia
+122	finanza
+123	meccanica dei fluidi
+124	medicina legale
+125	silvicoltura
+126	semantica formale
+127	analisi di Fourier
+128	geometria frattale
+129	anatomia funzionale
+130	garbology
+131	gastroenterologia
+132	Ingegneria genetica
+133	genetica
+134	genomica
+135	geochimica
+136	geodesia
+137	geografia
+138	geologia
+139	geometria
+140	geofisica
+141	geopolitica
+142	geriatria
+143	grammatica
+144	anatomia topografica
+145	teoria dei gruppi
+146	ginecologia
+147	armonica
+148	ematologia
+149	emodinamica
+150	erpetologia
+151	linguistica storica
+152	economia domestica
+153	idrodinamica
+154	idrologia
+155	idrostatica
+156	igiene
+157	geometria iperbolica
+158	ipsografia
+159	ittiologia
+160	immunochimica
+161	immunologia
+162	immunopatologia
+163	morfologia flessionale
+164	informatica
+165	chimica inorganica
+166	calcolo integrale
+167	medicina interna
+168	psicologia junghiana
+169	cinematica
+170	chinesiologia
+171	lepidopterologia
+172	semantica lessicale
+173	scienze della vita
+174	limnologia
+175	algebra lineare
+176	programmazione lineare
+177	linguistica
+178	macrobiotica
+179	magnetismo
+180	malacologia
+181	mammologia
+182	archeologia marittima
+183	matematica
+184	algebra delle matrici
+185	meccanica
+186	scienza medica
+187	medicina
+188	memoria
+189	metallurgia
+190	metamatematica
+191	meteorologia
+192	metrologia
+193	microbiologia
+194	microeconomia
+195	anatomia microscopica
+196	mineralogia
+197	biologia molecolare
+198	genetica molecolare
+199	morfologia
+200	micologia
+201	miologia
+202	storia naturale
+203	scienze naturali
+204	correlazione negativa
+205	neonatologia
+206	nefrologia
+207	neuroanatomia
+208	neurobiologia
+209	neurolinguistica
+210	neurologia
+211	neurofisiologia
+212	neuropsichiatria
+213	neuroscienza
+214	geometria non euclidea
+215	statistica non parametrica
+216	nosologia
+217	medicina nucleare
+218	Fisica nucleare
+219	analisi numerica
+220	ostetricia
+221	oceanografia
+222	oncologia
+223	Oologia
+224	oftalmologia
+225	ottica
+226	chimica organica
+227	orografia
+228	ortodonzia
+229	ortoepìa
+230	ortopedia
+231	otologia
+232	paleoantropologia
+233	paleobiologia
+234	paleobotanica
+235	paleoclimatologia
+236	paleodendrologia
+237	paleoecologia
+238	paleoetnografia
+239	paleogeografia
+240	paleogeologia
+241	paleografia
+242	paleontologia
+243	paleomammologia
+244	paleontologia
+245	paleopatologia
+246	paleornitologia
+247	paleozoologia
+248	correlazione parziale
+249	fisica delle particelle
+250	patologia
+251	pediatria
+252	penalogia
+253	perinatologia
+254	parodontologia
+255	geologia degli idrocarburi
+256	petrologia
+257	farmacogenetica
+258	farmacocinetica
+259	farmacologia
+260	farmacia
+261	fonologia
+262	fotochimica
+263	frenologia
+264	antropologia fisica
+265	chimica fisica
+266	geografia fisica
+267	fisica
+268	psicologia fisiologica
+269	fisiologia
+270	fitochimica
+271	geometria piana
+272	fisica dei plasmi
+273	pneumatica
+274	podologia
+275	politica
+276	pomologia
+277	correlazione positiva
+278	pragmatica
+279	grammatica prescrittiva
+280	problem solving
+281	proctologia
+282	geometria proiettiva
+283	protesi
+284	prosthodontia
+285	proteomica
+286	proto-archeologia
+287	protostoria
+288	protozoologia
+289	prossemica
+290	psefologia
+291	psichiatria
+292	psicodinamica
+293	psychologia
+294	psychometria
+295	psicofarmacologia
+296	psicofisica
+297	psicoterapia
+298	matematica pura
+299	quadratica
+300	elettrodinamica quantistica
+301	teoria quantistica dei campi
+302	meccanica quantistica
+303	fisica quantistica
+304	radioastronomia
+305	radiobiologia
+306	radiochimica
+307	radiologia
+308	Realpolitik
+309	anatomia regionale
+310	reologia
+311	reumatologia
+312	otorinolaringoiatria
+313	ritualismo
+314	scienza
+315	sismologia
+316	semantica
+317	sierologia
+318	teoria degli insiemi
+319	selvicoltura
+320	antropologia sociale
+321	psicologia sociale
+322	scienze sociali
+323	sociobiologia
+324	sociolinguistica
+325	sociologia
+326	fisica solare
+327	geometria solida
+328	fisica dello stato solido
+329	medicina spaziale
+330	speleologia
+331	geometria sferica
+332	medicina dello sport
+333	correlazione spuria
+334	statica
+335	meccanica statistica
+336	statistica
+337	scienze strategiche
+338	stratigrafia
+339	genomica strutturale
+340	strutturalismo
+341	sumerologia
+342	chirurgia
+343	linguistica sincronica
+344	sintassi
+345	sistematica
+346	tassonomia
+347	teratologia
+348	tanatologia
+349	terapeutica
+350	termoionica
+351	termochimica
+352	termodinamica
+353	medicina toracica
+354	topografia
+355	topologia
+356	tossicologia
+357	traumatologia
+358	triangolazione
+359	trigonometria
+360	medicina tropicale
+361	urologia
+362	algebra vettoriale
+363	paleontologia vertebrale
+364	medicina veterinaria
+365	virologia
+366	zoologia
+367	olografia
+368	psicolinguistica
+369	idrografia
+370	vulcanologia
+371	concologia
+372	geometria ellittica
+373	osteologia
+374	riflessologia
+375	metallurgia delle polveri
+376	algologia
+377	macroeconomia
+378	cromodinamica quantistica
+379	teoria di galois
+380	fonetica
+381	nutrizione
+382	grammatica generativa
+383	elaborazione del linguaggio naturale
+384	geostrategia
+385	trigonometria sferica
+386	teoria della probabilità
+387	epigrafia
+388	biorisanamento
+389	primatologia
+390	mitologia
+391	ornitologia
+392	sociometria
+393	traduzione automatica
+394	istologia
+395	dermatologia

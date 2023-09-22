@@ -1,0 +1,448 @@
+0	sistemi elettromeccanici
+1	biologico e fisico
+2	storia delle religioni orientali
+3	antropologia linguistica
+4	metafisica
+5	religione
+6	semantica
+7	psicologia
+8	immunopatologia
+9	fisiologia comparativa
+10	letteratura portoghese
+11	termodinamica
+12	linguaggi di programmazione
+13	navigazione, guida, controllo e dinamica
+14	tecnologia della comunicazione e dei nuovi media
+15	linguistica spagnola
+16	estetica
+17	filosofia della mente
+18	nanotecnologia
+19	linguistica francese
+20	filosofia della scienza
+21	progettazione assistita da calcolatore e da elaboratore
+22	ecologia microbiana
+23	teoria, conoscenza e scienza
+24	immuniprofilassi
+25	ingegneria dei sistemi
+26	controllo di processo e sistemi
+27	logica e fondamenti della matematica
+28	botanica
+29	sistemi do memorizzazione di dati
+30	sistemi e fisiologia integrativa
+31	matematica
+32	acquacoltura e pesca
+33	acustica, dinamica, e controllo
+34	linguistica antropologica
+35	storia antica
+36	pragmatica
+37	glaciologia
+38	scienze agronomiche
+39	neuroscienza cellulare
+40	ingegneria del software
+41	comunicazione organizzativa
+42	biomateriali
+43	sismologia
+44	biologia del cancro
+45	epistemologia
+46	storia
+47	dinamica non lineare
+48	fisica atomica, molecolare e ottica
+49	teoria degli insiemi
+50	storia di genere
+51	chimica
+52	ingegneria fisica
+53	cosmologia
+54	chimica ambientale
+55	batteriologia
+56	ingegneria ambientale
+57	statistiche e probabilità
+58	circuiti
+59	psicologia dei movimenti
+60	acquisizione della seconda lingua
+61	trattamento del segnale
+62	paleontologia
+63	antropologia culturale
+64	farmaco e sanità
+65	composizione
+66	clima
+67	elettrotecnica
+68	analisi armonica e rappresentazione
+69	popolazione biologica
+70	ingegneria industriale
+71	studi biblici
+72	fisica dei minerali
+73	orticoltura
+74	metallurgia
+75	cosmochimica
+76	neuroscienze computazionali
+77	astrodinamica
+78	comunicazione sanitaria
+79	farmacochimica
+80	criminologia
+81	scienza delle membrane
+82	storia militare
+83	fisica della materia condensata
+84	fluidi complessi
+85	chimica medicinale
+86	nutrizione biochimica
+87	teoria economica
+88	paleobiologia
+89	economia
+90	biostatistica
+91	demografia, popolazione, e ecologia
+92	storia della filosofia
+93	patologia vegetale
+94	ingegneria del petrolio
+95	biogeochimica
+96	sociologia
+97	fenomeni di trasporto
+98	analisi
+99	ricerca operativa
+100	comunicazione digitale
+101	immaginografia biomedica ed ottica biomedicale
+102	geochimica
+103	diversità linguistica
+104	musica
+105	sistemi dinamici
+106	politica americana
+107	comunicazione
+108	microbiologia alimentare
+109	nutrizione internazionale
+110	cultura popolare americana
+111	scienza dei polimeri
+112	linguistica computazionale
+113	trasformazione alimentare
+114	Ingegneria strutturale
+115	metodologie
+116	dinamica applicata
+117	studi urbani
+118	processi fisici
+119	scienze dell'atmosfera
+120	ecologia acquatica
+121	scienze fisiche
+122	trasmissione del calore e combustione
+123	musicologia
+124	ingegneria aerospaziale
+125	dinamica dei fluidi
+126	lingue e società latinoamericane
+127	crescita e sviluppo
+128	storia europea
+129	meteorologia
+130	sistema operativo
+131	tribologia
+132	antropologia sociale
+133	storia sociale
+134	studi americani
+135	equazione differenziale alle derivate parziali
+136	letteratura inglese, arcipelago britannico
+137	linguistica del discorso
+138	lingue e società dell'Asia meridionale e sud-orientale
+139	genetica vegetale
+140	genetica molecolare
+141	strutture e materiali
+142	psicologia della salute
+143	letteratura inglese, America del Nord
+144	meccanica dei fluidi
+145	fonetica
+146	sociologia regionale
+147	storia medievale
+148	probabilità
+149	scienze ambientali
+150	neurobiologia del comportamento
+151	fisiologia evolutiva
+152	epidemiologia nutrizionale
+153	metodologia statistica
+154	ingegneria informatica
+155	ergonomia
+156	economia internazionale
+157	scienza dei materiali
+158	ricerca dell'acqua dolce
+159	ingegneria bioelettrica e neuroingegneria
+160	psicologia sociale
+161	storia dell'arte e dell'architettura statunitense
+162	pensiero religioso
+163	psicologia dello sviluppo
+164	letteratura francese e francofona
+165	linguistica
+166	drammaturgia
+167	storea dell'arte contemporanea
+168	fabbricazione
+169	documentazione delle lingue
+170	ottica
+171	biologia dello sviluppo
+172	ingegneria marittima
+173	matematica applicata
+174	biologia computazionale
+175	botanica
+176	disuguaglianza e stratificazione
+177	storia della scienza, tecnologia, e medicina
+178	allevamente vegetale
+179	meccanica quantistica
+180	studi delle prestazioni
+181	lingua e letteratura tedesca
+182	fisiologia microbica
+183	geometria e topologia
+184	neuroscienze cognitive
+185	storia delle religioni occidentali
+186	virologia
+187	biomedico
+188	scienza politica
+189	controllo del traffico aereo
+190	sistemi dinamici
+191	elettronica digitale
+192	analisi numerica
+193	trasporto biologico
+194	filosofia
+195	pubbliche relazioni/pubblicità
+196	sociologia agricola
+197	storia degli Stati Uniti
+198	tossicologia
+199	statistiche applicate
+200	teologia
+201	elettromagnetismo
+202	politica e sviluppo sociale
+203	natura e relazioni all'interno della società
+204	teatro
+205	studi radiotelevisivi
+206	tecnologia della carta e della pasta per carta
+207	studi cinematografici americani
+208	fonologia
+209	tettonica e struttura
+210	etica
+211	ecologia terrestre
+212	mondo islamico/storia del Vicino Oriente
+213	teoria dei numeri
+214	galassie esterne
+215	razza ed etnia
+216	elettrico ed elettronica
+217	scienza alimentare
+218	meccanica applicata
+219	comunicazione interpersonale/in piccoli gruppi
+220	letteratura drammatica, critica e teoria
+221	letteratura in inglese, America del nord, etnica e minoranza
+222	relazioni internazionali
+223	epidemiologia
+224	logica e fondamenta
+225	geografia fisica e ambientale
+226	storia delle donne
+227	affari pubblici
+228	deontologia e filosofia politica
+229	economia agraria e delle risorse
+230	microbiologia
+231	sistemi e ingegneria integrata
+232	descrizione della lingua
+233	letteratura spagnola
+234	ecologia comportamentale
+235	astrofisica e astronomia
+236	psicologia di comunità
+237	farmacologia
+238	ingegneria biologica
+239	scienza delle finanze
+240	modelli e metodi
+241	chimica degli alimenti
+242	genomica
+243	linguistiche tedesche
+244	chimica dei polimeri
+245	famiglia, vita, e società
+246	teoria politica
+247	economia del lavoro
+248	agronomia
+249	storia culturale
+250	cognizione e percezione
+251	dinamica/sistemi dinamici
+252	particelle elementari e teoria dei campi e delle stringhe
+253	linguistiche applicate
+254	sanità ambientale
+255	ingegneria fisica
+256	sistemi informativi
+257	cultura materiale americana
+258	politica pubblica
+259	scienze forestali
+260	neuroscienze dello sviluppo
+261	retorica e composizione
+262	nutrizione della comunità
+263	lingua e letteratura francese e francofona
+264	econometria
+265	biotecnologie alimentari
+266	biofisica
+267	controllo sociale, diritto, criminalità e devianza
+268	astronomia e astrofisica
+269	materiali strutturali
+270	chinesiologia
+271	galenica
+272	lavoro, economia e organizzazioni
+273	psicologia sociale ed interazione
+274	ingegneria biomeccanica
+275	ingegneria e gestione della costruzione
+276	storia dell' Africa
+277	endocrinologia
+278	geofisica
+279	biologia strutturale
+280	fabbricazione di dispositivi a semiconduttore ed elettrici
+281	scienze del suolo
+282	scienze
+283	storia intellettuale
+284	comunicazione di massa
+285	genere, razza, sessualità, ed etnicità in comunicazione
+286	immunologia
+287	scienze della vita
+288	lingua e letteratura
+289	nutrizione umana
+290	elettricità ed energia
+291	nutrizione comparata
+292	spazio e ambiente
+293	reti
+294	ingegneria meccanica
+295	psicologia clinica
+296	greco bizantino e moderno
+297	teorie statistische
+298	equazioni differenziali ordinarie
+299	economia industriale
+300	chimica dei materiali
+301	sintassi
+302	fotonica
+303	storia della diplomazia
+304	fisiologia dell' allenamento
+305	lingue antiche
+306	ingegneria civile
+307	archeologico
+308	studi giornalistici
+309	personalità e contesti sociali
+310	ingegneria molecolare, cellulare, e tissutale
+311	cosmologia, relatività, e gravità
+312	geometria algebrica
+313	strumentazione di controllo
+314	comunicazione internazionale e interculturale
+315	ingegneria
+316	scienze della Terra
+317	ottimaizzazione della progettazione multidisciplinare
+318	ecologica evoluzionistica
+319	oceanografia
+320	neuroscienze
+321	scienze lattiero casearie
+322	ingegneria biochimica e biomolecolare
+323	geografia
+324	arte e archittetura antiche, medievali, rinascimentali e barocche
+325	politica comparata
+326	amministrazione pubblica
+327	vulcanologia
+328	compilatori
+329	letteratura comparata
+330	acquisizione della prima lingua
+331	storia dell' America latina
+332	fisiologia cellulare
+333	biologia molecolare
+334	lingue e società dell' Asia orientale
+335	studi critici e culturali
+336	storia del teatro
+337	zoologia
+338	ingegneria meccanica
+339	sociolinguistica
+340	genere e sessualità
+341	dinamiche non lineari
+342	biologia cellulare
+343	ingegneria chimica
+344	letteratura inglese, anglofona
+345	filosofia continentale
+346	economia comportamentale
+347	gestione forestale
+348	psicologia del lavoro
+349	discipline umanistiche
+350	lingue e civiltà dell' Europa
+351	zoologia
+352	lingue e civiltà slaviche
+353	storia della critica e della teoria
+354	veicoli spaziali
+355	lingue e civiltà africane
+356	controllo automatico
+357	biochimica
+358	biologia forestica
+359	sociologia delle culture
+360	avicoltura scientifica
+361	intelligenza artificiale
+362	biometria
+363	psicolinguistica
+364	il sole e il sistema solare
+365	sanità pubblica
+366	sistemi hardware
+367	fisica
+368	microbiologia patogenica
+369	letteratura latinoamericana
+370	storia dell' arte moderna e dell' archittetura
+371	fisiologia
+372	materiale ceramico
+373	polimero e materiali organici
+374	studi etnici
+375	algebra
+376	collegamento in rete
+377	filosofia del linguaggio
+378	biomeccanica
+379	architettura dei calcolatori
+380	Linge  e civiltà del Vicino Oriente
+381	neuroscienza molecolare
+382	la matematica discreta e combinatoria
+383	filosofia della religione
+384	immunologia delle malattie infettive
+385	genetica
+386	nutrizione molecolare
+387	robotica
+388	selvicoltura
+389	linguistica storica e comparativa
+390	fisiologia molecolare
+391	antropologia
+392	ecologia microbica
+393	archeologia classica e storia dell' arte
+394	informatica
+395	resistenza meccanica
+396	geologia
+397	geografia umana
+398	controllo motorio
+399	storia dell' Asia
+400	algoritmi
+401	macroeconomia
+402	tipologia linguistica
+403	neurolinguistica
+404	aerodinamica
+405	filosofia femminista
+406	letteratura tedesca
+407	chimica fysica
+408	scienze sociali
+409	storia dell' arte e architettura orientale
+410	chimica inorganica
+411	veicoli aeronautici
+412	nutrizione
+413	femminista, genere e studi di sessualità
+414	chimica analitica
+415	le stelle, il mezzo interstellare e la galassia
+416	psicologia cognitiva
+417	etno-musicologia
+418	sistemi e communicazione
+419	storia politica
+420	chimica organica
+421	storia della religione
+422	sistemi energetici
+423	botanica
+424	patologia
+425	nutrizione clinica
+426	linguistica e filologia indoeuropea
+427	ingegneria geotecnica
+428	filosofia antica
+429	teoria musicale
+430	propulsione e energia
+431	influenza sociale e comunicazione politica
+432	fisica nucleare
+433	grafica
+434	ecologia
+435	nutrizione genetica
+436	psicobiologia
+437	parassitologia
+438	storia economica
+439	morfologia
+440	leteratura classica e filologia
+441	semiconduttore e materiali ottici
+442	biofisica e chimica fisica
+443	sistema informativo territoriale
+444	informatica scientifica
+445	interfacce uomo-macchina
+446	neurosicenza dei sistemi
+447	entomologia
