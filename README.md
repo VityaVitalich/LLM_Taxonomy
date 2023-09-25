@@ -1,4 +1,5 @@
-# NLP-DL-Project-hypo-to-hyper
+# Taxonomy with LLM
+
 
 
 ### Wordnets
