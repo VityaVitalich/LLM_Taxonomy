@@ -2,9 +2,8 @@ from dataclasses import dataclass, field
 import torch
 from typing import Dict, Any
 import os
-SAVING_DIR = os.environ.get('SAVING_DIR')
 
-
+SAVING_DIR = os.environ.get("SAVING_DIR")
 
 
 @dataclass

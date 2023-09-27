@@ -7,10 +7,12 @@ import yaml
 with open(r"params.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
-SAVING_DIR = os.environ.get('SAVING_DIR')
-HF_TOKEN = os.environ.get('HF_TOKEN')
+SAVING_DIR = os.environ.get("SAVING_DIR")
+HF_TOKEN = os.environ.get("HF_TOKEN")
 os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
 os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
+
+print(SAVING_DIR)
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
@@ -157,7 +159,7 @@ if __name__ == "__main__":
         del checkpoint
         torch.cuda.empty_cache()
 
-        #loaded_batch = int(load_name.split("=")[-1].replace(".pth", ""))
+        # loaded_batch = int(load_name.split("=")[-1].replace(".pth", ""))
 
     train_dataset, test_dataset, train_loader, val_loader = init_data(tokenizer, config)
 

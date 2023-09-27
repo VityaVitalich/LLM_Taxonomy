@@ -1,0 +1,14 @@
+SEED:
+  - 42
+CUDA_VISIBLE_DEVICES:
+  - 1
+BATCH_SIZE:
+  - 64
+STRATEGY:
+  - "ppl_top_collector"
+TOP_K:
+  - 5
+NAME:
+  - "first_test_top10"
+MODEL_CHECKPOINT:
+  - "VityaVitalich/Llama2-7b-hf-4b-lora-wnet"
