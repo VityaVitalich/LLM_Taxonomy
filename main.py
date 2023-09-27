@@ -7,12 +7,15 @@ import yaml
 with open(r"params.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
+SAVING_DIR = os.environ.get('SAVING_DIR')
+HF_TOKEN = os.environ.get('HF_TOKEN')
+os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
+os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
-os.environ["TRANSFORMERS_CACHE"] = "/raid/rabikov/hf_cache/"
-os.environ["HF_HOME"] = "/raid/rabikov/hf_cache/"
+
 import sys
 import torch
 import pandas as pd
@@ -82,13 +85,13 @@ if __name__ == "__main__":
     config.device = device
     config.using_peft = params_list["USING_PEFT"][0]
     config.model_type = params_list["MODEL_TYPE"][0]  # Auto or Llama
-    config.wandb_log_dir = "/raid/rabikov/wandb/"
+    config.wandb_log_dir = SAVING_DIR + "wandb/"
     config.model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     config.exp_name = (
         config.model_checkpoint.replace("/", "-") + params_list["DATA_PREPROC_STYLE"][0]
     )
     config.saving_path = (
-        "/raid/rabikov/model_checkpoints/" + config.exp_name + "_custom_multilang"
+        SAVING_DIR + "model_checkpoints/" + config.exp_name + "_custom_multilang"
     )
     config.log_pred_every = params_list["LOG_PRED_EVERY"][0]
 
@@ -109,13 +112,13 @@ if __name__ == "__main__":
     model = model_type.from_pretrained(
         config.model_checkpoint,
         device_map="auto",
-        use_auth_token="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",
+        use_auth_token=HF_TOKEN,
         **extra_model_params
     )
 
     tokenizer = tokenizer_type.from_pretrained(
         config.model_checkpoint,
-        use_auth_token="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",
+        use_auth_token=HF_TOKEN,
         padding_side="left",
     )
 
@@ -147,14 +150,14 @@ if __name__ == "__main__":
     load_name = params_list["LOAD_PATH"][0]
     loaded_batch = None
     if load_name:
-        load_path = "/raid/rabikov/model_checkpoints/" + load_name
+        load_path = SAVING_DIR + "model_checkpoints/" + load_name
         print("loading model from path " + load_name)
         checkpoint = torch.load(load_path, map_location="cpu")
         model.load_state_dict(checkpoint["model"])
         del checkpoint
         torch.cuda.empty_cache()
 
-        loaded_batch = int(load_name.split("=")[-1].replace(".pth", ""))
+        #loaded_batch = int(load_name.split("=")[-1].replace(".pth", ""))
 
     train_dataset, test_dataset, train_loader, val_loader = init_data(tokenizer, config)
 

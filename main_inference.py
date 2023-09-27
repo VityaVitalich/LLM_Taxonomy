@@ -11,8 +11,11 @@ with open(r"params_inference.yml") as file:
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
-os.environ["TRANSFORMERS_CACHE"] = "/raid/rabikov/hf_cache/"
-os.environ["HF_HOME"] = "/raid/rabikov/hf_cache/"
+
+SAVING_DIR = os.environ.get('SAVING_DIR')
+HF_TOKEN = os.environ.get('HF_TOKEN')
+os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
+os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 import sys
 import torch
 import pandas as pd
@@ -82,7 +85,7 @@ if __name__ == "__main__":
     config.device = device
     config.using_peft = params_list["USING_PEFT"][0]
     config.model_type = params_list["MODEL_TYPE"][0]  # Auto or Llama
-    config.wandb_log_dir = "/raid/rabikov/wandb/"
+    config.wandb_log_dir = SAVING_DIR + "wandb/"
     config.model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     config.exp_name = (
         config.model_checkpoint.replace("/", "-")
@@ -92,7 +95,7 @@ if __name__ == "__main__":
     )
 
     config.saving_path = (
-        "/raid/rabikov/model_checkpoints/"
+        SAVING_DIR + "model_checkpoints/"
         + config.exp_name
         + "_custom_multilang_"
         + params_list["STRATEGY"][0]
@@ -118,11 +121,11 @@ if __name__ == "__main__":
         }
 
     if params_list["PREV_PREDICT"][0]:
-        prev_predict = "/raid/rabikov/model_outputs/" + params_list["PREV_PREDICT"][0]
+        prev_predict = SAVING_DIR + "model_outputs/" + params_list["PREV_PREDICT"][0]
     else:
         prev_predict = None
 
-    load_path = "/raid/rabikov/model_checkpoints/" + params_list["LOAD_PATH"][0]
+    load_path = SAVING_DIR + "model_checkpoints/" + params_list["LOAD_PATH"][0]
 
     if config.model_type == "Auto":
         model_type = AutoModelForCausalLM
@@ -141,14 +144,14 @@ if __name__ == "__main__":
     model = model_type.from_pretrained(
         config.model_checkpoint,
         device_map="auto",
-        use_auth_token="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",
+        use_auth_token=HF_TOKEN,
         **extra_model_params
     )
 
     tokenizer = tokenizer_type.from_pretrained(
         config.model_checkpoint,
         padding_side="left",
-        use_auth_token="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",
+        use_auth_token=HF_TOKEN,
     )
 
     if params_list["QLORA"][0] == True:
