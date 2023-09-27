@@ -1,0 +1,124 @@
+0	cindinica	geoscienze
+1	geografia	geoscienze
+2	cartografia	geografia
+3	geografia culturale	geografia
+4	geografia economica	geografia
+5	geografia politica	geografia
+6	geografia regionale	geografia
+7	geografia storica	geografia
+8	geografia umana	geografia
+9	sistema di informazione geografica	geografia
+10	geologia	geoscienze
+11	geochimica	geologia
+12	geofisica	geologia
+13	geodesia	geofisica
+14	idrogeologia	geologia
+15	mineralogia	geologia
+16	petrologia	geologia
+17	sedimentologia	geologia
+18	sismologia	geologia
+19	vulcanologia	geologia
+20	geomorfologia	geoscienze
+21	idrologia	geoscienze
+22	meteorologia	geoscienze
+23	climatologia	meteorologia
+24	bioclimatologia	climatologia
+25	oceanografia	geoscienze
+26	scienza del terreno	geoscienze
+27	analisi del terreno	scienza del terreno
+28	chimica del terreno	scienza del terreno
+29	tipo di terreno	scienza del terreno
+30	agronomia	scienze applicate
+31	chimica industriale	scienze applicate
+32	cibernetica	scienze applicate
+33	elettrotecnica	scienze applicate
+34	matematica	scienze applicate
+35	biometria	matematica
+36	metrologia	scienze applicate
+37	scienze dell'informazione	scienze applicate
+38	biologia	scienze biologiche
+39	botanica	biologia
+40	classificazione delle piante	botanica
+41	cellula staminale	biologia
+42	citologia	biologia
+43	embrione e feto	biologia
+44	genetica	biologia
+45	DNA	genetica
+46	eugenetica	genetica
+47	istologia	biologia
+48	microrganismo	biologia
+49	neurobiologia	biologia
+50	radiobiologia	biologia
+51	zoologia	biologia
+52	classificazione degli animali	zoologia
+53	ecologia	biologia
+54	farmacologia	biologia
+55	parassitologia	biologia
+56	acustica	scienze fisiche
+57	aerodinamica	scienze fisiche
+58	chimica	scienze fisiche
+59	biochimica	chimica
+60	enzima	biochimica
+61	chimica analitica	chimica
+62	elettrochimica	chimica
+63	fotochimica	chimica
+64	elettronica	scienze fisiche
+65	fisica del plasma	scienze fisiche
+66	fisica laser	scienze fisiche
+67	fisica nucleare	scienze fisiche
+68	atomo	fisica nucleare
+69	particella elementare	fisica nucleare
+70	ottica	scienze fisiche
+71	radiazione ionizzante	scienze fisiche
+72	spettrometria	scienze fisiche
+73	termodinamica	scienze fisiche
+74	astronautica	scienze spaziali
+75	astronomia	scienze spaziali
+76	cosmologia	astronomia
+77	criminologia	scienza del comportamento
+78	psicanalisi	scienza del comportamento
+79	psicologia	scienza del comportamento
+80	personalità	psicologia
+81	sessualità	psicologia
+82	test psicometrico	psicologia
+83	archeologia	scienze sociali
+84	etnologia	scienze sociali
+85	etnografia	etnologia
+86	filosofia	scienze sociali
+87	etica	filosofia
+88	filosofia della scienza	filosofia
+89	linguistica	scienze sociali
+90	lingua viva	linguistica
+91	lingua europea	lingua viva
+92	lingua minoritaria	lingua viva
+93	lingua non europea	lingua viva
+94	lingua regionale	lingua viva
+95	linguaggio	linguistica
+96	bilinguismo	linguaggio
+97	poliglottismo	linguaggio
+98	politica linguistica	linguistica
+99	scienze amministrative	scienze sociali
+100	scienze economiche	scienze sociali
+101	scienze politiche	scienze sociali
+102	geopolitica	scienze politiche
+103	sociologia	scienze sociali
+104	sociologia del lavoro	sociologia
+105	sociologia dell'educazione	sociologia
+106	sociologia politica	sociologia
+107	sociologia rurale	sociologia
+108	sociologia urbana	sociologia
+109	storia	scienze sociali
+110	personalità storica	storia
+111	preistoria	storia
+112	storia antica	storia
+113	storia contemporanea	storia
+114	storia medievale	storia
+115	storia moderna	storia
+116	storia universale	storia
+117	geoscienze	scienze
+118	scienze applicate	scienze
+119	scienze biologiche	scienze
+120	scienze fisiche	scienze
+121	scienze spaziali	scienze
+122	scienza del comportamento	scienze
+123	scienze sociali	scienze

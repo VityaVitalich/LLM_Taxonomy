@@ -1,6 +1,10 @@
 from dataclasses import dataclass, field
 import torch
 from typing import Dict, Any
+import os
+SAVING_DIR = os.environ.get('SAVING_DIR')
+
+
 
 
 @dataclass
@@ -43,10 +47,10 @@ class TaskConfig:
     gold_path: str = "./"
     test_data_path: str = "./"
     test_gold_path: str = "./"
-    saving_path: str = "/raid/rabikov/model_checkpoint/"
+    saving_path: str = SAVING_DIR + "model_checkpoint/"
     using_peft: bool = False
     wandb_log_dir: str = "./"
     model_type: str = "Auto"  # Auto or Llama
-    saving_predictions_path: str = "/raid/rabikov/model_outputs/"
+    saving_predictions_path: str = SAVING_DIR + "model_outputs/"
     log_pred_every: int = 500
     save_every_batch: int = 10000

@@ -1,0 +1,1344 @@
+0	acqua
+1	alimenti
+2	data
+3	porto
+4	supremo
+5	arancia
+6	vino
+7	sale
+8	riso
+9	frutta
+10	zucchero
+11	soldato
+12	seme
+13	caramella
+14	mela
+15	carne
+16	caffè
+17	latte
+18	rucola
+19	birra
+20	vettore
+21	panna
+22	uovo
+23	mais
+24	grano
+25	pane
+26	ciliegia
+27	formaggio
+28	amaro
+29	bacca
+30	miele
+31	uva
+32	menta
+33	menta
+34	salvia
+35	manzo
+36	farina
+37	erbe
+38	pepe
+39	peperone
+40	patatine
+41	torta
+42	limetta
+43	succo
+44	zuppa
+45	distillato
+46	fagiolo
+47	pasticcio
+48	verdura
+49	sugo
+50	patata
+51	pizza
+52	basilico
+53	verdura
+54	noce di cocco
+55	banana
+56	castagna
+57	limone
+58	maiale
+59	fungo
+60	zucca
+61	bevanda
+62	noce
+63	spezia
+64	panificio
+65	lievito
+66	orzo
+67	segale
+68	idromele
+69	fico
+70	pesca
+71	cipolla
+72	rum
+73	frutti di mare
+74	madeleine
+75	rosmarino
+76	intingolo
+77	prugna
+78	pomodoro
+79	senape
+80	soto
+81	gin
+82	cereali
+83	whisky
+84	aglio
+85	salsa
+86	mango
+87	sciroppo
+88	pasta
+89	cannella
+90	brandy
+91	arachide
+92	salsiccia
+93	finanziere
+94	pera
+95	mandorla
+96	cavolo
+97	pisello
+98	pasticceria
+99	aceto
+100	vodka
+101	miglio
+102	pane tostato
+103	zucca
+104	sidro
+105	sherry
+106	ananas
+107	pane dolce
+108	pasta
+109	favo
+110	budino
+111	spaghetti
+112	igname
+113	biscotto
+114	avena
+115	toto
+116	infusione
+117	carota
+118	kiwi
+119	lecca lecca
+120	cracker
+121	cavolo riccio
+122	popcorn
+123	melone
+124	lattuga
+125	sushi
+126	pancake
+127	cetriolo
+128	aneto
+129	noodles
+130	mandarino tangerino
+131	porro
+132	melassa
+133	sugo di carne
+134	parkin
+135	zucca
+136	zuppa d' avena
+137	prezzemolo
+138	fudge
+139	caramello
+140	tofu
+141	torta
+142	spinaci
+143	albicocca
+144	broccolo
+145	grano saraceno
+146	lecca lecca
+147	asparago
+148	melograno
+149	liquore
+150	anacardo
+151	gelato
+152	ketchup
+153	papaia
+154	salato
+155	pompelmo
+156	goody
+157	ciambella
+158	ciambella
+159	avocado
+160	tamarindo
+161	sedano
+162	maionese
+163	timo
+164	gaufre
+165	wafel
+166	bietola
+167	toffee
+168	pecan
+169	brodo
+170	coriandolo
+171	guava
+172	jerky
+173	pita
+174	jeon
+175	farina d' avena
+176	rabarbaro
+177	condimento
+178	sego
+179	cotogno
+180	phở
+181	tortilla
+182	maccheroni
+183	roti
+184	marshmallow
+185	paprica
+186	polenta di mais
+187	goro
+188	rapa
+189	udon
+190	acetosa
+191	latticello
+192	cavolfiore
+193	salame
+194	chutney
+195	cumino
+196	canna da zucchero
+197	bagel
+198	amaranto
+199	muffin
+200	haggis
+201	ravanello
+202	cachi
+203	brezel
+204	gumbo
+205	grits
+206	aji
+207	kix
+208	toffee
+209	carciofo
+210	ribes
+211	farina di mais
+212	gombo
+213	liquirizia
+214	nocciola
+215	cupcake
+216	cupcake
+217	crescione
+218	pistacchio
+219	salsa di soia
+220	puran poli
+221	dashi
+222	sorbetto
+223	olio d' oliva
+224	penne
+225	sambal
+226	yogurt
+227	origano
+228	kasha
+229	dosa
+230	cicoria
+231	suet
+232	pitha
+233	focaccia azzima
+234	pastinaca
+235	matzah
+236	dragoncello
+237	barbabietola
+238	castella
+239	gomma da masticare
+240	borragine
+241	litchi
+242	vermut
+243	boršč
+244	quinoa
+245	ghiacciolo
+246	erba di grano
+247	carney's
+248	erba cipollina
+249	torrone
+250	kissel
+251	bisque
+252	latte di cocco
+253	pesto
+254	maggiorana
+255	patata dolce
+256	ravioli
+257	anice
+258	schnapps
+259	guacamole
+260	tahina
+261	rambutan
+262	melanzana
+263	scalogno
+264	gulasch
+265	marinatura
+266	mangostana
+267	gemelli
+268	piti
+269	tempeh
+270	vino rosso
+271	malanga
+272	granola
+273	zuppa
+274	bratwurst
+275	babka
+276	fico d' India
+277	challah
+278	lanterne
+279	calas
+280	eggnog
+281	sorbetto
+282	gallette
+283	panna
+284	hot dog
+285	hot dog
+286	ding dong
+287	idli
+288	pulla
+289	crespella
+290	laksa
+291	torta
+292	gazpacho
+293	vino bianco
+294	physalis
+295	paio
+296	rutabaga
+297	panna acida
+298	lipie
+299	nespolo del Giappone
+300	brioche
+301	Weetabix
+302	jelly bean
+303	soufflé
+304	kulen pita
+305	olio vegetale
+306	cereali da colazione
+307	longan
+308	Stollen
+309	harissa
+310	kalach
+311	sciroppo di mais
+312	rasam
+313	bollo
+314	focaccia
+315	gumdrop
+316	mamey
+317	salsa chili
+318	vino spumante
+319	bicarbonato
+320	kumquat
+321	latte condensato
+322	juk
+323	lamian
+324	lievito chimico
+325	krakowska
+326	chapati
+327	acqua in bottiglia
+328	bevanda energetica
+329	empanada
+330	fougasse
+331	formaggio cremoso
+332	sangria
+333	barretta di cioccolato
+334	taftan
+335	crepe olandese
+336	pan di spagna
+337	nettarine
+338	kuchen
+339	contorno
+340	ragù
+341	zapote
+342	bhakri
+343	spätzle
+344	baati
+345	amandine
+346	olio di cocco
+347	pozol
+348	frutta secca
+349	barretta 
+350	tiramisù
+351	consommé
+352	pasta di fagioli
+353	brodo di pollo
+354	paska
+355	mantou
+356	knipp
+357	concentrato di pomodoro
+358	minestrone
+359	zuppa di pasta
+360	annona
+361	salsa di pesce
+362	mortadella
+363	pecel
+364	foccacina
+365	bialy
+366	salsefrica
+367	fusilli
+368	salsa barbecue
+369	Olio di semi di sesamo
+370	ricotta
+371	acqua gassata
+372	cono gelato
+373	okonomiyaki
+374	diot
+375	tagliatelle
+376	longaniza
+377	crema ganache
+378	hasty pudding
+379	leberwurst
+380	cavolo rapa
+381	tortellini
+382	cotoletta di maiale
+383	mămăligă
+384	ciabatta
+385	piki
+386	jicama
+387	torta di cioccolata
+388	grissino
+389	latte di soia
+390	buccellato
+391	torta nuziale
+392	aioli
+393	simit
+394	sancocho
+395	salsa Worcester
+396	ganjang
+397	teacake
+398	semla
+399	zopf
+400	cioccolata calda
+401	cocco affettato
+402	cardo
+403	thukpa
+404	farfel
+405	thukpa
+406	condimento
+407	ajiaco
+408	torrone
+409	kutia
+410	olio alimentare
+411	tesori nascosti
+412	pasta istantanea
+413	crostino
+414	mapo
+415	torta a strati
+416	latticini
+417	capellini
+418	caldo verde
+419	filone
+420	carambola
+421	dolcificante artificiale
+422	pane nero
+423	vichyssoise
+424	spaghetti di riso
+425	šči
+426	salsa di arachidi
+427	chimichurri
+428	boerewors
+429	frutto della passione
+430	pandoro
+431	vermicelli di riso
+432	sanguinaccio
+433	torta di avena
+434	pane bianco
+435	tamarillo
+436	parotta
+437	carne fresca
+438	andouille
+439	bastoncino di zucchero
+440	zuppa
+441	ladurée
+442	torta Sacher
+443	antipasto
+444	zuppa di miso
+445	antidoro
+446	pathiri
+447	bami
+448	solyanka
+449	feijoa
+450	močnik
+451	savoiardi
+452	fritelli
+453	fette biscottate
+454	rice krispies
+455	salsa tucupi
+456	bebinca
+457	pinca
+458	rigatoni
+459	linguine
+460	sinigang
+461	antipasto
+462	tourin
+463	pici
+464	latte condensato
+465	kyselo
+466	rugbrød
+467	ptitim
+468	sucuk
+469	pasta istantanea
+470	quisp
+471	alloro
+472	bolillo
+473	baumkuchen
+474	cozonac
+475	semifreddo
+476	ponzu
+477	tapenade
+478	vino di riso
+479	coulis
+480	olio di semi di soia
+481	peanut butter cups
+482	æbleskiver
+483	semi di sesamo
+484	farfalle
+485	crostata
+486	kishka
+487	taiyaki
+488	patacón
+489	butifarra
+490	pane integrale
+491	vino da dessert
+492	zuppa di piselli
+493	naengguk
+494	chorba
+495	caffè istantaneo
+496	peperoncini in polvere
+497	macadamia
+498	crosta
+499	anpan
+500	manchet
+501	ucha
+502	saucisson
+503	shreddies
+504	olio di semi di arachide
+505	tembleque
+506	salsa marrone
+507	figgy duff
+508	pesarattu
+509	okroshka
+510	rouille
+511	bresaola
+512	salsa di mela
+513	penia
+514	citronella
+515	salca besciamella
+516	latte in polvere
+517	mettwurst
+518	zuppa acida
+519	lahore
+520	estratto di vaniglia
+521	arracacha
+522	czernina
+523	mafé
+524	murtabak
+525	merguez
+526	macedonia
+527	sobrassada
+528	pistou
+529	salsa di ostriche
+530	serabi
+531	cavatelli
+532	corn flakes
+533	boxty
+534	zuppa di tartaruga
+535	pudding natalizio
+536	filetto di maiale
+537	folar
+538	chocos
+539	cervelat
+540	kalács
+541	panada
+542	kitcha
+543	ficelle
+544	Weißwurst 
+545	salsa spagnola
+546	oliebol
+547	pastina
+548	andouillette
+549	çörek
+550	tortelloni
+551	cellophane noodles
+552	misua
+553	oatibix
+554	malapua
+555	rawon
+556	blini
+557	acqua tonica
+558	salsa tartara
+559	cannelloni
+560	pinolo
+561	mustamakkara
+562	cioccolate menta
+563	frutti di mare freschi.
+564	panforte
+565	polvere di aglio
+566	chistorra
+567	granula
+568	pane integrale
+569	hotteok
+570	cheez whiz
+571	vasilopita
+572	timbits
+573	sugo
+574	frutto del drago
+575	batchoy
+576	torta di carote
+577	fuet
+578	radici di zenzero
+579	yaki udon
+580	beef noodle soup
+581	olio di canola
+582	konro
+583	pastiera
+584	syrniki
+585	pane fritto
+586	barmbrack
+587	zoni
+588	manwich
+589	crusca con uvette
+590	garbure
+591	grano macinato
+592	romesco
+593	laufabrauð
+594	landjäger
+595	lucanica
+596	formaggio spalmabile
+597	seme di girasole
+598	bockwurst
+599	latte di mandorla
+600	pogača
+601	kaeng som
+602	castagna d' acqua
+603	panino da hot dog
+604	noce del Brasile
+605	currant bun
+606	tortilla di mais
+607	imoni
+608	carne congelata
+609	zuppa di pomodoro
+610	rassol'nik
+611	korovai
+612	rookworst
+613	pandebono
+614	atemoya
+615	Frosties
+616	basbousa
+617	panela
+618	tarte tatin
+619	falukorv
+620	pastirma
+621	seme di girasole
+622	tlacoyo
+623	buchteln
+624	manzo di Kobe
+625	teewurst
+626	moronga
+627	tom yam
+628	pound cake
+629	moambe
+630	costine di maiale
+631	crema di mais
+632	oille
+633	bucatini
+634	orecchiette
+635	rotini
+636	kommissbrot
+637	trdlo
+638	budino alla crema
+639	harira
+640	sujebi
+641	salsa avgolemono
+642	pambazo
+643	rotelle
+644	salsa satay
+645	vlaai
+646	ajoblanco
+647	noce di cola
+648	sambar
+649	cavolini di Bruxelles
+650	kaszanka
+651	acini di pepe
+652	extrawurst
+653	alheira
+654	seme di finocchio
+655	kugelis
+656	champorado
+657	maiale salata
+658	rúgbrauð
+659	koeksister
+660	coffee cake
+661	mang tomas
+662	spaghetti cinesi
+663	coffee cake
+664	ostia
+665	mulligatawny
+666	strozzapreti
+667	salsa alla menta
+668	budino di Natale
+669	trenette
+670	salsa hogao
+671	chocapic
+672	torta degli angeli
+673	coney island hot dog
+674	bak kut teh
+675	olio di semi di mais
+676	marraqueta
+677	cece
+678	kufta
+679	torta di frutta
+680	phitti
+681	colorante alimentare
+682	bakarkhani
+683	rượu nếp
+684	yogurt gelato
+685	salsa rosa
+686	zuppa di zucca
+687	nagasari
+688	lekach
+689	toast alla francese
+690	pane croccante
+691	fanesca
+692	ribollita
+693	gamjatang
+694	babaco
+695	jeonbokjuk
+696	vastedda
+697	mock turtle
+698	salsa di mirtilli
+699	spekkoek
+700	paški baškotin
+701	cudighi
+702	foglie d' ulivo
+703	zuppa di mais
+704	torta red velvet
+705	radice di loto
+706	cheese puffs
+707	zuppa di sangue
+708	pane cubano
+709	bhatura
+710	escudella i carn d' olla
+711	topinambur
+712	maghiritsa
+713	special k
+714	isterband
+715	kesme
+716	sufganiyot
+717	sugar puffs
+718	ciambellone
+719	burro di mele
+720	bacello di vaniglia
+721	torta con semi di sesamo
+722	agrodolce
+723	sata andagi
+724	gajar ka halwa
+725	bologna sausage
+726	dacquoise
+727	snack cake
+728	zuppa di cipolla
+729	salsa per bistecca
+730	briciola
+731	pain au chocolat
+732	matnakash
+733	torta alla monferrina
+734	cipolla in polvere
+735	zuppa di acetosa
+736	malawach
+737	manzo di Kobe
+738	suisse dolce
+739	pane tandoori
+740	zosui
+741	jagdwurst
+742	chiffon cake
+743	balep korkun
+744	salsa di rafano
+745	moin moin
+746	carbonade flamande
+747	pane alla banana
+748	ajdov kruh
+749	sfenj
+750	salsa bernese
+751	salume
+752	corn dog
+753	tony's turboz
+754	bratwurst
+755	svartsoppa
+756	golden nuggets
+757	bigoli
+758	pane di Pecica
+759	mela cannella
+760	tripoline
+761	salsa al curry
+762	ontbijtkoek
+763	salsa lyonnaise
+764	bregenwurst
+765	bánh bó
+766	barm cake
+767	uirō
+768	empal gentong
+769	pane d' orzo
+770	corzetti
+771	pane veloce
+772	zuppa all' uovo
+773	pain de mie
+774	miguelitos
+775	rumali roti
+776	pain aux raisins
+777	appam
+778	mollette
+779	kongguksu
+780	manjar branco
+781	hochzeitssuppe
+782	xab momo
+783	torta di carne
+784	crempog
+785	pizza al taglio
+786	panbrioche
+787	salsa tkemali
+788	garganelli
+789	šakotis
+790	pane tapalapa
+791	ga'at
+792	meat patty
+793	salsa beurre blanc
+794	pasta wonton
+795	jatjuk
+796	budino al pistacchio
+797	sugo pizza
+798	tortilla de rescoldo
+799	torta tedesca al cioccolato
+800	flatbrød
+801	salsiccia a colazione
+802	bún bò huế
+803	crunchy nut
+804	potatiskorv
+805	latto di riso
+806	tacacá
+807	kalguksu
+808	crispy critters
+809	boston cream doughnut
+810	ingrediente
+811	croxetti
+812	ciauscolo
+813	ketchup al curry
+814	tortel di patate
+815	michetta
+816	babi panggang
+817	cabanossi
+818	cullen skink
+819	molfetta
+820	torta di natale
+821	greenwich pizza
+822	gastrique
+823	torta al burro
+824	pølser
+825	brioche speziato
+826	zuppa del canavese
+827	budino di tapioca
+828	salsiccia estate
+829	torta del principe reggente
+830	gomguk
+831	pane agliato
+832	pluot
+833	suchki
+834	salsa veloutè
+835	porra antequerana
+836	changua
+837	marmellata di latte
+838	honey smacks
+839	colaci
+840	gamjajeon
+841	bika ambon
+842	kapusniak
+843	phu quoc
+844	scott's porage oats
+845	ciambella con panna acida
+846	bavette
+847	salsa albufera
+848	zapiekanka
+849	soto ayam
+850	budino di sago
+851	torta al cioccolato senza farina
+852	campanelle
+853	zuppa di goulash
+854	pane di altamura
+855	suikerbrood
+856	boston butt
+857	torta tres leches
+858	torta dobos
+859	hot cross bun
+860	zuppa di coda di manzo
+861	vino da cucina
+862	pain d' épices
+863	ittici surgelati
+864	sopa de pata
+865	boston cream pie
+866	budino di formaggio
+867	vánočka
+868	pane dei morti
+869	olio di riso
+870	salsa xo
+871	pane di cocco
+872	torta speziata
+873	ragù bolognese
+874	ripieno
+875	manzo biologico
+876	post toasties
+877	occhi di lupo
+878	khakhra
+879	rosette de lyon
+880	salsiccia di Debrecen
+881	bouneschlupp
+882	ryynimakkara
+883	sally bun
+884	kanelbulle
+885	somebody's mother's chocolate sauce
+886	zuppa alla modenese
+887	torta tre monti
+888	fregula
+889	siskonmakkara
+890	zuppa di cetrioli
+891	miyeok guk
+892	pesaha appam
+893	torta genovese
+894	rømmegrøt
+895	burro nocciola
+896	soba di okinawa
+897	crépinette
+898	casoncelli
+899	hulatang
+900	tian mian jiang
+901	tarta de santiago
+902	colomba pasquale
+903	thalipeeth
+904	fläskkorv
+905	bánh tét
+906	minestra maritata
+907	chili dog
+908	kream krunch
+909	smultring
+910	shahe fen
+911	brown bobby
+912	focaccia alle olive
+913	thenthuk
+914	stoner kebab
+915	pane di scali
+916	pain brié
+917	chowder di mais
+918	noodles d fagioli mung
+919	almojábana
+920	zuppa ezogelin
+921	rupjmaize
+922	pan de yuca
+923	skilandis
+924	potbrood
+925	rubaboo
+926	sugo all' amatriciana
+927	torta caprese
+928	torta madeira
+929	tavuk göğsü
+930	zuppa di fagioli rossi
+931	cotechino di  modena
+932	pane di pasqua
+933	french toast crunch
+934	salsa nantua
+935	ragù napoletano
+936	torta di rabarbero
+937	lardy cake
+938	bánh bò
+939	bresì
+940	salsa suprema
+941	zuppa all' Imperatrice
+942	burebrot
+943	germoglio di fagiolo mungo
+944	bara brith
+945	lai fun
+946	scotch broth
+947	uncle sam cereal
+948	cioccolato per la cottura
+949	bún mắm
+950	kue keranjang
+951	kulajda
+952	pane all' uvetta
+953	semifreddo
+954	pizza napoletana
+955	noodles vietnamita
+956	burro di noci
+957	pique verde boricua
+958	unni appam
+959	zuppa dell' intestino di maiale
+960	minestra di pane
+961	Sciroppo Aromatizzato
+962	fudge cake
+963	torta al burro
+964	noodles fritti di Shanghai
+965	ketwurst
+966	helmipuuro
+967	mbejú
+968	torta di fagioli rossi
+969	sprinkle spangles
+970	roti prata
+971	candy corn
+972	salsa gribiche
+973	limequat
+974	zuppa di birra
+975	buddy buddies
+976	zuppa teologa
+977	ghotab
+978	hog's pudding
+979	cencioni
+980	basler brot
+981	horse bread
+982	wanko soba
+983	saang mein
+984	sel roti
+985	crostata neenish
+986	tekwan
+987	bazlama
+988	torta chongyang
+989	fusi
+990	chalboribbang
+991	cheonsachae
+992	pullman loaf
+993	salsa veneziana
+994	penny bun
+995	jjolmyeon
+996	filoz
+997	pasta alfabeto
+998	zurek
+999	likëngë
+1000	bánh xèo
+1001	salsiccia di Vienna
+1002	salsiccia di Cumberland
+1003	zampa di maiale sottaceto
+1004	fagottini
+1005	piatto preparato
+1006	gooey butter cake
+1007	tipsy cake
+1008	bahn beo
+1009	tohax
+1010	smorz
+1011	Gelbwurst
+1012	salsa miele all' aglio
+1013	quetschentaart
+1014	youtazi
+1015	kulolo
+1016	mezzelune
+1017	hyderabadi marag
+1018	pane morbido senza crosta
+1019	golden crisp
+1020	ábrystir
+1021	caramel tart
+1022	salvitxada
+1023	salume
+1024	prezzemolo
+1025	david eyre's pancake
+1026	salsa meuniere
+1027	Thüringer Rostbratwurst
+1028	houmous
+1029	valle d' Aosta Lard d' Arnad
+1030	salsa soubise
+1031	ciambella
+1032	bevanda frizzante
+1033	salsa ravigote
+1034	chipa guasu
+1035	kharcho
+1036	guarnizione
+1037	zuppa di pesce cantonese
+1038	zuppa del pescatore
+1039	tom kha gai
+1040	coco pops
+1041	pane dolce portoghese
+1042	zuppa acida della Stiria
+1043	ready brek
+1044	kreple
+1045	ho hos
+1046	snack alla frutta
+1047	tequeño
+1048	olio spray da cucina
+1049	conchiglie
+1050	bakpia pathok
+1051	tian mo
+1052	pane alla birra
+1053	schupfnudel
+1054	pane di patate
+1055	passatelli
+1056	colston bun
+1057	wodzionka
+1058	frittella alla gundel
+1059	salsiccia ahle
+1060	zuppa di porro
+1061	qingtang wanzi
+1062	taglierini
+1063	sedano rapa
+1064	eve's pudding
+1065	zuppa di rosa canina
+1066	surnoli
+1067	panino di colazione
+1068	noodle coreano
+1069	köttsoppa
+1070	sugo di aragosta
+1071	manchester tart
+1072	prežganka
+1073	dodger dog
+1074	pane anadema
+1075	frittella cinese
+1076	chikhirtma
+1077	kamby arro
+1078	cu mian
+1079	brodo instantaneo
+1080	torta della felicità
+1081	pak choi
+1082	khrenovina
+1083	sfouf
+1084	crazy cow
+1085	bolo de mel
+1086	crenvurst
+1087	olio di noci
+1088	fat rascal
+1089	salsa ai funghi
+1090	halfsies
+1091	kupati
+1092	pane di riso
+1093	psarosoupa
+1094	torta al vino
+1095	cabinet pudding
+1096	anellini
+1097	pane ticinese
+1098	sushi pizza
+1099	pizza Hawaiana
+1100	tartufo al cioccolato
+1101	ebraica di mele
+1102	dripping cake
+1103	zuppetta bruna di Windsor
+1104	dundee cake
+1105	torta gitana
+1106	panino belga
+1107	pillus
+1108	bermuda fish chowder
+1109	lecythis
+1110	olio di semi di canapa
+1111	kai kou xiao
+1112	zuppa di tacos
+1113	sunny boy cereal
+1114	kornigou
+1115	scorcolga
+1116	pizza carbonara
+1117	kuy teav
+1118	chikkolee
+1119	barba di drago
+1120	pane al cardamomo
+1121	pan bati
+1122	bizcocho
+1123	maple bar
+1124	babà
+1125	pane adobe
+1126	complete wheat bran flakes
+1127	malvern pudding
+1128	Zuppa di fagioli del senato
+1129	butajiru
+1130	disney mickey's magix
+1131	chipa so' o
+1132	vispipuuro
+1133	hallulla
+1134	pane twist
+1135	torta opera
+1136	ching bo leung
+1137	zuppa di ortiche
+1138	salsiccia di morteau
+1139	gazpachuelo
+1140	pane di graham
+1141	raisin wheats
+1142	pane alla salsiccia
+1143	salsa caruso
+1144	eccles cake
+1145	torta di foglie di pandano
+1146	Welfenspeise
+1147	mykyrokka
+1148	salsiccia di Frankfurt
+1149	koldskål
+1150	torta al latte calda
+1151	kitchen bouquet
+1152	newmarket sausage
+1153	salsa verde
+1154	chunchullo
+1155	tea loaf
+1156	Annona muricata
+1157	spotted dick
+1158	salsiccia di glamoragn
+1159	simnel cake
+1160	ciambellone alla marmellata
+1161	sacchettoni
+1162	noce di soia
+1163	janggukjuk
+1164	arisa pitha
+1165	suaasat
+1166	zuppa primavera
+1167	panfocaccia
+1168	zuppa di ciliegie
+1169	torta marmorizzata
+1170	kuzumochi
+1171	galette des Rois
+1172	pane di pasqua
+1173	flummadiddle
+1174	coltura iniziale
+1175	reese's puffs
+1176	Kluski czarne
+1177	linguettine
+1178	daktyla
+1179	kc masterpiece
+1180	bath bun
+1181	zuppa di trippa
+1182	cookie crisp
+1183	maull's barbecue sauce
+1184	mafaldine
+1185	torta al cumino
+1186	lussekatt
+1187	honey nut clusters
+1188	sussex pond pudding
+1189	shirataki
+1190	pane amish dell' amicizia
+1191	frutta ricoperta di cioccolato
+1192	mafalde
+1193	tahinopita
+1194	nshkhar
+1195	pan mee
+1196	gulgukbap
+1197	stottie cake
+1198	veda bread
+1199	far breton
+1200	mi san dao
+1201	bredela
+1202	panino preparato
+1203	torta pazza
+1204	Oxford sauce
+1205	sciroppo di agave
+1206	cottage loaf
+1207	muskazine
+1208	honey loops
+1209	budino di malva
+1210	dotori guksu
+1211	watalappam
+1212	latte di papavero
+1213	stringozzi
+1214	wafle crisp
+1215	cereali di  grano saraceno
+1216	hummingbird cake 
+1217	torta erotica
+1218	torta esterházy
+1219	kai - lan
+1220	miscela per biscotti
+1221	cereali rocky road
+1222	lazarakia
+1223	caldo di pollo
+1224	lincolnshire salsiccia
+1225	noodle coreano
+1226	noodles surgelati
+1227	cröonchy stars
+1228	gyabrag
+1229	ciavàr
+1230	torta dell' amicizia
+1231	minestra di fegato
+1232	mannish water
+1233	crostata di ananas
+1234	zuppa di pasta
+1235	pork roll
+1236	carne in scattola
+1237	hot dog vegetariano
+1238	brodo nero
+1239	michigan hot dog
+1240	pizza greca
+1241	corn pops
+1242	ciambella al cocco
+1243	salsa cumberland
+1244	prodotto di soia
+1245	salsiccia di pleşcoi
+1246	himbasha
+1247	changzhou sesame torta
+1248	zuppa ogbono
+1249	zucchero colorato
+1250	salsa di pane
+1251	dan dan noodles
+1252	lasagnette
+1253	berlingozzo
+1254	cruncheroos
+1255	salsa albert
+1256	torta di riso soffiato
+1257	salsa vierge
+1258	estratto di mandorla
+1259	salsa café de paris
+1260	nintendo cereali sistema
+1261	kladdkaka
+1262	bolo rei
+1263	pane lento
+1264	pizza grigliata
+1265	salsa golf
+1266	morning funnies
+1267	pane viennese
+1268	regensburger  knacker
+1269	sagnarelli
+1270	chipped beef
+1271	torta garash
+1272	torta matta
+1273	pane maori
+1274	salsa di frutta
+1275	lane cake
+1276	noodles ubriachi
+1277	kek lapis sarawak
+1278	češnovka
+1279	pane esseno
+1280	olio al peperoncino
+1281	guagua de  pan
+1282	torta dell' anima
+1283	clackers
+1284	beghrir
+1285	biáng biáng noodles
+1286	choi sum
+1287	cavolo neor
+1288	rântaş
+1289	cake pop
+1290	pane maltese
+1291	dado
+1292	marshmallow
+1293	brutto ma buono
+1294	product 19
+1295	banh canh
+1296	ciambella di patate
+1297	pastisset
+1298	salsa mala
+1299	vino rosato
+1300	pizza messicana
+1301	mohnnudeln
+1302	brandy butter
+1303	pane afghano
+1304	colocasia
+1305	latte di canapa
+1306	miscela di cocktail
+1307	miscela di brezel
+1308	egg waffle 
+1309	torta delle principesse
+1310	louis dressing
+1311	acqua aromatizzata
+1312	assortimento di cioccolato
+1313	salsa O . K.
+1314	pane nazionale
+1315	insalata mista
+1316	latte d' avena
+1317	babà
+1318	cheese dog
+1319	ciccioli
+1320	radice di yucca
+1321	yu choy
+1322	fagiolo secco
+1323	perla di zucchero
+1324	amido
+1325	cavallino alfalfa
+1326	Brosimum alicastrum
+1327	radice di barbaforte
+1328	foglio di cactus
+1329	boršč
+1330	piatto surgelato
+1331	conchiglia di taco
+1332	nocciola ricoperta di cioccolato
+1333	sciroppo per granite
+1334	khao poon
+1335	salsa di pesca
+1336	mapo
+1337	tequila
+1338	sapotiglia
+1339	ohaw
+1340	vino rosato
+1341	finocchio
+1342	saveloy
+1343	gobo

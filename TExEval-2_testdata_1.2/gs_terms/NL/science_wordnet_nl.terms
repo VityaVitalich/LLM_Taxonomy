@@ -1,0 +1,401 @@
+0	abnormale psychologie
+1	akoestische wetenschap
+2	aerologie
+3	luchtvaartmechanica
+4	luchtvaartkunde
+5	agrobiologie
+6	agrologie
+7	landbouwkunde
+8	algebra
+9	vervreemding
+10	allergologie
+11	analyse
+12	analytische meetkunde
+13	anatomie
+14	anesthesiologie
+15	angiologie
+16	antropologie
+17	toegepaste wiskunde
+18	toegepaste psychologie
+19	archeologie
+20	bouwkunde
+21	aritmetica
+22	assyriologie
+23	astrodynamica
+24	astrometrie
+25	astronomie
+26	astrofysica
+27	audiologie
+28	vliegtuigelektronica
+29	bacteriologie
+30	behaviorisme
+31	biochemie
+32	bioklimatologie
+33	biogeografie
+34	biologie
+35	biomedische wetenschap
+36	biogeneeskunde
+37	biometrie
+38	biofysica
+39	biosystematiek
+40	biotechnologie
+41	botanie
+42	breinwetenschap
+43	berekening
+44	cardiologie
+45	katoptrica
+46	hemelmechanica
+47	chemie
+48	maatschappijleer
+49	klassieke mechanica
+50	klimatologie
+51	klinische anatomie
+52	klinische psychologie
+53	cognitieve neurowetenschap
+54	cognitieve psychologie
+55	cognitieve wetenschap
+56	vergelijkende anatomie
+57	vergelijkende psychologie
+58	morfologie van samenstellingen
+59	computationele linguïstiek
+60	correlatie
+61	cosmetische tandheelkunde
+62	kosmografie
+63	kosmologie
+64	craniologie
+65	craniometrie
+66	criminologie
+67	cryobiologie
+68	cryogenica
+69	cryonisme
+70	cryptoanalyse
+71	kristallografie
+72	kromlijnig verband
+73	cybernetica
+74	cytogenetica
+75	cytologie
+76	deixis
+77	demografie
+78	anatomie van de tand
+79	tandoperatie
+80	tandheelkunde
+81	morfologie van afgeleiden
+82	studie van de dermatoglyfen
+83	descriptieve grammatica
+84	beschrijvende taalkunde
+85	ontwikkelingsanatomie
+86	ontwikkelingspsychologie
+87	dialectgeografie
+88	voedingsleer
+89	differentiaalrekening
+90	dynamica
+91	dysgenetica
+92	aardwetenschap
+93	ecologie
+94	econometrie
+95	economische geografie
+96	economische geologie
+97	economische wetenschappen
+98	egyptologie
+99	elektrochemie
+100	elektromagnetisme
+101	elektronenoptiek
+102	elektronica
+103	elektrostatica
+104	elementaire meetkunde
+105	embryologie
+106	urgentiegeneeskunde
+107	endocrinologie
+108	endodontologie
+109	entomologie
+110	enzymologie
+111	epidemiologie
+112	etnografie
+113	etnologie
+114	ethologie
+115	etymologie
+116	eugenetica
+117	leer van verbetering van ras
+118	exobiologie
+119	extractie
+120	experimentele psychologie
+121	femtochemie
+122	foetologie
+123	financiën
+124	vloeistofmechanica
+125	forensische geneeskunde
+126	bosbouw
+127	formele semantiek
+128	Fourieranalyse
+129	fractale geometrie
+130	functionele anatomie
+131	garbologie
+132	gastro-enterologie
+133	gentechnologie
+134	genetica
+135	genomica
+136	geochemie
+137	geodesie
+138	geografie
+139	geologie
+140	geometrie
+141	geofysica
+142	geopolitiek
+143	geriatrie
+144	grammatica
+145	macroscopische anatomie
+146	groepentheorie
+147	gynaecologie
+148	trillingleer
+149	hematologie
+150	hemodynamica
+151	herpetologie
+152	historische taalkunde
+153	huishoudkunde
+154	hydrodynamica
+155	hydrologie
+156	hydrostatica
+157	hygiëne
+158	hyperbolische meetkunde
+159	hoogtemeting
+160	ichtyologie
+161	immunochemie
+162	immunologie
+163	immunopathologie
+164	verbuigingsmorfologie
+165	informatiewetenschap
+166	anorganische chemie
+167	integraalrekening
+168	interne geneeskunde
+169	Jungiaanse psychologie
+170	kinematica
+171	kinesiologie
+172	lepidopterologie
+173	lexicale semantiek
+174	levenswetenschap
+175	limnologie
+176	lineaire algebra
+177	lineaire programmering
+178	linguïstiek
+179	macrobiotiek
+180	magnetisme
+181	malacologie
+182	mammalogie
+183	maritieme archeologie
+184	wiskunde
+185	matrixrekenen
+186	mechanica
+187	medische wetenschap
+188	geneeskunde
+189	geheugen
+190	metallurgie
+191	metawiskunde
+192	meteorologie
+193	metrologie
+194	microbiologie
+195	micro-economie
+196	microscopische anatomie
+197	mineralogie
+198	molucelaire biologie
+199	molucelaire genetica
+200	morfologie
+201	mycologie
+202	myologie
+203	natuurlijke historie
+204	natuurwetenschap
+205	negatieve correlatie
+206	neonatologie
+207	nefrologie
+208	neuroanatomie
+209	neurobiologie
+210	neurolinguïstiek
+211	neurologie
+212	neurofysiologie
+213	neuropsychiatrie
+214	neurowetenschap
+215	niet-euclidische meetkunde
+216	niet-parametrische statistiek
+217	nosologie
+218	nucleaire geneeskunde
+219	kernfysica
+220	numerieke analyse
+221	obstetrie
+222	oceanografie
+223	oncologie
+224	oölogie
+225	oftalmologie
+226	optica
+227	organische chemie
+228	orologie
+229	orthodontie
+230	orthoëpie
+231	orthopedie
+232	otologie
+233	paleoantropologie
+234	paleobiologie
+235	paleobotanie
+236	paleoklimatologie
+237	paleodendrologie
+238	paleoecologie
+239	paleo-etnografie
+240	paleogeografie
+241	paleogeologie
+242	paleografie
+243	paleologie
+244	paleomammalogie
+245	paleontologie
+246	paleopathologie
+247	paleornithologie
+248	paleozoölogie
+249	partiële correlatie
+250	deeltjesfysica
+251	pathologie
+252	pediatrie
+253	penologie
+254	perinatologie
+255	parodontologie
+256	petroleum geologie
+257	petrologie
+258	farmacogenetica
+259	farmacokinetiek
+260	farmacologie
+261	farmacie
+262	fonologie
+263	fotochemie
+264	frenologie
+265	fysische antropologie
+266	fysische chemie
+267	fysische geografie
+268	fysica
+269	fysiologische psychologie
+270	fysiologie
+271	fytochemie
+272	planimetrie
+273	plasmafysica
+274	pneumatiek
+275	podologie
+276	politiek
+277	pomologie
+278	positieve correlatie
+279	pragmatiek
+280	prescriptieve grammatica
+281	probleemoplossing
+282	proctologie
+283	projectieve meetkunde
+284	prothesiologie
+285	prothetiek
+286	proteomica
+287	protohistorische archeologie
+288	protohistorie
+289	protozoölogie
+290	proxemics
+291	bestudering van het kiezersgedrag
+292	psychiatrie
+293	psychodynamica
+294	psychologie
+295	psychometrie
+296	psychofarmacologie
+297	psychofysica
+298	psychotherapie
+299	pteridologie
+300	zuivere wiskunde
+301	kwadraten
+302	kwantumelektrodynamica
+303	kwantumveldentheorie
+304	kwantummechanica
+305	kwantumfysica
+306	radioastronomie
+307	radiobiologie
+308	radiochemie
+309	radiologie
+310	Realpolitik
+311	regionale anatomie
+312	reologie
+313	reumatologie
+314	rinolaryngologie
+315	ritualisme
+316	wetenschap
+317	seismologie
+318	semantiek
+319	serologie
+320	verzamelingenleer
+321	bosbouw
+322	sociale antropologie
+323	sociale psychologie
+324	sociale wetenschappen
+325	sociobiologie
+326	sociolinguïstiek
+327	sociologie
+328	zonnefysica
+329	ruimtemeetkunde
+330	vastestoffysica
+331	ruimtevaartgeneeskunde
+332	speleologie
+333	sferische meetkunde
+334	sportgeneeskunde
+335	onechte correlatie
+336	statica
+337	statistische mechanica
+338	statistiek
+339	strategische wetenschap
+340	stratigrafie
+341	structurele genomica
+342	structuralisme
+343	studie van de sumerische cultuur
+344	aanbodgerichte economie
+345	chirurgie
+346	synchrone taalkunde
+347	syntax
+348	systematiek
+349	taxonomie
+350	teratologie
+351	thanatologie
+352	therapie
+353	studie van thermionische emissies
+354	thermochemie
+355	thermodynamica
+356	thoracale heelkunde
+357	topografie
+358	topologie
+359	toxicologie
+360	traumatologie
+361	driehoeksmeting
+362	driehoeksmeetkunde
+363	tropische geneeskunde
+364	urologie
+365	vectorrekenen
+366	paleontologie der gewervelden
+367	diergeneeskunde
+368	virologie
+369	zoölogie
+370	holografie
+371	psycholinguïstiek
+372	hydrografie
+373	vulkanologie
+374	conchologie
+375	osteologie
+376	reflexologie
+377	poedermetallurgie
+378	fycologie
+379	lexicostatistiek
+380	macro-economie
+381	kwantumchromodynamica
+382	galoistheorie
+383	fonetiek
+384	voedingsleer
+385	generatieve grammatica
+386	geostrategie
+387	boldriehoeksmeting
+388	kansrekening
+389	epigrafie
+390	bioremediatie
+391	primatologie
+392	mythologie
+393	ornithologie
+394	differentiële psychologie
+395	sociometrie
+396	automatisch vertalen
+397	histologie
+398	dermatologie
+399	magnetohydrodynamica
+400	micro-elektronica

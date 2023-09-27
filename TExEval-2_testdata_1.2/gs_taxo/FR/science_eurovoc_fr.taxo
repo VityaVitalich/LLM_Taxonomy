@@ -1,0 +1,124 @@
+0	astronautique	science de l'espace
+1	astronomie	science de l'espace
+2	cosmologie	astronomie
+3	agronomie	sciences appliquées
+4	chimie industrielle	sciences appliquées
+5	cybernétique	sciences appliquées
+6	électrotechnique	sciences appliquées
+7	mathématiques	sciences appliquées
+8	biométrie	mathématiques
+9	métrologie	sciences appliquées
+10	science de l'information	sciences appliquées
+11	cindynique	sciences de la terre
+12	géographie	sciences de la terre
+13	cartographie	géographie
+14	géographie culturelle	géographie
+15	géographie économique	géographie
+16	géographie historique	géographie
+17	géographie humaine	géographie
+18	géographie politique	géographie
+19	géographie régionale	géographie
+20	système d'information géographique	géographie
+21	géologie	sciences de la terre
+22	géochimie	géologie
+23	géophysique	géologie
+24	géodésie	géophysique
+25	hydrogéologie	géologie
+26	minéralogie	géologie
+27	pétrologie	géologie
+28	sédimentologie	géologie
+29	sismologie	géologie
+30	volcanologie	géologie
+31	géomorphologie	sciences de la terre
+32	hydrologie	sciences de la terre
+33	météorologie	sciences de la terre
+34	climatologie	météorologie
+35	bioclimatologie	climatologie
+36	océanographie	sciences de la terre
+37	science des sols	sciences de la terre
+38	analyse du sol	science des sols
+39	chimie du sol	science des sols
+40	type de sol	science des sols
+41	biologie	sciences de la vie
+42	botanique	biologie
+43	classification des végétaux	botanique
+44	cellule souche	biologie
+45	cytologie	biologie
+46	embryon et fœtus	biologie
+47	génétique	biologie
+48	ADN	génétique
+49	eugénique	génétique
+50	histologie	biologie
+51	micro-organisme	biologie
+52	neurobiologie	biologie
+53	radiobiologie	biologie
+54	zoologie	biologie
+55	classification des animaux	zoologie
+56	écologie	sciences de la vie
+57	parasitologie	sciences de la vie
+58	pharmacologie	sciences de la vie
+59	acoustique	sciences physiques
+60	aérodynamique	sciences physiques
+61	chimie	sciences physiques
+62	biochimie	chimie
+63	enzyme	chimie
+64	chimie analytique	chimie
+65	électrochimie	chimie
+66	photochimie	chimie
+67	électronique	sciences physiques
+68	optique	sciences physiques
+69	physique des lasers	sciences physiques
+70	physique du plasma	sciences physiques
+71	physique nucléaire	sciences physiques
+72	atome	physique nucléaire
+73	particule élémentaire	physique nucléaire
+74	rayonnement ionisant	sciences physiques
+75	spectrométrie	sciences physiques
+76	thermodynamique	sciences physiques
+77	criminologie	sciences du comportement
+78	psychanalyse	sciences du comportement
+79	psychologie	sciences du comportement
+80	personnalité	psychologie
+81	sexualité	psychologie
+82	test psychométrique	psychologie
+83	archéologie	sciences sociales
+84	ethnologie	sciences sociales
+85	ethnographie	ethnologie
+86	histoire	sciences sociales
+87	histoire ancienne	histoire
+88	histoire contemporaine	histoire
+89	histoire médiévale	histoire
+90	histoire moderne	histoire
+91	histoire universelle	histoire
+92	personnalité historique	histoire
+93	préhistoire	histoire
+94	linguistique	sciences sociales
+95	langage	linguistique
+96	bilinguisme	langage
+97	multilinguisme	langage
+98	langue vivante	linguistique
+99	langue européenne	langue vivante
+100	langue minoritaire	langue vivante
+101	langue non européenne	langue vivante
+102	langue régionale	langue vivante
+103	politique linguistique	linguistique
+104	philosophie	sciences sociales
+105	éthique	philosophie
+106	philosophie des sciences	philosophie
+107	science administrative	sciences sociales
+108	science économique	sciences sociales
+109	science politique	sciences sociales
+110	géopolitique	science politique
+111	sociologie	sciences sociales
+112	sociologie de l'éducation	sociologie
+113	sociologie du travail	sociologie
+114	sociologie politique	sociologie
+115	sociologie rurale	sociologie
+116	sociologie urbaine	sociologie
+117	science de l'espace	sciences
+118	sciences appliquées	sciences
+119	sciences de la terre	sciences
+120	sciences de la vie	sciences
+121	sciences physiques	sciences
+122	sciences du comportement	sciences
+123	sciences sociales	sciences

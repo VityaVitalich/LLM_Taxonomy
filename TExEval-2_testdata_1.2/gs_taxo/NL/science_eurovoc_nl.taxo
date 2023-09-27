@@ -1,0 +1,124 @@
+0	bodemkunde	aardkunde
+1	bodemanalyse	bodemkunde
+2	bodemchemie	bodemkunde
+3	grondsoort	bodemkunde
+4	cindynica	aardkunde
+5	geografie	aardkunde
+6	cartografie	geografie
+7	culturele geografie	geografie
+8	economische geografie	geografie
+9	geografisch informatiesysteem	geografie
+10	historische geografie	geografie
+11	politieke geografie	geografie
+12	regionale geografie	geografie
+13	sociale geografie	geografie
+14	geologie	aardkunde
+15	geochemie	geologie
+16	geofysica	geologie
+17	geodesie	geofysica
+18	hydrogeologie	geologie
+19	mineralogie	geologie
+20	petrologie	geologie
+21	sedimentologie	geologie
+22	seismologie	geologie
+23	vulcanologie	geologie
+24	geomorfologie	aardkunde
+25	hydrologie	aardkunde
+26	meteorologie	aardkunde
+27	klimatologie	meteorologie
+28	bioklimatologie	klimatologie
+29	oceanografie	aardkunde
+30	biologie	levenswetenschappen
+31	cytologie	biologie
+32	genetica	biologie
+33	DNA	genetica
+34	eugenese	genetica
+35	histologie	biologie
+36	micro-organisme	biologie
+37	neurobiologie	biologie
+38	ongeboren vrucht	biologie
+39	plantkunde	biologie
+40	classificatie van planten	plantkunde
+41	radiobiologie	biologie
+42	stamcel	biologie
+43	zoölogie	biologie
+44	classificatie van dieren	zoölogie
+45	ecologie	levenswetenschappen
+46	farmacologie	levenswetenschappen
+47	parasitologie	levenswetenschappen
+48	aërodynamica	natuurwetenschap
+49	elektronica	natuurwetenschap
+50	geluidsleer	natuurwetenschap
+51	ioniserende straling	natuurwetenschap
+52	kernfysica	natuurwetenschap
+53	atoom	kernfysica
+54	elementair deeltje	kernfysica
+55	laserfysica	natuurwetenschap
+56	optica	natuurwetenschap
+57	plasmafysica	natuurwetenschap
+58	scheikunde	natuurwetenschap
+59	analytische chemie	scheikunde
+60	biochemie	scheikunde
+61	enzym	biochemie
+62	elektrochemie	scheikunde
+63	fotochemie	scheikunde
+64	spectrometrie	natuurwetenschap
+65	thermodynamica	natuurwetenschap
+66	ruimtevaartwetenschap	ruimtewetenschap
+67	sterrenkunde	ruimtewetenschap
+68	cosmologie	sterrenkunde
+69	agronomie	toegepaste wetenschappen
+70	cybernetica	toegepaste wetenschappen
+71	elektrotechniek	toegepaste wetenschappen
+72	industriële chemie	toegepaste wetenschappen
+73	informatiewetenschap	toegepaste wetenschappen
+74	metrologie	toegepaste wetenschappen
+75	wiskunde	toegepaste wetenschappen
+76	biometrie	wiskunde
+77	criminologie	gedragswetenschap
+78	psychoanalyse	gedragswetenschap
+79	psychologie	gedragswetenschap
+80	persoonlijkheid	psychologie
+81	psychometrische test	psychologie
+82	sexualiteit	psychologie
+83	administratieve wetenschap	sociale wetenschappen
+84	archeologie	sociale wetenschappen
+85	economische wetenschap	sociale wetenschappen
+86	etnologie	sociale wetenschappen
+87	etnografie	etnologie
+88	filosofie	sociale wetenschappen
+89	ethiek	filosofie
+90	wetenschapsfilosofie	filosofie
+91	geschiedenis van de Middeleeuwen	geschiedenis
+92	hedendaagse geschiedenis	geschiedenis
+93	historische persoonlijkheid	geschiedenis
+94	klassieke geschiedenis	geschiedenis
+95	moderne geschiedenis	geschiedenis
+96	prehistorie	geschiedenis
+97	wereldgeschiedenis	geschiedenis
+98	politieke wetenschap	sociale wetenschappen
+99	geopolitiek	politieke wetenschap
+100	sociologie	sociale wetenschappen
+101	arbeidssociologie	sociologie
+102	onderwijssociologie	sociologie
+103	plattelandssociologie	sociologie
+104	politieke sociologie	sociologie
+105	sociologie van het stadsleven	sociologie
+106	taalwetenschap	sociale wetenschappen
+107	levende taal	taalwetenschap
+108	Europese taal	levende taal
+109	minderheidstaal	levende taal
+110	niet-Europese taal	levende taal
+111	streektaal	levende taal
+112	taal	taalwetenschap
+113	tweetaligheid	taal
+114	veeltaligheid	taal
+115	taalbeleid	taalwetenschap
+116	aardkunde	wetenschappen
+117	levenswetenschappen	wetenschappen
+118	natuurwetenschap	wetenschappen
+119	ruimtewetenschap	wetenschappen
+120	toegepaste wetenschappen	wetenschappen
+121	gedragswetenschap	wetenschappen
+122	sociale wetenschappen	wetenschappen
+123	geschiedenis	sociale wetenschappen
