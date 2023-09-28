@@ -226,7 +226,7 @@ if __name__ == "__main__":
         dataset,
         batch_size=batch_size,
         collate_fn=collator,
-        shuffle=True,
+        shuffle=False,
         num_workers=1,
         drop_last=False,
         pin_memory=False,
@@ -235,6 +235,7 @@ if __name__ == "__main__":
     @torch.no_grad()
     def ppl_over_loader(model, loader, device, loss_fn):
         ppl_ls = []
+        term_to_label = {}
 
         for batch in tqdm(loader):
             terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
@@ -244,18 +245,37 @@ if __name__ == "__main__":
                 labels=labels.to(device).long(),
             )
 
-            losses = loss_fn(output['logits'].transpose(1,2).detach().cpu(), input_seqs)
-            ppl = ((losses * (labels != -100)).sum(dim=1) / (labels != -100).sum(dim=1)).exp()
-            ppl_ls.extend(ppl.tolist())
+            logits = output['logits']
+            shift_logits = logits[..., :-1, :].contiguous()
+            shift_labels = labels[..., 1:].contiguous()
+            loss_fct = nn.CrossEntropyLoss(reduction='none')
+            # Enable model parallelism
+            shift_labels = shift_labels.to(shift_logits.device)
+            loss = loss_fct(shift_logits.transpose(1,2), shift_labels)
+            ppl = ((loss* (shift_labels != -100)).sum(dim=1) / (shift_labels != -100).sum(dim=1)).exp().cpu().tolist()
+            ppl_ls.extend(ppl)
 
-        return ppl_ls
+            def get_term(s):
+                return s.split('|')[-2].split(':')[-1].strip()
+
+            decoded_terms = tokenizer.batch_decode(terms)
+            cur_terms = list(map(get_term, decoded_terms))
+            cur_targets = tokenizer.batch_decode(targets, skip_special_tokens=True)
+
+            for cur_ppl, term, target in zip(ppl, cur_terms, cur_targets):
+                term_to_label[(term, target)] = cur_ppl
+
+            print(ppl)
+        return ppl_ls, term_to_label
 
 
     loss_fn = nn.CrossEntropyLoss(reduction='none')
-    ppls = ppl_over_loader(inference_model, loader, 'cuda', loss_fn)
+    ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda', loss_fn)
 
     with open('all_pairs_ppl.pickle', 'wb') as f:
         pickle.dump(ppls, f)
+    with open('all_pairs_ppl_dict.pickle', 'wb') as f:
+        pickle.dump(term_to_label, f)
 
 
                                             
