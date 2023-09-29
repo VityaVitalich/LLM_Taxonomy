@@ -12,8 +12,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
 
-SAVING_DIR = os.environ.get('SAVING_DIR')
-HF_TOKEN = os.environ.get('HF_TOKEN')
+SAVING_DIR = os.environ.get("SAVING_DIR")
+HF_TOKEN = os.environ.get("HF_TOKEN")
 os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
 os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 import sys
@@ -95,7 +95,8 @@ if __name__ == "__main__":
     )
 
     config.saving_path = (
-        SAVING_DIR + "model_checkpoints/"
+        SAVING_DIR
+        + "model_checkpoints/"
         + config.exp_name
         + "_custom_multilang_"
         + params_list["STRATEGY"][0]
