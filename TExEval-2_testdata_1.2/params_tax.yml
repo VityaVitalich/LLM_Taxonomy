@@ -3,7 +3,7 @@ SEED:
 CUDA_VISIBLE_DEVICES:
   - 1
 BATCH_SIZE:
-  - 64
+  - 4
 STRATEGY:
   - "ppl_top_collector"
 TOP_K:
