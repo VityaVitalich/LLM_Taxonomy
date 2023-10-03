@@ -2,8 +2,9 @@ SEED:
   - 42
 CUDA_VISIBLE_DEVICES:
   - 1
+  - 3
 BATCH_SIZE:
-  - 4
+  - 8
 STRATEGY:
   - "ppl_top_collector"
 TOP_K:
@@ -13,4 +14,6 @@ NAME:
 MODEL_CHECKPOINT:
   - "VityaVitalich/Llama2-7b-hf-4b-lora-wnet"
 OUT_NAME:
-  - 'all_pairs_ppl_dict.pickle'
+  - 'data/sceince_eurovoc_ppl_dict.pickle'
+IN_NAME:
+  - 'data/science_eurovoc_pairs.pickle'

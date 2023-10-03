@@ -197,10 +197,10 @@ if __name__ == "__main__":
     top_k = params_list["TOP_K"][0]
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     out_name = params_list["OUT_NAME"][0]
+    in_name = params_list["IN_NAME"][0]
 
-    path = "all_pairs.pickle"
 
-    with open(path, 'rb') as f:
+    with open(in_name, 'rb') as f:
         all_pairs = pickle.load(f)
 
 
@@ -266,7 +266,6 @@ if __name__ == "__main__":
             for cur_ppl, term, target in zip(ppl, cur_terms, cur_targets):
                 term_to_label[(term, target)] = cur_ppl
 
-            print(ppl)
         return ppl_ls, term_to_label
 
 
