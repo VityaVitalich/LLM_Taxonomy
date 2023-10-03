@@ -196,6 +196,7 @@ if __name__ == "__main__":
     strategy = params_list["STRATEGY"][0]
     top_k = params_list["TOP_K"][0]
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
+    out_name = 'gen_' + params_list["OUT_NAME"][0]
 
     path = "all_nodes_children_gen.pickle"
 
@@ -273,7 +274,7 @@ if __name__ == "__main__":
 
     term_to_generations = generate_over_loader(inference_model, loader, 'cuda', gen_args)
 
-    with open('all_generations.pickle', 'wb') as f:
+    with open(out_name, 'wb') as f:
         pickle.dump(term_to_generations, f)
 
 

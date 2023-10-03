@@ -12,3 +12,5 @@ NAME:
   - "first_test_top10"
 MODEL_CHECKPOINT:
   - "VityaVitalich/Llama2-7b-hf-4b-lora-wnet"
+OUT_NAME:
+  - 'all_pairs_ppl_dict.pickle'
