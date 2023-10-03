@@ -196,10 +196,11 @@ if __name__ == "__main__":
     strategy = params_list["STRATEGY"][0]
     top_k = params_list["TOP_K"][0]
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
+    out_name = params_list["OUT_NAME"][0]
+    in_name = params_list["IN_NAME"][0]
 
-    path = "all_pairs.pickle"
 
-    with open(path, 'rb') as f:
+    with open(in_name, 'rb') as f:
         all_pairs = pickle.load(f)
 
 
@@ -265,16 +266,14 @@ if __name__ == "__main__":
             for cur_ppl, term, target in zip(ppl, cur_terms, cur_targets):
                 term_to_label[(term, target)] = cur_ppl
 
-            print(ppl)
         return ppl_ls, term_to_label
 
 
     loss_fn = nn.CrossEntropyLoss(reduction='none')
     ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda', loss_fn)
 
-    with open('all_pairs_ppl.pickle', 'wb') as f:
-        pickle.dump(ppls, f)
-    with open('all_pairs_ppl_dict.pickle', 'wb') as f:
+
+    with open(out_name, 'wb') as f:
         pickle.dump(term_to_label, f)
 
 
