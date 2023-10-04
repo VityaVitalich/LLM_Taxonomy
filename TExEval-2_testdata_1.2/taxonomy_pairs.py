@@ -198,7 +198,8 @@ if __name__ == "__main__":
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     out_name = params_list["OUT_NAME"][0]
     in_name = params_list["IN_NAME"][0]
-
+    chkp_time = 100
+    torch.manual_seed(params_list['SEED'][0])
 
     with open(in_name, 'rb') as f:
         all_pairs = pickle.load(f)
@@ -233,13 +234,27 @@ if __name__ == "__main__":
         pin_memory=False,
     )
 
-    @torch.no_grad()
-    def ppl_over_loader(model, loader, device, loss_fn):
-        ppl_ls = []
-        term_to_label = {}
 
-        for batch in tqdm(loader):
+
+    @torch.no_grad()
+    def ppl_over_loader(model, loader, device, term_to_label=None):
+
+        def get_term(s):
+            return s.split('|')[-2].split(':')[-1].strip()
+        
+        ppl_ls = []
+        if not term_to_label:
+            term_to_label = {}
+
+        for i, batch in tqdm(enumerate(loader), total=len(loader)):
             terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+            decoded_terms = tokenizer.batch_decode(terms)
+            cur_terms = list(map(get_term, decoded_terms))
+            cur_targets = tokenizer.batch_decode(targets, skip_special_tokens=True)
+
+            if (cur_terms[0], cur_targets[0]) in term_to_label.keys():
+                continue
+
             output = model.forward(
                 input_seqs.to(device).long(),
                 attention_mask=att_mask_input.to(device).long(),
@@ -256,22 +271,30 @@ if __name__ == "__main__":
             ppl = ((loss* (shift_labels != -100)).sum(dim=1) / (shift_labels != -100).sum(dim=1)).exp().cpu().tolist()
             ppl_ls.extend(ppl)
 
-            def get_term(s):
-                return s.split('|')[-2].split(':')[-1].strip()
 
-            decoded_terms = tokenizer.batch_decode(terms)
-            cur_terms = list(map(get_term, decoded_terms))
-            cur_targets = tokenizer.batch_decode(targets, skip_special_tokens=True)
+
+            
+            
+            
 
             for cur_ppl, term, target in zip(ppl, cur_terms, cur_targets):
                 term_to_label[(term, target)] = cur_ppl
+
+            if (i+1) % chkp_time == 0:
+                with open(out_name, 'wb') as f:
+                    pickle.dump(term_to_label, f)
 
         return ppl_ls, term_to_label
 
 
     loss_fn = nn.CrossEntropyLoss(reduction='none')
-    ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda', loss_fn)
+    if params_list['LOAD'][0]:
+        with open(out_name, 'rb') as f:
+            term_to_label = pickle.load(f)
+        ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda', term_to_label)
 
+    else:
+        ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda')
 
     with open(out_name, 'wb') as f:
         pickle.dump(term_to_label, f)

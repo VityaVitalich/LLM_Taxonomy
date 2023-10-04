@@ -138,6 +138,7 @@ class Collector(GeneratorMixin):
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
         weights=[0.2, 0.2, 0.2, 0.2, 0.2],
+        p_parent=0.5,
     ):
         self.generation_depth = generation_depth
         self.ancestors_depth = ancestors_depth
@@ -146,6 +147,7 @@ class Collector(GeneratorMixin):
         self.min_to_test_rate = min_to_test_rate
         self.G = G
         self.weights = weights
+        self.p_parent = p_parent
 
         self.train = []
         self.test = []
@@ -300,6 +302,13 @@ class Collector(GeneratorMixin):
 
         if len(elem["children"]) > 50:
             return
+        
+        if (len(elem['children']) < 5) and self.predict_parent():
+            elem['case'] = "predict_hypernym"
+            for child in elem['children']:
+                elem['children'] = child
+                self.simple_filter(elem)
+
 
         possible_test, possible_train = self.get_possible_train(children_leafs)
         to_test_rate = len(possible_test) / len(children_leafs)
@@ -369,6 +378,9 @@ class Collector(GeneratorMixin):
     def divide_on_half(self):
         return np.random.binomial(1, p=self.p_divide_leafs)
 
+    def predict_parent(self):
+        return np.random.binomial(1, p=self.p_parent)
+    
     def write_to_test(self, elem, to_test_subset):
         """
         writes to test a subset

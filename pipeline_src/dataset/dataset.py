@@ -29,7 +29,7 @@ class HypernymDataset(Dataset):
         semeval_format=False,
         gold_path=None,
         transforms={
-            "only_child_leaf": predict_parent_from_child_granparent,
+            "only_child_leaf": predict_parent_from_child_granparent, # заменить на предсказание ребенка
             "only_leafs_all": predict_child_from_parent,
             "only_leafs_divided": predict_children_with_parent_and_brothers,
             "leafs_and_no_leafs": predict_child_from_parent,

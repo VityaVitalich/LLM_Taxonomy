@@ -17,3 +17,5 @@ OUT_NAME:
   - 'data/food_combined_ppl_dict.pickle'
 IN_NAME:
   - 'data/food_combined_pairs.pickle'
+LOAD:
+  - true
