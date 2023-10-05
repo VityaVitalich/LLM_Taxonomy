@@ -36,7 +36,7 @@ class HypernymDataset(Dataset):
             "leafs_and_no_leafs": predict_child_from_parent,
             "simple_triplet_grandparent": predict_parent_from_child_granparent,
             "simple_triplet_2parent": predict_child_from_2_parents,
-            "predict_hypernym": predict_child_from_parent,
+            "predict_hypernym": predict_parent_from_child,
         },
     ):
         self.tokenizer = tokenizer

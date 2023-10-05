@@ -156,6 +156,22 @@ class Collector(GeneratorMixin):
 
         self.precompute_generations()
 
+        self.node_numbers = {}
+        for node in G.nodes():
+            node_name = node.split(".")[0]
+            try:
+                node_number = int(node.split(".")[-1])
+            except ValueError:
+                print(node)
+                continue
+
+            if node_name in self.node_numbers.keys():
+                self.node_numbers[node_name] = max(
+                    self.node_numbers[node_name], node_number
+                )
+            else:
+                self.node_numbers[node_name] = node_number
+
     def precompute_generations(self) -> None:
         self.generations = {}
         for i, gen in enumerate(nx.topological_generations(self.G)):
@@ -302,13 +318,17 @@ class Collector(GeneratorMixin):
 
         if len(elem["children"]) > 50:
             return
-        
-        if (len(elem['children']) < 5) and self.predict_parent():
-            elem['case'] = "predict_hypernym"
-            for child in elem['children']:
-                elem['children'] = child
-                self.simple_filter(elem)
 
+        if (
+            (len(elem["children"]) < 20)
+            and self.predict_parent()
+            and (self.node_numbers[parent.split(".")[0]] == 1)
+        ):
+            elem["case"] = "predict_hypernym"
+            for child in elem["children"]:
+                elem["children"] = child
+                self.simple_filter(elem)
+            return
 
         possible_test, possible_train = self.get_possible_train(children_leafs)
         to_test_rate = len(possible_test) / len(children_leafs)
@@ -380,7 +400,7 @@ class Collector(GeneratorMixin):
 
     def predict_parent(self):
         return np.random.binomial(1, p=self.p_parent)
-    
+
     def write_to_test(self, elem, to_test_subset):
         """
         writes to test a subset

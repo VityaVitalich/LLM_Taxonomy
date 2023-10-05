@@ -1,0 +1,902 @@
+first hypernym: hour.n.1, second hypernym: sidereal time.n.1 | hyponyms:
+
+predicted: sidereal hour of the day or
+ 
+true: sidereal hour
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: hour.n.1, second hypernym: sidereal time.n.1 | hyponyms:
+
+predicted: sidereal hour of the day or
+ 
+true: sidereal hour
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: caryophylloid dicot genus.n.1, second hypernym: climber.n.1 | hyponyms:
+
+predicted: sweet William, woodruff, wood
+ 
+true: Agdestis
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: caryophylloid dicot genus.n.1, second hypernym: climber.n.1 | hyponyms:
+
+predicted: clematis, honeysuck
+ 
+true: Agdestis
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: disk.n.2, second hypernym: sports equipment.n.1 | hyponyms:
+
+predicted: lacrosse ball or lacrosse
+ 
+true: discus
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: disk.n.2, second hypernym: sports equipment.n.1 | hyponyms:
+
+predicted: basketball court] floor markings and lines
+ 
+true: discus
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: edible fruit.n.1, second hypernym: pome.n.1 | hyponyms:
+
+predicted: apple fruit, pear fruit, qu
+ 
+true: quince
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: edible fruit.n.1, second hypernym: pome.n.1 | hyponyms:
+
+predicted: apple fruit, pear fruit, pe
+ 
+true: quince
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: property.n.2, second hypernym: dance.n.1 | hyponyms:
+
+predicted: square dance step patterning property of a
+ 
+true: extension
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: property.n.2, second hypernym: dance.n.1 | hyponyms:
+
+predicted: ballet dance property, theatrical
+ 
+true: extension
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: farewell.n.1, second hypernym: greeting.n.1 | hyponyms:
+
+predicted: goodbye, hello, leave-t
+ 
+true: good afternoon
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: farewell.n.1, second hypernym: greeting.n.1 | hyponyms:
+
+predicted: au revoir, bon voyage, good
+ 
+true: good afternoon
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: farewell.n.1, second hypernym: greeting.n.1 | hyponyms:
+
+predicted: good-bye, good-by,
+ 
+true: good morning
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: farewell.n.1, second hypernym: greeting.n.1 | hyponyms:
+
+predicted: goodbye, leave-taking,
+ 
+true: good morning
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: corticosteroid.n.1, second hypernym: ketosteroid.n.1 | hyponyms:
+
+predicted: cortisone acetate, cort
+ 
+true: cortisone
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: corticosteroid.n.1, second hypernym: ketosteroid.n.1 | hyponyms:
+
+predicted: dexamethasone sodium
+ 
+true: cortisone
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: woman.n.1, second hypernym: head of household.n.1 | hyponyms:
+
+predicted: housewife, matron, mat
+ 
+true: matriarch
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: woman.n.1, second hypernym: head of household.n.1 | hyponyms:
+
+predicted: matron of the household, mist
+ 
+true: matriarch
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: religious ceremony.n.1, second hypernym: anointing.n.1 | hyponyms:
+
+predicted: chrismation or anointing with
+ 
+true: unction
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: religious ceremony.n.1, second hypernym: anointing.n.1 | hyponyms:
+
+predicted: coronation ceremony, ordination, confirm
+ 
+true: unction
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: emblem.n.2, second hypernym: flag.n.1 | hyponyms:
+
+predicted: ensign flag, national flag, national
+ 
+true: national flag
+ 
+intersection: national flag
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: emblem.n.2, second hypernym: flag.n.1 | hyponyms:
+
+predicted: banner of arms, banner of
+ 
+true: national flag
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: emblem.n.2, second hypernym: tetraskelion.n.1 | hyponyms:
+
+predicted: four-leaf clover, sham
+ 
+true: swastika
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: emblem.n.2, second hypernym: tetraskelion.n.1 | hyponyms:
+
+predicted: tetragammadion cross,
+ 
+true: swastika
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: emblem.n.2, second hypernym: hexagram.n.1 | hyponyms:
+
+predicted: Star of David, pentagram, sw
+ 
+true: Star of David
+ 
+intersection: star of david
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: emblem.n.2, second hypernym: hexagram.n.1 | hyponyms:
+
+predicted: yin-yang symbolism,
+ 
+true: Star of David
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: farmer.n.1, second hypernym: tenant.n.2 | hyponyms:
+
+predicted: tenant farmer, sharecropper
+ 
+true: tenant farmer
+ 
+intersection: tenant farmer
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: farmer.n.1, second hypernym: tenant.n.2 | hyponyms:
+
+predicted: sharecropper or sharefarmer or
+ 
+true: tenant farmer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: large indefinite quantity.n.1, second hypernym: extremum.n.2 | hyponyms:
+
+predicted: maximum extent of something, maximum amount,
+ 
+true: maximum
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: large indefinite quantity.n.1, second hypernym: extremum.n.2 | hyponyms:
+
+predicted: extreme quantity of money, extreme quantity of
+ 
+true: maximum
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: barbiturate.n.1, second hypernym: anticonvulsant.n.1 | hyponyms:
+
+predicted: phenobarbital sodium, sec
+ 
+true: mephobarbital
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: barbiturate.n.1, second hypernym: anticonvulsant.n.1 | hyponyms:
+
+predicted: phenobarbital sodium, pent
+ 
+true: mephobarbital
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: disability.n.1, second hypernym: leg.n.1 | hyponyms:
+
+predicted: lame leg, crippled leg
+ 
+true: bowleg
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: disability.n.1, second hypernym: leg.n.1 | hyponyms:
+
+predicted: lame leg, pegleg,
+ 
+true: bowleg
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: apothecaries' unit.n.1, second hypernym: troy unit.n.1 | hyponyms:
+
+predicted: grain apothecaries' unit
+ 
+true: ounce
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: apothecaries' unit.n.1, second hypernym: troy unit.n.1 | hyponyms:
+
+predicted: grain apothecaries' unit
+ 
+true: ounce
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: apothecaries' unit.n.1, second hypernym: troy unit.n.1 | hyponyms:
+
+predicted: grain apothecaries' unit
+ 
+true: troy pound
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: apothecaries' unit.n.1, second hypernym: troy unit.n.1 | hyponyms:
+
+predicted: troy ounce unit of apothe
+ 
+true: troy pound
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: meeting.n.2, second hypernym: breakfast.n.1 | hyponyms:
+
+predicted: breakfast meeting of mindsn, breakfast meeting
+ 
+true: power breakfast
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: meeting.n.2, second hypernym: breakfast.n.1 | hyponyms:
+
+predicted: breakfast meeting of the minds, breakfast meeting
+ 
+true: power breakfast
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: wolf.n.1, second hypernym: young mammal.n.1 | hyponyms:
+
+predicted: puppy wolf, cub wolf
+ 
+true: wolf pup
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: wolf.n.1, second hypernym: young mammal.n.1 | hyponyms:
+
+predicted: puppy wolf, young wolf
+ 
+true: wolf pup
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: emergency procedure.n.1, second hypernym: resuscitation.n.1 | hyponyms:
+
+predicted: cardiopulmonary resuscitation
+ 
+true: cardiopulmonary resuscitation
+ 
+intersection: cardiopulmonary resuscitation
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: emergency procedure.n.1, second hypernym: resuscitation.n.1 | hyponyms:
+
+predicted: cardiopulmonary resuscitation
+ 
+true: cardiopulmonary resuscitation
+ 
+intersection: cardiopulmonary resuscitation
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: building block.n.2, second hypernym: stone.n.2 | hyponyms:
+
+predicted: stone block or stonework block or stone
+ 
+true: ashlar
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: building block.n.2, second hypernym: stone.n.2 | hyponyms:
+
+predicted: brickbat, cobblestone,
+ 
+true: ashlar
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: law enforcement agency.n.1, second hypernym: judiciary.n.2 | hyponyms:
+
+predicted: court system, police force, prosec
+ 
+true: Federal Judiciary
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: law enforcement agency.n.1, second hypernym: judiciary.n.2 | hyponyms:
+
+predicted: federal marshal service, federal marshal
+ 
+true: Federal Judiciary
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: compact disk.n.1, second hypernym: read-only memory.n.1 | hyponyms:
+
+predicted: CD-ROM drive, CD-ROM
+ 
+true: CD-ROM
+ 
+intersection: cd rom
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: compact disk.n.1, second hypernym: read-only memory.n.1 | hyponyms:
+
+predicted: compact disk read-only memory diskette
+ 
+true: CD-ROM
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: enthusiasm.n.1, second hypernym: joy.n.1 | hyponyms:
+
+predicted: exultation, glee, j
+ 
+true: exuberance
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: enthusiasm.n.1, second hypernym: joy.n.1 | hyponyms:
+
+predicted: jubilation, jollity,
+ 
+true: exuberance
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: impact printer.n.1, second hypernym: dot matrix printer.n.1 | hyponyms:
+
+predicted: daisy wheel printer, inkjet
+ 
+true: wire matrix printer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: impact printer.n.1, second hypernym: dot matrix printer.n.1 | hyponyms:
+
+predicted: daisy wheel printer, line printer,
+ 
+true: wire matrix printer
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bass.n.7, second hypernym: bowed stringed instrument.n.1 | hyponyms:
+
+predicted: double bass or bass violin or viol
+ 
+true: bass fiddle
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bass.n.7, second hypernym: bowed stringed instrument.n.1 | hyponyms:
+
+predicted: double bass or violoncello bass
+ 
+true: bass fiddle
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: roarer.n.1, second hypernym: peddler.n.1 | hyponyms:
+
+predicted: barker-peddler,
+ 
+true: crier
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: roarer.n.1, second hypernym: peddler.n.1 | hyponyms:
+
+predicted: cryer-roarer, c
+ 
+true: crier
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: beater.n.2, second hypernym: mixer.n.4 | hyponyms:
+
+predicted: beater mixer, hand mixer
+ 
+true: eggbeater
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: beater.n.2, second hypernym: mixer.n.4 | hyponyms:
+
+predicted: hand-held mixer, mix
+ 
+true: eggbeater
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bleaching agent.n.1, second hypernym: peroxide.n.2 | hyponyms:
+
+predicted: hydrogen peroxide bleach pow
+ 
+true: benzoyl peroxide
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bleaching agent.n.1, second hypernym: peroxide.n.2 | hyponyms:
+
+predicted: hydrogen peroxide solution, per
+ 
+true: benzoyl peroxide
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: labial consonant.n.1, second hypernym: stop consonant.n.1 | hyponyms:
+
+predicted: labial stop consonant nn
+ 
+true: labial stop
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: labial consonant.n.1, second hypernym: stop consonant.n.1 | hyponyms:
+
+predicted: labial stop consonant n,
+ 
+true: labial stop
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: boundary.n.2, second hypernym: round shape.n.1 | hyponyms:
+
+predicted: circumference of a circle, circumference
+ 
+true: rim
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: boundary.n.2, second hypernym: round shape.n.1 | hyponyms:
+
+predicted: circle line or circumference line or circum
+ 
+true: rim
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: embellishment.n.2, second hypernym: carving.n.1 | hyponyms:
+
+predicted: carving on stone, carving on
+ 
+true: vermiculation
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: embellishment.n.2, second hypernym: carving.n.1 | hyponyms:
+
+predicted: carving on woodwork, carving
+ 
+true: vermiculation
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: pneumonia.n.1, second hypernym: pleurisy.n.1 | hyponyms:
+
+predicted: lobar pneumonia and pleur
+ 
+true: pleuropneumonia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: pneumonia.n.1, second hypernym: pleurisy.n.1 | hyponyms:
+
+predicted: pleuritic pneumonia,
+ 
+true: pleuropneumonia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: humate.n.1, second hypernym: vegetable matter.n.1 | hyponyms:
+
+predicted: humic acid compounds, humic
+ 
+true: peat
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: humate.n.1, second hypernym: vegetable matter.n.1 | hyponyms:
+
+predicted: humic acid compound matter, hum
+ 
+true: peat
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: male.n.1, second hypernym: foal.n.1 | hyponyms:
+
+predicted: colt or filly foal,
+ 
+true: colt
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: male.n.1, second hypernym: foal.n.1 | hyponyms:
+
+predicted: colt or filly foal,
+ 
+true: colt
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: charity.n.3, second hypernym: pillar of Islam.n.1 | hyponyms:
+
+predicted: zakat or alms-giving
+ 
+true: zakat
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: charity.n.3, second hypernym: pillar of Islam.n.1 | hyponyms:
+
+predicted: zakat charity taxation for the
+ 
+true: zakat
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: company.n.2, second hypernym: militia.n.1 | hyponyms:
+
+predicted: Home Guard company, militia company,
+ 
+true: trainband
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: company.n.2, second hypernym: militia.n.1 | hyponyms:
+
+predicted: state guard company, state militia company
+ 
+true: trainband
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: emulsifier.n.1, second hypernym: phospholipid.n.1 | hyponyms:
+
+predicted: lecithin phospholip
+ 
+true: lecithin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: emulsifier.n.1, second hypernym: phospholipid.n.1 | hyponyms:
+
+predicted: lecithin phospholip
+ 
+true: lecithin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: fever.n.1, second hypernym: hyperthermia.n.1 | hyponyms:
+
+predicted: pyrexia of unknown origin (
+ 
+true: hyperpyrexia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: fever.n.1, second hypernym: hyperthermia.n.1 | hyponyms:
+
+predicted: pyrexia of unknown origin synd
+ 
+true: hyperpyrexia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========

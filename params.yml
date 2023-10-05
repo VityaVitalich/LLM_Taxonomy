@@ -5,15 +5,15 @@ CUDA_VISIBLE_DEVICES:
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 4
+  - 16
 LR:
   - 3e-4
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/filtered_wnet/global_train_babel.pickle"
+  - "babel_datasets/v2_wnet_train.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/filtered_wnet/global_test_babel.pickle"
+  - "babel_datasets/v2_wnet_test.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,8 +25,8 @@ DTYPE:
 LOG_PRED_EVERY:
 - 1000
 DATA_PREPROC_STYLE:
-- "wnet_filtered_instruct"
+- "wnet2_filtered_instruct"
 QLORA:
-- false
+- true
 LOAD_PATH:
 - null 

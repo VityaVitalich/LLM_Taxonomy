@@ -23,6 +23,7 @@ from dataset.prompt_schemas import (
     predict_child_with_parent_and_grandparent,
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
+    predict_parent_from_child,
 )
 
 
@@ -39,12 +40,13 @@ if __name__ == "__main__":
     df = pd.read_pickle(test_path)
 
     transforms = {
-        "only_child_leaf": predict_parent_from_child_granparent,
+        "only_child_leaf": predict_child_with_parent_and_grandparent,  # заменить на предсказание ребенка
         "only_leafs_all": predict_child_from_parent,
         "only_leafs_divided": predict_children_with_parent_and_brothers,
         "leafs_and_no_leafs": predict_child_from_parent,
         "simple_triplet_grandparent": predict_parent_from_child_granparent,
         "simple_triplet_2parent": predict_child_from_2_parents,
+        "predict_hypernym": predict_parent_from_child,
     }
 
     with open(saving_path, "rb") as fp:
