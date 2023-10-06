@@ -111,6 +111,7 @@ if __name__ == "__main__":
     if params_list["QLORA"][0] == True:
         extra_model_params["load_in_4bit"] = True
 
+    print(config.model_checkpoint)
     model = model_type.from_pretrained(
         config.model_checkpoint,
         device_map="auto",
@@ -133,15 +134,21 @@ if __name__ == "__main__":
         LORA_ALPHA = 16
         LORA_DROPOUT = 0.05
         LORA_TARGET_MODULES = [
-            "q",
-            "v",
-        ]
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj",
+        "lm_head",
+    ]
 
         # model = prepare_model_for_int8_training(model)
         config_lora = LoraConfig(
             r=LORA_R,
             lora_alpha=LORA_ALPHA,
-            # target_modules=LORA_TARGET_MODULES,
+            target_modules=LORA_TARGET_MODULES,
             lora_dropout=LORA_DROPOUT,
             bias="none",
             task_type="CAUSAL_LM",
