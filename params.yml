@@ -1,12 +1,11 @@
 SEED:
   - 42
 CUDA_VISIBLE_DEVICES:
-  - 2
-  - 3
+  - 0
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 16
+  - 32
 LR:
   - 3e-4
 MIN_LR:
@@ -18,15 +17,15 @@ TEST_DATA_PATH:
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - "Auto"
+  - "Llama"
 MODEL_CHECKPOINT:
-  - "mistralai/Mistral-7B-Instruct-v0.1"
+  - "meta-llama/Llama-2-7b-hf"
 DTYPE:
 - "half"
 LOG_PRED_EVERY:
-- 1000
+  - 100
 DATA_PREPROC_STYLE:
-- "wnet2_filtered_instruct"
+- "wnet2_filtered_instruct_coma"
 QLORA:
 - true
 LOAD_PATH:

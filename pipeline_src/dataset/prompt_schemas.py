@@ -61,7 +61,7 @@ def predict_child_with_parent_and_grandparent(elem):
         + clean["parents"]
         + " | hyponyms:"
     )
-    return transformed_term, clean["children"]
+    return transformed_term, clean["children"] + ","
 
 
 def predict_child_from_parent(elem):
@@ -77,7 +77,7 @@ def predict_child_from_parent(elem):
     #     "Predict hyponyms for the word '" + clean["parents"] + "'.  Answer:"
     # )
     transformed_term = "hypernym: " + clean["parents"] + " | hyponyms:"
-    return transformed_term, ", ".join(clean["children"])
+    return transformed_term, ", ".join(clean["children"]) + ", "
 
 
 def predict_children_with_parent_and_brothers(elem):
@@ -105,7 +105,7 @@ def predict_children_with_parent_and_brothers(elem):
         + ", ".join(clean["brothers"])
         + " | other hyponyms:"
     )
-    return transformed_term, ", ".join(clean["children"])
+    return transformed_term, ", ".join(clean["children"]) + ","
 
 
 def predict_child_from_2_parents(elem):
@@ -128,7 +128,7 @@ def predict_child_from_2_parents(elem):
         + clean["parents"][1]
         + " | hyponyms:"
     )
-    return transformed_term, clean["children"]
+    return transformed_term, clean["children"] + ","
 
 
 def predict_parent_from_child_granparent(elem):
@@ -151,7 +151,7 @@ def predict_parent_from_child_granparent(elem):
         + clean["children"]
         + " | hypernym:"
     )
-    return transformed_term, clean["parents"]
+    return transformed_term, clean["parents"] + ","
 
 
 def predict_parent_from_child(elem):
@@ -161,4 +161,4 @@ def predict_parent_from_child(elem):
     clean = clean_elem(elem, keys_to_remove_digits=["parents"])
     transformed_term = "hyponym: " + clean["children"] + " | hypernym:"
     # print(clean)
-    return transformed_term, clean["parents"]
+    return transformed_term, clean["parents"] + ","

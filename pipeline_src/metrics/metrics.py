@@ -14,7 +14,8 @@ class Metric:
 
         res = []
         for hyp in clean_line:
-            res.append(hyp.lower().strip())
+            if not hyp in ("", " ", ", ", ","):
+                res.append(hyp.lower().strip())
 
         return res
 
