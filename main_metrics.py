@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     all_labels = []
     all_terms = []
-    cased = {}
+    cased = {"all_hyponyms": {"pred": [], "label": [], "term": []}}
 
     for i, elem in enumerate(df):
         try:
@@ -77,6 +77,12 @@ if __name__ == "__main__":
         cased[case]["pred"].append(all_preds[i])
         cased[case]["label"].append(target)
         cased[case]["term"].append(processed_term)
+
+        if case in ("leafs_and_no_leafs", "only_leafs_all", "only_child_leaf"):
+            cur_case = "all_hyponyms"
+            cased[cur_case]["pred"].append(all_preds[i])
+            cased[cur_case]["label"].append(target)
+            cased[cur_case]["term"].append(processed_term)
 
     print("total preds:" + str(len(all_preds)))
     print("total labels:" + str(len(all_labels)))

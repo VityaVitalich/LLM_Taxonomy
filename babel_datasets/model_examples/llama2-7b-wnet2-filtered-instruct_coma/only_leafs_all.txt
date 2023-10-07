@@ -631,7 +631,7 @@ predicted: feminine, masculine, neuter
  
 true: feminine, masculine, neuter, 
  
-intersection: feminine,masculine,neuter
+intersection: masculine,neuter,feminine
 
 metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
 
@@ -884,7 +884,7 @@ predicted: Tamil, Telugu,
  
 true: Badaga, Kanarese, Gadaba, Gond, Kolam, Kota, Kui, Malto, Savara, Tamil, Telugu, Toda, Tulu, 
  
-intersection: tamil,telugu
+intersection: telugu,tamil
 
 metrics:  MRR 1.0 MAP 0.221051504051504 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.15384615384615385 
 
@@ -895,7 +895,7 @@ predicted: Tamil, Telugu, K
  
 true: Badaga, Kanarese, Gadaba, Gond, Kolam, Kota, Kui, Malto, Savara, Tamil, Telugu, Toda, Tulu, 
  
-intersection: tamil,telugu
+intersection: telugu,tamil
 
 metrics:  MRR 1.0 MAP 0.221051504051504 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.15384615384615385 
 
@@ -983,7 +983,7 @@ predicted: Quiche, Kekchi,
  
 true: Cakchiquel, Kekchi, Mam, Quiche, Yucatec, 
  
-intersection: kekchi,quiche
+intersection: quiche,kekchi
 
 metrics:  MRR 1.0 MAP 0.43133333333333324 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.4 
 
@@ -1027,7 +1027,7 @@ predicted: x axis, y axis, z axis
  
 true: x-axis, y-axis, z-axis, 
  
-intersection: y axis,x axis,z axis
+intersection: x axis,z axis,y axis
 
 metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
 

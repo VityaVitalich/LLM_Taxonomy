@@ -70,7 +70,7 @@ predicted: black ash, green ash, white ash
  
 true: Arizona ash, black ash, blue ash, European ash, manna ash, flowering ash, flowering ash, white ash, swamp ash, Oregon ash, mountain ash, pumpkin ash, 
  
-intersection: black ash,white ash
+intersection: white ash,black ash
 
 metrics:  MRR 1.0 MAP 0.22079509379509374 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.16666666666666666 
 
@@ -81,7 +81,7 @@ predicted: black ash, mountain ash, 2
  
 true: Arizona ash, black ash, blue ash, European ash, manna ash, flowering ash, flowering ash, white ash, swamp ash, Oregon ash, mountain ash, pumpkin ash, 
  
-intersection: black ash,mountain ash
+intersection: mountain ash,black ash
 
 metrics:  MRR 1.0 MAP 0.23079509379509378 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.16666666666666666 
 
@@ -1258,7 +1258,7 @@ predicted: bonfire, campfire, conflagr
  
 true: backfire, bonfire, brush fire, campfire, grassfire, smoulder, smudge, 
  
-intersection: campfire,bonfire
+intersection: bonfire,campfire
 
 metrics:  MRR 1.0 MAP 0.32942857142857135 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.2857142857142857 
 
