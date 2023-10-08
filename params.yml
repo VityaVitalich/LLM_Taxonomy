@@ -5,7 +5,7 @@ CUDA_VISIBLE_DEVICES:
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 32
+  - 64
 LR:
   - 3e-4
 MIN_LR:
