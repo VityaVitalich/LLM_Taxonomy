@@ -1,7 +1,7 @@
 SEED:
   - 0
 CUDA_VISIBLE_DEVICES:
-  - 2
+  - 0
 EPOCHS:
   - 4
 BATCH_SIZE:
@@ -27,7 +27,7 @@ LOG_PRED_EVERY:
 DATA_PREPROC_STYLE:
 - "wnet2"
 LOAD_PATH:
-- "meta-llama-Llama-2-7b-hfwnet2_filtered_instruct_coma_custom_multilang_epoch=0_MAP=0.2373052825858948.pth"
+- "meta-llama-Llama-2-7b-hfwnet2_filtered_instruct_coma_custom_multilang_epoch=0_MAP=0.15071075749647178.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
@@ -41,6 +41,6 @@ TEMPERATURE:
 TOP_K:
 - 20
 NUM_RETURN_SEQUENCES:
-- 1
+- 2
 QLORA:
 - true

@@ -11,8 +11,8 @@ class TaskConfig:
     gen_args: Dict[str, Any] = field(
         default_factory=lambda: {
             "do_sample": True,
-            "num_beams": 6,
-            "num_return_sequences": 1,
+            "num_beams": 1,
+            "num_return_sequences": 2,
             "max_new_tokens": 8,
             "top_k": 20,
         }

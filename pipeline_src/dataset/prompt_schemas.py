@@ -1,9 +1,16 @@
+import os
+
+use_def = os.environ.get("USE_DEF")
+
+
 def clean_elem(elem, keys_to_remove_digits=["children"]):
     removes = set(keys_to_remove_digits)
     if not "changed" in elem.keys():
         for field in ["children", "parents", "grandparents", "brothers"]:
             if field in elem.keys():
-                elem[field] = delete_techniqal(elem[field], remove=(field in removes))
+                elem[field] = delete_techniqal(
+                    elem[field], remove=True
+                )  # (field in removes))
                 elem["changed"] = True
     return elem
 
@@ -54,13 +61,27 @@ def predict_child_with_parent_and_grandparent(elem):
     #     + clean["parents"]
     #     + "'. Answer:"
     # )
-    transformed_term = (
-        "hyperhypernyms: "
-        + clean["grandparents"]
-        + ", hypernym: "
-        + clean["parents"]
-        + " | hyponyms:"
-    )
+
+    if use_def:
+        transformed_term = (
+            "hyperhypernyms: "
+            + clean["grandparents"]
+            + " ("
+            + elem["grandparent_def"]
+            + "), hypernym: "
+            + clean["parents"]
+            + " ("
+            + elem["parent_def"]
+            + ") | hyponyms:"
+        )
+    else:
+        transformed_term = (
+            "hyperhypernyms: "
+            + clean["grandparents"]
+            + ", hypernym: "
+            + clean["parents"]
+            + " | hyponyms:"
+        )
     return transformed_term, clean["children"] + ","
 
 
@@ -76,7 +97,17 @@ def predict_child_from_parent(elem):
     # transformed_term = (
     #     "Predict hyponyms for the word '" + clean["parents"] + "'.  Answer:"
     # )
-    transformed_term = "hypernym: " + clean["parents"] + " | hyponyms:"
+
+    if use_def:
+        transformed_term = (
+            "hypernym: "
+            + clean["parents"]
+            + " ("
+            + elem["parent_def"]
+            + ") | hyponyms:"
+        )
+    else:
+        transformed_term = "hypernym: " + clean["parents"] + " | hyponyms:"
     return transformed_term, ", ".join(clean["children"]) + ", "
 
 
@@ -98,13 +129,24 @@ def predict_children_with_parent_and_brothers(elem):
     #     + clean["parents"]
     #     + "'. Answer:"
     # )
-    transformed_term = (
-        "hypernym: "
-        + clean["parents"]
-        + ", hyponyms:"
-        + ", ".join(clean["brothers"])
-        + " | other hyponyms:"
-    )
+    if use_def:
+        transformed_term = (
+            "hypernym: "
+            + clean["parents"]
+            + " ("
+            + elem["parent_def"]
+            + "), hyponyms:"
+            + ", ".join(clean["brothers"])
+            + " | other hyponyms:"
+        )
+    else:
+        transformed_term = (
+            "hypernym: "
+            + clean["parents"]
+            + ", hyponyms:"
+            + ", ".join(clean["brothers"])
+            + " | other hyponyms:"
+        )
     return transformed_term, ", ".join(clean["children"]) + ","
 
 
@@ -121,13 +163,26 @@ def predict_child_from_2_parents(elem):
     #     + clean["parents"][1]
     #     + "'. Answer:"
     # )
-    transformed_term = (
-        "first hypernym: "
-        + clean["parents"][0]
-        + ", second hypernym: "
-        + clean["parents"][1]
-        + " | hyponyms:"
-    )
+    if use_def:
+        transformed_term = (
+            "first hypernym: "
+            + clean["parents"][0]
+            + " ("
+            + elem["1parent_def"]
+            + "), second hypernym: "
+            + clean["parents"][1]
+            + " ("
+            + elem["2parent_def"]
+            + ") | hyponyms:"
+        )
+    else:
+        transformed_term = (
+            "first hypernym: "
+            + clean["parents"][0]
+            + ", second hypernym: "
+            + clean["parents"][1]
+            + " | hyponyms:"
+        )
     return transformed_term, clean["children"] + ","
 
 
@@ -144,13 +199,26 @@ def predict_parent_from_child_granparent(elem):
     #     + clean["grandparents"]
     #     + "' at the same time. Answer:"
     # )
-    transformed_term = (
-        "hyperhypenym: "
-        + clean["grandparents"]
-        + ", hyponym: "
-        + clean["children"]
-        + " | hypernym:"
-    )
+    if use_def:
+        transformed_term = (
+            "hyperhypenym: "
+            + clean["grandparents"]
+            + " ("
+            + elem["grandparent_def"]
+            + "), hyponym: "
+            + clean["children"]
+            + " ("
+            + elem["child_def"]
+            + ") | hypernym:"
+        )
+    else:
+        transformed_term = (
+            "hyperhypenym: "
+            + clean["grandparents"]
+            + ", hyponym: "
+            + clean["children"]
+            + " | hypernym:"
+        )
     return transformed_term, clean["parents"] + ","
 
 
@@ -159,6 +227,12 @@ def predict_parent_from_child(elem):
     Predict the hypernym for the word “spaniel”. Answer: (sporting dog)
     """
     clean = clean_elem(elem, keys_to_remove_digits=["parents"])
-    transformed_term = "hyponym: " + clean["children"] + " | hypernym:"
+
+    if use_def:
+        transformed_term = (
+            "hyponym: " + clean["children"] + " (" + elem["child_def"] + ") | hypernym:"
+        )
+    else:
+        transformed_term = "hyponym: " + clean["children"] + " | hypernym:"
     # print(clean)
     return transformed_term, clean["parents"] + ","
