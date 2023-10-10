@@ -148,7 +148,7 @@ if __name__ == "__main__":
         config_lora = LoraConfig(
             r=LORA_R,
             lora_alpha=LORA_ALPHA,
-         #   target_modules=LORA_TARGET_MODULES,
+            target_modules=LORA_TARGET_MODULES,
             lora_dropout=LORA_DROPOUT,
             bias="none",
             task_type="CAUSAL_LM",

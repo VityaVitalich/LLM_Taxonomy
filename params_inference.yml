@@ -5,15 +5,15 @@ CUDA_VISIBLE_DEVICES:
 EPOCHS:
   - 4
 BATCH_SIZE:
-  - 4
+  - 16
 LR:
   - 3e-4
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/v2_wnet_train.pickle"
+  - "babel_datasets/v2_wnet_def_train.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/v2_wnet_test.pickle"
+  - "babel_datasets/v2_wnet_def_test.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,19 +25,19 @@ DTYPE:
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "wnet2"
+- "wnet2_def"
 LOAD_PATH:
-- "meta-llama-Llama-2-7b-hfwnet2_filtered_instruct_coma_custom_multilang_epoch=0_MAP=0.15071075749647178.pth"
+- "meta-llama-Llama-2-7b-hfwnet2_def_coma_custom_multilang_epoch=0_MAP=0.2394317810075267.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
 - "stohastic"
 NUM_BEAMS:
-- 8
+- 1
 MAX_NEW_TOKENS:
 - 36
 TEMPERATURE:
-- 0.85
+- 1
 TOP_K:
 - 20
 NUM_RETURN_SEQUENCES:

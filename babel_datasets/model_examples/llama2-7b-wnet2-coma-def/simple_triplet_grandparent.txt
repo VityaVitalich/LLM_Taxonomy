@@ -1,0 +1,770 @@
+hyperhypenym: company, hyponym: utility | hypernym:
+
+predicted: corporation, 2. business,
+ 
+true: service,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: company, hyponym: utility | hypernym:
+
+predicted: corporation, 2. business firm
+ 
+true: service,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: intestine, hyponym: colon | hypernym:
+
+predicted: large intestine, 2.
+ 
+true: large intestine,
+ 
+intersection: large intestine
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: intestine, hyponym: colon | hypernym:
+
+predicted: large intestine, 2.
+ 
+true: large intestine,
+ 
+intersection: large intestine
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: area, hyponym: cross section | hypernym:
+
+predicted: section, 2-dimensional surface,
+ 
+true: section,
+ 
+intersection: section
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: area, hyponym: cross section | hypernym:
+
+predicted: section, 2-dimensional surface,
+ 
+true: section,
+ 
+intersection: section
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: sugar, hyponym: powdered sugar | hypernym:
+
+predicted: confectioner's sugar, 
+ 
+true: granulated sugar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: sugar, hyponym: powdered sugar | hypernym:
+
+predicted: icing sugar, confectioner'
+ 
+true: granulated sugar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: marking, hyponym: band | hypernym:
+
+predicted: stripe, 2. stripe
+ 
+true: stripe,
+ 
+intersection: stripe
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: marking, hyponym: band | hypernym:
+
+predicted: stripe, 2. stripe
+ 
+true: stripe,
+ 
+intersection: stripe
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: geological phenomenon, hyponym: lode | hypernym:
+
+predicted: deposit, igneous rock,
+ 
+true: deposit,
+ 
+intersection: deposit
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: geological phenomenon, hyponym: lode | hypernym:
+
+predicted: deposit, igneous intrusion
+ 
+true: deposit,
+ 
+intersection: deposit
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: organism, hyponym: freak | hypernym:
+
+predicted: monstrosity, oddity,
+ 
+true: mutant,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: organism, hyponym: freak | hypernym:
+
+predicted: oddity, 2. monst
+ 
+true: mutant,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: peripheral, hyponym: dot matrix printer | hypernym:
+
+predicted: printer, 80-column printer
+ 
+true: printer,
+ 
+intersection: printer
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: peripheral, hyponym: dot matrix printer | hypernym:
+
+predicted: printer, 2. printer, 
+ 
+true: printer,
+ 
+intersection: printer
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: speculation, hyponym: stake | hypernym:
+
+predicted: gamble, bet, 10
+ 
+true: gamble,
+ 
+intersection: gamble
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: speculation, hyponym: stake | hypernym:
+
+predicted: gamble, wager, 1
+ 
+true: gamble,
+ 
+intersection: gamble
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: principle, hyponym: pillar of Islam | hypernym:
+
+predicted: pillar, 5 pillar,
+ 
+true: pillar,
+ 
+intersection: pillar
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: principle, hyponym: pillar of Islam | hypernym:
+
+predicted: pillar, principle of Islam, 
+ 
+true: pillar,
+ 
+intersection: pillar
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: determination, hyponym: diagnosis | hypernym:
+
+predicted: identification, 2. identification, 
+ 
+true: designation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: determination, hyponym: diagnosis | hypernym:
+
+predicted: diagnosis, 2. classification,
+ 
+true: designation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: drug, hyponym: vasodilator | hypernym:
+
+predicted: vasodilating drug, cardiot
+ 
+true: dilator,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: drug, hyponym: vasodilator | hypernym:
+
+predicted: vasodilating agent, ether
+ 
+true: dilator,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ax, hyponym: battle-ax | hypernym:
+
+predicted: broadax, 2-hand
+ 
+true: broadax,
+ 
+intersection: broadax
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: ax, hyponym: battle-ax | hypernym:
+
+predicted: broadax, battle-axe
+ 
+true: broadax,
+ 
+intersection: broadax
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: closed curve, hyponym: loop | hypernym:
+
+predicted: oval, 360,
+ 
+true: simple closed curve,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: closed curve, hyponym: loop | hypernym:
+
+predicted: curve, oval, round, 
+ 
+true: simple closed curve,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: orthography, hyponym: hieratic | hypernym:
+
+predicted: cursive, 2, 3
+ 
+true: hieroglyph,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: orthography, hyponym: hieratic | hypernym:
+
+predicted: cursive, 2, hierog
+ 
+true: hieroglyph,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: resistance, hyponym: backlash | hypernym:
+
+predicted: reaction, 2. noncooperation
+ 
+true: reaction,
+ 
+intersection: reaction
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: resistance, hyponym: backlash | hypernym:
+
+predicted: counteraction, counterreaction, opposition
+ 
+true: reaction,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cleric, hyponym: absolver | hypernym:
+
+predicted: confessor, confessor, 2
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cleric, hyponym: absolver | hypernym:
+
+predicted: confessor, 2. cleric
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: depository, hyponym: maildrop | hypernym:
+
+predicted: drop, 1. a place where
+ 
+true: drop,
+ 
+intersection: drop
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: depository, hyponym: maildrop | hypernym:
+
+predicted: drop, 2. mailbox,
+ 
+true: drop,
+ 
+intersection: drop
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: shape, hyponym: roundedness | hypernym:
+
+predicted: convexity, 2. curvature
+ 
+true: convexity,
+ 
+intersection: convexity
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: shape, hyponym: roundedness | hypernym:
+
+predicted: convexity, 2. concav
+ 
+true: convexity,
+ 
+intersection: convexity
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: placental, hyponym: stag | hypernym:
+
+predicted: deer, 2, 3
+ 
+true: buck,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: placental, hyponym: stag | hypernym:
+
+predicted: deer, 2. carib
+ 
+true: buck,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ethyl alcohol, hyponym: methylated spirit | hypernym:
+
+predicted: ethanol, ethanol,
+ 
+true: denatured alcohol,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ethyl alcohol, hyponym: methylated spirit | hypernym:
+
+predicted: alcohol, 95 percent alco
+ 
+true: denatured alcohol,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: legal right, hyponym: right to vote | hypernym:
+
+predicted: voting right, 15th am
+ 
+true: franchise,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: legal right, hyponym: right to vote | hypernym:
+
+predicted: suffrage, 19th am
+ 
+true: franchise,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: increase, hyponym: incorporation | hypernym:
+
+predicted: addition, accretion, accru
+ 
+true: inclusion,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: increase, hyponym: incorporation | hypernym:
+
+predicted: incorporation, enlargement, 
+ 
+true: inclusion,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: furniture, hyponym: bed | hypernym:
+
+predicted: bedroom furniture, 2.
+ 
+true: bedroom furniture,
+ 
+intersection: bedroom furniture
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: furniture, hyponym: bed | hypernym:
+
+predicted: bedroom furniture, 2.
+ 
+true: bedroom furniture,
+ 
+intersection: bedroom furniture
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: hydrocarbon, hyponym: benzene | hypernym:
+
+predicted: aromatic hydrocarbon, 
+ 
+true: aromatic hydrocarbon,
+ 
+intersection: aromatic hydrocarbon
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: hydrocarbon, hyponym: benzene | hypernym:
+
+predicted: aromatic hydrocarbon, 
+ 
+true: aromatic hydrocarbon,
+ 
+intersection: aromatic hydrocarbon
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: fraction, hyponym: decimal fraction | hypernym:
+
+predicted: rational fraction, proper fraction, 1
+ 
+true: proper fraction,
+ 
+intersection: proper fraction
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: fraction, hyponym: decimal fraction | hypernym:
+
+predicted: rational fraction, 1/10
+ 
+true: proper fraction,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: operation, hyponym: expedition | hypernym:
+
+predicted: military campaign, campaign, 2.
+ 
+true: campaign,
+ 
+intersection: campaign
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: operation, hyponym: expedition | hypernym:
+
+predicted: military campaign, 2. military action
+ 
+true: campaign,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: lawman, hyponym: wardress | hypernym:
+
+predicted: warder, 2. j
+ 
+true: warder,
+ 
+intersection: warder
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: lawman, hyponym: wardress | hypernym:
+
+predicted: warder, 2. j
+ 
+true: warder,
+ 
+intersection: warder
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: cleric, hyponym: absolver | hypernym:
+
+predicted: absolver, priest, 2,
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cleric, hyponym: absolver | hypernym:
+
+predicted: confessor, 2. priest,
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: change of integrity, hyponym: cut | hypernym:
+
+predicted: penetration, 2. te
+ 
+true: opening,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: change of integrity, hyponym: cut | hypernym:
+
+predicted: incision, 2. severance
+ 
+true: opening,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: semidarkness, hyponym: shadow | hypernym:
+
+predicted: shade, 2. gloom
+ 
+true: shade,
+ 
+intersection: shade
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: semidarkness, hyponym: shadow | hypernym:
+
+predicted: shade, 2. twil
+ 
+true: shade,
+ 
+intersection: shade
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: loaf of bread, hyponym: fish loaf | hypernym:
+
+predicted: fishcake, 12-
+ 
+true: meat loaf,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: loaf of bread, hyponym: fish loaf | hypernym:
+
+predicted: fishcake, 198
+ 
+true: meat loaf,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cartilaginous fish, hyponym: chimaera | hypernym:
+
+predicted: ratfish, 2, 3
+ 
+true: holocephalan,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cartilaginous fish, hyponym: chimaera | hypernym:
+
+predicted: ratfish, raphid, 
+ 
+true: holocephalan,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: assertion, hyponym: negation | hypernym:
+
+predicted: speech act, denial, 3
+ 
+true: denial,
+ 
+intersection: denial
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: assertion, hyponym: negation | hypernym:
+
+predicted: speech act, affirmation, 
+ 
+true: denial,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: right, hyponym: door | hypernym:
+
+predicted: access, doorway, 27
+ 
+true: entree,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: right, hyponym: door | hypernym:
+
+predicted: access, 2. right of access
+ 
+true: entree,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========

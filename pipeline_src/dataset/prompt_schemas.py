@@ -1,6 +1,6 @@
 import os
 
-use_def = os.environ.get("USE_DEF")
+use_def = os.getenv("USE_DEF", "False") == "True"
 
 
 def clean_elem(elem, keys_to_remove_digits=["children"]):

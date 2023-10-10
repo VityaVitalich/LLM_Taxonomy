@@ -1,8 +1,8 @@
 TEST_DATA_PATH:
-  - "babel_datasets/v2_wnet_test.pickle"
+  - "babel_datasets/v2_wnet_lemmas_test.pickle"
 OUTPUT_NAME:
-  - "/home/mnt/public-datasets/rabikov/model_outputs/_meta-llama-Llama-2-7b-hfwnet2_filtered_instruct_coma_0"
+  - "/home/mnt/public-datasets/rabikov/model_outputs/_meta-llama-Llama-2-7b-hfwnet2_lemmas_coma_0"
 SAVE_EXAMPLES:
   - true
 SAVE_EXAMPLES_PATH:
-  - "babel_datasets/model_examples/llama2-7b-wnet2-filtered-instruct_coma"
+  - "babel_datasets/model_examples/llama2-7b-wnet2-lemmas"

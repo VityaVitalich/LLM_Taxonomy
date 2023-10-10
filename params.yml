@@ -17,9 +17,9 @@ TEST_DATA_PATH:
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - "Llama"
+  - "Auto"
 MODEL_CHECKPOINT:
-  - "meta-llama/Llama-2-7b-hf"
+  - "mistralai/Mistral-7B-Instruct-v0.1"
 DTYPE:
 - "half"
 LOG_PRED_EVERY:

@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     if params_list["STRATEGY"][0] == "stohastic":
         config.gen_args = {
-            "no_repeat_ngram_size": 3,
+            # "no_repeat_ngram_size": 3,
             "do_sample": True,
             "min_new_tokens": params_list["MAX_NEW_TOKENS"][0] - 1,
             "max_new_tokens": params_list["MAX_NEW_TOKENS"][0],

@@ -1,10 +1,9 @@
 SEED:
   - 42
 CUDA_VISIBLE_DEVICES:
-  - 2
-  - 3
+  - 1
 BATCH_SIZE:
-  - 32
+  - 64
 STRATEGY:
   - "ppl_top_collector"
 TOP_K:
@@ -12,10 +11,10 @@ TOP_K:
 NAME:
   - "first_test_top10"
 MODEL_CHECKPOINT:
-  - "VityaVitalich/Llama2-7b-hf-4b-lora-wnet"
+  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-lemmas"
 OUT_NAME:
-  - 'data/food_combined_ppl_dict.pickle'
+  - 'data/env_eurovoc_pairs_leaf_no_leafs_ppl.pickle'
 IN_NAME:
-  - 'data/food_combined_pairs.pickle'
+  - 'data/env_eurovoc_pairs_leaf_no_leafs.pickle'
 LOAD:
-  - true
+  - false

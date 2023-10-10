@@ -1,0 +1,770 @@
+hyperhypenym: company (an institution created to conduct business), hyponym: utility (a company that performs a public service; subject to government regulation) | hypernym:
+
+predicted: enterprise, 2. corporation, firm, 3. business firm, concern, 4. joint-stock company, 5. company, 6. joint
+ 
+true: service,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: company (an institution created to conduct business), hyponym: utility (a company that performs a public service; subject to government regulation) | hypernym:
+
+predicted: business enterprise, 2. corporation, business, 3. company, concern, organization, 4. concern, 5. joint-stock company, 6
+ 
+true: service,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: intestine (the part of the alimentary canal between the stomach and the anus), hyponym: colon (the part of the large intestine between the cecum and the rectum; it extracts moisture from food residues before they are excreted) | hypernym:
+
+predicted: large intestine, 2. rectum, 3. sigmoid, 4. transverse colon, 5. descending colon, 6. c
+ 
+true: large intestine,
+ 
+intersection: large intestine
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: intestine (the part of the alimentary canal between the stomach and the anus), hyponym: colon (the part of the large intestine between the cecum and the rectum; it extracts moisture from food residues before they are excreted) | hypernym:
+
+predicted: large intestine, 2. small intestine, 3. rectum, 4. cecum, 5. ileum, 6.
+ 
+true: large intestine,
+ 
+intersection: large intestine
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: area (the extent of a 2-dimensional surface enclosed within a boundary), hyponym: cross section (a section created by a plane cutting a solid perpendicular to its longest axis) | hypernym:
+
+predicted: section, area defined by a plane, 2-dimensional surface, 2-dimensional cross section, 2-dimensional cut, cut, section, 2-dimensional cross
+ 
+true: section,
+ 
+intersection: section
+
+metrics:  MRR 1.0 MAP 1.88 P@1 1.0 P@3 1.0 P@5 1.0 P@15 2.0 
+
+==========
+hyperhypenym: area (the extent of a 2-dimensional surface enclosed within a boundary), hyponym: cross section (a section created by a plane cutting a solid perpendicular to its longest axis) | hypernym:
+
+predicted: section, surface, cross-section, 2-dimensional section, 3-dimensional section, 3-dimensional section, 3-dimensional section, slice, 2
+ 
+true: section,
+ 
+intersection: section
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: sugar (a white crystalline carbohydrate used as a sweetener and preservative), hyponym: powdered sugar (sugar granulated into a fine powder) | hypernym:
+
+predicted: sugar, 100-percent, 110-percent, 120-percent, 130-percent, 140-percent
+ 
+true: granulated sugar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: sugar (a white crystalline carbohydrate used as a sweetener and preservative), hyponym: powdered sugar (sugar granulated into a fine powder) | hypernym:
+
+predicted: confectioners' sugar, table sugar, 8, 10, 12, 14, 16, 18, 20,
+ 
+true: granulated sugar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: marking (a pattern of marks), hyponym: band (a stripe or stripes of contrasting color) | hypernym:
+
+predicted: stripe, 2. band, 3. spotted, check, 4. mottled, 5. spotted, 6. check, 7
+ 
+true: stripe,
+ 
+intersection: stripe
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: marking (a pattern of marks), hyponym: band (a stripe or stripes of contrasting color) | hypernym:
+
+predicted: stripe, 2. spot, pattern, 3. streak, check, spatter, 4. splotch, 5. splash, splash
+ 
+true: stripe,
+ 
+intersection: stripe
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: geological phenomenon (a natural phenomenon involving the structure or composition of the earth), hyponym: lode (a deposit of valuable ore occurring within definite boundaries separating it from surrounding rocks) | hypernym:
+
+predicted: deposit, mineral deposit, igneous intrusion, mineral deposit, igneous intrusion, igneous rock, igneous intrusion,
+ 
+true: deposit,
+ 
+intersection: deposit
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: geological phenomenon (a natural phenomenon involving the structure or composition of the earth), hyponym: lode (a deposit of valuable ore occurring within definite boundaries separating it from surrounding rocks) | hypernym:
+
+predicted: mineral deposit, 2. mineral deposit, 3. vein, 4. stratum, 5. vein, 6. deposit
+ 
+true: deposit,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: organism (a living thing that has (or can develop) the ability to act or function independently), hyponym: freak (a person or animal that is markedly unusual or deformed) | hypernym:
+
+predicted: monster, misfit, anomaly, outsider, 4-foot, 4-eye, 4-leg, 4-leaf, 4
+ 
+true: mutant,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: organism (a living thing that has (or can develop) the ability to act or function independently), hyponym: freak (a person or animal that is markedly unusual or deformed) | hypernym:
+
+predicted: oddity, specimen, oddball, outsider, misfit, 2. freak of nature, freak of nature, oddity, specimen, 
+ 
+true: mutant,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: peripheral ((computer science) electronic equipment connected by cable to the CPU of a computer), hyponym: dot matrix printer (a printer that represents each character as a pattern of dots from a dot matrix) | hypernym:
+
+predicted: printer, dot printer, line printer, 80 column printer, printer, 80-column printer, 80-column line printer, 132 column
+ 
+true: printer,
+ 
+intersection: printer
+
+metrics:  MRR 1.0 MAP 1.92 P@1 1.0 P@3 1.0 P@5 2.0 P@15 2.0 
+
+==========
+hyperhypenym: peripheral ((computer science) electronic equipment connected by cable to the CPU of a computer), hyponym: dot matrix printer (a printer that represents each character as a pattern of dots from a dot matrix) | hypernym:
+
+predicted: printer, 80-column printer, 9-pin printer, 8-bit printer, 9-pin printer, printer, 16-bit printer,
+ 
+true: printer,
+ 
+intersection: printer
+
+metrics:  MRR 1.0 MAP 1.9 P@1 1.0 P@3 1.0 P@5 1.0 P@15 2.0 
+
+==========
+hyperhypenym: speculation (an investment that is very risky but could yield great profits), hyponym: stake (the money risked on a gamble) | hypernym:
+
+predicted: gamble, 1912, gambling, 1913, 2041, 2042, 2043
+ 
+true: gamble,
+ 
+intersection: gamble
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: speculation (an investment that is very risky but could yield great profits), hyponym: stake (the money risked on a gamble) | hypernym:
+
+predicted: punt, 100-1 shot, gamble, 20-1 shot, 200-1 shot, 50-1 shot, 
+ 
+true: gamble,
+ 
+intersection: gamble
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: principle (a basic generalization that is accepted as true and that can be used as a basis for reasoning or conduct), hyponym: pillar of Islam ((Islam) one of the five religious obligations accepted by all Muslims) | hypernym:
+
+predicted: tenet, cornerstone, foundation, rule of law, 2, 3, principle of the thing, 1, 4, 5, 6, 
+ 
+true: pillar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: principle (a basic generalization that is accepted as true and that can be used as a basis for reasoning or conduct), hyponym: pillar of Islam ((Islam) one of the five religious obligations accepted by all Muslims) | hypernym:
+
+predicted: pillar, basic tenet, 10 commandments, 12 commandments, golden rule, 500, fundamental, golden rule, rule, principle of
+ 
+true: pillar,
+ 
+intersection: pillar
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: determination (the act of determining the properties of something, usually by research or calculation), hyponym: diagnosis (identifying the nature or cause of some phenomenon) | hypernym:
+
+predicted: diagnosis, diagnosis, 2, classification, 2, analysis, 2, determination of cause, determination of identity, identification, 2, 5
+ 
+true: designation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: determination (the act of determining the properties of something, usually by research or calculation), hyponym: diagnosis (identifying the nature or cause of some phenomenon) | hypernym:
+
+predicted: identification, classification, 817, diagnosis, 820, 823, 824, 827, 828
+ 
+true: designation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: drug (a substance that is used as a medicine or narcotic), hyponym: vasodilator (a drug that causes dilation of blood vessels) | hypernym:
+
+predicted: vasodilator, hypertensive, antihypertensive, diuretic, ether, sedative, 22-dihydroxyvitamin
+ 
+true: dilator,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: drug (a substance that is used as a medicine or narcotic), hyponym: vasodilator (a drug that causes dilation of blood vessels) | hypernym:
+
+predicted: vasodilator, hypotensive, hypnotic, 1, sedative, 1, 2, 3, 6, analgesic, card
+ 
+true: dilator,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ax (an edge tool with a heavy bladed head mounted across a handle), hyponym: battle-ax (a broadax used as a weapon) | hypernym:
+
+predicted: broadax, 2-edged chopping tool, 3-edged broadax, 4-edged chopping tool, 5-edged
+ 
+true: broadax,
+ 
+intersection: broadax
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: ax (an edge tool with a heavy bladed head mounted across a handle), hyponym: battle-ax (a broadax used as a weapon) | hypernym:
+
+predicted: broadax, adze, 2. broadax, battle-ax, 3. battle-ax, battle-axe, 4. battle-axe,
+ 
+true: broadax,
+ 
+intersection: broadax
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: closed curve (a curve (such as a circle) having no endpoints), hyponym: loop (anything with a round or oval shape (formed by a curve that is closed and does not intersect itself)) | hypernym:
+
+predicted: curve, oval, loop, circle, 2008, 2009, 2010, 2011, 20
+ 
+true: simple closed curve,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: closed curve (a curve (such as a circle) having no endpoints), hyponym: loop (anything with a round or oval shape (formed by a curve that is closed and does not intersect itself)) | hypernym:
+
+predicted: round, circle, ellipse, 3, 5, 8, oval, 9, 10, 12, 13, 1
+ 
+true: simple closed curve,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: orthography (a method of representing the sounds of a language by written or printed symbols), hyponym: hieratic (a cursive form of Egyptian hieroglyphics; used especially by the priests) | hypernym:
+
+predicted: cursive, 2, script, 3, 5, 6, 7, 8, 9, 10, 11, 1
+ 
+true: hieroglyph,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: orthography (a method of representing the sounds of a language by written or printed symbols), hyponym: hieratic (a cursive form of Egyptian hieroglyphics; used especially by the priests) | hypernym:
+
+predicted: cursive script, 2, alphabet, 3, 6, syllabary, 5, alphabetic writing, 4, logographic writing,
+ 
+true: hieroglyph,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: resistance (the action of opposing something that you disapprove or disagree with), hyponym: backlash (an adverse reaction to some political or social occurrence) | hypernym:
+
+predicted: pushback, resistance to something, 2. opposition to something, 3. refusal to accept something, resistance, 4. counterforce, 5. rep
+ 
+true: reaction,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: resistance (the action of opposing something that you disapprove or disagree with), hyponym: backlash (an adverse reaction to some political or social occurrence) | hypernym:
+
+predicted: backlash, reaction, reaction, 577, 717, retaliation, 754, 950, 111
+ 
+true: reaction,
+ 
+intersection: reaction
+
+metrics:  MRR 0.5 MAP 1.94 P@1 0.0 P@3 2.0 P@5 2.0 P@15 2.0 
+
+==========
+hyperhypenym: cleric (a clergyman or other person in religious orders), hyponym: absolver (someone who grants absolution) | hypernym:
+
+predicted: confessor, 7, 9, 10, 11, 12, 13, 15, 16, 17
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cleric (a clergyman or other person in religious orders), hyponym: absolver (someone who grants absolution) | hypernym:
+
+predicted: confessor, 2. absoluter, confessor, 3. canon, ecclesiastic, penitentiary, priest, 4. monk, vic
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: depository (a facility where things can be deposited for storage or safekeeping), hyponym: maildrop (a drop where mail can be deposited) | hypernym:
+
+predicted: drop, deposit, safe-deposit box, 401k, box, bank, bank, 201k, safe, 403
+ 
+true: drop,
+ 
+intersection: drop
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: depository (a facility where things can be deposited for storage or safekeeping), hyponym: maildrop (a drop where mail can be deposited) | hypernym:
+
+predicted: postal facility, mailbox, post office, drop box, 3417, safe-deposit vault, 3415, bank vault,
+ 
+true: drop,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: shape (any spatial attributes (especially as defined by outline)), hyponym: roundedness (the property possessed by a rounded convexity) | hypernym:
+
+predicted: convexity, concave shape, hypernym: concavity, 3-dimensional shape, 3-dimensional shape, 3-dimensionality, 3-
+ 
+true: convexity,
+ 
+intersection: convexity
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: shape (any spatial attributes (especially as defined by outline)), hyponym: roundedness (the property possessed by a rounded convexity) | hypernym:
+
+predicted: convexity, 2-dimensionality, outline, 3-dimensionality, 4-dimensionality, profile, 5-dimensionality, 6-dimensionality
+ 
+true: convexity,
+ 
+intersection: convexity
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: placental (mammals having a placenta; all mammals except monotremes and marsupials), hyponym: stag (adult male deer) | hypernym:
+
+predicted: deer, 2. male deer, 3. buck, 4. roe, roebuck, 5. chamois, 6.
+ 
+true: buck,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: placental (mammals having a placenta; all mammals except monotremes and marsupials), hyponym: stag (adult male deer) | hypernym:
+
+predicted: deer, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
+ 
+true: buck,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: ethyl alcohol (the intoxicating agent in fermented and distilled liquors; used pure or denatured as a solvent or in medicines and colognes and cleaning solutions and rocket fuel; proposed as a renewable clean-burning additive to gasoline), hyponym: methylated spirit (ethyl alcohol denatured with methyl alcohol to prevent its use as an alcoholic beverage) | hypernym:
+
+predicted: denatured alcohol, ethanol, 2-propanol, 1-propanol, 1-butanol, 1-butyl
+ 
+true: denatured alcohol,
+ 
+intersection: denatured alcohol
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: ethyl alcohol (the intoxicating agent in fermented and distilled liquors; used pure or denatured as a solvent or in medicines and colognes and cleaning solutions and rocket fuel; proposed as a renewable clean-burning additive to gasoline), hyponym: methylated spirit (ethyl alcohol denatured with methyl alcohol to prevent its use as an alcoholic beverage) | hypernym:
+
+predicted: denatured alcohol, denatured alcohol, 100-proof spirit, 95-proof spirit, 190-proof spirit, 
+ 
+true: denatured alcohol,
+ 
+intersection: denatured alcohol
+
+metrics:  MRR 1.0 MAP 1.98 P@1 1.0 P@3 2.0 P@5 2.0 P@15 2.0 
+
+==========
+hyperhypenym: legal right (a right based in law), hyponym: right to vote (a legal right guaranteed by the 15th amendment to the US Constitution; guaranteed to women by the 19th amendment) | hypernym:
+
+predicted: suffrage, 15th amendment right, 19th amendment right, 26th amendment right, 19th amend
+ 
+true: franchise,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: legal right (a right based in law), hyponym: right to vote (a legal right guaranteed by the 15th amendment to the US Constitution; guaranteed to women by the 19th amendment) | hypernym:
+
+predicted: franchise, 19th amendment right, voting right, 15th amendment right, 14th amendment right, 13
+ 
+true: franchise,
+ 
+intersection: franchise
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: increase (the act of increasing something), hyponym: incorporation (including by incorporating) | hypernym:
+
+predicted: amalgamation, growth, enlargement, increase, 2, proliferation, 5, 6, 7, 9, 10
+ 
+true: inclusion,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: increase (the act of increasing something), hyponym: incorporation (including by incorporating) | hypernym:
+
+predicted: enlargement, growth, increase, 2. accruement, 3. augmentation, expansion, growth, growth, addition, multiplication, 5. inflation
+ 
+true: inclusion,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: furniture (furnishings that make a room or other area ready for occupancy), hyponym: bed (a piece of furniture that provides a place to sleep) | hypernym:
+
+predicted: bedroom, sofa, sofa bed, bedroom, 196, bedside table, 197, 198, 199
+ 
+true: bedroom furniture,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: furniture (furnishings that make a room or other area ready for occupancy), hyponym: bed (a piece of furniture that provides a place to sleep) | hypernym:
+
+predicted: sleeping furniture, 8-poster, 4-poster, daybed, bedstead, divan, bedside table, chair bed, 2
+ 
+true: bedroom furniture,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: hydrocarbon (an organic compound containing only carbon and hydrogen), hyponym: benzene (a colorless liquid hydrocarbon; highly inflammable; carcinogenic; the simplest of the aromatic compounds) | hypernym:
+
+predicted: aromatic hydrocarbon, 1,3,5-trimethylbenzene, 1,2,4-trimethylbenzene, ben
+ 
+true: aromatic hydrocarbon,
+ 
+intersection: aromatic hydrocarbon
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: hydrocarbon (an organic compound containing only carbon and hydrogen), hyponym: benzene (a colorless liquid hydrocarbon; highly inflammable; carcinogenic; the simplest of the aromatic compounds) | hypernym:
+
+predicted: hydrocarbon, aliphatic hydrocarbon, aromatic hydrocarbon, 1,2,4-trimethylbenzene, 1,3
+ 
+true: aromatic hydrocarbon,
+ 
+intersection: aromatic hydrocarbon
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: fraction (the quotient of two rational numbers), hyponym: decimal fraction (a proper fraction whose denominator is a power of 10) | hypernym:
+
+predicted: proper fraction, mixed fraction, 10th, 20th, 30th, 40th, 50th, 60th,
+ 
+true: proper fraction,
+ 
+intersection: proper fraction
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: fraction (the quotient of two rational numbers), hyponym: decimal fraction (a proper fraction whose denominator is a power of 10) | hypernym:
+
+predicted: proper fraction, rational fraction, 10th, 100th, 1,000th, 1,000,000th
+ 
+true: proper fraction,
+ 
+intersection: proper fraction
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: operation (activity by a military or naval force (as a maneuver or campaign)), hyponym: expedition (a military campaign designed to achieve a specific objective in a foreign country) | hypernym:
+
+predicted: military campaign, military operation, 2003 invasion of Iraq, military offensive, 1944 Normandy invasion, 1968 Tet
+ 
+true: campaign,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: operation (activity by a military or naval force (as a maneuver or campaign)), hyponym: expedition (a military campaign designed to achieve a specific objective in a foreign country) | hypernym:
+
+predicted: military campaign, military operation, 2. military action, action, 3. mission, 4. action, mission, 5. campaign, campaign, 6.
+ 
+true: campaign,
+ 
+intersection: campaign
+
+metrics:  MRR 0.1111111111111111 MAP 0.84 P@1 0.0 P@3 0.0 P@5 0.0 P@15 1.0 
+
+==========
+hyperhypenym: lawman (an officer of the law), hyponym: wardress (a woman warder) | hypernym:
+
+predicted: warder, jailer, jailbird, 2. guard, law officer, policeman, sheriff, 3. constable, law enforcement
+ 
+true: warder,
+ 
+intersection: warder
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: lawman (an officer of the law), hyponym: wardress (a woman warder) | hypernym:
+
+predicted: warder, gaoler, prison guard, 51, law enforcer, law officer, constable, policeman, 52, policeman, law
+ 
+true: warder,
+ 
+intersection: warder
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: cleric (a clergyman or other person in religious orders), hyponym: absolver (someone who grants absolution) | hypernym:
+
+predicted: confessor, penitent, 2. confessor, 3. penitent, priest, 4. priest, 5. priest, 6. mon
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cleric (a clergyman or other person in religious orders), hyponym: absolver (someone who grants absolution) | hypernym:
+
+predicted: absolver, confessor, 114, 311, 459, 565, 568, 572,
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: change of integrity (the act of changing the unity or wholeness of something), hyponym: cut (the act of penetrating or opening open with a sharp edge) | hypernym:
+
+predicted: penetration, severance, break, fissure, 2, rupture, rift, 2, 3, rupture, 2,
+ 
+true: opening,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: change of integrity (the act of changing the unity or wholeness of something), hyponym: cut (the act of penetrating or opening open with a sharp edge) | hypernym:
+
+predicted: penetration, incision, opening, 2. wound, 3. tear, 4. puncture, 5. slash, 6.
+ 
+true: opening,
+ 
+intersection: opening
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: semidarkness (partial darkness), hyponym: shadow (shade within clear boundaries) | hypernym:
+
+predicted: shade, gloom, 5. half-darkness, 4. half-light, 3. twilight, dusk, 2. darkness,
+ 
+true: shade,
+ 
+intersection: shade
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: semidarkness (partial darkness), hyponym: shadow (shade within clear boundaries) | hypernym:
+
+predicted: half-light, 2. twilight, 3. dusk, dark, 4. dawn, 5. gloaming, half-light, 6
+ 
+true: shade,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: loaf of bread (a shaped mass of baked bread that is usually sliced before eating), hyponym: fish loaf (flaked fish baked in a loaf with bread crumbs and various seasonings) | hypernym:
+
+predicted: fishcake, sliced fishcake, 4, 5, 6, 7, 8, 9, 10, 11
+ 
+true: meat loaf,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: loaf of bread (a shaped mass of baked bread that is usually sliced before eating), hyponym: fish loaf (flaked fish baked in a loaf with bread crumbs and various seasonings) | hypernym:
+
+predicted: fishcake, 1. loaf of bread baked with fish or seafood filling, 2. loaf of fish and seafood, 3.
+ 
+true: meat loaf,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cartilaginous fish (fishes in which the skeleton may be calcified but not ossified), hyponym: chimaera (a deep-sea fish with a tapering body, smooth skin, and long threadlike tail) | hypernym:
+
+predicted: chimaeroid fish, 2. fishes related to sharks, 3. fishes with skeletons that are cartilaginous or bony, but
+ 
+true: holocephalan,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: cartilaginous fish (fishes in which the skeleton may be calcified but not ossified), hyponym: chimaera (a deep-sea fish with a tapering body, smooth skin, and long threadlike tail) | hypernym:
+
+predicted: ratfish, chimaera, 2, chimaera, 3, fish, 7, chimaera, 11, chimaera, 1
+ 
+true: holocephalan,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: assertion (a declaration that is made emphatically (as if no supporting evidence were necessary)), hyponym: negation (the speech act of negating) | hypernym:
+
+predicted: speech act, denial, declaration, affirmation, 61, 62, 63, 64, 65, 66,
+ 
+true: denial,
+ 
+intersection: denial
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: assertion (a declaration that is made emphatically (as if no supporting evidence were necessary)), hyponym: negation (the speech act of negating) | hypernym:
+
+predicted: speech act, denial, 8, affirmation, 6, 4, 10, 2, 13, refusal, 1
+ 
+true: denial,
+ 
+intersection: denial
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hyperhypenym: right (an abstract idea of that which is due to a person or governmental body by law or tradition or nature; ; - Eleanor Roosevelt), hyponym: door (anything providing a means of access (or escape)) | hypernym:
+
+predicted: opening, 2. 1940, 2003, 2008, 2010, 2011, 
+ 
+true: entree,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hyperhypenym: right (an abstract idea of that which is due to a person or governmental body by law or tradition or nature; ; - Eleanor Roosevelt), hyponym: door (anything providing a means of access (or escape)) | hypernym:
+
+predicted: way in, way out, 2, access, way in, 3, way out, 4, 5, 6, 7, 8, 
+ 
+true: entree,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
