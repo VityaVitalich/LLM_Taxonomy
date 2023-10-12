@@ -35,6 +35,7 @@ from dataset.prompt_schemas import (
     predict_child_with_parent_and_grandparent,
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
+    predict_parent_from_child
 )
 
 from torch.utils.data import DataLoader
@@ -64,6 +65,7 @@ class PplDataset(HypernymDataset):
             "leafs_and_no_leafs": predict_child_from_parent,
             "simple_triplet_grandparent": predict_parent_from_child_granparent,
             "simple_triplet_2parent": predict_child_from_2_parents,
+            "predict_hypernym": predict_parent_from_child,
         },
     ):
         self.tokenizer = tokenizer
