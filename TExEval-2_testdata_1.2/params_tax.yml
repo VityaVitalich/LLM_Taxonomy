@@ -3,7 +3,7 @@ SEED:
 CUDA_VISIBLE_DEVICES:
   - 1
 BATCH_SIZE:
-  - 128
+  - 64
 STRATEGY:
   - "ppl_top_collector"
 TOP_K:
@@ -11,10 +11,10 @@ TOP_K:
 NAME:
   - "first_test_top10"
 MODEL_CHECKPOINT:
-  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-lemmas"
+  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-numbers"
 OUT_NAME:
-  - 'data/env_eurovoc_pairs_leaf_no_leafs_lemmas_ppl.pickle'
+  - 'data/sci_eurovoc_pairs_leaf_no_leafs_numbers_ppl.pickle'
 IN_NAME:
-  - 'data/env_eurovoc_pairs_leaf_no_leafs_lemmas.pickle'
+  - 'data/sci_eurovoc_pairs_leaf_no_leafs_lemmas.pickle'
 LOAD:
   - false

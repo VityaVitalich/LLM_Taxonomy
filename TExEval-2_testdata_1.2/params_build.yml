@@ -1,0 +1,14 @@
+DATA:
+  - "science"
+IN_NAME:
+  - 'data/sci_eurovoc_pairs_pred_hypernym_ppl.pickle'
+LEMMA:
+  - false
+REVERSE:
+  - true
+LOW:
+  - 1
+HIGH:
+  - 30
+STEP:
+  - 0.1
