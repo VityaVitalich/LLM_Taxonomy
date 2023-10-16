@@ -1,0 +1,2420 @@
+hypernym: emotional person | hyponyms:
+
+predicted: hysteric, ermetic,
+ 
+true: captive, spitfire, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: emotional person | hyponyms:
+
+predicted: brontonaut, embezz
+ 
+true: captive, spitfire, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: intersection | hyponyms:
+
+predicted: confluence, cross-point,
+ 
+true: metacenter, vertex, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: intersection | hyponyms:
+
+predicted: double point, triple point, tangle
+ 
+true: metacenter, vertex, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: spiderflower | hyponyms:
+
+predicted: jamaica bean, jamaica
+ 
+true: spider flower, Rocky Mountain bee plant, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: spiderflower | hyponyms:
+
+predicted: garden spiderflower, marbled
+ 
+true: spider flower, Rocky Mountain bee plant, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: impression | hyponyms:
+
+predicted: aura, look, presentation, 
+ 
+true: figure, image, mark, tout ensemble, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: impression | hyponyms:
+
+predicted: air, effect, ire, look
+ 
+true: figure, image, mark, tout ensemble, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: spontaneous abortion | hyponyms:
+
+predicted: spontaneous abortion of the first trimes
+ 
+true: habitual abortion, imminent abortion, incomplete abortion, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: spontaneous abortion | hyponyms:
+
+predicted: abortion of viability, abortion of vi
+ 
+true: habitual abortion, imminent abortion, incomplete abortion, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ball | hyponyms:
+
+predicted: balloon, balloon, boun
+ 
+true: beach ball, snowball, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ball | hyponyms:
+
+predicted: baseball, bouncing ball, cat
+ 
+true: beach ball, snowball, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dogbane | hyponyms:
+
+predicted: northern dogbane, southern dogb
+ 
+true: common dogbane, Indian hemp, Rocky Mountain dogbane, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dogbane | hyponyms:
+
+predicted: white dogbane, red dogb
+ 
+true: common dogbane, Indian hemp, Rocky Mountain dogbane, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: transcendental number | hyponyms:
+
+predicted: double root, irrational number, square
+ 
+true: e, pi, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: transcendental number | hyponyms:
+
+predicted: e, pi, 19,
+ 
+true: e, pi, 
+ 
+intersection: pi,e
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: bison | hyponyms:
+
+predicted: American bison, mountain bison,
+ 
+true: American bison, wisent, 
+ 
+intersection: american bison
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: bison | hyponyms:
+
+predicted: American bison, Indian bison,
+ 
+true: American bison, wisent, 
+ 
+intersection: american bison
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: fruit bat | hyponyms:
+
+predicted: greater fruit bat, lesser fruit bat,
+ 
+true: Cynopterus sphinx, flying fox, harpy, Pteropus capestratus, Pteropus hypomelanus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fruit bat | hyponyms:
+
+predicted: Indian fruit bat, flying mouse, P
+ 
+true: Cynopterus sphinx, flying fox, harpy, Pteropus capestratus, Pteropus hypomelanus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: childhood | hyponyms:
+
+predicted: babyhood, babyhood, icky
+ 
+true: boyhood, girlhood, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: childhood | hyponyms:
+
+predicted: early childhood, infancy, school years
+ 
+true: boyhood, girlhood, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Iroquois | hyponyms:
+
+predicted: Mohawk, Seneca, 1
+ 
+true: Cayuga, Cherokee, Erie, Mohawk, Oneida, Onondaga, Seneca, Tuscarora, 
+ 
+intersection: mohawk,seneca
+
+metrics:  MRR 1.0 MAP 0.2987142857142857 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.25 
+
+==========
+hypernym: Iroquois | hyponyms:
+
+predicted: Mohawk, Seneca, Onond
+ 
+true: Cayuga, Cherokee, Erie, Mohawk, Oneida, Onondaga, Seneca, Tuscarora, 
+ 
+intersection: mohawk,seneca
+
+metrics:  MRR 1.0 MAP 0.2987142857142857 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.25 
+
+==========
+hypernym: plot | hyponyms:
+
+predicted: scenario, 1819-
+ 
+true: action, storyline, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: plot | hyponyms:
+
+predicted: plot twist, storyline, 1
+ 
+true: action, storyline, 
+ 
+intersection: storyline
+
+metrics:  MRR 0.5 MAP 0.49 P@1 0.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: enuresis | hyponyms:
+
+predicted: bedwetting, nocturn
+ 
+true: bed-wetting, overflow incontinence, stress incontinence, urge incontinence, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: enuresis | hyponyms:
+
+predicted: nocturnal enuresis,
+ 
+true: bed-wetting, overflow incontinence, stress incontinence, urge incontinence, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: abandonment | hyponyms:
+
+predicted: jettison, desertion, ren
+ 
+true: apostasy, bolt, exposure, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: abandonment | hyponyms:
+
+predicted: desertion, forsaking, 
+ 
+true: apostasy, bolt, exposure, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: militant | hyponyms:
+
+predicted: agitator, radical,  |
+ 
+true: Black Muslim, Black Panther, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: militant | hyponyms:
+
+predicted: Bolshevik, Jihadist
+ 
+true: Black Muslim, Black Panther, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: country house | hyponyms:
+
+predicted: country seat, country estate, villa
+ 
+true: chateau, dacha, shooting lodge, summer house, villa, villa, 
+ 
+intersection: villa
+
+metrics:  MRR 0.3333333333333333 MAP 0.16566666666666663 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.16666666666666666 
+
+==========
+hypernym: country house | hyponyms:
+
+predicted: farmhouse, manor house, 
+ 
+true: chateau, dacha, shooting lodge, summer house, villa, villa, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: luminescence | hyponyms:
+
+predicted: auto-luminescence,
+ 
+true: bioluminescence, chemiluminescence, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: luminescence | hyponyms:
+
+predicted: fluorescence, phosphores
+ 
+true: bioluminescence, chemiluminescence, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ventricle | hyponyms:
+
+predicted: left ventricle, right ventric
+ 
+true: fourth ventricle, lateral ventricle, third ventricle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ventricle | hyponyms:
+
+predicted: cephalomedullary ventric
+ 
+true: fourth ventricle, lateral ventricle, third ventricle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wrecker | hyponyms:
+
+predicted: razer, bulldozer,
+ 
+true: housewrecker, knacker, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wrecker | hyponyms:
+
+predicted: demolisher, razer,  |
+ 
+true: housewrecker, knacker, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wisteria | hyponyms:
+
+predicted: Japanese wisteria, American wister
+ 
+true: American wistaria, Chinese wistaria, Japanese wistaria, silky wisteria, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wisteria | hyponyms:
+
+predicted: American wisteria, Japanese wister
+ 
+true: American wistaria, Chinese wistaria, Japanese wistaria, silky wisteria, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: geniculate body | hyponyms:
+
+predicted: geniculate body of the temporal l
+ 
+true: lateral geniculate body, medial geniculate body, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: geniculate body | hyponyms:
+
+predicted: ventral tegmental nucleus
+ 
+true: lateral geniculate body, medial geniculate body, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: craze | hyponyms:
+
+predicted: berserk, delirium,
+ 
+true: mass hysteria, nympholepsy, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: craze | hyponyms:
+
+predicted: obsession, ire, fren
+ 
+true: mass hysteria, nympholepsy, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hawkishness | hyponyms:
+
+predicted: bellicoseness, Hawkward
+ 
+true: militarism, warmongering, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hawkishness | hyponyms:
+
+predicted: belligerence, hardness, 
+ 
+true: militarism, warmongering, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Juneberry | hyponyms:
+
+predicted: swamp juneberry, ile
+ 
+true: alderleaf Juneberry, Bartram Juneberry, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Juneberry | hyponyms:
+
+predicted: American juneberry, American june
+ 
+true: alderleaf Juneberry, Bartram Juneberry, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: graduate school | hyponyms:
+
+predicted: theological seminary, ia,
+ 
+true: business school, dental school, law school, medical school, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: graduate school | hyponyms:
+
+predicted: law school, business school,  medical
+ 
+true: business school, dental school, law school, medical school, 
+ 
+intersection: law school,business school
+
+metrics:  MRR 1.0 MAP 0.5233333333333333 P@1 1.0 P@3 0.6666666666666666 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: reception room | hyponyms:
+
+predicted: lobby, drawing-room,  drawing
+ 
+true: drawing room, parlor, 
+ 
+intersection: drawing room
+
+metrics:  MRR 0.5 MAP 0.49 P@1 0.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: reception room | hyponyms:
+
+predicted: drawing room, elliptical drawing
+ 
+true: drawing room, parlor, 
+ 
+intersection: drawing room
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: right | hyponyms:
+
+predicted: conservative, libertarian,  | 
+ 
+true: hard right, religious right, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: right | hyponyms:
+
+predicted: libertarian, paleo,  |
+ 
+true: hard right, religious right, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gender | hyponyms:
+
+predicted: feminine, masculine, neuter
+ 
+true: feminine, masculine, neuter, 
+ 
+intersection: neuter,masculine,feminine
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: gender | hyponyms:
+
+predicted: gender agreement, elliptic gender,
+ 
+true: feminine, masculine, neuter, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: knitting stitch | hyponyms:
+
+predicted: cast, purl, knit st
+ 
+true: garter stitch, knit, purl, stockinette stitch, 
+ 
+intersection: purl
+
+metrics:  MRR 0.5 MAP 0.25166666666666665 P@1 0.0 P@3 0.3333333333333333 P@5 0.25 P@15 0.25 
+
+==========
+hypernym: knitting stitch | hyponyms:
+
+predicted: knot stitch, pearl st
+ 
+true: garter stitch, knit, purl, stockinette stitch, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cylinder | hyponyms:
+
+predicted: cone, helix, ellipt
+ 
+true: barrel, brake drum, pipe, shank, shank, shank, stalactite, stalagmite, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cylinder | hyponyms:
+
+predicted: cone, cylindrical shell, 
+ 
+true: barrel, brake drum, pipe, shank, shank, shank, stalactite, stalagmite, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tubule | hyponyms:
+
+predicted: alveolar tubule, tubule
+ 
+true: microtubule, nephron, seminiferous tubule, trachea, uveoscleral pathway, vasa efferentia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tubule | hyponyms:
+
+predicted: hair, papilla, ileum
+ 
+true: microtubule, nephron, seminiferous tubule, trachea, uveoscleral pathway, vasa efferentia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: patriotism | hyponyms:
+
+predicted: blind patriotism, devotion,
+ 
+true: Americanism, chauvinism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: patriotism | hyponyms:
+
+predicted: nationalism, patrioticalness,
+ 
+true: Americanism, chauvinism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: family | hyponyms:
+
+predicted: big family, blood family, communal
+ 
+true: broken home, nuclear family, extended family, foster family, foster home, menage a trois, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: family | hyponyms:
+
+predicted: bachelor family, bachelor family,
+ 
+true: broken home, nuclear family, extended family, foster family, foster home, menage a trois, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: strike | hyponyms:
+
+predicted: labor strike, sit-in, work
+ 
+true: sit-down, sympathy strike, walkout, wildcat strike, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: strike | hyponyms:
+
+predicted: general strike, work stoppage, 
+ 
+true: sit-down, sympathy strike, walkout, wildcat strike, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: skin diving | hyponyms:
+
+predicted: frogman swimming, skinwalking
+ 
+true: scuba diving, snorkeling, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: skin diving | hyponyms:
+
+predicted: snorkeling, splash, 
+ 
+true: scuba diving, snorkeling, 
+ 
+intersection: snorkeling
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: Catholicism | hyponyms:
+
+predicted: Orthodox Catholicism, 16
+ 
+true: Eastern Catholicism, Romanism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Catholicism | hyponyms:
+
+predicted: Catholic Charities, Catholic Relief,
+ 
+true: Eastern Catholicism, Romanism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: crepe | hyponyms:
+
+predicted: chiffon, jusi,
+ 
+true: Canton crepe, crepe de Chine, marocain, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: crepe | hyponyms:
+
+predicted: crêpe chiffon, cre
+ 
+true: Canton crepe, crepe de Chine, marocain, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: anthology | hyponyms:
+
+predicted: Golden Ass, 1659
+ 
+true: divan, florilegium, omnibus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: anthology | hyponyms:
+
+predicted: anthology of poetry, 19
+ 
+true: divan, florilegium, omnibus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hominoid | hyponyms:
+
+predicted: Homo habilis, Homo ere
+ 
+true: Aegyptopithecus, Algeripithecus minutus, proconsul, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hominoid | hyponyms:
+
+predicted: Aegypius, Aegyp
+ 
+true: Aegyptopithecus, Algeripithecus minutus, proconsul, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Dravidian | hyponyms:
+
+predicted: Pulayas, Cherus, K
+ 
+true: Badaga, Kanarese, Gadaba, Gond, Kolam, Kota, Kui, Malto, Savara, Tamil, Telugu, Toda, Tulu, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Dravidian | hyponyms:
+
+predicted: Dravid, Tamil,  |
+ 
+true: Badaga, Kanarese, Gadaba, Gond, Kolam, Kota, Kui, Malto, Savara, Tamil, Telugu, Toda, Tulu, 
+ 
+intersection: tamil
+
+metrics:  MRR 0.5 MAP 0.10052575202575201 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.07692307692307693 
+
+==========
+hypernym: mealybug | hyponyms:
+
+predicted: citron mealybug, citrus
+ 
+true: citrophilous mealybug, citrus mealybug, Comstock mealybug, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mealybug | hyponyms:
+
+predicted: citrus mealybug, scale,
+ 
+true: citrophilous mealybug, citrus mealybug, Comstock mealybug, 
+ 
+intersection: citrus mealybug
+
+metrics:  MRR 1.0 MAP 0.3499999999999999 P@1 1.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: exactness | hyponyms:
+
+predicted: exactitude, mathematicalness,  |
+ 
+true: minuteness, preciseness, trueness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: exactness | hyponyms:
+
+predicted: precise-ness, 1:1
+ 
+true: minuteness, preciseness, trueness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: water plantain | hyponyms:
+
+predicted: marsh plantain, northern water plant
+ 
+true: narrow-leaved water plantain, ribbon-leaved water plantain, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: water plantain | hyponyms:
+
+predicted: spagelweed, water star
+ 
+true: narrow-leaved water plantain, ribbon-leaved water plantain, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Mayan | hyponyms:
+
+predicted: Quicha, Mopan,
+ 
+true: Cakchiquel, Kekchi, Mam, Quiche, Yucatec, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Mayan | hyponyms:
+
+predicted: Toltec, Quiche, Qu
+ 
+true: Cakchiquel, Kekchi, Mam, Quiche, Yucatec, 
+ 
+intersection: quiche
+
+metrics:  MRR 0.5 MAP 0.20566666666666664 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.2 
+
+==========
+hypernym: female genitalia | hyponyms:
+
+predicted: genital, vulva, vagina
+ 
+true: cunt, minge, vulva, 
+ 
+intersection: vulva
+
+metrics:  MRR 0.5 MAP 0.3299999999999999 P@1 0.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: female genitalia | hyponyms:
+
+predicted: coercidium, cunnum
+ 
+true: cunt, minge, vulva, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: coordinate axis | hyponyms:
+
+predicted: horizontal axis, vertical axis,  |
+ 
+true: x-axis, y-axis, z-axis, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: coordinate axis | hyponyms:
+
+predicted: abscissa, ordinate, 
+ 
+true: x-axis, y-axis, z-axis, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: skunk | hyponyms:
+
+predicted: American skunk, hog skunk
+ 
+true: hog-nosed skunk, hooded skunk, spotted skunk, striped skunk, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: skunk | hyponyms:
+
+predicted: hognose skunk, black-
+ 
+true: hog-nosed skunk, hooded skunk, spotted skunk, striped skunk, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: vermouth | hyponyms:
+
+predicted: French vermouth, Italian vermouth,
+ 
+true: dry vermouth, sweet vermouth, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: vermouth | hyponyms:
+
+predicted: Cocchi Americano, Coc
+ 
+true: dry vermouth, sweet vermouth, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: clothes moth | hyponyms:
+
+predicted: casemoth, casemoth,
+ 
+true: casemaking clothes moth, webbing clothes moth, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: clothes moth | hyponyms:
+
+predicted: casemaker, casemaker m
+ 
+true: casemaking clothes moth, webbing clothes moth, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: blazing star | hyponyms:
+
+predicted: Ohio blazing star, Texas bl
+ 
+true: dense blazing star, dotted gayfeather, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: blazing star | hyponyms:
+
+predicted: red blazing star, blue bl
+ 
+true: dense blazing star, dotted gayfeather, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: interpretation | hyponyms:
+
+predicted: reinterpretation, understanding, ort
+ 
+true: anagoge, reinterpretation, 
+ 
+intersection: reinterpretation
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: interpretation | hyponyms:
+
+predicted: assimilation, interpretation of evidence,
+ 
+true: anagoge, reinterpretation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gonadotropin | hyponyms:
+
+predicted: human chorionic gonad
+ 
+true: follicle-stimulating hormone, human chorionic gonadotropin, luteinizing hormone, prolactin, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gonadotropin | hyponyms:
+
+predicted: luteinizing hormone, fol
+ 
+true: follicle-stimulating hormone, human chorionic gonadotropin, luteinizing hormone, prolactin, 
+ 
+intersection: luteinizing hormone
+
+metrics:  MRR 1.0 MAP 0.27166666666666667 P@1 1.0 P@3 0.3333333333333333 P@5 0.25 P@15 0.25 
+
+==========
+hypernym: bomber | hyponyms:
+
+predicted: air superiority fighter, attack bomber
+ 
+true: dive bomber, stealth bomber, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bomber | hyponyms:
+
+predicted: reconnaissance bomber, light bomber
+ 
+true: dive bomber, stealth bomber, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: profusion | hyponyms:
+
+predicted: overgrowth, proliferation,
+ 
+true: greenness, overgrowth, wilderness, 
+ 
+intersection: overgrowth
+
+metrics:  MRR 1.0 MAP 0.3499999999999999 P@1 1.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: profusion | hyponyms:
+
+predicted: exuberance, multitude, 
+ 
+true: greenness, overgrowth, wilderness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: edge | hyponyms:
+
+predicted: edge of, fringes, margin
+ 
+true: brink, limb, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: edge | hyponyms:
+
+predicted: cutting edge, rim, side, 
+ 
+true: brink, limb, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: poet | hyponyms:
+
+predicted: lyricist, poeticizer,
+ 
+true: bard, elegist, odist, poet laureate, poet laureate, poetess, sonneteer, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: poet | hyponyms:
+
+predicted: bard, epic poet, lyric
+ 
+true: bard, elegist, odist, poet laureate, poet laureate, poetess, sonneteer, 
+ 
+intersection: bard
+
+metrics:  MRR 1.0 MAP 0.17471428571428568 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.14285714285714285 
+
+==========
+hypernym: murre | hyponyms:
+
+predicted: Atlantic murre, common guillemot
+ 
+true: common murre, thick-billed murre, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: murre | hyponyms:
+
+predicted: common murre, diving duck,
+ 
+true: common murre, thick-billed murre, 
+ 
+intersection: common murre
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: bow | hyponyms:
+
+predicted: compound bow, longbow, shortbow
+ 
+true: crossbow, Cupid's bow, handbow, longbow, 
+ 
+intersection: longbow
+
+metrics:  MRR 0.5 MAP 0.25166666666666665 P@1 0.0 P@3 0.3333333333333333 P@5 0.25 P@15 0.25 
+
+==========
+hypernym: bow | hyponyms:
+
+predicted: bow and arrow, bow and arrow,
+ 
+true: crossbow, Cupid's bow, handbow, longbow, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: silverware | hyponyms:
+
+predicted: dinnerware, silver cutlery,
+ 
+true: flatware, hollowware, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: silverware | hyponyms:
+
+predicted: candlestick, fork, knife
+ 
+true: flatware, hollowware, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: circuit board | hyponyms:
+
+predicted: add-on board, expansion board,
+ 
+true: CPU board, PC board, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: circuit board | hyponyms:
+
+predicted: audio circuit board, bus, cartr
+ 
+true: CPU board, PC board, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sanctuary | hyponyms:
+
+predicted: church, mosque, temple, 
+ 
+true: holy of holies, Tabernacle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sanctuary | hyponyms:
+
+predicted: orchidarium, zoolog
+ 
+true: holy of holies, Tabernacle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: coagulation factor | hyponyms:
+
+predicted: activated protein C, factor V, factor
+ 
+true: proaccelerin, antihemophilic factor, calcium ion, Christmas factor, proconvertin, fibrinogen, prothrombin, thromboplastin, prothrombinase, plasma thromboplastin antecedent, Hageman factor, fibrinase, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: coagulation factor | hyponyms:
+
+predicted: factor IX, factor X, ery
+ 
+true: proaccelerin, antihemophilic factor, calcium ion, Christmas factor, proconvertin, fibrinogen, prothrombin, thromboplastin, prothrombinase, plasma thromboplastin antecedent, Hageman factor, fibrinase, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Old World vulture | hyponyms:
+
+predicted: Bonelli's eagle, gr
+ 
+true: black vulture, bearded vulture, Egyptian vulture, griffon vulture, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Old World vulture | hyponyms:
+
+predicted: lanner, buzzard, carr
+ 
+true: black vulture, bearded vulture, Egyptian vulture, griffon vulture, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sunflower | hyponyms:
+
+predicted: American sunflower, sunflower
+ 
+true: common sunflower, giant sunflower, Jerusalem artichoke, swamp sunflower, showy sunflower, Maximilian's sunflower, prairie sunflower, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sunflower | hyponyms:
+
+predicted: prairie sunflowower, sun
+ 
+true: common sunflower, giant sunflower, Jerusalem artichoke, swamp sunflower, showy sunflower, Maximilian's sunflower, prairie sunflower, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: marmot | hyponyms:
+
+predicted: woodland marmot, ground squ
+ 
+true: groundhog, hoary marmot, yellowbelly marmot, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: marmot | hyponyms:
+
+predicted: ground hog, prairie m
+ 
+true: groundhog, hoary marmot, yellowbelly marmot, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bit | hyponyms:
+
+predicted: riding bit, 1, 2
+ 
+true: bar bit, bridoon, curb, Pelham, snaffle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bit | hyponyms:
+
+predicted: straight bit, curb bit, 
+ 
+true: bar bit, bridoon, curb, Pelham, snaffle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: geocentric parallax | hyponyms:
+
+predicted: apparent parallax, microparall
+ 
+true: horizontal parallax, solar parallax, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: geocentric parallax | hyponyms:
+
+predicted: apparent parallax, parallax
+ 
+true: horizontal parallax, solar parallax, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: woodwork | hyponyms:
+
+predicted: chair, furniture making, cabinetry,
+ 
+true: cabinetwork, joinery, millwork, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: woodwork | hyponyms:
+
+predicted: cabinetry, carving, wood car
+ 
+true: cabinetwork, joinery, millwork, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sumac | hyponyms:
+
+predicted: California sumac, sumac tree,
+ 
+true: dwarf sumac, fragrant sumac, smooth sumac, sugar-bush, squawbush, staghorn sumac, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sumac | hyponyms:
+
+predicted: mountain ash, sumac shrub,
+ 
+true: dwarf sumac, fragrant sumac, smooth sumac, sugar-bush, squawbush, staghorn sumac, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: question | hyponyms:
+
+predicted: double-barreled question, 
+ 
+true: cross-question, leading question, yes-no question, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: question | hyponyms:
+
+predicted: interrogative, question and answer, 
+ 
+true: cross-question, leading question, yes-no question, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: octopod | hyponyms:
+
+predicted: common octopus, inkfish,
+ 
+true: paper nautilus, octopus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: octopod | hyponyms:
+
+predicted: dumbo octopus, Dum
+ 
+true: paper nautilus, octopus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gastroenteritis | hyponyms:
+
+predicted: stomach flu, traveler's di
+ 
+true: cholera infantum, cholera morbus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gastroenteritis | hyponyms:
+
+predicted: shigellosis, ileitis
+ 
+true: cholera infantum, cholera morbus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cash | hyponyms:
+
+predicted: banknote, banknote, coinage
+ 
+true: change, change, small change, ready cash, pocket money, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cash | hyponyms:
+
+predicted: loose change, payout, 1
+ 
+true: change, change, small change, ready cash, pocket money, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ragweed | hyponyms:
+
+predicted: daisy ragweed, western
+ 
+true: common ragweed, western ragweed, great ragweed, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ragweed | hyponyms:
+
+predicted: common ragweed, purple conefl
+ 
+true: common ragweed, western ragweed, great ragweed, 
+ 
+intersection: common ragweed
+
+metrics:  MRR 1.0 MAP 0.3499999999999999 P@1 1.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: scad | hyponyms:
+
+predicted: Atlantic tarpon, bonito, king
+ 
+true: bigeye scad, round scad, mackerel scad, horse mackerel, horse mackerel, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: scad | hyponyms:
+
+predicted: tarpon, thread fish, yellow-
+ 
+true: bigeye scad, round scad, mackerel scad, horse mackerel, horse mackerel, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fungus order | hyponyms:
+
+predicted: Ascomycetes order, Sap
+ 
+true: Agaricales, Aphyllophorales, Eurotiales, Auriculariales, Blastocladiales, Chytridiales, Endomycetales, Entomophthorales, Erysiphales, Helotiales, Hymenogastrales, Hypocreales, Lechanorales, Lichenales, Lycoperdales, Moniliales, Mucorales, Mycelia Sterilia, Nidulariales, Peronosporales, Pezizales, Saprolegniales, Sclerodermatales, Secotiales, Sphaeriales, Tremellales, Tuberales, Tulostomatales, Uredinales, Ustilaginales, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fungus order | hyponyms:
+
+predicted: Agaricales, Auricales
+ 
+true: Agaricales, Aphyllophorales, Eurotiales, Auriculariales, Blastocladiales, Chytridiales, Endomycetales, Entomophthorales, Erysiphales, Helotiales, Hymenogastrales, Hypocreales, Lechanorales, Lichenales, Lycoperdales, Moniliales, Mucorales, Mycelia Sterilia, Nidulariales, Peronosporales, Pezizales, Saprolegniales, Sclerodermatales, Secotiales, Sphaeriales, Tremellales, Tuberales, Tulostomatales, Uredinales, Ustilaginales, 
+ 
+intersection: agaricales
+
+metrics:  MRR 1.0 MAP 0.09323307595174114 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.06666666666666667 
+
+==========
+hypernym: ambystomid | hyponyms:
+
+predicted: alpine ambystomid,
+ 
+true: spotted salamander, axolotl, mole salamander, tiger salamander, waterdog, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ambystomid | hyponyms:
+
+predicted: American giant salamander, giant lung
+ 
+true: spotted salamander, axolotl, mole salamander, tiger salamander, waterdog, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: adverb | hyponyms:
+
+predicted: adjective modifier, adject
+ 
+true: adverbial, comparative, positive, superlative, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: adverb | hyponyms:
+
+predicted: advmodifier, adverb of manner
+ 
+true: adverbial, comparative, positive, superlative, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: advancement | hyponyms:
+
+predicted: maturation, emergence,  |
+ 
+true: forwarding, stride, work flow, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: advancement | hyponyms:
+
+predicted: expansion, progression,  | 
+ 
+true: forwarding, stride, work flow, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: record | hyponyms:
+
+predicted: baseball record, football record, record-
+ 
+true: track record, world record, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: record | hyponyms:
+
+predicted: distance record, point total, point-
+ 
+true: track record, world record, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fence lizard | hyponyms:
+
+predicted: banded fence lizard, western fence
+ 
+true: western fence lizard, eastern fence lizard, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fence lizard | hyponyms:
+
+predicted: blackfarm lizard, blue-
+ 
+true: western fence lizard, eastern fence lizard, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tanager | hyponyms:
+
+predicted: blue jay, blue jay,
+ 
+true: scarlet tanager, hepatic tanager, western tanager, summer tanager, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tanager | hyponyms:
+
+predicted: blue jay, green jay,
+ 
+true: scarlet tanager, hepatic tanager, western tanager, summer tanager, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: skate | hyponyms:
+
+predicted: buttery ray, wing skate,
+ 
+true: barndoor skate, grey skate, little skate, thorny skate, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: skate | hyponyms:
+
+predicted: plume skate, stargaz
+ 
+true: barndoor skate, grey skate, little skate, thorny skate, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gluten | hyponyms:
+
+predicted: glutenin, gliadin,
+ 
+true: corn gluten, wheat gluten, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gluten | hyponyms:
+
+predicted: albumin, gliadin, 
+ 
+true: corn gluten, wheat gluten, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: aldehyde | hyponyms:
+
+predicted: acetaldehyde, but
+ 
+true: acetaldehyde, propenal, paraldehyde, formaldehyde, furfural, glyceraldehyde, propanal, 
+ 
+intersection: acetaldehyde
+
+metrics:  MRR 1.0 MAP 0.17471428571428568 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.14285714285714285 
+
+==========
+hypernym: aldehyde | hyponyms:
+
+predicted: citral, benzaldehy
+ 
+true: acetaldehyde, propenal, paraldehyde, formaldehyde, furfural, glyceraldehyde, propanal, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tarsier | hyponyms:
+
+predicted: Philippine tarsier, mountain t
+ 
+true: Tarsius glis, Tarsius syrichta, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tarsier | hyponyms:
+
+predicted: Philippine tarsier, 3
+ 
+true: Tarsius glis, Tarsius syrichta, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: acetic acid | hyponyms:
+
+predicted: glacial acetic acid, water
+ 
+true: acetum, trichloroacetic acid, vinegar, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: acetic acid | hyponyms:
+
+predicted: glacial acetic acid, 
+ 
+true: acetum, trichloroacetic acid, vinegar, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: duplicate | hyponyms:
+
+predicted: facsimile, facsimile,
+ 
+true: backup, counterpart, match, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: duplicate | hyponyms:
+
+predicted: doppelganger, echo, exact
+ 
+true: backup, counterpart, match, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: utility routine | hyponyms:
+
+predicted: macro,  |  program module,
+ 
+true: dump routine, input routine, output routine, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: utility routine | hyponyms:
+
+predicted: diagnostic, utility subroutine, 
+ 
+true: dump routine, input routine, output routine, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: insulin | hyponyms:
+
+predicted: insulin for cattle, insulin for
+ 
+true: recombinant human insulin, Lente Insulin, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: insulin | hyponyms:
+
+predicted: somatotropin, protrop
+ 
+true: recombinant human insulin, Lente Insulin, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cytopenia | hyponyms:
+
+predicted: acute hemolytic disease of
+ 
+true: hematocytopenia, pancytopenia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cytopenia | hyponyms:
+
+predicted: aplastic anemia, dy
+ 
+true: hematocytopenia, pancytopenia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: romance | hyponyms:
+
+predicted: historical romance, picaresque romance
+ 
+true: bodice ripper, Gothic romance, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: romance | hyponyms:
+
+predicted: gothic, sentimental romance,
+ 
+true: bodice ripper, Gothic romance, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: anatomist | hyponyms:
+
+predicted: histologist, neurobiologist, 
+ 
+true: comparative anatomist, histologist, osteologist, 
+ 
+intersection: histologist
+
+metrics:  MRR 1.0 MAP 0.3499999999999999 P@1 1.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: anatomist | hyponyms:
+
+predicted: anthropologist, comparatist,
+ 
+true: comparative anatomist, histologist, osteologist, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: treasurer | hyponyms:
+
+predicted: almoner, almoner,
+ 
+true: bursar, chamberlain, state treasurer, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: treasurer | hyponyms:
+
+predicted: financial controller, receiver,  | 
+ 
+true: bursar, chamberlain, state treasurer, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: formality | hyponyms:
+
+predicted: decorum, etiquette, 
+ 
+true: ceremoniousness, stateliness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: formality | hyponyms:
+
+predicted: pomp, grandeur, military form
+ 
+true: ceremoniousness, stateliness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pace | hyponyms:
+
+predicted: jogging pace, run, walking pace
+ 
+true: double time, quick time, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pace | hyponyms:
+
+predicted: pace of advancement, slow march,
+ 
+true: double time, quick time, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: rocking chair | hyponyms:
+
+predicted: wicker chair, hammock chair
+ 
+true: Boston rocker, platform rocker, shoofly, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: rocking chair | hyponyms:
+
+predicted: seesaw, swing,  | 
+ 
+true: Boston rocker, platform rocker, shoofly, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: playgoer | hyponyms:
+
+predicted: housegoer, matineemaker
+ 
+true: first-nighter, groundling, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: playgoer | hyponyms:
+
+predicted: theatergoer, 3-D
+ 
+true: first-nighter, groundling, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Finnish monetary unit | hyponyms:
+
+predicted: Finnish lira, pennink
+ 
+true: markka, penni, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Finnish monetary unit | hyponyms:
+
+predicted: Finnish markka, santim
+ 
+true: markka, penni, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: self-control | hyponyms:
+
+predicted: self-suppression, self-den
+ 
+true: nerves, presence of mind, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: self-control | hyponyms:
+
+predicted: equanimity, stoicism, temper
+ 
+true: nerves, presence of mind, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: filter | hyponyms:
+
+predicted: bandpass filter, bandpass filter,
+ 
+true: high-pass filter, low-pass filter, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: filter | hyponyms:
+
+predicted: bandpass filter, band-stop filter
+ 
+true: high-pass filter, low-pass filter, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: memorial | hyponyms:
+
+predicted: brass band, brass band, centennial
+ 
+true: epitaph, festschrift, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: memorial | hyponyms:
+
+predicted: war memorial, monument,  | 
+ 
+true: epitaph, festschrift, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: promontory | hyponyms:
+
+predicted: foreland, peninsula,  |
+ 
+true: mull, point, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: promontory | hyponyms:
+
+predicted: headland, sandbar, igu
+ 
+true: mull, point, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: baseball coach | hyponyms:
+
+predicted: pitching coach, catching coach, field
+ 
+true: batting coach, pitching coach, 
+ 
+intersection: pitching coach
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: baseball coach | hyponyms:
+
+predicted: base runner, pitcher, catcher
+ 
+true: batting coach, pitching coach, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: purpose | hyponyms:
+
+predicted: aim, aim, ursus,
+ 
+true: cross-purpose, final cause, mind, sake, view, will, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: purpose | hyponyms:
+
+predicted: aim, cause, end, urs
+ 
+true: cross-purpose, final cause, mind, sake, view, will, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: malaria | hyponyms:
+
+predicted: falciparum malaria, k
+ 
+true: blackwater fever, jungle fever, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: malaria | hyponyms:
+
+predicted: falicid malaria, plas
+ 
+true: blackwater fever, jungle fever, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: funeral | hyponyms:
+
+predicted: Requiem Mass, seance, wake
+ 
+true: burial, sky burial, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: funeral | hyponyms:
+
+predicted: dirge, requiem, wake,
+ 
+true: burial, sky burial, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: crate | hyponyms:
+
+predicted: beer crate, fruit crate, milk crate
+ 
+true: packing box, soapbox, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: crate | hyponyms:
+
+predicted: bale, bale, hogs
+ 
+true: packing box, soapbox, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: denudation | hyponyms:
+
+predicted: scalping, scourging, 
+ 
+true: cornhusking, deforestation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: denudation | hyponyms:
+
+predicted: exfoliation, desquamation
+ 
+true: cornhusking, deforestation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========

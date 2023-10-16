@@ -99,7 +99,7 @@ def brute_child(ppl_pairs, low, high, step):
             if val < thr:
                 edges.append(key)
 
-        P = len(set(G.edges()) & set(edges)) / (len(set(edges)) + 1)
+        P = len(set(G.edges()) & set(edges)) / (len(set(edges)) + 1e-15)
         R = len(set(G.edges()) & set(edges)) / len(set(G.edges()))
         # print(len(set(edges)))
         F = (2 * P * R) / (P + R + 1e-15)
@@ -140,6 +140,6 @@ if __name__ == "__main__":
     all_verteces = list(G.nodes)
     all_verteces.remove(root)
 
-    print(ppls_pairs)
+  #  print(ppls_pairs)
     res = brute_child(ppls_pairs, low=low, high=high, step=step)
     res = iterative_child(ppls_pairs, low=low, high=high, step=step, max_iter=25000)
