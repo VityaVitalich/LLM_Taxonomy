@@ -1,10 +1,10 @@
 TEST_DATA_PATH:
   - "babel_datasets/v2_wnet_def_test.pickle"
 OUTPUT_NAME:
-  - "/home/mnt/public-datasets/rabikov/model_outputs/_mistralai-Mistral-7B-Instruct-v0.1wnet2_def_coma_0"
+  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hfwnet2_lemmas_clear_0"
 SAVE_EXAMPLES:
   - false
 SAVE_EXAMPLES_PATH:
-  - "babel_datasets/model_examples/Mistral7b-def-coma"
+  - "babel_datasets/model_examples/llama-lemmas-clear"
 IDS_TO_USE:
-  - "hard"
+  - "all"

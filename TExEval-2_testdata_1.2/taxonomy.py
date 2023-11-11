@@ -4,6 +4,7 @@ with open(r"params_tax.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 import os
+
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
@@ -23,7 +24,6 @@ import torch
 from tqdm import tqdm
 import pickle
 import numpy as np
-
 
 
 sys.path.append("../pipeline_src/")
@@ -209,8 +209,6 @@ if __name__ == "__main__":
             G.add_node(hyper)
             G.add_edge(hyper, hypo)
 
-    
-
     config = PeftConfig.from_pretrained(model_checkpoint)
     # Do not forget your token for Llama2 models
     model = LlamaForCausalLM.from_pretrained(
@@ -220,24 +218,26 @@ if __name__ == "__main__":
         device_map="auto",
         use_auth_token=HF_TOKEN,
     )
-    tokenizer = LlamaTokenizer.from_pretrained(config.base_model_name_or_path,  use_auth_token=HF_TOKEN,
-        padding_side="left",)
+    tokenizer = LlamaTokenizer.from_pretrained(
+        config.base_model_name_or_path,
+        use_auth_token=HF_TOKEN,
+        padding_side="left",
+    )
     inference_model = PeftModel.from_pretrained(model, model_checkpoint)
 
-    ppl_est = PplEstimator(inference_model, tokenizer, device='cuda', batch_size=batch_size)
+    ppl_est = PplEstimator(
+        inference_model, tokenizer, device="cuda", batch_size=batch_size
+    )
 
-    root = 'environment'
+    root = "environment"
     all_verteces = list(G.nodes)
     all_verteces.remove(root)
 
     tb = TaxonomyBuilder(root, all_verteces)
 
-    #all_edges = tb.build_taxonomy(strategy, ppl_estimator = ppl_est, thr = 6000)
-    all_edges = tb.build_taxonomy(strategy, ppl_estimator = ppl_est, top_k=top_k)
+    # all_edges = tb.build_taxonomy(strategy, ppl_estimator = ppl_est, thr = 6000)
+    all_edges = tb.build_taxonomy(strategy, ppl_estimator=ppl_est, top_k=top_k)
     print(all_edges)
 
-    with open(SAVING_DIR + 'taxonomy_edges/' + run_name + '.pickle', 'wb') as f:
+    with open(SAVING_DIR + "taxonomy_edges/" + run_name + ".pickle", "wb") as f:
         pickle.dump(all_edges, f)
-
-
-                                            

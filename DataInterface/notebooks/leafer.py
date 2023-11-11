@@ -79,13 +79,11 @@ class Leafer:
 
         return dedup_train, dedup_test
 
-    
-
     @staticmethod
     def dedup_set(data):
-
         def coded(elem):
             return str(elem["children"]) + str(elem["parents"])
+
         mapping = {}
         cased_all = {}
         for elem in data:

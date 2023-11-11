@@ -37,7 +37,6 @@ if __name__ == "__main__":
     save_examples = params_list["SAVE_EXAMPLES"][0]
     save_examples_path = params_list["SAVE_EXAMPLES_PATH"][0]
     ids_to_use = params_list["IDS_TO_USE"][0]
-    
 
     df = pd.read_pickle(test_path)
 
@@ -53,22 +52,21 @@ if __name__ == "__main__":
 
     with open(saving_path, "rb") as fp:
         all_preds = pickle.load(fp)
-    
-    with open('/home/home/v.moskvoretskii/NLP-DL-Project-hypo-to-hyper/babel_datasets/v2_wnet_test_hard_ids.pickle', "rb") as fp:
+
+    with open("./babel_datasets/v2_wnet_test_hard_ids.pickle", "rb") as fp:
         hard_ids = pickle.load(fp)
-    
-    if ids_to_use == 'easy':
+
+    if ids_to_use == "easy":
         all_preds = [elem for i, elem in enumerate(all_preds) if i not in hard_ids]
         df = [elem for i, elem in enumerate(df) if i not in hard_ids]
         write_log_path = save_examples_path + "/easy_metrics.txt"
 
-    elif ids_to_use == 'hard':
+    elif ids_to_use == "hard":
         all_preds = [elem for i, elem in enumerate(all_preds) if i in hard_ids]
         df = [elem for i, elem in enumerate(df) if i in hard_ids]
         write_log_path = save_examples_path + "/hard_metrics.txt"
     else:
         write_log_path = save_examples_path + "/metrics.txt"
-
 
     if isinstance(all_preds[0][0], list):
         flat_list = [item for sublist in all_preds for item in sublist]
@@ -114,9 +112,8 @@ if __name__ == "__main__":
         cased_metrics[key] = res
 
     if not os.path.exists(save_examples_path):
-            print("path {} do not exist".format(save_examples_path))
-            os.mkdir(save_examples_path)
-
+        print("path {} do not exist".format(save_examples_path))
+        os.mkdir(save_examples_path)
 
     with open(write_log_path, "w") as f:
         df = pd.concat(

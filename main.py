@@ -26,7 +26,7 @@ import numpy as np
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
 
-sys.path.append("../NLP-DL-Project-hypo-to-hyper/pipeline_src/")
+sys.path.append("../LLM_Taxonomy/pipeline_src/")
 
 
 from config.config import TaskConfig
@@ -92,9 +92,7 @@ if __name__ == "__main__":
     config.exp_name = (
         config.model_checkpoint.replace("/", "-") + params_list["DATA_PREPROC_STYLE"][0]
     )
-    config.saving_path = (
-        SAVING_DIR + "model_checkpoints/" + config.exp_name + "_custom_multilang"
-    )
+    config.saving_path = SAVING_DIR + "model_checkpoints/" + config.exp_name
     config.log_pred_every = params_list["LOG_PRED_EVERY"][0]
 
     if config.model_type == "Auto":
@@ -134,21 +132,21 @@ if __name__ == "__main__":
         LORA_ALPHA = 16
         LORA_DROPOUT = 0.05
         LORA_TARGET_MODULES = [
-        "k_proj",
-        "q_proj",
-        "v_proj",
-        "o_proj",
-        "gate_proj",
-        "up_proj",
-        "down_proj",
-        "lm_head"
-    ]
+            "k_proj",
+            "q_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj",
+            "lm_head",
+        ]
 
         # model = prepare_model_for_int8_training(model)
         config_lora = LoraConfig(
             r=LORA_R,
             lora_alpha=LORA_ALPHA,
-            target_modules=LORA_TARGET_MODULES,
+            #  target_modules=LORA_TARGET_MODULES,
             lora_dropout=LORA_DROPOUT,
             bias="none",
             task_type="CAUSAL_LM",

@@ -1,14 +1,14 @@
 DATA:
   - "environment"
 IN_NAME:
-  - 'data/env_eurovoc_pairs_pred_hypernym_numbers_ppl.pickle'
+  - 'data/env/env_eurovoc_pairs_pred_hypernym_numbers_ppl_clear.pickle'
 LEMMA:
   - false
 REVERSE:
   - true
 LOW:
-  - 1
+  - 0.1
 HIGH:
   - 30
 STEP:
-  - 0.1
+  - 0.01

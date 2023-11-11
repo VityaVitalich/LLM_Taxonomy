@@ -1,6 +1,7 @@
 SEED:
   - 42
 CUDA_VISIBLE_DEVICES:
+  - 0
   - 1
 EPOCHS:
   - 1
@@ -11,21 +12,21 @@ LR:
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/v2_wnet_def_train.pickle"
+  - "babel_datasets/v2_wnet_lemmas_train_no_semeval16.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/v2_wnet_def_test.pickle"
+  - "babel_datasets/v2_wnet_lemmas_test.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
-  - "Auto"
+  - "Llama"
 MODEL_CHECKPOINT:
-  - "mistralai/Mistral-7B-Instruct-v0.1"
+  - "meta-llama/Llama-2-7b-hf"
 DTYPE:
 - "half"
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "wnet2_def_coma"
+- "wnet2_lemmas_clear"
 QLORA:
 - true
 LOAD_PATH:

@@ -4,6 +4,7 @@ with open(r"params_tax.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 import os
+
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
@@ -25,7 +26,6 @@ import pickle
 import numpy as np
 
 
-
 sys.path.append("../pipeline_src/")
 from dataset.dataset import HypernymDataset, Collator
 from dataset.prompt_schemas import (
@@ -35,7 +35,7 @@ from dataset.prompt_schemas import (
     predict_child_with_parent_and_grandparent,
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
-    predict_parent_from_child
+    predict_parent_from_child,
 )
 
 from torch.utils.data import DataLoader
@@ -201,12 +201,10 @@ if __name__ == "__main__":
     out_name = params_list["OUT_NAME"][0]
     in_name = params_list["IN_NAME"][0]
     chkp_time = 100
-    torch.manual_seed(params_list['SEED'][0])
+    torch.manual_seed(params_list["SEED"][0])
 
-    with open(in_name, 'rb') as f:
+    with open(in_name, "rb") as f:
         all_pairs = pickle.load(f)
-
-
 
     config = PeftConfig.from_pretrained(model_checkpoint)
     # Do not forget your token for Llama2 models
@@ -217,14 +215,15 @@ if __name__ == "__main__":
         device_map="auto",
         use_auth_token=HF_TOKEN,
     )
-    tokenizer = LlamaTokenizer.from_pretrained(config.base_model_name_or_path,  use_auth_token=HF_TOKEN,
-        padding_side="left",)
+    tokenizer = LlamaTokenizer.from_pretrained(
+        config.base_model_name_or_path,
+        use_auth_token=HF_TOKEN,
+        padding_side="left",
+    )
     inference_model = PeftModel.from_pretrained(model, model_checkpoint)
 
     dataset = PplDataset(all_pairs, tokenizer)
-    collator = Collator(
-            tokenizer.eos_token_id, tokenizer.eos_token_id, -100
-        )
+    collator = Collator(tokenizer.eos_token_id, tokenizer.eos_token_id, -100)
 
     loader = DataLoader(
         dataset,
@@ -236,14 +235,11 @@ if __name__ == "__main__":
         pin_memory=False,
     )
 
-
-
     @torch.no_grad()
     def ppl_over_loader(model, loader, device, term_to_label=None):
-
         def get_term(s):
-            return s.split('|')[-2].split(':')[-1].strip()
-        
+            return s.split("|")[-2].split(":")[-1].strip()
+
         ppl_ls = []
         if not term_to_label:
             term_to_label = {}
@@ -263,43 +259,43 @@ if __name__ == "__main__":
                 labels=labels.to(device).long(),
             )
 
-            logits = output['logits']
+            logits = output["logits"]
             shift_logits = logits[..., :-1, :].contiguous()
             shift_labels = labels[..., 1:].contiguous()
-            loss_fct = nn.CrossEntropyLoss(reduction='none')
+            loss_fct = nn.CrossEntropyLoss(reduction="none")
             # Enable model parallelism
             shift_labels = shift_labels.to(shift_logits.device)
-            loss = loss_fct(shift_logits.transpose(1,2), shift_labels)
-            ppl = ((loss* (shift_labels != -100)).sum(dim=1) / (shift_labels != -100).sum(dim=1)).exp().cpu().tolist()
+            loss = loss_fct(shift_logits.transpose(1, 2), shift_labels)
+            ppl = (
+                (
+                    (loss * (shift_labels != -100)).sum(dim=1)
+                    / (shift_labels != -100).sum(dim=1)
+                )
+                .exp()
+                .cpu()
+                .tolist()
+            )
             ppl_ls.extend(ppl)
-
-
-
-            
-            
-            
 
             for cur_ppl, term, target in zip(ppl, cur_terms, cur_targets):
                 term_to_label[(term, target)] = cur_ppl
 
-            if (i+1) % chkp_time == 0:
-                with open(out_name, 'wb') as f:
+            if (i + 1) % chkp_time == 0:
+                with open(out_name, "wb") as f:
                     pickle.dump(term_to_label, f)
 
         return ppl_ls, term_to_label
 
-
-    loss_fn = nn.CrossEntropyLoss(reduction='none')
-    if params_list['LOAD'][0]:
-        with open(out_name, 'rb') as f:
+    loss_fn = nn.CrossEntropyLoss(reduction="none")
+    if params_list["LOAD"][0]:
+        with open(out_name, "rb") as f:
             term_to_label = pickle.load(f)
-        ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda', term_to_label)
+        ppls, term_to_label = ppl_over_loader(
+            inference_model, loader, "cuda", term_to_label
+        )
 
     else:
-        ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda')
+        ppls, term_to_label = ppl_over_loader(inference_model, loader, "cuda")
 
-    with open(out_name, 'wb') as f:
+    with open(out_name, "wb") as f:
         pickle.dump(term_to_label, f)
-
-
-                                            

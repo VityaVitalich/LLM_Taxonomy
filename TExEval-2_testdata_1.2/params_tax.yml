@@ -11,10 +11,10 @@ TOP_K:
 NAME:
   - "first_test_top10"
 MODEL_CHECKPOINT:
-  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-numbers"
+  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-numbers-no-eurovoc"
 OUT_NAME:
-  - 'data/sci_eurovoc_pairs_leaf_no_leafs_numbers_ppl.pickle'
+  - 'data/sci/sci_eurovoc_pairs_pred_hypernym_numbers_ppl_clear.pickle'
 IN_NAME:
-  - 'data/sci_eurovoc_pairs_leaf_no_leafs_lemmas.pickle'
+  - 'data/sci/sci_eurovoc_pairs_pred_hypernym.pickle'
 LOAD:
   - false
