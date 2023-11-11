@@ -142,4 +142,4 @@ if __name__ == "__main__":
 
     #  print(ppls_pairs)
     res = brute_child(ppls_pairs, low=low, high=high, step=step)
-#  res = iterative_child(ppls_pairs, low=low, high=high, step=step, max_iter=25000)
+    res = iterative_child(ppls_pairs, low=low, high=high, step=step, max_iter=25000)

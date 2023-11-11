@@ -4,12 +4,6 @@ CUDA_VISIBLE_DEVICES:
   - 1
 BATCH_SIZE:
   - 64
-STRATEGY:
-  - "ppl_top_collector"
-TOP_K:
-  - 5
-NAME:
-  - "first_test_top10"
 MODEL_CHECKPOINT:
   - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-numbers-no-eurovoc"
 OUT_NAME:
@@ -17,4 +11,6 @@ OUT_NAME:
 IN_NAME:
   - 'data/sci/sci_eurovoc_pairs_pred_hypernym.pickle'
 LOAD:
+  - false
+USE_DEF:
   - false

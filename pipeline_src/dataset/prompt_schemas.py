@@ -1,7 +1,7 @@
 import os
 
 use_def = os.getenv("USE_DEF", "False") == "True"
-
+print(use_def)
 
 def clean_elem(elem, keys_to_remove_digits=["children"]):
     removes = set(keys_to_remove_digits)
