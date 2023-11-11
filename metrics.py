@@ -1,7 +1,7 @@
 import os
 import yaml
 
-with open(r"params_metrics.yml") as file:
+with open(r"./configs/metrics.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 import sys

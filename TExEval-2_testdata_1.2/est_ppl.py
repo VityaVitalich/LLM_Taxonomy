@@ -9,13 +9,13 @@ os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
 
-
+use_def = params_list['USE_DEF'][0]
 SAVING_DIR = os.environ.get("SAVING_DIR")
 HF_TOKEN = os.environ.get("HF_TOKEN")
 os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
 os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 
-
+os.environ['USE_DEF'] = str(use_def)
 import networkx as nx
 import matplotlib.pyplot as plt
 import torch.nn as nn

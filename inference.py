@@ -4,9 +4,11 @@
 import os
 import yaml
 
-with open(r"params_inference.yml") as file:
+with open(r"./configs/inference.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
+use_def = params_list['USE_DEF'][0]
+os.environ['USE_DEF'] = str(use_def)
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])

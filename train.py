@@ -4,7 +4,7 @@
 import os
 import yaml
 
-with open(r"params.yml") as file:
+with open(r".configs/main.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 SAVING_DIR = os.environ.get("SAVING_DIR")
@@ -12,7 +12,9 @@ HF_TOKEN = os.environ.get("HF_TOKEN")
 os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
 os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 
-print(SAVING_DIR)
+use_def = params_list['USE_DEF'][0]
+os.environ['USE_DEF'] = str(use_def)
+print(SAVING_DIR, use_def)
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
@@ -94,6 +96,7 @@ if __name__ == "__main__":
     )
     config.saving_path = SAVING_DIR + "model_checkpoints/" + config.exp_name
     config.log_pred_every = params_list["LOG_PRED_EVERY"][0]
+    
 
     if config.model_type == "Auto":
         model_type = AutoModelForCausalLM
