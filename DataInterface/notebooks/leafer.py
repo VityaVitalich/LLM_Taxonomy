@@ -3,7 +3,7 @@ from typing import Dict, Generator, Optional, Set, Tuple
 import networkx as nx
 
 import numpy as np
-
+import random
 from collector import Collector
 
 
@@ -47,6 +47,7 @@ class Leafer:
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
         weights=[0.2, 0.2, 0.2, 0.2, 0.2],
+        p_parent=0.5,
     ):
         """
         Interface for train test splitting
@@ -59,6 +60,7 @@ class Leafer:
             p_divide_leafs,
             min_to_test_rate,
             weights=weights,
+            p_parent=p_parent,
         )
         # self.collector.collect_only_child()
         # self.collector.collect_only_leafs()
@@ -68,4 +70,37 @@ class Leafer:
         # self.collector.collect_mixes_triplets()
         self.collector.collect_possible_samples()
 
-        return self.collector.train, self.collector.test
+        train, test = self.collector.train, self.collector.test
+        dedup_train = self.dedup_set(train)
+        dedup_test = self.dedup_set(test)
+
+        random.shuffle(dedup_train)
+        random.shuffle(dedup_test)
+
+        return dedup_train, dedup_test
+
+    @staticmethod
+    def dedup_set(data):
+        def coded(elem):
+            return str(elem["children"]) + str(elem["parents"])
+
+        mapping = {}
+        cased_all = {}
+        for elem in data:
+            case = elem["case"]
+            if case in cased_all.keys():
+                cased_all[case].append(coded(elem))
+            else:
+                cased_all[case] = [coded(elem)]
+
+            mapping[coded(elem)] = elem
+
+        for case, vals in cased_all.items():
+            print(case, len(vals), len(set(vals)))
+
+        dedup_data = []
+        for case, vals in cased_all.items():
+            for uniq_code in set(vals):
+                dedup_data.append(mapping[uniq_code])
+
+        return dedup_data

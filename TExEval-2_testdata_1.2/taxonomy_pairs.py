@@ -4,6 +4,7 @@ with open(r"params_tax.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 import os
+
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
@@ -25,7 +26,6 @@ import pickle
 import numpy as np
 
 
-
 sys.path.append("../pipeline_src/")
 from dataset.dataset import HypernymDataset, Collator
 from dataset.prompt_schemas import (
@@ -35,6 +35,7 @@ from dataset.prompt_schemas import (
     predict_child_with_parent_and_grandparent,
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
+    predict_parent_from_child,
 )
 
 from torch.utils.data import DataLoader
@@ -64,6 +65,7 @@ class PplDataset(HypernymDataset):
             "leafs_and_no_leafs": predict_child_from_parent,
             "simple_triplet_grandparent": predict_parent_from_child_granparent,
             "simple_triplet_2parent": predict_child_from_2_parents,
+            "predict_hypernym": predict_parent_from_child,
         },
     ):
         self.tokenizer = tokenizer
@@ -198,12 +200,11 @@ if __name__ == "__main__":
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     out_name = params_list["OUT_NAME"][0]
     in_name = params_list["IN_NAME"][0]
+    chkp_time = 100
+    torch.manual_seed(params_list["SEED"][0])
 
-
-    with open(in_name, 'rb') as f:
+    with open(in_name, "rb") as f:
         all_pairs = pickle.load(f)
-
-
 
     config = PeftConfig.from_pretrained(model_checkpoint)
     # Do not forget your token for Llama2 models
@@ -214,14 +215,15 @@ if __name__ == "__main__":
         device_map="auto",
         use_auth_token=HF_TOKEN,
     )
-    tokenizer = LlamaTokenizer.from_pretrained(config.base_model_name_or_path,  use_auth_token=HF_TOKEN,
-        padding_side="left",)
+    tokenizer = LlamaTokenizer.from_pretrained(
+        config.base_model_name_or_path,
+        use_auth_token=HF_TOKEN,
+        padding_side="left",
+    )
     inference_model = PeftModel.from_pretrained(model, model_checkpoint)
 
     dataset = PplDataset(all_pairs, tokenizer)
-    collator = Collator(
-            tokenizer.eos_token_id, tokenizer.eos_token_id, -100
-        )
+    collator = Collator(tokenizer.eos_token_id, tokenizer.eos_token_id, -100)
 
     loader = DataLoader(
         dataset,
@@ -234,47 +236,66 @@ if __name__ == "__main__":
     )
 
     @torch.no_grad()
-    def ppl_over_loader(model, loader, device, loss_fn):
-        ppl_ls = []
-        term_to_label = {}
+    def ppl_over_loader(model, loader, device, term_to_label=None):
+        def get_term(s):
+            return s.split("|")[-2].split(":")[-1].strip()
 
-        for batch in tqdm(loader):
+        ppl_ls = []
+        if not term_to_label:
+            term_to_label = {}
+
+        for i, batch in tqdm(enumerate(loader), total=len(loader)):
             terms, att_mask_terms, targets, input_seqs, att_mask_input, labels = batch
+            decoded_terms = tokenizer.batch_decode(terms)
+            cur_terms = list(map(get_term, decoded_terms))
+            cur_targets = tokenizer.batch_decode(targets, skip_special_tokens=True)
+
+            if (cur_terms[0], cur_targets[0]) in term_to_label.keys():
+                continue
+
             output = model.forward(
                 input_seqs.to(device).long(),
                 attention_mask=att_mask_input.to(device).long(),
                 labels=labels.to(device).long(),
             )
 
-            logits = output['logits']
+            logits = output["logits"]
             shift_logits = logits[..., :-1, :].contiguous()
             shift_labels = labels[..., 1:].contiguous()
-            loss_fct = nn.CrossEntropyLoss(reduction='none')
+            loss_fct = nn.CrossEntropyLoss(reduction="none")
             # Enable model parallelism
             shift_labels = shift_labels.to(shift_logits.device)
-            loss = loss_fct(shift_logits.transpose(1,2), shift_labels)
-            ppl = ((loss* (shift_labels != -100)).sum(dim=1) / (shift_labels != -100).sum(dim=1)).exp().cpu().tolist()
+            loss = loss_fct(shift_logits.transpose(1, 2), shift_labels)
+            ppl = (
+                (
+                    (loss * (shift_labels != -100)).sum(dim=1)
+                    / (shift_labels != -100).sum(dim=1)
+                )
+                .exp()
+                .cpu()
+                .tolist()
+            )
             ppl_ls.extend(ppl)
-
-            def get_term(s):
-                return s.split('|')[-2].split(':')[-1].strip()
-
-            decoded_terms = tokenizer.batch_decode(terms)
-            cur_terms = list(map(get_term, decoded_terms))
-            cur_targets = tokenizer.batch_decode(targets, skip_special_tokens=True)
 
             for cur_ppl, term, target in zip(ppl, cur_terms, cur_targets):
                 term_to_label[(term, target)] = cur_ppl
 
+            if (i + 1) % chkp_time == 0:
+                with open(out_name, "wb") as f:
+                    pickle.dump(term_to_label, f)
+
         return ppl_ls, term_to_label
 
+    loss_fn = nn.CrossEntropyLoss(reduction="none")
+    if params_list["LOAD"][0]:
+        with open(out_name, "rb") as f:
+            term_to_label = pickle.load(f)
+        ppls, term_to_label = ppl_over_loader(
+            inference_model, loader, "cuda", term_to_label
+        )
 
-    loss_fn = nn.CrossEntropyLoss(reduction='none')
-    ppls, term_to_label = ppl_over_loader(inference_model, loader, 'cuda', loss_fn)
+    else:
+        ppls, term_to_label = ppl_over_loader(inference_model, loader, "cuda")
 
-
-    with open(out_name, 'wb') as f:
+    with open(out_name, "wb") as f:
         pickle.dump(term_to_label, f)
-
-
-                                            

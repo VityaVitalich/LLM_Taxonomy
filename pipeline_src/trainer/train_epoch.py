@@ -182,11 +182,12 @@ def predict(model, tokenizer, val_loader, config, epoch="", ans_load_path=None):
         all_preds.extend(pred)
         all_labels.extend(gold)
 
-        if batch_idx % 10 == 0:
-            with open(saving_path, "wb") as fp:
-                pickle.dump(all_preds, fp)
+        # if batch_idx % 10 == 0:
+        # with open(saving_path, "wb") as fp:
+        #    pickle.dump(all_preds, fp)
 
-            # print(all_preds)
+        # print(all_preds)
+        torch.cuda.empty_cache()
 
     with open(saving_path, "wb") as fp:
         pickle.dump(all_preds, fp)

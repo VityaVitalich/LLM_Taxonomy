@@ -23,6 +23,7 @@ from dataset.prompt_schemas import (
     predict_child_with_parent_and_grandparent,
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
+    predict_parent_from_child,
 )
 
 
@@ -35,20 +36,37 @@ if __name__ == "__main__":
     saving_path = params_list["OUTPUT_NAME"][0]
     save_examples = params_list["SAVE_EXAMPLES"][0]
     save_examples_path = params_list["SAVE_EXAMPLES_PATH"][0]
+    ids_to_use = params_list["IDS_TO_USE"][0]
 
     df = pd.read_pickle(test_path)
 
     transforms = {
-        "only_child_leaf": predict_parent_from_child_granparent,
+        "only_child_leaf": predict_child_with_parent_and_grandparent,  # заменить на предсказание ребенка
         "only_leafs_all": predict_child_from_parent,
         "only_leafs_divided": predict_children_with_parent_and_brothers,
         "leafs_and_no_leafs": predict_child_from_parent,
         "simple_triplet_grandparent": predict_parent_from_child_granparent,
         "simple_triplet_2parent": predict_child_from_2_parents,
+        "predict_hypernym": predict_parent_from_child,
     }
 
     with open(saving_path, "rb") as fp:
         all_preds = pickle.load(fp)
+
+    with open("./babel_datasets/v2_wnet_test_hard_ids.pickle", "rb") as fp:
+        hard_ids = pickle.load(fp)
+
+    if ids_to_use == "easy":
+        all_preds = [elem for i, elem in enumerate(all_preds) if i not in hard_ids]
+        df = [elem for i, elem in enumerate(df) if i not in hard_ids]
+        write_log_path = save_examples_path + "/easy_metrics.txt"
+
+    elif ids_to_use == "hard":
+        all_preds = [elem for i, elem in enumerate(all_preds) if i in hard_ids]
+        df = [elem for i, elem in enumerate(df) if i in hard_ids]
+        write_log_path = save_examples_path + "/hard_metrics.txt"
+    else:
+        write_log_path = save_examples_path + "/metrics.txt"
 
     if isinstance(all_preds[0][0], list):
         flat_list = [item for sublist in all_preds for item in sublist]
@@ -56,7 +74,7 @@ if __name__ == "__main__":
 
     all_labels = []
     all_terms = []
-    cased = {}
+    cased = {"all_hyponyms": {"pred": [], "label": [], "term": []}}
 
     for i, elem in enumerate(df):
         try:
@@ -76,6 +94,12 @@ if __name__ == "__main__":
         cased[case]["label"].append(target)
         cased[case]["term"].append(processed_term)
 
+        if case in ("leafs_and_no_leafs", "only_leafs_all", "only_child_leaf"):
+            cur_case = "all_hyponyms"
+            cased[cur_case]["pred"].append(all_preds[i])
+            cased[cur_case]["label"].append(target)
+            cased[cur_case]["term"].append(processed_term)
+
     print("total preds:" + str(len(all_preds)))
     print("total labels:" + str(len(all_labels)))
     metric_counter = Metric(all_labels, all_preds)
@@ -87,7 +111,9 @@ if __name__ == "__main__":
         res = metric_counter.get_metrics()
         cased_metrics[key] = res
 
-    write_log_path = params_list["OUTPUT_NAME"][0] + ".txt"
+    if not os.path.exists(save_examples_path):
+        print("path {} do not exist".format(save_examples_path))
+        os.mkdir(save_examples_path)
 
     with open(write_log_path, "w") as f:
         df = pd.concat(

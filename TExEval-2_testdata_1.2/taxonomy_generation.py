@@ -4,6 +4,7 @@ with open(r"params_tax.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 import os
+
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
 )
@@ -23,7 +24,6 @@ import torch
 from tqdm import tqdm
 import pickle
 import numpy as np
-
 
 
 sys.path.append("../pipeline_src/")
@@ -196,14 +196,12 @@ if __name__ == "__main__":
     strategy = params_list["STRATEGY"][0]
     top_k = params_list["TOP_K"][0]
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
-    out_name = 'gen_' + params_list["OUT_NAME"][0]
+    out_name = "gen_" + params_list["OUT_NAME"][0]
 
     path = "all_nodes_children_gen.pickle"
 
-    with open(path, 'rb') as f:
+    with open(path, "rb") as f:
         all_pairs = pickle.load(f)
-
-
 
     config = PeftConfig.from_pretrained(model_checkpoint)
     # Do not forget your token for Llama2 models
@@ -214,14 +212,15 @@ if __name__ == "__main__":
         device_map="auto",
         use_auth_token=HF_TOKEN,
     )
-    tokenizer = LlamaTokenizer.from_pretrained(config.base_model_name_or_path,  use_auth_token=HF_TOKEN,
-        padding_side="left",)
+    tokenizer = LlamaTokenizer.from_pretrained(
+        config.base_model_name_or_path,
+        use_auth_token=HF_TOKEN,
+        padding_side="left",
+    )
     inference_model = PeftModel.from_pretrained(model, model_checkpoint)
 
     dataset = PplDataset(all_pairs, tokenizer)
-    collator = Collator(
-            tokenizer.eos_token_id, tokenizer.eos_token_id, -100
-        )
+    collator = Collator(tokenizer.eos_token_id, tokenizer.eos_token_id, -100)
 
     loader = DataLoader(
         dataset,
@@ -246,11 +245,12 @@ if __name__ == "__main__":
                 **gen_args,
             )
             pred_tokens = output_tokens[:, terms.size()[1] :]
-            pred_str = tokenizer.batch_decode(pred_tokens.cpu(), skip_special_tokens=True)
-
+            pred_str = tokenizer.batch_decode(
+                pred_tokens.cpu(), skip_special_tokens=True
+            )
 
             def get_term(s):
-                return s.split('|')[-2].split(':')[-1].strip()
+                return s.split("|")[-2].split(":")[-1].strip()
 
             decoded_terms = tokenizer.batch_decode(terms)
             cur_terms = list(map(get_term, decoded_terms))
@@ -261,21 +261,19 @@ if __name__ == "__main__":
         return term_to_generations
 
     gen_args = {
-        'do_sample': True,
-        'num_beams': 8,
-        'max_new_tokens': 128,
-        'temperature': 0.95,
-        'num_return_sequences': 1,
-        'top_k': 20,
+        "do_sample": True,
+        "num_beams": 8,
+        "max_new_tokens": 128,
+        "temperature": 0.95,
+        "num_return_sequences": 1,
+        "top_k": 20,
         "no_repeat_ngram_size": 3,
-        'min_new_tokens': 127
-
+        "min_new_tokens": 127,
     }
 
-    term_to_generations = generate_over_loader(inference_model, loader, 'cuda', gen_args)
+    term_to_generations = generate_over_loader(
+        inference_model, loader, "cuda", gen_args
+    )
 
-    with open(out_name, 'wb') as f:
+    with open(out_name, "wb") as f:
         pickle.dump(term_to_generations, f)
-
-
-                                            

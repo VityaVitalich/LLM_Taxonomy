@@ -1,0 +1,2574 @@
+hypernym: correctness (the quality of conformity to social expectations), hyponyms:political correctness | other hyponyms:
+
+predicted: decency, decency, propriety, racy, rectitude, respectability, 11, 12, 24, 25, 3
+ 
+true: faultlessness,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: correctness (the quality of conformity to social expectations), hyponyms:political correctness | other hyponyms:
+
+predicted: inaccuracy, orthodoxy, racy, rectitude, racy, racy, racy, rectitude, racy, racy, racy,
+ 
+true: faultlessness,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mongoose (agile grizzled Old World viverrine; preys on snakes and rodents), hyponyms:Indian mongoose | other hyponyms:
+
+predicted: civet cat, black-foot mongoose, meerkat, banded mongoose, Cape cobra mongoose, iguana mongoose, iguana-
+ 
+true: ichneumon,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mongoose (agile grizzled Old World viverrine; preys on snakes and rodents), hyponyms:Indian mongoose | other hyponyms:
+
+predicted: meerkat, Surrey, ounce, 4-banded mongoose, ring-tailed mongoose, banded mongoose, 5-striped mongo
+ 
+true: ichneumon,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: electric potential (the difference in electrical charge between two points in a circuit expressed in volts), hyponyms:resting potential | other hyponyms:
+
+predicted: voltage, difference potential, voltage drop, 120-volt, 12-volt, 1,200-volt, 1,
+ 
+true: evoked potential,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: electric potential (the difference in electrical charge between two points in a circuit expressed in volts), hyponyms:resting potential | other hyponyms:
+
+predicted: action potential, threshold potential, 1, 0, 1.2, 1.4, 1.5, 2, 2.5, 
+ 
+true: evoked potential,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mallet (a sports implement with a long handle and a head like a hammer; used in sports (polo or croquet) to hit a ball), hyponyms:polo mallet | other hyponyms:
+
+predicted: croquet mallet, golf mallet, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+ 
+true: croquet mallet,
+ 
+intersection: croquet mallet
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: mallet (a sports implement with a long handle and a head like a hammer; used in sports (polo or croquet) to hit a ball), hyponyms:polo mallet | other hyponyms:
+
+predicted: croquet mallet, 45, 9-iron, 1-iron, 13-iron, 3-iron, 5
+ 
+true: croquet mallet,
+ 
+intersection: croquet mallet
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: temperature scale (a system of measuring temperature), hyponyms:Fahrenheit scale, Rankine scale, Reaumur scale | other hyponyms:
+
+predicted: Celsius scale, Fahrenheit scale, Kelvin scale, Reaumur scale, Rankine scale, Centigrade scale, Kelvin scale, Rieman scale
+ 
+true: Kelvin scale, Celsius scale,
+ 
+intersection: kelvin scale,celsius scale
+
+metrics:  MRR 1.0 MAP 1.43 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.5 
+
+==========
+hypernym: temperature scale (a system of measuring temperature), hyponyms:Fahrenheit scale, Rankine scale, Reaumur scale | other hyponyms:
+
+predicted: Celsius scale, Kelvin scale, centigrade scale, Fahrenheit scale, 95th percentile, 5th percentile, 10th
+ 
+true: Kelvin scale, Celsius scale,
+ 
+intersection: kelvin scale,celsius scale
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: military science (the discipline dealing with the principles of warfare), hyponyms:tactics | other hyponyms:
+
+predicted: aerial warfare, ballistics, biological warfare, naval science, strategics, strategy, tactics, etherics, etheric, etherics,
+ 
+true: strategy,
+ 
+intersection: strategy
+
+metrics:  MRR 0.16666666666666666 MAP 0.9 P@1 0.0 P@3 0.0 P@5 0.0 P@15 1.0 
+
+==========
+hypernym: military science (the discipline dealing with the principles of warfare), hyponyms:tactics | other hyponyms:
+
+predicted: military art, military history, military engineering, 20th century warfare, 19th century warfare, 18th century warfare, 17
+ 
+true: strategy,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ground squirrel (any of various terrestrial burrowing rodents of Old and New Worlds; often destroy crops), hyponyms:mantled ground squirrel, flickertail, rock squirrel | other hyponyms:
+
+predicted: groundhog, marmot, prairie dog, pika, chipmunk, 10 more, chipmunk, 9 more, kangaroo rat
+ 
+true: antelope squirrel, Arctic ground squirrel, suslik,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ground squirrel (any of various terrestrial burrowing rodents of Old and New Worlds; often destroy crops), hyponyms:mantled ground squirrel, flickertail, rock squirrel | other hyponyms:
+
+predicted: marmot, groundhog, prairie dog, 116 species, 16 species, 51 species, 15 species, 14 species
+ 
+true: antelope squirrel, Arctic ground squirrel, suslik,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: guest (a customer of a hotel or restaurant etc.), hyponyms:overnighter | other hyponyms:
+
+predicted: day visitor, houseguest, outsider, overnight guest, overnighter, visitor, lodger, 1. 2. 3. 4.
+ 
+true: no-show,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: guest (a customer of a hotel or restaurant etc.), hyponyms:overnighter | other hyponyms:
+
+predicted: daytripper, bed and breakfaster, bed and breakfaster, boarder, commuter, diner, fisherman, guesthouse, hosteler, innkeeper, over
+ 
+true: no-show,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: lobster (flesh of a lobster), hyponyms:Norwegian lobster, lobster tail | other hyponyms:
+
+predicted: claw, Maine lobster, knuckle, 3-pounder, 4-pounder, 5-pounder, 6-
+ 
+true: American lobster, European lobster,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: lobster (flesh of a lobster), hyponyms:Norwegian lobster, lobster tail | other hyponyms:
+
+predicted: claw, 10-cent lobster, 15-cent lobster, 25-cent lobster, American lobster, 
+ 
+true: American lobster, European lobster,
+ 
+intersection: american lobster
+
+metrics:  MRR 0.2 MAP 0.46 P@1 0.0 P@3 0.0 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: timber (a beam made of wood), hyponyms:stringer, two-by-four | other hyponyms:
+
+predicted: stud, rafter, 2-by-10, 4-by-4, 2-by-6, 2-by-8, 2
+ 
+true: coulisse, sternpost,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: timber (a beam made of wood), hyponyms:stringer, two-by-four | other hyponyms:
+
+predicted: stud, four-by-four, rafter, 2x2, 2x4, sill, timber joist, tongue and groove, 2
+ 
+true: coulisse, sternpost,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: canvas tent (a tent made of canvas fabric), hyponyms:Sibley tent, wall tent | other hyponyms:
+
+predicted: dome tent, pup tent, Sibley tent, wall tent, 4-walled tent, 6-walled tent, 8-walled tent,
+ 
+true: circus tent, field tent,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: canvas tent (a tent made of canvas fabric), hyponyms:Sibley tent, wall tent | other hyponyms:
+
+predicted: teepee, conical tent, dome tent, 10-man tent, 12-man tent, 14-man tent, 1
+ 
+true: circus tent, field tent,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: margin (an amount beyond the minimum necessary), hyponyms:narrow margin | other hyponyms:
+
+predicted: slender margin, safe margin, 2-to-1 margin, 3-to-1 margin, 4-to-1 margin, 5-to-
+ 
+true: margin of safety,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: margin (an amount beyond the minimum necessary), hyponyms:narrow margin | other hyponyms:
+
+predicted: excess, hairline margin, slender margin, 20-point lead, 10-point lead, 5-point lead, 3-point lead,
+ 
+true: margin of safety,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: T cell (a small lymphocyte developed in the thymus; it orchestrates the immune system's response to infected or malignant cells), hyponyms:killer T cell | other hyponyms:
+
+predicted: helper T cell, memory T cell, suppressor T cell, 7, 8, 9, 10, 11, 12, 1
+ 
+true: helper T cell,
+ 
+intersection: helper t cell
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: T cell (a small lymphocyte developed in the thymus; it orchestrates the immune system's response to infected or malignant cells), hyponyms:killer T cell | other hyponyms:
+
+predicted: memory T cell, cytotoxic T cell, helper T cell, 80S-type T cell, 40S-type T cell, thym
+ 
+true: helper T cell,
+ 
+intersection: helper t cell
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: bird's foot (the foot of a bird), hyponyms:lobate foot, webbed foot, zygodactyl foot | other hyponyms:
+
+predicted: anisodactyl foot, pentadactyl foot, zygodactyl foot, 3-toed foot, 4-toed foot, 2
+ 
+true: claw, heterodactyl foot,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bird's foot (the foot of a bird), hyponyms:lobate foot, webbed foot, zygodactyl foot | other hyponyms:
+
+predicted: anisodactyl foot, homopodous foot, pentadactyl foot, tetrapodous foot, ungual foot, 1, 2,
+ 
+true: claw, heterodactyl foot,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: respiratory tract (the passages through which air enters and leaves the body), hyponyms:upper respiratory tract | other hyponyms:
+
+predicted: lower respiratory tract, trachea, 2, nasal cavity, 2, larynx, 2, mouth, 2, 2,
+ 
+true: lower respiratory tract,
+ 
+intersection: lower respiratory tract
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: respiratory tract (the passages through which air enters and leaves the body), hyponyms:upper respiratory tract | other hyponyms:
+
+predicted: lower respiratory tract, trachea, respiratory tract, airway, 12-framed lung, 5-framed lung, 7-
+ 
+true: lower respiratory tract,
+ 
+intersection: lower respiratory tract
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: deal (the type of treatment received (especially as the result of an agreement)), hyponyms:raw deal | other hyponyms:
+
+predicted: sweetheart deal, short shrift, whitewash, 20-20, 419, 420, 432, 4
+ 
+true: fair deal,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: deal (the type of treatment received (especially as the result of an agreement)), hyponyms:raw deal | other hyponyms:
+
+predicted: bargain, sweetheart deal, special treatment, 13-week course, 90-day plan, 12-step program, 24-
+ 
+true: fair deal,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: current (a flow of electricity through a conductor), hyponyms:thermionic current | other hyponyms:
+
+predicted: electric current, electron flow, ion current, positive current, negative current, ions, ions, ions, ions, ions, ions, ions,
+ 
+true: juice,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: current (a flow of electricity through a conductor), hyponyms:thermionic current | other hyponyms:
+
+predicted: electron current, electrical current, flow, current, current, current flow, magnetic field, 1, stream, 2, 3, electric current, flow, magnetic
+ 
+true: juice,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mycobacteria (rod-shaped bacteria some saprophytic or causing diseases), hyponyms:tubercle bacillus | other hyponyms:
+
+predicted: leprosy bacillus, M. leprae, M. pneumoniae, M. avium, M. paratuberculosis,
+ 
+true: leprosy bacillus,
+ 
+intersection: leprosy bacillus
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: mycobacteria (rod-shaped bacteria some saprophytic or causing diseases), hyponyms:tubercle bacillus | other hyponyms:
+
+predicted: brucella, lamasin, leprae, M. avium, M. avium complex, M. chelonae, M. lep
+ 
+true: leprosy bacillus,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Indian monetary unit (monetary unit in India), hyponyms:Indian rupee | other hyponyms:
+
+predicted: Indian penny, Indian paisa, Indian paise, Indian rupee, 1, 2, 3, 4, 5, 6,
+ 
+true: anna,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Indian monetary unit (monetary unit in India), hyponyms:Indian rupee | other hyponyms:
+
+predicted: Indian cent, Indian paisa, Indian pice, Indian anna, Indian paise, Indian 2-anna piece, Indian 2-paisa piece,
+ 
+true: anna,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: electronic instrument (a musical instrument that generates sounds electronically), hyponyms:synthesizer | other hyponyms:
+
+predicted: computer-controlled instrument, drum machine, MIDI, synthesizer, 12-step machine, 12-step machine, 20-step
+ 
+true: electric organ, theremin,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: electronic instrument (a musical instrument that generates sounds electronically), hyponyms:synthesizer | other hyponyms:
+
+predicted: electronic keyboard, electronic organ, 8-track recorder, 16-track recorder, 24-track recorder, 48-track recorder
+ 
+true: electric organ, theremin,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: death camas (any of various plants of the genus Zigadenus having glaucous leaves and terminal racemes of mostly white flowers; all are poisonous), hyponyms:poison camas, white camas | other hyponyms:
+
+predicted: prairie camas, rattlesnake plantain, western camas, 10-inch death camas, 14-inch death camas, 2
+ 
+true: alkali grass, grassy death camas,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: death camas (any of various plants of the genus Zigadenus having glaucous leaves and terminal racemes of mostly white flowers; all are poisonous), hyponyms:poison camas, white camas | other hyponyms:
+
+predicted: false camas, death camas, white camas, 2. death camas, 3. death camas, 4. death camas, 5.
+ 
+true: alkali grass, grassy death camas,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: punch (a tool for making holes or indentations), hyponyms:punch pliers | other hyponyms:
+
+predicted: punch drill, power punch, 1-pound punch, 2-pound punch, 3-pound punch, 4-
+ 
+true: center punch,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: punch (a tool for making holes or indentations), hyponyms:punch pliers | other hyponyms:
+
+predicted: chuck punch, chucking punch, punch needle, hole punch, nib punch, punch needle, power punch, 1
+ 
+true: center punch,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: rondeau (a French verse form of 10 or 13 lines running on two rhymes; the opening phrase is repeated as the refrain of the second and third stanzas), hyponyms:roundel | other hyponyms:
+
+predicted: rondel, roundelay, 13-syllable rondel, 10-syllable rondel, rondelay, 10-s
+ 
+true: rondelet,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: rondeau (a French verse form of 10 or 13 lines running on two rhymes; the opening phrase is repeated as the refrain of the second and third stanzas), hyponyms:roundel | other hyponyms:
+
+predicted: rondel, terzet, 10-line rondeau, 13-line rondeau, 13-line rondelet, 10
+ 
+true: rondelet,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: program (an announcement of the events that will occur as part of a theatrical or sporting event), hyponyms:playbill | other hyponyms:
+
+predicted: bill, schedule, 3-D, 4-D, 5-D, 6-D, 7-D, 8-D, 9
+ 
+true: racecard,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: program (an announcement of the events that will occur as part of a theatrical or sporting event), hyponyms:playbill | other hyponyms:
+
+predicted: program book, program list, program sheet, 70-point plan, agenda, announcement, brochure, 50-point plan, list, schedule
+ 
+true: racecard,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Chinese (a native or inhabitant of Communist China or of Nationalist China), hyponyms:Hakka, mandarin | other hyponyms:
+
+predicted: Hokkian, Hakka, Cantonese, Manchu, Mongolian, Tibetan, Uighur, Chinese American, Chinese Canadian, 
+ 
+true: Boxer, chink,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Chinese (a native or inhabitant of Communist China or of Nationalist China), hyponyms:Hakka, mandarin | other hyponyms:
+
+predicted: Chinese of the diaspora, Cantonese, Mandarin, Sinitic, 2, 3, 4, 5, 6, 7
+ 
+true: Boxer, chink,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sweet pepper (large mild crisp thick-walled capsicum peppers usually bell-shaped or somewhat oblong; commonly used in salads), hyponyms:green pepper, pimento | other hyponyms:
+
+predicted: bell pepper, cayenne, chili pepper, chili pepper, jalapeno, pimento, 7-pot, 9-pod,
+ 
+true: bell pepper, globe pepper,
+ 
+intersection: bell pepper
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: sweet pepper (large mild crisp thick-walled capsicum peppers usually bell-shaped or somewhat oblong; commonly used in salads), hyponyms:green pepper, pimento | other hyponyms:
+
+predicted: bell pepper, jalapeno, chili pepper, cayenne, 7-pod pepper, 5-pod pepper, hot pepper,
+ 
+true: bell pepper, globe pepper,
+ 
+intersection: bell pepper
+
+metrics:  MRR 1.0 MAP 0.51 P@1 1.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: cruiser (a large fast warship; smaller than a battleship and larger than a destroyer), hyponyms:guided missile cruiser | other hyponyms:
+
+predicted: armored cruiser, light cruiser, heavy cruiser, scout cruiser, 17,000-ton ship, 20,000
+ 
+true: battle cruiser,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cruiser (a large fast warship; smaller than a battleship and larger than a destroyer), hyponyms:guided missile cruiser | other hyponyms:
+
+predicted: aircraft carrier, battleship, destroyer, light cruiser, missile cruiser, 50-gun ship, 16-gun ship, 2
+ 
+true: battle cruiser,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: polyp (a small vascular growth on the surface of a mucous membrane), hyponyms:pedunculated polyp, sessile polyp | other hyponyms:
+
+predicted: adenoma, coloboma, flat polyp, hyperplastic polyp, leiomyoma, pedunculated polyp, polypoid villous ad
+ 
+true: adenomatous polyp,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: polyp (a small vascular growth on the surface of a mucous membrane), hyponyms:pedunculated polyp, sessile polyp | other hyponyms:
+
+predicted: acrochordon, filiform polyp, follicular polyp, flat wart, flat wart, flat wart, follicular polyp, papill
+ 
+true: adenomatous polyp,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: kudu (either of two spiral-horned antelopes of the African bush), hyponyms:lesser kudu | other hyponyms:
+
+predicted: greater kudu, nyala, 3, 4, 6, 8, 10, 11, 12, 15,
+ 
+true: greater kudu,
+ 
+intersection: greater kudu
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: kudu (either of two spiral-horned antelopes of the African bush), hyponyms:lesser kudu | other hyponyms:
+
+predicted: greater kudu, 4, 5, 7, 8, 10, 11, 13, 14, 15
+ 
+true: greater kudu,
+ 
+intersection: greater kudu
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: blunder (an embarrassing mistake), hyponyms:fumble, howler, trip, snafu, spectacle | other hyponyms:
+
+predicted: bonehead, cockup, gaffe, gaff, flub, goof, misstep, mix-up, miscalculation, miscue, mis
+ 
+true: bobble, bull, clanger, faux pas, fluff,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: blunder (an embarrassing mistake), hyponyms:fumble, howler, trip, snafu, spectacle | other hyponyms:
+
+predicted: brain wave, howler, miscalculation, 1984, 1985, 1986, 1987, 1
+ 
+true: bobble, bull, clanger, faux pas, fluff,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wild rye (any of several grasses of the genus Elymus), hyponyms:medusa's head | other hyponyms:
+
+predicted: cheatgrass, foxtail, goosegrass, slender wild rye, common wild rye, 2-awned wild rye, 3
+ 
+true: Canada wild rye,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wild rye (any of several grasses of the genus Elymus), hyponyms:medusa's head | other hyponyms:
+
+predicted: sea rye, common rye, sand rye, 2-awned rye, little rye, slender wild rye, 3-awned r
+ 
+true: Canada wild rye,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sonnet (a verse form consisting of 14 lines with a fixed rhyme scheme), hyponyms:Petrarchan sonnet, Spenserian sonnet | other hyponyms:
+
+predicted: Shakespearean sonnet, 14-line, 10-line, 8-line, 10-line, 14-line, 8
+ 
+true: Shakespearean sonnet,
+ 
+intersection: shakespearean sonnet
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: sonnet (a verse form consisting of 14 lines with a fixed rhyme scheme), hyponyms:Petrarchan sonnet, Spenserian sonnet | other hyponyms:
+
+predicted: Italian sonnet, English sonnet, 14-line sonnet, 12-line sonnet, 10-line sonnet, 8-line
+ 
+true: Shakespearean sonnet,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gown (a woman's dress, usually with a close-fitting bodice and a long flared skirt, often worn on formal occasions), hyponyms:dinner dress, mantua, tea gown | other hyponyms:
+
+predicted: dress suit, gown, court gown, tea gown, 18th century dress, ball gown, bridal gown, evening gown, lou
+ 
+true: ball gown, bridal gown,
+ 
+intersection: bridal gown,ball gown
+
+metrics:  MRR 0.16666666666666666 MAP 0.89 P@1 0.0 P@3 0.0 P@5 0.0 P@15 1.0 
+
+==========
+hypernym: gown (a woman's dress, usually with a close-fitting bodice and a long flared skirt, often worn on formal occasions), hyponyms:dinner dress, mantua, tea gown | other hyponyms:
+
+predicted: bridesmaid's dress, day dress, evening dress, tea gown, maid of honor's dress, wedding dress, white gown, 1
+ 
+true: ball gown, bridal gown,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: copepod (minute marine or freshwater crustaceans usually having six pairs of limbs on the thorax; some abundant in plankton and others parasitic on fish), hyponyms:cyclops, fish louse | other hyponyms:
+
+predicted: Calanus, copepodite, nauplius, cyprid, nauplius, calanoid, mysid, 1, 2, 3
+ 
+true: brit,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: copepod (minute marine or freshwater crustaceans usually having six pairs of limbs on the thorax; some abundant in plankton and others parasitic on fish), hyponyms:cyclops, fish louse | other hyponyms:
+
+predicted: calanoid, calanoid, copepoda, cyclopoid, mysid, ostracod, raphid, raphid, raph
+ 
+true: brit,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: head of household (the head of a household or family or tribe), hyponyms:patriarch | other hyponyms:
+
+predicted: clan mother, chief, chieftain, paterfamilias, tribal chief, clan mother, 1, 2, 3, 4,
+ 
+true: matriarch,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: head of household (the head of a household or family or tribe), hyponyms:patriarch | other hyponyms:
+
+predicted: patriarch, matriarch, headman, 4, 5, 6, 7, 8, 9, 10, 11,
+ 
+true: matriarch,
+ 
+intersection: matriarch
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: milkweed (any of numerous plants of the genus Asclepias having milky juice and pods that split open releasing seeds with downy tufts), hyponyms:purple silkweed, showy milkweed, poison milkweed, butterfly weed, whorled milkweed | other hyponyms:
+
+predicted: green milkweed, showy milkweed, common milkweed, purple silkweed, silky milkweed, whorled milkweed,
+ 
+true: Mead's milkweed, white milkweed, blood flower, poke milkweed, swamp milkweed,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: milkweed (any of numerous plants of the genus Asclepias having milky juice and pods that split open releasing seeds with downy tufts), hyponyms:purple silkweed, showy milkweed, poison milkweed, butterfly weed, whorled milkweed | other hyponyms:
+
+predicted: balloon plant, silkweed, 14-leaf milkweed, 16-leaved milkweed, 10-leaved milk
+ 
+true: Mead's milkweed, white milkweed, blood flower, poke milkweed, swamp milkweed,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: drop (a small indefinite quantity (especially of a liquid); ; ; ; --Kipling), hyponyms:raindrop, tear | other hyponyms:
+
+predicted: dewdrop, gusher, drop, ounce, pinch, splash, spill, ounce, spill, ounce, ounce, ounce
+ 
+true: droplet, eyedrop,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: drop (a small indefinite quantity (especially of a liquid); ; ; ; --Kipling), hyponyms:raindrop, tear | other hyponyms:
+
+predicted: drip, gout, leak, spit, drop of blood, drop of ink, drop of sweat, drop of water, drop of water, eye, te
+ 
+true: droplet, eyedrop,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: laureate (someone honored for great achievements; figuratively someone crowned with a laurel wreath), hyponyms:poet laureate | other hyponyms:
+
+predicted: Fields Medalist, Grammy winner, Nobel Prize winner, winner of the Pulitzer Prize, winner of the Rhodes Scholarship, World Prize winner, Rhodes Sch
+ 
+true: Nobelist,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: laureate (someone honored for great achievements; figuratively someone crowned with a laurel wreath), hyponyms:poet laureate | other hyponyms:
+
+predicted: laurel-wreath bearer, poet laureate, 1947 winner of the Nobel Prize for Literature, 1949 winner of
+ 
+true: Nobelist,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: detonator (a mechanical or electrical explosive device or a small amount of explosive; can be used to initiate the reaction of a disrupting explosive), hyponyms:percussion cap | other hyponyms:
+
+predicted: blasting cap, primer, 10-gauge cap, fuse, 8-gauge cap, 12-gauge cap,
+ 
+true: blasting cap,
+ 
+intersection: blasting cap
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: detonator (a mechanical or electrical explosive device or a small amount of explosive; can be used to initiate the reaction of a disrupting explosive), hyponyms:percussion cap | other hyponyms:
+
+predicted: fuse, primer, detonator cap, delay device, 308 detonator, electric detonator, 1207 detonator, 
+ 
+true: blasting cap,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: effortfulness (the quality of requiring deliberate effort), hyponyms:laboriousness | other hyponyms:
+
+predicted: hard work, industry, struggle, toilsomeness, 19, 20, 21, 22, 23, 24,
+ 
+true: arduousness,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: effortfulness (the quality of requiring deliberate effort), hyponyms:laboriousness | other hyponyms:
+
+predicted: drudgery, tiresomeness, 2. hard work, difficulty, 4. exertion, 6. work, 10. labor,
+ 
+true: arduousness,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Saudi Arabian monetary unit (monetary unit in Saudi Arabia), hyponyms:Saudi Arabian riyal | other hyponyms:
+
+predicted: Saudi Arabian rial, Saudi Arabian rial, Saudi Arabian riyal, Saudi Arabian rial, Saudi Arabian riyal, Sa
+ 
+true: qurush,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Saudi Arabian monetary unit (monetary unit in Saudi Arabia), hyponyms:Saudi Arabian riyal | other hyponyms:
+
+predicted: Saudi Arabian rial, Saudi Arabian mill, Saudi Arabian mil, Saudi Arabian quarter, Saudi Arabian dirham, Saudi Arabian
+ 
+true: qurush,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: antonym (a word that expresses a meaning opposed to the meaning of another word, in which case the two words are antonyms of each other), hyponyms:indirect antonym | other hyponyms:
+
+predicted: contronym, opposite, synonym, 86, 87, 88, 89, 90, 91, 92,
+ 
+true: direct antonym,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: antonym (a word that expresses a meaning opposed to the meaning of another word, in which case the two words are antonyms of each other), hyponyms:indirect antonym | other hyponyms:
+
+predicted: hypernym, opposite, 180-degree word, antonym, 180-degree word, 180-word, 1
+ 
+true: direct antonym,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pigmentation (coloration of living tissues by pigment), hyponyms:melanoderma | other hyponyms:
+
+predicted: melanotic hypermelanosis, melanoderma, melanotic staining, melanosis, melanocyte hyperplasia, melanism, mel
+ 
+true: chromatism,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pigmentation (coloration of living tissues by pigment), hyponyms:melanoderma | other hyponyms:
+
+predicted: melanoderma, vitiligo, hyperchromia, icoluria, hyperchromia, icoluria, icolor, icolor, icolour
+ 
+true: chromatism,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: worker (sterile member of a colony of social insects that forages for food and cares for the larvae), hyponyms:worker bee | other hyponyms:
+
+predicted: ant, bee, termite, 1, caterpillar, 2, 3, 4, 5, 6, 7, 
+ 
+true: soldier,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: worker (sterile member of a colony of social insects that forages for food and cares for the larvae), hyponyms:worker bee | other hyponyms:
+
+predicted: ants, termite, 11-year cicada, wasp, 22-year cicada, 13-year cicada, leafcutter
+ 
+true: soldier,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: deviation (a variation that deviates from the standard or norm), hyponyms:driftage, inflection | other hyponyms:
+
+predicted: bias, divergence, driftage, error, flaw, shift, deviation from norm, divergence, error, 3-D error, inflection, shift,
+ 
+true: discrepancy,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: deviation (a variation that deviates from the standard or norm), hyponyms:driftage, inflection | other hyponyms:
+
+predicted: abnormality, abrogation, abrogation, atrophy, deficiency, departure, deviationism, deterioration, deviation, exacerbation
+ 
+true: discrepancy,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gable (the vertical triangular wall between the sloping ends of gable roof), hyponyms:corbie gable, pediment | other hyponyms:
+
+predicted: barge board, clipped gable, hip gable, penthouse, pinnacle gable, oupost, peaked gable, shed gable, sp
+ 
+true: bell gable,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gable (the vertical triangular wall between the sloping ends of gable roof), hyponyms:corbie gable, pediment | other hyponyms:
+
+predicted: clipped gable, pinnacle, penthouse, shingled gable, ells, ells, gable roof, 2-part gable, 
+ 
+true: bell gable,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: capture (the act of forcibly dispossessing an owner of property), hyponyms:enslavement, usurpation | other hyponyms:
+
+predicted: expropriation, confiscation, 1917 capture, 1953 capture, 1954 capture, 1956 capture
+ 
+true: apprehension, conquest,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: capture (the act of forcibly dispossessing an owner of property), hyponyms:enslavement, usurpation | other hyponyms:
+
+predicted: appropriation, arrest, detention, seizure, 8212, 8212, 8212, 8212,
+ 
+true: apprehension, conquest,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: restrainer (a person who directs and restrains), hyponyms:suppressor, withholder | other hyponyms:
+
+predicted: checker, checker, modulator, modulator, curb, inhibitor, curb, restraint, restraint, repressor, 313,
+ 
+true: nazi, subduer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: restrainer (a person who directs and restrains), hyponyms:suppressor, withholder | other hyponyms:
+
+predicted: bridle, checker, inhibitor, regulator, 28, 32, 41, 48, 55, 59
+ 
+true: nazi, subduer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bean (any of various seeds or fruits that are beans or resemble beans), hyponyms:calabar bean, tonka bean, divi-divi, soy | other hyponyms:
+
+predicted: babalao, black-eyed pea, bamboo bean, lima bean, pea, pigeon bean, cowpea, soy
+ 
+true: algarroba, carob, broad bean,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bean (any of various seeds or fruits that are beans or resemble beans), hyponyms:calabar bean, tonka bean, divi-divi, soy | other hyponyms:
+
+predicted: adzuki bean, bean pod, butterbean, cranberry bean, lima bean, pink bean, string bean, soybean, mung bean,
+ 
+true: algarroba, carob, broad bean,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gnat (any of various small biting flies: midges; biting midges; black flies; sand flies), hyponyms:midge, sand fly, psychodid | other hyponyms:
+
+predicted: black fly, biting midge, crane fly, 24-hour horse, eye gnat, face fly, horsefly, mosquito, no-see
+ 
+true: punkie, blackfly,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gnat (any of various small biting flies: midges; biting midges; black flies; sand flies), hyponyms:midge, sand fly, psychodid | other hyponyms:
+
+predicted: black fly, gall midge, 45-day fly, cecidomyia, cecidomyiid, chironomid, ceratopsy
+ 
+true: punkie, blackfly,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dehydration (the process of extracting moisture), hyponyms:inspissation | other hyponyms:
+
+predicted: drying, concentration, crystallization, etherification, osmosis, 1971, 1983, 1992,
+ 
+true: freeze-drying,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dehydration (the process of extracting moisture), hyponyms:inspissation | other hyponyms:
+
+predicted: hydration, evaporation, distillation, 2, desiccation, 2, 3, leeching, 2, osmosis,
+ 
+true: freeze-drying,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: common sense (sound practical judgment), hyponyms:nous, road sense | other hyponyms:
+
+predicted: common law, commonsense, sense, good sense, judgment, 10-to-20, practicality, 20-to-1, 1
+ 
+true: logic,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: common sense (sound practical judgment), hyponyms:nous, road sense | other hyponyms:
+
+predicted: good sense, horse sense, head, head, horse sense, prudence, sense, 26, horse sense, sense, 28, 37,
+ 
+true: logic,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: confirmation (information that confirms or verifies), hyponyms:reinforcement | other hyponyms:
+
+predicted: corroboration, verification, 100 percent, 200 percent, corroboration, proof, reaffirmation, 100
+ 
+true: documentation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: confirmation (information that confirms or verifies), hyponyms:reinforcement | other hyponyms:
+
+predicted: verification, corroboration, reiteration, ratification, 200 percent, assurance, substantiation, 100 percent, 5
+ 
+true: documentation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: lab (a workplace for the conduct of scientific research), hyponyms:defense laboratory, physics lab | other hyponyms:
+
+predicted: agricultural laboratory, chemistry lab, computer center, geology laboratory, physics laboratory, psychology laboratory, 20th Century Fox, animal laboratory
+ 
+true: biology lab, chemistry lab,
+ 
+intersection: chemistry lab
+
+metrics:  MRR 0.5 MAP 0.49 P@1 0.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: lab (a workplace for the conduct of scientific research), hyponyms:defense laboratory, physics lab | other hyponyms:
+
+predicted: animal house, brewery, cytogenetics lab, electronics lab, gene laboratory, genetics lab, genetic laboratory, geology laboratory
+ 
+true: biology lab, chemistry lab,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: waterfront (the area of a city (such as a harbor or dockyard) alongside a body of water), hyponyms:seafront | other hyponyms:
+
+predicted: riverfront, 19th century waterfront, 20th century waterfront, 21st century waterfront, 18th century waterfront, 
+ 
+true: dockyard,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: waterfront (the area of a city (such as a harbor or dockyard) alongside a body of water), hyponyms:seafront | other hyponyms:
+
+predicted: quayside, riverfront, 75, wharves, 84, 34, 25, 41, 47, 
+ 
+true: dockyard,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sweetness (the property of tasting as if it contains sugar), hyponyms:sugariness | other hyponyms:
+
+predicted: sweetness of the tongue, sweetness of the palate, 5-hydroxymethyl-2-furaldehyde, sugariness, 4
+ 
+true: saccharinity,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sweetness (the property of tasting as if it contains sugar), hyponyms:sugariness | other hyponyms:
+
+predicted: saccharinity, honey, icy, icy, sourness, 7, 7, sweetness of the breath, 2, sweetness of the
+ 
+true: saccharinity,
+ 
+intersection: saccharinity
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: bisexual (a person who is sexually attracted to both sexes), hyponyms:pseudohermaphrodite, switch-hitter | other hyponyms:
+
+predicted: hermaphrodite, bisexuality, 2-spirit, bi, heteroflexible, homosexual, 2-spirit, 3-
+ 
+true: hermaphrodite,
+ 
+intersection: hermaphrodite
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: bisexual (a person who is sexually attracted to both sexes), hyponyms:pseudohermaphrodite, switch-hitter | other hyponyms:
+
+predicted: fairy, gay, lesbian, bisexual, 2-Spirit, 2-Spirit, 3-Spirit, 3-Spirit,
+ 
+true: hermaphrodite,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: libidinal energy ((psychoanalysis) psychic energy produced by the libido), hyponyms:cathexis | other hyponyms:
+
+predicted: anaclisis, anaclisis, ether, libidinal energy, libidinal energy, ether, ether, ego, eros, 
+ 
+true: acathexis,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: libidinal energy ((psychoanalysis) psychic energy produced by the libido), hyponyms:cathexis | other hyponyms:
+
+predicted: libidinal charge, libido, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+ 
+true: acathexis,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: unexchangeability (the quality of being incapable of exchange or interchange), hyponyms:irreplaceableness | other hyponyms:
+
+predicted: inseparableness, noninterchangeability, irreducibility, intractability, 1-wayness, 2-wayness, indispens
+ 
+true: incommutability,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: unexchangeability (the quality of being incapable of exchange or interchange), hyponyms:irreplaceableness | other hyponyms:
+
+predicted: indivisibility, indispensability, intangibility, nontradeability, nontransferability, indivisibility, 3, 4, 
+ 
+true: incommutability,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: superficiality (lack of depth of knowledge or thought or feeling), hyponyms:sciolism | other hyponyms:
+
+predicted: banality, skin-deepness, thinness, 20th-century thought, superficial thinking, 19th-century thought, 18th
+ 
+true: glibness,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: superficiality (lack of depth of knowledge or thought or feeling), hyponyms:sciolism | other hyponyms:
+
+predicted: banality, flatness, lightness, vagueness, insubstantiality, stereotypy, triteness, 2-dimensionality,
+ 
+true: glibness,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: squeeze (the act of gripping and pressing firmly), hyponyms:extrusion, pinch | other hyponyms:
+
+predicted: clasp, clutch, crunch, dab, grasp, press, squeeze play, squeeze-box, wedge, clasp, 
+ 
+true: expression,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: squeeze (the act of gripping and pressing firmly), hyponyms:extrusion, pinch | other hyponyms:
+
+predicted: compression, grip, stranglehold, crush, 5150, squeezebox, squeeze play, 1-2, 
+ 
+true: expression,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: freeze (the withdrawal of heat to change something from a liquid to a solid), hyponyms:frost | other hyponyms:
+
+predicted: congelation, freezing, freeze-drying, ices, snow, ices, iced tea, iced water, iced drink, iced
+ 
+true: freeze-drying,
+ 
+intersection: freeze drying
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: freeze (the withdrawal of heat to change something from a liquid to a solid), hyponyms:frost | other hyponyms:
+
+predicted: crystallization, chilling, solidification, ices, ices, icy, icy, icy, icy, icy, icy, ice
+ 
+true: freeze-drying,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: killifish (small mostly marine warm-water carp-like schooling fishes; used as bait or aquarium fishes or in mosquito control), hyponyms:striped killifish, rivulus | other hyponyms:
+
+predicted: blue gambusia, mosquitofish, toadfish, mosquitofish, 18 species of Fundulus, 2 species of Phoxinus,
+ 
+true: flagfish, mummichog,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: killifish (small mostly marine warm-water carp-like schooling fishes; used as bait or aquarium fishes or in mosquito control), hyponyms:striped killifish, rivulus | other hyponyms:
+
+predicted: bluegill, pugnose, green sunfish, scissor-tail, silverside, white perch, bluegill, grass carp
+ 
+true: flagfish, mummichog,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: eligibility (the quality or state of being eligible), hyponyms:marriageability | other hyponyms:
+
+predicted: availability, fitness, qualification, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+ 
+true: insurability,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: eligibility (the quality or state of being eligible), hyponyms:marriageability | other hyponyms:
+
+predicted: eligibleness, eligibility for office, eligibility for candidacy, elligibleness, elligibility, elligibility, elligibility
+ 
+true: insurability,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fritillary (any liliaceous plant of the genus Fritillaria having nodding variously colored flowers), hyponyms:crown imperial, mission bells, stink bell, white fritillary, scarlet fritillary | other hyponyms:
+
+predicted: checker lily, meadow fritillary, crown imperial, 2-lipped fritillary, guernsey lily, checkered lily,
+ 
+true: adobe lily, mission bells, brown bells, snake's head fritillary,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fritillary (any liliaceous plant of the genus Fritillaria having nodding variously colored flowers), hyponyms:crown imperial, mission bells, stink bell, white fritillary, scarlet fritillary | other hyponyms:
+
+predicted: checkered fritillary, meadow fritillary, pallid fritillary, yellow fritillary, 2-toned fritill
+ 
+true: adobe lily, mission bells, brown bells, snake's head fritillary,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: head (the striking part of a tool), hyponyms:hammerhead | other hyponyms:
+
+predicted: chisel head, countersink, forge, gouge, knife head, mallet, pick, scraper, sledgehammer, sledgeham
+ 
+true: golf-club head,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: head (the striking part of a tool), hyponyms:hammerhead | other hyponyms:
+
+predicted: chiselhead, chisel-head, face, hammerhead, screwdriver, 50-cent piece, 50-cent piece, 
+ 
+true: golf-club head,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: waterwheel (a wheel that rotates by direct action of water; a simple turbine), hyponyms:noria | other hyponyms:
+
+predicted: breast, waterwheel, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+ 
+true: millwheel,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: waterwheel (a wheel that rotates by direct action of water; a simple turbine), hyponyms:noria | other hyponyms:
+
+predicted: undershot waterwheel, overshot waterwheel, 6-sided waterwheel, 10-sided waterwheel, 20-s
+ 
+true: millwheel,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pudding (any of various soft thick unsweetened baked dishes), hyponyms:corn pudding | other hyponyms:
+
+predicted: apple pudding, bread pudding, custard, crumpet, dish, plum pudding, rice pudding, sago, sago
+ 
+true: carrot pudding,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pudding (any of various soft thick unsweetened baked dishes), hyponyms:corn pudding | other hyponyms:
+
+predicted: apple pudding, boiled pudding, bread pudding, custard, rice pudding, suet pudding, tapioca pudding
+ 
+true: carrot pudding,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: shooting (killing someone by gunfire), hyponyms:drive-by shooting, wing shooting | other hyponyms:
+
+predicted: drive-by shooting, hunting, sport shooting, 100-yard gun, wing shooting, 100-yard gun, 200-yard gun
+ 
+true: drive-by killing,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: shooting (killing someone by gunfire), hyponyms:drive-by shooting, wing shooting | other hyponyms:
+
+predicted: drive-by shooting, hunting, hunting, 3-point shot, 3-point shot, 3-point shot, ambush, assassination, assassination,
+ 
+true: drive-by killing,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cedar (any cedar of the genus Cedrus), hyponyms:cedar of Lebanon, deodar | other hyponyms:
+
+predicted: California red cedar, juniper cedar, cedar of Lebanon, eastern juniper, western juniper, Lebanon cedar, 2, 3, 
+ 
+true: Atlas cedar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cedar (any cedar of the genus Cedrus), hyponyms:cedar of Lebanon, deodar | other hyponyms:
+
+predicted: atlas cedar, cypress, juniper, 2-needled cedar, 4-needled cedar, 5-needled cedar, H
+ 
+true: Atlas cedar,
+ 
+intersection: atlas cedar
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: cabaret (a spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink), hyponyms:supper club | other hyponyms:
+
+predicted: burlesque, revue, 52nd street, 65th street, 70th street, 80th street, 92nd street
+ 
+true: honkytonk,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cabaret (a spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink), hyponyms:supper club | other hyponyms:
+
+predicted: caf, jazz club, 24-hour diner, nightclub, 24-hour restaurant, supper club, 24-hour diner,
+ 
+true: honkytonk,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tapeworm (ribbonlike flatworms that are parasitic in the intestines of humans and other vertebrates), hyponyms:taenia | other hyponyms:
+
+predicted: ascaris lumbricoides, beef tapeworm, chicken tapeworm, dog tapeworm, human tapeworm, horseh
+ 
+true: echinococcus,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: tapeworm (ribbonlike flatworms that are parasitic in the intestines of humans and other vertebrates), hyponyms:taenia | other hyponyms:
+
+predicted: taenia saginata, taenia solium, 4-hour tapeworm, 2-hour tapeworm, 2-hour tapew
+ 
+true: echinococcus,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: coreopsis (any of numerous plants of the genus Coreopsis having a profusion of showy usually yellow daisylike flowers over long periods; North and South America), hyponyms:giant coreopsis, sea dahlia | other hyponyms:
+
+predicted: blue coreopsis, dwarf coreopsis, meadowbeauty, thread-leaf coreopsis, yellow coreopsis, prairie coreopsis, 911,
+ 
+true: calliopsis,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: coreopsis (any of numerous plants of the genus Coreopsis having a profusion of showy usually yellow daisylike flowers over long periods; North and South America), hyponyms:giant coreopsis, sea dahlia | other hyponyms:
+
+predicted: blue coreopsis, golden-flowered coreopsis, tall coreopsis, swamp coreopsis, false marshmallow, false coreopsis, marsh marigold,
+ 
+true: calliopsis,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: private detective (someone who can be employed as a detective to collect information), hyponyms:inquiry agent, store detective | other hyponyms:
+
+predicted: private eye, 231, investigator, 231, sleuth, 231, 371, 867, 8
+ 
+true: hotel detective,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: private detective (someone who can be employed as a detective to collect information), hyponyms:inquiry agent, store detective | other hyponyms:
+
+predicted: bodyguard, private eye, 411, 57, 6411, 813, investigator, private investigator, 42
+ 
+true: hotel detective,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: radioisotope (a radioactive isotope of an element; produced either naturally or artificially), hyponyms:iodine-125, iodine-131 | other hyponyms:
+
+predicted: potassium-40, carbon-14, potassium-42, iodine-124, tritium, strontium-9
+ 
+true: label, tracer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: radioisotope (a radioactive isotope of an element; produced either naturally or artificially), hyponyms:iodine-125, iodine-131 | other hyponyms:
+
+predicted: bromine-82, carbon-14, iodine-123, krypton-81, lead-210, polonium
+ 
+true: label, tracer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: permanent magnet (a magnet that retains its magnetism after being removed from a magnetic field), hyponyms:stud finder | other hyponyms:
+
+predicted: permanent magnetism, electromagnet, magnetic pole, magnet, 1990 magnet, 2010 magnet, 2000 magnet, 19
+ 
+true: lodestone,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: permanent magnet (a magnet that retains its magnetism after being removed from a magnetic field), hyponyms:stud finder | other hyponyms:
+
+predicted: ceramic magnet, hard magnet, ndfeb, rare earth magnet, soft magnet, 1911 magnet, 2218 magnet, 3
+ 
+true: lodestone,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: crocodile (large voracious aquatic reptile having a long snout with massive jaws and sharp teeth and a body covered with bony plates; of sluggish tropical waters), hyponyms:Asian crocodile, Morlett's crocodile | other hyponyms:
+
+predicted: American crocodile, caiman, mugger, Nile crocodile, saltwater crocodile, iguana, 22, 21,
+ 
+true: African crocodile,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: crocodile (large voracious aquatic reptile having a long snout with massive jaws and sharp teeth and a body covered with bony plates; of sluggish tropical waters), hyponyms:Asian crocodile, Morlett's crocodile | other hyponyms:
+
+predicted: American crocodile, freshwater crocodile, Nile crocodile, saltwater crocodile, iguana, 3000-pound cro
+ 
+true: African crocodile,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: rosewood (any of those hardwood trees of the genus Dalbergia that yield rosewood--valuable cabinet woods of a dark red or purplish color streaked and variegated with black), hyponyms:Indian blackwood, Honduras rosewood | other hyponyms:
+
+predicted: Honduras mahogany, Bangladesh rosewood, Brazilian rosewood, East Indian rosewood, Honduras mahogany, South American rosewood
+ 
+true: Brazilian rosewood,
+ 
+intersection: brazilian rosewood
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: rosewood (any of those hardwood trees of the genus Dalbergia that yield rosewood--valuable cabinet woods of a dark red or purplish color streaked and variegated with black), hyponyms:Indian blackwood, Honduras rosewood | other hyponyms:
+
+predicted: Brazilian rosewood, Madagascar rosewood, Philippines rosewood, 3-striped rosewood, East Indian rosewood, 4-striped rosewood,
+ 
+true: Brazilian rosewood,
+ 
+intersection: brazilian rosewood
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: witch hazel (any of several shrubs or trees of the genus Hamamelis; bark yields an astringent lotion), hyponyms:Virginian witch hazel | other hyponyms:
+
+predicted: American witch hazel, Chinese witch hazel, common witch hazel, Japanese witch hazel, spice bush, 3-twig, 4
+ 
+true: vernal witch hazel,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: witch hazel (any of several shrubs or trees of the genus Hamamelis; bark yields an astringent lotion), hyponyms:Virginian witch hazel | other hyponyms:
+
+predicted: Chinese witch hazel, Hamamelis virginiana, 2-spur witch hazel, yellowhammer, 4-spur witch ha
+ 
+true: vernal witch hazel,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wheatgrass (a grass of the genus Agropyron), hyponyms:dog grass, western wheatgrass, bearded wheatgrass | other hyponyms:
+
+predicted: crested wheatgrass, Kentucky bluegrass, wheat, sideoats, 260, buffalo grass, bluebunch wheatgrass
+ 
+true: crested wheatgrass, intermediate wheatgrass, slender wheatgrass,
+ 
+intersection: crested wheatgrass
+
+metrics:  MRR 1.0 MAP 0.3499999999999999 P@1 1.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: wheatgrass (a grass of the genus Agropyron), hyponyms:dog grass, western wheatgrass, bearded wheatgrass | other hyponyms:
+
+predicted: bluebunch wheatgrass, beardless wheatgrass, green wheatgrass, meadow wheatgrass, plains wheatgrass,
+ 
+true: crested wheatgrass, intermediate wheatgrass, slender wheatgrass,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: exclusion (the state of being excluded), hyponyms:debarment | other hyponyms:
+
+predicted: blackball, banishment, disenfranchisement, prohibition, iceskating, disenfranchisement, iceskating, relegation, 
+ 
+true: banishment,
+ 
+intersection: banishment
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: exclusion (the state of being excluded), hyponyms:debarment | other hyponyms:
+
+predicted: excommunication, isolation, ostracization, rejection, self-exclusion, disinclusion, 1. self-exclusion, exclusionary
+ 
+true: banishment,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: polypody (any of numerous ferns of the genus Polypodium), hyponyms:leatherleaf, grey polypody, licorice fern | other hyponyms:
+
+predicted: American polypody, copper fern, leather-leaf fern, liverleaf, licorice fern, licorice fern, raphid
+ 
+true: common polypody, rock polypody,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: polypody (any of numerous ferns of the genus Polypodium), hyponyms:leatherleaf, grey polypody, licorice fern | other hyponyms:
+
+predicted: creeping fern, creeping maidenhair, hairy leather fern, polypodium, staghorn fern, licorice fern, 
+ 
+true: common polypody, rock polypody,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gastric artery (the arteries that supply the walls of the stomach), hyponyms:left gastric artery, right gastric artery | other hyponyms:
+
+predicted: anastomotic artery, gastroepiploic artery, gastroduodenal artery, splenic artery, 3rd portion of the
+ 
+true: short gastric artery,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: gastric artery (the arteries that supply the walls of the stomach), hyponyms:left gastric artery, right gastric artery | other hyponyms:
+
+predicted: coronary artery, left gastroepiploic artery, right gastroepiploic artery, left gastric artery, right gastric
+ 
+true: short gastric artery,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: enjoyment (the pleasure felt when having a good time), hyponyms:gusto | other hyponyms:
+
+predicted: fun, pleasure, enjoyableness, 2. 1, 2, 3, 4, 5, 6, 7, 8,
+ 
+true: joie de vivre,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: enjoyment (the pleasure felt when having a good time), hyponyms:gusto | other hyponyms:
+
+predicted: amusement, joy, joy, ousia, ousia, ousia, ousia, pleasure, pleasure, pleasuresomeness, recreation, 
+ 
+true: joie de vivre,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mechanical system (a system of elements that interact on mechanical principles), hyponyms:linkage, suspension, ventilation | other hyponyms:
+
+predicted: airplane, braking system, chain drive, clutch, gear, gearbox, hydraulic system, machine, mechanism, motor, pump, power
+ 
+true: production line, lubricating system, fuel injection,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mechanical system (a system of elements that interact on mechanical principles), hyponyms:linkage, suspension, ventilation | other hyponyms:
+
+predicted: camshaft, drive train, gearbox, heat exchange system, motor, transmission, timing system, timing system, ether, engine, hydraulic system,
+ 
+true: production line, lubricating system, fuel injection,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: atomic clock (a timepiece that derives its time scale from the vibration of atoms or molecules), hyponyms:caesium clock | other hyponyms:
+
+predicted: hydrogen clock, cesium clock, 35Cl clock, 13C clock, 3He clock, hydrogen clock, 85Rb clock,
+ 
+true: ammonia clock,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: atomic clock (a timepiece that derives its time scale from the vibration of atoms or molecules), hyponyms:caesium clock | other hyponyms:
+
+predicted: hydrogen maser, strontium atom clock, cesium clock, ions clock, ions clock, ions clock, ions clock, ions clock, 
+ 
+true: ammonia clock,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: photojournalism (journalism that presents a story primarily through the use of pictures), hyponyms:rotogravure | other hyponyms:
+
+predicted: wire photography, photo feature, 3-D photography, photo-illustration, still photography, 3-D photography, photo-illustration, 
+ 
+true: news photography,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: photojournalism (journalism that presents a story primarily through the use of pictures), hyponyms:rotogravure | other hyponyms:
+
+predicted: photoreportage, news photograph, news photograph, 360, newsphoto, photoreportage, 360, photographic reportage, 3
+ 
+true: news photography,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Tajikistani monetary unit (monetary unit in Tajikistan), hyponyms:tanga | other hyponyms:
+
+predicted: somoni, teng, 1000-teng note, 1000-tanga note, 500-tanga note, 
+ 
+true: ruble,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Tajikistani monetary unit (monetary unit in Tajikistan), hyponyms:tanga | other hyponyms:
+
+predicted: somoni, 10000 tanga, 1000 tanga, 100 tanga, 2000 tanga, 
+ 
+true: ruble,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Russian agency (an administrative agency of the Russian government), hyponyms:Federal Security Bureau | other hyponyms:
+
+predicted: Foreign Intelligence Service, Ministry of Foreign Affairs, Ministry of Finance, Ministry of Defense, Ministry of Interior, Ministry of the Interior, Ministry of Justice, Ministry
+ 
+true: Committee for State Security,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Russian agency (an administrative agency of the Russian government), hyponyms:Federal Security Bureau | other hyponyms:
+
+predicted: Ministry of Internal Affairs, Ministry of Defense, Ministry of Finance, 19, Ministry of Foreign Affairs, Ministry of Justice, Ministry of Health, Ministry of Trade
+ 
+true: Committee for State Security,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: translation (a written communication in a second language having the same meaning as the written communication in a first language), hyponyms:mistranslation, retroversion, supertitle | other hyponyms:
+
+predicted: back translation, back translation, fronting, literal translation, retranslation, reversion, transcreation, translation in the reverse direction, 2nd-language acquisition
+ 
+true: subtitle, pony,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: translation (a written communication in a second language having the same meaning as the written communication in a first language), hyponyms:mistranslation, retroversion, supertitle | other hyponyms:
+
+predicted: analepsis, backtranslation, countertranslation, interlinear translation, retranslation, transcreation, translation back, translation forward, transcreation, trans
+ 
+true: subtitle, pony,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: processional march (a march to be played for processions), hyponyms:wedding march | other hyponyms:
+
+predicted: hymn tune, 87th regiment march, 1812 overture, 24th regiment march, air force march, army march, battle
+ 
+true: funeral march,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: processional march (a march to be played for processions), hyponyms:wedding march | other hyponyms:
+
+predicted: quick march, military march, 1812 Overture, 1812 Overture, 1812 Overture, 18
+ 
+true: funeral march,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sole (lean flesh of any of several flatfish), hyponyms:grey sole | other hyponyms:
+
+predicted: flounder, plaice, sole, turbot, dishfish, 27, 28, 29, 30, 31,
+ 
+true: lemon sole,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sole (lean flesh of any of several flatfish), hyponyms:grey sole | other hyponyms:
+
+predicted: flounder, flounder, plaice, turbot, sole, sand sole, skate, 24, whiting, 25, 26
+ 
+true: lemon sole,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: quarter day (a Christian holy day; one of four specified days when certain payments are due), hyponyms:Christmas, Midsummer Day, Michaelmas, Pentecost | other hyponyms:
+
+predicted: Lady Day, Lammas Day, Candlemas, Whitsun, Martinmas, Christmas Eve, Easter Day, Easter Eve, Lady Day, Michael
+ 
+true: Martinmas, Annunciation, Lammas, Candlemas,
+ 
+intersection: martinmas,candlemas
+
+metrics:  MRR 0.3333333333333333 MAP 0.4716666666666666 P@1 0.0 P@3 0.3333333333333333 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: quarter day (a Christian holy day; one of four specified days when certain payments are due), hyponyms:Christmas, Midsummer Day, Michaelmas, Pentecost | other hyponyms:
+
+predicted: Candlemas, Easter, Whit Monday, Christmas Day, Easter Day, St. Stephen's Day, Epiphany, St. John's Day,
+ 
+true: Martinmas, Annunciation, Lammas, Candlemas,
+ 
+intersection: candlemas
+
+metrics:  MRR 1.0 MAP 0.27166666666666667 P@1 1.0 P@3 0.3333333333333333 P@5 0.25 P@15 0.25 
+
+==========
+hypernym: associate degree (a degree granted by a two-year college on successful completion of the undergraduates course of studies), hyponyms:Associate in Applied Science, Associate in Nursing | other hyponyms:
+
+predicted: Associate in Arts, Associate in Business, Associate in Engineering Science, Associate in Fine Arts, Associate in Science, Associate in General Studies, Associate in
+ 
+true: Associate in Arts,
+ 
+intersection: associate in arts
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: associate degree (a degree granted by a two-year college on successful completion of the undergraduates course of studies), hyponyms:Associate in Applied Science, Associate in Nursing | other hyponyms:
+
+predicted: Associate of Arts, Associate of Science, Associate of Science, 2-year degree, 2-year degree, 2-year degree, 2-
+ 
+true: Associate in Arts,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: polymerase (an enzyme that catalyzes the formation of new DNA and RNA from an existing strand of DNA or RNA), hyponyms:reverse transcriptase, transcriptase | other hyponyms:
+
+predicted: reverse transcriptase, reverse transcriptase, polymerase chain reaction, 5'-3' polymerase, 3'-5' polymerase, 5
+ 
+true: DNA polymerase,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: polymerase (an enzyme that catalyzes the formation of new DNA and RNA from an existing strand of DNA or RNA), hyponyms:reverse transcriptase, transcriptase | other hyponyms:
+
+predicted: DNA polymerase, DNA polymerase I, DNA polymerase II, RNA polymerase, 2'-5' nucleotidase, 3'-
+ 
+true: DNA polymerase,
+ 
+intersection: dna polymerase
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: wig (hairpiece covering the head and made of real or synthetic hair), hyponyms:horsehair wig, periwig | other hyponyms:
+
+predicted: baldric, chignon, curl, false hair, false hairpiece, ruff, turban, turban, wig cap, wig-maker, 
+ 
+true: grizzle,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: wig (hairpiece covering the head and made of real or synthetic hair), hyponyms:horsehair wig, periwig | other hyponyms:
+
+predicted: baldrick, curly wig, riding wig, ruff, toupet, false hair, toupie, 18th-century wig,
+ 
+true: grizzle,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Aramaic (a Semitic language originally of the ancient Arameans but still spoken by other people in southwestern Asia), hyponyms:Biblical Aramaic, Mandaean | other hyponyms:
+
+predicted: Western Aramaic, Syriac, Mandaic, 712, Chaldean, 713, 711, 714
+ 
+true: Assyrian Neo-Aramaic,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Aramaic (a Semitic language originally of the ancient Arameans but still spoken by other people in southwestern Asia), hyponyms:Biblical Aramaic, Mandaean | other hyponyms:
+
+predicted: Syriac, Talmudic Aramaic, Mandaic, 2, 3, 5, 6, 7, 8, 9
+ 
+true: Assyrian Neo-Aramaic,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: layer (thin structure composed of a single thickness of cells), hyponyms:hypodermis | other hyponyms:
+
+predicted: basal lamina, cortex, endosperm, endothelium, epidermis, lamina, lamina propria, mycelium
+ 
+true: blastoderm,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: layer (thin structure composed of a single thickness of cells), hyponyms:hypodermis | other hyponyms:
+
+predicted: dermis, epidermis, stratum basale, stratum corneum, stratum granulosum, stratum spinosum, stratum lucidum,
+ 
+true: blastoderm,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bulge (something that bulges out or is protuberant or projects from its surroundings), hyponyms:nub, occipital protuberance, snag, wart | other hyponyms:
+
+predicted: bulb, bump, swelling, igneous plug, knob, lump, protuberance, projection, spire, wart, bobbin,
+ 
+true: belly, caput, frontal eminence, mogul,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bulge (something that bulges out or is protuberant or projects from its surroundings), hyponyms:nub, occipital protuberance, snag, wart | other hyponyms:
+
+predicted: boss, protuberance, 10 o'clock, knob, nub, projection, protuberance, 11 o'clock, spur,
+ 
+true: belly, caput, frontal eminence, mogul,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: contraction ((physiology) a shortening or tensing of a part or organ (especially of a muscle or muscle fiber)), hyponyms:tetanus, uterine contraction, vaginismus | other hyponyms:
+
+predicted: abdominal contraction, cardiac contraction, cramp, flexor contraction, hypertrophic contraction, isotonic contraction, myocardial
+ 
+true: Braxton-Hicks contraction, contracture,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: contraction ((physiology) a shortening or tensing of a part or organ (especially of a muscle or muscle fiber)), hyponyms:tetanus, uterine contraction, vaginismus | other hyponyms:
+
+predicted: abdominal cramp, cerebral concussion, myocardial infarction, muscle contraction, myoclonus, muscular action,
+ 
+true: Braxton-Hicks contraction, contracture,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Volgaic (a group of Finnic languages spoken around the Volga river), hyponyms:Mordva | other hyponyms:
+
+predicted: Chuvash, Moksha, Maris, Udmurt, 5,000,000 speakers, 1.2 million speakers,
+ 
+true: Cheremis,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: Volgaic (a group of Finnic languages spoken around the Volga river), hyponyms:Mordva | other hyponyms:
+
+predicted: Cheremis, Khanty, Komi, Mansi, Meshchera, Mari, Veps, Volga Finnic, Ugric, 12
+ 
+true: Cheremis,
+ 
+intersection: cheremis
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: sanction (formal and explicit approval), hyponyms:O, visa | other hyponyms:
+
+predicted: green light, red light, waiver, 8-Ball, okay, 99, 10-4, 10-10, 
+ 
+true: nihil obstat,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sanction (formal and explicit approval), hyponyms:O, visa | other hyponyms:
+
+predicted: green light, mandate, permission, proclamation, red light, warrant, passport, license, 2009, 2009, 
+ 
+true: nihil obstat,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: thrombosis (the formation or presence of a thrombus (a clot of coagulated blood attached at the site of its formation) in a blood vessel), hyponyms:coronary thrombosis, cerebral thrombosis | other hyponyms:
+
+predicted: deep vein thrombosis, pulmonary thrombosis, thromboembolism, pulmonary embolism, ictus, 2
+ 
+true: milk leg, phlebothrombosis,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: thrombosis (the formation or presence of a thrombus (a clot of coagulated blood attached at the site of its formation) in a blood vessel), hyponyms:coronary thrombosis, cerebral thrombosis | other hyponyms:
+
+predicted: deep venous thrombosis, pulmonary thrombosis, phlebitis, 20-second thrombosis, 60-second
+ 
+true: milk leg, phlebothrombosis,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cognitive psychology (an approach to psychology that emphasizes internal mental processes), hyponyms:problem solving, psycholinguistics | other hyponyms:
+
+predicted: information processing, cognitive linguistics, mental representation, perception, thought, attention, language, memory, thinking, 86, learning, reasoning, 87,
+ 
+true: memory,
+ 
+intersection: memory
+
+metrics:  MRR 0.125 MAP 0.86 P@1 0.0 P@3 0.0 P@5 0.0 P@15 1.0 
+
+==========
+hypernym: cognitive psychology (an approach to psychology that emphasizes internal mental processes), hyponyms:problem solving, psycholinguistics | other hyponyms:
+
+predicted: psychophysics, information processing, 2nd generation cognitive psychology, cognitive neuroscience, 1st generation cognitive psychology, cognitive behavioral
+ 
+true: memory,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: unorthodoxy (any opinions or doctrines at variance with the official or orthodox position), hyponyms:nonconformity | other hyponyms:
+
+predicted: heterodoxy, heterodoxy, 1, 2, heresy, radicalism, 1, 2, 4, 5, 7,
+ 
+true: iconoclasm,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: unorthodoxy (any opinions or doctrines at variance with the official or orthodox position), hyponyms:nonconformity | other hyponyms:
+
+predicted: heterodoxy, heterodoxy, heresy, ousia, ousia, ousia, ousia, ousia, ousia,
+ 
+true: iconoclasm,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: jungle fowl (small Asiatic wild bird; believed to be ancestral to domestic fowl), hyponyms:jungle cock, jungle hen | other hyponyms:
+
+predicted: jungle cock, jungle hen, 3, 1, 2, 4, 5, 6, 7, 8, 
+ 
+true: red jungle fowl,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: jungle fowl (small Asiatic wild bird; believed to be ancestral to domestic fowl), hyponyms:jungle cock, jungle hen | other hyponyms:
+
+predicted: jungle hen, jungle cock, 3, 5, 8, 14, 15, 20, 24,
+ 
+true: red jungle fowl,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: miterwort (any of various rhizomatous perennial herbs of the genus Mitella having a capsule resembling a bishop's miter), hyponyms:five-point bishop's cap | other hyponyms:
+
+predicted: bishop's cap, bishop's cap, bishop's miter, bishop's mitre, bishop's cap, 5-point bishop's miter
+ 
+true: fairy cup,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: miterwort (any of various rhizomatous perennial herbs of the genus Mitella having a capsule resembling a bishop's miter), hyponyms:five-point bishop's cap | other hyponyms:
+
+predicted: bishop's cap, miterwort, three-petal bishop's cap, four-petal bishop's cap, six-petal bishop's cap,
+ 
+true: fairy cup,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: barge (a flatbottom boat for carrying heavy loads (especially on canals)), hyponyms:wherry, pontoon, scow | other hyponyms:
+
+predicted: barge boat, batteau, flat, lighter, ick, junk, ketch, lighter, lighter, lighter, log raft, l
+ 
+true: dredger, houseboat,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: barge (a flatbottom boat for carrying heavy loads (especially on canals)), hyponyms:wherry, pontoon, scow | other hyponyms:
+
+predicted: pushboat, scow, towboat, flatboat, 1917-boat, 1947-boat, 1
+ 
+true: dredger, houseboat,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: nucleoside reverse transcriptase inhibitor (an antiviral drug used against HIV; is incorporated into the DNA of the virus and stops the building process; results in incomplete DNA that cannot create a new virus; often used in combination with other drugs), hyponyms:zidovudine | other hyponyms:
+
+predicted: didanosine, zefiximide, lamivudine, stavudine, abacavir, zalcitabine, 2'-deox
+ 
+true: lamivudine,
+ 
+intersection: lamivudine
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: nucleoside reverse transcriptase inhibitor (an antiviral drug used against HIV; is incorporated into the DNA of the virus and stops the building process; results in incomplete DNA that cannot create a new virus; often used in combination with other drugs), hyponyms:zidovudine | other hyponyms:
+
+predicted: abacavir, zalcitabine, tenofovir, didanosine, emtricitabine, stavudine, lamivudine
+ 
+true: lamivudine,
+ 
+intersection: lamivudine
+
+metrics:  MRR 0.14285714285714285 MAP 0.88 P@1 0.0 P@3 0.0 P@5 0.0 P@15 1.0 
+
+==========
+hypernym: intelligibility (the quality of language that is comprehensible), hyponyms:speech intelligibility | other hyponyms:
+
+predicted: intelligibility, audibility, 9, 9, readability, 3, 3, 1, 1, 2, 2, 5,
+ 
+true: readability,
+ 
+intersection: readability
+
+metrics:  MRR 0.2 MAP 0.92 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 
+
+==========
+hypernym: intelligibility (the quality of language that is comprehensible), hyponyms:speech intelligibility | other hyponyms:
+
+predicted: intelligibility in writing, intelligibility in speech, speech intelligibility, 7, intelligibility in reading, comprehensibility, 1, 4, 8, 
+ 
+true: readability,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: scope (an area in which something acts or operates or has power or control:), hyponyms:horizon, internationality, latitude, palette, spectrum | other hyponyms:
+
+predicted: arena, coverage, domain, field, orbit, province, range, range, reach, ether, extent, ether, ether, field, horizon, scope,
+ 
+true: approximate range, confines, contrast, sweep, gamut,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: scope (an area in which something acts or operates or has power or control:), hyponyms:horizon, internationality, latitude, palette, spectrum | other hyponyms:
+
+predicted: field, purview, territory, 24-hour news cycle, 50-yard line, 90-yard line, 99-yard line,
+ 
+true: approximate range, confines, contrast, sweep, gamut,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hydrometer (a measuring instrument for determining the specific gravity of a liquid or solid), hyponyms:thermohydrometer | other hyponyms:
+
+predicted: refractometer, barometer, burette, hydromanometer, hydrometer, 0.950, 0.952, 0
+ 
+true: salinometer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hydrometer (a measuring instrument for determining the specific gravity of a liquid or solid), hyponyms:thermohydrometer | other hyponyms:
+
+predicted: barometer, hydrous, oenometer, etherometer, refractometer, 1000-candle lamp, specific-gravity meter, hyd
+ 
+true: salinometer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pliers (a gripping hand tool with two hinged arms and (usually) serrated jaws), hyponyms:pump-type pliers, rib joint pliers, slip-joint pliers | other hyponyms:
+
+predicted: adjustable pliers, diagonal pliers, hemostat, long-nose pliers, needle-nose pliers, side-cutters, tweezers
+ 
+true: locking pliers, needlenose pliers,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pliers (a gripping hand tool with two hinged arms and (usually) serrated jaws), hyponyms:pump-type pliers, rib joint pliers, slip-joint pliers | other hyponyms:
+
+predicted: channel locker, locking pliers, long-nose pliers, needle-nose pliers, nippers, pipe wrench, round-nose p
+ 
+true: locking pliers, needlenose pliers,
+ 
+intersection: locking pliers
+
+metrics:  MRR 0.5 MAP 0.49 P@1 0.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: utility (a company that performs a public service; subject to government regulation), hyponyms:gas company, telephone company, water company | other hyponyms:
+
+predicted: cable television company, power company, 21st century corporation, 21st century corporation, public corporation, public utility, service corporation, 2
+ 
+true: bus company, power company,
+ 
+intersection: power company
+
+metrics:  MRR 0.5 MAP 0.49 P@1 0.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: utility (a company that performs a public service; subject to government regulation), hyponyms:gas company, telephone company, water company | other hyponyms:
+
+predicted: electric company, gas and electric company, public utility, public service corporation, ether company, insurer, telephone company, 36, 40, 
+ 
+true: bus company, power company,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fish species (a species of fish), hyponyms:Australian arowana, Australian bonytongue | other hyponyms:
+
+predicted: bonytongue, barb, bream, carp, catfish, cichlid, cod, crappie, crap, crappie,
+ 
+true: barramundi,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fish species (a species of fish), hyponyms:Australian arowana, Australian bonytongue | other hyponyms:
+
+predicted: American eel, anchovy, angler, anhinga, arctic char, asellus, atlantic cod, bamboo shark, bam
+ 
+true: barramundi,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: milk (produced by mammary glands of female mammals for feeding their young), hyponyms:mother's milk | other hyponyms:
+
+predicted: human milk, cow's milk, goat's milk, 2 percent milk, chocolate milk, evaporated milk, skim milk, sour milk
+ 
+true: colostrum,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: milk (produced by mammary glands of female mammals for feeding their young), hyponyms:mother's milk | other hyponyms:
+
+predicted: cow's milk, goat's milk, sheep's milk, buffalo milk, human milk, 2-percent milk, condensed milk, evaporated
+ 
+true: colostrum,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hedge (a fence formed by a row of closely planted shrubs or bushes), hyponyms:windbreak | other hyponyms:
+
+predicted: box hedge, espalier, holly hedge, hedge bank, holly, privet, iaitk, quickset, iaitk,
+ 
+true: privet hedge,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hedge (a fence formed by a row of closely planted shrubs or bushes), hyponyms:windbreak | other hyponyms:
+
+predicted: living hedge, espalier, hedgerow, thorn, hedge, 2, hedgerow, haw, shrub hedge, 
+ 
+true: privet hedge,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========

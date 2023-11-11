@@ -1,0 +1,2530 @@
+hypernym: board | hyponyms:
+
+predicted: billiard table, cheese board, chessboard, chopping block, drafting board, draftsman's board, game board, jury box, j
+ 
+true: backgammon board, cribbage board, dartboard, go board, monopoly board, Ouija, pegboard, punchboard, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: board | hyponyms:
+
+predicted: boardinghouse, deck, deckhouse, divan, floor, headboard, jury, palaver, shipping board, snake pit, soccer field,
+ 
+true: backgammon board, cribbage board, dartboard, go board, monopoly board, Ouija, pegboard, punchboard, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mallow | hyponyms:
+
+predicted: chickweed, common chickpea, hibiscus, hollyhock, marsh mallow, marvel of Peru, marjoram, m
+ 
+true: abelmosk, velvetleaf, chaparral mallow, checkerbloom, tall mallow, common mallow, false mallow, glade mallow, mountain hollyhock, wild hollyhock, Indian mallow, Queensland hemp, malope, musk mallow, Virginia mallow, waxmallow, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mallow | hyponyms:
+
+predicted: alfalfa, chickweed, chicory, cheeseweed chic, chive, dyer's mallow, hollyhock,
+ 
+true: abelmosk, velvetleaf, chaparral mallow, checkerbloom, tall mallow, common mallow, false mallow, glade mallow, mountain hollyhock, wild hollyhock, Indian mallow, Queensland hemp, malope, musk mallow, Virginia mallow, waxmallow, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: workhorse | hyponyms:
+
+predicted: bulldog, donkey, draft horse, 4-wheel drive, tractor, 6-wheeler, 8-wreeler, car,
+ 
+true: farm horse, packhorse, plow horse, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: workhorse | hyponyms:
+
+predicted: cab horse, draft horse, work mare, work ox, 1, 2, 3, 4, 5, 6, 7, 8,
+ 
+true: farm horse, packhorse, plow horse, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ash | hyponyms:
+
+predicted: American elm, blue ash, Chinese elm tree, common ash, European white poplar, red-leaved elm ash, white ash, black ash, 1
+ 
+true: Arizona ash, black ash, blue ash, European ash, manna ash, flowering ash, flowering ash, white ash, swamp ash, Oregon ash, mountain ash, pumpkin ash, 
+ 
+intersection: blue ash,white ash,black ash
+
+metrics:  MRR 0.5 MAP 0.2553354978354978 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.25 
+
+==========
+hypernym: ash | hyponyms:
+
+predicted: alder, white ash, blue ash, mountain ash, red ash, 2, 3, 4, 5, 6, 7, 8,
+ 
+true: Arizona ash, black ash, blue ash, European ash, manna ash, flowering ash, flowering ash, white ash, swamp ash, Oregon ash, mountain ash, pumpkin ash, 
+ 
+intersection: blue ash,white ash,mountain ash
+
+metrics:  MRR 0.5 MAP 0.289525974025974 P@1 0.0 P@3 0.6666666666666666 P@5 0.6 P@15 0.25 
+
+==========
+hypernym: pipe | hyponyms:
+
+predicted: drain pipe, flue, galvanized pipe, plumbing, plumber's pipe, sewer pipe, water pipe, 1-pipe system, 
+ 
+true: briar, calabash, hookah, calumet, meerschaum, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pipe | hyponyms:
+
+predicted: bong, briar, clay pipe, cob, chanter, chanter, Dutch pipe, flue pipe, funnel, organ pipe, smoking
+ 
+true: briar, calabash, hookah, calumet, meerschaum, 
+ 
+intersection: briar
+
+metrics:  MRR 0.5 MAP 0.20566666666666664 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.2 
+
+==========
+hypernym: license | hyponyms:
+
+predicted: driver's license, driver' s license, pilot's licence, 20-year-old, license to kill, license plate, license renewal, license
+ 
+true: clearance, conge, toleration, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: license | hyponyms:
+
+predicted: license to kill, license to operate, license plate, permit, 10-33 license, 7-Eleven license, operating license, license back, 
+ 
+true: clearance, conge, toleration, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bottle | hyponyms:
+
+predicted: beer bottle, gin bottle bottle of milk, soda bottle wine bottle ether bottle whiskey bottle medicine bottle oil bottle pop
+ 
+true: phial, beer bottle, gourd, carafe, carboy, catsup bottle, cruet, demijohn, ink bottle, pill bottle, pop bottle, smelling bottle, specimen bottle, whiskey bottle, 
+ 
+intersection: beer bottle
+
+metrics:  MRR 1.0 MAP 0.11645981795981793 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.07142857142857142 
+
+==========
+hypernym: bottle | hyponyms:
+
+predicted: carboy, champagne bottle, cider bottle , decanter, flask, wine bottle bottle of ink, beer bottle 5-gall
+ 
+true: phial, beer bottle, gourd, carafe, carboy, catsup bottle, cruet, demijohn, ink bottle, pill bottle, pop bottle, smelling bottle, specimen bottle, whiskey bottle, 
+ 
+intersection: carboy
+
+metrics:  MRR 1.0 MAP 0.11645981795981793 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.07142857142857142 
+
+==========
+hypernym: athlete | hyponyms:
+
+predicted: basketball player, boxer, diver, fencer, football player, gymnast, hockey player, jockey, long jumper, pole vaulter, runner,
+ 
+true: ball hawk, hooker, hurdler, lacrosse player, letterman, weightlifter, Olympian, pentathlete, vaulter, sharpshooter, shot putter, sport, striker, swinger, winger, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: athlete | hyponyms:
+
+predicted: basketball player, baseball player, bowler, boxer, cheerleader, chess player, football player, gymnast, jockey, long jumper, mount
+ 
+true: ball hawk, hooker, hurdler, lacrosse player, letterman, weightlifter, Olympian, pentathlete, vaulter, sharpshooter, shot putter, sport, striker, swinger, winger, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: drift | hyponyms:
+
+predicted: drift ice, iceberg, icedock, iceshelf, icy mass, 1, 2, 3, 4, 5, 
+ 
+true: gravitation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: drift | hyponyms:
+
+predicted: drift ice, drift sand, 10-cent piece, drifting, 5-cent coin, 25-center, 7-cent, 
+ 
+true: gravitation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: attraction | hyponyms:
+
+predicted: gravitational attraction, electrostatic attraction 1, magnetic attraction,, 2, 3, 4, 5, 6, 7, 8
+ 
+true: affinity, van der Waal's forces, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: attraction | hyponyms:
+
+predicted: attraction of gravity, magnetic attraction, electric attraction 2, 2-pole magnet, 3-pole magnetic attracion, 4-pole attraction
+ 
+true: affinity, van der Waal's forces, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: nest | hyponyms:
+
+predicted: bee hive, bird's nest, birdhouse, beehive, iguana nest, nesting box, 5-gallon bucket, aerie
+ 
+true: beehive, drey, mouse nest, 
+ 
+intersection: beehive
+
+metrics:  MRR 0.25 MAP 0.3133333333333333 P@1 0.0 P@3 0.0 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: nest | hyponyms:
+
+predicted: bee-hive, cuckoo's nest, duck's-nest, eagle's eyrie, gourd, nesting, bird'
+ 
+true: beehive, drey, mouse nest, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: liveliness | hyponyms:
+
+predicted: animation, bustle, racy, vivaciousness, zest, 2, 3, 4, 5, 6, 7, 
+ 
+true: airiness, alacrity, breeziness, irrepressibility, elan, esprit, pep, pertness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: liveliness | hyponyms:
+
+predicted: effervescence, livelock, livelyhood, merriment, racy, 2, 3, 6, 7, 8
+ 
+true: airiness, alacrity, breeziness, irrepressibility, elan, esprit, pep, pertness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: blockage | hyponyms:
+
+predicted: occlusion, obstruction, icy, stoppage, 10, 20, airway blockage, obstetrical blockage of the labor canal
+ 
+true: breechblock, vapor lock, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: blockage | hyponyms:
+
+predicted: clogging, stoppage, iced, icy, 1, 2, 3, 4, 5, 6, 7, 8
+ 
+true: breechblock, vapor lock, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dance | hyponyms:
+
+predicted: ballroom dancing, breakdance, clog, clogging, contra dance, country dance, folk dance, jig, jitterbug, line dance, mam
+ 
+true: barn dance, hop, rave, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dance | hyponyms:
+
+predicted: ballet, breakdance, dance of death, dandiya, fandango, foxtrot, gavotte, gigue, hambone, hoe
+ 
+true: barn dance, hop, rave, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hole | hyponyms:
+
+predicted: hole in the ground, hole in one, hole-in-one, hole, 18-hole, 9-hole golf course, 3-hole course,
+ 
+true: bolt-hole, bullet hole, cranny, knothole, leak, ozone hole, perforation, rathole, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hole | hyponyms:
+
+predicted: bunghole, cat's-eye, chink, cleft, collar, crack, crevasse, crevice, drain, eye, fiss
+ 
+true: bolt-hole, bullet hole, cranny, knothole, leak, ozone hole, perforation, rathole, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cocktail | hyponyms:
+
+predicted: Manhattan, gimlet, martini, mint julep, old fashioned, sidecar, tonic, bloody Mary, gin, iced tea,
+ 
+true: bullshot, gimlet, gin and it, grasshopper, Harvey Wallbanger, margarita, old fashioned, pink lady, planter's punch, Sazerac, screwdriver, sidecar, stinger, White Russian, 
+ 
+intersection: old fashioned,gimlet,sidecar
+
+metrics:  MRR 0.5 MAP 0.24204612054612049 P@1 0.0 P@3 0.3333333333333333 P@5 0.4 P@15 0.21428571428571427 
+
+==========
+hypernym: cocktail | hyponyms:
+
+predicted: bacardi cocktails, daiquiri, gimlet, mojito, old-fashioned, rum cocktal, vodka cock
+ 
+true: bullshot, gimlet, gin and it, grasshopper, Harvey Wallbanger, margarita, old fashioned, pink lady, planter's punch, Sazerac, screwdriver, sidecar, stinger, White Russian, 
+ 
+intersection: old fashioned,gimlet
+
+metrics:  MRR 0.3333333333333333 MAP 0.16125296925296922 P@1 0.0 P@3 0.3333333333333333 P@5 0.4 P@15 0.14285714285714285 
+
+==========
+hypernym: weight | hyponyms:
+
+predicted: body weight, heft, mass, ounces, ounce, pound, ton, 1000-grain weight, 500 pound
+ 
+true: dead weight, poundage, tare, throw-weight, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: weight | hyponyms:
+
+predicted: ballast, burden, cargo, deadweight, load, poundage, ounce, ounc, 1000-pounder, 5
+ 
+true: dead weight, poundage, tare, throw-weight, 
+ 
+intersection: poundage
+
+metrics:  MRR 0.16666666666666666 MAP 0.225 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.25 
+
+==========
+hypernym: rock | hyponyms:
+
+predicted: cobblestone, clinker, chert, cobble, conglomerate, detritus, flagstone, granite, gravel, granod
+ 
+true: aphanite, tufa, caliche, claystone, pudding stone, dolomite, emery stone, fieldstone, greisen, magma, matrix, pumice, quartzite, road metal, shingling, sial, sima, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: rock | hyponyms:
+
+predicted: boulder, stone, igneous rock, sedimentary rock, volcanic rock, 1, 2, 3, 4, 5,
+ 
+true: aphanite, tufa, caliche, claystone, pudding stone, dolomite, emery stone, fieldstone, greisen, magma, matrix, pumice, quartzite, road metal, shingling, sial, sima, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: farmhand | hyponyms:
+
+predicted: farm boy, hired hand, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+ 
+true: dairymaid, dairyman, farmerette, gleaner, picker, plowman, waterer, weeder, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: farmhand | hyponyms:
+
+predicted: farm boy, farm girl, 15-hand, 20-hander, 30-incher, 40-horse, 50
+ 
+true: dairymaid, dairyman, farmerette, gleaner, picker, plowman, waterer, weeder, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: clothing | hyponyms:
+
+predicted: clothing, dress, garb, uniform, habit, 2, 1, 3, 4, 5, 6, 7, 8,
+ 
+true: beachwear, black, blue, change, drag, togs, grey, knitwear, leisure wear, ready-to-wear, slip-on, slops, street clothes, tailor-made, vestiture, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: clothing | hyponyms:
+
+predicted: costume, uniform, 1950s look, 60s style, 70s, 80s fashion, 90s fash
+ 
+true: beachwear, black, blue, change, drag, togs, grey, knitwear, leisure wear, ready-to-wear, slip-on, slops, street clothes, tailor-made, vestiture, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: aggressiveness | hyponyms:
+
+predicted: asperity, churlishness, intransigence, icy coldness, irascibility, inroad, 2, 3, 5
+ 
+true: competitiveness, intrusiveness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: aggressiveness | hyponyms:
+
+predicted: bullying, belligerence, combativeness, racy, ousiness, ouse, oughness, roughness, snappishness, sourness
+ 
+true: competitiveness, intrusiveness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mix | hyponyms:
+
+predicted: admixture, admixtum, alloy, blend, compound, concoction, confection, conglomerate, composition, combination, cock
+ 
+true: self-rising flour, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mix | hyponyms:
+
+predicted: mud, paste, ether, iced tea, icy tea, cocktail, ices, icky, admixture, 1, 2, 
+ 
+true: self-rising flour, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: collection | hyponyms:
+
+predicted: anthology, anthology of poetry, anthroposophy, anthropology, atlas, atrium, bag, binder, body of work, bureauc
+ 
+true: archives, compilation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: collection | hyponyms:
+
+predicted: anthology, compendium, dossier, library, museum, pile, portfolio, portmanteau, scrapbook, set, trunk, tre
+ 
+true: archives, compilation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: coach | hyponyms:
+
+predicted: football coach, basketball coach, hockey coach, 20-mile man, boxing coach, cricket coach, cross-country coach, field coach, football coach's
+ 
+true: basketball coach, conditioner, hockey coach, tennis coach, 
+ 
+intersection: hockey coach,basketball coach
+
+metrics:  MRR 0.5 MAP 0.4933333333333333 P@1 0.0 P@3 0.6666666666666666 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: coach | hyponyms:
+
+predicted: backfield coach, assistant coach, coaching staff, defensive coordinator, offensive coordinater, head coach, line coach, special teams coordinator assistant, 1st
+ 
+true: basketball coach, conditioner, hockey coach, tennis coach, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: category | hyponyms:
+
+predicted: genus, class, subgenus, ether, order, section, 5, subfamily, suborder, subclass, subclassification, tribe, taxon, type,
+ 
+true: pigeonhole, rubric, way, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: category | hyponyms:
+
+predicted: subcategory, field, 2nd-level category, 1st-level classification, 3rd-level taxon, 4th-level class, 5
+ 
+true: pigeonhole, rubric, way, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: secretion | hyponyms:
+
+predicted: mucus, saliva, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+ 
+true: ganoin, intestinal juice, lacrimal secretion, musk, nectar, perspiration, pheromone, royal jelly, synovia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: secretion | hyponyms:
+
+predicted: alkaline phosphatase, amylase, asparaginase, basophil granule, bile, bromelain, chorion, cor
+ 
+true: ganoin, intestinal juice, lacrimal secretion, musk, nectar, perspiration, pheromone, royal jelly, synovia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: order | hyponyms:
+
+predicted: order of battle, order of precedence, 10-100, order in which, 20-80, 30-70, military
+ 
+true: marching orders, word, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: order | hyponyms:
+
+predicted: court order, order of the day, injunction, writ, 1. 10-day notice, 2. 20-days notice, stay, 
+ 
+true: marching orders, word, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: helmet | hyponyms:
+
+predicted: combat helmet, crash helmet motorcycle helmet combat helicopter helmet football helmet horse-riding helmet hockey helmet ice hockey helmets lacros
+ 
+true: armet, basinet, morion, heaume, pickelhaube, sallet, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: helmet | hyponyms:
+
+predicted: bicycle helmet, football helmet (helmet), motorcycle helmet 3, motorcycle racing helmet , ski helmet helmet-mounted camera,
+ 
+true: armet, basinet, morion, heaume, pickelhaube, sallet, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cloak | hyponyms:
+
+predicted: cape, muffler, mantle, 6, 7, 8, 9, 10, 2, 3, 4, 
+ 
+true: burnous, caftan, capote, capuchin, cope, dolman, domino, jellaba, opera cloak, pallium, poncho, wrap, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cloak | hyponyms:
+
+predicted: cape, overcoat, 1, 2, 3, mantle, 4, 5, 6, 7, 8, 9
+ 
+true: burnous, caftan, capote, capuchin, cope, dolman, domino, jellaba, opera cloak, pallium, poncho, wrap, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sweet | hyponyms:
+
+predicted: candy, sugar, confection, ices, sweetmeat, iced dessert, syrup, sweetbread, sweetness, 22, 5
+ 
+true: candied apple, center, comfit, confectionery, hardbake, maraschino, nonpareil, sweetmeat, 
+ 
+intersection: sweetmeat
+
+metrics:  MRR 0.2 MAP 0.11769047619047619 P@1 0.0 P@3 0.0 P@5 0.2 P@15 0.125 
+
+==========
+hypernym: sweet | hyponyms:
+
+predicted: candy, chocolate, sweetmeat, sweetbread, sugar, sugarplum, ices, iced, confectionery, 1600
+ 
+true: candied apple, center, comfit, confectionery, hardbake, maraschino, nonpareil, sweetmeat, 
+ 
+intersection: sweetmeat,confectionery
+
+metrics:  MRR 0.3333333333333333 MAP 0.23435714285714282 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.25 
+
+==========
+hypernym: kidney disease | hyponyms:
+
+predicted: nephrosis, renal disease, 2, 4, 5, 6, 8, 10, 3, 7, 9
+ 
+true: nephrosclerosis, polycystic kidney disease, polyuria, renal insufficiency, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: kidney disease | hyponyms:
+
+predicted: acute renal failure, chronic renal disease, nephritis, nefrotic syndrome, pyelonephritic fever, igneous
+ 
+true: nephrosclerosis, polycystic kidney disease, polyuria, renal insufficiency, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: seasnail | hyponyms:
+
+predicted: sea hare, sea harp, sea mouse, sea slug, 16, 20, 30, sea pig, 40, wh
+ 
+true: moon shell, periwinkle, triton, whelk, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: seasnail | hyponyms:
+
+predicted: sea hare, sea slug, sea hedgehog, sea mouse, 1, sea star, 2, sea urchin, 3, 4,
+ 
+true: moon shell, periwinkle, triton, whelk, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bucket | hyponyms:
+
+predicted: barrow, pail, 55-gallon drum, 2-galleron drum bucket, 44-galleon drum drum, can,
+ 
+true: cannikin, dinner pail, kibble, slop pail, wine bucket, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: bucket | hyponyms:
+
+predicted: dipper, fireman's bucket, water bucket, iced tea bucket, mop bucket, pail, 55-gallon drum, 10
+ 
+true: cannikin, dinner pail, kibble, slop pail, wine bucket, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: excess | hyponyms:
+
+predicted: surplusage, redundancy, 100, 200 percent, 5000-to-1, 600 to 1,
+ 
+true: exorbitance, extravagance, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: excess | hyponyms:
+
+predicted: excessive, overabundance, 1, overdose, 2, surplus, 3, 4, 5, 6, 7,
+ 
+true: exorbitance, extravagance, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ray | hyponyms:
+
+predicted: gamma ray, X ray, alpha ray, beta ray, ions, 2-ray, 3-rays, 4-ray radiation, 5-
+ 
+true: electric ray, guitarfish, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: ray | hyponyms:
+
+predicted: x-ray, gamma ray, γ-ray ray, electron, β-ray radiation, μ-rays, ν-ray radiations, 
+ 
+true: electric ray, guitarfish, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hot pepper | hyponyms:
+
+predicted: jalapeno, habanero, jamaica, 7-potato pepper, aji, cayenne pepper bird pepper chili, ch
+ 
+true: tabasco, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hot pepper | hyponyms:
+
+predicted: cayenne, jalapeno, pimiento, 7-pot, 1000-island, aji, chili pepper, chile
+ 
+true: tabasco, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cell | hyponyms:
+
+predicted: erythrocyte, fibroblast, lymphocyte, macrophage, mast cell, neuron, phagocyte cell, plasma cell
+ 
+true: electrolytic cell, fuel cell, solar cell, storage cell, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: cell | hyponyms:
+
+predicted: bacteriocyte, cell nucleus, cell wall, germinal vesicle, lysosome, nucleolus, nucleus of an animal cell, nucleop
+ 
+true: electrolytic cell, fuel cell, solar cell, storage cell, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: lesson | hyponyms:
+
+predicted: class, course, lecture, tutorial, ether, 20 questions, 50 questions 100 questions game, 15 questions, algebra, arithmetic,
+ 
+true: dance lesson, golf lesson, tennis lesson, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: lesson | hyponyms:
+
+predicted: catechism, grammar, history, ether, ethics, geography, Greek, history of art, Latin, logic, mathematics, music, physics, religion,
+ 
+true: dance lesson, golf lesson, tennis lesson, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: anger | hyponyms:
+
+predicted: fury, resentment, rage, wrath, icy rage of the oppressed, 109, fury of the wronged, f
+ 
+true: dander, infuriation, huffiness, umbrage, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: anger | hyponyms:
+
+predicted: fury, wrath, rage, icy rage of love, ouside, ounce, rabies, 12-ounce, fury ra
+ 
+true: dander, infuriation, huffiness, umbrage, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: criticism | hyponyms:
+
+predicted: ad hominem, attack, criticism, 1, denigration, discrediting, fault-finding, praise, 2, 3, 4,
+ 
+true: analysis, explication de texte, new criticism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: criticism | hyponyms:
+
+predicted: carping, faultfinding, nitpicking, scathing, 18th-century criticism, 20th- century criticism, censure, criticism,
+ 
+true: analysis, explication de texte, new criticism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: play | hyponyms:
+
+predicted: comic opera, farce, musical, opera, 16th century play, 20th century musical, ballet, drama, musical comedy, opera buffa
+ 
+true: knock on, power play, razzle-dazzle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: play | hyponyms:
+
+predicted: dramatic play, playlet, 3-act play, 4-act, 5-act drama, 6-act comedy, 7-act traged
+ 
+true: knock on, power play, razzle-dazzle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: representation | hyponyms:
+
+predicted: counterfeit, depiction, image, image of, illustration, likeness, portrait, 2D representation, 3D representation 2-dimensional representation,
+ 
+true: abstractionism, antitype, blur, instantiation, phantasmagoria, psychosexuality, schema, stereotype, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: representation | hyponyms:
+
+predicted: icon, mimesis, personification, portrait, portraiture, picturization, 2-D, 3-D image, 4-D simulation,
+ 
+true: abstractionism, antitype, blur, instantiation, phantasmagoria, psychosexuality, schema, stereotype, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dissolution | hyponyms:
+
+predicted: disintegration, disintegration of the atom, radioactive decay, etherization, ionsation, icesation, ionization, ionisation, liquefaction,
+ 
+true: splitsville, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: dissolution | hyponyms:
+
+predicted: degradation, disintegration, dissociation, etherization, evaporation, liquefaction, 10, 23, 36,
+ 
+true: splitsville, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: husk | hyponyms:
+
+predicted: cocoa bean husk, coconut husk fiber, cotton fiber husk residue, corn husk fibers, hull, 100
+ 
+true: cornhusk, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: husk | hyponyms:
+
+predicted: chaff, maize, 1, rice husk, 2, 3, 4, 5, 6, 7, 8, 9
+ 
+true: cornhusk, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: scale | hyponyms:
+
+predicted: chromatic scale, diatonic scale, harmonic scale scale, melodic scale, pentatonic, whole-tone scale, blues scale, chromatic,
+ 
+true: Beaufort scale, logarithmic scale, Mercalli scale, Mohs scale, moment magnitude scale, Richter scale, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: scale | hyponyms:
+
+predicted: carat, chord, chromatic scale, diatonic scale, harmonic scale scale, major scale, octave, pentatonic, whole tone, chromatics
+ 
+true: Beaufort scale, logarithmic scale, Mercalli scale, Mohs scale, moment magnitude scale, Richter scale, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: case | hyponyms:
+
+predicted: baggage, carpetbag, suitcase, 18-wheeler, briefcase, carton, chest, coffin, container, crate,
+ 
+true: welfare case, client, referral, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: case | hyponyms:
+
+predicted: casket, coffin, coffine, crate, crusie, pack, 1-up, 2-up case, 3-up 21
+ 
+true: welfare case, client, referral, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: vinifera | hyponyms:
+
+predicted: pinot noir, chardonnay, champagne grape, 100% pinot, 50% cabernet, 75% cab
+ 
+true: Cabernet Sauvignon grape, Chardonnay, Chenin blanc, malvasia, Merlot, Muscadet, muscat, Riesling, Sauvignon blanc, Sauvignon grape, Verdicchio, Zinfandel, 
+ 
+intersection: chardonnay
+
+metrics:  MRR 0.5 MAP 0.10539754689754688 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.08333333333333333 
+
+==========
+hypernym: vinifera | hyponyms:
+
+predicted: chasselas, chardonnay, gamay, graciano, gamaret, garganega, malvasia, pinot noir, ous
+ 
+true: Cabernet Sauvignon grape, Chardonnay, Chenin blanc, malvasia, Merlot, Muscadet, muscat, Riesling, Sauvignon blanc, Sauvignon grape, Verdicchio, Zinfandel, 
+ 
+intersection: chardonnay,malvasia
+
+metrics:  MRR 0.5 MAP 0.18179509379509376 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.16666666666666666 
+
+==========
+hypernym: test | hyponyms:
+
+predicted: abdominal test, antigen test, blood test, chromatography, culture, drug test, electrocardiography, endoscopy, fingerprint, gas chromat
+ 
+true: sub-test, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: test | hyponyms:
+
+predicted: blood test, breath test, cytological test, enzyme test, field test, gas chromatography, gas-liquid chromatograph, gas test, imm
+ 
+true: sub-test, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mythical monster | hyponyms:
+
+predicted: dragon, hydra, minotaur, Medusa, manticore, mermaid, satyr, sphinx, unicorn, 20th
+ 
+true: amphisbaena, basilisk, Cerberus, Chimera, cockatrice, Geryon, gryphon, Harpy, Hydra, leviathan, werewolf, manticore, Minotaur, Nemean lion, roc, salamander, Sphinx, troll, Typhoeus, Typhon, 
+ 
+intersection: hydra,sphinx,minotaur,manticore
+
+metrics:  MRR 0.5 MAP 0.264295363047685 P@1 0.0 P@3 0.6666666666666666 P@5 0.6 P@15 0.26666666666666666 
+
+==========
+hypernym: mythical monster | hyponyms:
+
+predicted: centaur, griffin, harpy, hydra, Medusa, minotaur, manticore, mermaid, minotauros, mischiev
+ 
+true: amphisbaena, basilisk, Cerberus, Chimera, cockatrice, Geryon, gryphon, Harpy, Hydra, leviathan, werewolf, manticore, Minotaur, Nemean lion, roc, salamander, Sphinx, troll, Typhoeus, Typhon, 
+ 
+intersection: hydra,harpy,minotaur,manticore
+
+metrics:  MRR 0.3333333333333333 MAP 0.2464858392381612 P@1 0.0 P@3 0.3333333333333333 P@5 0.4 P@15 0.26666666666666666 
+
+==========
+hypernym: asexual reproduction | hyponyms:
+
+predicted: vegetative reproduction, budding, fragmentation, fission, 1, 2, 3, 4, 5, 6, 7, 
+ 
+true: blastogenesis, budding, fissiparity, pullulation, parthenogenesis, 
+ 
+intersection: budding
+
+metrics:  MRR 0.5 MAP 0.20566666666666664 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.2 
+
+==========
+hypernym: asexual reproduction | hyponyms:
+
+predicted: parthenogenesis, budding, 1-cell stage, 2-cell, 4-cell embryo, 8-cell embyro, 
+ 
+true: blastogenesis, budding, fissiparity, pullulation, parthenogenesis, 
+ 
+intersection: parthenogenesis,budding
+
+metrics:  MRR 1.0 MAP 0.43133333333333324 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.4 
+
+==========
+hypernym: Jew | hyponyms:
+
+predicted: Ashkenazi, Bene Israel, Sephardi, 13th Tribe, Diaspora, Israelite, Israel, Khazar, Karaite,
+ 
+true: Ashkenazi, Conservative Jew, Essene, kike, Jewess, Levite, Pharisee, Reform Jew, Sadducee, Sephardi, Wandering Jew, Zealot, Zionist, 
+ 
+intersection: ashkenazi,sephardi
+
+metrics:  MRR 1.0 MAP 0.211051504051504 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.15384615384615385 
+
+==========
+hypernym: Jew | hyponyms:
+
+predicted: Ashkenazi, Sephardi, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+ 
+true: Ashkenazi, Conservative Jew, Essene, kike, Jewess, Levite, Pharisee, Reform Jew, Sadducee, Sephardi, Wandering Jew, Zealot, Zionist, 
+ 
+intersection: ashkenazi,sephardi
+
+metrics:  MRR 1.0 MAP 0.221051504051504 P@1 1.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.15384615384615385 
+
+==========
+hypernym: hair | hyponyms:
+
+predicted: chignon, dreadlocks, hairball, hairbrush, hairpin, mane, mop, pigtail, ponytail, shag, wig
+ 
+true: stinging hair, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: hair | hyponyms:
+
+predicted: ponytail, rat's tail, rat-tail, shag, toupee, 45, 50, 60, afro, be
+ 
+true: stinging hair, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: band | hyponyms:
+
+predicted: bandage, belt, binder, bracelet, braid, brazil, bubble gum, bun, cap, chain, chain mail, collar
+ 
+true: armlet, armband, backband, bellyband, watchband, rubber band, garter, headstall, weed, strap, sweatband, sweatband, wristlet, wristband, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: band | hyponyms:
+
+predicted: bandage, bandolier, bandage roll, bandana, bandbox, bandit, bandleader, bangle, belt, bracelet, braid
+ 
+true: armlet, armband, backband, bellyband, watchband, rubber band, garter, headstall, weed, strap, sweatband, sweatband, wristlet, wristband, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: noun | hyponyms:
+
+predicted: noun phrase, proper noun, common nouns, 5, 6, 7, 8, 9, 10, 2, 
+ 
+true: collective noun, count noun, generic noun, mass noun, proper noun, 
+ 
+intersection: proper noun
+
+metrics:  MRR 0.5 MAP 0.20566666666666664 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.2 
+
+==========
+hypernym: noun | hyponyms:
+
+predicted: adjective, collective noun, common nouns, proper noun 5, mass noun; 17, count noun and 24, collect
+ 
+true: collective noun, count noun, generic noun, mass noun, proper noun, 
+ 
+intersection: collective noun
+
+metrics:  MRR 0.5 MAP 0.20566666666666664 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.2 
+
+==========
+hypernym: basidiomycete | hyponyms:
+
+predicted: bolete, polypore, coral fungus, cup fungus mushroom, jelly fungus fungus-foot fungus lion's mane,
+ 
+true: gill fungus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: basidiomycete | hyponyms:
+
+predicted: bolete, polypore, puffball, mushroom, 1, 2, 3, 4, 5, 6, 7,
+ 
+true: gill fungus, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: business department | hyponyms:
+
+predicted: personnel department, purchasing department, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+ 
+true: advertising department, plant department, parts department, purchasing department, sales department, service department, 
+ 
+intersection: purchasing department
+
+metrics:  MRR 0.5 MAP 0.17566666666666664 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.16666666666666666 
+
+==========
+hypernym: business department | hyponyms:
+
+predicted: advertising department, business office, 800 number, sales department, 900, accounting, 1-80, 2-1-1
+ 
+true: advertising department, plant department, parts department, purchasing department, sales department, service department, 
+ 
+intersection: sales department,advertising department
+
+metrics:  MRR 1.0 MAP 0.35466666666666663 P@1 1.0 P@3 0.3333333333333333 P@5 0.4 P@15 0.3333333333333333 
+
+==========
+hypernym: basket | hyponyms:
+
+predicted: basketwork, basketwork, hamper, laundry basket, iced tea basket, wickerwork, basket, fishing basket, hamstrung, ices
+ 
+true: breadbasket, bushel basket, creel, frail, punnet, shopping basket, skep, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: basket | hyponyms:
+
+predicted: babushka, basketwork, basketry, cage, cradle, fishing basket, hamper, hampers, honeycomb, laund
+ 
+true: breadbasket, bushel basket, creel, frail, punnet, shopping basket, skep, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fire | hyponyms:
+
+predicted: conflagration, conflagrate, conflagrant, confluency, confluent, conflux, conflusion, conflustion, conflusive, conflutation,
+ 
+true: backfire, bonfire, brush fire, campfire, grassfire, smoulder, smudge, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: fire | hyponyms:
+
+predicted: conflagration, conflagrate, confluence, conflux, conflussion, confluent, conflutation, combustion, combuscation, conflation
+ 
+true: backfire, bonfire, brush fire, campfire, grassfire, smoulder, smudge, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: essay | hyponyms:
+
+predicted: descriptive essay, editorial, literary essayism, lyric essayist, memoir, satire, 50-word essay contest, 6
+ 
+true: disquisition, memoir, thanatopsis, 
+ 
+intersection: memoir
+
+metrics:  MRR 0.2 MAP 0.30666666666666664 P@1 0.0 P@3 0.0 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: essay | hyponyms:
+
+predicted: autobiography, book review, critique, diatribe, editorial, encomium, exposition, feuilleton, free association, literary criticism, memoir,
+ 
+true: disquisition, memoir, thanatopsis, 
+ 
+intersection: memoir
+
+metrics:  MRR 0.09090909090909091 MAP 0.26666666666666666 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.3333333333333333 
+
+==========
+hypernym: raspberry | hyponyms:
+
+predicted: American rasp, dewberry, European raspberries, 2, 3, 5, 6, 7, 8, 9, 
+ 
+true: cloudberry, black raspberry, flowering raspberry, salmonberry, wineberry, salmonberry, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: raspberry | hyponyms:
+
+predicted: black raspberries, black rambler, red raspbries, 3-lobed rasp, 5-lobbed rasp berry, black
+ 
+true: cloudberry, black raspberry, flowering raspberry, salmonberry, wineberry, salmonberry, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: grade | hyponyms:
+
+predicted: college grade, college level, class rank, course level, grade point average, school level, 12th grade, 6th grade level, college, 7th
+ 
+true: A level, college level, General Certificate of Secondary Education, 
+ 
+intersection: college level
+
+metrics:  MRR 0.5 MAP 0.3299999999999999 P@1 0.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: grade | hyponyms:
+
+predicted: A, B, C, D, F, 1, 2, 3, 4, 5, 6, 7, 8, 9
+ 
+true: A level, college level, General Certificate of Secondary Education, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: record | hyponyms:
+
+predicted: record of accomplishment, record of employment, recording, record book, record-keeping, recordkeeping system, record system, 10-K, 2
+ 
+true: stub, memorabilia, working papers, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: record | hyponyms:
+
+predicted: audiotape, CD, cassette tape, census, copy, file, inscription, journal, list, log, logbook, notebook, record book,
+ 
+true: stub, memorabilia, working papers, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: price | hyponyms:
+
+predicted: assess, bid, cost, estimate, fee, offer, premium, quotation, rental, sale, sale price, tariff, ticket, 100,
+ 
+true: bid price, spot price, closing price, factory price, highway robbery, purchase price, support level, valuation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: price | hyponyms:
+
+predicted: bargain, bid, premium, price tag, tariff, cost, 10-cent solution, 5-cent, 25-cents,
+ 
+true: bid price, spot price, closing price, factory price, highway robbery, purchase price, support level, valuation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: waiter | hyponyms:
+
+predicted: busboy, sommelier, 18th-century waiter, 20th-centurty waiter 2, 8th century waiter'
+ 
+true: carhop, sommelier, 
+ 
+intersection: sommelier
+
+metrics:  MRR 0.5 MAP 0.49 P@1 0.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: waiter | hyponyms:
+
+predicted: busboy, waitress, 10-to-1, 20-across, 50-down, 75-down 1, b
+ 
+true: carhop, sommelier, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: layer | hyponyms:
+
+predicted: stratum, bed, icesheet, ionsphere, layer cake, layering, plankton, pile, plating, stratum corneum, 
+ 
+true: asthenosphere, cell wall, chromosphere, exosphere, lithosphere, hydrosphere, lower mantle, mantle, mesosphere, ozone layer, stratosphere, thermosphere, tropopause, troposphere, upper mantle, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: layer | hyponyms:
+
+predicted: clod, stratum, film, layer cake, lamina, laminate, lithosphere, mantle, strata, 2, 3
+ 
+true: asthenosphere, cell wall, chromosphere, exosphere, lithosphere, hydrosphere, lower mantle, mantle, mesosphere, ozone layer, stratosphere, thermosphere, tropopause, troposphere, upper mantle, 
+ 
+intersection: lithosphere,mantle
+
+metrics:  MRR 0.14285714285714285 MAP 0.1252053502053502 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.13333333333333333 
+
+==========
+hypernym: sect | hyponyms:
+
+predicted: Shakers, Shintoism, Mormonism, Sabbatarianism, 10th Mountain Division, 2nd Marine Division, Catholicism, Jehov
+ 
+true: Abecedarian, Albigenses, Amish sect, brethren, Hare Krishna, Haredi, High Church, Jainism, Karaites, Kokka Shinto, Religious Society of Friends, Shaktism, Shakers, Shiah, Shivaism, Shuha Shinto, sisterhood, Sunni, Taoism, Vaishnavism, Waldenses, Zurvanism, 
+ 
+intersection: shakers
+
+metrics:  MRR 1.0 MAP 0.09927081045889097 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.06666666666666667 
+
+==========
+hypernym: sect | hyponyms:
+
+predicted: Anabaptist, Baptist, Catholic, Christian Science, Congregationalist, Hare Krishna, Hindu, Huguenot, Jehovah'
+ 
+true: Abecedarian, Albigenses, Amish sect, brethren, Hare Krishna, Haredi, High Church, Jainism, Karaites, Kokka Shinto, Religious Society of Friends, Shaktism, Shakers, Shiah, Shivaism, Shuha Shinto, sisterhood, Sunni, Taoism, Vaishnavism, Waldenses, Zurvanism, 
+ 
+intersection: hare krishna
+
+metrics:  MRR 0.16666666666666666 MAP 0.05360414379222429 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.06666666666666667 
+
+==========
+hypernym: water | hyponyms:
+
+predicted: dew, water supply, well, icy water, rain, spring, spray, stream, water, 12, 40, 60, aqu
+ 
+true: bath water, bilge, dishwater, distilled water, ground water, hard water, holy water, limewater, meltwater, slush, soft water, tap water, water of crystallization, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: water | hyponyms:
+
+predicted: rainwater, seawater, well water, icy water, mineral water, river water, salt water, sewage, spray, iced water, pot
+ 
+true: bath water, bilge, dishwater, distilled water, ground water, hard water, holy water, limewater, meltwater, slush, soft water, tap water, water of crystallization, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: supernaturalism | hyponyms:
+
+predicted: animism, spiritism, etherism, fairies, ghost, icy, icky, magic, magical, mythology, occultism, pag
+ 
+true: exorcism, occultism, 
+ 
+intersection: occultism
+
+metrics:  MRR 0.09090909090909091 MAP 0.4 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.5 
+
+==========
+hypernym: supernaturalism | hyponyms:
+
+predicted: animism, fetishism, etherism, ghost, spirit, 194, 200, 500-502, 
+ 
+true: exorcism, occultism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: decay | hyponyms:
+
+predicted: atrophy, putrefaction, decomposition, 1. putrefactive change, 2. fermentation, 3. oxidation, spoilage,
+ 
+true: rancidity, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: decay | hyponyms:
+
+predicted: putrefaction, deterioration, corruption, 1. rotting, 2. putrefying, 3. deterioation, 4
+ 
+true: rancidity, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: occupation | hyponyms:
+
+predicted: avocation, profession, vocation, 2, 4, 5, 6, 7, 8, 9, 10, 3,
+ 
+true: appointment, game, catering, confectionery, farming, metier, photography, treadmill, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: occupation | hyponyms:
+
+predicted: avocation, profession, vocation, 20th century, 19th century history, 8th century BC, 9th-century history, ancient history
+ 
+true: appointment, game, catering, confectionery, farming, metier, photography, treadmill, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: turtle | hyponyms:
+
+predicted: mud turtles, mud tucker, painted turtledove, sea turtling, terrapin, water turtlings, iguana, tortoise
+ 
+true: painted turtle, cooter, red-bellied terrapin, slider, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: turtle | hyponyms:
+
+predicted: mud turtles, mud tasting, sea turtl, terrapin, turtledove, tortoise, 12-lined turtlem
+ 
+true: painted turtle, cooter, red-bellied terrapin, slider, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: vegetable | hyponyms:
+
+predicted: cabbage, carrot, celery, cucumber, eggplant, endive, lettuce, onion, parsnip, potato, radish, r
+ 
+true: artichoke, artichoke heart, asparagus, bamboo shoot, cardoon, truffle, fennel, gumbo, julienne, leek, mushroom, pieplant, plantain, potherb, pumpkin, raw vegetable, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: vegetable | hyponyms:
+
+predicted: cabbage, celery, corn, eggplant, endive, lettuce, parsnip, radish, rutabaga, squash, tomato, turn
+ 
+true: artichoke, artichoke heart, asparagus, bamboo shoot, cardoon, truffle, fennel, gumbo, julienne, leek, mushroom, pieplant, plantain, potherb, pumpkin, raw vegetable, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: orientation | hyponyms:
+
+predicted: azimuth, compass course, direction, line of sight, bearing, course, 10 degrees, 20 degrees north, 30 degrees south, 
+ 
+true: horizontal, quarter, vertical, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: orientation | hyponyms:
+
+predicted: alignment, inclination, direction, 10-10 orientation, 20-80 orientation 30-40 orientation angle, 40-6
+ 
+true: horizontal, quarter, vertical, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: rule | hyponyms:
+
+predicted: bone, canon, commandment, command, formula, law, measure, regulation, restriction, standard, taboo, tenet, criterion, guideline, principle
+ 
+true: bylaw, canon, dictate, GIGO, golden rule, Miranda rule, rubric, 
+ 
+intersection: canon
+
+metrics:  MRR 0.5 MAP 0.15471428571428572 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.14285714285714285 
+
+==========
+hypernym: rule | hyponyms:
+
+predicted: golden rule, law of excluded middle, law, lawfulness, rule of thumb, canon, 10 commandments, 20 commandment, 30
+ 
+true: bylaw, canon, dictate, GIGO, golden rule, Miranda rule, rubric, 
+ 
+intersection: golden rule,canon
+
+metrics:  MRR 1.0 MAP 0.30376190476190473 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.2857142857142857 
+
+==========
+hypernym: philosophical doctrine | hyponyms:
+
+predicted: existentialism, existentialist philosophy, existencialism, materialism, nominalism, pragmatism, rationalism, realism, skepticism,
+ 
+true: aesthetic, Aristotelianism, conceptualism, Confucianism, Taoism, deconstruction, environmentalism, existentialism, formalism, hereditarianism, idealism, intuitionism, logicism, mechanism, mentalism, realism, nativism, naturalism, Neoplatonism, nominalism, operationalism, Platonism, probabilism, rationalism, relativism, Scholasticism, semiotics, sensualism, solipsism, Stoicism, subjectivism, teleology, traditionalism, vitalism, 
+ 
+intersection: realism,existentialism,nominalism,rationalism
+
+metrics:  MRR 1.0 MAP 0.2245800485353545 P@1 1.0 P@3 0.3333333333333333 P@5 0.4 P@15 0.26666666666666666 
+
+==========
+hypernym: philosophical doctrine | hyponyms:
+
+predicted: empiricism, epicureanism, existentialism, idealism, rationalism, skepticism, 21st century thought, 19th century
+ 
+true: aesthetic, Aristotelianism, conceptualism, Confucianism, Taoism, deconstruction, environmentalism, existentialism, formalism, hereditarianism, idealism, intuitionism, logicism, mechanism, mentalism, realism, nativism, naturalism, Neoplatonism, nominalism, operationalism, Platonism, probabilism, rationalism, relativism, Scholasticism, semiotics, sensualism, solipsism, Stoicism, subjectivism, teleology, traditionalism, vitalism, 
+ 
+intersection: existentialism,idealism,rationalism
+
+metrics:  MRR 0.3333333333333333 MAP 0.16699456021103967 P@1 0.0 P@3 0.3333333333333333 P@5 0.6 P@15 0.2 
+
+==========
+hypernym: religious doctrine | hyponyms:
+
+predicted: doctrine of original sin, doctrine of the atonement, doctrine, etheric body, fundamentalism, gospel, heresy, orthodoxy, 20
+ 
+true: ahimsa, confession, ecumenism, Immaculate Conception, Incarnation, Nicene Creed, original sin, real presence, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: religious doctrine | hyponyms:
+
+predicted: apocalypticism, atonement, dogma, fundamentalism, heresy, incarnation, kerygma, mysticism, orthodoxy
+ 
+true: ahimsa, confession, ecumenism, Immaculate Conception, Incarnation, Nicene Creed, original sin, real presence, 
+ 
+intersection: incarnation
+
+metrics:  MRR 0.16666666666666666 MAP 0.11369047619047619 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.125 
+
+==========
+hypernym: disposition | hyponyms:
+
+predicted: allotment, distribution, reassignment, 61, 70, 80, disbursement, 101, distribution of goods,
+ 
+true: animalism, blood, bloodiness, epicurism, esprit de corps, gourmandism, heart, moodiness, optimism, perfectionism, pessimism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: disposition | hyponyms:
+
+predicted: balance, distribution, etherization, igneousness, ions, racy, raphid, ropy, saturation, 1980s
+ 
+true: animalism, blood, bloodiness, epicurism, esprit de corps, gourmandism, heart, moodiness, optimism, perfectionism, pessimism, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: administration | hyponyms:
+
+predicted: civil service, government, 2, 3, 5, 6, 7, 8, 9, 10, 4, 0,
+ 
+true: conducting, line management, polity, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: administration | hyponyms:
+
+predicted: cabinet, civil service, governance, government, management, management of affairs, military administration, 2, office, public administration, public office, 3, 4,
+ 
+true: conducting, line management, polity, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: receiver | hyponyms:
+
+predicted: antenna, decoder, detector, receptor, 7-segment display, 8-bit receiver, amplifier, 12-bit decoder/rece
+ 
+true: television receiver, satellite receiver, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: receiver | hyponyms:
+
+predicted: air-receiver, radio receiver, television receiver, 8-track, 9-track tape recorder, 12-track recorder tape, 
+ 
+true: television receiver, satellite receiver, 
+ 
+intersection: television receiver
+
+metrics:  MRR 0.3333333333333333 MAP 0.48 P@1 0.0 P@3 0.5 P@5 0.5 P@15 0.5 
+
+==========
+hypernym: assistant | hyponyms:
+
+predicted: assistant director, assistant engineer, assistant manager, assistant to the president, 2nd assistant, 1st assistant, assistant clerk, assistant cook, assistant director of photography
+ 
+true: dresser, bat boy, labor coach, instrument, right-hand man, coadjutor, dental assistant, hatchet man, event planner, facilitator, flower girl, girl Friday, powder monkey, prompter, sidesman, underboss, water boy, whipper-in, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: assistant | hyponyms:
+
+predicted: amanuensis, aide, acolyte, amanuensia, apartment house manager, assistant, assistant cook, assistant secretary, assistant treasurer, cl
+ 
+true: dresser, bat boy, labor coach, instrument, right-hand man, coadjutor, dental assistant, hatchet man, event planner, facilitator, flower girl, girl Friday, powder monkey, prompter, sidesman, underboss, water boy, whipper-in, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: position | hyponyms:
+
+predicted: air, ambush, ambuscade, berth, berthing, billet, bivouac, bone, box, breastwork, camp, corner, corner
+ 
+true: catcher, center, center, center field, cleanup, first base, forward, goalkeeper, guard, left field, mid-off, mid-on, pitcher, right field, second base, shortstop, third base, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: position | hyponyms:
+
+predicted: angle, corner, depth, footing, height, incumbency, incumbrance, level, levelness, location, longitude, posture, range, seating
+ 
+true: catcher, center, center, center field, cleanup, first base, forward, goalkeeper, guard, left field, mid-off, mid-on, pitcher, right field, second base, shortstop, third base, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sorrow | hyponyms:
+
+predicted: agony, anguish, despondency, distress, grief, 2, regret, 3, sadness, 6, 15, 
+ 
+true: broken heart, self-pity, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: sorrow | hyponyms:
+
+predicted: grief, mourning, 1001, 2002, 3003, 4004, 5005
+ 
+true: broken heart, self-pity, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: paper | hyponyms:
+
+predicted: bank note, bill, certificate, letter, memorandum, newspaper, passport, postcard, postage stamp, postmark, prospectus, receipt, recei
+ 
+true: art paper, blotting paper, blueprint paper, carbon paper, cartridge paper, computer paper, confetti, construction paper, crepe, filter paper, flypaper, graph paper, greaseproof paper, india paper, linen, litmus paper, manifold paper, manila, music paper, newspaper, oilpaper, papier-mache, paper tape, paper toweling, papyrus, parchment, rice paper, roofing paper, ticker tape, tracing paper, wallpaper, waste paper, wax paper, 
+ 
+intersection: newspaper
+
+metrics:  MRR 0.16666666666666666 MAP 0.04641232815115463 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.06666666666666667 
+
+==========
+hypernym: paper | hyponyms:
+
+predicted: billet, breeching, chart, chart paper, chromosphere, chartreuse, chromatography, chromo, chromolithography, copy, cr
+ 
+true: art paper, blotting paper, blueprint paper, carbon paper, cartridge paper, computer paper, confetti, construction paper, crepe, filter paper, flypaper, graph paper, greaseproof paper, india paper, linen, litmus paper, manifold paper, manila, music paper, newspaper, oilpaper, papier-mache, paper tape, paper toweling, papyrus, parchment, rice paper, roofing paper, ticker tape, tracing paper, wallpaper, waste paper, wax paper, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pace | hyponyms:
+
+predicted: crab, foot, gait, gavotte, gigue, hemiplegia, hemistich, hemisphere, hemorrhage, hemotach
+ 
+true: beat, sluggishness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pace | hyponyms:
+
+predicted: double-time, single-time step, 1-2-3 step, double-step, march, marching step, trot, 2-4, 
+ 
+true: beat, sluggishness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: strap | hyponyms:
+
+predicted: chin strap, dog collar, dog leash, harness, lacing, shoe string, suspender, suspension bridge, tie, brace, bel
+ 
+true: bootstrap, cheekpiece, chin strap, crupper, latchet, noseband, strop, 
+ 
+intersection: chin strap
+
+metrics:  MRR 1.0 MAP 0.17471428571428568 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.14285714285714285 
+
+==========
+hypernym: strap | hyponyms:
+
+predicted: garter, suspender, iguana, leather belt, 1, sash, 2, strap-on, 3, suspenders, 
+ 
+true: bootstrap, cheekpiece, chin strap, crupper, latchet, noseband, strop, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: opinion | hyponyms:
+
+predicted: conviction, viewpoint, 2nd opinion, 3rd opinion, estimate, judgment, 1st opinion, opinion poll, 4th opinion, conclusion, 
+ 
+true: eyes, idea, preconception, pole, politics, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: opinion | hyponyms:
+
+predicted: verdict, judgment, assessment, conviction, dissent, 2, 3, 4, 5, 6, 7, 8, 
+ 
+true: eyes, idea, preconception, pole, politics, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: game of chance | hyponyms:
+
+predicted: baccarat, craps, keno, lotto, mahjong, roulette, shuffleboard, slot machine, ken, rouge et no
+ 
+true: banking game, fantan, roulette, 
+ 
+intersection: roulette
+
+metrics:  MRR 0.16666666666666666 MAP 0.3 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.3333333333333333 
+
+==========
+hypernym: game of chance | hyponyms:
+
+predicted: craps, gin rummy, lottery, mah-jongg, poker, roulette, solitaire, tiddlywinks, 21
+ 
+true: banking game, fantan, roulette, 
+ 
+intersection: roulette
+
+metrics:  MRR 0.16666666666666666 MAP 0.3 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.3333333333333333 
+
+==========
+hypernym: moment | hyponyms:
+
+predicted: instant, point in time, instant, 1000th of a second, 500-millionth of second, second, fraction of a minute,
+ 
+true: moment of a couple, moment of inertia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: moment | hyponyms:
+
+predicted: instant, nuncupative moment, 1960, 2010, blink, second, 3000, instant, 40
+ 
+true: moment of a couple, moment of inertia, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: weight | hyponyms:
+
+predicted: avoirdupois, grain, gram, ounce, pound, slug, 1000-grain, 500 grain weight, 
+ 
+true: makeweight, paperweight, sinker, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: weight | hyponyms:
+
+predicted: avoirdupois, drachm, grain, avoirdupoise, ounce, pound, gram, milligram, 1000th, 
+ 
+true: makeweight, paperweight, sinker, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: mechanical device | hyponyms:
+
+predicted: gear, hydraulic, piston, pump, valve, wheel, 3-point hitch, arm, axle, gearing,
+ 
+true: record changer, ski binding, broadcaster, bumper, bumper guard, carburetor, copyholder, curler, dicer, electromechanical device, escapement, gearshift, grab, pantograph, tone arm, piston, ratchet, seeder, shutter, splicer, splint, sprinkler, stator, stoker, stretcher, trap, voting machine, windshield wiper, 
+ 
+intersection: piston
+
+metrics:  MRR 0.3333333333333333 MAP 0.06425770649361306 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.06666666666666667 
+
+==========
+hypernym: mechanical device | hyponyms:
+
+predicted: actuator, crank, cog, crane, flywheel, gear, gimbal, grommet, gudgeon, gyrator, hand
+ 
+true: record changer, ski binding, broadcaster, bumper, bumper guard, carburetor, copyholder, curler, dicer, electromechanical device, escapement, gearshift, grab, pantograph, tone arm, piston, ratchet, seeder, shutter, splicer, splint, sprinkler, stator, stoker, stretcher, trap, voting machine, windshield wiper, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pastry | hyponyms:
+
+predicted: brioche, croissant, Danish pastry, doughnut, eclair, kugelhopf, macaroon, macaron, napoleon,
+ 
+true: baklava, patty shell, dowdy, frangipane, pie crust, profiterole, rugulah, sausage roll, streusel, strudel, timbale, toad-in-the-hole, vol-au-vent, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: pastry | hyponyms:
+
+predicted: brioche, bun, Danish, Danube pastry, doughnut, flaky, hamburger roll, hot dog roll, Kaiser roll, pita
+ 
+true: baklava, patty shell, dowdy, frangipane, pie crust, profiterole, rugulah, sausage roll, streusel, strudel, timbale, toad-in-the-hole, vol-au-vent, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: longing | hyponyms:
+
+predicted: desire, hankering, ictus, nostalgia, thirst, 1, 2, 3, 4, 5, 6, 
+ 
+true: hankering, wishfulness, wistfulness, 
+ 
+intersection: hankering
+
+metrics:  MRR 0.5 MAP 0.3299999999999999 P@1 0.0 P@3 0.3333333333333333 P@5 0.3333333333333333 P@15 0.3333333333333333 
+
+==========
+hypernym: longing | hyponyms:
+
+predicted: homesickness, hunger, nostalgia, ether, 4-letter word, 5-letter, 6-letter or more word, desire, 
+ 
+true: hankering, wishfulness, wistfulness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: edge | hyponyms:
+
+predicted: brim, lip, edge of a leaf, edge, hairline, hairsbreadth, hem, lip of a pot, rim, shelf, skirt, sk
+ 
+true: molding, hem, luff, wayside, selvage, 
+ 
+intersection: hem
+
+metrics:  MRR 0.14285714285714285 MAP 0.176 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.2 
+
+==========
+hypernym: edge | hyponyms:
+
+predicted: bull's-eye, blunt edge, brim, cutting edge, cut, edge of a coin, edge, edge on, edgework, fillet,
+ 
+true: molding, hem, luff, wayside, selvage, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: butter | hyponyms:
+
+predicted: American butter, Danish butter spread, European butterspread, margarine, 100 percent butterfat, 2 percent buttermil
+ 
+true: brown butter, Meuniere butter, stick, yak butter, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: butter | hyponyms:
+
+predicted: American butter, Danish buttercream, margarine, spread, iced butter cream, icy butter scraping, 100
+ 
+true: brown butter, Meuniere butter, stick, yak butter, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: print | hyponyms:
+
+predicted: lithograph, photogravure, photolithographing, serigraph, 4-color process, 5-color lithography, 6-
+ 
+true: contact print, copperplate, gravure, linocut, mezzotint, overprint, silkscreen, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: print | hyponyms:
+
+predicted: engraving, etching, lithograph, 10-cent red, 3-cent green, 5-cent blue, 6-cent vio
+ 
+true: contact print, copperplate, gravure, linocut, mezzotint, overprint, silkscreen, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: catalyst | hyponyms:
+
+predicted: enzyme, hydrogenation catalyst, catalytic agent, etherification catalyst ether, 1,3-diene, 2,3,
+ 
+true: biocatalyst, platinum black, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: catalyst | hyponyms:
+
+predicted: enzyme, catalytic antibody, catalyst-promoter, etherification, hydrolysis, 1, 2, 3, 
+ 
+true: biocatalyst, platinum black, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: turning | hyponyms:
+
+predicted: bend, bow, crank, hairpin, hair-pin, kink, pivot, swerve, tilt, twist, zigzag, b
+ 
+true: return, reversal, yaw, volution, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: turning | hyponyms:
+
+predicted: crank, counterclockwise, countervailing, flip, gearing, hand, handoff, heel, hip, jerk, pivot, spin,
+ 
+true: return, reversal, yaw, volution, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: importance | hyponyms:
+
+predicted: criticality, significance, 2, 3, 4, 5, 6, 7, 8, 9, 10, 0,
+ 
+true: primacy, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: importance | hyponyms:
+
+predicted: significance, significance, 2, 4, 5, 6, 7, 8, 9, 10, 3, 0, weight
+ 
+true: primacy, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: area | hyponyms:
+
+predicted: battle area, battleground, battlefield, battlefront, battle zone, coastal area, combat zone, corridor, demilitarized zone, enclave, front
+ 
+true: acreage, balk, erasure, footprint, space, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: area | hyponyms:
+
+predicted: arena, basin, bed, belt, belly, bight, bowl, box, bung, compartment, compass, crater, creek
+ 
+true: acreage, balk, erasure, footprint, space, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: lotion | hyponyms:
+
+predicted: liniment, ether, 2-phenoxyethanol, 3-methyl-1-butanol monoacetate, 4
+ 
+true: body lotion, hand lotion, toner, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: lotion | hyponyms:
+
+predicted: aftershave, baby oil, cosmetic lotion, moisturizer, ether, ounce, ointment, perfume, ounces, 
+ 
+true: body lotion, hand lotion, toner, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: article | hyponyms:
+
+predicted: feature, feature story, lead, op-ed, editorial, editor, 1-2-3, 4-1-1, 5-2, 
+ 
+true: breakable, knickknack, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: article | hyponyms:
+
+predicted: article of manufacture, article of furniture, article for sale, article in the news, article published, article printed, article sold, article to be published, copyrighted
+ 
+true: breakable, knickknack, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: stew | hyponyms:
+
+predicted: chicken stew, hunter's stew of game, lamb stew with mint, rabbit stew in a sauce of white wine, rabbits ste
+ 
+true: beef stew, bigos, Brunswick stew, burgoo, purloo, hot pot, hotchpotch, mulligan stew, Irish stew, lobscouse, lobster stew, olla podrida, oyster stew, pot-au-feu, pottage, ratatouille, slumgullion, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: stew | hyponyms:
+
+predicted: chicken stew, chowder, curry, fish stew and chow, pudding, 1, stew puddings, 2,
+ 
+true: beef stew, bigos, Brunswick stew, burgoo, purloo, hot pot, hotchpotch, mulligan stew, Irish stew, lobscouse, lobster stew, olla podrida, oyster stew, pot-au-feu, pottage, ratatouille, slumgullion, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: adjective | hyponyms:
+
+predicted: adjectival, adjectivial, attributive, predicative, 10, 45, 51, 65, attitudinal
+ 
+true: comparative, descriptive adjective, positive, superlative, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: adjective | hyponyms:
+
+predicted: ablative, ablatival, adverbial, appositive, comparative, conjunctive, disjunctive adjective, distributive, distribut
+ 
+true: comparative, descriptive adjective, positive, superlative, 
+ 
+intersection: comparative
+
+metrics:  MRR 0.2 MAP 0.23 P@1 0.0 P@3 0.0 P@5 0.25 P@15 0.25 
+
+==========
+hypernym: importance | hyponyms:
+
+predicted: significance, urgency, 2, 17, 45, 53, 74, 96, 35, vitality, 
+ 
+true: account, big deal, greatness, momentousness, prominence, weight, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: importance | hyponyms:
+
+predicted: consequence, consequence, criticality, consequence of importance, importance, 1, priority, 2, weight, 3, 4, 5, 6, 
+ 
+true: account, big deal, greatness, momentousness, prominence, weight, 
+ 
+intersection: weight
+
+metrics:  MRR 0.1111111111111111 MAP 0.14 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.16666666666666666 
+
+==========
+hypernym: plane | hyponyms:
+
+predicted: bullnose, flat, plane surface, convex, concave, curved, curvilinear, flat surface, horizontal, plane figure, plane projection, plane
+ 
+true: beading plane, block plane, bullnose, chamfer plane, circular plane, combination plane, dovetail plane, fore plane, jack plane, jointer, match plane, router plane, scrub plane, smooth plane, spokeshave, 
+ 
+intersection: bullnose
+
+metrics:  MRR 1.0 MAP 0.11303124653124652 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.06666666666666667 
+
+==========
+hypernym: plane | hyponyms:
+
+predicted: aeroplane, airplane, flying machine, glider, hovercraft, seaplane, 14-seater, 2-seat plane, 4
+ 
+true: beading plane, block plane, bullnose, chamfer plane, circular plane, combination plane, dovetail plane, fore plane, jack plane, jointer, match plane, router plane, scrub plane, smooth plane, spokeshave, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: degree | hyponyms:
+
+predicted: bachelor's degree, master's, Ph.D., 12th, 13th, doctorate, 6th, master, 7
+ 
+true: degree Fahrenheit, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: degree | hyponyms:
+
+predicted: bachelor's degree, master's, doctorate, 4-year degree, 2-year college degree, graduate degree, professional degree, terminal degree
+ 
+true: degree Fahrenheit, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: eagle | hyponyms:
+
+predicted: bald eagle, golden eagle , harpy eagle. 2, hawk-eagle, sea eagle 24, 25, 3
+ 
+true: bald eagle, tawny eagle, eaglet, harpy, 
+ 
+intersection: bald eagle
+
+metrics:  MRR 1.0 MAP 0.27166666666666667 P@1 1.0 P@3 0.3333333333333333 P@5 0.25 P@15 0.25 
+
+==========
+hypernym: eagle | hyponyms:
+
+predicted: bald eagle, golden eagle hawk, white-tailed eagle-hawk, 21, 30, 40, sea eagle
+ 
+true: bald eagle, tawny eagle, eaglet, harpy, 
+ 
+intersection: bald eagle
+
+metrics:  MRR 1.0 MAP 0.27166666666666667 P@1 1.0 P@3 0.3333333333333333 P@5 0.25 P@15 0.25 
+
+==========
+hypernym: border | hyponyms:
+
+predicted: boundary, frame, margin, 1, rim, 2, 3, 4, 5, 6, 7, 8, 9, 
+ 
+true: selvage, verge, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: border | hyponyms:
+
+predicted: borderline, fringe, edge, limit, 1, 2, 3, 4, 5, 6, 7, 8, 9
+ 
+true: selvage, verge, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: congestion | hyponyms:
+
+predicted: congestive heart failure, coronary artery disease, emphysema, heart failure due to valvular disease, ictus, myocardial infarction
+ 
+true: hemothorax, hydrothorax, pulmonary congestion, stuffiness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: congestion | hyponyms:
+
+predicted: choking, traffic jam, 100-car pileup, 2000, 3003, 4004, 5
+ 
+true: hemothorax, hydrothorax, pulmonary congestion, stuffiness, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: asterid dicot family | hyponyms:
+
+predicted: Apiaceae, Campanulaceae, Caryophyllaceae, Dandelion family, Dipsacaceae, Ericaceae, Gentianaceae, Gross
+ 
+true: Acanthaceae, Ambrosiaceae, Compositae, Avicenniaceae, Caprifoliaceae, Dipsacaceae, Gesneriaceae, Hydrophyllaceae, Polemoniaceae, Rubiaceae, Scrophulariaceae, Solanaceae, Valerianaceae, Verbenaceae, 
+ 
+intersection: dipsacaceae
+
+metrics:  MRR 0.2 MAP 0.07479315129315128 P@1 0.0 P@3 0.0 P@5 0.2 P@15 0.07142857142857142 
+
+==========
+hypernym: asterid dicot family | hyponyms:
+
+predicted: Asteraceae, Campanulaceae, Carnation family, Lardizabalaceae, Saxifragaceae, Safflower family, Scrophulariaceae
+ 
+true: Acanthaceae, Ambrosiaceae, Compositae, Avicenniaceae, Caprifoliaceae, Dipsacaceae, Gesneriaceae, Hydrophyllaceae, Polemoniaceae, Rubiaceae, Scrophulariaceae, Solanaceae, Valerianaceae, Verbenaceae, 
+ 
+intersection: scrophulariaceae
+
+metrics:  MRR 0.14285714285714285 MAP 0.06745981795981797 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.07142857142857142 
+
+==========
+hypernym: principle | hyponyms:
+
+predicted: conservation of energy, conservation of mass, conservation law, conservation principle, conservation, ether, ions, 0, 1, 2, 3, 4
+ 
+true: Gresham's Law, principle of superposition, Occam's Razor, Le Chatelier's principle, mass-action principle, mass-energy equivalence, Naegele's rule, principle of equivalence, principle of liquid displacement, principle of superposition, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: principle | hyponyms:
+
+predicted: conservation of mass, conservation of energy, conservation, conservation law, conservation principle, conservation theorem, conservation-of-mass principle, first law of thermodynamics, law of
+ 
+true: Gresham's Law, principle of superposition, Occam's Razor, Le Chatelier's principle, mass-action principle, mass-energy equivalence, Naegele's rule, principle of equivalence, principle of liquid displacement, principle of superposition, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: delivery | hyponyms:
+
+predicted: blow, breech delivery, cesarean section, extraction, labor, 9-month checkup, 12-month visit, 24-month
+ 
+true: airdrop, consignment, post, service, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: delivery | hyponyms:
+
+predicted: delivery room, home delivery, 9-month baby, 2-month-old baby, birth, 6-months baby, newborn, 12-
+ 
+true: airdrop, consignment, post, service, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: enzyme | hyponyms:
+
+predicted: catalase, chymosin, chitinase, deoxyribonuclease, diastase, digestive enzymes, endopeptid
+ 
+true: adenosine deaminase, penicillinase, catalase, cholinesterase, rennin, collagenase, complement, de-iodinase, decarboxylase, elastase, enterokinase, histaminase, hyaluronidase, isomerase, kinase, lipase, lysozyme, monoamine oxidase, nitrogenase, papain, pepsin, pepsinogen, phosphatase, secretase, superoxide dismutase, streptodornase, streptokinase, telomerase, urease, zymase, 
+ 
+intersection: catalase
+
+metrics:  MRR 1.0 MAP 0.09323307595174114 P@1 1.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.06666666666666667 
+
+==========
+hypernym: enzyme | hyponyms:
+
+predicted: acetylcholinesterase, alpha-amylase, catalase, chymotrypsin, cytochrome, dehydrogenase, DNA polym
+ 
+true: adenosine deaminase, penicillinase, catalase, cholinesterase, rennin, collagenase, complement, de-iodinase, decarboxylase, elastase, enterokinase, histaminase, hyaluronidase, isomerase, kinase, lipase, lysozyme, monoamine oxidase, nitrogenase, papain, pepsin, pepsinogen, phosphatase, secretase, superoxide dismutase, streptodornase, streptokinase, telomerase, urease, zymase, 
+ 
+intersection: catalase
+
+metrics:  MRR 0.3333333333333333 MAP 0.06323307595174114 P@1 0.0 P@3 0.3333333333333333 P@5 0.2 P@15 0.06666666666666667 
+
+==========
+hypernym: noise | hyponyms:
+
+predicted: buzz, clatter, hum, shriek, bang, 1. 2. 3, bark, blast, din, hiss, murm
+ 
+true: banging, bark, blare, boom, hubbub, chatter, chatter, chug, clack, clang, clatter, crack, creak, crunch, ding-dong, explosion, hiss, grate, grinding, rumble, grunt, hum, pant, plonk, plop, plump, racket, report, rhonchus, rustle, scrape, screech, scrunch, shrilling, sizzle, slam, snap, snore, spatter, squawk, squeak, squish, stridulation, swoosh, 
+ 
+intersection: hum,hiss,bark,clatter
+
+metrics:  MRR 0.5 MAP 0.20514779729605387 P@1 0.0 P@3 0.6666666666666666 P@5 0.4 P@15 0.26666666666666666 
+
+==========
+hypernym: noise | hyponyms:
+
+predicted: background noise, chatter, clatter, creak, drone, gargle, growl, grind, grunt, grumble, grumbling, hum
+ 
+true: banging, bark, blare, boom, hubbub, chatter, chatter, chug, clack, clang, clatter, crack, creak, crunch, ding-dong, explosion, hiss, grate, grinding, rumble, grunt, hum, pant, plonk, plop, plump, racket, report, rhonchus, rustle, scrape, screech, scrunch, shrilling, sizzle, slam, snap, snore, spatter, squawk, squeak, squish, stridulation, swoosh, 
+ 
+intersection: clatter,grunt,creak,hum,chatter
+
+metrics:  MRR 0.5 MAP 0.2494875965479172 P@1 0.0 P@3 0.6666666666666666 P@5 0.6 P@15 0.3333333333333333 
+
+==========
+hypernym: explosion | hyponyms:
+
+predicted: boom, blast, concussion, detonation, detrusion, deflagration, deflagration, fireball, geyser, impl
+ 
+true: airburst, backfire, big bang, fragmentation, inflation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+hypernym: explosion | hyponyms:
+
+predicted: boom, detonation, ether detonator, explosion, 2, 3, 4, 5, 6, 7, 8
+ 
+true: airburst, backfire, big bang, fragmentation, inflation, 
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========

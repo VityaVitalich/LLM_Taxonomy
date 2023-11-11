@@ -1,0 +1,1034 @@
+first hypernym: athlete.n.1, second hypernym: player.n.1 | hyponyms:
+
+predicted: football player, basketball player, baseball player
+ 
+true: lacrosse player
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: athlete.n.1, second hypernym: player.n.1 | hyponyms:
+
+predicted: athlete-player, player-ath
+ 
+true: lacrosse player
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: military vehicle.n.1, second hypernym: tracked vehicle.n.1 | hyponyms:
+
+predicted: tank destroyer, tank, tankette
+ 
+true: half track
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: military vehicle.n.1, second hypernym: tracked vehicle.n.1 | hyponyms:
+
+predicted: tank destroyer, tank, armored
+ 
+true: half track
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: poet.n.1, second hypernym: laureate.n.1 | hyponyms:
+
+predicted: laureate poetess, laure
+ 
+true: poet laureate
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: poet.n.1, second hypernym: laureate.n.1 | hyponyms:
+
+predicted: laureate poet laureate poet
+ 
+true: poet laureate
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: strap.n.1, second hypernym: sharpener.n.1 | hyponyms:
+
+predicted: sharpening strap, sh
+ 
+true: strop
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: strap.n.1, second hypernym: sharpener.n.1 | hyponyms:
+
+predicted: strap-and-strap sharpener
+ 
+true: strop
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: eagle.n.1, second hypernym: young bird.n.1 | hyponyms:
+
+predicted: young eagle hawk eagle
+ 
+true: eaglet
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: eagle.n.1, second hypernym: young bird.n.1 | hyponyms:
+
+predicted: chick eagle, fledgling
+ 
+true: eaglet
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: holder.n.2, second hypernym: creditor.n.1 | hyponyms:
+
+predicted: creditor banker, creditor bank
+ 
+true: mortgagee
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: holder.n.2, second hypernym: creditor.n.1 | hyponyms:
+
+predicted: creditor-holder of negotiable instrument
+ 
+true: mortgagee
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: assistant.n.1, second hypernym: female child.n.1 | hyponyms:
+
+predicted: little lady's maid, ma
+ 
+true: flower girl
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: assistant.n.1, second hypernym: female child.n.1 | hyponyms:
+
+predicted: little lady's maid, lady
+ 
+true: flower girl
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: philosophical doctrine.n.1, second hypernym: theological doctrine.n.1 | hyponyms:
+
+predicted: theodicy of evil, dualism
+ 
+true: Neoplatonism
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: philosophical doctrine.n.1, second hypernym: theological doctrine.n.1 | hyponyms:
+
+predicted: monotheism, polytheism,
+ 
+true: Neoplatonism
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: acid.n.1, second hypernym: B-complex vitamin.n.1 | hyponyms:
+
+predicted: nicotinic acid, pant
+ 
+true: pantothenic acid
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: acid.n.1, second hypernym: B-complex vitamin.n.1 | hyponyms:
+
+predicted: folic acid, pyridox
+ 
+true: pantothenic acid
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: pesticide.n.1, second hypernym: gas.n.2 | hyponyms:
+
+predicted: methyl bromide gas f
+ 
+true: phosphine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: pesticide.n.1, second hypernym: gas.n.2 | hyponyms:
+
+predicted: carbon dioxide gas pesticide
+ 
+true: phosphine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: enzyme.n.1, second hypernym: coagulase.n.1 | hyponyms:
+
+predicted: thrombinase coagulase
+ 
+true: rennin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: enzyme.n.1, second hypernym: coagulase.n.1 | hyponyms:
+
+predicted: thromboplastin-like
+ 
+true: rennin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: paper.n.1, second hypernym: roofing material.n.1 | hyponyms:
+
+predicted: roofing paper, roofing felt,
+ 
+true: roofing paper
+ 
+intersection: roofing paper
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: paper.n.1, second hypernym: roofing material.n.1 | hyponyms:
+
+predicted: asphalt paper roofing material,
+ 
+true: roofing paper
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: woman.n.1, second hypernym: head of household.n.1 | hyponyms:
+
+predicted: mistress of the household, mat
+ 
+true: matriarch
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: woman.n.1, second hypernym: head of household.n.1 | hyponyms:
+
+predicted: matriarch of the household,
+ 
+true: matriarch
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: workhorse.n.2, second hypernym: pack animal.n.1 | hyponyms:
+
+predicted: packhorse, burro, m
+ 
+true: packhorse
+ 
+intersection: packhorse
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: workhorse.n.2, second hypernym: pack animal.n.1 | hyponyms:
+
+predicted: horsepacker's horse, pack
+ 
+true: packhorse
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: excavation.n.3, second hypernym: storage space.n.1 | hyponyms:
+
+predicted: silo, cistern, cell
+ 
+true: root cellar
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: excavation.n.3, second hypernym: storage space.n.1 | hyponyms:
+
+predicted: crypta necropolitana,
+ 
+true: root cellar
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: exteroception.n.1, second hypernym: modality.n.3 | hyponyms:
+
+predicted: visionary perceptions, auditory
+ 
+true: smell
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: exteroception.n.1, second hypernym: modality.n.3 | hyponyms:
+
+predicted: touching sensation perception, taste
+ 
+true: smell
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: consumer goods.n.1, second hypernym: covering.n.2 | hyponyms:
+
+predicted: covering material goods and services, foodst
+ 
+true: clothing
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: consumer goods.n.1, second hypernym: covering.n.2 | hyponyms:
+
+predicted: carpeting, carpeting,
+ 
+true: clothing
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: sin.n.2, second hypernym: religious doctrine.n.1 | hyponyms:
+
+predicted: original sin, cardinal sin, deadly
+ 
+true: original sin
+ 
+intersection: original sin
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: sin.n.2, second hypernym: religious doctrine.n.1 | hyponyms:
+
+predicted: original sin, cardinal sin, venial
+ 
+true: original sin
+ 
+intersection: original sin
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: butter.n.1, second hypernym: margarine.n.1 | hyponyms:
+
+predicted: margarine butter spreads,
+ 
+true: stick
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: butter.n.1, second hypernym: margarine.n.1 | hyponyms:
+
+predicted: margarine butter spreads,
+ 
+true: stick
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: aldehyde.n.1, second hypernym: gas.n.2 | hyponyms:
+
+predicted: formaldehyde gas, acetal
+ 
+true: formaldehyde
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: aldehyde.n.1, second hypernym: gas.n.2 | hyponyms:
+
+predicted: formaldehyde gas, acetal
+ 
+true: formaldehyde
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: moment.n.5, second hypernym: inertia.n.2 | hyponyms:
+
+predicted: inertial moment of a body in
+ 
+true: moment of inertia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: moment.n.5, second hypernym: inertia.n.2 | hyponyms:
+
+predicted: moment of inertia of a body
+ 
+true: moment of inertia
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: index.n.1, second hypernym: margin.n.2 | hyponyms:
+
+predicted: index fingerprinting margin of safety margin
+ 
+true: margin of safety
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: index.n.1, second hypernym: margin.n.2 | hyponyms:
+
+predicted: margin of error of the mean square deviation
+ 
+true: margin of safety
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bomber.n.1, second hypernym: stealth aircraft.n.1 | hyponyms:
+
+predicted: B-2 stealth bomber,
+ 
+true: stealth bomber
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: bomber.n.1, second hypernym: stealth aircraft.n.1 | hyponyms:
+
+predicted: B-2 bomber aircraft, B
+ 
+true: stealth bomber
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: gas.n.2, second hypernym: propellant.n.1 | hyponyms:
+
+predicted: hydrogen peroxide gas generator,
+ 
+true: compressed gas
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: gas.n.2, second hypernym: propellant.n.1 | hyponyms:
+
+predicted: rocket fuel gas, hydrazine
+ 
+true: compressed gas
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: analgesic.n.1, second hypernym: opiate.n.1 | hyponyms:
+
+predicted: morphine sulfate tablet form
+ 
+true: morphine
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: analgesic.n.1, second hypernym: opiate.n.1 | hyponyms:
+
+predicted: codeine, morphine, heroin
+ 
+true: morphine
+ 
+intersection: morphine
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: Indian monetary unit.n.1, second hypernym: Pakistani monetary unit.n.1 | hyponyms:
+
+predicted: Indian rupee, Pakistani
+ 
+true: anna
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: Indian monetary unit.n.1, second hypernym: Pakistani monetary unit.n.1 | hyponyms:
+
+predicted: rupee, Pakistani ru
+ 
+true: anna
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: pubic hair.n.1, second hypernym: female genitalia.n.1 | hyponyms:
+
+predicted: vulva mons pubis hairs
+ 
+true: minge
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: pubic hair.n.1, second hypernym: female genitalia.n.1 | hyponyms:
+
+predicted: pubic triangle of Venus de Mil
+ 
+true: minge
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: performing arts.n.1, second hypernym: performance.n.2 | hyponyms:
+
+predicted: performance art, performance poetry, performance art
+ 
+true: musical performance
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: performing arts.n.1, second hypernym: performance.n.2 | hyponyms:
+
+predicted: acting, music, dance, play,
+ 
+true: musical performance
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: dehydration.n.3, second hypernym: freeze.n.1 | hyponyms:
+
+predicted: freeze-drying process of
+ 
+true: freeze-drying
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: dehydration.n.3, second hypernym: freeze.n.1 | hyponyms:
+
+predicted: freeze-drying process of
+ 
+true: freeze-drying
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: utility.n.1, second hypernym: transportation company.n.1 | hyponyms:
+
+predicted: trucking company, bus company,
+ 
+true: bus company
+ 
+intersection: bus company
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: utility.n.1, second hypernym: transportation company.n.1 | hyponyms:
+
+predicted: bus company, railroad company, air
+ 
+true: bus company
+ 
+intersection: bus company
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: adjective.n.1, second hypernym: adverb.n.2 | hyponyms:
+
+predicted: adverbial modifier of adjective
+ 
+true: superlative
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: adjective.n.1, second hypernym: adverb.n.2 | hyponyms:
+
+predicted: attributive adverb, predic
+ 
+true: superlative
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: gonadotropin.n.1, second hypernym: lactogen.n.1 | hyponyms:
+
+predicted: luteinizing hormone-
+ 
+true: prolactin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: gonadotropin.n.1, second hypernym: lactogen.n.1 | hyponyms:
+
+predicted: human chorionic gonadotrop
+ 
+true: prolactin
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: evidence.n.2, second hypernym: footprint.n.1 | hyponyms:
+
+predicted: fingerprints, tracks, footprint
+ 
+true: footprint evidence
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: evidence.n.2, second hypernym: footprint.n.1 | hyponyms:
+
+predicted: footprint of the devil's hoof
+ 
+true: footprint evidence
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: assistant.n.1, second hypernym: male child.n.1 | hyponyms:
+
+predicted: pageboy, pageboy, pageboy
+ 
+true: bat boy
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: assistant.n.1, second hypernym: male child.n.1 | hyponyms:
+
+predicted: pageboy, pageboy, page,
+ 
+true: bat boy
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: conductor.n.2, second hypernym: noble metal.n.1 | hyponyms:
+
+predicted: gold conductor, silver conductor,
+ 
+true: silver
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: conductor.n.2, second hypernym: noble metal.n.1 | hyponyms:
+
+predicted: gold conductor wire, silver conductor
+ 
+true: silver
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: solvent.n.1, second hypernym: methane series.n.1 | hyponyms:
+
+predicted: methanol, methyl
+ 
+true: hexane
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: solvent.n.1, second hypernym: methane series.n.1 | hyponyms:
+
+predicted: methanol, methyl
+ 
+true: hexane
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: tumor.n.1, second hypernym: angiopathy.n.1 | hyponyms:
+
+predicted: angioma, angiosarcom
+ 
+true: angioma
+ 
+intersection: angioma
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: tumor.n.1, second hypernym: angiopathy.n.1 | hyponyms:
+
+predicted: hemangioma angiopathy
+ 
+true: angioma
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: adjective.n.1, second hypernym: adverb.n.2 | hyponyms:
+
+predicted: comparative adjective, superlative
+ 
+true: comparative
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: adjective.n.1, second hypernym: adverb.n.2 | hyponyms:
+
+predicted: intensifier adverbial phrase modifier
+ 
+true: comparative
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: hydroxide.n.1, second hypernym: lye.n.1 | hyponyms:
+
+predicted: potash lye, wood ashes
+ 
+true: sodium hydroxide
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: hydroxide.n.1, second hypernym: lye.n.1 | hyponyms:
+
+predicted: potash lye, wood ashes
+ 
+true: sodium hydroxide
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: ketone body.n.1, second hypernym: hydroxybutyric acid.n.1 | hyponyms:
+
+predicted: acetoacetic acid, buty
+ 
+true: beta-hydroxybutyric acid
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: ketone body.n.1, second hypernym: hydroxybutyric acid.n.1 | hyponyms:
+
+predicted: acetoacetic acid, acet
+ 
+true: beta-hydroxybutyric acid
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: coagulation factor.n.1, second hypernym: calcium.n.1 | hyponyms:
+
+predicted: calcium chloride, calcium
+ 
+true: calcium ion
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: coagulation factor.n.1, second hypernym: calcium.n.1 | hyponyms:
+
+predicted: calcium chloride, calcium
+ 
+true: calcium ion
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: land.n.4, second hypernym: biome.n.1 | hyponyms:
+
+predicted: temperate zone biome, tropical zone
+ 
+true: forest
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: land.n.4, second hypernym: biome.n.1 | hyponyms:
+
+predicted: tundra biome, desert bi
+ 
+true: forest
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: adjective.n.1, second hypernym: adverb.n.2 | hyponyms:
+
+predicted: adverbial phrase modifier, att
+ 
+true: positive
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: adjective.n.1, second hypernym: adverb.n.2 | hyponyms:
+
+predicted: intensifier adverbial phrase modifier
+ 
+true: positive
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: aldehyde.n.1, second hypernym: plant product.n.1 | hyponyms:
+
+predicted: vanillin aldehyde,
+ 
+true: furfural
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: aldehyde.n.1, second hypernym: plant product.n.1 | hyponyms:
+
+predicted: cinnamaldehyde,
+ 
+true: furfural
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: band.n.7, second hypernym: elastic device.n.1 | hyponyms:
+
+predicted: rubber band, plastic band,
+ 
+true: rubber band
+ 
+intersection: rubber band
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: band.n.7, second hypernym: elastic device.n.1 | hyponyms:
+
+predicted: rubber band, hair band, el
+ 
+true: rubber band
+ 
+intersection: rubber band
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: cleaning implement.n.1, second hypernym: pad.n.4 | hyponyms:
+
+predicted: sponge pad, toilet
+ 
+true: cleaning pad
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: cleaning implement.n.1, second hypernym: pad.n.4 | hyponyms:
+
+predicted: toilet paper holder pad, to
+ 
+true: cleaning pad
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 
+
+==========
+first hypernym: croquet equipment.n.1, second hypernym: mallet.n.1 | hyponyms:
+
+predicted: croquet mallet, croquet ham
+ 
+true: croquet mallet
+ 
+intersection: croquet mallet
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========
+first hypernym: croquet equipment.n.1, second hypernym: mallet.n.1 | hyponyms:
+
+predicted: croquet mallet, croquet ball
+ 
+true: croquet mallet
+ 
+intersection: croquet mallet
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 
+
+==========

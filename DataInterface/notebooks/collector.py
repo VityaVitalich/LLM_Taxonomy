@@ -138,6 +138,7 @@ class Collector(GeneratorMixin):
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
         weights=[0.2, 0.2, 0.2, 0.2, 0.2],
+        p_parent=0.5,
     ):
         self.generation_depth = generation_depth
         self.ancestors_depth = ancestors_depth
@@ -146,6 +147,7 @@ class Collector(GeneratorMixin):
         self.min_to_test_rate = min_to_test_rate
         self.G = G
         self.weights = weights
+        self.p_parent = p_parent
 
         self.train = []
         self.test = []
@@ -153,6 +155,22 @@ class Collector(GeneratorMixin):
         self.train_verteces = set()
 
         self.precompute_generations()
+
+        self.node_numbers = {}
+        for node in G.nodes():
+            node_name = node.split(".")[0]
+            try:
+                node_number = int(node.split(".")[-1])
+            except ValueError:
+                print(node)
+                continue
+
+            if node_name in self.node_numbers.keys():
+                self.node_numbers[node_name] = max(
+                    self.node_numbers[node_name], node_number
+                )
+            else:
+                self.node_numbers[node_name] = node_number
 
     def precompute_generations(self) -> None:
         self.generations = {}
@@ -301,6 +319,17 @@ class Collector(GeneratorMixin):
         if len(elem["children"]) > 50:
             return
 
+        if (
+            (len(elem["children"]) < 20)
+            and self.predict_parent()
+            and (self.node_numbers[parent.split(".")[0]] == 1)
+        ):
+            elem["case"] = "predict_hypernym"
+            for child in elem["children"]:
+                elem["children"] = child
+                self.simple_filter(elem)
+            return
+
         possible_test, possible_train = self.get_possible_train(children_leafs)
         to_test_rate = len(possible_test) / len(children_leafs)
         # print(to_test_rate)
@@ -368,6 +397,9 @@ class Collector(GeneratorMixin):
 
     def divide_on_half(self):
         return np.random.binomial(1, p=self.p_divide_leafs)
+
+    def predict_parent(self):
+        return np.random.binomial(1, p=self.p_parent)
 
     def write_to_test(self, elem, to_test_subset):
         """
