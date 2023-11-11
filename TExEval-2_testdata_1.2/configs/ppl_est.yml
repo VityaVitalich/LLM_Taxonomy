@@ -7,9 +7,9 @@ BATCH_SIZE:
 MODEL_CHECKPOINT:
   - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-numbers-no-eurovoc"
 OUT_NAME:
-  - 'data/sci/sci_eurovoc_pairs_pred_hypernym_numbers_ppl_clear.pickle'
+  - 'data/food/wordnet/pred_hypernym/numbers_clear.pickle'
 IN_NAME:
-  - 'data/sci/sci_eurovoc_pairs_pred_hypernym.pickle'
+  - 'data/food/wordnet/raw_pairs/pred_hypernym_numbers.pickle'
 LOAD:
   - false
 USE_DEF:

@@ -1,6 +1,6 @@
 import yaml
 
-with open(r"params_tax.yml") as file:
+with open(r"./configs/ppl_est.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 import os
@@ -193,10 +193,7 @@ class TaxonomyBuilder:
 
 
 if __name__ == "__main__":
-    run_name = params_list["NAME"][0]
     batch_size = params_list["BATCH_SIZE"][0]
-    strategy = params_list["STRATEGY"][0]
-    top_k = params_list["TOP_K"][0]
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     out_name = params_list["OUT_NAME"][0]
     in_name = params_list["IN_NAME"][0]

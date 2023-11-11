@@ -6,7 +6,7 @@ import pickle
 import numpy as np
 import networkx as nx
 
-with open(r"params_build.yml") as file:
+with open(r"./configs/build_taxo.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 
