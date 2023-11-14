@@ -1,9 +1,11 @@
 DATA:
   - "environment"
 IN_NAME:
-  - 'data/env/env_eurovoc_pairs_pred_hypernym_numbers_ppl_clear.pickle'
+  - '/Users/eneminova/LLM_Taxonomy/TExEval-2_testdata_1.2/data/env/eurovoc/pred_hypernym/lemmas_ppl_clear.pickle'
+COMPARE_NAME:
+  - '/Users/eneminova/LLM_Taxonomy/TExEval-2_testdata_1.2/data/env/eurovoc/pred_hypernym/lemmas_ppl_clear.pickle'
 LEMMA:
-  - false
+  - true
 REVERSE:
   - true
 LOW:
