@@ -120,7 +120,10 @@ if __name__ == "__main__":
     high = params_list["HIGH"][0]
     step = params_list["STEP"][0]
 
-    path = "gs_taxo/EN/" + str(data) + "_eurovoc_en.taxo"
+    if data == 'food':
+        path = "gs_taxo/EN/" + str(data) + "_wordnet_en.taxo"
+    else:
+        path = "gs_taxo/EN/" + str(data) + "_eurovoc_en.taxo"
     G = nx.DiGraph()
 
     with open(path, "r") as f:
