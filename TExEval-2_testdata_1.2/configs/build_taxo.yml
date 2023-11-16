@@ -1,7 +1,7 @@
 DATA:
-  - "food"
+  - "environment"
 IN_NAME:
-  - 'data/food/wordnet/pred_hypernym/numbers_clear.pickle'
+  - 'data/env/eurovoc/pred_hypernym/numbers_ppl_clear.pickle'
 LEMMA:
   - false
 REVERSE:
