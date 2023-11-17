@@ -69,6 +69,12 @@ def clean_dict(pairs, use_lemma, reverse):
 
     return new_pairs
 
+def delete_all_multiple_parents(G):
+    for node in G.nodes():
+        if G.in_degree(node) >= 5:
+            edges_q = list(G.in_edges(node))
+            for edge in edges_q:
+                G.remove_edge(*edge)
 
 def iterative_child(ppl_pairs, low, high, step, max_iter):
     thrs = np.arange(low, high, step)
@@ -115,7 +121,9 @@ def brute_child(ppl_pairs, low, high, step):
         G_pred = get_graph(ppl_pairs, thr)
 
         resolve_graph_cycles(G_pred)
-        
+        delete_all_multiple_parents(G_pred)
+
+
         P = len(set(G.edges()) & set(G_pred.edges())) / (len(set(G_pred.edges())) + 1e-15)
         R = len(set(G.edges()) & set(G_pred.edges())) / len(set(G.edges()))
         # print(len(set(edges)))

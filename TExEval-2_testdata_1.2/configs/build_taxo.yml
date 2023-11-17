@@ -1,7 +1,7 @@
 DATA:
-  - "environment"
+  - "science"
 IN_NAME:
-  - 'data/env/eurovoc/pred_hypernym/numbers_ppl_clear.pickle'
+  - 'data/sci/pred_hypernym/numbers_ppl_clear.pickle'
 LEMMA:
   - false
 REVERSE:
@@ -9,6 +9,6 @@ REVERSE:
 LOW:
   - 0.1
 HIGH:
-  - 10
+  - 4
 STEP:
   - 0.1
