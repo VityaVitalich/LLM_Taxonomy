@@ -69,6 +69,12 @@ def clean_dict(pairs, use_lemma, reverse):
 
     return new_pairs
 
+def delete_all_multiple_parents(G):
+    for node in G.nodes():
+        if G.in_degree(node) >= 5:
+            edges_q = list(G.in_edges(node))
+            for edge in edges_q:
+                G.remove_edge(*edge)
 
 def iterative_child(ppl_pairs, low, high, step, max_iter):
     thrs = np.arange(low, high, step)
@@ -89,18 +95,37 @@ def iterative_child(ppl_pairs, low, high, step, max_iter):
     plt.plot(thrs, Fs)
     return Fs
 
+def resolve_cycle(cur_G, cycle):
+    cycle_ppls = {}
+
+    for u,v in cycle:
+        val = cur_G[u][v]['weight']
+        cycle_ppls[(u,v)] = val
+
+    highest_ppl = sorted(cycle_ppls.items(), key = lambda x: x[1], reverse=True)[0][0]
+    cur_G.remove_edge(*highest_ppl)
+
+def resolve_graph_cycles(G_pred):
+    while True:
+        try:
+            cycle = nx.find_cycle(G_pred)
+            resolve_cycle(G_pred, cycle)
+        except nx.NetworkXNoCycle:
+            break
+
 
 def brute_child(ppl_pairs, low, high, step):
     thrs = np.arange(low, high, step)
     Fs = []
     for thr in tqdm(thrs):
-        edges = []
-        for key, val in ppl_pairs.items():
-            if val < thr:
-                edges.append(key)
+        G_pred = get_graph(ppl_pairs, thr)
 
-        P = len(set(G.edges()) & set(edges)) / (len(set(edges)) + 1e-15)
-        R = len(set(G.edges()) & set(edges)) / len(set(G.edges()))
+        resolve_graph_cycles(G_pred)
+        delete_all_multiple_parents(G_pred)
+
+
+        P = len(set(G.edges()) & set(G_pred.edges())) / (len(set(G_pred.edges())) + 1e-15)
+        R = len(set(G.edges()) & set(G_pred.edges())) / len(set(G.edges()))
         # print(len(set(edges)))
         F = (2 * P * R) / (P + R + 1e-15)
 
@@ -110,6 +135,12 @@ def brute_child(ppl_pairs, low, high, step):
     plt.plot(thrs, Fs)
     return Fs
 
+def get_graph(ppl_pairs, thr):
+    S = nx.DiGraph()
+    for key, val in ppl_pairs.items():
+        if val <thr:
+            S.add_edge(key[0], key[1], weight=val)
+    return S
 
 if __name__ == "__main__":
     data = params_list["DATA"][0]
@@ -145,4 +176,4 @@ if __name__ == "__main__":
 
     #  print(ppls_pairs)
     res = brute_child(ppls_pairs, low=low, high=high, step=step)
-    res = iterative_child(ppls_pairs, low=low, high=high, step=step, max_iter=25000)
+  #  res = iterative_child(ppls_pairs, low=low, high=high, step=step, max_iter=25000)

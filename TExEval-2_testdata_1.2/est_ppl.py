@@ -156,40 +156,16 @@ class PplEstimator:
         return ls
 
 
-class TaxonomyBuilder:
-    def __init__(self, root, all_verteces):
-        self.root = root
-        self.all_verteces = all_verteces
+def get_term(s):
+    term = s.split("|")[-2]
+    term = term.split(":")
+    if len(term) == 2:
+        return term[-1].strip()
+    else:
+        first_parent = term[1].split(' (')[0].strip()
+        second_parent = term[2].split('(')[0].strip()
 
-    def build_taxonomy(self, strategy, **kwargs):
-        self.edge_collector = getattr(self, strategy)
-        self.collector_params = kwargs
-
-        self.pbar = tqdm(total=34000)
-        self.all_edges = []
-        self.build_tree(self.root, self.all_verteces)
-        self.pbar.close()
-        return self.all_edges
-
-    def build_tree(self, root, possible_verteces):
-        top_edges_idx = self.edge_collector(
-            root, possible_verteces, **self.collector_params
-        )
-        new_pos_verteces = np.delete(possible_verteces, top_edges_idx)
-        for new_edge_idx in top_edges_idx:
-            self.all_edges.append((root, possible_verteces[new_edge_idx]))
-            self.pbar.update(1)
-            self.build_tree(possible_verteces[new_edge_idx], new_pos_verteces)
-
-    @staticmethod
-    def ppl_thr_collector(root, possible_verteces, **kwargs):
-        ppls = kwargs["ppl_estimator"].estimate_over_vertex(root, possible_verteces)
-        return np.where(np.array(ppls) < kwargs["thr"])[0]
-
-    @staticmethod
-    def ppl_top_collector(root, possible_verteces, **kwargs):
-        ppls = kwargs["ppl_estimator"].estimate_over_vertex(root, possible_verteces)
-        return np.argsort(ppls)[: min(kwargs["top_k"], len(ppls))]
+        return first_parent + '_' + second_parent
 
 
 if __name__ == "__main__":
@@ -234,8 +210,6 @@ if __name__ == "__main__":
 
     @torch.no_grad()
     def ppl_over_loader(model, loader, device, term_to_label=None):
-        def get_term(s):
-            return s.split("|")[-2].split(":")[-1].strip()
 
         ppl_ls = []
         if not term_to_label:
