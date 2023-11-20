@@ -1,4 +1,5 @@
 Data/
+.idea/
 __pycache__
 dataload_env
 .ruff_cache
@@ -6,5 +7,7 @@ experiment.txt
 taxonomy_exm.drawio
 tax_env/
 wandb/
+triplets_env/
+triplets_sci/
 .swp
 DataInterface/test_ru_filter.edgelist
