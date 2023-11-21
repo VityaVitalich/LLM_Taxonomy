@@ -76,6 +76,44 @@ def delete_all_multiple_parents(G):
             for edge in edges_q:
                 G.remove_edge(*edge)
 
+def ppl_resolution(G, n):
+    for node in G.nodes():
+        if G.in_degree(node) >= n:
+            edges_q = G.in_edges(node)
+            ppls = {} 
+            for edge in edges_q:
+                weight = G[edge[0]][edge[1]]['weight']
+                ppls[edge] = weight
+
+            max_ppl_key = min(ppls, key=ppls.get) 
+            edges_q = list(edges_q)
+            edges_q.remove(max_ppl_key)
+            G.remove_edges_from(edges_q)
+    return G
+
+def synset_resolution(G, **kwargs):
+    for node in G.nodes():
+            if G.in_degree(node) >= kwargs['n']:
+                pairs = kwargs['helper'][node]
+                for pair in pairs:
+                    if kwargs['ppl_compare'][pair] > kwargs['thr']:
+                        parents = pair[0].split('_')
+                        edge1, edge2 = (parents[0], pair[1]), (parents[1], pair[1])
+                        if edge2 in G.in_edges(node) and edge1 in G.in_edges(node):
+                            if G[parents[0]][node]['weight'] > G[parents[1]][node]['weight']:
+                                G.remove_edge(*edge1)
+                            else:
+                                G.remove_edge(*edge2)
+
+
+def resolve_multiple_parents(G, **kwargs):
+    if kwargs['enable_mixing']:
+        synset_resolution(G, ppl_compare=kwargs['ppl_compare'],
+                                    helper=kwargs['helper'], thr=kwargs['thr'], n=kwargs['n'])
+    else:
+        ppl_resolution(G, kwargs['n'])
+
+
 def iterative_child(ppl_pairs, low, high, step, max_iter):
     thrs = np.arange(low, high, step)
     Fs = []
@@ -114,14 +152,16 @@ def resolve_graph_cycles(G_pred):
             break
 
 
-def brute_child(ppl_pairs, low, high, step):
+def brute_child(ppl_pairs, ppl_compare, helper, 
+                enable_mixing, low, high, step, n):
     thrs = np.arange(low, high, step)
     Fs = []
     for thr in tqdm(thrs):
         G_pred = get_graph(ppl_pairs, thr)
 
         resolve_graph_cycles(G_pred)
-        delete_all_multiple_parents(G_pred)
+        resolve_multiple_parents(G_pred, enable_mixing=enable_mixing, ppl_compare=ppl_compare,
+                                    helper=helper, thr=thr, n=n)
 
 
         P = len(set(G.edges()) & set(G_pred.edges())) / (len(set(G_pred.edges())) + 1e-15)
@@ -142,11 +182,27 @@ def get_graph(ppl_pairs, thr):
             S.add_edge(key[0], key[1], weight=val)
     return S
 
+def helping_dict(compare):
+        """
+        new view for mixes dataset {node: pair_from_ppl_compare}
+        """
+        helper = {}
+
+        for i in compare:
+            if i[1] not in helper:
+                helper[i[1]] = [i]
+            else:
+                helper[i[1]].append(i)
+        return helper
+
 if __name__ == "__main__":
     data = params_list["DATA"][0]
     in_name = params_list["IN_NAME"][0]
+    compare_name = params_list["COMPARE_NAME"][0]
+    enable_mixing = params_list["ENABLE_MIXING"][0]
     lemma = params_list["LEMMA"][0]
     reverse = params_list["REVERSE"][0]
+    n = params_list["N_PARENTS"][0]
     low = params_list["LOW"][0]
     high = params_list["HIGH"][0]
     step = params_list["STEP"][0]
@@ -170,10 +226,19 @@ if __name__ == "__main__":
 
     ppls_pairs = clean_dict(ppls, use_lemma=lemma, reverse=reverse)
 
+
+    with open(compare_name, "rb") as f1:
+        ppls_c = pickle.load(f1)
+
+    ppl_compare = clean_dict(ppls_c, use_lemma=lemma, reverse=False)    
+    helper = helping_dict(ppl_compare)
+
     root = data
     all_verteces = list(G.nodes)
     all_verteces.remove(root)
 
     #  print(ppls_pairs)
-    res = brute_child(ppls_pairs, low=low, high=high, step=step)
+    res = brute_child(ppls_pairs, ppl_compare, helper, 
+                      enable_mixing=enable_mixing, low=low, 
+                      high=high, step=step, n=n)
   #  res = iterative_child(ppls_pairs, low=low, high=high, step=step, max_iter=25000)
