@@ -157,14 +157,18 @@ class PplEstimator:
 
 
 def get_term(s):
+    
+    global case 
+
     term = s.split("|")[-2]
     term = term.split(":")
-    if len(term) == 2:
+    if (case == 'pred_hypernym') or (case == 'leaf_no_leafs'):
         return term[-1].strip()
-    else:
+    elif (case == 'simple_triplet_2parent') or (case == 'simple_triplet_grandparent'):
         first_parent = term[1].split(' (')[0].strip()
         second_parent = term[2].split('(')[0].strip()
-
+        
+        # in case of grandparent, it would be hyperhypernym_hyponym
         return first_parent + '_' + second_parent
 
 
@@ -173,6 +177,7 @@ if __name__ == "__main__":
     model_checkpoint = params_list["MODEL_CHECKPOINT"][0]
     out_name = params_list["OUT_NAME"][0]
     in_name = params_list["IN_NAME"][0]
+    case = params_list['CASE'][0]
     chkp_time = 100
     torch.manual_seed(params_list["SEED"][0])
 
@@ -221,6 +226,7 @@ if __name__ == "__main__":
             cur_terms = list(map(get_term, decoded_terms))
             cur_targets = tokenizer.batch_decode(targets, skip_special_tokens=True)
 
+          #  print(cur_terms, cur_targets)
             if (cur_terms[0], cur_targets[0]) in term_to_label.keys():
                 continue
 
