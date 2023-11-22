@@ -1,9 +1,15 @@
 DATA:
   - "science"
 IN_NAME:
-  - 'data/sci/pred_hypernym/numbers_ppl_clear.pickle'
+  - './data/sci/pred_hypernym/lemmas_ppl_clear.pickle'
+COMPARE_NAME:
+  - './data/sci/mix_nodes/lemmas_clear.pickle'
+N_PARENTS:
+  - 3
+ENABLE_MIXING:
+  - False
 LEMMA:
-  - false
+  - true
 REVERSE:
   - true
 LOW:
