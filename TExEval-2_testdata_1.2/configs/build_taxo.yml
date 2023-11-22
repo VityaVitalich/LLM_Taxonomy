@@ -1,13 +1,13 @@
 DATA:
-  - "environment"
+  - "science"
 IN_NAME:
-  - './data/env/eurovoc/pred_hypernym/lemmas_ppl_clear.pickle'
+  - './data/sci/pred_hypernym/lemmas_ppl_clear.pickle'
 COMPARE_NAME:
-  - './data/env/eurovoc/mix_nodes/lemmas_clear.pickle'
+  - './data/sci/mix_nodes/lemmas_clear.pickle'
 N_PARENTS:
-  - 2
+  - 3
 ENABLE_MIXING:
-  - false
+  - False
 LEMMA:
   - true
 REVERSE:
@@ -17,4 +17,4 @@ LOW:
 HIGH:
   - 4
 STEP:
-  - 0.01
+  - 0.1

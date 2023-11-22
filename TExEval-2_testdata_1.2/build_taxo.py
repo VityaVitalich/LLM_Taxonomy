@@ -93,23 +93,23 @@ def ppl_resolution(G, n):
 
 def synset_resolution(G, **kwargs):
     for node in G.nodes():
-            if G.in_degree(node) >= kwargs['n']:
-                pairs = kwargs['helper'][node]
-                for pair in pairs:
-                    if kwargs['ppl_compare'][pair] > kwargs['thr']:
-                        parents = pair[0].split('_')
-                        edge1, edge2 = (parents[0], pair[1]), (parents[1], pair[1])
-                        if edge2 in G.in_edges(node) and edge1 in G.in_edges(node):
-                            if G[parents[0]][node]['weight'] > G[parents[1]][node]['weight']:
-                                G.remove_edge(*edge1)
-                            else:
-                                G.remove_edge(*edge2)
+        if G.in_degree(node) >= kwargs['n']:
+            pairs = kwargs['helper'][node]
+            for pair in pairs:
+                if kwargs['ppl_compare'][pair] > kwargs['mix_thr']:
+                    parents = pair[0].split('_')
+                    edge1, edge2 = (parents[0], pair[1]), (parents[1], pair[1])
+                    if edge2 in G.in_edges(node) and edge1 in G.in_edges(node):
+                        if G[parents[0]][node]['weight'] > G[parents[1]][node]['weight']:
+                            G.remove_edge(*edge1)
+                        else:
+                            G.remove_edge(*edge2)
 
 
 def resolve_multiple_parents(G, **kwargs):
     if kwargs['enable_mixing']:
         synset_resolution(G, ppl_compare=kwargs['ppl_compare'],
-                                    helper=kwargs['helper'], thr=kwargs['thr'], n=kwargs['n'])
+                                    helper=kwargs['helper'], mix_thr=kwargs['mix_thr'], n=kwargs['n'])
     else:
         ppl_resolution(G, kwargs['n'])
 
@@ -130,7 +130,7 @@ def iterative_child(ppl_pairs, low, high, step, max_iter):
         Fs.append(F)
 
     print(max(Fs), thrs[np.argmax(Fs)])
-    plt.plot(thrs, Fs)
+   # plt.plot(thrs, Fs)
     return Fs
 
 def resolve_cycle(cur_G, cycle):
@@ -157,22 +157,23 @@ def brute_child(ppl_pairs, ppl_compare, helper,
     thrs = np.arange(low, high, step)
     Fs = []
     for thr in tqdm(thrs):
-        G_pred = get_graph(ppl_pairs, thr)
+        for mix_thr in thrs:
+            G_pred = get_graph(ppl_pairs, thr)
 
-        resolve_graph_cycles(G_pred)
-        resolve_multiple_parents(G_pred, enable_mixing=enable_mixing, ppl_compare=ppl_compare,
-                                    helper=helper, thr=thr, n=n)
+            resolve_graph_cycles(G_pred)
+            resolve_multiple_parents(G_pred, enable_mixing=enable_mixing, ppl_compare=ppl_compare,
+                                        helper=helper, mix_thr=mix_thr, n=n)
 
 
-        P = len(set(G.edges()) & set(G_pred.edges())) / (len(set(G_pred.edges())) + 1e-15)
-        R = len(set(G.edges()) & set(G_pred.edges())) / len(set(G.edges()))
-        # print(len(set(edges)))
-        F = (2 * P * R) / (P + R + 1e-15)
+            P = len(set(G.edges()) & set(G_pred.edges())) / (len(set(G_pred.edges())) + 1e-15)
+            R = len(set(G.edges()) & set(G_pred.edges())) / len(set(G.edges()))
+            # print(len(set(edges)))
+            F = (2 * P * R) / (P + R + 1e-15)
 
-        Fs.append(F)
+            Fs.append(F)
 
-    print(max(Fs), thrs[np.argmax(Fs)])
-    plt.plot(thrs, Fs)
+    print(max(Fs))#, thrs[np.argmax(Fs)])
+ #   plt.plot(thrs, Fs)
     return Fs
 
 def get_graph(ppl_pairs, thr):
