@@ -7,10 +7,12 @@ BATCH_SIZE:
 MODEL_CHECKPOINT:
   - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-lemmas-no-eurovoc"
 OUT_NAME:
-  - 'data/sci/mix_nodes/lemmas_clear.pickle'
+  - 'data/sci/insertions/lemmas_ppl.pickle'
 IN_NAME:
-  - 'data/sci/raw_pairs/mix_nodes_lemmas.pickle'
+  - 'data/sci/raw_pairs/insertions_lemmas.pickle'
 LOAD:
   - false
 USE_DEF:
   - true
+CASE:
+  - "simple_triplet_grandparent"

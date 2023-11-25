@@ -12,8 +12,8 @@ HF_TOKEN = os.environ.get("HF_TOKEN")
 os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
 os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 
-use_def = params_list['USE_DEF'][0]
-os.environ['USE_DEF'] = str(use_def)
+use_def = params_list["USE_DEF"][0]
+os.environ["USE_DEF"] = str(use_def)
 print(SAVING_DIR, use_def)
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
@@ -96,7 +96,6 @@ if __name__ == "__main__":
     )
     config.saving_path = SAVING_DIR + "model_checkpoints/" + config.exp_name
     config.log_pred_every = params_list["LOG_PRED_EVERY"][0]
-    
 
     if config.model_type == "Auto":
         model_type = AutoModelForCausalLM
