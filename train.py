@@ -4,7 +4,7 @@
 import os
 import yaml
 
-with open(r".configs/main.yml") as file:
+with open(r"./configs/train.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 SAVING_DIR = os.environ.get("SAVING_DIR")
@@ -28,15 +28,15 @@ import numpy as np
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
 
-sys.path.append("../LLM_Taxonomy/pipeline_src/")
+#sys.path.append("../LLM_Taxonomy/pipeline_src/")
 
 
-from config.config import TaskConfig
-from train import CustomScheduler, train
-from logger.logger import WanDBWriter
-from trainer.train_epoch import train_epoch, predict
-from dataset.dataset import init_data
-from logger.logger import WanDBWriter
+from pipeline_src.config.config import TaskConfig
+from pipeline_src.train import train
+from pipeline_src.logger.logger import WanDBWriter
+from pipeline_src.trainer.train_epoch import train_epoch, predict
+from pipeline_src.dataset.dataset import init_data
+from pipeline_src.logger.logger import WanDBWriter
 
 
 if torch.cuda.is_available():

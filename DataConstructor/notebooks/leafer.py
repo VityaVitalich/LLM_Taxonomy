@@ -46,8 +46,7 @@ class Leafer:
         p=0.1,
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
-        weights=[0.2, 0.2, 0.2, 0.2, 0.2],
-        p_parent=0.5,
+        weights=[0.2, 0.2, 0.2, 0.2, 0.2, 0.2],
     ):
         """
         Interface for train test splitting
@@ -60,7 +59,6 @@ class Leafer:
             p_divide_leafs,
             min_to_test_rate,
             weights=weights,
-            p_parent=p_parent,
         )
         # self.collector.collect_only_child()
         # self.collector.collect_only_leafs()
@@ -73,6 +71,8 @@ class Leafer:
         train, test = self.collector.train, self.collector.test
         dedup_train = self.dedup_set(train)
         dedup_test = self.dedup_set(test)
+        # dedup_train = train
+        # dedup_test = test
 
         random.shuffle(dedup_train)
         random.shuffle(dedup_test)

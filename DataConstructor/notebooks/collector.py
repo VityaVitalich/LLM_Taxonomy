@@ -34,6 +34,18 @@ class GeneratorMixin:
 
                 yield ((node, parents))
 
+    def parent_generator(self) -> Generator[Tuple[str, Dict[int, Set[str]]], None, None]:
+        for node, degree in self.G.out_degree():
+            if (
+                degree > 0 
+                and self.generations[node] > self.generation_depth
+                and len(node) > 1
+                and degree < 50 
+            ):
+                #parents = self.find_parents(node, self.ancestors_depth)
+                for child in self.G.successors(node):
+                    yield ((node, child))
+
     def only_child_generator(self) -> None:
         """
         Generator function that return verteces that has only one leaf children
@@ -137,8 +149,7 @@ class Collector(GeneratorMixin):
         p_test=0.1,
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
-        weights=[0.2, 0.2, 0.2, 0.2, 0.2],
-        p_parent=0.5,
+        weights=[0.2, 0.2, 0.2, 0.2, 0.2, 0.2],
     ):
         self.generation_depth = generation_depth
         self.ancestors_depth = ancestors_depth
@@ -147,7 +158,6 @@ class Collector(GeneratorMixin):
         self.min_to_test_rate = min_to_test_rate
         self.G = G
         self.weights = weights
-        self.p_parent = p_parent
 
         self.train = []
         self.test = []
@@ -184,6 +194,7 @@ class Collector(GeneratorMixin):
         self.gen_not_only_leafs = self.leaf_and_no_leaf_generator()
         self.mixes_triplets = self.mixes_generator()
         self.simple_triplets = self.simple_triplets_generator()
+        self.gen_parent = self.parent_generator()
 
         self.all_generators = [
             "gen_only_child",
@@ -191,6 +202,7 @@ class Collector(GeneratorMixin):
             "gen_not_only_leafs",
             "mixes_triplets",
             "simple_triplets",
+            "gen_parent"
         ]
 
         self.gen2func = {
@@ -199,12 +211,18 @@ class Collector(GeneratorMixin):
             "gen_not_only_leafs": self.collect_not_only_leafs,
             "mixes_triplets": self.collect_mixes_triplets,
             "simple_triplets": self.collect_simple_triplets,
+            "gen_parent": self.collect_parents
         }
 
     def collect_possible_samples(self):
         self.init_generators()
 
-        active_generators = list(self.all_generators)
+        active_generators = []
+        active_weights = []
+        for i, weight in enumerate(self.weights):
+            if weight > 0:
+                active_generators.append(self.all_generators[i])
+                active_weights.append(weight)
 
         while active_generators:
             sample = np.random.choice(self.all_generators, p=self.weights)
@@ -319,16 +337,16 @@ class Collector(GeneratorMixin):
         if len(elem["children"]) > 50:
             return
 
-        if (
-            (len(elem["children"]) < 20)
-            and self.predict_parent()
-            and (self.node_numbers[parent.split(".")[0]] == 1)
-        ):
-            elem["case"] = "predict_hypernym"
-            for child in elem["children"]:
-                elem["children"] = child
-                self.simple_filter(elem)
-            return
+        # if (
+        #     (len(elem["children"]) < 50)
+        #     and self.predict_parent()
+        #     and (self.node_numbers[parent.split(".")[0]] == 1)
+        # ):
+        #     elem["case"] = "predict_hypernym"
+        #     for child in elem["children"]:
+        #         elem["children"] = child
+        #         self.simple_filter(elem)
+        #     return
 
         possible_test, possible_train = self.get_possible_train(children_leafs)
         to_test_rate = len(possible_test) / len(children_leafs)
@@ -362,6 +380,16 @@ class Collector(GeneratorMixin):
         elem["case"] = "simple_triplet_2parent"
 
         self.simple_filter(elem)
+
+    def collect_parents(self):
+        parent, child = next(self.gen_parent)
+        if self.node_numbers[parent.split(".")[0]] == 1:
+            elem = {}
+            elem["children"] = child
+            elem["parents"] = parent
+            elem["grandparents"] = None
+            elem["case"] = "predict_hypernym"
+            self.simple_filter(elem)
 
     def simple_filter(self, elem):
         if elem["children"] in self.train_verteces:

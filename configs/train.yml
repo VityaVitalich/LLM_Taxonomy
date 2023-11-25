@@ -2,7 +2,6 @@ SEED:
   - 42
 CUDA_VISIBLE_DEVICES:
   - 0
-  - 1
 EPOCHS:
   - 1
 BATCH_SIZE:
@@ -12,9 +11,9 @@ LR:
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/v2_wnet_lemmas_train_no_semeval16.pickle"
+  - "wnet/only_hypernyms_train.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/v2_wnet_lemmas_test.pickle"
+  - "wnet/only_hypernyms_test.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -26,7 +25,7 @@ DTYPE:
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "wnet2_lemmas_clear"
+- "wnet_only_hyper"
 QLORA:
 - true
 LOAD_PATH:
