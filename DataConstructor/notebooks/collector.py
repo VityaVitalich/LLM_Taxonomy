@@ -383,7 +383,12 @@ class Collector(GeneratorMixin):
 
     def collect_parents(self):
         parent, child = next(self.gen_parent)
-        if self.node_numbers[parent.split(".")[0]] == 1:
+        try:
+            num_senses = self.node_numbers[child.split(".")[0]]
+        except KeyError:
+            num_senses = 2
+        
+        if num_senses == 1:
             elem = {}
             elem["children"] = child
             elem["parents"] = parent

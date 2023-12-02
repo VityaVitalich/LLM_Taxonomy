@@ -19,11 +19,11 @@ from .metrics.metrics import Metric
 from .dataset.dataset import HypernymDataset, Collator
 from .logger.logger import WanDBWriter
 
-torch.manual_seed(57)
-torch.cuda.manual_seed(57)
-torch.cuda.manual_seed_all(57)
-np.random.seed(57)
-torch.backends.cudnn.deterministic = True
+# torch.manual_seed(57)
+# torch.cuda.manual_seed(57)
+# torch.cuda.manual_seed_all(57)
+# np.random.seed(57)
+# torch.backends.cudnn.deterministic = True
 
 
 # https://nlp.seas.harvard.edu/2018/04/03/attention.html#optimizer

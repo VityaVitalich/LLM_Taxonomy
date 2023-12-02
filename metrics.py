@@ -10,13 +10,12 @@ import numpy as np
 import pickle
 
 
-sys.path.append("pipeline_src/")
 
-from metrics.metrics import Metric
-from dataset.dataset import HypernymDataset
+from pipeline_src.metrics.metrics import Metric
+from pipeline_src.dataset.dataset import HypernymDataset
 from transformers import AutoTokenizer
 
-from dataset.prompt_schemas import (
+from pipeline_src.dataset.prompt_schemas import (
     hypo_term_hyper,
     predict_child_from_2_parents,
     predict_child_from_parent,
@@ -24,6 +23,7 @@ from dataset.prompt_schemas import (
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
     predict_parent_from_child,
+    predict_multiple_parents_from_child
 )
 
 
@@ -48,13 +48,14 @@ if __name__ == "__main__":
         "simple_triplet_grandparent": predict_parent_from_child_granparent,
         "simple_triplet_2parent": predict_child_from_2_parents,
         "predict_hypernym": predict_parent_from_child,
+        "predict_multiple_hypernyms": predict_multiple_parents_from_child
     }
 
     with open(saving_path, "rb") as fp:
         all_preds = pickle.load(fp)
 
-    with open("./babel_datasets/v2_wnet_test_hard_ids.pickle", "rb") as fp:
-        hard_ids = pickle.load(fp)
+    # with open("./babel_datasets/v2_wnet_test_hard_ids.pickle", "rb") as fp:
+    #     hard_ids = pickle.load(fp)
 
     if ids_to_use == "easy":
         all_preds = [elem for i, elem in enumerate(all_preds) if i not in hard_ids]

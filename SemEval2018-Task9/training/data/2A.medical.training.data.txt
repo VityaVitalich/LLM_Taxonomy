@@ -214,7 +214,7 @@ anxiety neurosis	Concept
 psychological counselling	Concept
 cluster headache	Concept
 bone fragment	Concept
-quinine	antiarrhythmic agent	Concept
+quinine antiarrhythmic agent    Concept
 visiting nurse	Concept
 refractory periodontitis	Concept
 medical oncologist	Concept

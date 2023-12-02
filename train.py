@@ -12,9 +12,14 @@ HF_TOKEN = os.environ.get("HF_TOKEN")
 os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
 os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 
-use_def = params_list["USE_DEF"][0]
-os.environ["USE_DEF"] = str(use_def)
-print(SAVING_DIR, use_def)
+use_def_prompt = params_list["USE_DEF_PROMPT"][0]
+os.environ["USE_DEF_PROMPT"] = str(use_def_prompt)
+
+use_def_target = params_list["USE_DEF_TARGET"][0]
+os.environ["USE_DEF_TARGET"] = str(use_def_target)
+
+use_number_target = params_list["USE_NUMBER_TARGET"][0]
+os.environ["USE_NUMBER_TARGET"] = str(use_number_target)
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
     map(str, params_list["CUDA_VISIBLE_DEVICES"])
@@ -50,6 +55,8 @@ else:
 SEED = params_list["SEED"][0]
 torch.manual_seed(SEED)
 torch.cuda.manual_seed(SEED)
+torch.cuda.manual_seed_all(SEED)
+np.random.seed(SEED)
 print(torch.cuda.device_count())
 
 from transformers import (

@@ -1,19 +1,19 @@
 SEED:
-  - 42
+  - 57
 CUDA_VISIBLE_DEVICES:
-  - 0
+  - 1
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 32
+  - 2
 LR:
   - 3e-4
 MIN_LR:
-  - 3e-6
+  - 3e-4
 DATA_PATH:
-  - "wnet/only_hypernyms_train.pickle"
+  - "SemEval2018-Task9/custom_datasets/2B.music_train.pickle"
 TEST_DATA_PATH:
-  - "wnet/only_hypernyms_test.pickle"
+  - "SemEval2018-Task9/custom_datasets/2B.music.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,10 +25,14 @@ DTYPE:
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "wnet_only_hyper"
+- "semeval-2bs-2B-57seed"
 QLORA:
 - true
 LOAD_PATH:
-- null 
-USE_DEF:
+- meta-llama-Llama-2-7b-hfsemeval-32bs-wnet_epoch=0_MAP=0.2560173831107165.pth
+USE_DEF_PROMPT:
+- false
+USE_DEF_TARGET:
+- false
+USE_NUMBER_TARGET:
 - false
