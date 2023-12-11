@@ -42,6 +42,8 @@ from pipeline_src.logger.logger import WanDBWriter
 from pipeline_src.trainer.train_epoch import train_epoch, predict
 from pipeline_src.dataset.dataset import init_data
 from pipeline_src.logger.logger import WanDBWriter
+from pipeline_src.metrics.metrics import Metric
+
 
 
 if torch.cuda.is_available():
@@ -213,3 +215,6 @@ if __name__ == "__main__":
 
 
     all_preds, all_labels = main(config)
+    metric_calculator = Metric(all_labels, all_preds)
+    metrics = metric_calculator.get_metrics()
+    print(metrics)

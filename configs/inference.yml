@@ -5,7 +5,7 @@ CUDA_VISIBLE_DEVICES:
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 16
+  - 8
 LR:
   - 3e-4
 MIN_LR:
@@ -13,7 +13,7 @@ MIN_LR:
 DATA_PATH:
   - "SemEval2018-Task9/custom_datasets/train_with_wnet.pickle"
 TEST_DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/2B.music.pickle"
+  - "SemEval2018-Task9/custom_datasets/1A.english.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,21 +25,21 @@ DTYPE:
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "semeval18-en-wnet-2B-long-57seed"
+- "semeval18-en-wnet-1A-long-42seed"
 LOAD_PATH:
-- "meta-llama-Llama-2-7b-hfsemeval-2bs-2B-57seed_epoch=0_MAP=0.6050427022977023.pth"
+- "meta-llama-Llama-2-7b-hfsemeval-1A-57seed-2bs_epoch=0_MAP=0.33722003169669834.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
 - "stohastic"
 NUM_BEAMS:
-- 1
+- 8
 MAX_NEW_TOKENS:
 - 32
 TEMPERATURE:
-- 1
+- 0.8
 TOP_K:
-- 20
+- 10
 NUM_RETURN_SEQUENCES:
 - 2
 QLORA:

@@ -194,11 +194,11 @@ if __name__ == "__main__":
         "num_return_sequences": params_list["NUM_RETURN_SEQUENCES"][0],
         "num_beams": params_list["NUM_BEAMS"][0],
     }
-    seeds = [42, 57, 128]
-    temp_params = [0.8, 0.9, 1]
-    top_k_params = [10, 20, 30, 40, 50, 60, 70, 80, 90]
-    num_beams = [1, 2, 3, 5]
-    no_repeat_ngram_size_params = [0, 2, 3]
+    seeds = [42]
+    temp_params = [0.8]
+    top_k_params = [20]
+    num_beams = [8]
+    no_repeat_ngram_size_params = [0]
 
     best_config = 0
     best_mrr = 0

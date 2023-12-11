@@ -11,9 +11,9 @@ LR:
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/2B.music_train.pickle"
+  - "SemEval2018-Task9/custom_datasets/1A.english_train.pickle"
 TEST_DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/2B.music.pickle"
+  - "SemEval2018-Task9/custom_datasets/1A.english.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,11 +25,11 @@ DTYPE:
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "semeval-2bs-2B-57seed"
+- "semeval-1A-57seed-2bs"
 QLORA:
 - true
 LOAD_PATH:
-- meta-llama-Llama-2-7b-hfsemeval-32bs-wnet_epoch=0_MAP=0.2560173831107165.pth
+- meta-llama-Llama-2-7b-hfonly-wnet-57seed-32bs_epoch=0_MAP=0.23933677520010854.pth
 USE_DEF_PROMPT:
 - false
 USE_DEF_TARGET:
