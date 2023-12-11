@@ -15,6 +15,7 @@ from .prompt_schemas import (
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
     predict_parent_from_child,
+    predict_multiple_parents_from_child
 )
 import pandas as pd
 from multiprocessing import cpu_count
@@ -37,6 +38,7 @@ class HypernymDataset(Dataset):
             "simple_triplet_grandparent": predict_parent_from_child_granparent,
             "simple_triplet_2parent": predict_child_from_2_parents,
             "predict_hypernym": predict_parent_from_child,
+            "predict_multiple_hypernyms": predict_multiple_parents_from_child,
         },
     ):
         self.tokenizer = tokenizer

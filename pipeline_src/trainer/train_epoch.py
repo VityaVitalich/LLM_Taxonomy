@@ -6,7 +6,6 @@ from torch import nn
 import torch.nn.functional as F
 import torch
 import gc
-from utils.plotters import visualize_predictions
 import wandb
 import json
 import itertools

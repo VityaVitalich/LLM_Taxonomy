@@ -1,5 +1,6 @@
 import torch
 from torch import nn
+import numpy as np
 
 from transformers import (
     AutoModelForSeq2SeqLM,
@@ -7,21 +8,22 @@ from transformers import (
     AutoConfig,
     AutoModelForCausalLM,
 )
-from config.config import TaskConfig
-import numpy as np
-from trainer.train_epoch import train_epoch, predict, validate
-from metrics.metrics import Metric
-from torch.utils.data import DataLoader
-from dataset.dataset import HypernymDataset, Collator
 from torch.optim.lr_scheduler import ExponentialLR
 import wandb
-from logger.logger import WanDBWriter
+from torch.utils.data import DataLoader
 
-torch.manual_seed(57)
-torch.cuda.manual_seed(57)
-torch.cuda.manual_seed_all(57)
-np.random.seed(57)
-torch.backends.cudnn.deterministic = True
+
+from .config.config import TaskConfig
+from .trainer.train_epoch import train_epoch, predict, validate
+from .metrics.metrics import Metric
+from .dataset.dataset import HypernymDataset, Collator
+from .logger.logger import WanDBWriter
+
+# torch.manual_seed(57)
+# torch.cuda.manual_seed(57)
+# torch.cuda.manual_seed_all(57)
+# np.random.seed(57)
+# torch.backends.cudnn.deterministic = True
 
 
 # https://nlp.seas.harvard.edu/2018/04/03/attention.html#optimizer

@@ -1,7 +1,15 @@
 import os
 
-use_def = os.getenv("USE_DEF", "False") == "True"
-print(use_def)
+use_def_prompt = os.getenv("USE_DEF_PROMPT", "False") == "True"
+print("USE_DEF_PROMPT: ", use_def_prompt)
+
+use_def_target = os.getenv("USE_DEF_TARGET", "False") == "True"
+print("USE_DEF_TARGET: ", use_def_target)   
+
+use_number_target = os.getenv("USE_NUMBER_TARGET", "False") == "True"
+print("USE_NUMBER_TARGET: ", use_number_target)
+
+print("WARNING! USE_DEF_TARGET AND USE_NUMBER_TARGET MADE ONLY FOR HYPERNYMS PRED")
 
 
 def clean_elem(elem, keys_to_remove_digits=["children"]):
@@ -10,8 +18,7 @@ def clean_elem(elem, keys_to_remove_digits=["children"]):
         for field in ["children", "parents", "grandparents", "brothers"]:
             if field in elem.keys():
                 elem[field] = delete_techniqal(
-                    elem[field], remove=True
-                )  # (field in removes))
+                    elem[field], remove=(field in removes))
                 elem["changed"] = True
     return elem
 
@@ -227,13 +234,39 @@ def predict_parent_from_child(elem):
     """
     Predict the hypernym for the word “spaniel”. Answer: (sporting dog)
     """
-    clean = clean_elem(elem, keys_to_remove_digits=["parents"])
+    keys_to_remove_digits = []
+    if use_def_prompt:
+        keys_to_remove_digits.append("children") # do not need numbers when provided definition
+    if (not use_number_target) or (use_def_target):
+        keys_to_remove_digits.append("parents")
+    
+    clean = clean_elem(elem, keys_to_remove_digits=keys_to_remove_digits)
 
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hyponym: " + clean["children"] + " (" + elem["child_def"] + ") | hypernym:"
         )
     else:
         transformed_term = "hyponym: " + clean["children"] + " | hypernym:"
-    # print(clean)
-    return transformed_term, clean["parents"] + ","
+
+    if use_def_target:
+        target = clean["parents"] + " (" + elem["parent_def"] + ")" + ","
+    else:
+        target = clean["parents"] + ","
+
+    return transformed_term, target
+
+def predict_multiple_parents_from_child(elem):
+    """
+    Predict the hypernym for the word “spaniel”. Answer: (sporting dog)
+    """
+    if use_def_prompt:
+        print('NO SUCH OPTION FOR MULTIPLE PARENT')
+    transformed_term = "hyponym: " + elem["children"] + " | hypernyms:"
+
+    if use_def_target:
+        print('NO SUCH OPTION FOR MULTIPLE PARENT')
+    
+    target = ", ".join(elem["parents"])  + ","
+
+    return transformed_term, target

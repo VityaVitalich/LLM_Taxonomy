@@ -1,10 +1,10 @@
 TEST_DATA_PATH:
-  - "babel_datasets/v2_wnet_def_test.pickle"
+  - "SemEval2018-Task9/custom_datasets/2B.music.pickle"
 OUTPUT_NAME:
-  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hfwnet2_lemmas_clear_0"
+  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hfsemeval18-en-wnet-2B-long-57seed_stohastic_"
 SAVE_EXAMPLES:
-  - false
+  - true
 SAVE_EXAMPLES_PATH:
-  - "babel_datasets/model_examples/llama-lemmas-clear"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/model_examples/llama-7b-wnet-long-mean-2b-57seed"
 IDS_TO_USE:
   - "all"

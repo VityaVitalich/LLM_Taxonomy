@@ -13,7 +13,7 @@ class TaskConfig:
             "do_sample": True,
             "num_beams": 1,
             "num_return_sequences": 2,
-            "max_new_tokens": 8,
+            "max_new_tokens": 18,
             "top_k": 20,
         }
     )

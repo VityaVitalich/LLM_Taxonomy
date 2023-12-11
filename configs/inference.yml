@@ -1,19 +1,19 @@
 SEED:
-  - 0
+  - 57
 CUDA_VISIBLE_DEVICES:
-  - 0
+  - 1
 EPOCHS:
-  - 4
+  - 1
 BATCH_SIZE:
-  - 16
+  - 8
 LR:
   - 3e-4
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "babel_datasets/v2_wnet_def_train.pickle"
+  - "SemEval2018-Task9/custom_datasets/train_with_wnet.pickle"
 TEST_DATA_PATH:
-  - "babel_datasets/v2_wnet_def_test.pickle"
+  - "SemEval2018-Task9/custom_datasets/1A.english.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,24 +25,29 @@ DTYPE:
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "wnet2_def"
+- "semeval18-en-wnet-1A-long-42seed"
 LOAD_PATH:
-- "meta-llama-Llama-2-7b-hfwnet2_def_coma_custom_multilang_epoch=0_MAP=0.2394317810075267.pth"
+- "meta-llama-Llama-2-7b-hfsemeval-1A-57seed-2bs_epoch=0_MAP=0.33722003169669834.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
 - "stohastic"
 NUM_BEAMS:
-- 1
+- 8
 MAX_NEW_TOKENS:
-- 36
+- 32
 TEMPERATURE:
-- 1
+- 0.8
 TOP_K:
-- 20
+- 10
 NUM_RETURN_SEQUENCES:
 - 2
 QLORA:
 - true
-USE_DEF:
+USE_DEF_PROMPT:
 - false
+USE_DEF_TARGET:
+- false
+USE_NUMBER_TARGET:
+- false
+
