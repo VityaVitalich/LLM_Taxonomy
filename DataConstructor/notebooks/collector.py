@@ -34,15 +34,17 @@ class GeneratorMixin:
 
                 yield ((node, parents))
 
-    def parent_generator(self) -> Generator[Tuple[str, Dict[int, Set[str]]], None, None]:
+    def parent_generator(
+        self,
+    ) -> Generator[Tuple[str, Dict[int, Set[str]]], None, None]:
         for node, degree in self.G.out_degree():
             if (
-                degree > 0 
+                degree > 0
                 and self.generations[node] > self.generation_depth
                 and len(node) > 1
-                and degree < 50 
+                and degree < 50
             ):
-                #parents = self.find_parents(node, self.ancestors_depth)
+                # parents = self.find_parents(node, self.ancestors_depth)
                 for child in self.G.successors(node):
                     yield ((node, child))
 
@@ -202,7 +204,7 @@ class Collector(GeneratorMixin):
             "gen_not_only_leafs",
             "mixes_triplets",
             "simple_triplets",
-            "gen_parent"
+            "gen_parent",
         ]
 
         self.gen2func = {
@@ -211,7 +213,7 @@ class Collector(GeneratorMixin):
             "gen_not_only_leafs": self.collect_not_only_leafs,
             "mixes_triplets": self.collect_mixes_triplets,
             "simple_triplets": self.collect_simple_triplets,
-            "gen_parent": self.collect_parents
+            "gen_parent": self.collect_parents,
         }
 
     def collect_possible_samples(self):
@@ -387,7 +389,7 @@ class Collector(GeneratorMixin):
             num_senses = self.node_numbers[child.split(".")[0]]
         except KeyError:
             num_senses = 2
-        
+
         if num_senses == 1:
             elem = {}
             elem["children"] = child

@@ -15,7 +15,7 @@ from .prompt_schemas import (
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
     predict_parent_from_child,
-    predict_multiple_parents_from_child
+    predict_multiple_parents_from_child,
 )
 import pandas as pd
 from multiprocessing import cpu_count

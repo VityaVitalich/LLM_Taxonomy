@@ -37,7 +37,7 @@ class Metric:
                     one_line_metrics[str(score)].append(one_option_metrics[str(score)])
 
             for key in all_scores:
-                max_line_value = np.mean(one_line_metrics[key]) # mean to max
+                max_line_value = np.mean(one_line_metrics[key])  # mean to max
                 all_scores[key].append(max_line_value)
 
         res = {}

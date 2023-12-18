@@ -1,0 +1,20 @@
+SEED:
+  - 57
+CUDA_VISIBLE_DEVICES:
+  - 1
+BATCH_SIZE:
+  - 32
+INPUT_PATH:
+  - "./data/MAG_CS/all_nodes.pickle"
+OUTPUT_PATH:
+  - "./data/MAG_CS/embeddings_llama7b_wnet+domen_pretrain_last.pickle"
+USING_PRETRAIN:
+  - True
+MODEL_TYPE:
+  - "Llama"
+MODEL_CHECKPOINT:
+  - "meta-llama/Llama-2-7b-hf"
+LOAD_PATH:
+  - "meta-llama-Llama-2-7b-hfTaxoEnrich_MAG_CS_epoch=0_MAP=0.32630385487528346.pth"
+EMBEDDING_STRATEGY:
+  - "last"

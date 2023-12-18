@@ -36,12 +36,15 @@ def conflict_refinment_insertion(
                     insertions_conflict[(u, v)].items(), key=lambda x: x[1]
                 )
                 if best_ppl < insert_thr:
-                    G_pred.add_edge(u, best_middle_node, weight=ppls_pairs[(u,best_middle_node)])
-                    G_pred.add_edge(best_middle_node, v, weight=ppls_pairs[(best_middle_node, v)])
+                    G_pred.add_edge(
+                        u, best_middle_node, weight=ppls_pairs[(u, best_middle_node)]
+                    )
+                    G_pred.add_edge(
+                        best_middle_node, v, weight=ppls_pairs[(best_middle_node, v)]
+                    )
 
-                #print('success')
+                # print('success')
             except KeyError:
-                
                 continue
 
 

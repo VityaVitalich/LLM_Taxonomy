@@ -5,15 +5,15 @@ CUDA_VISIBLE_DEVICES:
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 2
+  - 32
 LR:
   - 3e-4
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/1A.english_train.pickle"
+  - "TaxonomyEnrichment/data/MAG_CS/train_hypernyms.pickle"
 TEST_DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/1A.english.pickle"
+  - "TaxonomyEnrichment/data/MAG_CS/test_hypernyms.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -23,9 +23,9 @@ MODEL_CHECKPOINT:
 DTYPE:
 - "half"
 LOG_PRED_EVERY:
-  - 100
+  - 1000
 DATA_PREPROC_STYLE:
-- "semeval-1A-57seed-2bs"
+- "TaxoEnrich_MAG_CS"
 QLORA:
 - true
 LOAD_PATH:
