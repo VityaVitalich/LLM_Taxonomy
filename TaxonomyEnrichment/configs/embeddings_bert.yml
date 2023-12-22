@@ -1,0 +1,16 @@
+SEED:
+  - 57
+SAVING_DIR:
+  - "/home/data/taxonomy/"
+CUDA_VISIBLE_DEVICES:
+  - 1
+BATCH_SIZE:
+  - 32
+INPUT_PATH:
+  - "./data/MAG_CS/all.edgelist"
+OUTPUT_PATH:
+  - "./data/MAG_CS/embeddings/embeddings_test_ft.pickle"
+MODEL_TYPE:
+  - "SentenceBert"
+MODEL_CHECKPOINT:
+  - 'sentence-transformers/all-mpnet-base-v2'

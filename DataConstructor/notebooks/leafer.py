@@ -4,7 +4,7 @@ import networkx as nx
 
 import numpy as np
 import random
-from collector import Collector
+from .collector import Collector
 
 
 class Leafer:

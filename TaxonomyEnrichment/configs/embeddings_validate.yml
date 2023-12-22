@@ -1,0 +1,10 @@
+SEED:
+  - 57
+INPUT_PATH:
+  - "./data/MAG_CS/all.edgelist"
+EMBEDDING_PATH:
+  - "./data/MAG_CS/embeddings/embeddings_test_ft.pickle"
+TEST_PATH:
+  - "./data/MAG_CS/test_nodes.pickle"
+NUM_NEIGHBORS:
+  - 1000
