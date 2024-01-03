@@ -10,5 +10,6 @@ wandb/
 triplets_env/
 triplets_sci/
 embeddings/
+test.txt
 .swp
 DataInterface/test_ru_filter.edgelist

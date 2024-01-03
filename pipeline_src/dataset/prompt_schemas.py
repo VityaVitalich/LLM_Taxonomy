@@ -24,7 +24,7 @@ def clean_elem(elem, keys_to_remove_digits=["children"]):
 
 def delete_techniqal(elem, remove):
     if isinstance(elem, str):
-        if ".n." in elem and remove:
+        if ((".n." in elem) or (".v." in elem))  and remove:
             return elem.split(".")[0].replace("_", " ")
         else:
             return elem.replace("_", " ")

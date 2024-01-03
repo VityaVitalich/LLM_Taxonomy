@@ -7,10 +7,10 @@ CUDA_VISIBLE_DEVICES:
 BATCH_SIZE:
   - 32
 INPUT_PATH:
-  - "./data/MAG_CS/all.edgelist"
+  - "./data/psychology/all.edgelist"
 OUTPUT_PATH:
-  - "./data/MAG_CS/embeddings/embeddings_test_ft.pickle"
+  - "./data/psychology/embeddings/embeddings_ft.pickle"
 MODEL_TYPE:
-  - "SentenceBert"
+  - "FastText"
 MODEL_CHECKPOINT:
-  - 'sentence-transformers/all-mpnet-base-v2'
+  - '/home/data/taxonomy/cc.en.300.bin'
