@@ -11,5 +11,8 @@ triplets_env/
 triplets_sci/
 embeddings/
 test.txt
-.swp
+*.swp
+*.embed
+*.bertembed
+*.pickle.bin
 DataInterface/test_ru_filter.edgelist

@@ -7,9 +7,9 @@ CUDA_VISIBLE_DEVICES:
 BATCH_SIZE:
   - 32
 INPUT_PATH:
-  - "./data/psychology/all.edgelist"
+  - "./data/verb/all.edgelist"
 OUTPUT_PATH:
-  - "./data/psychology/embeddings/embeddings_ft.pickle"
+  - "./data/verb/embeddings/embeddings_ft.pickle"
 MODEL_TYPE:
   - "FastText"
 MODEL_CHECKPOINT:
