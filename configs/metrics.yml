@@ -1,10 +1,10 @@
 TEST_DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/2B.music.pickle"
+  - "TaxonomyEnrichment/data/MAG_CS/test_hypernyms.pickle"
 OUTPUT_NAME:
-  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hfsemeval18-en-wnet-2B-long-57seed_stohastic_"
+  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hfTaxoEnrich_MAG_CS_0"
 SAVE_EXAMPLES:
   - true
 SAVE_EXAMPLES_PATH:
-  - "/home/LLM_Taxonomy/SemEval2018-Task9/model_examples/llama-7b-wnet-long-mean-2b-57seed"
+  - "/home/LLM_Taxonomy/TaxonomyEnrichment/model_examples/llama7b-initital"
 IDS_TO_USE:
   - "all"

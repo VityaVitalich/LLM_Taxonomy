@@ -9,5 +9,10 @@ tax_env/
 wandb/
 triplets_env/
 triplets_sci/
-.swp
+embeddings/
+test.txt
+*.swp
+*.embed
+*.bertembed
+*.pickle.bin
 DataInterface/test_ru_filter.edgelist

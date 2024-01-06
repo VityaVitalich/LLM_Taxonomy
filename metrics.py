@@ -10,7 +10,6 @@ import numpy as np
 import pickle
 
 
-
 from pipeline_src.metrics.metrics import Metric
 from pipeline_src.dataset.dataset import HypernymDataset
 from transformers import AutoTokenizer
@@ -23,7 +22,7 @@ from pipeline_src.dataset.prompt_schemas import (
     predict_children_with_parent_and_brothers,
     predict_parent_from_child_granparent,
     predict_parent_from_child,
-    predict_multiple_parents_from_child
+    predict_multiple_parents_from_child,
 )
 
 
@@ -48,7 +47,7 @@ if __name__ == "__main__":
         "simple_triplet_grandparent": predict_parent_from_child_granparent,
         "simple_triplet_2parent": predict_child_from_2_parents,
         "predict_hypernym": predict_parent_from_child,
-        "predict_multiple_hypernyms": predict_multiple_parents_from_child
+        "predict_multiple_hypernyms": predict_multiple_parents_from_child,
     }
 
     with open(saving_path, "rb") as fp:

@@ -4,7 +4,7 @@ use_def_prompt = os.getenv("USE_DEF_PROMPT", "False") == "True"
 print("USE_DEF_PROMPT: ", use_def_prompt)
 
 use_def_target = os.getenv("USE_DEF_TARGET", "False") == "True"
-print("USE_DEF_TARGET: ", use_def_target)   
+print("USE_DEF_TARGET: ", use_def_target)
 
 use_number_target = os.getenv("USE_NUMBER_TARGET", "False") == "True"
 print("USE_NUMBER_TARGET: ", use_number_target)
@@ -17,15 +17,14 @@ def clean_elem(elem, keys_to_remove_digits=["children"]):
     if not "changed" in elem.keys():
         for field in ["children", "parents", "grandparents", "brothers"]:
             if field in elem.keys():
-                elem[field] = delete_techniqal(
-                    elem[field], remove=(field in removes))
+                elem[field] = delete_techniqal(elem[field], remove=(field in removes))
                 elem["changed"] = True
     return elem
 
 
 def delete_techniqal(elem, remove):
     if isinstance(elem, str):
-        if ".n." in elem and remove:
+        if ((".n." in elem) or (".v." in elem))  and remove:
             return elem.split(".")[0].replace("_", " ")
         else:
             return elem.replace("_", " ")
@@ -236,10 +235,12 @@ def predict_parent_from_child(elem):
     """
     keys_to_remove_digits = []
     if use_def_prompt:
-        keys_to_remove_digits.append("children") # do not need numbers when provided definition
+        keys_to_remove_digits.append(
+            "children"
+        )  # do not need numbers when provided definition
     if (not use_number_target) or (use_def_target):
         keys_to_remove_digits.append("parents")
-    
+
     clean = clean_elem(elem, keys_to_remove_digits=keys_to_remove_digits)
 
     if use_def_prompt:
@@ -256,17 +257,18 @@ def predict_parent_from_child(elem):
 
     return transformed_term, target
 
+
 def predict_multiple_parents_from_child(elem):
     """
     Predict the hypernym for the word “spaniel”. Answer: (sporting dog)
     """
     if use_def_prompt:
-        print('NO SUCH OPTION FOR MULTIPLE PARENT')
+        print("NO SUCH OPTION FOR MULTIPLE PARENT")
     transformed_term = "hyponym: " + elem["children"] + " | hypernyms:"
 
     if use_def_target:
-        print('NO SUCH OPTION FOR MULTIPLE PARENT')
-    
-    target = ", ".join(elem["parents"])  + ","
+        print("NO SUCH OPTION FOR MULTIPLE PARENT")
+
+    target = ", ".join(elem["parents"]) + ","
 
     return transformed_term, target

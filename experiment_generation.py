@@ -60,7 +60,7 @@ torch.manual_seed(SEED)
 torch.cuda.manual_seed(SEED)
 torch.cuda.manual_seed_all(SEED)
 np.random.seed(SEED)
-#torch.use_deterministic_algorithms(True)
+# torch.use_deterministic_algorithms(True)
 print(torch.cuda.device_count())
 
 from transformers import (
@@ -115,8 +115,8 @@ if __name__ == "__main__":
         SAVING_DIR
         + "model_checkpoints/"
         + config.exp_name
-      #  + "_custom_multilang_"
-        + 'experiment'
+        #  + "_custom_multilang_"
+        + "experiment"
     )
 
     config.dtype = params_list["DTYPE"][0]
@@ -207,31 +207,34 @@ if __name__ == "__main__":
             for k in top_k_params:
                 for beam in num_beams:
                     for ngram in no_repeat_ngram_size_params:
-                            torch.manual_seed(seed)
-                            torch.cuda.manual_seed(seed)
-                            torch.cuda.manual_seed_all(seed)
-                            np.random.seed(seed)
-                            random.seed(seed)
-                            
+                        torch.manual_seed(seed)
+                        torch.cuda.manual_seed(seed)
+                        torch.cuda.manual_seed_all(seed)
+                        np.random.seed(seed)
+                        random.seed(seed)
 
-                            config.gen_args["no_repeat_ngram_size"] = ngram
-                            config.gen_args['temperature'] = t
-                            config.gen_args['top_k'] = k
-                            config.gen_args['num_beams'] = beam
+                        config.gen_args["no_repeat_ngram_size"] = ngram
+                        config.gen_args["temperature"] = t
+                        config.gen_args["top_k"] = k
+                        config.gen_args["num_beams"] = beam
 
-                            all_preds, all_labels = predict(
-                                    model, tokenizer, val_loader, config, ans_load_path=prev_predict
-                                )
+                        all_preds, all_labels = predict(
+                            model,
+                            tokenizer,
+                            val_loader,
+                            config,
+                            ans_load_path=prev_predict,
+                        )
 
-                            metric_calculator = Metric(all_labels, all_preds)
-                            metrics = metric_calculator.get_metrics()
-                            
-                            mrr = metrics['MRR']
-                            if mrr > best_mrr:
-                                best_mrr = mrr
-                                best_config = config
-                                best_seed = seed
+                        metric_calculator = Metric(all_labels, all_preds)
+                        metrics = metric_calculator.get_metrics()
 
-                            print(seed, config, metrics)
+                        mrr = metrics["MRR"]
+                        if mrr > best_mrr:
+                            best_mrr = mrr
+                            best_config = config
+                            best_seed = seed
+
+                        print(seed, config, metrics)
 
     print(best_seed, best_config, best_mrr)

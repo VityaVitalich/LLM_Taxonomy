@@ -11,9 +11,9 @@ LR:
 MIN_LR:
   - 3e-6
 DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/train_with_wnet.pickle"
+  - "TaxonomyEnrichment/data/MAG_CS/train_hypernyms.pickle"
 TEST_DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/1A.english.pickle"
+  - "TaxonomyEnrichment/data/MAG_CS/test_hypernyms.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,9 +25,9 @@ DTYPE:
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "semeval18-en-wnet-1A-long-42seed"
+- "Wnet+FT-32bs_8beams_top40k"
 LOAD_PATH:
-- "meta-llama-Llama-2-7b-hfsemeval-1A-57seed-2bs_epoch=0_MAP=0.33722003169669834.pth"
+- "meta-llama-Llama-2-7b-hfTaxoEnrich_MAG_CS_epoch=0_MAP=0.21071575396825398.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
@@ -39,7 +39,7 @@ MAX_NEW_TOKENS:
 TEMPERATURE:
 - 0.8
 TOP_K:
-- 10
+- 40
 NUM_RETURN_SEQUENCES:
 - 2
 QLORA:

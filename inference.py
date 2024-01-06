@@ -45,7 +45,6 @@ from pipeline_src.logger.logger import WanDBWriter
 from pipeline_src.metrics.metrics import Metric
 
 
-
 if torch.cuda.is_available():
     device = "cuda"
     print("GPU")
@@ -79,7 +78,6 @@ from peft import (
 
 
 def main(config):
-
     if config.model_type == "Auto":
         model_type = AutoModelForCausalLM
         tokenizer_type = AutoTokenizer
@@ -146,6 +144,7 @@ def main(config):
 
     return all_preds, all_labels
 
+
 if __name__ == "__main__":
     config = TaskConfig()
 
@@ -179,11 +178,11 @@ if __name__ == "__main__":
         SAVING_DIR
         + "model_checkpoints/"
         + config.exp_name
-      #  + "_custom_multilang_"
+        #  + "_custom_multilang_"
         + params_list["STRATEGY"][0]
     )
 
-   # if params_list["STRATEGY"][0] == "stohastic":
+    # if params_list["STRATEGY"][0] == "stohastic":
     config.gen_args = {
         # "no_repeat_ngram_size": 3,
         "do_sample": True,
@@ -210,9 +209,7 @@ if __name__ == "__main__":
     # else:
     #     prev_predict = None
 
-
     config.load_path = SAVING_DIR + "model_checkpoints/" + params_list["LOAD_PATH"][0]
-
 
     all_preds, all_labels = main(config)
     metric_calculator = Metric(all_labels, all_preds)

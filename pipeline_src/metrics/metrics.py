@@ -1,5 +1,12 @@
 import numpy as np
-from .calculator import MeanReciprocalRank, PrecisionAtK, MeanAveragePrecision
+from .calculator import (
+    MeanReciprocalRank,
+    PrecisionAtK,
+    MeanAveragePrecision,
+    EnrichCorrectedMeanReciprocalRank,
+    EnrichOriginalMeanReciprocalRank,
+    RecallAtK,
+)
 from typing import List
 
 
@@ -37,7 +44,7 @@ class Metric:
                     one_line_metrics[str(score)].append(one_option_metrics[str(score)])
 
             for key in all_scores:
-                max_line_value = np.mean(one_line_metrics[key]) # mean to max
+                max_line_value = np.mean(one_line_metrics[key])  # mean to max
                 all_scores[key].append(max_line_value)
 
         res = {}
@@ -55,6 +62,11 @@ class Metric:
             PrecisionAtK(3),
             PrecisionAtK(5),
             PrecisionAtK(15),
+            EnrichCorrectedMeanReciprocalRank(),
+            EnrichOriginalMeanReciprocalRank(),
+            RecallAtK(1),
+            RecallAtK(5),
+            RecallAtK(10),
         ]
         return scores
 
@@ -71,6 +83,9 @@ class Metric:
 
         res = {}
         for score in scores:
-            res[str(score)] = score(r, gold_hyps_n)
+            if "Enrich" in str(score):
+                res[str(score)] = score(pred_hyps, gold_hyps, r)
+            else:
+                res[str(score)] = score(r, gold_hyps_n)
 
         return res

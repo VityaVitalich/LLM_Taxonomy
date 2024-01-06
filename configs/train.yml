@@ -1,19 +1,19 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 1
+  - 0
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 2
+  - 16
 LR:
   - 3e-4
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/1A.english_train.pickle"
+  - "LexicalEntailment/data/train_wn_verbs.pickle"
 TEST_DATA_PATH:
-  - "SemEval2018-Task9/custom_datasets/1A.english.pickle"
+  - "LexicalEntailment/data/test_wn_verbs.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,7 +25,7 @@ DTYPE:
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "semeval-1A-57seed-2bs"
+- "Entailment_bs16_wnet-v_pretrained"
 QLORA:
 - true
 LOAD_PATH:

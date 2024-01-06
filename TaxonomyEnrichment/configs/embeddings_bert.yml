@@ -1,0 +1,16 @@
+SEED:
+  - 57
+SAVING_DIR:
+  - "/home/data/taxonomy/"
+CUDA_VISIBLE_DEVICES:
+  - 1
+BATCH_SIZE:
+  - 32
+INPUT_PATH:
+  - "./data/verb/all.edgelist"
+OUTPUT_PATH:
+  - "./data/verb/embeddings/embeddings_ft.pickle"
+MODEL_TYPE:
+  - "FastText"
+MODEL_CHECKPOINT:
+  - '/home/data/taxonomy/cc.en.300.bin'
