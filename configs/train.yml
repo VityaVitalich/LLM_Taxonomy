@@ -1,19 +1,19 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 0
+  - 1
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 16
+  - 32
 LR:
   - 3e-4
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "LexicalEntailment/data/train_wn_verbs.pickle"
+  - "TaxonomyEnrichment/data/noun/train_hypernyms_def.pickle"
 TEST_DATA_PATH:
-  - "LexicalEntailment/data/test_wn_verbs.pickle"
+  - "TaxonomyEnrichment/data/noun/test_hypernyms_def.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,13 +25,13 @@ DTYPE:
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "Entailment_bs16_wnet-v_pretrained"
+- "TaxoEnrich_noun_32bs_3e-4_no-pretrain_def"
 QLORA:
 - true
 LOAD_PATH:
-- meta-llama-Llama-2-7b-hfonly-wnet-57seed-32bs_epoch=0_MAP=0.23933677520010854.pth
+- null #meta-llama-Llama-2-7b-hfonly-wnet-57seed-32bs_epoch=0_MAP=0.23933677520010854.pth
 USE_DEF_PROMPT:
-- false
+- true
 USE_DEF_TARGET:
 - false
 USE_NUMBER_TARGET:
