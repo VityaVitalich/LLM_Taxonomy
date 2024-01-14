@@ -24,7 +24,7 @@ def clean_elem(elem, keys_to_remove_digits=["children"]):
 
 def delete_techniqal(elem, remove):
     if isinstance(elem, str):
-        if ((".n." in elem) or (".v." in elem))  and remove:
+        if ((".n." in elem) or (".v." in elem)) and remove:
             return elem.split(".")[0].replace("_", " ")
         else:
             return elem.replace("_", " ")
@@ -262,9 +262,26 @@ def predict_multiple_parents_from_child(elem):
     """
     Predict the hypernym for the word “spaniel”. Answer: (sporting dog)
     """
+    keys_to_remove_digits = []
     if use_def_prompt:
-        print("NO SUCH OPTION FOR MULTIPLE PARENT")
-    transformed_term = "hyponym: " + elem["children"] + " | hypernyms:"
+        keys_to_remove_digits.append(
+            "children"
+        )  # do not need numbers when provided definition
+    if (not use_number_target) or (use_def_target):
+        keys_to_remove_digits.append("parents")
+
+    clean = clean_elem(elem, keys_to_remove_digits=keys_to_remove_digits)
+
+    if use_def_prompt:
+        transformed_term = (
+            "hyponym: "
+            + clean["children"]
+            + " ("
+            + elem["child_def"]
+            + ") | hypernyms:"
+        )
+    else:
+        transformed_term = "hyponym: " + elem["children"] + " | hypernyms:"
 
     if use_def_target:
         print("NO SUCH OPTION FOR MULTIPLE PARENT")

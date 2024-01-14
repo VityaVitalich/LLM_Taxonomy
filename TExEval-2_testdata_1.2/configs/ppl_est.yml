@@ -3,13 +3,13 @@ SEED:
 CUDA_VISIBLE_DEVICES:
   - 1
 BATCH_SIZE:
-  - 64
+  - 128
 MODEL_CHECKPOINT:
-  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet_verb"
+  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-numbers"
 OUT_NAME:
-  - '/home/LLM_Taxonomy/LexicalEntailment/data/ant_pairs_formated_ppls.pickle'
+  - '/home/LLM_Taxonomy/LexicalEntailment/data/hyperlex_verb_formated_ppls.pickle'
 IN_NAME:
-  - '/home/LLM_Taxonomy/LexicalEntailment/data/ant_pairs_formated.pickle'
+  - '/home/LLM_Taxonomy/LexicalEntailment/data/hyperlex_verb_formated.pickle'
 LOAD:
   - false
 USE_DEF:

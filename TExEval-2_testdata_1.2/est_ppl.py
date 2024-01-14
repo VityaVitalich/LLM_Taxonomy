@@ -159,7 +159,7 @@ class PplEstimator:
 def get_term(s):
     global case
 
-    #print(s)
+    # print(s)
     term = s.split("|")[-2]
     term = term.split(":")
     if (case == "pred_hypernym") or (case == "leaf_no_leafs"):
@@ -253,10 +253,10 @@ if __name__ == "__main__":
             )
             ppl_ls.extend(ppl)
 
-           # print(cur_terms)
-            #print(cur_targets)
+            # print(cur_terms)
+            # print(cur_targets)
             for cur_ppl, term, target in zip(ppl, cur_terms, cur_targets):
-                #print(term, target)
+                # print(term, target)
                 term_to_label[(term, target)] = cur_ppl
 
             if (i + 1) % chkp_time == 0:

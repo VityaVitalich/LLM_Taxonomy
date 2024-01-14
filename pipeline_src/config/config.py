@@ -52,4 +52,4 @@ class TaskConfig:
     model_type: str = "Auto"  # Auto or Llama
     saving_predictions_path: str = SAVING_DIR + "model_outputs/"
     log_pred_every: int = 500
-    save_every_batch: int = 10000
+    save_every_batch: int = 500
