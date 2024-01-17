@@ -1,7 +1,6 @@
 blueprint for neuroscience
 tracheal hook
 eszopiclone 3 mg
-pervasive developmental disorder not otherwise specified
 synthetic human secretin
 heller s syndrome
 alpha dihydroergocryptine
@@ -16,14 +15,11 @@ rotary pursuit
 activity motor
 motor delay
 movement abc test
-inferior frontal sulcus
 inferior precentral sulcus
 right intraparietal sulcus
 left intraparietal sulcus
 gastric mill
 perphenazine amitriptyline
-general strain theory
-strain theory
 juvenile detention
 multidimensional treatment foster care
 adult offenders
@@ -114,12 +110,10 @@ cellular schwannoma
 conventional schwannoma
 family dispute resolution
 legal dispute resolution
-bovine respiratory syncytial virus
 bovine respiratory syncytial virus vaccine
 bovine parainfluenza virus
 bovine respiratory syncytial virus brsv
 height vertigo
-symmetrical tonic neck reflex
 kessler psychological distress scale k6
 symptom distress scale
 distress vocalization
@@ -176,7 +170,6 @@ left hippocampus
 medial mammillary nucleus
 app17 peptide
 declarative memory
-fornix
 lateral septal nucleus
 trimethyltin compounds
 frontal lobe cortex
@@ -270,7 +263,6 @@ pheromone processing
 sphinx moth
 labial pit
 postsynaptic potential summation
-vestibulo ocular reflex
 cerebellar flocculus
 vestibular nystagmus
 reflex eye movement
@@ -316,7 +308,6 @@ lymph fistula
 duloxetine hydrochloride
 duloxetine hcl
 general anaesthetic drugs
-frustration aggression hypothesis
 dialectical behaviour therapy
 injury disorder
 emotionally unstable personality disorder
@@ -325,16 +316,12 @@ semont maneuver
 nystagmus direction
 central positional nystagmus
 central positional vertigo
-challenge dechallenge rechallenge
 naranjo scale
 naranjo adverse drug reaction probability scale
 adr adverse drug reaction
 dechallenge
 naranjo adr probability scale
-ruya
 social dreaming
-dream speech
-dream analysis
 dream recall
 unpleasant dreams
 repetitive dreams
@@ -444,7 +431,6 @@ emberiza melanocephala
 bioperiodicity
 infradian cycles
 bacterial circadian rhythms
-kaia
 circadian locomotor activity rhythm
 chronotherapies
 circadian clock protein period
@@ -455,7 +441,6 @@ eclosion rhythm
 apteronemobius asahinai
 rhyparobia maderae
 chronobiology disorders
-morningness eveningness questionnaire
 chronobiology phenomena
 bioperiodicities
 pyrophacus
@@ -501,7 +486,6 @@ fractured hips
 hip fracture repair
 broken hips
 mental test score
-landau kleffner syndrome
 acquired epileptiform aphasia
 female athlete triad
 female athlete triad syndrome
@@ -1030,7 +1014,6 @@ medicare drug benefit
 prescription insurance
 drug insurance
 poly drug use
-speedball
 acetyl fentanyl
 heroin abuse
 heroin addiction
@@ -1062,8 +1045,6 @@ eczematous drug eruption
 cyclosporine assay
 therapeutic drug monitoring studies
 dried blood spot method
-erythema multiforme major
-stevens johnson syndrome
 drug induced stevens johnson syndrome
 lyell s syndrome
 maculopapular exanthema
@@ -1073,7 +1054,6 @@ lyell syndrome
 steven johnsons syndrome
 epidermal necrolysis
 polydrug addiction
-4 hydroxy 3 methoxymethamphetamine
 ethylamphetamine
 ecstasy poisoning
 ecstasy drug
@@ -1098,7 +1078,6 @@ drug isolation
 atomoxetine hydrochloride
 tomoxetina
 atomoxetine hcl
-selective norepinephrine reuptake inhibitor
 forelimb structure
 right forelimb
 forelimb lameness
@@ -1138,7 +1117,6 @@ field dependence independence
 hidden figures test
 field independence
 embedded figures test
-ventrolateral prefrontal cortex
 left prefrontal cortex
 mediodorsal nucleus
 right inferior frontal sulcus
@@ -1185,13 +1163,11 @@ leber amaurosis
 hereditary optic neuroretinopathy
 leber congenital amaurosis type 2
 creativity technique
-creative cities
 generativity theory
 barron welsh art scale
 franck drawing completion test
 improvisational theater
 creative thought
-vroom yetton decision model
 habenular nuclei
 medial habenular nucleus
 medial habenula
@@ -1217,11 +1193,9 @@ asperger s disorder
 motor clumsiness
 hashimoto pritzker disease
 life support procedure
-cochran mantel haenszel statistics
 irregular sleep wake rhythm
 scn neurons
 suprachiasmatic nucleus cells
-gnathonemus
 passive electrolocation in fish
 electric mormyrid
 gnathonemus petersi
@@ -1268,7 +1242,6 @@ guanadrel sulfate
 meobentine
 bethanidine sulfate
 memory errors
-episodic like memory
 semantic memory performance
 left hippocampal formation
 autobiographical memory interview
@@ -1307,7 +1280,6 @@ beuren syndrome
 gtf2i gene
 overfriendliness
 intrinsically photosensitive retinal ganglion cells
-giant retinal ganglion cells
 inherited glaucoma
 optic nerve transection
 entire tectum
@@ -1328,11 +1300,9 @@ isopropyl unoprostone
 prostanoid fp receptor
 tafluprost acid
 travatan z
-transpersonal
 transpersonal anthropology
 transpersonal ecology
 mycoplasma testudineum
-lateral vestibulospinal tract
 vestibular nuclear complex
 vestibular pathway
 parasolitary nucleus
@@ -1372,7 +1342,6 @@ smoking abstinence
 abstinence symptom
 pars opercularis
 diagonal sulcus
-n400
 p3 amplitude
 p300 components
 n2 latency
@@ -1398,7 +1367,6 @@ dorsal lateral geniculate nucleus
 ventral lateral geniculate nucleus
 pregeniculate nucleus
 lgn lateral geniculate nucleus
-delis kaplan executive function system
 frontal lobe structure
 neuropsychological battery
 korsakoffs syndrome
@@ -1439,14 +1407,12 @@ seashore rhythm test
 symptom validity test
 category test
 logical memory i
-halstead reitan neuropsychological battery
 logical memory ii
 california verbal learning test second edition
 stroop neuropsychological screening test
 modified wisconsin card sorting test
 wcst wisconsin card sorting test
 number cancellation
-luria nebraska neuropsychological battery
 skill writing
 infant airway
 tongue edema
@@ -1500,7 +1466,6 @@ fluphenazine decanoate
 fluphenazine sulfoxide
 fluphenazine enanthate
 flufenazina
-optic cup
 deep dysgraphia
 chorda tympani nerve
 chiriquitoxin
@@ -1536,7 +1501,6 @@ right brain hemisphere
 partial seizures
 secondarily generalized seizures
 secondarily generalised seizures
-3 methoxy 4 hydroxyphenylglycol
 vanillactic acid
 dihydroxyphenylacetic acid
 catecholamine metabolite
@@ -1557,8 +1521,6 @@ tramadol n oxide
 tramadol hydrochloride
 moderately severe pain
 n desmethyltramadol
-dissociative disorder not otherwise specified
-rumination
 ruminating
 perseverative thinking
 mental rumination
@@ -1605,9 +1567,6 @@ iontophoresis procedure
 id ego and super ego
 drive reduction theory
 attractiveness
-sublimation
-iupac nomenclature of inorganic chemistry 2005
-the imaginary
 psychological manipulation
 orderliness
 anorgasmia in women
@@ -1619,24 +1578,19 @@ fantasy bond
 womb and vagina envy
 victim playing
 masculine psychology
-madonna whore complex
 bizarre object
 adlerian
 hylophobia
 tubercle of the upper lip
-lapsus
 theophobia
 painful intercourse dyspareunia
-love hate relationship
 religious paranoia
-dissociation
 isfp
 dorian gray syndrome
 transmission belt
 artisan temperament
 feminism and the oedipus complex
 grafenberg s ring
-undoing
 demonophobia
 nostophobia
 polycrates complex
@@ -1661,7 +1615,6 @@ compulsive repetition
 adolescent analysis
 war neurosis
 psychic shock
-castration complex
 analytic psychotherapy
 pithiatism
 auto erotism
@@ -1684,7 +1637,6 @@ low ego strength
 ego defense mechanisms
 high ego strength
 human mate selection
-freud s psychoanalytic theories
 child analysis
 psychoanalytic interpretations
 couple psychotherapy
@@ -1707,7 +1659,6 @@ house tree person test
 projective study
 rotter incomplete sentences
 holtzman inkblot test
-enneagram
 luscher color test
 personality disorders
 entp
@@ -1773,7 +1724,6 @@ your sexual orientation
 homosexual parents
 homosexual female
 bisexual youth
-gay parent
 public masturbation
 telephone scatologia
 genderqueer
@@ -1823,7 +1773,6 @@ female homosexuality
 denial psychology
 psychological denial
 adler alfred
-ischemic optic neuropathy
 arteritic ischemic optic neuropathy
 fundamental human needs
 methsuximide
@@ -1840,7 +1789,6 @@ delta sleep
 delta wave sleep
 lip sucking
 large adenoids
-mouth breather
 chronic mouth breathing
 nose breathing
 open mouth posture
@@ -1907,7 +1855,6 @@ disseminated rhinosporidiosis
 through composed
 prostaglandin analog
 tafluprost ophthalmic solution
-mainstreaming
 attitudes toward handicapped
 rho gtpase binding
 sema4d gene
@@ -1919,7 +1866,6 @@ alcohol amnestic disorder
 vinbarbital sodium
 alcoholic blackouts
 transient amnesia
-westmead post traumatic amnesia scale
 cognitive information processing
 indirect pathway of movement
 globus pallidus external segment
@@ -1961,40 +1907,28 @@ angular gyrus syndrome
 musical alexia
 math learning disability
 developmental dyscalculia
-opponent process theory
-stimulation
-engram
 foveal
 thought identification
 euphoriant
-fitzhugh nagumo model
-blind spot
 axoplasmic transport
-floor plate
 bioelectrogenesis
 sensory system
 basic science
-interaction theory
-hodgkin huxley model
 electrical conduction system of the heart
 biological neural network
-eye hand coordination
 encoding
 mathematical modeling of electrophysiological activity in epilepsy
 neurobiotics
-first impression
 involuntary action
 ghk flux equation
 mind s eye
 behavior altering parasites and parasitoids
-bell magendie law
 dual brain theory
 cribbing
 screenless
 benham s top
 gamma glutamylmethylamide
 eglumegad
-visuo haptic mixed reality
 neuropsychophysiology
 aboulia
 brodmann area 36
@@ -2006,34 +1940,26 @@ cerebellar theory of dyslexia
 vitreous humour
 brodmann area 35
 5 nonyloxy tryptamine
-cause of obsessive compulsive disorder
 erpeton
 melasma suprarenale
 delsym
-philophobia
 ly 487 379
 fear of mice
 empirical theory of perception
 general somatic efferent fibers
 hereditary neuropathy with pressure palsies hnpp
-biology of obsessive compulsive disorder
-charcot wilbrand syndrome
 sensate focusing
 alpha methylhistamine
 rostrum of corpus callosum
-dolabella
 nerve fiber
 secondary tympanic membrane
-hamilton norwood scale
 cerc 301
-3 4 methylenedioxy n ethylamphetamine
 somatosensory rehabilitation of pain
 tics
 cannabis and memory
 depolarizing pre pulse
 nucleus ventralis posterior lateralis pars oralis
 wide range assessment of memory and learning second edition
-4 meo pcp
 rostral spinocerebellar tract
 geniculate
 anterior trigeminothalamic tract
@@ -2042,20 +1968,16 @@ intralaminar nuclei of thalamus
 vapours
 macula of retina
 general visceral afferent fibers
-lexical gustatory synesthesia
 ly 341 495
 neurolemma
 reentry
 posterior rami syndrome
 cavernous nerves of penis
 prosopagnosia face blindness
-tachycardia dependent bundle branch block
 4 4 dimethylaminorex
 supracallosal gyrus
-albinism deafness syndrome
 serotonergic psychedelic
 neural mechanisms of mindfulness meditation
-dermatome
 electronic media and sleep
 balance problems
 temporal theory
@@ -2063,7 +1985,6 @@ exocortex
 paleopallium
 laminin beta 3
 dyslexia interventions
-anterior median fissure of the medulla oblongata
 prc200
 vision touch and hearing research centre
 human biocomputer
@@ -2076,51 +1997,40 @@ general visceral efferent fibers
 paraterminal gyrus
 lateral olfactory stria
 mirror box
-distal spinal muscular atrophy type 1
 minimum information standards
 cognitive effects of hiv
 uk 414 495
 neurosociology
-orbital part of inferior frontal gyrus
 cp 226 269
 central gelatinous substance of spinal cord
 icd 10 chapter vii diseases of the eye adnexa
-heart rhythm
 cyclopsis tentacularis
 sleep terrors night terrors
 alveus of hippocampus
 gateway drug theory
 neuronal encoding of sound
 telencephalization
-6 cat
 accessible image
 region i of hippocampus proper
 alpha ethyltryptamine
 alpha gpc
 balint s syndrome
 sludge syndrome
-charcot marie tooth disease
-3 4 dichloromethylphenidate
 anterior spinothalamic tract
 repetitive strain injury rsi
 spindle neuron
 shape theory of olfaction
-vulpian heidenhain sherrington phenomenon
-geschwind galaburda hypothesis
 cerebellum granule cell
-say meyer syndrome
 methylhomatropine
 mammillothalamic fasciculus
+facial muscles
 lamellar corpuscle
 pf 2545920
 cyclical alternating pattern
 4 7 dihydroxyflavone
 iofetamine 123i
 addison s disease in canines
-spring fever
-anterior cerebral artery syndrome
 causes of transsexuality
-gamma amino beta hydroxybutyric acid
 general somatic afferent fibers
 music and movement
 developmental maturation
@@ -2266,7 +2176,6 @@ proprioceptive feedbacks
 neuron maturation
 lingual papilla
 gustatory system
-chorda
 gustometer
 salty tastes
 von ebner glands
@@ -2327,7 +2236,6 @@ choline transport
 cholinergic mechanisms
 chronic electrode implants
 interoceptor
-activating function
 ventral spinocerebellar tract
 ferguson reflex
 superior salivatory nucleus
@@ -2532,19 +2440,13 @@ early expiratory
 spinal dermatome
 root reflex
 vertebral nerve
-abductor pollicis muscle
 brachium conjunctivum
 monoethylcholine
 cervical sympathetic trunk
 dorsolateral sulcus
 electronic stimulator
 perceptual adaptation
-chrest
-dehaene changeux model
 pitch music
-filling in
-backward masking
-stimulus response compatibility
 percept
 front rounded vowel
 revenge motivation
@@ -2566,7 +2468,6 @@ stimulus ambiguity
 perceptual closure
 lateral occipital gyrus
 perceptual acuity
-happy face
 object constancy
 threshold perception
 loudness perception
@@ -2685,7 +2586,6 @@ left paracentral lobule
 mood adjective checklist
 near infrared spectrometry
 nir optical imaging
-activity dependent plasticity
 compulsive gambling
 craving
 incentive salience
@@ -2778,7 +2678,6 @@ granular blue
 slow axoplasmic transport
 axonal flow
 retrograde direction
-hering breuer reflex
 gamma loop
 cutaneous trunci
 deep reflex
@@ -2840,7 +2739,6 @@ information processor
 whisking in animals
 electroreception
 special somatic afferent
-sensory processing
 sensory receptor
 gracile nucleus
 sensory status
@@ -2974,7 +2872,6 @@ gambiertoxin
 ciguatoxin poisoning
 chromanol 293b
 ventricular depolarization
-stimulus response model
 optokinetic reflex
 retinal adaptation
 conditioning operant
@@ -3083,8 +2980,6 @@ nystagmograph
 eye muscles
 oculomotor function
 ocular oscillations
-lucas kanade method
-horn schunck method
 image derivatives
 optic flows
 brain derived neurotrophic factor precursor
@@ -3108,7 +3003,6 @@ rhinolophus clivosus
 vespertilio sinensis
 central pattern generator neurons
 socially distributed cognition
-structure organization process
 cognitive assessment system
 symbol grounding
 neurocognitive
@@ -3120,7 +3014,6 @@ empathizing systemizing theory
 representational systems
 naive physics
 cognitive reappraisal
-hard easy effect
 behavioral psychotherapy
 regulation of emotion
 mental process
@@ -3131,11 +3024,9 @@ cognitive training
 visual feature array
 sensorimotor psychotherapy
 mental exercise
-human problem solving
 cognitive deficit
 mental plane
 clinical control group
-rey osterrieth complex figure
 serial ordering
 generalized slowing
 contextual associations
@@ -3314,7 +3205,6 @@ cognition knowledge
 left lingual gyrus
 cortical thinning
 wind sucking
-vertical horizontal illusion
 open channel block
 medullary inspiratory neuron
 cardiac electrophysiology study
@@ -3418,7 +3308,6 @@ respiratory gated imaging techniques
 slit diaphragm assembly
 main nasal cavity
 traumatic anosmia
-aromatic l amino acid decarboxylase
 dopamine beta monooxygenase
 2β propanoyl 3β 4 tolyl tropane
 p tyramine
@@ -3457,15 +3346,10 @@ dopamine drugs
 flupenthixol
 ictal
 eeg fmri
-brain computer interface
-10 20 system
 spectral edge frequency
 nocturnal epilepsy
 dynamic causal modelling
-childhood absence epilepsy
-lennox gastaut syndrome
 epileptic seizure
-lempel ziv complexity
 eeg artefact
 centrencephalic epilepsy
 lip smacking
@@ -3552,7 +3436,6 @@ focal seizure disorder
 focal tonic seizures
 pure photosensitive epilepsy
 sleeping stages
-brainwaves
 idiopathic generalised epilepsy
 ring chromosome 20 epilepsy syndrome
 facial twitching
@@ -3675,13 +3558,9 @@ schwann cell migration
 perineurial cell
 peripheral glial cell
 posterior cutaneous nerve
-stiles crawford effect
 vision in fishes
-blood ocular barrier
 inner limiting membrane
 tectum
-ganglion cell layer
-retinal degeneration
 retinal ganglion
 vertebrate photoreceptor
 normal retina
@@ -3806,7 +3685,6 @@ cold hypersensitivity
 trigeminal nerve injury
 atypical odontalgia
 peripheral neuropathic pain
-pleasure principle
 erotic pleasure
 planaria dorotocephala
 dugesia dorotocephala
@@ -3836,7 +3714,6 @@ amantadine hcl
 amantidine
 amantadine hydrochloride
 amantadine dose
-pupillary reflex
 pupillography
 pupil expansion ring
 wavefront aberrometer
@@ -3874,7 +3751,6 @@ round pupil
 consensual light reflex
 nootropic drugs
 trapezius muscle
-extensor digitorum brevis muscle
 satellite potentials
 anterior tibialis
 right internal oblique
@@ -3970,7 +3846,6 @@ blue cone monochromatism
 laurencia pacifica
 aplysia species
 alpha bag cell peptide
-dolabrifera dolabrifera
 right parietal lobe
 parietal lobe neoplasm
 left parietal lobe
@@ -4049,7 +3924,6 @@ seizures syndromes
 posttraumatic epilepsy
 epileptic attack
 complex seizure disorder
-generalized tonic clonic seizure
 jacksonian seizure
 generalised seizure
 abnormal neuronal migration
@@ -4084,7 +3958,6 @@ cortical tubers
 infantile spasm
 experiential auras
 generalized onset seizures
-temple baraitser syndrome
 situation related seizures
 magnesium valproate
 antiseizure therapy
@@ -4117,7 +3990,6 @@ intractable myoclonic epilepsy
 local seizures
 yuxianling
 microcephaly capillary malformation syndrome
-koolen de vries syndrome
 bilateral convulsive seizures
 minor epilepsy
 intracerebral electroencephalogram
@@ -4125,7 +3997,6 @@ seizure medication
 benign neonatal epilepsy
 tofenacine
 orphenadrine citrate
-astroscopus
 osseous labyrinth
 cba j mouse
 purulent labyrinthitis
@@ -4225,7 +4096,6 @@ torsion spasm
 early onset primary dystonia
 drug induced dystonia
 tongue dystonia
-dyskinetic cerebral palsy
 neuroleptic induced acute dystonia
 dystonia musculorum deformans
 dystonic movements
@@ -4526,7 +4396,6 @@ wound odor
 body odors
 erucyl alcohol
 breath odors
-cyclopis
 long tailed macaque
 macaca nemestrina
 retroperitoneal fibromatosis
@@ -4734,7 +4603,6 @@ shoulder tenderness
 pain tenderness
 longissimus lumborum
 serratus ventralis
-atypical trigeminal neuralgia
 superior maxillary nerve
 atypical neuralgia
 sluder s neuralgia
@@ -4816,7 +4684,6 @@ right lateral rectus muscle
 left superior rectus muscle
 gaze limitation
 right third cranial nerve
-posterior commissure
 medial accessory olivary nucleus
 second sacral segment
 nucleus localization
@@ -5166,9 +5033,7 @@ seasickness
 scopoderm tts
 air sickness
 car sickness
-path goal theory
 astilbe x arendsii
-mayer salovey caruso emotional intelligence test
 i and the me
 cerebellar dentate nucleus
 abnormal cortical lamination
@@ -5204,18 +5069,12 @@ self confidence
 flooding
 psychological well being
 social connectedness
-2 3 4 5 tetrahydro 1 5 methano 1h 3 benzazepine
-parent child interaction therapy
-zung self rating depression scale
 information hypothesis of conditioned reinforcement
 acute stress reaction
 sensory art therapy
-zest
 women s self image
 post traumatic stress disorder ptsd
-identity disorder
 nyctophobia
-self perceived quality of life scale
 work aversion
 presenting problem
 treatments for combat related ptsd
@@ -5223,13 +5082,10 @@ writing motivation
 wise anderson protocol
 emotional well being
 the interpersonal gap
-love and hate
 posttraumatic growth
 betaubungsmittelgesetz
-practitioner scholar model
 therapeutic behavior management
 obsessive compulsive disorder ocd
-intrusiveness
 creative therapy
 marital counseling
 consultant pediatrician
@@ -5383,7 +5239,6 @@ medication abuse
 treatment readiness
 substance abuse counseling
 chemical abuse
-xerochrysum
 raphiolepis indica
 carex plant
 hebe plant
@@ -5493,7 +5348,6 @@ mental illness
 recovery approach
 cidi
 psychiatric and mental health nursing
-attachment based therapy
 adjustment disorders
 serious emotional disturbance
 on psychotropic medication
@@ -5565,7 +5419,6 @@ homicidal thoughts
 alcohol abuse disorder
 parenting status
 childhood mental disorder
-connor davidson resilience scale
 family resiliency
 internal protective factors
 resilience factors
@@ -5598,7 +5451,6 @@ hypnotherapists
 age regression
 hypnotherapist
 mindfulness meditation
-maharishi
 guided meditation
 meditation therapy
 mind body therapies
@@ -5658,7 +5510,6 @@ life satisfaction index b
 parental hostility
 arts therapist
 trichotillomania hair pulling disorder
-studies in natural language processing
 respiratory movements
 abdominal respiratory movements
 pineal structure
@@ -5689,9 +5540,7 @@ falling scale
 1 methyl 3 isobutylxanthine
 3 isobutyl 1 methylxanthine
 4 3 butoxy 4 methoxybenzyl 2 imidazolidinone
-grapheme color synesthesia
 formula 21
-blastomyces
 blastomyces dermatitidis infection
 distress thermometer
 hads questionnaire
@@ -5784,7 +5633,6 @@ psycholinguist
 pulmonary blastomycosis
 acute pulmonary blastomycosis
 ganglion scarpa
-enlarged vestibular aqueduct
 dilated vestibular aqueduct
 crus commune
 cochleosaccular dysplasia
@@ -5891,7 +5739,6 @@ left substantia nigra pars compacta
 somatodendritic dopamine release
 substantia nigra pars lateralis
 cluster b personality disorders
-obsessive compulsive personality disorder
 avoidant personality
 compulsive personality disorder
 axis ii diagnosis
@@ -5910,11 +5757,9 @@ obsessive compulsive personality
 transient situational disturbances
 pathological personality
 cluster c personality disorders
-chinese classification of mental disorders
 sexual sadism
 hysterical personality disorder
 specific personality disorders
-passive aggressive personality disorder
 personality disorder cluster
 borderline schizophrenia
 ansa peduncularis
@@ -5992,7 +5837,6 @@ suicide or suicide attempt
 suicide risk scale
 moderate depression
 moderately severe depression
-leader member exchange theory
 counselor education
 humanistic counseling
 functional dizziness
@@ -6048,7 +5892,6 @@ overvalued idea
 parasitophobia
 hypochondriacal delusion
 delire de negation
-ekbom syndrome
 psychogenic parasitosis
 acarophobia
 mesology
@@ -6275,7 +6118,6 @@ anastomosis arteriovenosa
 myoclonic astatic seizures
 precrime
 constant visual observation
-actor observer asymmetry
 community based corrections
 child sex abuse
 teenage prostitution
@@ -6320,7 +6162,6 @@ victims rights
 pretrial release
 medicine sports
 plea negotiation
-defensible space
 drug decriminalization
 zero tolerance laws
 foot patrol
@@ -6338,7 +6179,6 @@ callosal sulcus
 retrosplenial area
 lateral dorsal nucleus
 formal learning
-cannon bard theory
 lsamp gene
 limbic function
 amygdaloid nuclear complex
@@ -6356,7 +6196,6 @@ taste conditioning
 potassium acesulfame
 calcium cyclamate
 disabling positional vertigo
-non 24 hour sleep wake disorder
 juvenile absence epilepsy
 eyelid myoclonia
 gross motor delay
@@ -6398,7 +6237,6 @@ acute vestibular syndrome
 t2r receptors
 axon terminus
 adrenergic nervous system
-adrenergic agonist
 adrenergic agent
 adrenergic mechanisms
 adrenergic nerves
@@ -6591,7 +6429,6 @@ high pain tolerance
 benign paroxysmal vertigo
 migraine equivalents
 dix hallpike maneuver
-aspm
 normocephaly
 pointed chin
 apple peel intestinal atresia
@@ -6621,7 +6458,6 @@ achievement motive
 affiliation motivation
 affiliation motive
 early infantile autism
-myers briggs type indicator
 happy personality
 cattell personality factor questionnaire
 neurothekeomas
@@ -6629,7 +6465,6 @@ nerve sheath myxomas
 neuroepithelial receptor
 ineffective airway clearance
 adventitious breath sounds
-tumi
 n75 latency
 tractus opticus
 right optic tract
@@ -6746,7 +6581,6 @@ direct ophthalmoscopy
 pigmentary retinal degeneration
 peripheral retinal degeneration
 photoreceptor degeneration
-goldmann favre syndrome
 retina degeneration
 bone spicule pigmentation
 blue cone bipolar cell
@@ -6865,10 +6699,8 @@ frontal sinus inverted papilloma
 hypokalaemic periodic paralysis
 familial hypokalaemic periodic paralysis
 oscillatoria perornata
-masking threshold
 auditory psychophysics
 stevens power law
-weber fechner law
 visual psychophysics
 differential threshold
 normal peripheral vision
@@ -6901,7 +6733,6 @@ tone deafness
 right superior temporal sulcus
 left superior temporal sulcus
 middle temporal sulcus
-temporal sulcus
 prelunate gyrus
 binocular perimetry
 normal vocal quality
@@ -6935,7 +6766,6 @@ biofield therapy
 distance healing
 reiki therapy
 montgomery asberg depression rating scale
-wong baker faces pain rating scale
 direct behavior rating
 behaviour rating scale
 child depression scale
@@ -6955,10 +6785,8 @@ local education authority
 primary school evaluation test
 needs analysis
 great books
-learning theory
 innate intelligence
 production manager
-social emotional learning
 family and consumer science
 theme and variations
 language arts
@@ -6970,39 +6798,29 @@ educology
 technicism
 french immersion
 assessing pupils progress
-children s culture
 intercultural competence
 quicksmart
 pdhpe
-teacher quality
 analytical phonics
 algebra ii
-early childhood
 interculturality
 title iii
 telecollaboration
 local language
-skills for life
 algebra i
 eight dimensional e learning framework
 handicapism
 reading education in the united states
+one to one
 bullying culture
 bias in education
 rate project
-wasl
 black english
-tutor
-social education
 teacher teacher
-bakia
 special english
 deweyism
 cross culture communication
-learning management
-college english
 governmental learning spiral
-educational attainment
 desegregation
 mirel
 participative decision making
@@ -7013,10 +6831,6 @@ basic skills
 online discussion
 study abroad
 respect diversity
-parent teacher conference
-integral education
-ifsp
-entry level
 exceptional child
 teaching aspects
 sex instruction
@@ -7092,18 +6906,13 @@ evaluation students
 teaching principal
 class instruction
 australian language
-biocommunication
 territoriality
 speech code theory
 chorus effect
 audience effect
-levator labii superioris alaeque nasi muscle
 personal message
 elite banana
 boulengeromyrus knoepffleri
-human animal communication
-pheugopedius
-open text
 animal vocalizations
 brown capuchin
 psittacus erithacus
@@ -7115,9 +6924,7 @@ s 23
 money habitudes
 eating disorders
 child abuse neglect
-psychosomatics
 structured clinical interview for dsm iv
-traumatic stress
 genetics of posttraumatic stress disorder
 adolescent turmoil
 psychogenic dyspareunia
@@ -7377,28 +7184,22 @@ human females
 hitting self
 mild mental handicap
 transcultural study
-person environment fit
 personnel promotion
 applying psychology
 industrial foremen
 employment tests
 fitness work
 job experience level
-self knowledge
 negativity effect
 manipulation checks
 anchoring
 human spirit
 inhibition theory
-yerkes dodson law
-priming
 stage theory
 between group design
 pecking order
-psychometry
 mismatch theory
 size of groups organizations and communities
-test theory
 causal chain
 conceptualization
 group mind
@@ -7413,25 +7214,16 @@ reference group
 convergent and divergent production
 eidetic imagery
 raw score
-nurse client relationship
 obedience
-foot in the door technique
 mass hysteria
-self and identity
-intrinsic value
 social dilemma
-field theory
 personal space
 gender psychology
-hypothesis theory
-action theory
 supernatural healing
 naive cynicism
 paranoid social cognition
-peak end rule
 higher self
 interaction styles
-emotive
 gender development
 achievement orientation
 process of embodiment
@@ -7443,31 +7235,23 @@ explosive child
 moral obligation
 functional approach
 anticonformism
-fact value distinction
 religious belief
-dyad
 national stereotypes
-social decision making
 heuristics in judgment and decision making
 social actions
 legal abuse
 analytic frame
 physical punishment
 moral community
-sesamo
 explanatory model
 deci
 epistemics
-judge advisor system
-work family conflict
 absent referent
 scarcity heuristic
 covert
-is ought problem
 group intelligence
 intervening variable
 pentachromacy
-target action
 fragile families and child wellbeing study
 employee voice
 alief
@@ -7476,14 +7260,10 @@ protected values
 web automated human interaction
 rational temperament
 workplace relationships
-relationship obsessive compulsive disorder
 female dominance
-work life interface
 conformist
-gender and language
 helpfulness
 atychiphobia
-blame
 manipulative behaviour
 family tension
 motivation training
@@ -7777,22 +7557,18 @@ camping activity
 adoptive child
 attitudes toward aging
 deja vu
-ideation
 autism
 dual role transvestism
 5 methoxy diisopropyltryptamine
-doctor patient relationship
 3 4 methylenedioxy α pyrrolidinopropiophenone
 hospital warehouse
 alektorophobia
 bruxism teeth grinding
-pandas
 hallucinations and hearing voices
 persistent depressive disorder dysthymia
 conducting zone
 thrombocytopenia low platelet count
 ly 379 268
-2 5 dimethoxy 4 chloroamphetamine
 tranquilizer
 methylisopropyltryptamine
 fear of bats
@@ -7807,42 +7583,30 @@ alpha methyltryptamine
 breath holding spells in children
 latua pubiflora
 2 3 methylenedioxyamphetamine
-2 phenyl 3 6 dimethylmorpholine
 whonamedit
 low blood pressure hypotension
-lovestruck
-n methyl 3 piperidyl benzilate
 rp 5063
 fluoroquinolone associated disability
-pain assessment
 social construct theory of adhd
 albizia inundata
 icd 10 clinical modification
 drug prohibition law
-sally anne test
 legal intoxicant
 imprinted brain theory
 4 methylmethamphetamine
 buhler s anastomotic artery
 medical ventilator
-n ethyl 3 piperidyl benzilate
-2 5 dimethoxy 4 bromoamphetamine
-sturge weber syndrome
 bedsores pressure sores
 service dog
 6 guanidinonaltrindole
 psychoactive toad
 the truman show delusion
 prometa
-procedure code
 mirhosseini holmes walton syndrome
 neurotic excoriations
 tardive dysphrenia
 respiratory tract neoplasm
 lysergic acid diethylamide
-charcot bouchard aneurysm
-blood gas test
-freeman sheldon syndrome
 social construction of schizophrenia
 love rose
 eating disorders and development
@@ -7851,27 +7615,20 @@ crl 40 941
 co codamol
 pseudosenility
 orthostatic hypotension postural hypotension
-tobey ayer test
-meda
 long term effects of alcohol consumption
 cavum septum pellucidum
 overactive disorder associated with mental retardation and stereotyped movements
 anisochromasia
-dry drowning
 myxedematous psychosis
 catamnesis
-comedown
 non violent resistance
 herpesviral encephalitis
 vicks sinex
 chiropractic neurology
 mental breakdown
-taussig bing syndrome
 facial paralysis
 joint hypermobility
-millard gubler syndrome
 daily assessment of symptoms anxiety
-central nervous system cavernous hemangioma
 lacing
 heart racing
 hysterical disorders
@@ -8156,15 +7913,11 @@ flufenazin
 religious stigmata
 smoke marijuana
 mental aberration
-spearman brown prediction formula
-spatial intelligence
-otis lennon school ability test
 nations and intelligence
 laboratory of comparative human cognition lchc
 successful aging
 denver developmental screening test
 intelligence knowns and unknowns
-baby video
 motor speech
 childhood early
 child parents
@@ -8268,7 +8021,6 @@ poor visual attention
 snack time
 neurological model
 thales theorem
-project next
 concepts of physics
 organized games
 achievement attainment
@@ -8401,8 +8153,6 @@ blood vessel tissue
 ocular blood vessel
 eye vasculature
 inside the blood vessel
-hindmarsh rose model
-morris lecar model
 visual short term memory performance
 visual short term memory task
 tympanectomy
@@ -8446,7 +8196,6 @@ social science education
 nature of science
 science enrichment
 laboratory manuals
-ap computer science a
 superseded scientific theories
 traumatic grief
 persistent complex bereavement disorder
@@ -8529,7 +8278,6 @@ job design
 characteristics job
 childhood conduct disorder
 merrill palmer scale
-cascabela
 mesechiteae
 rhodocalyx
 mandevilla illustris
@@ -8590,7 +8338,6 @@ criminal insanity
 forensic psychiatry department
 insanity plea
 dcdc2 gene
-botryoid odontogenic cyst
 rotten kid theorem
 altruistic character
 amobarbital sodium
@@ -8724,7 +8471,6 @@ eye floaters
 dopamine synthesis
 dopamine formation
 bayley infant neurodevelopmental screener
-lee boot effect
 accessory olfactory bulb
 plethodon shermani
 trpc2 gene
@@ -8840,8 +8586,6 @@ vagus nerve stimulator
 voice alteration
 left vagus nerve
 childhood phobias
-obsessive compulsive spectrum
-yale brown obsessive compulsive scale
 panic attacks and panic disorder
 compulsive washing
 compulsive checking
@@ -8991,7 +8735,6 @@ shapiro s syndrome
 temtamy syndrome
 cement spacers
 toddler food
-spatial temporal reasoning
 jolly phonics
 levetiracetam injection
 posttraumatic seizure
@@ -9009,7 +8752,6 @@ chronic depressive disorder
 dysthymic disorder
 vortioxetine hydrobromide
 primary dysthymia
-abductor digiti minimi
 abductor digiti minimi muscle flap
 synapse assembly
 trans synaptic signaling
@@ -9081,7 +8823,6 @@ biotinylated dextranamine
 concrete operations period
 sensorimotor period
 piaget s theory
-grammar translation method
 rlbp1 gene
 ahmed valve
 ahmed tube
@@ -9115,7 +8856,6 @@ teletransporter
 normal mental state
 alveolar hypoventilation
 alveolar hypoventilation syndrome
-person situation debate
 16 personality factor questionnaire
 narcissistic personality traits
 maladaptive personality trait
@@ -9140,7 +8880,6 @@ personality dimension
 introvert personality
 sensory aroma
 apple flavour
-atropa
 datura fastuosa
 parecoxib sodium
 family crisis oriented personal evaluation scales
@@ -9176,7 +8915,6 @@ sensory nystagmus
 nystagmus amplitude
 idiopathic nystagmus
 decerebration procedure
-stanford binet intelligence scales
 wechsler adult intelligence scale 4th edition
 wechsler memory scale revised
 vocabulary subtest
@@ -9367,8 +9105,6 @@ blastomycotic infection
 disseminated blastomycosis
 primary cutaneous blastomycosis
 ajellomyces dermatitidis
-ventral cochlear nucleus
-dorsal cochlear nucleus
 auditory nuclei
 medial superior olive
 anteroventral cochlear nucleus
@@ -9536,7 +9272,6 @@ unexpected panic attack
 panic reaction
 strictosidine synthase activity
 strictosidine glucosidase
-work family enrichment
 neither satisfied nor dissatisfied
 personnel turnover
 occupational tenure
@@ -9554,17 +9289,13 @@ hoffman reflex
 homosynaptic depression
 musical development
 programming
-music learning theory
 tardive akathisia
-galphimia
 galphimine b
 job decision latitude
 augmented browsing
 acquiring language
 phonological delay
 acquiring language skills
-degrees of freedom problem
-ctbs
 motor cortical function
 post stroke pain
 left primary somatosensory cortex
@@ -9643,7 +9374,6 @@ tiapride hydrochloride
 inverted follicular keratosis
 tentorial incisure
 vocal fold cyst
-congenital epulis
 gingival cyst of the adult
 benign fibrous histiocytoma
 capillary hemangioma
@@ -9872,7 +9602,6 @@ right upper eyelid
 bacterial abscess
 indurated skin
 congenital haemangioma
-intracranial epidermoid cyst
 lesion slap
 left retromolar area
 right maxilla
@@ -10076,7 +9805,6 @@ organizational ergonomics
 memory retraining
 verbal memory recall
 metacomprehension
-dunning kruger effect
 metacognitive monitoring
 metaemotion
 strategy training
@@ -10084,8 +9812,6 @@ insight therapy
 poor attention control
 stroop paradigm
 stroop color word test
-spearman s hypothesis
-woodcock johnson tests of cognitive abilities
 iq intelligence quotient
 cultural test bias
 binet test
@@ -10097,7 +9823,6 @@ neurocognitive dysfunction
 general adaptive composite
 neurocognitive tests
 current reality tree
-cattell horn carroll theory
 gds geriatric depression scale
 geriatric depression scale short form
 picture sequence memory test
@@ -10109,7 +9834,6 @@ left anterior cingulate cortex
 gyrus cinguli
 right anterior cingulate cortex
 visual spatial ability
-deese roediger mcdermott paradigm
 computer assisted cognitive training
 behaviour therapist
 right posterior cingulate gyrus
@@ -10200,7 +9924,6 @@ audiation
 music centre
 kodaly method
 turkish music
-noise in music
 postaural approach
 brainwave biofeedback
 nf protocol
@@ -10248,7 +9971,6 @@ magnetic source imaging
 right auditory cortex
 evoked magnetic fields
 gastaut syndrome
-non epileptic seizure
 various seizure types
 eeg monitors
 active sleep
@@ -10278,7 +10000,6 @@ hydantoin syndrome
 fosphenytoine
 distal phalangeal hypoplasia
 2 phenylpropenal
-physiological anisocoria
 unequal pupil size
 physiologic anisocoria
 drug induced akathisia
@@ -10317,7 +10038,6 @@ nucleus reticularis parvocellularis
 nucleus reticularis paramedianus
 medial reticulospinal tract
 nucleus reticularis pontis oralis
-sleep and learning
 zonular laxity
 nafimidone alcohol
 optic nerve sheath hemorrhage
@@ -10517,8 +10237,6 @@ hcnp precursor protein
 xylazine hydrochloride
 ketamine hcl
 detomidine hydrochloride
-middle of the night insomnia
-l 838 417
 zolpidem tartrate
 zolpidem overdose
 zolpidem poisoning
@@ -10593,7 +10311,6 @@ lateral hypothalamic nucleus
 posterior interpositus nucleus
 intravenous patient controlled analgesia
 fentanyl hydrochloride
-student aid
 plantar grasp reflex
 increased startle response
 monitoring evoked potentials
@@ -10689,7 +10406,6 @@ deep transcranial magnetic stimulation
 transcranial alternating current stimulation
 low field magnetic stimulation
 hand muscles
-extensor carpi radialis muscle
 mal de debarquement syndrome
 left flexor carpi radialis
 focal hand dystonia
@@ -10751,8 +10467,6 @@ magic mushroom
 hallucinogenic mushrooms
 psychedelic substances
 nakayama lemma
-quillen suslin theorem
-schanuel s lemma
 esophageal pressure
 esophageal pressure monitoring
 cutaneous sensory nerve
@@ -10835,7 +10549,6 @@ five temperaments
 anger reaction
 temperament testing
 infant irritability
-guilford zimmerman temperament survey
 neonatal irritability
 negative emotionality
 crown crisp experiential index
@@ -10849,7 +10562,6 @@ l m tyrosine
 tryptophan decarboxylase activity
 ddc activity
 aromatic amino acid decarboxylase activity
-aromatic l amino acid decarboxylase deficiency
 aromatic l amino acid decarboxylase activity
 phenylacetaldehyde reductase
 l dopa decarboxylase
@@ -10860,11 +10572,9 @@ anterior chamber cells
 ciliary flush
 respiroviruses
 melatonin receptor binding
-rescorla wagner model
 conditioned inhibition
 unconditioned response
 unconditioned reflex
-hermissenda
 eyelid conditioning
 autonomic conditioning
 aversive conditioning
@@ -10910,7 +10620,6 @@ follicular dendritic cell tumour
 orbital inflammatory pseudotumors
 saccadic pulses
 macrosaccadic oscillations
-linear on the fly testing
 fatigue item bank
 benign occipital epilepsy
 intractable occipital lobe epilepsy
@@ -10979,7 +10688,6 @@ sweaty hands
 algesimeter
 test norms
 northwestern syntax screening test
-james lange theory
 feel fearful
 feeling guilt
 pounding heart
@@ -11027,7 +10735,6 @@ acupuncturist
 mental exhaustion
 quality control specimen
 spiritual quotient
-cvss
 zero day attack
 emotional vulnerability
 vulnerability factors
@@ -11047,7 +10754,6 @@ probation program
 hidden populations
 respondent type
 harm minimization
-big fish little pond effect
 alcohol beverage industry
 alcoholic spouse
 spouse only
@@ -11308,7 +11014,6 @@ moist rales
 nose irritation
 late expiration
 respiratory secretion
-metapneumovirus
 synchronised intermittent mandatory ventilation
 alveolar surface tension
 static lung recoil
@@ -11384,9 +11089,7 @@ inspired desflurane concentration
 end tidal desflurane concentration
 modified aldrete score
 short orientation memory concentration test
-embodied music cognition
 early childhood stage
-intelligibility
 mind extension
 discriminative learning
 forensic psychiatrists
@@ -11454,7 +11157,6 @@ homonymous visual field defect
 paracentral scotoma
 salicilamida
 cyclosomatostatin
-buss perry aggression questionnaire
 bipolar clinic
 mood stabilizing agent
 gymnothorax javanicus
@@ -11550,8 +11252,6 @@ beck depression inventory ii score
 minimal depression
 beck depression inventory score
 proactive inhibition
-atkinson shiffrin memory model
-brown peterson task
 short term memory performance
 shortterm memory
 medium term memory
@@ -11574,7 +11274,6 @@ right superior temporal gyrus
 left superior temporal gyrus
 family gymnotidae
 ap french language
-direct method
 teaching english as a second language
 tibial nerve compression
 tarsal tunnel release
@@ -11611,7 +11310,6 @@ megaderma spasma
 genus rhinolophus
 rhinolophus arcuatus
 fishing bat
-serotonin norepinephrine reuptake inhibitor
 bicyclic antidepressant
 venlafaxine poisoning
 venlafaxine hydrochloride
@@ -11673,7 +11371,6 @@ iris inflammation
 glaucoma implant surgery
 glaucoma monitoring
 anterior synechiae
-posner schlossman syndrome
 traumatic cyclodialysis
 glaucoma screening
 secondary open angle glaucoma
@@ -11787,7 +11484,6 @@ vocational maturity
 occupational interests
 career interest test
 received vocational training
-student teacher ratio
 elementary grade
 learning disabilities nurse
 written expression disorder
@@ -11802,9 +11498,7 @@ ubiquitous learning
 active machine learning
 online assessment
 assessment for learning
-adult learning
 continuing professional development
-dental nurse
 ap world history
 french line
 modelling
@@ -11885,8 +11579,6 @@ hypomanic personality
 diaphragmatic paralysis
 cervical herpes zoster
 furipterus horrens
-coffin siris syndrome
-tatton brown rahman syndrome
 helsmoortel van der aa syndrome
 severe intellectual disabilities
 sexual offending behaviour
@@ -11918,8 +11610,6 @@ penile tumescence
 vaginal photoplethysmography
 sexual excitation
 erotic stimulus
-diagnostic classification of mental health and developmental disorders of infancy and early childhood
-mental health act
 mental disorder prevention
 behavioural screening questionnaire
 conduct problems scale
@@ -11941,7 +11631,6 @@ pteronotus macleayii
 sleep inducers
 spinocervical tract
 dorsal horn cells
-timeml
 postoperative aspiration pneumonia
 arteritic anterior ischaemic optic neuropathy
 episodic tachypnea
@@ -11953,7 +11642,6 @@ radiatio optica
 eye poking
 vitreous veils
 myotis fortidens
-elisionism
 zomepirac sodium
 olfactory sensory epithelium
 olfactory epithelial cell
@@ -12055,7 +11743,6 @@ subcardinal vein
 esophagus reconstruction
 microsurgical anastomosis
 direct anastomosis
-mind body interventions
 health intervention
 responsible alcohol use
 cardiovascular angiography
@@ -12146,7 +11833,6 @@ internet suicide pact
 sexual coercion
 sprains and strains
 youth risk behavior survey
-abuse case
 drunk drivers
 safety behaviors
 deliberate self harm
@@ -12321,10 +12007,8 @@ driving drunk
 property offense
 multiple body regions
 burn centres
-mixed anxiety depressive disorder
 mood disorders
 workplace phobia
-schedule for affective disorders and schizophrenia
 chair yoga
 anthropophobia
 somatisation disorder
@@ -12481,7 +12165,6 @@ intracranial haematoma
 depressed skull fracture
 traumatic extradural hematoma
 occipital fracture
-blood gas partition coefficient
 anesthetic agent
 anesthetic department
 intravenous anesthetics
@@ -12793,7 +12476,6 @@ sobriety checkpoint
 administrative license revocation
 alcohol safety action program
 chronic mood disorder
-uveitis glaucoma hyphema syndrome
 traumatic iritis
 spontaneous hyphaema
 traumatic mydriasis
@@ -12935,10 +12617,8 @@ driving under influence
 suspended license
 attention problems scale
 d methamphetamine
-2 5 dimethoxy 4 methylamphetamine
 n hydroxyamphetamine
 alpha flupenthixol
-hydroxyamphetamine
 p methoxyamphetamine
 amphetamine sulfate
 amphetamine sulphate
@@ -13041,7 +12721,6 @@ helleborus odorus
 genus helleborus
 helleborus multifidus
 pterygopalatine nerve
-arteritic anterior ischemic optic neuropathy
 crowded optic disc
 urrets zavalia syndrome
 persistent mydriasis
