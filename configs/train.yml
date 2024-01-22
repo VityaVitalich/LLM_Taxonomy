@@ -5,15 +5,15 @@ CUDA_VISIBLE_DEVICES:
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 32
+  - 8
 LR:
   - 3e-4
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "TaxonomyEnrichment/data/verb/train_hypernyms_multisense_def.pickle"
+  - "TaxonomyEnrichment/data/psychology/train_hypernyms_def.pickle"
 TEST_DATA_PATH:
-  - "TaxonomyEnrichment/data/verb/test_hypernyms_def.pickle"
+  - "TaxonomyEnrichment/data/psychology/test_hypernyms_def.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,13 +25,13 @@ DTYPE:
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "TaxoEnrich_verb_multisense_32bs_3e-4_no-pretrain"
+- "TaxoEnrich_MAG-PSY_def_8bs_3e-4_def_pretrain"
 QLORA:
 - true
 LOAD_PATH:
-- null #meta-llama-Llama-2-7b-hfonly-wnet-57seed-32bs_epoch=0_MAP=0.23933677520010854.pth
+- meta-llama-Llama-2-7b-hfTaxoEnrich_noun_32bs_3e-4_no-pretrain_def_epoch=0_MAP=0.962030456852792.pth
 USE_DEF_PROMPT:
-- false
+- true
 USE_DEF_TARGET:
 - false
 USE_NUMBER_TARGET:

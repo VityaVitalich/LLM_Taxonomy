@@ -15,7 +15,7 @@ HF_TOKEN = os.environ.get("HF_TOKEN")
 os.environ["TRANSFORMERS_CACHE"] = SAVING_DIR + "hf_cache/"
 os.environ["HF_HOME"] = SAVING_DIR + "hf_cache/"
 
-os.environ["USE_DEF"] = str(use_def)
+os.environ["USE_DEF_PROMPT"] = str(use_def)
 import networkx as nx
 import matplotlib.pyplot as plt
 import torch.nn as nn
