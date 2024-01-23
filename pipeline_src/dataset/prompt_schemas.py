@@ -69,7 +69,7 @@ def predict_child_with_parent_and_grandparent(elem):
     #     + "'. Answer:"
     # )
 
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hyperhypernyms: "
             + clean["grandparents"]
@@ -105,7 +105,7 @@ def predict_child_from_parent(elem):
     #     "Predict hyponyms for the word '" + clean["parents"] + "'.  Answer:"
     # )
 
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hypernym: "
             + clean["parents"]
@@ -136,7 +136,7 @@ def predict_children_with_parent_and_brothers(elem):
     #     + clean["parents"]
     #     + "'. Answer:"
     # )
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hypernym: "
             + clean["parents"]
@@ -170,7 +170,7 @@ def predict_child_from_2_parents(elem):
     #     + clean["parents"][1]
     #     + "'. Answer:"
     # )
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "first hypernym: "
             + clean["parents"][0]
@@ -206,7 +206,7 @@ def predict_parent_from_child_granparent(elem):
     #     + clean["grandparents"]
     #     + "' at the same time. Answer:"
     # )
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hyperhypenym: "
             + clean["grandparents"]

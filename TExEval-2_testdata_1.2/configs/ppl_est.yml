@@ -5,11 +5,11 @@ CUDA_VISIBLE_DEVICES:
 BATCH_SIZE:
   - 32
 MODEL_CHECKPOINT:
-  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet_verb_def"
+  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet_pretrained_FT_MAG_CS_definitions"
 OUT_NAME:
-  - '/home/LLM_Taxonomy/LexicalEntailment/data/ant_pairs_formated_def_ppls.pickle'
+  - '/home/LLM_Taxonomy/TaxonomyEnrichment/data/MAG_CS/all_pairs_ppls.pickle'
 IN_NAME:
-  - '/home/LLM_Taxonomy/LexicalEntailment/data/ant_pairs_formated_def.pickle'
+  - '/home/LLM_Taxonomy/TaxonomyEnrichment/data/MAG_CS/all_pairs.pickle'
 LOAD:
   - false
 USE_DEF:

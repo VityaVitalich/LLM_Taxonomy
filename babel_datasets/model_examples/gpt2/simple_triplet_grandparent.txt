@@ -1,0 +1,770 @@
+hyperhypenym: company.n.1, hyponym: utility.n.1 | hypernym:
+
+predicted: cooperate, cooperativeness, cooperation, cooperation, agreement, trust, trust,
+ 
+true: service,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: company.n.1, hyponym: utility.n.1 | hypernym:
+
+predicted: transportation corporation, utility company, water-power corporation, water-power, utility-
+ 
+true: service,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: intestine.n.1, hyponym: colon.n.1 | hypernym:
+
+predicted: biliary tract, ileal tract, colon, ileum, intestinal tract,
+ 
+true: large intestine,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: intestine.n.1, hyponym: colon.n.1 | hypernym:
+
+predicted: mouth, ileum, ices, ileum, ice, ile
+ 
+true: large intestine,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: area.n.6, hyponym: cross section.n.1 | hypernym:
+
+predicted: bubblestone, block, brick, cross section, tunnel, tunnel, trench,
+ 
+true: section,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: area.n.6, hyponym: cross section.n.1 | hypernym:
+
+predicted: connexion, boundary, cross section, intersection, cross section, vernal line
+ 
+true: section,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: sugar.n.1, hyponym: powdered sugar.n.1 | hypernym:
+
+predicted: sugar syrup, sugar, sugar, or ileenia, ileenia
+ 
+true: granulated sugar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: sugar.n.1, hyponym: powdered sugar.n.1 | hypernym:
+
+predicted: sugar granuline, sugar, eryth-sugar, eryth
+ 
+true: granulated sugar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: marking.n.2, hyponym: band.n.3 | hypernym:
+
+predicted: band, stripe, mark, band, mark, ikron, iphon,
+ 
+true: stripe,
+ 
+intersection: stripe
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.5 EnrichOriginalMRR 0.5 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyperhypenym: marking.n.2, hyponym: band.n.3 | hypernym:
+
+predicted: band, band, marker, stripe, mark, stripe, stripe, marker, mark,
+ 
+true: stripe,
+ 
+intersection: stripe
+
+metrics:  MRR 0.25 MAP 2.72 P@1 0.0 P@3 0.0 P@5 1.0 P@15 3.0 EnrichCorrectedMRR 0.25 EnrichOriginalMRR 0.25 R@1 0.0 R@5 1.0 R@10 3.0 
+
+==========
+hyperhypenym: geological phenomenon.n.1, hyponym: lode.n.1 | hypernym:
+
+predicted: pancake deposit, basalt deposit, ichrome deposit, sedimentary rock,
+ 
+true: deposit,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: geological phenomenon.n.1, hyponym: lode.n.1 | hypernym:
+
+predicted: sea deposit, deposit, deposit, deposit-bearing deposit, deposit-bearing deposit, deposit
+ 
+true: deposit,
+ 
+intersection: deposit
+
+metrics:  MRR 0.5 MAP 2.84 P@1 0.0 P@3 2.0 P@5 2.0 P@15 3.0 EnrichCorrectedMRR 0.5 EnrichOriginalMRR 0.5 R@1 0.0 R@5 2.0 R@10 3.0 
+
+==========
+hyperhypenym: organism.n.1, hyponym: freak.n.1 | hypernym:
+
+predicted: hoid, leopold, lizard, lizard, or snake, ichneumore
+ 
+true: mutant,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: organism.n.1, hyponym: freak.n.1 | hypernym:
+
+predicted: felony, fauna, vertebrates, iba, echinacea, 
+ 
+true: mutant,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: peripheral.n.1, hyponym: dot matrix printer.n.1 | hypernym:
+
+predicted: interoperable microcomputer, icoin, icocell, micro-computer,
+ 
+true: printer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: peripheral.n.1, hyponym: dot matrix printer.n.1 | hypernym:
+
+predicted: paper, paperboard, laser printer, machine, tape print, computer, printer for the
+ 
+true: printer,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: speculation.n.3, hyponym: stake.n.4 | hypernym:
+
+predicted: trader's risk, risk premium, risk premium, cost of living, stock price risk
+ 
+true: gamble,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: speculation.n.3, hyponym: stake.n.4 | hypernym:
+
+predicted: pivot, vernacular stake, lever, stakeout, hedge, hedgepiper
+ 
+true: gamble,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: principle.n.1, hyponym: pillar of Islam.n.1 | hypernym:
+
+predicted: religious, vernacular, vernacular, vernacular, vernacularness
+ 
+true: pillar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: principle.n.1, hyponym: pillar of Islam.n.1 | hypernym:
+
+predicted: hegemony, rule, authority, jurisprudence, and justice, rule, law
+ 
+true: pillar,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: determination.n.1, hyponym: diagnosis.n.1 | hypernym:
+
+predicted: procedure, procedure, procedure, procedure, ikke, ikkeling
+ 
+true: designation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: determination.n.1, hyponym: diagnosis.n.1 | hypernym:
+
+predicted: detection and assessment, izumosis, ichorosis, icedema
+ 
+true: designation,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: drug.n.1, hyponym: vasodilator.n.1 | hypernym:
+
+predicted: sodium, sodium chloride, pentadeptate, sodium hydroxide, ix
+ 
+true: dilator,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: drug.n.1, hyponym: vasodilator.n.1 | hypernym:
+
+predicted: dilation, vasodilation, urning, venous urning, 
+ 
+true: dilator,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: ax.n.1, hyponym: battle-ax.n.1 | hypernym:
+
+predicted: blade, ersatz, irl, ersatz ax, eryth,
+ 
+true: broadax,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: ax.n.1, hyponym: battle-ax.n.1 | hypernym:
+
+predicted: braid, vernier, scimitar, saber, vernier,
+ 
+true: broadax,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: closed curve.n.1, hyponym: loop.n.2 | hypernym:
+
+predicted: closed circle, crosscut, elliptical, circle, double, circle, doublecircle,
+ 
+true: simple closed curve,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: closed curve.n.1, hyponym: loop.n.2 | hypernym:
+
+predicted: converter, circular curve, circle, quadrangular curve, vernal curve
+ 
+true: simple closed curve,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: orthography.n.1, hyponym: hieratic.n.1 | hypernym:
+
+predicted: phonology, philology, philology, philology, hieroglyphics,
+ 
+true: hieroglyph,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: orthography.n.1, hyponym: hieratic.n.1 | hypernym:
+
+predicted: sphonetic, hieroglyphatic, vernacular, phonophantonic
+ 
+true: hieroglyph,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: resistance.n.1, hyponym: backlash.n.2 | hypernym:
+
+predicted: disproportionate reaction, ichinnage, exclusion, exclusion, igenocide
+ 
+true: reaction,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: resistance.n.1, hyponym: backlash.n.2 | hypernym:
+
+predicted: counterattack, counterstrike, iafus, iafinia, ia
+ 
+true: reaction,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: cleric.n.1, hyponym: absolver.n.1 | hypernym:
+
+predicted: assassin, priestess, vicar, blessed servant,  bishop
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: cleric.n.1, hyponym: absolver.n.1 | hypernym:
+
+predicted: pragmatist, vernacularspriest, monk, sixto,
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: depository.n.1, hyponym: maildrop.n.1 | hypernym:
+
+predicted: house, urn, vault, barns, office, basement, library, urn
+ 
+true: drop,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: depository.n.1, hyponym: maildrop.n.1 | hypernym:
+
+predicted: cask, bag, lorry, mail truck, urn, urness,
+ 
+true: drop,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: shape.n.1, hyponym: roundedness.n.1 | hypernym:
+
+predicted: point, pointness, ipsumptitude, and roundedness, iphon
+ 
+true: convexity,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: shape.n.1, hyponym: roundedness.n.1 | hypernym:
+
+predicted: shape, length, length, width, ipsilateralness, ipsilateralness,
+ 
+true: convexity,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: placental.n.1, hyponym: stag.n.2 | hypernym:
+
+predicted: sage placenta, vernal fin, vernal fin, vern
+ 
+true: buck,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: placental.n.1, hyponym: stag.n.2 | hypernym:
+
+predicted: shelter, iba, deer, lynx, iba, lynx,
+ 
+true: buck,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: ethyl alcohol.n.1, hyponym: methylated spirit.n.1 | hypernym:
+
+predicted: diethyl acetate, acetate, erythrole, methyl alcohol, alcohol
+ 
+true: denatured alcohol,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: ethyl alcohol.n.1, hyponym: methylated spirit.n.1 | hypernym:
+
+predicted: caffeine, erythroid, ichloroacetate, ery
+ 
+true: denatured alcohol,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: legal right.n.1, hyponym: right to vote.n.1 | hypernym:
+
+predicted: freedom of voting, the freedom of assembly, the free exercise of religion, the right to
+ 
+true: franchise,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: legal right.n.1, hyponym: right to vote.n.1 | hypernym:
+
+predicted: privilege, right of appeal, right to cause, right to be heard, right to
+ 
+true: franchise,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: increase.n.5, hyponym: incorporation.n.3 | hypernym:
+
+predicted: incorporation, izor, incorporation, xtraction, icespilling
+ 
+true: inclusion,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: increase.n.5, hyponym: incorporation.n.3 | hypernym:
+
+predicted: integration, expansion, multiplication, multiplication, multiplication, ikos, multiplication, 
+ 
+true: inclusion,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: furniture.n.1, hyponym: bed.n.1 | hypernym:
+
+predicted: furniture, bed, table, couch, couch, urn, bedding,
+ 
+true: bedroom furniture,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: furniture.n.1, hyponym: bed.n.1 | hypernym:
+
+predicted: pantelier, toilet, bedding, urn, table, urner
+ 
+true: bedroom furniture,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: hydrocarbon.n.1, hyponym: benzene.n.1 | hypernym:
+
+predicted: carbon dioxide, carbon, nitrous oxide, chloroform, carbon dioxide, 
+ 
+true: aromatic hydrocarbon,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: hydrocarbon.n.1, hyponym: benzene.n.1 | hypernym:
+
+predicted: benzene, acetylene, acetic acid, erythrocyte,
+ 
+true: aromatic hydrocarbon,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: fraction.n.3, hyponym: decimal fraction.n.1 | hypernym:
+
+predicted: fractional fraction, exponentiation, expiation, exponentiation, quadratic fraction
+ 
+true: proper fraction,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: fraction.n.3, hyponym: decimal fraction.n.1 | hypernym:
+
+predicted: fifty-second, fraction, decimal, second, double, decimal, fourth, sevent
+ 
+true: proper fraction,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: operation.n.5, hyponym: expedition.n.1 | hypernym:
+
+predicted: mission, success, failure, vernacular, failure, failure, vernacular,
+ 
+true: campaign,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: operation.n.5, hyponym: expedition.n.1 | hypernym:
+
+predicted: attack, occupation, conquest, occupation, ileoven, icovenamenta
+ 
+true: campaign,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: lawman.n.1, hyponym: wardress.n.1 | hypernym:
+
+predicted: woman warder, nurse, vernish, vernish, vernishman
+ 
+true: warder,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: lawman.n.1, hyponym: wardress.n.1 | hypernym:
+
+predicted: battalion officer,  pauper, battalion officer, 
+ 
+true: warder,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: cleric.n.1, hyponym: absolver.n.1 | hypernym:
+
+predicted: priest, bishop, deacons, ordo, bishop, ordinaries, priest
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: cleric.n.1, hyponym: absolver.n.1 | hypernym:
+
+predicted: faction, cleric, bishop, ibrateor, priest  in church,
+ 
+true: pardoner,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: change of integrity.n.1, hyponym: cut.n.16 | hypernym:
+
+predicted: clay, cut, crease, cut, cut, fold, crease, double
+ 
+true: opening,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: change of integrity.n.1, hyponym: cut.n.16 | hypernym:
+
+predicted: flip, shift, shift, shift, twist, twist, turn, change of tone
+ 
+true: opening,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: semidarkness.n.1, hyponym: shadow.n.1 | hypernym:
+
+predicted: darkness, darkness, darkening, vernacular, vernacular vernacular
+ 
+true: shade,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: semidarkness.n.1, hyponym: shadow.n.1 | hypernym:
+
+predicted: lightness, shadowiness, shadowness, shadowness, obscuration, shadowness,
+ 
+true: shade,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: loaf of bread.n.1, hyponym: fish loaf.n.1 | hypernym:
+
+predicted: dumbed dumbed dumb, iced dumbed dumbed,
+ 
+true: meat loaf,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: loaf of bread.n.1, hyponym: fish loaf.n.1 | hypernym:
+
+predicted: fish loaf, pâté, ichthyaki, iced brown bread loaf
+ 
+true: meat loaf,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: cartilaginous fish.n.1, hyponym: chimaera.n.3 | hypernym:
+
+predicted: chimera, ichthyosaur, ichthyosis, ichthy
+ 
+true: holocephalan,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: cartilaginous fish.n.1, hyponym: chimaera.n.3 | hypernym:
+
+predicted: pigtail, urchin, urchin-eye fish, urchin
+ 
+true: holocephalan,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: assertion.n.1, hyponym: negation.n.2 | hypernym:
+
+predicted: restatement of opinion, vernacular expression, affirmation, refutation, negation,
+ 
+true: denial,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: assertion.n.1, hyponym: negation.n.2 | hypernym:
+
+predicted: pretense, presumption, vernacular expression, or use, vernacular vern
+ 
+true: denial,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: right.n.1, hyponym: door.n.3 | hypernym:
+
+predicted: sign, door, signpost, urn, urn-invisibility, 
+ 
+true: entree,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyperhypenym: right.n.1, hyponym: door.n.3 | hypernym:
+
+predicted: door, door, urn, urner, urner, urn-
+ 
+true: entree,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
