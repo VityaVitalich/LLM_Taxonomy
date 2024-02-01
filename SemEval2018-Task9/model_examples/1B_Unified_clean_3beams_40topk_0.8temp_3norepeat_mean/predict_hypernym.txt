@@ -1,0 +1,374 @@
+hyponym: lux | hypernym:
+
+predicted: unit of measurement, unit, measurement, measurement unit, metric unit, linear unit, standard unit, customary unit, centimeter, centimetre, metric
+ 
+true: unità di misura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lux | hypernym:
+
+predicted: unit of measurement, unit, measurement, measurement unit, metric unit, linear unit, standard unit, customary unit, centimeter, centimetre, cent
+ 
+true: unità di misura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: fesso | hypernym:
+
+predicted: italian word, italian, italo-davideglian, davidegian, davidian, dialettal, d
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: fesso | hypernym:
+
+predicted: italian word, italian, italo-davideglian, davidegian, davidian, dialec, dial
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: musicalità | hypernym:
+
+predicted: musicality, musicality of voice, musical quality, musical sound, musical timbre, musical tone, musicalness, musical property, musical characteristic, musical feature
+ 
+true: sonorità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: musicalità | hypernym:
+
+predicted: musicality, musicality of voice, musical quality, musical sound, musical timbre, musical tone, musicalness, musical property, musical attribute, musical characteristic
+ 
+true: sonorità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: spazio vitale | hypernym:
+
+predicted: space, area, area unit, geographical area, geographic area, tract, tract of land, tractable land, geological formation, geologic
+ 
+true: spazio,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: spazio vitale | hypernym:
+
+predicted: space, area, area unit, geographical area, geographic area, tract, tract of land, tractable land, geological formation, geomorphological
+ 
+true: spazio,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grappolo | hypernym:
+
+predicted: grape, grapefruit, citrus fruit, citriform fruit, fruit, edible fruit, fleshy fruit, soft fruit, true
+ 
+true: infiorescenza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grappolo | hypernym:
+
+predicted: grape, grapefruit, citrus fruit, citriform fruit, fruit, edible fruit, fleshy fruit, plant fruit, true
+ 
+true: infiorescenza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: bandolo | hypernym:
+
+predicted: word, linguistic phenomenon, language unit, language factor, linguistics, linguist's fact, language element, language component, linguoid, lingu
+ 
+true: estremità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: bandolo | hypernym:
+
+predicted: word, linguistic phenomenon, language unit, language factor, linguistics, linguist's fact, language element, language property, linguoid, lingu
+ 
+true: estremità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: associazione | hypernym:
+
+predicted: association, association, club, clubbism, clubism, clique, cliquishness, cliques, associationism, associationist, associationists
+ 
+true: unione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: associazione | hypernym:
+
+predicted: association, association, club, clubbism, clubism, clique, cliquishness, cliques, group, group action, group activity,
+ 
+true: unione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: partito | hypernym:
+
+predicted: party, political party, party, faction, political group, political organization, political unit, political entity, political grouping, political association, political body, political
+ 
+true: organizzazione politica,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: partito | hypernym:
+
+predicted: party, political party, party, faction, political group, political organization, political unit, political entity, political grouping, political association, political club, political
+ 
+true: organizzazione politica,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: motilità | hypernym:
+
+predicted: motion, movement, movement of an object, bodily motion, locomotion, movement by locomoting, motion of an organism, animal motion,
+ 
+true: mobilità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: motilità | hypernym:
+
+predicted: motion, movement, movement of an object, bodily motion, locomotion, movement by locomoting, motion of an organism, animal movement,
+ 
+true: mobilità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: avventuriero | hypernym:
+
+predicted: swindler, fraud, deceiver, deceitful person, cheat, crook, wrongdoer, miscreant, rascal,
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: avventuriero | hypernym:
+
+predicted: swindler, fraud, deceiver, deceitful person, cheat, crook, wrongdoer, miscreant, misdemean
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: osservazione | hypernym:
+
+predicted: observation, notice, noticeable phenomenon, noticeableness, percept, perception, cognition, cognitive content, cognizance, cogn
+ 
+true: considerazione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: osservazione | hypernym:
+
+predicted: observation, notice, noticeable phenomenon, noticeableness, percept, perception, cognition, cognitive content, cognizance, notice
+ 
+true: considerazione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: composizione | hypernym:
+
+predicted: composition, literary work, literary production, literary creation, literary property, literary asset, literary output, literary product, literary material, literary matter, written material,
+ 
+true: opera musicale,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: composizione | hypernym:
+
+predicted: composition, literary work, literary production, literary creation, literary property, literary asset, literary output, literary product, literary material, literary matter, literary piece,
+ 
+true: opera musicale,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: equilibrio | hypernym:
+
+predicted: balance, equilibrium, steadiness, steadfastness, balance of power, stability, stability of state, consistency, constancy, consistence, stead,
+ 
+true: stato termodinamico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: equilibrio | hypernym:
+
+predicted: balance, equilibrium, steadiness, steadfastness, balance of power, stability, stability of state, consistency, constancy, consistence, constaten
+ 
+true: stato termodinamico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: rilevamento | hypernym:
+
+predicted: measurement, measurement unit, measurement standard, standard, unit of measurement, standard unit, unit, standardization, standardisation, standardize, standardise, standard
+ 
+true: indagine,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: rilevamento | hypernym:
+
+predicted: measurement, measurement unit, measurement standard, standard, unit of measurement, standard unit, unit, standardization, standardisation, standardized unit, metric unit,
+ 
+true: indagine,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: occhiello | hypernym:
+
+predicted: word, wording, phrase, expression, expression of speech, linguistic phenomenon, language unit, language item, language factor, language element, linguistics
+ 
+true: buco,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: occhiello | hypernym:
+
+predicted: word, wording, phrase, expression, expression of speech, linguistic phenomenon, language unit, language item, language factor, language property, linguistics
+ 
+true: buco,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lago Trasimeno | hypernym:
+
+predicted: lake, body of water, watercourse, waterway, water, natural depression, natural elevation, depression of the earth's surface, elev
+ 
+true: lago,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lago Trasimeno | hypernym:
+
+predicted: lake, body of water, watercourse, waterway, water, natural depression, natural elevation, depression of the land, elevation of the
+ 
+true: lago,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: previsione | hypernym:
+
+predicted: prediction, forecast, prognostication, prophecy, augury, divination, foretelling, seer's stone, se
+ 
+true: predizione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: previsione | hypernym:
+
+predicted: prediction, forecast, prognostication, prophecy, augury, divination, foretelling, seer's sight, sight
+ 
+true: predizione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
