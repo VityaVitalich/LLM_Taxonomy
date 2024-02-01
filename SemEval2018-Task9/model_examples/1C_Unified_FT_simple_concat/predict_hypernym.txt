@@ -1,0 +1,594 @@
+hyponym: turbiedad | hypernym:
+
+predicted: turba, turbión, turbación, turbulencia, turbulencia
+ 
+true: opacidad,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: turbiedad | hypernym:
+
+predicted: turbulencia, perturbación, turbulencia atmosférica, turbulencia,
+ 
+true: opacidad,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: afelio | hypernym:
+
+predicted: límite, frontera, límite superior, límite inferior,
+ 
+true: localización,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: afelio | hypernym:
+
+predicted: nombre de pila, nombre de pila, nombre de persona, nombre de pila
+ 
+true: localización,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: carmesí | hypernym:
+
+predicted: rojo, color rojo, rojizo, colorante, pigmento
+ 
+true: rojo,
+ 
+intersection: rojo
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: carmesí | hypernym:
+
+predicted: rojo, rojizo, colorante, colorante alimentario, colorante natural
+ 
+true: rojo,
+ 
+intersection: rojo
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: Changzhou | hypernym:
+
+predicted: ciudad, urbe, ciudad-pueblo, ciudad-municipio, municipio
+ 
+true: ciudad-prefectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: Changzhou | hypernym:
+
+predicted: ciudad, urbe, metrópolis, ciudad grande, metrópoli,
+ 
+true: ciudad-prefectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: elocución | hypernym:
+
+predicted: declamación, recitación, lectura, recitado, lectura p
+ 
+true: expresión,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: elocución | hypernym:
+
+predicted: declamación, oratoria, discurso, charla, discurso
+ 
+true: expresión,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grapadora | hypernym:
+
+predicted: juego de mesa, juego de tablero, juego de mesa, juego,
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grapadora | hypernym:
+
+predicted: ardilla, roedor, rata, ratón, ardilla voladora
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: ciruela | hypernym:
+
+predicted: frutal, fruto, árbol, fruto frutificante, ár
+ 
+true: fruta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: ciruela | hypernym:
+
+predicted: frutal, frutas, fruto, árbol, fruto maduro
+ 
+true: fruta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: aldaba | hypernym:
+
+predicted: campana, campana de anillo, campana, instrumento de percusión
+ 
+true: pieza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: aldaba | hypernym:
+
+predicted: martillo, maza, martillo de trabajo, martillo de herramientas
+ 
+true: pieza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: pectoral | hypernym:
+
+predicted: escudo, plato, pala, escudo, cartela, carta,
+ 
+true: músculo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: pectoral | hypernym:
+
+predicted: brazo, brazo derecho, brazo izquierdo, brazo, extrem
+ 
+true: músculo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: megalitismo | hypernym:
+
+predicted: antropología, arqueología, investigación, estudio, investigación científica,
+ 
+true: arquitectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: megalitismo | hypernym:
+
+predicted: religión, religión naturalista, religión primitiva, religión pagana,
+ 
+true: arquitectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: arenero | hypernym:
+
+predicted: trabajador, persona, obrero, trabajadora, trabajador manual, persona humana
+ 
+true: juguete,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: arenero | hypernym:
+
+predicted: carretero, transporte, conductor, persona, vehículo, conductora, trans
+ 
+true: juguete,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: protista | hypernym:
+
+predicted: microorganismo, microdocible, microorganismo unicelular, microdo
+ 
+true: microorganismo,
+ 
+intersection: microorganismo
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: protista | hypernym:
+
+predicted: microorganismo, microorganismo unicelular, unicelular, micro
+ 
+true: microorganismo,
+ 
+intersection: microorganismo
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: número atómico | hypernym:
+
+predicted: número natural, número entero, entero, número, número completo, entero
+ 
+true: cantidad definida,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: número atómico | hypernym:
+
+predicted: número, entero, entero natural, entero, número natural, entero comple
+ 
+true: cantidad definida,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: efusión | hypernym:
+
+predicted: exceso, abundancia, volumen, extensión, superficie, extensión espa
+ 
+true: proceso químico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: efusión | hypernym:
+
+predicted: emoción, expresión, sentimiento, fenómeno, fenómeno natural
+ 
+true: proceso químico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: mansarda | hypernym:
+
+predicted: ático, ático, techo, cubierta, bóveda,
+ 
+true: ventana,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: mansarda | hypernym:
+
+predicted: alero, alero de techo, alero de cabina, alero,
+ 
+true: ventana,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: carga explosiva | hypernym:
+
+predicted: explosión, detonación, detonador, explosivo, explosivo ordinario
+ 
+true: explosivo,
+ 
+intersection: explosivo
+
+metrics:  MRR 0.25 MAP 0.94 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.25 EnrichOriginalMRR 0.25 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: carga explosiva | hypernym:
+
+predicted: explosión, detonación, explosivo, munición, arma de fu
+ 
+true: explosivo,
+ 
+intersection: explosivo
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.3333333333333333 EnrichOriginalMRR 0.3333333333333333 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: percentil | hypernym:
+
+predicted: estadística, estadística descriptiva, estadística aplicada, estadística aplicada a
+ 
+true: calificación,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: percentil | hypernym:
+
+predicted: proporción, relación, fracción, fracción continua, frac
+ 
+true: calificación,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: confit | hypernym:
+
+predicted: dulce, postre, pastel, tarta, pastel de carne
+ 
+true: plato,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: confit | hypernym:
+
+predicted: conserva, salchichón, salchicha, salchicha de cerdo
+ 
+true: plato,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: restaurador | hypernym:
+
+predicted: restaurador, restauradora, restaurador de pinturas, restaurador de muebles
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: restaurador | hypernym:
+
+predicted: restaurador de vidrio, restaurador de cristal, restaurador, limpiador
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: torturador | hypernym:
+
+predicted: torturador, torturador, torturador de prisioneros, tortur
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: torturador | hypernym:
+
+predicted: torturador, torturador de animales, torturador de prisioneros
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: cosechador | hypernym:
+
+predicted: arado, herramienta agrícola, arado de arado, ar
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: cosechador | hypernym:
+
+predicted: agricultor, persona, trabajador, obrero, jornalero, trabajadora,
+ 
+true: persona,
+ 
+intersection: persona
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.5 EnrichOriginalMRR 0.5 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: velcro | hypernym:
+
+predicted: tela, tela de lino, tela de lana, tela,
+ 
+true: textil,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: velcro | hypernym:
+
+predicted: tela, tela de lino, tela de cuero, tela de
+ 
+true: textil,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: geodésica | hypernym:
+
+predicted: instrumento de medición, instrumento de medida, instrumento de medida de
+ 
+true: recta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: geodésica | hypernym:
+
+predicted: topógrafo, cartógrafo, mapista, cartógrafo,
+ 
+true: recta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: tetraedro | hypernym:
+
+predicted: poliedro, poliedro convexo, poliedro regular, poliedro
+ 
+true: poliedro,
+ 
+intersection: poliedro
+
+metrics:  MRR 1.0 MAP 1.94 P@1 1.0 P@3 1.0 P@5 2.0 P@15 2.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 2.0 R@10 2.0 
+
+==========
+hyponym: tetraedro | hypernym:
+
+predicted: poliedro, poliedro convexo, poliedro regular, poliedro
+ 
+true: poliedro,
+ 
+intersection: poliedro
+
+metrics:  MRR 1.0 MAP 1.94 P@1 1.0 P@3 1.0 P@5 2.0 P@15 2.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 2.0 R@10 2.0 
+
+==========
+hyponym: detonador | hypernym:
+
+predicted: arma, armamento, arma de fuego, arma de mano, ar
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: detonador | hypernym:
+
+predicted: detonador, artefacto, explosivo, explosión, estallido,
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: tesorero | hypernym:
+
+predicted: contador, contable, cobrador, cajero, cobr
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: tesorero | hypernym:
+
+predicted: empleado, persona, trabajador, empleado municipal, empleado público, funcionario
+ 
+true: persona,
+ 
+intersection: persona
+
+metrics:  MRR 0.5 MAP 0.98 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.5 EnrichOriginalMRR 0.5 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: crisálida | hypernym:
+
+predicted: caparazón, caparazón de huevo, caparazón
+ 
+true: condición,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: crisálida | hypernym:
+
+predicted: escarabeo, insecto, arthropoda, artrópodo,
+ 
+true: condición,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========

@@ -1,0 +1,374 @@
+hyponym: lux | hypernym:
+
+predicted: grandezza, grandezza fisica, grandezza, magnitudine, grandezza ass
+ 
+true: unità di misura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lux | hypernym:
+
+predicted: grandezza, grandezza angolare, grandezza, grandezza fisica, dimens
+ 
+true: unità di misura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: fesso | hypernym:
+
+predicted: chiave, chiave di accesso, chiave, dispositivo
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: fesso | hypernym:
+
+predicted: burrone, canale, passaggio, passo, passaggio a livello
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: musicalità | hypernym:
+
+predicted: carattere, caratteristica, qualità, proprietà, carattere, capacità,
+ 
+true: sonorità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: musicalità | hypernym:
+
+predicted: capacità, dottozza, abilità, talento, sensibilità,
+ 
+true: sonorità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: spazio vitale | hypernym:
+
+predicted: spazio, area, zona, sfera, ambiente, spazio
+ 
+true: spazio,
+ 
+intersection: spazio
+
+metrics:  MRR 1.0 MAP 1.9 P@1 1.0 P@3 1.0 P@5 1.0 P@15 2.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 2.0 
+
+==========
+hyponym: spazio vitale | hypernym:
+
+predicted: spazio, spazio fisico, spazio abitabile, spaz
+ 
+true: spazio,
+ 
+intersection: spazio
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: grappolo | hypernym:
+
+predicted: elemento, struttura, elemento architettonico, elemento strutturale,
+ 
+true: infiorescenza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grappolo | hypernym:
+
+predicted: frutto, seme, prodotto agricolo, elemento di struttura
+ 
+true: infiorescenza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: bandolo | hypernym:
+
+predicted: elemento, dispositivo, meccanismo, disposizione, disposizione arch
+ 
+true: estremità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: bandolo | hypernym:
+
+predicted: elemento, dispositivo, oggetto, chiave, chiave
+ 
+true: estremità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: associazione | hypernym:
+
+predicted: legame, alleanza, accordo, comunità, gruppo, società, associa
+ 
+true: unione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: associazione | hypernym:
+
+predicted: organizzazione, comunità, cooperazione, gruppo, unione, legame,
+ 
+true: unione,
+ 
+intersection: unione
+
+metrics:  MRR 0.2 MAP 0.92 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.2 EnrichOriginalMRR 0.2 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: partito | hypernym:
+
+predicted: associazione, gruppo, fazione, movimento, partito politico, partito
+ 
+true: organizzazione politica,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: partito | hypernym:
+
+predicted: sistema sociale, gruppo, gruppo di persone, categoria, categoria sociale, categoria
+ 
+true: organizzazione politica,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: motilità | hypernym:
+
+predicted: movimento, motricità, movimento, mobilità, movimentazione, mov
+ 
+true: mobilità,
+ 
+intersection: mobilità
+
+metrics:  MRR 0.25 MAP 0.94 P@1 0.0 P@3 0.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.25 EnrichOriginalMRR 0.25 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: motilità | hypernym:
+
+predicted: movimento, movimento, motricità, mobilità, mobilità, mobilità
+ 
+true: mobilità,
+ 
+intersection: mobilità
+
+metrics:  MRR 0.25 MAP 2.76 P@1 0.0 P@3 0.0 P@5 2.0 P@15 3.0 EnrichCorrectedMRR 0.25 EnrichOriginalMRR 0.25 R@1 0.0 R@5 2.0 R@10 3.0 
+
+==========
+hyponym: avventuriero | hypernym:
+
+predicted: persona, persona di sesso maschile, persona, uomo, gentilu
+ 
+true: persona,
+ 
+intersection: persona
+
+metrics:  MRR 1.0 MAP 1.96 P@1 1.0 P@3 2.0 P@5 2.0 P@15 2.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 2.0 R@10 2.0 
+
+==========
+hyponym: avventuriero | hypernym:
+
+predicted: persona, persona fisica, persona, uomo, gentiluomo, gentil
+ 
+true: persona,
+ 
+intersection: persona
+
+metrics:  MRR 1.0 MAP 1.96 P@1 1.0 P@3 2.0 P@5 2.0 P@15 2.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 2.0 R@10 2.0 
+
+==========
+hyponym: osservazione | hypernym:
+
+predicted: osservazione, osservazione scientifica, osservazione fisica, osserv
+ 
+true: considerazione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: osservazione | hypernym:
+
+predicted: passo, osservazione scientifica, notazione, ricerca scientifica, sc
+ 
+true: considerazione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: composizione | hypernym:
+
+predicted: disciplina, arte, arte visiva, scultura, pittura, musica,
+ 
+true: opera musicale,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: composizione | hypernym:
+
+predicted: articolazione, struttura, struttura architettonica, struttura, arch
+ 
+true: opera musicale,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: equilibrio | hypernym:
+
+predicted: bilanciamento, equilibrio fisico, equilibrio chimico, equilibrio chimico
+ 
+true: stato termodinamico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: equilibrio | hypernym:
+
+predicted: bilanciamento, equilibrio fisico, bilanciamento, equilibrio chimico,
+ 
+true: stato termodinamico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: rilevamento | hypernym:
+
+predicted: studio, osservazione, indagine, investigazione, analisi, analisi scientific
+ 
+true: indagine,
+ 
+intersection: indagine
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.3333333333333333 EnrichOriginalMRR 0.3333333333333333 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: rilevamento | hypernym:
+
+predicted: processo, analisi, indagine, investigazione, studio, esame, anal
+ 
+true: indagine,
+ 
+intersection: indagine
+
+metrics:  MRR 0.3333333333333333 MAP 0.96 P@1 0.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 0.3333333333333333 EnrichOriginalMRR 0.3333333333333333 R@1 0.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: occhiello | hypernym:
+
+predicted: occhiali, protezione, gioiello, accessorio, oggetto
+ 
+true: buco,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: occhiello | hypernym:
+
+predicted: cilindro, cilindro ottuso, cilindro roton
+ 
+true: buco,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lago Trasimeno | hypernym:
+
+predicted: lago, bacino, laguna, bacino di acqua, acqu
+ 
+true: lago,
+ 
+intersection: lago
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: lago Trasimeno | hypernym:
+
+predicted: lago, basso, lago di montagna, basso, laghetto
+ 
+true: lago,
+ 
+intersection: lago
+
+metrics:  MRR 1.0 MAP 1.0 P@1 1.0 P@3 1.0 P@5 1.0 P@15 1.0 EnrichCorrectedMRR 1.0 EnrichOriginalMRR 1.0 R@1 1.0 R@5 1.0 R@10 1.0 
+
+==========
+hyponym: previsione | hypernym:
+
+predicted: proiezione, profezia, ipotesi, congettura, ind
+ 
+true: predizione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: previsione | hypernym:
+
+predicted: anticipazione, anticipazione, proiezione, congettura, presagio
+ 
+true: predizione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========

@@ -1,0 +1,594 @@
+hyponym: turbiedad | hypernym:
+
+predicted: confusion, disarray, disorderliness, disorganization, untidiness, unruliness, confusion, mess, messiness, clutter
+ 
+true: opacidad,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: turbiedad | hypernym:
+
+predicted: confusion, disarray, disorderliness, disorganization, untidiness, unruliness, confusion, mess, messiness, disarr
+ 
+true: opacidad,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: afelio | hypernym:
+
+predicted: spanish, spanish word, word, lexical item, lexeme, linguistic unit, lexicographical item, expression, expression of speech, lingu
+ 
+true: localización,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: afelio | hypernym:
+
+predicted: spanish, spanish word, word, lexical item, lexeme, linguistic unit, lexicographical item, expression, expression of speech, utter
+ 
+true: localización,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: carmesí | hypernym:
+
+predicted: color, coloring, coloration, colorfulness, color, hue, huesness, chroma, chromaticity, chromatism,
+ 
+true: rojo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: carmesí | hypernym:
+
+predicted: color, coloring, coloration, colorfulness, color, hue, huesness, chroma, chromaticity, saturation,
+ 
+true: rojo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: Changzhou | hypernym:
+
+predicted: chinese city, chinese large city, city, large town, large municipality, municipality, city of china, china city, administrative district, administrative
+ 
+true: ciudad-prefectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: Changzhou | hypernym:
+
+predicted: chinese city, chinese large city, city, large town, large municipality, municipality, city of china, china city, administrative district, district
+ 
+true: ciudad-prefectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: elocución | hypernym:
+
+predicted: speech, oratory, discourse, talk, talkback, address, addressing, addressal, delivery, delivery of a message, delivery speech, delivery
+ 
+true: expresión,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: elocución | hypernym:
+
+predicted: speech, oratory, discourse, talk, talkback, address, addressing, addressal, delivery, delivery of a speech, delivery oral communication
+ 
+true: expresión,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grapadora | hypernym:
+
+predicted: word, word of the english language, english word, lexical item, lexeme, linguistic unit, lexicographical item, linguistics,
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grapadora | hypernym:
+
+predicted: word, word of the english language, english word, lexical item, lexeme, linguistic unit, lexicographic item, linguistics,
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: ciruela | hypernym:
+
+predicted: fruit, fruiting, fruitage, fruitfulness, fructification, fruit, product, productiveness, productivity, production, growth, increase,
+ 
+true: fruta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: ciruela | hypernym:
+
+predicted: fruit, fruiting, fruitage, fruitfulness, fructification, fruit, product, productiveness, productivity, production, result, outcome,
+ 
+true: fruta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: aldaba | hypernym:
+
+predicted: spanish, spanish word, word, linguistic phenomenon, language unit, language factor, language element, language property, language feature, language characteristic,
+ 
+true: pieza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: aldaba | hypernym:
+
+predicted: spanish, spanish word, word, linguistic phenomenon, language unit, language factor, language element, language property, language feature, language faculty
+ 
+true: pieza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: pectoral | hypernym:
+
+predicted: muscle, muscle fiber, fibril, fibre, sinew, fibromuscle, fibrous tissue, animal tissue
+ 
+true: músculo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: pectoral | hypernym:
+
+predicted: muscle, muscle fiber, fibril, fibre, sinew, fibromuscle, fibrous tissue, tough fi
+ 
+true: músculo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: megalitismo | hypernym:
+
+predicted: bigotry, prejudice, bias, intolerance, discrimination, racism, anti-semitism, antisemitism
+ 
+true: arquitectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: megalitismo | hypernym:
+
+predicted: bigotry, prejudice, bias, intolerance, discrimination, dislike, disfavor, displeasure, ill will
+ 
+true: arquitectura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: arenero | hypernym:
+
+predicted: spanish word, spanish, word, language, language of communication, linguistic communication, communication of information, communication, oral communication, written communication,
+ 
+true: juguete,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: arenero | hypernym:
+
+predicted: spanish word, spanish, word, language, language of communication, linguistic communication, communication of information, communication, oral communication, verbal communication
+ 
+true: juguete,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: protista | hypernym:
+
+predicted: kingdom, biological group, taxonomic group, division, taxa, taxonomy, taxon, group, group of animals, animal group, animal
+ 
+true: microorganismo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: protista | hypernym:
+
+predicted: kingdom, biological group, taxonomic group, division, taxa, taxonomy, taxon, group, group of animals, class, phyl
+ 
+true: microorganismo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: número atómico | hypernym:
+
+predicted: atomic number, atomic numbering, atomicity, atomicness, atomic property, chemical property, property, physical property, material property, natural property, indefin
+ 
+true: cantidad definida,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: número atómico | hypernym:
+
+predicted: atomic number, atomic numbering, atomicity, atomicness, atomic property, chemical property, property, physical property, material property, natural property, class property
+ 
+true: cantidad definida,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: efusión | hypernym:
+
+predicted: flow, flowage, flowing, outflow, outflux, outpouring, stream, streamage, streamflow, streamlining,
+ 
+true: proceso químico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: efusión | hypernym:
+
+predicted: flow, flowage, flowing, outflow, outflux, outpouring, stream, streamage, streamflow, streamliner,
+ 
+true: proceso químico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: mansarda | hypernym:
+
+predicted: attic, loft, garret, upper floor, upper story, floor, story, story floor, floor floor, level, floor level, level floor
+ 
+true: ventana,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: mansarda | hypernym:
+
+predicted: attic, loft, garret, upper floor, upper story, floor, story, story floor, floor floor, storey, storyfloor, floor
+ 
+true: ventana,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: carga explosiva | hypernym:
+
+predicted: explosive, explosive compound, explosif, compound of explosive materials, explosiv, explosifacient, explosiva, chemical agent, chemical
+ 
+true: explosivo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: carga explosiva | hypernym:
+
+predicted: explosive, explosive compound, explosif, compound of explosive materials, explosiv, explosifacient, explosiva, chemical agent, agent
+ 
+true: explosivo,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: percentil | hypernym:
+
+predicted: rank, grade, class, order, orderliness, ordinality, rank order, rankling, series, series order, series of numbers, series
+ 
+true: calificación,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: percentil | hypernym:
+
+predicted: rank, grade, class, order, orderliness, ordinality, rank order, rankling, series, series order, series of numbers, order
+ 
+true: calificación,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: confit | hypernym:
+
+predicted: cooking, cookery, culinary art, cuisine, culinarianism, cooking and eating, eating and drinking, e
+ 
+true: plato,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: confit | hypernym:
+
+predicted: cooking, cookery, culinary art, cuisine, culinarianism, cooking and eating, eating and drinking, g
+ 
+true: plato,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: restaurador | hypernym:
+
+predicted: restorer, restorative, restorer-in-chief, restorationist, restitutionist, reformer, reformist, renovator,
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: restaurador | hypernym:
+
+predicted: restorer, restorative, restorer-in-chief, restorationist, restitutionist, reformer, reformist, rehabil
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: torturador | hypernym:
+
+predicted: torturer, torturer's helper, torture victim, victim, sufferer, victimizer, aggressor, oppressor, victimiser,
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: torturador | hypernym:
+
+predicted: torturer, torturer's helper, torture victim, victim, sufferer, victimizer, wrongdoer, aggressor, wrong'd
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: cosechador | hypernym:
+
+predicted: harvester, reaper, reapman, harvestman, thresher, thresherman, harrower, harrier, harri
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: cosechador | hypernym:
+
+predicted: harvester, reaper, reapman, harvestman, thresher, thresherman, harrower, harrowman, re
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: velcro | hypernym:
+
+predicted: fastener, fastening, securing device, seal, clasp, clamp, catch, grip, gripper, catcher,
+ 
+true: textil,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: velcro | hypernym:
+
+predicted: fastener, fastening, securing device, seal, clasp, clamp, catch, grip, gripper, hook, hook
+ 
+true: textil,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: geodésica | hypernym:
+
+predicted: geodesy, geodetic science, geodesia, geography, geomorphology, geomatics, geophysics, cartography
+ 
+true: recta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: geodésica | hypernym:
+
+predicted: geodesy, geodetic science, geodesia, geography, geomorphology, geomatics, geophysics, earth science
+ 
+true: recta,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: tetraedro | hypernym:
+
+predicted: polyhedron, solid, solid body, solid figure, body, figure, geometric figure, figure of eight, regular polygon, polygon, regular solid, regular
+ 
+true: poliedro,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: tetraedro | hypernym:
+
+predicted: polyhedron, solid, solid body, solid figure, body, figure, geometric figure, figure of eight, regular polygon, polygon, regular figure, regular
+ 
+true: poliedro,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: detonador | hypernym:
+
+predicted: detonator, detonating device, igniter, ignition device, spark plug, sparker, sparking device, device, mechanism, mechanism of
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: detonador | hypernym:
+
+predicted: detonator, detonating device, igniter, ignition device, spark plug, sparker, sparking device, electric spark, spark, ign
+ 
+true: máquina,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: tesorero | hypernym:
+
+predicted: treasurer, custodian, guardian, keeper, caretaker, curator, warden, warder, watchman, cust
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: tesorero | hypernym:
+
+predicted: treasurer, custodian, guardian, keeper, caretaker, curator, warden, warder, watchman, att
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: crisálida | hypernym:
+
+predicted: insect, arthropod, artrópode, arctopode, invertebrate, aritropode, artropode arct
+ 
+true: condición,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: crisálida | hypernym:
+
+predicted: insect, arthropod, artrópode, arctopode, invertebrate, aritropode, artropode arct
+ 
+true: condición,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========

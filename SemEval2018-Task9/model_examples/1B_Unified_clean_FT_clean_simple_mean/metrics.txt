@@ -1,0 +1,12 @@
+                    all_hyponyms  predict_multiple_hypernyms  predict_hypernym      mean
+MRR                          NaN                    0.504791          0.216667  0.499893
+MAP                          NaN                    0.323837          0.407843  0.325265
+P@1                          NaN                    0.422686          0.176471  0.418500
+P@3                          NaN                    0.330705          0.294118  0.330083
+P@5                          NaN                    0.323194          0.411765  0.324700
+P@15                         NaN                    0.305988          0.470588  0.308787
+EnrichCorrectedMRR           NaN                    0.204016          0.216667  0.204231
+EnrichOriginalMRR            NaN                    0.166664          0.216667  0.167514
+R@1                          NaN                    0.107590          0.176471  0.108761
+R@5                          NaN                    0.293135          0.411765  0.295151
+R@10                         NaN                    0.305872          0.470588  0.308672

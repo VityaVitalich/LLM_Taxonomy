@@ -1,10 +1,10 @@
 TEST_DATA_PATH:
-  - "TaxonomyEnrichment/data/MAG_CS/test_hypernyms.pickle"
+  - "wnet/v2_wnet_def_test.pickle"
 OUTPUT_NAME:
-  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hfTaxoEnrich_MAG_CS_0"
+  - "/home/data/taxonomy/model_outputs/_gpt2GPT2_wn_v2_def_0"
 SAVE_EXAMPLES:
   - true
 SAVE_EXAMPLES_PATH:
-  - "/home/LLM_Taxonomy/TaxonomyEnrichment/model_examples/llama7b-initital"
+  - "/home/LLM_Taxonomy/babel_datasets/model_examples/gpt2"
 IDS_TO_USE:
   - "all"

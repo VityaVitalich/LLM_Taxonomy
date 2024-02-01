@@ -1,0 +1,5714 @@
+exposure start time
+exposure end time
+concept unique identifier
+metathesaurus concept
+umls metathesaurus
+blocking nose
+canal lock
+range encoding
+pda computers
+quadrature modulation
+centisecond
+antheraea assama
+litsea polyantha
+machilus bombycina
+posix threads
+resource starvation
+thread tail
+program thread
+super threading
+digital video broadcasting
+oma bcast
+correspondence courses
+actual privacy
+privacy level
+wireless internet protocol
+mobile robot navigation
+claytronics
+ubiquitous communicator
+perl critic
+there s more than one way to do it
+cuda pinned memory
+memory semantics
+biosystems engineering
+cement spacer
+cement spacers
+insync adaptive traffic control system
+traffic policing
+gipps model
+cerebral bridging vein
+extended adaptive multi rate wideband
+link awareness
+hypermedia software
+adaptive educational hypermedia
+clandestine humint asset recruiting
+film processor
+x ray film processor
+extended superframe
+suicide mortality
+suicide mortality rate
+ethyl dodecanoate
+eye injuries
+penetrating eye injury
+eye protective devices
+wearing eye protection
+frequency band
+short range devices
+scratch test
+left occipitotemporal sulcus
+netbios frames protocol
+pyrocumulonimbus cloud
+mecanisme de la physionomie humaine
+fearful expression
+zygomaticus muscle
+m orbicularis oculi
+facial characteristic
+expression feature
+m corrugator supercilii
+m depressor anguli oris
+ipv4
+internet control message protocol version 6
+null route
+internet number
+parapsyche cardis
+certified program
+facsimile data
+maxillofacial prosthesis
+maxillofacial prosthesis implantation
+record composition
+workflow patterns
+workflow reference model
+sbs compression
+safety shutoff valve
+shut down valve
+hash based message authentication code
+secure hash standard
+merkle damgard construction
+cityhash
+build verification test
+plucker coordinates
+secure hash algorithm
+radiogatun
+traditional pulse diagnosis
+tetric ceram
+degufill mineral
+ariston phc
+solobond m
+open systems interconnection
+autonomic agent
+hilbert modular surface
+musical instrument tuner
+optimum l filter
+timestamping
+archery range
+hunting arrow
+discrete time signal
+graeco latin square
+latin square property
+volatile
+methyl octanoate
+hexyl formate
+caryophyllene oxide
+sulfur compound formation
+olfactometry
+germacrene d
+distilled oil
+methyl thioacetate
+asarum heterotropoides
+alloaromadendrene
+hexanoic acid methyl ester
+isopropyl isothiocyanate
+acorus tatarinowii
+isoamyl lactate
+vitispiranes
+1 octen 3 one
+ethyl caprylate
+2 furanmethanethiol
+trans 2 hexenal
+allyl disulfide
+dipropyl disulfide
+norisoprenoids
+methyl disulphide
+3 sulfanylhexan 1 ol
+acetic acid butyl ester
+ethyl propanoate
+dimethyldiselenide
+3 mercaptohexanol
+monoethyl succinate
+butyl isothiocyanate
+nardostachy
+cis 3 hexenyl acetate
+pentadecanal
+3 hexen 1 ol
+dipodascus aggregatus
+muscodor sp
+phlomis cancellata
+artemisia parviflora
+teucrium arduini
+asarum heterotropoides root
+cis 3 hexenol
+allyl trisulfide
+renyi entropy
+memory observations
+philosophy of thermal and statistical physics
+natural
+australian sign language
+backward head tilt
+sign language use
+uses sign language
+sign language training
+using sign language
+african sign language
+cherology
+asl american sign language
+partial disclosure
+suspected elder abuse
+elder abuse prevention
+pce protocol
+real time kinematic
+gnss radio occultation
+beidou navigation satellite system
+float value
+local positioning system
+red green colour blindness
+deuteranopia
+abnormal colour vision
+deuteranomaly
+normal colour
+color vision examination
+total colour blindness
+colour vision examination
+acquired colour vision deficiency
+cone monochromacy
+colour vision test
+pseudoisochromatic plate
+protanomaly
+terathopius ecaudatus
+bateleur eagle
+bar x and s chart
+digital protective relay
+signal strength
+circuit minimization for boolean functions
+boosting methods for object categorization
+bug search
+battery eliminator
+needle adapter
+catheter tunneler
+socket adapter
+application adapter
+vial adapter
+has a criminal record
+interpreter
+interpreted language
+ti explorer
+translator interpreter
+mask rom
+design flow
+advanced configuration and power interface
+programmable read only memory
+subscriber identity module
+remotely operated vehicle
+smart lighting
+central air data computer
+immunity aware programming
+in circuit emulator
+automobile platform
+power optimization
+voice command device
+serial ata
+flatpack
+smd led module
+rock s law
+portable communications device
+server appliance
+pc133
+industry 4 0
+wireless remote control switch
+three state bus
+remote operation
+reset button
+hot chips
+mp3 player
+serial peripheral interface bus
+yocto
+car audio system
+smart module
+i c
+fuel dispenser
+protocol monitor
+board processor
+pending status
+protocol testing
+recovery memory
+mmc protocol
+floorplan
+mead conway revolution
+fpga prototype
+soft ip
+ata protocol
+application specific standard product
+signoff
+magnetic stripe card
+wearable electronic device
+local area network technology
+cip protocol
+pic microcontroller
+ccp protocol
+usb adapter
+device descriptor
+gnu linux
+remote control command
+hearing aid remote control
+patency check
+remote control request
+mobile phone radiation and health
+mobile phone overuse
+mobile phone features
+daughterboard
+pacemaker programmer
+cec protocol
+keymat
+macro instruction
+scsi host adapter
+mobile search
+enterprise digital assistant
+net compact framework
+cyber foraging
+pocket pcs
+pocket computers
+palm pilots
+mobile device detection
+blake
+row major order
+takens theorem
+payment order
+fitness trackers
+ar element
+augmented virtuality
+orthographic projection in cartography
+disulfine blue
+ssl acceleration
+perfsonar
+channel bonding
+essential bandwidth
+receiver bandwidth
+phase bandwidth
+minla
+multispectral image
+multispectral image classification
+inappropriate workload
+nasal temperature
+staff workload
+employee workload
+auto_ptr
+blinn phong shading model
+binary lambda calculus
+coordinate rotations and reflections
+p3 amplitude
+p300 components
+n2 latency
+platysternon
+platysternidae
+windsat
+rttov
+non linear iterative partial least squares
+stream cipher attack
+cycles per byte
+keyword cipher
+fluhrer mantin and shamir attack
+engineering support
+branchless banking
+intel matrix raid
+laboratory of neuro imaging
+bound morpheme
+dry plate
+virtual studio
+monumental mason
+static memory allocation
+fuzzy transportation
+information fuzzy networks
+variable and attribute
+iris structure
+eyelash removal
+right iris
+entire iris
+descriptive knowledge
+enterprise system
+e assessment
+organizational performance
+information technology infrastructure library
+open content
+knowledge mobilization
+information sharing
+artificial intelligence and law
+information search process
+collaborative problem solving
+governmental learning spiral
+participative decision making
+technical presentation
+knowledge search
+online discussion
+employee skills
+applying knowledge
+knowledge subject
+participating organization
+organization description
+interorganizational relations
+team structure
+knowledge interdependence
+impersonal environment
+entity organization
+organizational decision making
+organizational innovations
+organizational document
+personal learning environment
+ubiquitous learning
+active machine learning
+the vanguard method
+group dynamic game
+student centred learning
+experiential psychotherapy
+e agriculture
+information and communication technologies for development
+state wide area
+electronic communication technology
+organizational studies
+trompenaars model of national culture differences
+personnel loyalty
+commonsense knowledge
+informing science
+sport communication
+communication audit
+knowledge revolution
+functional strategy
+information seeking behavior
+national information exchange model
+knowledge acquisition method
+training transfer
+note taker
+formal learning
+civic responsibility
+dina lineata
+dina punctata
+trocheta bykowskii
+independent clock
+clock hypothesis
+dual voltage cpu
+adjectival modifiers
+flicker fusion test
+maddox wing test
+vocal attack
+ap french language
+language aptitude
+spoken language ability
+1seg
+integrated circuit development
+katodinium rotundatum
+thalassiosira curviseriata
+rhizosolenia imbricata
+dictyocha speculum
+gyrodinium aureolum
+chrysochromulina polylepis
+cochlodinium geminatum
+phaeocystis pouchetii
+phaeocystis antarctica
+data transformation
+data element concept
+synonym ring
+metadata type
+geolocation
+geolocation software
+graphics interchange format
+smart client
+finger protocol
+keyboard types
+axiom s5
+lindstrom s theorem
+emv protocol
+relief mapping
+forest fragmentation
+centaurea hyssopifolia
+electromagnetic fragmentation
+material fragmentation
+fragmentation bomb
+fragmentation procedure
+callicebus coimbrai
+oedura reticulata
+pogonocichla stellata
+corapipo altera
+pyriglena leucoptera
+ones complement
+cacopsylla pyri
+cacopsylla pyrisuga
+candidatus phytoplasma pyri
+european pear sucker
+mycetarotes parallelus
+user space
+boundary relationship
+edge chasing
+genus cuora
+cuora yunnanensis
+cuora trifasciata
+golden headed box turtle
+terrapene coahuila
+cuora aurocapitata
+call termination
+party name
+blueprint for neuroscience
+backup domain controller
+non deterministic turing machine
+pm declaration of interdependence
+test data generation
+design process
+top down and bottom up design
+modified waterfall models
+dual vee model
+alloy analyzer
+design driven development
+universal scrolling
+bhdl
+servant
+matrix of pain
+failure assessment
+saiv
+collaborative software development model
+fundamental pattern
+presenter first
+rational tau
+point release
+open service interface definitions
+feature complete
+iso iec 27001 2013
+iso iec 27001 2005
+computer program software
+cryptographic engineering
+airbag deployment
+power analytics
+hand grasp
+hand closure
+sprint training
+plyometric drills
+wingate protocol
+sprinting performance
+modified fad
+lambda bootis star
+two way deterministic finite automaton
+buchi automaton
+nondeterministic finite automaton with e moves
+fragment identifier
+dereferenceable uniform resource identifier
+hat operator
+interest point detection
+promethazine theoclate
+polyphonic c
+focal discharges
+multifocal discharges
+metacompiler
+freshwater leech
+poecilobdella viridis
+tandem pore domain potassium channel
+prokaryotic potassium channel
+cognitive neuroscience of visual object recognition
+3d single object recognition
+visual feature array
+planetary body
+circumstellar habitable zone
+natural satellite habitability
+habitability of orange dwarf systems
+ocean planet
+plutoid
+extraterrestrial atmospheres
+earth moon and planets
+pso j318 5 22
+speckle masking
+tongue body
+tongue observation
+automatic speech
+distance measures
+gaussian pyramid
+boosting
+training set
+pose
+semi supervised learning
+feature vector
+segmentation
+karhunen loeve theorem
+ransac
+blind signal separation
+rejection rate
+f1 score
+a priori probability
+fingerprint recognition
+test set
+thresholding
+gurmukhi numerals
+nearest neighbour classifiers
+hypersphere
+data discrimination
+speech verification
+metalearning
+one shot learning
+cosine distance
+microorganism classification
+computer pattern recognition
+abnormal phonocardiogram
+smear cell
+echocardiogram image
+hallucinated
+labeling problem
+spect heart
+foetal ecg
+foetal electrocardiogram
+recognition speech
+ecg artefacts
+labelling machine
+object class
+point localization
+hallucinate
+cell feature
+feature dataset
+pedometer device
+outlier type
+visual descriptors
+matthews correlation coefficient
+pu learning
+hierarchical classifier
+investigator name
+single linkage cluster analysis
+principal angles
+softcoding
+real time factor
+steerable pyramid
+ecg feature
+eeg artefact
+foetal heart sounds
+rudimentary speech
+speech processor
+discriminant function analysis
+laplacian pyramid
+sorensen dice coefficient
+mammographic breast mass
+pulmonary fissure
+morphology method
+shading artifact
+bone atlas
+organ region
+male pelvic organs
+anatomical tree
+tissue cluster
+skin classification
+task segmentation
+based skull
+boundary precision
+atlases as topic
+retinal blood vessels
+myocardium region
+retina vessels
+anatomical segmentation
+head segmentation
+final labeling
+interslice distance
+manhattan distance method
+euclidean distance measurement
+bss solution
+walking upstairs
+ecognition
+test normalization
+gene feature
+minutiae
+finger surface
+emg feature
+cosine distance method
+leech bite
+haemopis marmorata
+macrobdella decora
+hirudo troctina
+cursive writing
+marked crosswalk
+pedestrian road crossing
+subtraction process
+packet switch
+broadcast radiation
+ip forwarding algorithm
+one armed router
+pdcp
+protocol overhead
+one way delay
+protocol status
+encapsulated data
+packet container
+protocol error
+protocol identifier
+mac service data unit
+avaya simple loop prevention protocol
+virtual output queues
+computer port
+network code
+tcp acceleration
+traffic planner
+motorway carriageway
+freeway off ramp
+start rule
+traffic circle
+cd protocol
+arachnocampa flava
+arachnocampa tasmaniensis
+system sequence diagram
+probabilistic programming language
+hurricane engineering
+algorithmic lovasz local lemma
+bagolini test
+stereotests
+titmus stereo test
+meta iv
+trachemys scripta
+pseudemys texana
+slider turtle
+graptemys pseudogeographica
+pseudemys rubriventris
+mauremys sinensis
+kinosternon subrubrum
+colombian slider
+boils and carbuncles
+superresolution
+noise equivalent count rate
+line spread function
+anger camera
+pet scanners
+ionospheric reflection
+k ary tree
+a b tree
+windows ce
+local procedure call
+enumerative induction
+object definition language
+link access procedures d channel
+channelized
+radio propagation model
+simplex communication
+gps enhancement
+spatial correlation
+channel code
+crosstalk measurement
+forward error correction
+media access control
+diversity coding
+multi user
+channel letters
+overhead information
+call set up time
+delay encoding
+communications problem
+channel definition
+joint probing
+frequency selectivity
+rate protocol
+channel sensitivity
+eeg machines
+kv1 2 channel
+wireless communication problem
+channel object
+communication reception
+channel identifier
+channel analysis
+comp measurement
+ergative verb
+panoan language
+colupulone
+adhumulone
+emc invista
+methyl 4 methylpyrrole 2 carboxylate
+rhinoclemmys melanosterna
+rhinoclemmys diademata
+godel s incompleteness theorems
+lob s theorem
+vision document
+search engine optimization methods
+google penalty
+hydramoeba
+chaos carolinense
+heterolobosea
+hartmanella
+intestinal amoeba
+pelomyxa carolinensis
+genus amoeba
+pelomyxa palustris
+hartmannella vermiformis
+pharyngomonas kirbyi
+pharyngomonas
+hetaeriinae
+maculinea alcon
+myrmedonota
+paussus favieri
+thamiaraeini
+orphnebius
+amaurodera
+tetrabothrus
+phengaris nausithous
+phengaris teleius
+phengaris arion
+applied information economics
+path vector protocol
+flooding
+metrics
+connectionless routing
+hybrid routing
+routing loop problem
+multipoint relay
+route reflector
+loose source routing
+mebibyte
+exabit
+kibibyte
+ip forwarding
+gosub
+farkas lemma
+basic solution
+linear programming formulation
+nearest integer function
+corvus splendens
+supercomputer operating systems
+single vehicle crash
+run off road collision
+dynamixel
+automated proof checking
+abstraction model checking
+kripke structure
+uclid
+clamping
+pomelo tree
+delay speech
+entropy encoding
+substance use class
+latent transition analysis
+insulation displacement connector
+cigarette lighter receptacle
+adaptor connector
+connector pin
+neighborhood concentrated disadvantage
+radiology order
+r cast
+decision making encouragement
+decision engineering
+tikhonov regularization
+quad flat no leads package
+vegetable curry
+meat curry
+finite deterministic discrete event system specification
+trailer skirt
+trailer truck
+truck trailer
+folding camping trailer
+truck tractor
+ultra mobile broadband
+phoxinus erythrogaster
+wullenweber
+hrs antenna
+post wall waveguide
+slotted waveguide
+cel fi
+employee resource groups
+stochastic neural network
+data citation
+science citation index
+citation network
+bibliographic citation
+statistical bibliography
+medicine sports
+immediacy index
+journal impact factors
+graphology analysis
+topic maps
+stop words
+google scholar and academic libraries
+ir evaluation
+art architecture thesaurus
+information retrieval applications
+intelligent document
+cataloging
+author name
+on line bibliographic searching
+dictionaries as topic
+document section
+search action
+book classification
+paper document
+specific data source
+measure document
+result category
+description format
+query selection criteria
+factual databases
+digital document
+check tags
+document body
+case search
+online document
+loinc document ontology
+publication name
+abstracting indexing
+seed entity
+text searching
+radlex term
+bibliographic reference
+standard document
+search words
+concept code
+temporal entity
+chemical registry
+item collection
+tracking document
+scoring engine
+question text
+latent semantic indexing
+machine indexing
+web search query
+query name
+extended wordnet
+lexical database
+document summary
+information retrieval query language
+java persistence query language
+machine readable data files
+human computer interaction in information security
+it baseline protection catalogs
+information security management system
+responsible disclosure
+certified information security manager
+cyber security standards
+software security vulnerability
+vision binocular
+binocular depth inversion
+vision disparity
+binocular perimetry
+computer virus infection
+lan switching
+packet device
+obs model
+ipv4 header checksum
+p router
+jet protocol
+condition documentation
+written documentation
+analysis documentation
+chart completion
+documentation procedure
+advance directive status
+p aminodiphenyl
+alluroteuthis antarcticus
+relational database management system
+bucky potter grid
+cv formation
+chandrasekhar equation
+enterprise storage
+worm disks
+data storage retrieval
+digital data repository
+texture descriptor
+receptacle tester
+optical fiber nonconductive riser
+most significant antecedent
+latent variable path model
+parapsychological phenomena
+bandelet
+generalized lifting
+mexican hat wavelet
+performance differentiation
+main spoken language
+spoken language comprehension
+affirmative and negative
+imprinting
+inductive transfer
+finger vein recognition
+pantaneiro horse
+periocular region
+eye vasculature
+self information
+optical imaging
+intrinsic optical imaging
+voltage sensitive dye imaging
+irdye 800cw
+nir optical imaging
+optical image reconstruction
+albers equal area conic projection
+polyconic projection
+web mercator
+parallel random access machine
+shared memory architecture
+companion code
+program animation
+write only language
+advertising account executive
+cost per acquisition
+immersive technology
+methods of virtual reality
+3d interaction
+virtual reality simulator
+virtual rehabilitation
+virtual training
+vrml model
+height vertigo
+complete
+mobile server
+mobile code
+financial privacy
+food balance wheel
+multiply with carry
+synchronization networks
+synchronous network
+synchronizing
+vsync
+electroencephalography phase synchronization
+cortical synchronization
+family kinosternidae
+genus kinosternon
+rhinoclemmys pulcherrima
+staurotypus triporcatus
+bright giant
+universal character set
+polling
+emergent grammar
+syntactic expletive
+generative linguistics
+grammatical framework
+broca s region
+closed class
+subject verb object
+thai grammar
+strong generative capacity
+headlinese
+germanic verb
+brocas area
+salishan language
+sentence comprehension test
+straits salish
+syntactic difficulties
+gur language
+syntactic impairment
+pseudocleft
+saharan language
+kwa language
+northwestern syntax screening test
+prepositional case
+vo language
+subject object verb
+ov language
+abstract syntax notation one
+modifier attachment
+causative alternation
+webography
+bus sniffing
+snoopy cache
+tag ram
+skew hermitian
+byzantine fault tolerance
+fault tolerant computer system
+dependability benchmarking
+call volume
+cellular telephone number
+telephone extension number
+5ess switch
+filtering problem
+lead shields
+walking downstairs
+representational state transfer
+data web
+web mining
+reliable messaging
+robots exclusion standard
+web search engine
+web application security
+enterprise 2 0
+identity 2 0
+mip protocol
+conducted electromagnetic interference
+conducted interference
+cicindela dorsalis
+cicindela togata
+megacephala euphratica
+calomera littoralis
+lophyridia
+calomera
+interlanguage fossilization
+loop fission
+loop counter
+webserver directory index
+antenna aperture
+antenna efficiency
+folded helix
+antenna noise temperature
+antenna gain
+passive radiator
+electrically small antenna
+antenna height above average terrain
+vhsic
+altera quartus
+jhdl
+high performance reconfigurable computing
+codec2
+psqm
+cocktail sort
+piper nigrum l
+piper colubrinum
+high speed circuit switched data
+panthera onca
+herpailurus yagouaroundi
+leopardus wiedii
+learning enterprises
+internet protocol control protocol
+java message service
+autoconstructive
+genetic program
+chi squared target models
+sgml
+xml path language
+fingerprint lines
+poor quality image
+papillary ridges
+digital probabilistic physics
+weighted majority algorithm
+runoff model
+personal rf safety monitors
+electromagnetic signal receiver
+notification receiver
+dental impression technique
+permlastic
+impression trays
+imprint ii
+dental dowel
+dental impression material
+permadyne garant
+tactile imaging
+power architecture
+zettabyte
+petabyte
+exabyte
+corvus macrorhynchos
+barabasi albert model
+counterfeit drugs
+drug counterfeiting
+time domain reflectometry
+acoustic reflectometry
+rayleigh s method of dimensional analysis
+tree homomorphism
+occipital lobe epilepsy
+intractable occipital lobe epilepsy
+parietal lobe epilepsy
+packed encoding rules
+generic string encoding rules
+turnoff point
+stellar physics
+multivariate analysis
+univariate analysis
+multisignature
+partial blind
+network clock
+unidirectional coupling
+videoconferencing
+media controls
+interface design
+interaction styles
+telecollaboration
+microsound
+mobile instant messaging
+web inquiry projects
+sound installation
+digital reproduction
+multiplayer game
+machine listening
+digital life
+corporate video
+readers advisory
+video library
+communication finding
+scent perception
+audio media
+audiovisual material
+live voice
+talking books
+audiovisual aids
+audiovisual device
+online computer
+video media
+voice presentation
+audio visual equipment
+computer assisted instruction
+content type
+computers technology
+interactive cd
+html browser
+game video
+audiovisual technology
+video audio media
+television programming
+production finding
+interactive tutorial
+augmentative communications
+computer conference
+program writer
+audiovisual document
+collections care
+level design
+computer user training
+phenakistoscope
+animated cartoon
+animated movie
+branded entertainment
+videodisc recording
+interactive voice response technology
+acquired communication disorders
+communication boards
+aneurysm clips
+ligating clips
+surgical clips
+appendix base
+web help
+computer based instruction
+webcasts as topic
+cardiocondyla venustula
+congestion window
+fast retransmit
+tcp westwood plus
+scalable video coding
+reconstruction algorithm
+helical cone beam ct
+spiral cone beam ct
+enterprise data modeling
+pacific states
+complex systems
+stereo display
+least significant bit
+geometric shape
+image processing
+turing
+data pre processing
+portable network graphics
+haystack
+data point
+interconnectivity
+virtuality
+common normal
+harmony search
+fortress
+exportation
+mtd f
+latent variable
+feature extraction
+fold
+imaging science
+magnum opus
+global optimum
+false positive paradox
+image file formats
+projection method
+object type
+moire pattern
+divide and conquer algorithms
+version space
+locating engine
+basebean
+advanced driver assistance systems
+remus
+conceptualization
+formics
+interlacing
+angle of view
+group mind
+speckle pattern
+robotic surgery
+a search algorithm
+algorithm design
+kohler illumination
+simulated reality
+longest common subsequence problem
+encoding
+heuristics
+artificial architecture
+systematics study of multi term systems
+imagery analysis
+problem domain
+the intersect
+patterns of evolution
+no 76 special incendiary grenade
+lexicographical order
+lemmatisation
+imaging technology
+flownet
+milieu interieur
+mechanical system
+reference frame
+word lists by frequency
+digital mapping
+remote sensing application
+behavior trees
+expressive power
+rendering
+multiple signal classification
+bayes theorem
+artificial intelligence situated approach
+divided regions
+structural complexity
+mind control
+cartographic labeling
+d shape
+pattern detection
+plant identification
+set phrase
+computationally enhanced craft item
+good and necessary consequence
+texas hold em
+godel machine
+method of focal objects
+issue trees
+roboturk
+care providing robot friend
+long term prediction
+post scarcity economy
+phonetic representation
+argumentum a contrario
+learning automata
+structure space
+strong prior
+over illumination
+intelligent computer assisted language instruction
+solidox
+navigation research
+focus finder
+flame detection
+hoeckens linkage
+screen buffer
+evolutionary informatics
+interpupillary distance
+intelligent small world autonomous robots for micro manipulation
+headword
+reteoo
+symbolic systems
+cumulativity
+imsr
+videophone
+limited appearance
+chromadepth
+nasa robots
+exocortex
+thoughttreasure
+building model
+2 1 2d
+national engineering robotics contest
+attributive
+information theoretic death
+relative direction
+ensemble averaging
+technology push
+multivalue
+rules of language
+nano brain
+robopet
+vision guided robotic systems
+the leaf ai project
+automatic waste container
+real time search
+the truman show delusion
+lausavisa
+user control
+still camera
+lexical correspondence
+law of complexity consciousness
+tophat
+panning
+pediophobia
+on the origin of the influencing machine in schizophrenia
+pheidologeton diversus
+ai box
+accessible image
+data driven
+progressive refinement
+openair
+electronic imager
+fourth age
+weak ai
+vision distortion
+textual representation
+multiple visual images
+acquisition protocol
+initial seed
+proper weights
+closing loops
+single character
+actual arm
+overlapping structures
+inattentive driving
+automatic judgement
+tumor identification
+hand structure
+observation object
+manual extraction
+image artifact
+posture correction
+behaviour interpretation
+autoradiographic image
+visual feedbacks
+face lines
+image series
+endoscope video camera
+learning reconstruction
+focal image
+body search
+blood vessel feature
+composite position
+numerical descriptors
+anatomic surface
+artificial arms
+heart motion
+brain model
+endoscopic camera
+coded element
+pursuit tracking
+associated image
+anatomical surface
+noise sensitivity
+insect identification
+reference region
+pattern presentation
+exaggeration method
+eyeball movements
+object artifact
+variance criterion
+movement measurement
+blood vessel part
+small face
+hand color
+scan liver
+wears glasses
+contour form
+uralic language
+day vision
+pattern discrimination
+hand skeleton
+trailing phenomenon
+freeform shape
+image reference
+nail color
+head movements
+spatio temporal analysis
+liver disorder diagnosis
+moving walk
+facial region
+study object
+hand class
+home surveillance
+touch senses
+full spectrum color
+speech block
+iris color
+motion aid
+semantic generalization
+discriminability index
+brain disorder diagnosis
+human body structure
+imaging heart
+shape object
+bengali sign language
+body joints
+person number
+visual structure
+image inspection
+acquisition apparatus
+person location
+gray color
+thumb nail
+computer interpretation
+colon structure
+mouth region
+facial measurement
+thorax x ray
+start coordinates
+vocabulary object
+imaging signal
+quantitative evaluations
+completely blind
+object attribute
+learning recognition
+term lexical
+uighur language
+anatomical feature
+border shape
+color quantity
+computing methodologies
+sentence mapping
+multiple pupils
+received spoken
+display order
+image guided therapy
+digital fusion
+functional mr brain
+vertical projection
+correcting paper
+entire finger
+path findings
+true projection
+spike train
+surgical camera
+colon tissue sample
+tactile map
+adjusting vision
+reconstruction procedure
+border boundary
+image mode
+transportation surveillance
+device camera
+vision problem
+exploration action
+real time scan
+entire face
+generic action
+tactile sense
+expressionless face
+mass description
+data noise
+eye finding
+indo aryan language
+floor object
+manual interpretation
+translation language
+visual focusing
+photo image
+visual limitations
+eyes vision
+dental scanning
+group label
+patient motion
+vision testing
+acquiring concepts
+hand parts
+functional mris
+contact eye
+imaging order
+skin texture
+inherent motion
+color skin
+vision knowledge
+eye fatigue
+binocular balancing
+illumination technique
+diffuse illumination
+computer aided surgery
+subjective observation
+inductive machine learning
+indic language
+noise artifact
+bio informatics
+suspicious behaviour
+learning generalization
+multi planar reformatting
+vision aid
+organ surface
+skin colors
+senses touch
+point localisation
+temporal context
+observation action
+key images
+imbalance problems
+anatomical point
+numeric array
+interpretation process
+synthetic projection
+image view
+instruction action
+abbreviations as topic
+minimal supervision
+pattern orientation
+joint reconstruction
+auditory observations
+automated technique
+brain shape
+nose feature
+guiding procedure
+tuvinian language
+acquired name
+testing vision
+color scale
+route recognition
+visual contrast
+spatial projection
+cardiac wall motion
+biosequence
+display response
+horizontal projection
+patient discharge summaries
+contextual patterns
+dictionary name
+organization name
+resolution property
+representation component
+video printer
+mouth shape
+importance weight
+registration procedure
+sense marker
+japanese chess
+poor focus
+function hand
+eye reconstruction
+eyelids movement
+image quantification
+case sensitive
+qualitative evaluations
+task adaptation
+face structure
+match algorithms
+biological immunity
+distance discrimination
+membership relationship
+joint observable
+complex systems biology
+magnification device
+radiographic magnification
+most significant bit
+employer name
+three dimensional vision
+fsa red algorithm
+image restoration
+color image
+shift and add
+poisson image editing
+image enhancements
+visual texture recognition
+video image processor
+image identifier
+entropy maximization
+image derivatives
+motion vector
+psychokinesis
+lost sample
+mobile image intensifier
+spinal meningitis
+language bengali
+lodoicea maldivica
+modern standard tibetan grammar
+constraint based grammar
+language hindi
+grammatical impairment
+munda language
+mexican language
+study reference
+feret
+automated facial recognition
+colour face
+normal face
+facial recognition test
+large face
+encyclopaedia of medical imaging
+diagnostic imaging equipment
+radiology nuclear medicine
+diagnostic imaging department
+diagnostic imaging study
+dicom standard
+diagnostic imaging technique
+radiology devices
+hs algorithm
+intrusion prevention system
+pseudoserver
+zero day attack
+lack concentration
+interactive visualization
+terrain rendering
+data visualization
+information visualization
+3d city models
+visulation
+graphics visualization
+spatial visualization
+heart visualization
+blood vessel visualization
+visualisation technique
+brain visualization
+adversarial process
+holarchy
+buyer agent
+mas organization
+site agent
+comedy film nerds
+curious character
+pseudocount
+brain spatula
+bayesian interpretation of regularization
+feed forward
+winner take all
+neural ensemble
+neurocybernetics
+neutral network
+zero instruction set computer
+input selection
+neural interconnections
+nerve unit
+neuron structure
+neural block
+sigmoid nodes
+planned arm
+tactile pattern recognition
+transhumeral prosthesis
+learning interference
+signal clustering
+nerve network
+visual pattern recognition
+neural network simulation
+hero image
+monomyth
+trecvid
+lip feature
+feature dimension
+tongue feature
+all points addressable
+compress algorithm
+volume pixel
+partial volume averaging
+maximum voxel
+right superior occipital gyrus
+partial volume artifact
+left medial frontal gyrus
+left postcentral gyrus
+left anterior cingulate gyrus
+right pulvinar
+right cuneus
+middle cingulate gyrus
+right inferior occipital gyrus
+image quality analysis
+imaging chain
+metal artifact
+radiographic image enhancement
+streaking artifact
+abdomen examinations
+suboptimal image
+visual picture quality
+milliampere second
+chest abdomen pelvis
+cardiac gated imaging techniques
+respiratory gated imaging techniques
+dose length product
+eye tracking on the iss
+gaze fixation
+pupil movement
+eye movement measurements
+gaze directions
+grandfather paradox
+explanation module
+forward chaining technique
+agent expert
+mixture component
+color contrast sensitivity
+deutan defect
+reduced color discrimination
+protanopia
+hue discrimination
+normal color vision
+color vision deficiencies
+color vision defects
+impaired color vision
+protan defect
+abnormal color vision
+color perception test
+blue cone monochromatism
+congenital color blindness
+cambridge color test
+monocular nystagmus
+logical data model
+line moire
+moire deflectometry
+moire topography
+luminance meter
+visual ergonomic
+brightness perception
+data cluster
+similarity matrix
+average linkage clustering
+space time clustering
+spongospora subterranea
+aphaenogaster subterranea
+late talkers
+augmented browsing
+acquiring language
+delayed language acquisition
+multilingual person
+phonological delay
+acquiring language skills
+fuzzy locating system
+cmos sensor
+a graphics language
+geocentric coordinates
+celestial coordinate system
+bessel ellipsoid of 1841
+coordinate space
+rotation of axes
+ecef
+anatomical coordinate
+indian numerals
+policy based design
+c cx
+template entry
+colour look up table
+chaid
+shuffled frog leaping algorithm
+smt placement equipment
+robotic spacecraft
+underwater robotics
+telexistence
+primitive skills
+manipulation action
+hip joint structure
+soft robotic
+climbs stairs
+joints movement
+stable gait
+forearm structure
+surgical manipulator
+assisted therapy
+exoskeleton structure
+surgeon hand
+straight line walking
+hand manipulation
+wrist joint structure
+laparoscope holder
+compliant behaviour
+sensory feedbacks
+joint limitations
+spinning gait
+joint flexibility
+robot assisted endoscopic surgery
+lower limb structure
+stiff legs
+articular muscle
+assembly cells
+information criteria
+proto value functions
+reward technique
+visual contrast sensitivity
+perg response
+speckle noise
+predicate logic
+description logic concept
+dermochelidae
+graptemys geographica
+chelodina longicollis
+ozobranchidae
+softshell turtle
+dermatemys mawii
+chelodina colliei
+map turtle
+family dermochelyidae
+elseya novaeguineae
+graptemys barbouri
+pyxidea mouhotii
+apalone ferox
+mauremys japonica
+emys blandingii
+kinosternon hirtipes
+carettochelys insculpta
+pseudemys scripta
+lissemys punctata
+dermatemys
+podocnemis unifilis
+melanochelys trijuga
+cyclemys dentata
+malaclemys terrapin
+mauremys leprosa
+pelomedusa subrufa
+pelusios castaneus
+clemmys guttata
+ocadia sinensis
+family trionychidae
+family testudinidae
+trionyx muticus
+kinosternon scorpioides
+pangshura smithii
+heosemys grandis
+emys orbicularis
+heosemys spinosa
+hawksbill turtle
+chelonia midas
+chrysemys picta dorsalis
+pelusios castanoides
+pseudemys nelsoni
+family emydidae
+trionychoidea
+kinosternon integrum
+stephanolepas muricata
+terrapene herpesvirus 1
+sternotherus depressus
+glyptemys insculpta
+manouria emys
+chrysemys scripta
+erymnochelys madagascariensis
+platysternon megacephalum
+mauremys mutica
+mauremys caspica
+order testudines
+sulcascaris sulcata
+genus terrapene
+spirorchis scripta
+podocnemis expansa
+order chelonia
+sacalia quadriocellata
+geoemyda spengleri
+deirochelys reticularia
+melanochelys tricarinata
+reptile egg
+hardella thurjii
+trionyx gangeticus
+land turtle
+mesoclemmys dahli
+malayemys macrocephala
+graptemys nigrinoda
+staurotypus salvinii
+malayan box turtle
+streptopelia turtur
+myuchelys georgesi
+leaf turtle
+geoclemys reevesii
+morenia petersi
+kachuga tecta
+side necked turtle
+pelochelys bibroni
+sacalia bealei
+computer assisted robotic surgery
+robotic assisted procedures
+robotic assisted surgery
+robotic surgical procedures
+robot assisted laparoscopic surgery
+crm114
+prosecutor s fallacy
+bayesian prediction
+bayesian forecast
+argiope amoena
+regression model validation
+analytical stereoplotter
+orthophotomap
+photogrammetrists
+photogrammetrist
+x ray photogrammetry
+target text
+muskogean language
+binocular vision test
+binocular single vision
+vertical heterophoria
+core language
+context change potential
+underdeterminacy
+differential semantics
+intrinsic brightness
+levels of processing effect
+mpeg encoding
+residual blocks
+symbiotic organism
+visual discomfort
+stereoscopic view
+contact name
+photoacoustic tomography
+radon space
+anatomical boundary
+projection view
+imaging problem
+cone beam acquisition
+helical cts
+transmission tomography
+general motion control
+simotion
+locating the center of mass
+prefixspan
+advanced word recognition
+cutaneous sense
+skin stretch
+kinesthetic senses
+palpatory diagnosis
+optokinetic reflex
+eye movement desensitization reprocessing
+examining eye
+infantile nystagmus
+abnormal eye movements
+physiological nystagmus
+ocular motility disorders
+convergence paralysis
+infantile nystagmus syndrome
+normal eye movement
+uncontrolled eye movements
+slow eye movements
+conjugate gaze
+ocular bobbing
+nystagmus present
+periodic alternating nystagmus
+ocular nystagmus
+linear vestibuloocular reflex
+irregular eye movements
+visual suppression
+ocular fixation
+eye reflexes
+oculomotor control
+head oscillations
+voluntary nystagmus
+limited eye movement
+visual behaviour
+congenital nystagmus
+rapid eye movements
+extraocular muscle paralysis
+abnormal ocular motility
+fixation nystagmus
+nystagmograph
+eye muscles
+oculomotor function
+ocular oscillations
+duplicate report
+optic flows
+fusion procedure
+fusion action
+optical fusion
+enterprise gis
+spatial regressions
+spatial autocorrelations
+thumbnail image
+background subtraction
+960h technology
+picture function
+focal plane arrays
+class code
+frame time
+maximum pixel
+flood image
+gradient mean
+virtual pixel
+frames sec
+ring artifact
+frame language
+binaural hearing aids
+hickory tree
+inventory number
+visual inspection procedure
+electroactive polymers
+active flow control
+contractile fiber
+international terrestrial reference system
+heuristic function
+goal node
+anatomic fiducials
+heaps law
+graphical projection
+davis moore theory
+intra frame
+low bit
+coded value
+np complete
+context of computational complexity
+accelerated particle
+raster data
+line segment intersection
+reduced peripheral vision
+prisoners and hats puzzle
+useless rules
+ranked categories
+hindi to punjabi machine translation system
+image differencing
+real time rendering
+martele
+finger flicking
+ictal
+theta rhythm
+eeg fmri
+spectral edge frequency
+binaural beats
+nocturnal epilepsy
+dynamic causal modelling
+partial seizures
+epileptic seizure
+generalized slowing
+centrencephalic epilepsy
+lip smacking
+single unprovoked seizure
+generalized convulsive seizure
+background slowing
+eeg monitoring
+eeg abnormality
+dominant eeg frequency
+eeg electrodes
+cranial nerve reflexes
+anticonvulsive therapy
+electroencephalographic monitoring
+partial complex epilepsy
+typical absence
+gamma rhythm
+eyelid fluttering
+ambulatory electroencephalogram
+quiet sleep
+focal motor seizures
+clonic movements
+staring spells
+alpha brain
+brain electrical activity mapping
+electrical brain activity
+median eeg frequency
+focal eeg abnormality
+occipital intermittent rhythmic delta activity
+local epilepsy
+low voltage eeg
+asymmetric eeg
+petit mal variant
+focal dyscognitive seizures
+focal origin
+sleep regulation
+epilepsy monitoring
+diffuse slowing
+generalized epileptiform discharges
+cognitive regression
+myoclonic seizures
+partial motor seizure
+entire scalp
+cortical desynchronization
+television epilepsy
+unilateral seizures
+epilepsy unit
+motor seizures
+absence attacks
+portable eeg
+slowed background activity
+convulsive syncope
+focal epilepsies
+parietal scalp
+temporal slowing
+synchronized sleep
+electrode eeg
+readiness potentials
+slow potential
+eeg symmetry
+epilepsy absence
+topographic brain mapping
+normal eeg
+epileptic syndrome
+single epileptic seizure
+interictal eeg abnormality
+left temporal region
+alpha rhythms
+brain temporal
+multifocal seizures
+portable electroencephalogram
+eeg findings
+eeg telemetry
+beta rhythm
+sleep epilepsy
+spike wave discharges
+encephalograph
+eyelid twitching
+eeg observations
+right temporal region
+compressed spectral array
+abnormal eeg
+frontal intermittent rhythmic delta activity
+epileptic encephalopathy
+myoclonic absences
+dominant alpha activity
+slow background
+closing eyes
+focal clonic seizures
+cortical electrode
+generalized absence seizures
+west syndrome
+electrophysiological markers
+focal motor epilepsy
+arousal reaction
+intractable localization related epilepsy
+focal seizure disorder
+focal tonic seizures
+pure photosensitive epilepsy
+sleeping stages
+idiopathic generalised epilepsy
+ring chromosome 20 epilepsy syndrome
+facial twitching
+generalised tonic clonic seizures
+cerebral seizure
+reflex epilepsy
+hyposomnia
+suspected epilepsy
+monitoring seizure
+disorganized eeg
+epileptic disorder
+sensorimotor areas
+cerebral function analysing monitor
+brain electrical activity
+eeg technician
+childhood seizure
+abnormal electroencephalogram
+shuddering attacks
+benign rolandic epilepsy
+generalized eeg pattern
+opisthotonic posturing
+complex focal seizures
+daily seizures
+sleep related epilepsy
+multifocal epileptic activity
+nocturnal frontal lobe epilepsy
+fantasy map
+sci fi
+guided fantasy
+team roster
+unconscious fantasy
+android wear
+pitch accent
+suprasegmentals
+felicity conditions
+abuse knowledge
+autoscopic hallucination
+biocurator
+data annotation
+protein annotation
+annotation collection
+annotation type
+yukagir language
+indirect ophthalmoscopy lens
+bloodsucker
+john broadus watson
+sound recordist
+henon map
+computer assisted intervention
+open sentence
+yablo s paradox
+run on sentence
+civil confinement
+pre sentence report
+active recall
+british picture vocabulary scale
+enterprise vocabulary
+vocabulary list
+vocabulary tests
+vocabulary words
+productive vocabulary
+epicene
+shuttle boxes
+bjork shiley valve
+ear prosthesis
+implant prosthesis
+joint prosthesis replacement
+replacement arthroplasties
+patella prosthesis
+partially edentulous maxilla
+girdlestone arthroplasty
+cuff tear arthropathy
+prosthesis fixation
+infected joint prosthesis
+mammary prosthesis
+rotating hinge
+below knee prosthesis
+prosthesis retention
+dental prosthesis design
+component fixation
+intervertebral disk prostheses
+facial prosthesis
+metacarpal prosthesis
+external prosthesis
+permanent prosthesis
+prosthesis types
+arthroplasty prosthesis
+tibial insert
+orbital prosthesis
+speech bulb
+surgery knee
+hip prosthesis infection
+radial head prosthesis
+humeral head prosthesis
+plastipore
+prosthesis surgery
+implantable knee prosthesis
+shoulder prosthesis
+above knee prosthesis
+arthroplasty knee
+elbow joint prosthesis
+elbow joint replacement
+constrained knee prosthesis
+prosthesis length
+hip revision arthroplasty
+maxillary prosthesis
+revision hip replacement
+internal prosthesis
+fibrous ingrowth
+prosthesis implantation
+maxillary obturator
+orthopaedic technician
+femoral stem prosthesis
+prosthetic joint loosening
+eye prosthesis
+partial hand prosthesis
+mitral valve prosthesis
+reverse shoulder prosthesis
+hip joint reconstruction
+triple valve replacement
+radionuclide arthrography
+foot stiffness
+structural dysfunction
+leg prosthesis
+total knee joint prosthesis
+shoulder joint prosthesis
+oral prosthesis
+entire femur
+cardiac valve prosthesis
+prosthetic infection
+lower limb prosthesis
+finger joint prosthesis
+total ankle arthroplasty
+excision arthroplasty
+unicondylar knee prosthesis
+arm prosthesis
+limb prosthesis
+hip joint prosthesis
+mandibular prosthesis
+femoral component fixation
+total hip revision
+shoulder hemiarthroplasty
+transradial prosthesis
+auricular prosthesis
+transfemoral prosthesis
+acetabulum prosthesis
+enneking score
+prosthesis related infection
+knee joint prosthesis
+total hip replacement prosthesis
+prosthesis knee
+temporary prosthesis
+tibial component fixation
+total temporomandibular joint prosthesis
+total hip replacement procedure
+revision total knee arthroplasty
+nasal prosthesis
+successful prosthesis
+bone prosthesis
+ankle joint prosthesis
+humeral component fixation
+charnley total hip prosthesis
+upper limb prosthesis
+testicular prosthesis
+partial foot prosthesis
+hip disarticulation prosthesis
+femoral head prosthesis
+hand prosthesis
+prosthodontist
+cosmetic prosthesis
+urethral prosthesis
+partial hip replacement
+glenoid component fixation
+myoelectric arm
+temporomandibular joint prosthesis
+knee implant
+implantable prosthesis
+prosthesis hip
+oesophageal prosthesis
+prosthetic valve dysfunction
+prosthetic valve type
+shoulder joint replacement
+romberg s syndrome
+inverse resolution
+handwriting legibility
+handwriting difficulties
+illegible handwriting
+handwriting scale
+corvus brachyrhynchos brachyrhynchos
+corvus brachyrhynchos hesperis
+family corvidae
+corvus orru
+corvus moneduloides
+corvus corone cornix
+optical coherence tomography scanner
+x ray ct scanners
+image slice thickness
+ct scanners
+second suffix
+name suffix
+noogenesis
+national advanced driving simulator
+white sclera
+fatigue eye
+chinese visible human project
+ultra short baseline
+multivariate mutual information
+evolving networks
+series parallel networks problem
+partial rhinectomy
+2d filters
+cramer von mises criterion
+schaffer paragraph
+revision value
+equaliser
+serious emotional disturbance
+myoclonic astatic seizures
+best coding practices
+simple prioritization
+mobile edge computing
+batch code
+hotel concierge
+computation type
+server intervention
+computer network server
+server role
+gaming video
+gaussian frequency shift keying
+least number bits
+generalized selection
+uncertainty code
+easting and northing
+time transfer
+geodetic network
+undulation of the geoid
+hybrid positioning system
+assisted gps
+tracking collar
+positioning technology
+road surveying
+grs 80
+standard time and frequency signal
+collagen shrinkage
+impaired smooth pursuit
+pursuit eye movement
+saccadic intrusions
+smooth pursuit movement
+smooth pursuit abnormalities
+abnormal pursuit
+saccadic smooth pursuit
+saccadic pulses
+macrosaccadic oscillations
+staring episodes
+garbage collection
+closterocerus chamaeleon
+rf portable
+pevq
+test standardization
+locality preserving hashing
+antilochus
+system lifecycle
+causal path analysis
+path analysis model
+probabilistic based design optimization
+glowworm swarm optimization
+dmz
+pointer aliasing
+multilayered architecture
+operations architecture
+website architecture
+domain specific software architecture
+eager evaluation
+prosthetic socks
+internet suicide pact
+sexual coercion
+sprains and strains
+suicide risk
+adverse childhood experiences study
+drunk drivers
+safety behaviors
+deliberate self harm
+facial injury
+license reinstatement
+self inflicted injury
+hazardous drinking
+injury surveillance
+suspected child abuse
+elderly falls
+minimum legal drinking age
+aod use pattern
+combat exposure
+underage drinking
+fresh water drowning
+physical maltreatment
+teenage drinking
+alcohol overdoses
+drinking environment
+walker use
+farm accidents
+injury disorder
+organic phosphate poisoning
+trauma risk
+toadstool poisoning
+threatening behaviour
+suspected suicide
+fall injury
+forcible sexual assault
+aggression scale
+home injury
+anal injury
+child depression scale
+intentional injury
+self strangulation
+universal preventive interventions
+alcohol related disorders
+transport accidents
+physical bullying
+accidental poisoning
+alcohol misuse prevention study
+self inflicted wounds
+hazardous use
+repeated falls
+illegal alcohol sales
+injured passenger
+public drunkenness
+child abuse report
+maltreated child
+petroleum poisoning
+abusive parenting
+roadside survey
+legal arrest
+child protection register
+short michigan alcoholism screening test
+instrumental aggression
+heavy alcohol use
+alcohol effects questionnaire
+controlled drinking
+drinking pattern
+elevated blood alcohol
+neck sprain
+incest victims
+adolescent psychiatric inpatient unit
+firesetting behaviour
+domestic accident
+injury hazard
+sexual child abuse
+clumsy child
+sexual offending behaviour
+intentional trauma
+violence exposure
+musculoskeletal symptom
+sex offense
+medicinal poisoning
+gun control laws
+zero tolerance laws
+childhood aggression
+drinking frequency
+car disassembly
+risk suicide
+sports for persons with disabilities
+alcohol drug use
+sexual assaults
+alcohol impairment
+intrafamilial sexual abuse
+self incineration
+automobile driver examination
+trial summary
+near drownings
+sexual assault victim
+driving skills
+abuse cessation
+abuse risk
+suicidal tendency
+aggressive personality
+child molesters
+impulsive aggression
+sexual offense
+battered child syndrome
+drinking episode
+hopelessness scale
+anal penetration
+motor vehicle traffic accidents
+violence risk
+reporting child abuse
+child abuse prevention
+war exposure
+domestic injury
+mass casualty setting
+infant walkers
+youth alcohol consumption
+work injury
+ergonomic advice
+head protective devices
+drinking practice
+motor vehicle operators
+uncomplicated bereavement
+mouth protectors
+denver youth survey
+dram shop liability
+client abuse
+harmful drinking
+impaired driving laws
+motor traffic accidents
+work related upper limb disorder
+responsible drinking
+seat belt injuries
+child maltreatment syndrome
+sexual aggression
+sexual preoccupation
+violent thoughts
+patient violence
+imipramine poisoning
+open container laws
+bully victim
+injury types
+traffic crash
+adult abuse
+sexual molestation
+methyl alcohol poisoning
+emergency department record
+youth drinking
+intentional self poisoning
+violent behaviour
+child abuse reporting
+drinking problems
+shaken infant syndrome
+accidents home
+inflicted injury
+child psychiatric inpatient unit
+geriatric fall
+accident fatality rate
+combat disorders
+suicide evaluation
+home accidents
+dental injury
+face injury
+unintentional injury
+risk function analysis
+physical ergonomics
+pedal cyclist
+self injurious behaviour
+infant equipment
+near drowning
+wearing seat belt
+threatening suicide
+battered child
+accidental strangulation
+thigh strain
+sexually abusive behaviour
+adolescent alcohol involvement scale
+o chlorobenzylidenemalonitrile
+physical assault
+work related injuries
+drinking venue
+alcohol abuse prevention
+recurrent falls
+genital injury
+suicide precautions
+blood alcohol tests
+alcoholic intoxication
+injury care
+adult psychiatric inpatient unit
+feeling drunk
+suffocations
+alcohol availability
+posttraumatic amnesia
+license suspensions
+alcohol counseling
+self injuries
+single distribution theory
+rape victims
+problem alcohol
+head lacerations
+driving while intoxicated
+self destructive behaviour
+alcohol beverage industry
+rutgers alcohol problem index
+alcohol poisonings
+abuse neglect
+server liability
+industrial trauma
+pathological intoxication
+drinking location
+alcoholic blackouts
+homicidal thoughts
+crash helmet
+alcohol use inventory
+morning drinking
+body discomfort
+criminal injury
+battered baby
+motor vehicle injury
+accidental deaths
+general injuries
+ethyl alcohol poisoning
+driving drunk
+property offense
+physical ergonomic
+alcohol expectancy questionnaire
+multiple body regions
+organizational ergonomics
+child abuse syndrome
+woman abuse
+abuse status
+depression suicidal
+suicidal plans
+suicide or suicide attempt
+suicide risk scale
+minimum drinking age laws
+minimum drinking ages
+legal minimum drinking age
+brief mast
+short mast
+high suicide risk
+low suicide risk
+child physical abuse
+physical child abuse
+suspected physical abuse
+multiple offender
+sobriety checkpoint
+administrative license revocation
+alcohol safety action program
+parasuicide
+pierce suicide intent scale
+suicide thoughts
+unsuccessful suicide attempt
+suicidal intent
+completed suicide
+suicide gesture
+attempt suicide
+underage alcohol use
+underage drinker
+underage alcohol consumption
+emotional bullying
+victim rape
+child molesting
+driving under influence
+suspended license
+secondary drowning
+frege s puzzle
+service oriented middleware
+high speed downlink packet access
+time division long term evolution
+apt band plan in the 700 mhz band
+nodeb
+high speed uplink packet access
+nbap
+disk encryption hardware
+wi fi array
+cracking of wireless networks
+motorola canopy
+ieee 802 11ax
+system identifier
+automated certificate management environment
+globally unique identifier
+activity identifier
+identifier extension
+anonymous identifier
+participant identifier
+package identifier
+identifier type
+version identifier
+product identifier
+batch identifier
+resource identifier
+patient identifier
+universal identifier
+identifier scheme
+content identifier
+manufacturer identifier
+entity identifier
+document identifier
+primary identifier
+place identifier
+material identifier
+instance identifier
+root identifier
+subject identifier
+supplier identifier
+organization identifier
+application identifier
+relationship identifier
+device identifiers
+category identifier
+unique device identifier
+internal identifier
+secondary identifier
+al hussein
+stochastic context free grammar
+two level grammar
+quantitative ultrasound spectroscopy
+ceylon
+sinhalese buddhism
+stereophonic hearing
+continuum modeling
+brain segmentation
+service desk
+tiered service
+paradoxical insomnia
+dreaming sleep
+rem sleep latencies
+delta sleep
+sleep electroencephalogram
+fragmentary myoclonus
+delta wave sleep
+drinking refusal self efficacy questionnaire
+distributed file system
+game programming
+first playable demo
+ventilator alarms
+patient alarm
+alarm failure
+physiologic monitor alarms
+alarm trigger
+alarm state
+delayed alarm
+campbell s monkey
+cercopithecus diana
+dicrurus adsimilis
+dicrurus paradiseus
+stephanoaetus coronatus
+lpwan
+wide area network technology
+statistical imputation
+multiple imputation technique
+missing data problem
+strongly monotone
+philesturnus
+uicc configuration
+service data point
+customised applications for mobile networks enhanced logic
+hot spot
+network management station
+operations administration and management
+file area network
+unix signal
+loop fusion
+java api for xml based rpc
+heartbeat message
+heartbeat network
+ectopic heartbeats
+premature heartbeats
+specimen receptacle
+liner dispenser
+reactive system
+rhyacotriton cascadae
+design document listing
+acacia cornigera
+albizia lebbekoides
+m procerus
+delivery home
+two step verification
+diameter protocol
+supplicant
+form based authentication
+pace protocol
+data origin
+login name
+secure input and output handling
+identity management system
+openid connect
+clp r
+specfs
+web design program
+open biomedical ontologies
+daml oil
+server side redirect
+clickstream
+client side scripting
+open web platform
+color co site sampling
+xml schema editor
+source data verification
+deterministic parallel java
+fifth generation computer
+stripping
+cladding mode
+florida cooter
+genus pseudemys
+batagurinae
+ap spanish
+ap german language
+pseudogobius olorum
+counterpropagation network
+nephila clavipes
+spider dragline silk protein
+nephila edulis
+euprosthenops australis
+spidroin 2
+spider fibroins
+golden silk spider
+survey foot
+cure data clustering algorithm
+radio wave radiation
+lepidochelys olivacea
+family cheloniidae
+ozobranchus margoi
+lepidochelys kempi
+learedius learedi
+chelonid alphaherpesvirus 5
+global concurrency control
+general transit feed specification
+another schedule
+wireless electronic devices and health
+home node b
+universal mobile telecommunications system
+received signal strength indication
+u nii
+vehicle to vehicle
+ism band
+direct device
+cf protocol
+container status
+scheduled priority
+video capsule endoscopes
+capsule endoscopes
+standing instruction
+lan technology
+wireless capsule endoscope
+rap protocol
+small form factor pluggable transceiver
+qsfp
+facsimile transceiver
+phy
+over the air programming
+mobicast
+balance energy
+hop protocol
+network access device
+airsnort
+handoff communication
+nursing team leader
+nursing handoff
+nursing handovers
+patient handovers
+patient handoff
+white spaces
+hata model for urban areas
+business service management
+copying processes
+copy object
+watts and strogatz model
+therapeutic human experimentation
+pressure sore risk
+toxicological concepts
+pressure ulcer risk
+obstetric thromboembolism
+asynchronous connection less
+cohumulone
+dalbulus quinquenotatus
+generalized tobit
+public participation gis
+extract transform load
+datawarehouses
+rolap
+molap
+holap
+persistent memory device
+joins
+broadband networks
+lovasz number
+kernel bandwidth
+html scripting
+website parse template
+url subscription architecture
+page view
+url normalization
+semantic url
+page hijacking
+server log
+acquired web
+organic search
+screen labeled function keys
+compound key
+keystore
+scenopinus
+report types
+df protocol
+braille language
+braille training
+java hashcode
+joint test action group
+reactive search optimization
+early infantile epileptic encephalopathy
+suppression burst pattern
+lossy compressed image
+bilinear filtering
+electrooculograph
+arden ratio
+electrooculograms
+electro oculography
+scaffold
+poly propylene fumarate
+heart valve tissue
+polycaprolactone co lactide
+calvarial defect
+engineering tissue
+scaffold evaluation
+tissue engineered vascular graft
+bioabsorbable scaffold
+poly glycerol sebacate
+dental bud
+nano hydroxyapatite collagen
+tissue scaffolds
+blood vessel tissue
+engineered tissue
+hedgerow removal
+malus tschonoskii
+chitalpa tashkentensis
+monterey cypress
+ustulina deusta
+ganoderma pfeifferi
+devil s ear
+big cone pine
+train wrecker
+tulip trees
+tilia x europaea
+acsmithia
+recursively enumerable set
+beamwidth
+ct sinogram
+advanced television systems committee standards
+internet television
+direct broadcast satellite television
+isdb tb
+rectangle method
+norlund rice integral
+f and m riesz theorem
+c star
+group delay dispersion
+fiber in the loop
+fiber optic coupler
+fixed expression
+femto
+monomorium destructor
+pharaoh s ant
+experience design
+needs analysis
+designtheory
+functional approach
+user expectations
+application actions
+undocumented aliens
+branch metrics
+memory bus
+the lexer hack
+placobdella costata
+placobdella multilineata
+desserobdella
+placobdella ornata
+placobdella papillifera
+haemogregarina balli
+green information technology
+rowing machines
+brainwave biofeedback
+nf protocol
+temporal lobe seizure
+frontal lobe seizures
+video eeg monitoring
+normal interictal eeg
+childhood absence seizures
+orbitofrontal epilepsy
+scalp electroencephalogram
+sensory seizures
+epilepsy frontal lobe
+video electroencephalogram
+periodic lateralised epileptiform discharges
+somatosensory seizures
+eating epilepsy
+postictal confusion
+temporal lobe epilepsies
+frontal lobe origin
+localization related epilepsy
+eeg video monitoring
+secondary generalized tonic clonic seizures
+frontal lobe epilepsies
+motor automatisms
+multifocal epileptiform discharges
+intracerebral eeg
+generalized spike wave discharges
+hemifacial seizures
+simple partial status epilepticus
+cingulate epilepsy
+tonic posturing
+visual seizures
+nocturnal seizures
+epileptic vertigo
+focal paroxysmal discharges
+autonomic auras
+depth electrode
+versive seizures
+focal spikes
+multifocal spikes
+atypical absence seizures
+dystonic posturing
+delta rhythm
+sharp wave ripple complexes
+light sleep
+fast wave sleep
+continuous spike waves during slow wave sleep
+burst suppression ratio
+eeg feature
+visual stimulator
+eeg device
+electroencephalogram feature
+post imperative negative variation
+expectancy wave
+eeg spectral edge frequency
+auditory evoked field
+somatosensory evoked magnetic fields
+auditory evoked magnetic fields
+brodmann area 3b
+magnetic source imaging
+visual evoked magnetic fields
+right auditory cortex
+evoked magnetic fields
+monaural beats
+juvenile absence epilepsy
+secondarily generalized seizures
+secondarily generalised seizures
+gastaut syndrome
+acquired epileptiform aphasia
+eyelid myoclonia
+cryptogenic west syndrome
+secondary generalized epilepsy
+various seizure types
+oromotor deficits
+eeg monitors
+active sleep
+generalized myoclonic seizures
+electroencephalogram abnormal
+encephalopathic epilepsy
+myoclonic absence epilepsy
+symptomatic west syndrome
+nocturnal paroxysmal dystonia
+phrasal verb
+english modal verbs
+best worst and average case
+compact star
+epcglobal network
+rfid localization
+x linked retinoschisis
+peripheral schisis
+retinoschisin protein
+vitreous veils
+godel
+godel metric
+godel s ontological proof
+hega
+inversion mutation
+levy flight foraging hypothesis
+trademarking
+thd analyzer
+inter domain
+secure multicast
+overlay multicast
+grid artifact
+tagged image file format
+full frame digital slr
+layers
+secure user plane location
+u tdoa
+auto antonym
+adaptive transform acoustic coding
+key encapsulation
+rijndael key schedule
+privacy rights
+curling factor
+immunity testing
+cadlag
+application programming interface
+range query
+search oriented architecture
+spatial query
+native queries
+in circuit test
+cyanate compound
+microetching
+acknowledgement
+transfer acknowledgement
+rlab
+rics
+building surveyor
+data transmission
+data transmission circuit
+communications protocol
+privilege level
+liveness
+adaptive routing
+timeout
+dynamic demand
+paging
+address bus
+flag field
+handshaking
+round trip delay time
+propagation delay
+lamport timestamps
+data processing system
+scheduling
+instruction pipeline
+arithmetic overflow
+throughput
+allocator
+busy hour
+abnormal end
+nak
+system monitoring
+virtual synchrony
+state logic
+asynchronous balanced mode
+supercomputer education research centre
+concurrent algorithm
+daemon
+high speed link
+launch time
+stream socket
+safety property
+36 bit
+overhead code
+time cycles
+usage model
+performance metric
+31 bit
+rate control method
+ecg monitor
+event qualification
+request procedure
+vehicle search
+network endpoint
+traffic station
+period timing
+traffic violation
+communication trigger
+reactivation request
+qsnet ii
+network communication protocols
+protocol profile
+queue management system
+first come first served
+kernel virtual address space
+call setup success rate
+monitoring call
+input capture
+reentrancy
+accelerated processing unit
+cpu power dissipation
+pocsag
+low latency
+reflex latency
+latency response
+middle latency responses
+latency interval
+p100 latency
+average memory
+p1 latency
+condensation click
+middle latency auditory evoked potentials
+rarefaction click
+viral latency
+error location
+correction code
+event stream processing
+polychronicity
+symmetric multiprocessor system
+air force satellite control network
+work scheduling
+start times
+activity scheduling
+meeting request
+heterogeneous cluster
+staffing scheduling
+cache algorithms
+instruction prefetch
+replacement order
+presence check
+k set
+redundancy payment
+4320p
+high throughput biological assays
+abstract state machines
+quantum finite automata
+automata construction
+compiler construction
+loop tiling
+intermediate language
+coral 66
+blocks
+makefile
+parallel language
+text based protocol
+ridders method
+unified extensible firmware interface
+firmware version
+large segment offload
+large receive offload
+proof of work system
+driving examiner
+image mapping spectrometer
+sargan test
+dummy head recording
+auditory localisation
+masking level
+ear plugging
+minimum audible field
+sound deprivation
+radio broadcasting station
+paper invoice
+front rounded vowel
+pitch perturbation
+tongue root
+lip protrusion
+stop consonant
+tautosyllabic
+fricative consonant
+homorganic consonants
+glottal fricative
+pharyngeal fricative
+western nilotic language
+multipliers and centralizers
+frechet space
+birnbaum orlicz space
+eberlein smulian theorem
+goppa code
+tail biting
+fec protocol
+automatic taxonomy induction
+average linkage
+single linkage
+pelochelys cantorii
+stencil code
+acer x freemanii
+yellow birch
+ceratocystis virescens
+american basswood
+discula campestris
+silver maple
+model driven software development
+diagramming software
+cosmic software sizing
+inhomogeneous poisson process
+hackystat
+software quality analyst
+functional size measurement
+object oriented software engineering
+aspect oriented software development
+component concept
+storage as a service
+process driven development
+process area
+ieee 12207
+test management approach
+non regression testing
+internal documentation
+automotive software
+software architectural style
+computer software engineering
+optokinetic nystagmus test
+cerebellar flocculus
+reflex eye movement
+rebound nystagmus
+correlation coefficient
+quality control specimen
+business domain
+radionuclide emission tomography
+graph layout
+rhinichthys obtusus
+bispectral analysis
+bagolini striated glasses
+super video graphics array
+inbound communication
+radiology pacs
+true time delay
+mass segregation
+referer spam
+spam 2 0
+turdoides rufescens
+metis people
+dual scan
+tamper resistance
+16 bit
+32 bit
+interlock
+overhead valve
+256 bit
+machine readable medium
+feed dogs
+card stacking
+word addressable
+fruit machine
+toolroom
+headlight tester
+hand held computer
+serial code
+side arm
+replacement window
+size pair
+24 bit
+belt machine
+cut copy and paste
+serializer
+screw terminal
+dvd rw
+packaging machine
+alphanumeric
+handheld equipment
+portable stretcher
+finger trigger
+recovery record
+qualifier value
+coded entry
+modem device
+computer hard disc
+memory form
+burst count
+reference id
+bad memory
+attack device
+audio cassette tape recorder
+call instruction
+device sensor
+digital video recording
+socket adaptor
+cell memory
+device status
+counter device
+device monitor
+reading card
+device name
+communicator device
+record status
+function code
+paper processor
+invalid data
+ekg device
+automatic dispensing
+command response
+access pin
+video cassette tape
+print processor
+computer drive
+equipment serial number
+photographic processor
+manufacturer code
+audio cassette tape
+wood processor
+master card
+programming parameter
+video test pattern generator
+blu ray disc
+track marks
+optical data disk
+rewritable cd
+air purifying respirator
+refill kit
+staple driver
+surgical fasteners
+cartridge device
+forensic ballistic
+wallpaper printer
+intraocular lens injector
+peaq
+information processor
+tongue operation
+auxiliary memory
+ore sorting
+printer plotter
+valve port
+ambilight
+panel function
+touch function
+modes
+giclee
+recordable compact disc
+compact disc read only memory
+recordable cd
+common slider
+web based calculator
+mount used
+diaphragm check
+snagger
+inertial reel
+reusable syringe
+angiographic syringe
+syringe drive
+surgical trays
+instrument tray
+medicine tray
+span and div
+satellite temperature measurements
+probabilistic relational model
+macronema
+arctopsychinae
+hydropsyche angustipennis
+hydromanicus
+ceratopsyche
+plectropsyche
+hydropsyche pellucidula
+hydropsyche saxonica
+hydropsyche morosa
+hydropsyche orientalis
+cheumatopsyche lepida
+hydropsyche exocellata
+hydropsyche sparna
+hydropsyche siltalai
+hydropsyche instabilis
+hydropsyche contubernalis
+amphipsyche meridiana
+aethaloptera
+amphipsyche
+hydropsyche slossonae
+cheumatopsyche brevilineata
+hydropsyche occidentalis
+dolophilodes
+xiphocentron
+hydrobiosella
+philopotaminae
+pseudoneureclipsis
+nyctiophylax
+polyplectropus
+polycentropus flavomaculatus
+ecnomus tenellus
+austrotinodes
+lype phaeopa
+paduniella
+hydropsyche bronta
+nt lan manager
+lm hash
+hmac based one time password algorithm
+chap protocol
+theorems and definitions in linear algebra
+polynomial representations of cyclic redundancy checks
+paratrechina fulva
+remote access trojan
+cyber collection
+moire photographs
+syllabograms
+openrt
+humulus pollen
+yellow giant
+garbage in garbage out
+functional compiler
+global value numbering
+carettochelys
+dogania subplana
+virtual lan
+source role
+range concatenation grammars
+type description language
+family vahlkampfiidae
+ruppert s algorithm
+chew s second algorithm
+gml application schema
+gnao1 gene
+erratic myoclonus
+multiple independent spike foci
+dental fusion
+tcp congestion avoidance algorithm
+active congestion
+shrew attack
+generalized additive model for location scale and shape
+dicamptodon tenebrosus
+dicamptodon copei
+attophysics
+face wrinkling
+face skins
+standard boolean model
+geospatial analysis
+cognitive traps for intelligence analysis
+drill down
+machine readable data
+validation rule
+geoprocessing
+data context and interaction
+terabyte
+associative model of data
+semantic warehousing
+sales intelligence
+informative modelling
+set operations
+infrastructure optimization
+international classification of procedures in medicine
+unified information access
+integrated criminal justice information system
+correlation database
+enigma io
+gapchart
+type attribute
+furthest neighbor
+running confidence
+diagnostic tree
+compact pattern
+observable entity
+datasets as topic
+javaserver pages
+sibling order
+geographic information systems in geospatial intelligence
+geospatial predictive modeling
+holonymy
+protege
+ontogame
+nci thesaurus
+concept relationship
+concept name
+annotation property
+class subsumption
+mouse anatomy
+bootstrap paradox
+truthmaker
+ontological hermeneutics
+abstract particulars
+material monism
+metametaphysics
+category of being
+subcellular anatomy
+concept attribute
+human computation
+crowdsource
+crowdsources
+free text format
+climacteric arthritis
+data validation testing
+data discovery
+preservation metadata implementation strategies
+annotated crf
+cancer data standards repository
+interval data type
+numeric data types
+integer data type
+vector data type
+fatigue item bank
+liquid bubble
+nitro paps
+decilonitrose
+ethanediols
+1 aminohydantoin
+panfuran s
+musk ketone
+nitroquinolines
+9 3 dimethylaminopropylamino acridine
+rubranitrose
+3 amino 2 oxazolidone
+musk moskene
+celestolide
+musk tibetene
+mall space
+descriptive cataloging
+radiation properties
+high gain antenna
+feed line
+antenna height considerations
+side lobe
+planar array
+electrically short
+radio direction finder
+feeding techniques
+smart skin
+light harvesting antenna complexes
+reading distance
+omnidirectional camera
+low gain antenna
+feed technique
+single patch
+dual patch
+nantenna
+mimo protocol
+chlorine measurement
+thrust method
+snake necked turtle
+hydromedusa maximiliani
+acanthochelys spixii
+family chelidae
+emydura subglobosa
+hydromedusa tectifera
+mesoclemmys vanderhaegei
+chelus fimbriatus
+genus chelodina
+chelodina oblonga
+macrochelodina rugosa
+emydura signata
+elseya latisternum
+chelodina mccordi
+firm specific infrastructure
+critical infrastructure protection
+w cdma
+endoscopic assembly
+grid reference
+robotic paradigms
+roboethics
+future of robotics
+knee stretch
+flight planner
+telehaptic
+buggy vehicle
+barycentric celestial reference system
+international celestial reference system
+international celestial reference frame
+uri scheme
+malleability
+james space
+james theorem
+frechet manifold
+high level shading language
+merops nubicus
+bivariate map
+sms phishing
+frechet derivative
+juvenile retinoschisis
+juvenile x linked retinoschisis
+intelligent computer network
+callicebus barbarabrownae
+128 bit
+on the fly encryption
+secure copy
+blowfish
+keyspace
+id based encryption
+privacy enhanced electronic mail
+vigenere cipher
+array data structure
+computer graphics images
+library science
+tell tale
+illegal prime
+dovetailing
+prime pages
+dual_ec_drbg
+dirac
+out of core algorithm
+statistical lempel ziv
+dynamic problem
+accounting method
+modulo operation
+non aristotelian logic
+numbering
+church kleene ordinal
+most frequent k characters
+lincoa
+newpgen
+local language
+logical abacus
+recursively inseparable sets
+odlyzko schonhage algorithm
+union of two regular languages
+chess model checker
+mirek s cellebration
+camponotus anderseni
+arborescent
+chung kwei
+machine that always halts
+strict logic
+ehrenfeucht fraisse game
+furer s algorithm
+pepin s test
+enfilade
+pollard s p 1 algorithm
+godel s speed up theorem
+logjam
+plankalkul
+city on a hill
+pseudo code
+length property
+range constraint
+arithmetic error
+audio time scale pitch modification
+speech organ
+spectral envelope
+nist
+laster technologies
+voice tag
+voice
+source filter model of speech production
+fs 1015
+time lapse phonography
+frequency pitch
+abnormal voice
+speech discrimination test
+high pitched voice
+quality voice
+speech aids
+vocal articulation
+hearing prosthesis
+transmitted sounds
+speech characteristics
+pitch frequency
+whispered voice
+vocal pitch
+hearing speech
+slow speech
+auditory sense
+limited speech
+change voice
+vocal sound
+voice exercises
+speechreading
+normal speech
+normal voice
+function voice
+development speech
+repeated speech
+language speech
+speech finding
+speech training
+core network
+gigabit
+mandril
+cellular communication
+pseudo wire
+it service continuity
+short message service
+control network
+safplus
+mobile ad hoc network
+building management system
+aircraft communications addressing and reporting system
+point of delivery
+context aware network
+enterprise private network
+split multi link trunking
+networking cables
+tarpit
+hierarchical cell structure
+smpte st 2071
+simmcast
+ieee 802 11v
+x 3
+appia framework
+real time multimedia over atm
+end instrument
+cisco fwsm
+passive probing
+two way simultaneous
+iptv
+virtual network
+xml denial of service attack
+tia eia 568
+data link provider interface
+signal support systems specialist
+catalyst 6500
+datagram socket
+lulea algorithm
+public data transmission service
+ibm systems network architecture
+otn systems
+skinny call control protocol
+nsap address
+g 114
+bgp confederation
+distributed transient network
+local internet registry
+micro bursting
+transport network
+mail transfer protocol
+industrial usb
+soapjr
+ip audio codec
+v 92
+midi 1 0
+information transfer node
+virtual switching instance
+communications air interface long and medium range
+route analytics
+125 high speed mode
+atm adaptation layer 1
+decentralized network 42
+surveillance performance index
+com port redirector
+subnetwork
+alcap
+s bus
+itu t y 1564
+application oriented networks
+g 704
+whitespace
+eforward
+recursive internetwork architecture rina
+digital living network alliance
+origination
+taclane
+low performance equipment
+alcatel business communications
+h 225 0
+h 323 gateway
+data access in real time
+blacklist
+asr9000
+client status
+processing priority
+telecommunications device
+subscriber number
+protocol association
+message structure
+safety communications
+client data
+broken connection
+protocol application
+open protocol
+expiration time
+equipment finding
+central node
+on protocol
+communication status
+map protocol
+message type
+action code
+group number
+communication response
+response flag
+mp protocol
+sleep protocols
+destination site
+computer network protocols
+via protocol
+acknowledgment code
+current neighbor
+mobile end
+blocked connection
+protocol component
+allocation code
+method access
+request action
+overlay location
+cluster node
+via device
+computer network router
+outbound communication
+internal id
+reason code
+priority number
+point name
+extension number
+reporting state
+request status
+external route
+location directory
+ftm protocol
+local congestion
+security enhancement
+board communication
+protocol agent
+companion protocol
+normal priority
+providing presence
+response communication
+tcap protocol
+universal unique identifier
+ac protocol
+stars
+leveler
+acoustic hailing device
+rgba color space
+rec 709
+rg color space
+3d data acquisition and object reconstruction
+44 100 hz
+scaleogram
+nicholl lee nicholl
+dig
+information operations
+printer steganography
+an prc 117f
+information protection policy
+personally identifiable information
+billion laughs
+electronically stored information
+cyber attack
+blind credential
+mobile file management
+dynamic ssl
+rsa bsafe
+electronic leash
+ibm tivoli access manager
+ky 57
+non sufficient funds
+data validation and certification server
+s 63
+rubberhose
+logfile
+damgard jurik cryptosystem
+rasterschlussel 44
+website visitor tracking
+crowds
+approx
+ds logon
+business continuity
+gifar
+privileged identity management
+information technology security audit
+extended smtp
+time based one time password algorithm
+electronic leviathan
+dynamic update client
+electronic article
+service design package
+encryption layer in storage stack
+ideal lattice cryptography
+pubcookie
+digital security
+bullrun
+alphanumeric shellcode
+eaif
+automated information systems security
+backdoor
+maawg
+snsd
+anonymous visitor tracking
+supply chain cyber security
+account administrator
+alert priority
+alert type
+malicious damage
+traffic offense
+clear notification
+travel documents
+radiation protection door
+safe guard
+account status
+security measure
+pseudonymized
+user protection
+safety letter
+role privilege
+communication surveillance
+route planning software
+physical model
+online judge
+radar gun
+ground control station
+self propelled gun
+evacuation process simulation
+arrhythmia simulator
+aircraft pilots
+breath tester
+ejection seats
+flight process
+motorized wheel chair
+shoulder impact
+wheelchair device
+wheeled walking frame
+bicycle exerciser
+musculoskeletal movement
+ball catching
+left curve
+telemeter
+earth bulge
+electric beacon
+optical switch
+gps wildlife tracking
+multilateration
+vertical plane
+b band
+ranging
+co location
+semaphore line
+ground noise
+load control switch
+driven element
+ebcdic code pages
+direct to disk recording
+the thing
+microphonism
+solar powered fountain
+cell on wheels
+telephone signaling interface
+housing industry
+pcs switching center
+crossfeed
+tactical data information link a
+venus flower basket
+multichannel code
+vertical orientation
+white facsimile transmission
+desensitation
+customer experience systems
+technology fusion
+high definition thermal imaging
+sgsm
+federal center of neurosurgery
+upfade
+emergency response systems
+pan law
+signaling system no 6
+multi family residential
+radio equipment
+puncturing
+hayes command set
+chirp transmitter
+usim application toolkit
+rtp audio video profile
+engineering change notice
+digital commons
+guobiao standards
+c37 94
+flexible rake receiver
+miniprop
+r2 signalling
+high frequency line trap
+store and forward switching center
+amateur station operator s certificate
+telephone box
+entry phone
+public telephone facilities
+reply card
+net remoting
+attribute value pair
+uniform resource locator
+data field
+scalable vector graphics
+net framework
+ietm
+automated tiered storage
+portlet
+business suite
+one to one
+qubes
+storage management initiative specification
+completion rate
+file sequence
+declarative referential integrity
+proprietary format
+yahoo query language
+value process management
+spanner
+service oriented architecture implementation framework
+create read update and delete
+centralised information service for complementary medicine
+truncate
+segmented file transfer
+card document
+store guide
+version id
+file record
+related record
+package store
+collection object
+department code
+boolean operations in computer aided design
+symbolic computation
+512 bit
+group news
+initial abstract
+instance relation
+molecular computers
+honor
+ad serving
+employee surveillance
+conformity assessment
+spmd
+high and low level
+differential signaling
+scale factor
+thermal head
+zebibyte
+pebibyte
+reliability availability and serviceability
+magnetoresistive random access memory
+indent style
+s m a r t
+trimming
+floating point
+cross platform
+subroutine
+tebibyte
+the internet
+tombstone
+doors
+tanpaku
+exbibyte
+year 10 000 problem
+gibibyte
+linux on system z
+recovery time actual
+microsoft visual studio
+bi directional text
+ibm 1620 model ii
+thermal assisted switching
+tco certification
+alef
+nwscript
+myvu
+ibm 1620 model i
+open design
+apple lossless
+milli
+digital container format
+fluorescent multilayer disc
+bmdfm
+belady s anomaly
+utf 9 and utf 18
+48 bit
+sched_deadline
+single connector attachment
+centi
+allography
+intel memory model
+nanoionic device
+right to left
+native api
+ntropy
+computer form factor
+giga
+o 1 scheduler
+tip of the day
+cdc 3000
+dr dobb s excellence in programming award
+xcore xs1 g4
+fixed float
+cr2032 battery
+arcovomer passarellii
+zetta
+as 400 object
+iopl
+x2apic
+xpediter
+deci
+elastic interface bus
+device independence
+breadcrumb
+fsu pthreads
+object oriented turing
+26 bit
+yotta
+paned window
+chomski
+triton ii
+texas instruments tms9900
+tms320c8x
+bleeding edge technology
+jacquard loom
+ibm esa 390
+distributed data protocol
+base4
+ncar command language
+med flash
+subtitle
+shrink wrap contract
+pic language
+mill architecture
+data availability
+jolie
+indentation
+o code
+pledm
+underline
+msdc
+power up in standby
+28 bit
+human readable medium
+folding editor
+microsoft p code
+hecto
+aomedia video 1
+file device
+package name
+variables
+galton s problem
+hindcast
+proof of stein s example
+specification
+biological neural network
+covariate
+statistical noise
+nominate
+homogeneity
+simmonds test
+instrumental variable
+multiple correlation
+bennett alpert and goldstein s s
+polya urn model
+laboratory experimentation
+correlate summation analysis
+fleiss kappa
+international meeting on computational intelligence methods for bioinformatics and biostatistics
+neural lab
+hodges estimator
+observable variable
+mondrian
+support curve
+mandarax
+evidence under bayes theorem
+moneybee
+datadetective
+sukhotin s algorithm
+all to all communication
+bbc climate change experiment
+remote memory
+dpvs
+icosphere
+motionparallax3d
+photographic slides
+lenticulation
+silk screen printer
+television unit
+photograph printer
+display arrangement
+picture memory
+video tape recording
+compact disk interactive
+photograph enlarger
+1 rule
+binary plan
+unfair competition
+separation of presentation and content
+electronic journal
+subject headings authority file
+personal message
+digital sociology
+eight dimensional e learning framework
+hijax
+clinicalkey
+the map library
+infopreneur
+google bomb
+information dissemination
+genomics data sharing
+landing page optimization
+unified expression language
+instructional design coordinator
+polyglot markup
+futon bias
+social infrastructure
+serial publications
+html reference
+union lists
+book reviews as topic
+name title
+document status
+assigned name
+personal log
+library materials
+document url
+sightseeing guide
+collections data
+telefacsimile
+bibliography as topic
+www website
+cataloging activity
+periodic fee
+ask a librarian
+cultural resources management
+extended essay
+children s library
+senior seminar
+collection management policy
+publication types
+awards prizes
+publication characteristics
+history finding
+meeting abstracts
+fellowships scholarships
+conferences meetings
+literature citation
+bibliographical citations
+senior scientist award
+mail orders
+agricultural chemists
+biochemistry finding
+meeting reports
+microbiology finding
+gender finding
+descriptive bibliography
+meetings conferences
+opticianry
+book selection
+periodical index
+library assistant
+morbus cordis
+language finding
+dental libraries
+szymanski s algorithm
+front and back ends
+const
+wildcard
+value type
+parasail
+occam
+array data type
+reference type
+sparse array
+lowenheim number
+finalization
+normalization property
+variadic macro
+bashforth
+logical assertion
+rules of passage
+struct
+toy programming language
+little b
+type rule
+l net
+lindstrom quantifier
+frechet inequalities
+hyphenation algorithm
+j sharp
+weighted context free grammar
+direct style
+fjolnir
+harbour
+defun
+clacl
+feferman schutte ordinal
+programming interview
+concept programming
+extensible ml
+conservativity theorem
+basic object system
+buchi arithmetic
+sophismata
+levy hierarchy
+moscow ml
+erasing rule
+object model reference
+absoluteness
+polyglot
+semantic oriented programming
+micro programming language
+lisaac
+uplevel
+bernays schonfinkel class
+post condition
+code translation
+globalization management system
+grass pickerel
+esox americanus vermiculatus
+predictive inference
+inflatable raft
+single document interface
+numbering unit
+differential group delay
+raw socket
+tdmoip
+ip hijacking
+internetwork protocol
+arm architecture
+revision control
+graphical control element
+big ball of mud
+legacy code
+fuzz testing
+ole for process control
+open format
+life critical system
+co design
+tribon
+os x
+mac os
+normalized systems
+hypercomics
+reprap project
+plagiarism detection
+java programming language
+testing types
+application program software
+supervisor computer
+r programming language
+ncbi taxonomy
+software problem
+hardware application
+blackberry device
+software evaluation
+product submission
+hardware tool
+communications software
+handling code
+voice recognition software
+software malfunction
+user friendly software
+speech recognition software
+cdt protocol
+software vendor
+burn down chart
+lepus3
+addresssanitizer
+cardiovascular monitor
+operating system embedded
+e learning maturity model
+powertype
+software entropy
+software rejuvenation
+module dependency
+rename method
+intel 80486
+intel 80386
+code morphing software
+call gate
+segment specification
+python bivittatus
+royal python
+african rock python
+visual basic net
+grubbs test for outliers
+search engine technology
+hybrid search engine
+extreme transaction processing
+serializability
+transaction code
+ethernet over copper
+loss of significance
+ieee floating point
+radix point
+denormal number
+binary scaling
+lc 3
+cmpp protocol
+short message service technical realisation
+bridge tied load
+audio electronics
+network speaker
+pentadecimal
+senile retinoschisis
+foveal retinoschisis
+peripheral retinoschisis
+congenital retinoschisis
+retinoschises
+congenital x linked retinoschisis
+bullous retinoschisis
+united states 2008 wireless spectrum auction
+spectrum reallocation
+radiocommunication service
+vicarious reinforcement
+benign occipital epilepsy
+atypical absence epilepsy
+ordered weighted averaging aggregation operator
+cyber electronic warfare
+display advertising
+transmission line measurement
+telegrapher
+dnsbl
+scheduling procedure
+nonpreemptive multitasking
+guardrail height
+rise time setting
+pesq
+polqa
+qam
+modulator demodulator
+composite laminates
+composite repairs
+advanced fiber placement
+filtek z250 composite resin
+infiltration route
+concise enamel bond
+fuji ionomer
+estilux posterior
+volume content
+tetric evoceram
+palfique estelite
+ampelodesma mauritanica
+resin restorations
+herculite xrv
+belleglass hp
+polyferric aluminum chloride
+lonicera standishii
+flowable composite
+dental leakage
+vita enamic
+surefil sdr flow
+clearfil cr
+tetric flow
+class i restoration
+polydimethyl diallylammonium chloride
+biocoating
+root canal posts
+hydroxyapatite bioglass
+tescera atl
+filtek bulk fill
+polyferric chloride
+glasiosite
+filtek a110
+dental resin composite
+titanium boride
+clearfil majesty
+flax fibre
+tph spectrum
+estelite sigma
+herculite xr
+carbon composites
+composite joint
+dental composite resin
+hydroxyapatite polylactide
+hemp fiber
+clearfil st
+stick resin
+dental liner
+composites resins
+urethane tetramethacrylate
+resin artificial teeth
+hemp fibre
+dental marginal adaptation
+isotropic disc
+resin based composite
+dyract flow
+duo cement
+dental restoration wear
+chemfil ii
+delamination process
+composite architecture
+belleglass
+barium glass
+quadrant universal lc
+filtek supreme ultra
+grandioso flow
+prisma aph
+admira flow
+denfil flow
+vertise flow
+filtek flow
+vita suprinity
+compoglass flow
+general matrix notation of a var
+church s thesis
+tentagel s
+gly gly gly gly
+graptemys oculifera
+genus graptemys
+graptemys ouachitensis
+wan technology
+coppersmith winograd algorithm
+freivalds algorithm
+giant kokopu
+banded kokopu
+catostomus platyrhynchus
+coloburiscus humeralis
+austroperla cyrene
+nemurella pictetii
+sulcospira hainanensis
+orconectes neglectus
+astyanax paranae
+dicamptodon aterrimus
+cottus perplexus
+hygrohypnum ochraceum
+knodus moenkhausii
+brachyptera risi
+orconectes sanbornii
+triscelophorus monosporus
+orconectes meeki
+phalloceros harpagos
+gyrinophilus porphyriticus
+serrapinnus notomelas
+amphinemura sulcicollis
+nesameletus
+eurycea cirrigera
+nardia compressa
+elimia clavaeformis
+cambarus hubbsi
+cottus gulosus
+campostoma anomalum pullum
+orconectes eupunctus
+spring salamanders
+allocreadium lobatum
+orphan works
+rheodytes leukops
+installment credit
+potential future exposure
+industrial internet
+smart objects
+smart connected products
+coap protocol
+function prologue
+c classes
+shadow tests
+mimd
+bar x and r chart
+retinal disparity
+eye movement monitor
+near triad
+vergence movement
+newuoa
+bobyqa
+uobyqa
+cobyla
+pilosulin 1
+tree tomato
+colletotrichum tamarilloi
+ground wave propagation
+semantic equivalence
+hybrid monte carlo
+photon transport in biological tissue
+alpha centrality
+distal phalanx fracture
+dogmamodeler
+association class
+recursive self improvement
+pear psylla
+trechnites
+decision regret scale
+box jenkins
+motor axon pathfinding
+branch misprediction
+branch predication
+horizontal jerk nystagmus
+physical data flow
+physical data model
+dysmetrias
+inappropriate saccades
+abnormal saccades
+hypometric saccades
+horizontal saccades
+eye displacement
+hypermetric saccades
+system programming
+inductive functional programming
+internet banner
+life skills training
+trans european transport networks
+ensembles of classifiers
+click wrap
+browse wrap
+reno sparks
+brazil malvinas confluence
+winnow
+local radial
+truenorth
+risk box
+lego mindstorms nxt 2 0
+recovery time objective
+recovery consistency objective
+disaster recovery plan
+recovery point objective
+basiccard
+smart card security
+perceptual distortion
+just noticeable
+imd3
+olivocochlear bundle
+neonatal hearing impairment
+bm basilar membrane
+transient otoacoustic emissions
+normal otoacoustic emissions
+automated auditory brainstem response
+spontaneous otoacoustic emissions
+strongly np complete
+application layer ddos attack
+hormander s condition
+coherent processing interval
+interactive systems engineering
+user interface management systems
+scanf format string
+three input universal logic gate
+butoctamide hydrogen succinate
+pedunculopontine tegmentum
+butoctamide
+violent dreams
+rem sleep deprivation
+taeniothrips inconsequens
+family aceraceae
+genus acer
+acer nikoense
+periphyllus testudinaceus
+automated crash notification
+multiprocessor scheduling
+sequence dependent setup
+ontology editor
+ontology concept
+gene ontology project
+document ontology
+biological ontologies
+carrier to receiver noise density
+object class detection
+haar like features
+skin regions
+nested virtualization
+mean and predicted response
+quantitative structure property relationship
+screen film radiography
+ipv6 subnetting reference
+data aggregator
+environment surveillance
+psylliodes attenuatus
+international supercomputing conference
+bile agent
+internet topology
+logical topology
+dead peer detection
+peer to peer protocol
+membership function
+nine rules
+godel logic
+erasable programmable logic device
+gps block iiia
+gps tracking server
+monte carlo method in statistical physics
+markov chain monte carlo methodology
+quasi quotation
+rgb color space
+lab color space
+rec 2020
+color mapping
+color mapping function
+coast guard personnel
+boating accident
+reserve military
+guard security
+smif
+leguminivora glycinivorella
+legume pod
+matsumuraeses phaseoli
+graptemys gibbonsi
+graptemys flavimaculata
+cramer s v
+ute mountain ute
+prairie band
+sisseton wahpeton
+san carlos apache
+northern cheyenne
+mescalero apache
+duck valley
+crow indian
+standing rock sioux
+warm springs indian
+zuni indian
+shoshone paiute
+asymmetric digital subscriber line
+digital subscriber line access multiplexer
+color face
+monochrome image
+congenital herpes simplex
+herpes simplex virus vaccines
+herpes simplex virus dna
+hsv encephalitis
+herpes simplex virus hsv 1
+hsv glycoprotein c
+hsv keratitis
+hsv 1 glycoprotein b
+hsv vaccines
+human herpes simplex virus
+genital hsv
+bezold brucke shift
+traffic information service broadcast
+traseolide
+ole db provider
+f script
+synchronous cdma
+hilbert poincare series
+hilbert c module
+rec 601
+non linear editing system
+smpte 292m
+radio propagation beacon
+interoperability evaluation
+buhlmann model
+purchase invoice
+financial invoice
+high dynamic range imaging
+double pulse
+pulse fast
+pulse finding
+taking pulse
+temporal narrowing
+abnormal pulse
+monitoring pulse
+pulse monitor
+high pulse rate
+pulse oximeter tester
+coupled pulse
+rapid pulse
+irregular pulse
+small pulse
+pulse wave form
+delayed pulse
+fast pulse
+pulse characteristics
+pulse phenomenon
+pulse rates
+pulse rhythm
+weak pulse
+unequal pulse
+wrist artery
+pulse monitoring
+slow pulse
+strong pulse
+normal pulses
+thin pulse
+pulse taking
+brief pulse
+pulse absence
+pulse oximeters
+q carbon
+hypsorhodopsin
+picosecond pulsed laser
+er glass laser
+low pulse rates
+topology of uniform convergence
+adaptive projected subgradient method
+storage hypervisor
+longest common substring problem
+emix
+information technology operations
+governance risk management and compliance
+cell id
+optimal discriminant analysis
+tibia part
+revocation list
+beam hardening artifact
+biomodels database
+biopax biological pathways exchange
+license revocation
+common mode interference
+c algebra
+heavy path decomposition
+type 1 error probability
+ibm floating point architecture
+common musk turtle
+parametric regression method
+psoc
+mpsoc
+commutation theorem
+sweet peppers
+red sweet pepper
+rotation period
+circumstellar disk
+astroengineering
+late type star
+abundances of the elements
+mass pulsating
+orbital separation
+compressed disk
+schonberg chandrasekhar limit
+exoplanetology
+wide field infrared survey telescope
+deuterium burning
+petaurista petaurista
+rewrite rule
+derivation type
+dimension table
+transiogram
+vestibular nystagmus
+angular vestibuloocular reflex
+heterogeneous wireless network
+image markup
+trypanosoma cobitis
+convolutional deep belief networks
+hookset
+m m queue
+cathode ray tube display
+optical fiber cable
+n75 latency
+peltocephalus dumerilianus
+podocnemis erythrocephala
+erymnochelys
+podocnemis vogli
+podocnemis lewyana
+podocnemis sextuberculata
+radar absorbent material
+protocol for metadata harvesting
+falco berigora
+falco fasciinucha
+falco deiroleucus
+falco peregrinus anatum
+falco pelegrinoides
+falco amurensis
+genus clemmys
+palea steindachneri
+pelomedusa
+kinosternon sonoriense
+kinosternon baurii
+sternotherus carinatus
+apalone spinifera
+malayemys subtrijuga
+mauremys reevesii
+cyclemys atripons
+rhinoclemmys punctularia
+rhinoclemmys nasuta
+mauremys rivulata
+emys trinacris
+trachemys dorbigni
+trachemys ornata
+geoclemys hamiltonii
+chitra indica
+flapshell turtle
+diamondback terrapins
+pelusios sinuatus
+big headed turtles
+mauremys annamensis
+electronic money
+in shuffle
+ventral paraflocculus
+dorsal paraflocculus
+nystagmus surgery
+horizontal pendular nystagmus
+x linked congenital nystagmus
+jerk nystagmus
+sensory nystagmus
+nystagmus amplitude
+idiopathic nystagmus
+general group problem solving ggps model
+erbium lasers
+memory data register
+bandwidth cap
+breakfast room
+hunt mcilroy algorithm
+recursive ordinal
+one line diagram
+cercopithecus petaurista
+endec
+infranet
+eap protocol
+vital signs observation
+ink printer
+copying ink
+receptive language impairment
+comprehension training
+language comprehension tests
+comprehension language
+token test
+comprehension impairment
+broca s aphasia
+revised token test
+left supplementary motor area
+movement related potentials
+right supplementary motor area
+pakistan sign language
+hand region
+geo warping
+xanthohumol c
+desmethylxanthohumol
+fluorol 7ga
+texas instruments tms320
+cure monitoring
+fibreoptic cable
+intermediate fiber
+fiber choice
+fiberguide
+fiber optic spectroscopy
+expansion substrate
+temperature discrimination
+montgomery reduction
+unbalanced oil and vinegar
+multi prime
+title bar
+anomalous trichromacy
+heteroscedasticity consistent standard errors
+polynomial least squares
+associative containers
+grafton dbm
+bone demineralization technique
+green threads
+sw26010
+agonoscena pistaciae
+anthocoris minki
+web application development
+universal description discovery and integration
+endpoint reference
+irobot seaglider
+agent vehicle
+extra vehicular activity
+watershed area
+hspf
+watershed central
+relief ratio
+acquired color vision deficiency
+dna computations
+ieee 802 11ac
+scheffe s method
+hamming 7 4
+yottabyte
+kraft s inequality
+soft output viterbi algorithm
+long code
+td scdma
+spreading factor
+signature code
+code protocol
+serum spreading factor
+vortac
+speech distortion
+speech observations
+oesophageal voice
+μ recursive function
+soap product
+fraudulent transaction
+transaction type
+currency amount
+commit operation
+swim lane
+student misconduct
+online data processing
+computer data processing
+automated data processing
+computerized data processing
+fat client
+baicalobdella
+austrobdella
+hirudinaria manillensis
+johanssonia arctica
+leech infestation
+myzobdella
+macrobdella ditetra
+hirudo nipponia
+desserobdella picta
+branchellion torpedinis
+whitmania pigra
+helobdella austinensis
+haemadipsa zeylanica
+zeylanicobdella arugamensis
+terrestrial leech
+haementeria depressa
+hirudiniasis
+branchellion
+glossiphonia complanata
+nephelopsis obscura
+oceanobdella
+hirudotherapy
+theromyzon trizonare
+stibarobdella
+leech therapy
+gastrointestinal stromal tumors gists
+gist gastrointestinal stromal tumor
+colorectal gist
+gastrointestinal stromal tumours
+imatinib mesilate
+parapyrenaria
+realizable k e model
+intelligent speed adaptation
+speed limit laws
+license number
+license control
+license status
+active license
+maculinea teleius
+maculinea nausithous
+fusarium lactis
+jalapeno peppers
+capsicum spp
+pepper extract
+pepper seasoning
+black pepper oil
+colletotrichum scovillei
+red pepper extract
+pepper oil
+xanthomonas vesicatoria
+red peppers
+sabia japonica
+green peppers
+brazilian pepper
+green bell pepper
+bell peppers
+red bell pepper
+long pepper extract
+readability test
+p tert butyltoluene
+acetone formation
+2 methyl 3 butyn 2 ol
+alcohol formation
+monoacetin
+4 nitroacetophenone
+rhodamine b thiohydrazide
+g quadruplex dna binding
+hydrogen peroxide synthesis
+p chloronitrobenzene
+manganese tetraphenylporphyrin
+silver transport
+test vector generator
+turns rounds and time keeping systems in games
+yao s millionaires problem
+portable object
+organizational unit
+revolving account
+bond for deed
+complex conjugate vector space
+abelian variety of cm type
+waveform observation
+heart component
+constant waveform
+square waveform
+ecg waveforms
+sinusoidal waveform
+temperature waveform
+waveform source
+electrocardiographic waveform
+mesh node
+parking sensors
+shared parking
+mental retardation training
+echinamoeba
+dental prosthesis retention
+sm4 algorithm
+cc protocol
+rollback operation
+perl 6
+teaching english as a second language
+acquired nystagmus
+area under curves
+mortality prediction model
+iodonitrotetrazolium violet
+cartilaginous skeleton
+lower limb skeleton
+whole skeleton
+osseous skeleton
+rat skeleton
+entire skeleton
+skeleton as a whole
+graphical user interface elements
+participant object
+molecular computations
+trimming action
+1 butylamine
+mannitol sorbitol
+glider accident
+persistent object store
+type inheritance
+discrete spectrum
+constant coefficients
+fbi transform
+schrodinger s cat
+factorization lemma
+neumann poincare operator
+trace inequalities
+gate operator
+compensatory tracking
+operator problem
+cone operator
+operator device
+vehicle operator performance
+edit action
+operator id
+operator symbol
+clickable
+computer user interface
+user computer interfaces
+unification process
+haemoglobin e trait
+state trait anger expression inventory
+collision test
+probability code
+sheave
+retroactive data structures
+disjoint set
+basic data structure
+parameterized macro
+gross vehicle weight rating
+pillion passenger
+multiple vehicle crash
+wheelchair occupant restraint
+vehicle pedestrian crash
+booster cushion
+primitive wrapper class
+enterprise javabeans
+java remote method protocol
+dacapo
+java servlet
+spizaetus bartelsi
+salsa dancing
+argusianus
+second witness
+enclosed harbour
+computer program package
+belonesox belizanus
+lucioperca lucioperca
+racketball
+relocation stress syndrome
+intraweb
+datasnap
+perovskia abrotanoides
+m files
+ambiguity tolerance
+stimulus ambiguity
+mime protocol
+antheraea mylitta
+recursive set
+micropublishing
+microfilm microfiche
+microfilming
+web life
+web information system
+speech scale
+speech clarity
+simulated hearing loss
+speech reception threshold
+speech babble
+dysarthric speech
+poor speech
+unintelligible speech
+rapid speech
+spastic dysarthria
+acquired dysarthria
+decreased speech
+monotone speech
+clipped speech
+peptideprophet
+terabit
+petabit
+wavelength division multiple access
+super channel
+next generation access
+optical network unit
+hybrid fibre coaxial
+g 984
+ultrawave
+esox niger
+genus esox
+esox reicherti
+proteocephalus pinguis
+architecture analysis design language
+profit efficiency
+trip number
+bubble detector
+primary collapse
+canonical signed digit
+auditory recruitment
+loudness perception
+vocal loudness
+uncomfortable loudness level
+tms320c4x
+wide dynamic range
+statistical signal processing
+binocular indirect ophthalmoscope
+uveal effusion syndrome
+detached retina
+vitreous operations
+retinal cyst
+cystoid degeneration
+retinal surgery
+left retinal detachment
+thick sclera
+fluorosilicone oil
+surgical reattachment
+reattachment procedure
+scleral staphyloma
+subretinal fluid
+vitreous disorders
+vitreous degeneration
+exudative retinal detachment
+schwartz syndrome
+telecommunications control software
+traffic engineer
+public switched data network
+generic access network
+hypertext transfer protocol over secure socket layer
+certificate server
+intermediate certificate authorities
+technical journalism
+oxford elbow score
+dash outcome measure
+dictyoploca japonica
+dictyoploca
+mutual capacitance
+capacitive micromachined ultrasonic transducers
+bayes rule
+uniprot knowledgebase
+t o t e
+demultiplexer
+an ucc 4
+elementary stream
+multiplexed array
+spatial multiplexing gain
+endodontic files
+balanced force technique
+wrist joint prosthesis
+titanium molybdenum alloy
+artificial ants
+dilation result
+critical fusion frequency
+rollable display
+catenet
+directories as topic
+live virtual and constructive
+interoperability problem
+hpgl
+original chip set
+intellectual rights
+plant breeders rights
+authors rights
+image name
+three step test
+legal patent
+patents as topic
+patent agent
+patents rights
+analog chip
+process variation
+8 bit
+4 bit
+12 bit
+18 bit
+silicon measurement
+nanoscale process
+jet lag syndrome
+network functions virtualization
+microphysics
+weblet
+intercloud
+hyperscale
+qualitative concept
+hacking tool
+ertico
+cerapachys biroi
+camponotus rufipes
+myrmecina nipponica
+pheidologeton affinis
+paratrechina flavipes
+camponotus crassus
+pachycondyla obscuricornis
+aphaenogaster araneoides
+cataglyphis velox
+pheidole obscurithorax
+camponotus cruentatus
+camponotus obscuripes
+pheidole oxyops
+pheidole fervida
+aphaenogaster japonica
+pseudomyrmex termitarius
+temnothorax longispinosus
+cataglyphis aenescens
+colobopsis nipponicus
+pyramica membranifera
+streblognathus peetersi
+pristomyrmex punctatus
+lasius austriacus
+pheidole desertorum
+cardiocondyla obscurior
+polyrhachis vicina
+pheidole morrisi
+camponotus gigas
+camponotus aethiops
+unique visitor
+bricks and clicks
+legal aspects of computing
+hypertext transfer protocol
+cyberculture
+internet presence management
+outernet
+web document
+cyberphobia
+e recruitment
+network economics
+net generation
+blog network
+web community
+web commerce
+virtual pharmacy
+internet refrigerator
+internaut
+investing online
+online forum
+distance counseling
+imap protocol
+cyber space
+digital anatomist
+internet sales
+obscene speech
+internet website
+grateful med
+encyclopedias as topic
+mail contact
+cybersafety
+internet retailing
+web application framework
+cross browser
+defibrillator paddles
+dialog system
+compact disk read only memory
+user privilege
+system in package
+timing quantity
+idiopathic infantile nystagmus
+animal enclosure
+power wheelchairs
+wheelchair transfer
+wheelchair tires
+wheelchair positioning
+motorised wheelchair
+wheelchair brakes
+power driven wheelchair
+lightweight wheelchairs
+stair climbing wheelchair
+manual wheelchair
+wheelchair wheels
+wheelchair standard
+sports wheelchair
+stand up wheelchair
+wheelchair accessory
+wheelchair armrest
+powered wheelchairs
+wheelchair scale
+seat lift mechanism
+wheelchair user
+wheelchair seating
+electric wheelchairs
+self propelled wheelchair
+wheelchair footrest
+wheelchair headrest
+wheelchair handrim
+id based cryptography
+cep measurement
+scheduling instructions
+proportionally fair
+co occurrence networks
+package on package
+isocohumulone
+telephone hotlines
+telephone hotline
+individual level variable
+group level effects
+provider edge
+customer edge
+pyrus sinkiangensis
+opuntia megacantha
+prickly pear fruit
+pyrus amygdaliformis
+pear preparation
+pyrus bretschneideri
+opuntia albicarpa
+euzophera pyriella
+cacopsylla chinensis
+alternaria kikuchiana
+dysaphis pyri
+eriophyes pyri
+venturia nashicola
+botryosphaeria berengeriana
+pear juice
+gymnosporangium asiaticum
+ak toxin i
+phomopsis fukushii
+janus compressus
+pyrus betulaefolia
+pyrus serotina
+agonoscena
+phialophora malorum
+pleospora allii
+basic service
+inflectional phrase
+hybrid bond
+acquisition scheme
+laws of information systems
+pattern time
+retinal lattice degeneration
+pavingstone degeneration
+t 37
+camponotus melanoticus
+tail wound
+transform clipping and lighting
+render target
+xebra medical imaging software
+intelligent vehicle technologies
+tetramorium caldarium
+cataglyphis floricola
+ptp protocol
+social force model
+pedestrian facilities
+pedestrian underpass
+vehicle pedestrian accident
+straight corridor
+pedestrian accident
+pedestrian overpass
+upper leg injury
+street environment
+pedestrian transport
+off hook
+telephone plug
+facsimile number
+business telephone number
+fax number
+mobile telephone number
+hata model for open areas
+seclusion room
+patient seclusion
+dynamic simulation model
+asde x
+equilibrium sense
+slope stability radar
+radar imaging
+ale 50 towed decoy system
+electronic warfare
+cw doppler
+digital array
+phase code
+radar radiation
+high dynamic range video
+plasmodiophorids
+two generals problem
+gâteaux derivative
+birkhoff orthogonality
+semi inner product
+teichmuller tukey lemma
+calderon zygmund lemma
+ca protocol
+whitmania laevis
+whitmania acranulata
+frechet mean
+fr v
+smart cache
+bandplan
+di isopropyl ether
+benzyl alcohol water
+2 methoxy 2 methylpropane
+child emotional abuse
+child abuse victim
+spoken dialog systems
+rewritable compact disc
+nephelopsis
+radar configurations and types
+electronic counter countermeasures
+an alq 128
+extensible host controller interface xhci
+proof of o log n time complexity of union find
+cataglyphis bombycina
+usb on the go
+acute central serous chorioretinopathy
+retinal perforation
+subretinal exudate
+mpeg audio layer 3
+family cannabaceae
+humulus lupulus extract
+sphaerotheca humuli
+hops extract
+cannabinaceae
+thermoacoustic computed tomography
+rating action
+confidentiality breach
+confidential communications
+patient confidentiality
+privileged communication
+confidentiality agreement
+emancipated minor
+confidentiality rights
+photonic chip
+power network design
+chip and pin
+microwave chips
+spiniferites elongatus
+seasonal course
+citharichthys spilopterus
+pholis fangi
+cyclotella ocellata
+parameletus chelifer
+johnius grypotus
+disconjugate eye movements
+saccadic movements
+convolution reverb
+service level requirement
+enhanced telecom operations map
+detection early
+reflection loss
+microwave sterilizer
+microwaved food
+conductivity technique
+magnesium titanate
+microwave probe
+microwave action
+microwave electromagnetic radiation
+collapsible balloon
+direct broadcast satellite
+dab ensemble
+broadcasting technology
+anatomical conduit
+respiratory conduit
+body conduit
+ileal conduit stoma
+artificial conduit
+telemetry equipment
+telemetry unit
+short wave diathermy
+diathermy equipment
+bipolar diathermy
+unipolar diathermy
+diathermy incision
+surgical diathermy
+microwave diathermy
+telecom application map
+humulinic acid
+counterfeit product
+fake drugs
+tenseless language
+wu dialect
+min dialect
+siniperca scherzeri
+nucleic acid testing
+clay animation
+3d computer graphics software
+artistic rendering
+geosparql
+stardog
+helobdella europaea
+schrodinger method
+schrodinger group
+potebniamyces pyri
+service science management and engineering
+higher order factor analysis
+reverse isolation
+total rhinectomy
+dolabra nepheliae
+gliocephalotrichum microchlamydosporum
+nephelium ramboutan ake
+orders of magnitude
+multipath interference
+indoor geolocation
+lifelike experience
+network access point
+dom events
+sinensis camellia
+common camellia
+camellia yuhsienensis
+camellia pitardii
+camellia vietnamensis
+camellia semiserrata
+camellia sinensis seed
+camellia tenuifolia
+camellia chekiangoleosa
+curculio chinensis
+korthalsella japonica
+family theaceae
+ciborinia camelliae
+curculio camelliae
+camellia japonica leaf
+carpinus coreana
+database specification
+slowloris
+planetsim
+behavioral targeting
+digital strategy
+tachigali myrmecophila
+acacia hindsii
+capitation payment
+dom scripting
+poly methyloctylsiloxane
+digital image processing equipment
+nephelium mutabile
+the right to privacy
+pseudonymity
+non dictatorship
+cac protocol
+cascading style sheets
+internal hirudiniasis
+enterprise java bean
+great argus pheasant
+pheidologeton
+odontoponera transversa
+uniform absolute continuity
+pulp tooth
+grostl
+lignosus rhinocerotis
+neoplatycephalus richardsoni
+hippocampus comes
+equivalent isotropically radiated power
+acanthomyops
+austrolasius
+cautolasius
+claviger testaceus
+camponotus acvapimensis
+crematogaster pygmaea
+crematogaster subgenus
+crematogaster mimosae
+physocrema
+crematogaster limata
+orthocrema
+vestibulo ocular response
+magnifying spectacles
+absent vestibular function
+ocular dipping
+heterogeneity
+social circle
+de anonymization
+friend selection
+name generator
+the position generator
+scraping action
+moderation system
+stress moderator
+spurious correlation
+insurance authorization
+authorization mode
+anthropogeny
+factor payments
+alternative payments
+medicare program
+physician payment review commission
+value based purchasing
+creditcard
+capitation payment method
+bank account number
+medicare part b
+fee schedule
+payment procedure
+single lump
+third party payments
+provider billing
+secondary payer
+medicare assignment
+protective vest
+bodywarmer
+caularthron bilamellatum
+talamancana
+dimerandra emarginata
+olivea tectonae
+heisteria concinna
+vriesea sanguinolenta
+bradypus pygmaeus
+saguinus geoffroyi
+canal zone
+luehea seemannii
+cercomacra tyrannina
+planar transformers
+myoelectric hand prosthesis

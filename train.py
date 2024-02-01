@@ -110,6 +110,9 @@ if __name__ == "__main__":
     elif config.model_type == "Llama":
         model_type = LlamaForCausalLM
         tokenizer_type = LlamaTokenizer
+    elif config.model_type == 'Seq2Seq':
+        model_type = AutoModelForSeq2SeqLM
+        tokenizer_type = AutoTokenizer
 
     extra_model_params = {}
     if params_list["DTYPE"][0] == "half":

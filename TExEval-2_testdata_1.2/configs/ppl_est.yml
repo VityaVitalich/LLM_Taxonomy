@@ -1,18 +1,18 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 1
+  - 0
 BATCH_SIZE:
-  - 64
+  - 32
 MODEL_CHECKPOINT:
-  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet_verb"
+  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet_pretrained_FT_MAG_CS_definitions"
 OUT_NAME:
-  - '/home/LLM_Taxonomy/LexicalEntailment/data/ant_pairs_formated_ppls.pickle'
+  - '/home/LLM_Taxonomy/TaxonomyEnrichment/data/MAG_CS/all_pairs_ppls.pickle'
 IN_NAME:
-  - '/home/LLM_Taxonomy/LexicalEntailment/data/ant_pairs_formated.pickle'
+  - '/home/LLM_Taxonomy/TaxonomyEnrichment/data/MAG_CS/all_pairs.pickle'
 LOAD:
   - false
 USE_DEF:
-  - false
+  - true
 CASE:
   - "pred_hypernym"

@@ -47,6 +47,7 @@ class Leafer:
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
         weights=[0.2, 0.2, 0.2, 0.2, 0.2, 0.2],
+        use_1sense_hypernyms=True,
     ):
         """
         Interface for train test splitting
@@ -59,6 +60,7 @@ class Leafer:
             p_divide_leafs,
             min_to_test_rate,
             weights=weights,
+            use_1sense_hypernyms=use_1sense_hypernyms,
         )
         # self.collector.collect_only_child()
         # self.collector.collect_only_leafs()
@@ -104,7 +106,6 @@ class Leafer:
                 dedup_data.append(mapping[uniq_code])
 
         return dedup_data
-
 
 
 class GeneratorMixin:
@@ -237,6 +238,7 @@ class Collector(GeneratorMixin):
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
         weights=[0.2, 0.2, 0.2, 0.2, 0.2, 0.2],
+        use_1sense_hypernyms=True,
     ):
         self.generation_depth = generation_depth
         self.ancestors_depth = ancestors_depth
@@ -245,6 +247,7 @@ class Collector(GeneratorMixin):
         self.min_to_test_rate = min_to_test_rate
         self.G = G
         self.weights = weights
+        self.use_1sense_hypernyms = use_1sense_hypernyms
 
         self.train = []
         self.test = []
@@ -475,7 +478,15 @@ class Collector(GeneratorMixin):
         except KeyError:
             num_senses = 2
 
-        if num_senses == 1:
+        if self.use_1sense_hypernyms:
+            if num_senses == 1:
+                elem = {}
+                elem["children"] = child
+                elem["parents"] = parent
+                elem["grandparents"] = None
+                elem["case"] = "predict_hypernym"
+                self.simple_filter(elem)
+        else:
             elem = {}
             elem["children"] = child
             elem["parents"] = parent

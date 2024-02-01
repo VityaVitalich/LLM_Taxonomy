@@ -1,0 +1,6 @@
+INPUT_PATH:
+  - "./data/MAG_CS/all.edgelist"
+INTERMEDIATE_PATH:
+  - "./data/MAG_CS/names.pickle"
+OUTPUT_PATH:
+  - "./data/MAG_CS/definitions.pickle"
