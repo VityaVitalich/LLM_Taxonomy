@@ -95,8 +95,8 @@ def train_epoch(
             previous_checkpoint = (
                 f"{config.saving_path}_epoch={epoch}_batch_idx={batch_idx-100}.pth"
             )
-            if os.path.isfile(previous_checkpoint):
-                os.remove(previous_checkpoint)
+        #  if os.path.isfile(previous_checkpoint):
+        #     os.remove(previous_checkpoint)
         if (batch_idx + 1) % config.log_pred_every == 0:
             model.eval()
             with torch.no_grad():

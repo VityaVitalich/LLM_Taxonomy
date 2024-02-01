@@ -1,10 +1,12 @@
 TEST_DATA_PATH:
-  - "wnet/v2_wnet_def_test.pickle"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish.pickle"
 OUTPUT_NAME:
-  - "/home/data/taxonomy/model_outputs/_gpt2GPT2_wn_v2_def_0"
+  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hf1C_FT_Unified_Clean_wn_noun_verb_def_0"
 SAVE_EXAMPLES:
   - true
 SAVE_EXAMPLES_PATH:
-  - "/home/LLM_Taxonomy/babel_datasets/model_examples/gpt2"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/model_examples/1C_Unified_clean_FT_simple_concat"
 IDS_TO_USE:
   - "all"
+DECODING: #mean or concat
+  - "concat"    

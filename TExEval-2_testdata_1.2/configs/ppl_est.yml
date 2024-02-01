@@ -1,15 +1,15 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 0
+  - 3
 BATCH_SIZE:
-  - 32
+  - 16
 MODEL_CHECKPOINT:
-  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet_pretrained_FT_MAG_CS_definitions"
+  - "VityaVitalich/Unified_Taxo"
 OUT_NAME:
-  - '/home/LLM_Taxonomy/TaxonomyEnrichment/data/MAG_CS/all_pairs_ppls.pickle'
+  - '/home/LLM_Taxonomy/LexicalEntailment/data/hyperlex_pairs_ppl.pickle'
 IN_NAME:
-  - '/home/LLM_Taxonomy/TaxonomyEnrichment/data/MAG_CS/all_pairs.pickle'
+  - '/home/LLM_Taxonomy/LexicalEntailment/data/hyperlex_pairs.pickle'
 LOAD:
   - false
 USE_DEF:

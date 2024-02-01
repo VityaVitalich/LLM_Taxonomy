@@ -110,7 +110,7 @@ if __name__ == "__main__":
     elif config.model_type == "Llama":
         model_type = LlamaForCausalLM
         tokenizer_type = LlamaTokenizer
-    elif config.model_type == 'Seq2Seq':
+    elif config.model_type == "Seq2Seq":
         model_type = AutoModelForSeq2SeqLM
         tokenizer_type = AutoTokenizer
 

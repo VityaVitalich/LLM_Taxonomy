@@ -212,6 +212,6 @@ if __name__ == "__main__":
     config.load_path = SAVING_DIR + "model_checkpoints/" + params_list["LOAD_PATH"][0]
 
     all_preds, all_labels = main(config)
-    metric_calculator = Metric(all_labels, all_preds)
+    metric_calculator = Metric(all_labels, all_preds, "mean")
     metrics = metric_calculator.get_metrics()
     print(metrics)
