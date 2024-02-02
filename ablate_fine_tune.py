@@ -216,7 +216,14 @@ if __name__ == "__main__":
 
     final_metrics = {}
 
+    if os.path.isfile(save_path):
+        with open(save_path, "rb") as f:
+            final_metrics = pickle.load(f)
+
     for idx, ckpt in found_files.items():
+        if idx in final_metrics.keys():
+            continue
+
         config.load_path = ckpt
         checkpoint = torch.load(config.load_path, map_location="cpu")
         model.load_state_dict(checkpoint["model"])

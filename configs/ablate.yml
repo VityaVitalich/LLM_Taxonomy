@@ -1,19 +1,19 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 0
+  - 1
 EPOCHS:
   - 0
 BATCH_SIZE:
-  - 8
+  - 2
 LR:
   - 3e-4
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/2B.music.pickle"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1B.italian.pickle"
 TEST_DATA_PATH:
-  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/2B.music.pickle"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1B.italian.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -27,15 +27,15 @@ LOG_PRED_EVERY:
 DATA_PREPROC_STYLE:
 - "2B_ablate_Unified_3beams_20topk_1temp_0norepeat"
 LOAD_PATTERN:
-- "meta-llama-Llama-2-7b-hfUnified_wn_noun_verb_def_FT_2A_2bs_epoch=0_batch*"
+- "meta-llama-Llama-2-7b-hfUnified_wn_noun_verb_def_FT_2B_2bs_epoch=0_batch*"
 PREV_PREDICT:
 - null
 STRATEGY:
 - "stohastic"
 NUM_BEAMS:
-- 3
+- 1
 MAX_NEW_TOKENS:
-- 32
+- 8
 TEMPERATURE:
 - 1
 TOP_K:
@@ -53,5 +53,4 @@ USE_DEF_TARGET:
 USE_NUMBER_TARGET:
 - false
 SAVE_PATH:
-- '2B_ablate.pickle'
-
+- 'ablation_metrics/1B_ablate_few_shot.pickle'
