@@ -1,7 +1,7 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 1
+  - 0
 EPOCHS:
   - 0
 BATCH_SIZE:
@@ -25,9 +25,9 @@ DTYPE:
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "2B_ablate_Unified_3beams_20topk_1temp_0norepeat"
-LOAD_PATTERN:
-- "meta-llama-Llama-2-7b-hfUnified_wn_noun_verb_def_FT_2B_2bs_epoch=0_batch*"
+- "1B_ablate_Unified_3beams_20topk_1temp_0norepeat"
+LOAD_PATH:
+- "meta-llama-Llama-2-7b-hfUnified_wn_noun_verb_def_epoch=0_MAP=0.7340136054421769.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
@@ -54,3 +54,5 @@ USE_NUMBER_TARGET:
 - false
 SAVE_PATH:
 - 'ablation_metrics/1B_ablate_few_shot.pickle'
+FEW_SHOT_PATTERN:
+- '/home/LLM_Taxonomy/SemEval2018-Task9/few_shots/italian*'

@@ -8,7 +8,7 @@ import pickle
 
 import yaml
 
-with open(r"./configs/ablate.yml") as file:
+with open(r"./configs/ablate_few_shot.yml") as file:
     params_list = yaml.load(file, Loader=yaml.FullLoader)
 
 use_def_prompt = params_list["USE_DEF_PROMPT"][0]
@@ -184,20 +184,21 @@ if __name__ == "__main__":
         model = get_peft_model(model, config_lora)
         model.print_trainable_parameters()
 
-    train_dataset, test_dataset, train_loader, val_loader = init_data(tokenizer, config)
 
-    base_dir = SAVING_DIR + "model_checkpoints/"
-    full_pattern = os.path.join(base_dir, params_list["LOAD_PATTERN"][0])
+    config.load_path = SAVING_DIR + "model_checkpoints/" + params_list["LOAD_PATH"][0]
+    checkpoint = torch.load(config.load_path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    del checkpoint
+    torch.cuda.empty_cache()
+
 
     found_files = {}
+    full_pattern = params_list["FEW_SHOT_PATTERN"][0]
     print(full_pattern)
     # Using glob to find files
     for file in glob.glob(full_pattern):
         print(file)
-        if "batch_idx" in file:
-            idx = file.split("=")[-1].replace(".pth", "")
-        else:
-            idx = "last"
+        idx = int(file.split("_")[-1].replace("shot.txt", ""))
 
         found_files[idx] = file
 
@@ -220,15 +221,12 @@ if __name__ == "__main__":
         with open(save_path, "rb") as f:
             final_metrics = pickle.load(f)
 
-    for idx, ckpt in found_files.items():
+    for idx, few_shot_path in found_files.items():
         if idx in final_metrics.keys():
             continue
 
-        config.load_path = ckpt
-        checkpoint = torch.load(config.load_path, map_location="cpu")
-        model.load_state_dict(checkpoint["model"])
-        del checkpoint
-        torch.cuda.empty_cache()
+
+        train_dataset, test_dataset, train_loader, val_loader = init_data(tokenizer, config, few_shot=few_shot_path)
 
         torch.manual_seed(SEED)
         torch.cuda.manual_seed(SEED)
