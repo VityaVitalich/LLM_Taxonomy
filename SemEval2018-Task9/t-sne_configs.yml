@@ -1,0 +1,4 @@
+DATA_DIR:
+ - './t-sne_data'
+OUT_DIR:
+ - './t-sne_data/scatters'
