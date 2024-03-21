@@ -40,6 +40,7 @@ class HypernymDataset(Dataset):
             "predict_hypernym": predict_parent_from_child,
             "predict_multiple_hypernyms": predict_multiple_parents_from_child,
         },
+        few_shot_text=''
     ):
         self.tokenizer = tokenizer
         # self.transforms = transforms
@@ -67,6 +68,7 @@ class HypernymDataset(Dataset):
         # self.df.index = list(range(len(self.df)))
 
         self.case2transform = transforms
+        self.few_shot_text = few_shot_text
 
     # в данном случае выход под LM модельку с маск токеном -100
     def __getitem__(self, index):
@@ -88,7 +90,7 @@ class HypernymDataset(Dataset):
         processed_term, target = self.case2transform[case](elem)
 
         system_prompt = """<s>[INST] <<SYS>> You are a helpfull assistant. List all the possible words divided with a coma. Your answer should not include anything except the words divided by a coma<</SYS>>"""
-        processed_term = system_prompt + "\n" + processed_term + "[/INST]"
+        processed_term = system_prompt + self.few_shot_text + "\n" + processed_term + "[/INST]"
 
         # токенизируем
         encoded_term = self.tokenizer.encode(
@@ -169,19 +171,31 @@ class Collator:
         return (terms, att_mask_terms, targets, inputs, att_mask_inputs, labels)
 
 
-def init_data(tokenizer, config, mask_label_token=-100, semeval_format=False):
+def init_data(tokenizer, config, mask_label_token=-100, semeval_format=False, few_shot=None):
+
+    # should be txt file
+    if few_shot:
+        with open(few_shot, 'r') as f:
+            few_shot_text = f.readlines()
+
+        few_shot_text = ''.join(few_shot_text)
+    else:
+        few_shot_text = ''
+
     # data
     train_dataset = HypernymDataset(
         data_path=config.data_path,
         tokenizer=tokenizer,
         gold_path=config.gold_path,
         semeval_format=semeval_format,
+        few_shot_text=few_shot_text
     )
     test_dataset = HypernymDataset(
         data_path=config.test_data_path,
         tokenizer=tokenizer,
         gold_path=config.test_gold_path,
         semeval_format=semeval_format,
+        few_shot_text=few_shot_text
     )
 
     num_workers = cpu_count()

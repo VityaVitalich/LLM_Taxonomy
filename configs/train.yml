@@ -1,19 +1,19 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 0
+  - 1
 EPOCHS:
   - 1
 BATCH_SIZE:
-  - 16
+  - 2
 LR:
   - 3e-4
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "LexicalEntailment/data/train_wn_verbs.pickle"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish_train.pickle"
 TEST_DATA_PATH:
-  - "LexicalEntailment/data/test_wn_verbs.pickle"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,13 +25,13 @@ DTYPE:
 LOG_PRED_EVERY:
   - 100
 DATA_PREPROC_STYLE:
-- "Entailment_bs16_wnet-v_pretrained"
+- "1C_FT_Unified_Clean_wn_noun_verb_def"
 QLORA:
 - true
 LOAD_PATH:
-- meta-llama-Llama-2-7b-hfonly-wnet-57seed-32bs_epoch=0_MAP=0.23933677520010854.pth
+- "meta-llama-Llama-2-7b-hfUnified_Clean_wn_noun_verb_def_epoch=0_MAP=0.921505376344086.pth"
 USE_DEF_PROMPT:
-- false
+- true
 USE_DEF_TARGET:
 - false
 USE_NUMBER_TARGET:

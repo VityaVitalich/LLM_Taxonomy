@@ -1,19 +1,19 @@
 SEED:
   - 57
 CUDA_VISIBLE_DEVICES:
-  - 1
+  - 0
 EPOCHS:
-  - 1
+  - 0
 BATCH_SIZE:
   - 8
 LR:
   - 3e-4
 MIN_LR:
-  - 3e-6
+  - 3e-4
 DATA_PATH:
-  - "TaxonomyEnrichment/data/MAG_CS/train_hypernyms.pickle"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish.pickle"
 TEST_DATA_PATH:
-  - "TaxonomyEnrichment/data/MAG_CS/test_hypernyms.pickle"
+  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,15 +25,15 @@ DTYPE:
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "Wnet+FT-32bs_8beams_top40k"
+- "1C_Unified_Clean_3beams_40topk_0.8temp_3norepeat"
 LOAD_PATH:
-- "meta-llama-Llama-2-7b-hfTaxoEnrich_MAG_CS_epoch=0_MAP=0.21071575396825398.pth"
+- "meta-llama-Llama-2-7b-hfUnified_Clean_wn_noun_verb_def_epoch=0_MAP=0.921505376344086.pth"
 PREV_PREDICT:
 - null
 STRATEGY:
 - "stohastic"
 NUM_BEAMS:
-- 8
+- 3
 MAX_NEW_TOKENS:
 - 32
 TEMPERATURE:
@@ -42,10 +42,12 @@ TOP_K:
 - 40
 NUM_RETURN_SEQUENCES:
 - 2
+NO_REPEAT_NGRAM:
+- 3
 QLORA:
 - true
 USE_DEF_PROMPT:
-- false
+- true
 USE_DEF_TARGET:
 - false
 USE_NUMBER_TARGET:
