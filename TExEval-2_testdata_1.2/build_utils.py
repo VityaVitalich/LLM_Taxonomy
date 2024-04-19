@@ -101,6 +101,7 @@ def brute_child(
         conflict_thrs = [1]
         insertions_thrs = [1]
 
+    init_thrs = []
     Fs = []
     for thr in tqdm(thrs):
         for conflict_thr in conflict_thrs:
@@ -135,8 +136,9 @@ def brute_child(
                     F = (2 * P * R) / (P + R + 1e-15)
 
                     Fs.append(F)
+                    init_thrs.append(thr)
 
-    print(max(Fs))
+    print(max(Fs), init_thrs[np.argmax(Fs)])
     return Fs
 
 

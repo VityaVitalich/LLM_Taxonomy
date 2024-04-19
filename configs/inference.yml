@@ -11,9 +11,9 @@ LR:
 MIN_LR:
   - 3e-4
 DATA_PATH:
-  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish.pickle"
+  - "/home/LLM_Taxonomy/DataConstructor/data/easy_hyper.pickle"
 TEST_DATA_PATH:
-  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish.pickle"
+  - "/home/LLM_Taxonomy/DataConstructor/data/easy_hyper.pickle"
 USING_PEFT:
   - True
 MODEL_TYPE:
@@ -25,9 +25,9 @@ DTYPE:
 LOG_PRED_EVERY:
 - 400
 DATA_PREPROC_STYLE:
-- "1C_Unified_Clean_3beams_40topk_0.8temp_3norepeat"
+- "EasyTask_Unified_3beams_40topk_0.8temp_3norepeat"
 LOAD_PATH:
-- "meta-llama-Llama-2-7b-hfUnified_Clean_wn_noun_verb_def_epoch=0_MAP=0.921505376344086.pth"
+- "meta-llama-Llama-2-7b-hfUnified_wn_noun_verb_def_epoch=0_MAP=0.7340136054421769.pth"
 PREV_PREDICT:
 - null
 STRATEGY:

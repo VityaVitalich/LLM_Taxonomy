@@ -1,7 +1,7 @@
 DATA:
-  - "food"
+  - "science"
 IN_NAME:
-  - '/home/LLM_Taxonomy/TExEval-2_testdata_1.2/data/food/wordnet/pred_hypernym/unified_clean_def.pickle'
+  - '/home/LLM_Taxonomy/TExEval-2_testdata_1.2/data/sci/pred_hypernym/unified_clean_lemmas_ppl.pickle'
 COMPARE_NAME:
   - './data/sci/mix_nodes/lemmas_clear.pickle'
 INSERTIONS_PATH:
@@ -25,4 +25,4 @@ LOW:
 HIGH:
   - 5
 STEP:
-  - 0.1
+  - 0.01
