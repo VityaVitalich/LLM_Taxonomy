@@ -1,11 +1,11 @@
 TEST_DATA_PATH:
-  - "/home/LLM_Taxonomy/SemEval2018-Task9/custom_datasets/1C.spanish.pickle"
+  - "/home/LLM_Taxonomy/TaxonomyEnrichment/data/noun/test_hypernyms_def.pickle"
 OUTPUT_NAME:
-  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hf1C_FT_Unified_Clean_wn_noun_verb_def_0"
+  - "/home/data/taxonomy/model_outputs/_meta-llama-Llama-2-7b-hfTaxoEnrich_noun_Unified_3beams_40topk_0.8temp_3norepeat_stohastic_"
 SAVE_EXAMPLES:
   - true
 SAVE_EXAMPLES_PATH:
-  - "/home/LLM_Taxonomy/SemEval2018-Task9/model_examples/1C_Unified_clean_FT_simple_concat"
+  - "/home/LLM_Taxonomy/TaxonomyEnrichment/model_examples/unified_noun"
 IDS_TO_USE:
   - "all"
 DECODING: #mean or concat
