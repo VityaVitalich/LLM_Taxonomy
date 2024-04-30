@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
     # if params_list["STRATEGY"][0] == "stohastic":
     config.gen_args = {
-        # "no_repeat_ngram_size": 3,
+        "no_repeat_ngram_size": params_list["NO_REPEAT_NGRAM"][0],
         "do_sample": True,
         "min_new_tokens": params_list["MAX_NEW_TOKENS"][0] - 1,
         "max_new_tokens": params_list["MAX_NEW_TOKENS"][0],
@@ -212,6 +212,6 @@ if __name__ == "__main__":
     config.load_path = SAVING_DIR + "model_checkpoints/" + params_list["LOAD_PATH"][0]
 
     all_preds, all_labels = main(config)
-    metric_calculator = Metric(all_labels, all_preds)
+    metric_calculator = Metric(all_labels, all_preds, "mean")
     metrics = metric_calculator.get_metrics()
     print(metrics)

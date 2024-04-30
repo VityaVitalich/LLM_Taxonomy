@@ -1,0 +1,374 @@
+hyponym: lux | hypernym:
+
+predicted: light, illumination, lighting, illuminance, brightness, luminosity, luminousness, radiance, lustre,
+ 
+true: unità di misura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lux | hypernym:
+
+predicted: light, illumination, lighting, illuminance, brightness, luminosity, luminousness, radiance, visibility, visibility degree
+ 
+true: unità di misura,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: fesso | hypernym:
+
+predicted: italian, italianese, italo-tuscan, tuscan-italian, tuscany, italy, italic, ital
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: fesso | hypernym:
+
+predicted: italian, italianese, italo-tuscan, tuscan-italian, tuscany, italy, italic, t
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: musicalità | hypernym:
+
+predicted: musicality, musicality of sound, musical quality, musical property, musical characteristic, property, characteristic, quality, characteristic property, property of a physical object,
+ 
+true: sonorità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: musicalità | hypernym:
+
+predicted: musicality, musicality of sound, musical quality, musical property, musical characteristic, property, characteristic, quality, characteristic property, property of a physical system,
+ 
+true: sonorità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: spazio vitale | hypernym:
+
+predicted: space, distance, interval, interval of time, time interval, time, duration, duration in time, elapse, elapsis, lapse,
+ 
+true: spazio,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: spazio vitale | hypernym:
+
+predicted: space, distance, interval, interval of time, time interval, time, duration, duration in time, elapse, elapsis, lapse of
+ 
+true: spazio,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grappolo | hypernym:
+
+predicted: grape, grapevine, vine, vinifera, viniferous plant, vinum, wine plant, wine grape variety, wine
+ 
+true: infiorescenza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: grappolo | hypernym:
+
+predicted: grape, grapevine, vine, vinifera, viniferous plant, vinum, wine plant, wine grape plant, v
+ 
+true: infiorescenza,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: bandolo | hypernym:
+
+predicted: bandolier, bandol, cartridge belt, belt ammunition carrier, ammo belt holder, ammocarrier,
+ 
+true: estremità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: bandolo | hypernym:
+
+predicted: bandolier, bandol, cartridge belt, belt ammunition carrier, ammo belt holder, ammobelt holder,
+ 
+true: estremità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: associazione | hypernym:
+
+predicted: association, association, club, society, organization, group, body, association of states, league, league of nations, confederation, federation, league
+ 
+true: unione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: associazione | hypernym:
+
+predicted: association, association, club, society, organization, group, body, association of states, league, league of nations, confederation, federation, union
+ 
+true: unione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: partito | hypernym:
+
+predicted: party, political party, faction, clique, group, party, social group, social club, club, association, association of people, organization, association
+ 
+true: organizzazione politica,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: partito | hypernym:
+
+predicted: party, political party, faction, clique, group, party, social group, social club, club, association, association of people, organization, organization
+ 
+true: organizzazione politica,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: motilità | hypernym:
+
+predicted: motion, movement, mobility, mobness, motionlessness, immobility, motion, change of place, change, changeableness, change
+ 
+true: mobilità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: motilità | hypernym:
+
+predicted: motion, movement, mobility, mobness, motionlessness, immobility, motion, change of place, change, changeableness, mob
+ 
+true: mobilità,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: avventuriero | hypernym:
+
+predicted: adventurer, risk taker, gambler, speculator, investor, risk-taker, risker, risk maker, venturer,
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: avventuriero | hypernym:
+
+predicted: adventurer, risk taker, gambler, speculator, investor, risk-taker, risker, risk maker, venture capital
+ 
+true: persona,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: osservazione | hypernym:
+
+predicted: observation, observation note, observation report, report, note, note-taking, reportage, reportorial writing, writing, written communication, written record,
+ 
+true: considerazione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: osservazione | hypernym:
+
+predicted: observation, observation note, observation report, report, note, note-taking, reportage, reportorial writing, writing, written communication, written language,
+ 
+true: considerazione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: composizione | hypernym:
+
+predicted: word, linguistic communication, communication, language, speech, oral communication, verbal communication, written communication, message, utterance, articulation,
+ 
+true: opera musicale,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: composizione | hypernym:
+
+predicted: word, linguistic communication, communication, language, speech, oral communication, verbal communication, written communication, message, utterance, expression, communication by
+ 
+true: opera musicale,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: equilibrio | hypernym:
+
+predicted: balance, equilibrium, equipoise, poise, stability, steadiness, steadfastness, immobility, immovability, immutability, fix
+ 
+true: stato termodinamico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: equilibrio | hypernym:
+
+predicted: balance, equilibrium, equipoise, poise, stability, steadiness, steadfastness, immobility, immovability, immutability, chang
+ 
+true: stato termodinamico,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: rilevamento | hypernym:
+
+predicted: detection, discovery, revelation, disclosure, uncovering, unveiling, unmasking, exposure, unearthing, unravel
+ 
+true: indagine,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: rilevamento | hypernym:
+
+predicted: detection, discovery, revelation, disclosure, uncovering, unveiling, unmasking, exposure, unearthing, uncloaking
+ 
+true: indagine,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: occhiello | hypernym:
+
+predicted: word, wording, expression, expression of speech, phrase, phraseology, phraseological unit, linguistic unit, utterance, speech, speech act,
+ 
+true: buco,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: occhiello | hypernym:
+
+predicted: word, wording, expression, expression of speech, phrase, phraseology, phraseological unit, linguistic unit, utterance, speech, oral communication
+ 
+true: buco,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lago Trasimeno | hypernym:
+
+predicted: lake, body of water, watercourse, waterway, water, liquid body, water body, natural depression, natural formation, natural phenomenon, natural
+ 
+true: lago,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: lago Trasimeno | hypernym:
+
+predicted: lake, body of water, watercourse, waterway, water, liquid body, water body, natural depression, natural formation, natural phenomenon, body
+ 
+true: lago,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: previsione | hypernym:
+
+predicted: prediction, prophecy, forecast, prognostication, augury, divination, soothsaying, oracular utterance,
+ 
+true: predizione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========
+hyponym: previsione | hypernym:
+
+predicted: prediction, prophecy, forecast, prognostication, augury, divination, soothsaying, oracular statement, oracle
+ 
+true: predizione,
+ 
+intersection: 
+
+metrics:  MRR 0.0 MAP 0.0 P@1 0.0 P@3 0.0 P@5 0.0 P@15 0.0 EnrichCorrectedMRR 0.0 EnrichOriginalMRR 0.0 R@1 0.0 R@5 0.0 R@10 0.0 
+
+==========

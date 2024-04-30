@@ -1,9 +1,9 @@
 import fasttext
 from argparse import ArgumentParser
 
-checkpoint = '/home/data/taxonomy/cc.en.300.bin'
+checkpoint = "/home/data/taxonomy/cc.en.300.bin"
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--path", help="path to data", default=None)
 

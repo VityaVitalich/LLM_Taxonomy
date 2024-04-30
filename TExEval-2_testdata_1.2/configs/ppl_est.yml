@@ -1,18 +1,18 @@
 SEED:
-  - 42
+  - 57
 CUDA_VISIBLE_DEVICES:
-  - 1
+  - 3
 BATCH_SIZE:
-  - 64
+  - 16
 MODEL_CHECKPOINT:
-  - "VityaVitalich/llama2-7b-hf-4b-lora-wnet2-lemmas-no-eurovoc"
+  - "VityaVitalich/Unified_Taxo"
 OUT_NAME:
-  - 'data/sci/insertions/lemmas_ppl.pickle'
+  - '/home/LLM_Taxonomy/LexicalEntailment/data/hyperlex_pairs_ppl.pickle'
 IN_NAME:
-  - 'data/sci/raw_pairs/insertions_lemmas.pickle'
+  - '/home/LLM_Taxonomy/LexicalEntailment/data/hyperlex_pairs.pickle'
 LOAD:
   - false
 USE_DEF:
   - true
 CASE:
-  - "simple_triplet_grandparent"
+  - "pred_hypernym"

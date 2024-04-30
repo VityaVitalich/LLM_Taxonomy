@@ -36,6 +36,7 @@ if __name__ == "__main__":
     save_examples = params_list["SAVE_EXAMPLES"][0]
     save_examples_path = params_list["SAVE_EXAMPLES_PATH"][0]
     ids_to_use = params_list["IDS_TO_USE"][0]
+    decoding = params_list["DECODING"][0]
 
     df = pd.read_pickle(test_path)
 
@@ -102,7 +103,7 @@ if __name__ == "__main__":
 
     print("total preds:" + str(len(all_preds)))
     print("total labels:" + str(len(all_labels)))
-    metric_counter = Metric(all_labels, all_preds)
+    metric_counter = Metric(all_labels, all_preds, decoding=decoding)
     mean_cased = metric_counter.get_metrics()
 
     cased_metrics = {}

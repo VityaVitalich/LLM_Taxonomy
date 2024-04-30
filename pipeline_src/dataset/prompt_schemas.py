@@ -24,7 +24,7 @@ def clean_elem(elem, keys_to_remove_digits=["children"]):
 
 def delete_techniqal(elem, remove):
     if isinstance(elem, str):
-        if ((".n." in elem) or (".v." in elem))  and remove:
+        if ((".n." in elem) or (".v." in elem)) and remove:
             return elem.split(".")[0].replace("_", " ")
         else:
             return elem.replace("_", " ")
@@ -69,7 +69,7 @@ def predict_child_with_parent_and_grandparent(elem):
     #     + "'. Answer:"
     # )
 
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hyperhypernyms: "
             + clean["grandparents"]
@@ -105,7 +105,7 @@ def predict_child_from_parent(elem):
     #     "Predict hyponyms for the word '" + clean["parents"] + "'.  Answer:"
     # )
 
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hypernym: "
             + clean["parents"]
@@ -136,7 +136,7 @@ def predict_children_with_parent_and_brothers(elem):
     #     + clean["parents"]
     #     + "'. Answer:"
     # )
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hypernym: "
             + clean["parents"]
@@ -170,7 +170,7 @@ def predict_child_from_2_parents(elem):
     #     + clean["parents"][1]
     #     + "'. Answer:"
     # )
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "first hypernym: "
             + clean["parents"][0]
@@ -206,7 +206,7 @@ def predict_parent_from_child_granparent(elem):
     #     + clean["grandparents"]
     #     + "' at the same time. Answer:"
     # )
-    if use_def:
+    if use_def_prompt:
         transformed_term = (
             "hyperhypenym: "
             + clean["grandparents"]
@@ -262,9 +262,26 @@ def predict_multiple_parents_from_child(elem):
     """
     Predict the hypernym for the word “spaniel”. Answer: (sporting dog)
     """
+    keys_to_remove_digits = []
     if use_def_prompt:
-        print("NO SUCH OPTION FOR MULTIPLE PARENT")
-    transformed_term = "hyponym: " + elem["children"] + " | hypernyms:"
+        keys_to_remove_digits.append(
+            "children"
+        )  # do not need numbers when provided definition
+    if (not use_number_target) or (use_def_target):
+        keys_to_remove_digits.append("parents")
+
+    clean = clean_elem(elem, keys_to_remove_digits=keys_to_remove_digits)
+
+    if use_def_prompt:
+        transformed_term = (
+            "hyponym: "
+            + clean["children"]
+            + " ("
+            + elem["child_def"]
+            + ") | hypernyms:"
+        )
+    else:
+        transformed_term = "hyponym: " + elem["children"] + " | hypernyms:"
 
     if use_def_target:
         print("NO SUCH OPTION FOR MULTIPLE PARENT")
