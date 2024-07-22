@@ -8,6 +8,8 @@ EPOCHS:
   - 1
 BATCH_SIZE:
   - 2
+ACCUMULATION_STEPS: 
+  - 16
 LR:
   - 3e-5
 MIN_LR:
