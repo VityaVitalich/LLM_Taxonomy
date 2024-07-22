@@ -77,18 +77,16 @@ def train_epoch(
 
         optimizer.zero_grad()
         loss = output["loss"]
-        loss = loss / accum_iter
+        loss = loss / config.accumulation_steps
         loss.backward()
 
         accum_loss += loss.item()
-        accum_iter += 1
 
         if accum_iter - 1 == config.accumulation_steps:
             
             optimizer.step()
             scheduler.step()
             accum_loss = 0
-            accum_iter = 0
 
             logger.add_scalar("loss", accum_loss.item())
             pbar.set_postfix({"Loss": accum_loss.item()})
