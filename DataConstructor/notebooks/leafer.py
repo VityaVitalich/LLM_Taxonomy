@@ -234,7 +234,7 @@ class Collector(GeneratorMixin):
         G,
         generation_depth: int = 40,
         ancestors_depth: int = 2,
-        p_test=0.1,
+        case_p_test=0.1,
         p_divide_leafs=0.5,
         min_to_test_rate=0.5,
         weights=[0.2, 0.2, 0.2, 0.2, 0.2, 0.2],
@@ -242,7 +242,7 @@ class Collector(GeneratorMixin):
     ):
         self.generation_depth = generation_depth
         self.ancestors_depth = ancestors_depth
-        self.p = p_test
+        self.case_p = case_p_test
         self.p_divide_leafs = p_divide_leafs
         self.min_to_test_rate = min_to_test_rate
         self.G = G
@@ -330,7 +330,7 @@ class Collector(GeneratorMixin):
         elem["grandparents"] = grandparent
         elem["case"] = "only_child_leaf"
 
-        self.simple_filter(elem)
+        self.simple_filter(elem, 'only_child_leaf')
 
     def collect_only_leafs(self):
         parent, children = next(self.gen_only_leafs)
@@ -346,7 +346,7 @@ class Collector(GeneratorMixin):
         to_test_rate = len(possible_test) / len(children)
 
         if to_test_rate == 1:
-            if self.goes_to_test():
+            if self.goes_to_test('only_leafs'):
                 if self.divide_on_half():
                     elem["case"] = "only_leafs_divided"
                     # делим пополам
@@ -383,7 +383,7 @@ class Collector(GeneratorMixin):
                     self.write_to_train(elem, children)
 
         elif to_test_rate >= self.min_to_test_rate:
-            if self.goes_to_test():
+            if self.goes_to_test('only_leafs_divided'):
                 elem["case"] = "only_leafs_divided"
 
                 # эвристически пихнем больше вершин в трейн
@@ -442,7 +442,7 @@ class Collector(GeneratorMixin):
         to_test_rate = len(possible_test) / len(children_leafs)
         # print(to_test_rate)
         if to_test_rate == 1:
-            if self.goes_to_test():
+            if self.goes_to_test('not_only_leafs'):
                 self.write_to_test(elem, possible_test)
                 self.write_to_train(elem, children_no_leafs)
             else:
@@ -459,7 +459,7 @@ class Collector(GeneratorMixin):
         elem["grandparents"] = grandparent
         elem["case"] = "simple_triplet_grandparent"
 
-        self.simple_filter(elem)
+        self.simple_filter(elem, 'simple_triplet_grandparent')
 
     def collect_mixes_triplets(self):
         child, parent1, parent2 = next(self.mixes_triplets)
@@ -469,7 +469,7 @@ class Collector(GeneratorMixin):
         elem["grandparents"] = None
         elem["case"] = "simple_triplet_2parent"
 
-        self.simple_filter(elem)
+        self.simple_filter(elem, 'simple_triplet_2parent')
 
     def collect_parents(self):
         parent, child = next(self.gen_parent)
@@ -485,23 +485,23 @@ class Collector(GeneratorMixin):
                 elem["parents"] = parent
                 elem["grandparents"] = None
                 elem["case"] = "predict_hypernym"
-                self.simple_filter(elem)
+                self.simple_filter(elem, 'parents')
         else:
             elem = {}
             elem["children"] = child
             elem["parents"] = parent
             elem["grandparents"] = None
             elem["case"] = "predict_hypernym"
-            self.simple_filter(elem)
+            self.simple_filter(elem, 'parents')
 
-    def simple_filter(self, elem):
+    def simple_filter(self, elem, case):
         if elem["children"] in self.train_verteces:
             self.train.append(elem)
         else:
             if elem["children"] in self.test_verteces:
                 self.test.append(elem)
             else:
-                if self.goes_to_test():
+                if self.goes_to_test(case):
                     self.test.append(elem)
                     self.test_verteces.add(elem["children"])
                 else:
@@ -523,8 +523,9 @@ class Collector(GeneratorMixin):
 
         return possible_test, possible_train
 
-    def goes_to_test(self):
-        return np.random.binomial(1, p=self.p)
+    def goes_to_test(self, case):
+        p = self.case_p[case]
+        return np.random.binomial(1, p=p)
 
     def divide_on_half(self):
         return np.random.binomial(1, p=self.p_divide_leafs)

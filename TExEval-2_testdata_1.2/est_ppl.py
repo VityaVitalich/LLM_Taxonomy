@@ -67,12 +67,13 @@ class PplDataset(HypernymDataset):
             "simple_triplet_2parent": predict_child_from_2_parents,
             "predict_hypernym": predict_parent_from_child,
         },
+        few_shot_text=''
     ):
         self.tokenizer = tokenizer
         self.tokenizer_encode_args = tokenizer_encode_args
         self.data = data
         self.case2transform = transforms
-
+        self.few_shot_text=few_shot_text
 
 class PplEstimator:
     def __init__(self, model, tokenizer, batch_size=4, device="cpu"):

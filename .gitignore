@@ -16,3 +16,8 @@ test.txt
 *.bertembed
 *.pickle.bin
 DataInterface/test_ru_filter.edgelist
+all_pairs.pickle
+all_pairs_ppls.pickle
+TExEval-2_testdata_1.2/data/food/
+LexicalEntailment/data/
+wnet/

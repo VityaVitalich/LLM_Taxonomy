@@ -53,7 +53,8 @@ def train_epoch(
 ):
     # unfreeze(model)
     model.train()
-
+    accum_loss = 0
+    accum_iter = 0
     pbar = tqdm(enumerate(train_loader), total=len(train_loader))
     for batch_idx, batch in pbar:
         if loaded_batch and batch_idx < loaded_batch:
@@ -76,12 +77,19 @@ def train_epoch(
 
         optimizer.zero_grad()
         loss = output["loss"]
+        loss = loss / config.accumulation_steps
         loss.backward()
-        optimizer.step()
-        scheduler.step()
 
-        logger.add_scalar("loss", loss.item())
-        pbar.set_postfix({"Loss": loss.item()})
+        accum_loss += loss.item()
+
+        if accum_iter - 1 == config.accumulation_steps:
+            
+            optimizer.step()
+            scheduler.step()
+            accum_loss = 0
+
+            logger.add_scalar("loss", accum_loss.item())
+            pbar.set_postfix({"Loss": accum_loss.item()})
 
         if (batch_idx + 1) % config.save_every_batch == 0:
             torch.save(

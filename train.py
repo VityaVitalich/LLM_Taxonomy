@@ -103,6 +103,7 @@ if __name__ == "__main__":
     )
     config.saving_path = SAVING_DIR + "model_checkpoints/" + config.exp_name
     config.log_pred_every = params_list["LOG_PRED_EVERY"][0]
+    config.accumulation_steps = params_list["ACCUMULATION_STEPS"][0]
 
     if config.model_type == "Auto":
         model_type = AutoModelForCausalLM
