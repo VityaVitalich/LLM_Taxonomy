@@ -1,0 +1,6 @@
+MODEL_NAME:
+  - "prompthero/openjourney"
+DATASET_PATH:
+  - "/Users/eneminova/LLM_Taxonomy/text2image/taxo2img_test_set_for_DiffMs.tsv"
+OUTPUT_DIR:
+  - "./generated"
